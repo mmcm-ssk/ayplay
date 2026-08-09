@@ -1,0 +1,64 @@
+ZX Spectrum ST3 module format (reversed by S.V. Bulba <svbulba@gmail.com> at May, 2022).
+Последняя редакция - 13.06.2022
+
+id 55 bytes из плеера (вставляется в +9, отдельного  тега ' BY ' нет)
+KSA SOFTWARE COMPILATION OF R U READY ? BY DIC OF ZC   <<<<<<
+
+для сравнения (здесь положение тега ' BY ' жестко определено в компиляторе)
+SOUND TRACKER COMPILATION OF BARBARIAN  BY DEMON'95    <<<<<<
+
++0 tempo
++1 posptr
++3 samptr
++5 ornptr
++7 patptr
++9=sam0ptr 130 bytes (структура сэмпла описана ниже)
++sam1ptr 130 bytes
+...
++posptr len (есть модули где len уменьшен на 1, и выпавшая в результате позиция ссылается на несуществующий паттерн в худшем случае)
++posptr+1 transposition,(pat-1)*6
++posptr+3 transposition,(pat-1)*6
+...
+
++samptr len (нумерация сэмплов не с 1 как в ST1, а с нуля!)
++samptr+1 sam0ptr - от +9, могут быть привязаны к адресу инициализацией
++samptr+3 sam1ptr
+...
+
+орнаменты (каждый по структуре как обычный STC орнамент)
++orn0ptr 32 нуля
++orn1ptr 32 bytes
+...
+
++ornptr len
++ornptr+1 orn0ptr, могут быть привязаны к адресу инициализацией
++ornptr+3 orn1ptr
+...
+
+patterns (отличие от обычного STC только одно - номера сэмплов уменьшены на 1, в итоге первый становится нулевым)
++pat1ptrA обычный STC паттерн c FF на конце
++pat1ptrB обычный STC паттерн c FF на конце
++pat1ptrC обычный STC паттерн c FF на конце
++pat2ptrA обычный STC паттерн c FF на конце
++pat2ptrB обычный STC паттерн c FF на конце
++pat2ptrC обычный STC паттерн c FF на конце
+...
+
+неизвестный байт (в одном модуле 0, в другом 0x76, а в TheLast1.st3 - вообще его нет)
+
++patptr pat1ptrA,pat1ptrB,pat1ptrC
++patptr+6 pat2ptrA,pat2ptrB,pat2ptrC
+...
+
+Структура сэмпла (130 bytes=2+32*4):
++0 начало цикла 0..31
++1 конец цикла 0..31 (если начало=конец=0 - не зациклен)
++2 0-й тик: отклонение тона -0xFFF..0xFFF
++4 bits0..3 - амплитуда, bit4 - tone mask, bit7 - noise mask
++5 bit0..4 - период шума 0..0x1F
++6 1-й тик: отклонение тона -0xFFF..0xFFF
++8 bits0..3 - амплитуда, bit4 - tone mask, bit7 - noise mask
++9 bit0..4 - период шума 0..0x1F
+...
+
+Родной плеер ST3 не безупречен - не зацикленные сэмплы на 33-м тике глушатся другим способом в отличие от плеера STC, каналы выводятся в обратном порядке (от C к A), в результате меняется приоритет установки частоты шума из сэмпла.

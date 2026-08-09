@@ -1,0 +1,59 @@
+KEY OBJECTS LIBRARY for Delphi (and Free Pascal Compiler) - to make applications small and power. Freeware, with sources. Delphi 2, 3, 4, 5, 6, 7 and Free Pascal Compiler 1.0.5, 1.0.6 are supported.
+
+Copyright (C) by Vladimir Kladov, 1999-2003.
+Some parts of code are Copyright (C) by other people, see comments in code and on KOL site. Thanks to all for help with KOL and MCK!
+
+version 1.80 (20-Jul-2003)
+
+__________________
+BRIEF DESCRIPTION:
+    KOL - Key Objects Library is a set of objects to develop applications using Delphi. It is distributed free of charge, with source code.
+   Delphi2, Delphi3, Delphi4, Delphi5, Delphi6 and Delphi7 are supported. KOL allows to create very compact GUI applications (starting from ~13,5K without compression - if suggested system units replacement used). The most of code is converted to assembler.
+   Help generating tool xHelpGen is provided for KOL, which creates detailed documentation in html format. Documentation is generated on base of comments from the source, so developers instantly  have access to the most fresh and complete documentation.
+   Until now,  programming for KOL was totally non-visual, but with opening project MCK (Mirror Classes Kit), all advantages of visual programming become available for developers who use KOL.
+   Starting from April, 2001 the unit KOLEdb provided (in a separate archive), which allows to create tiny (but power) database applications starting from 24K of executable size. It uses OLE DB protocol, so any database can be supported, including network database.
+--------------------------------------------
+
+This archive contains Key Objects Library main part: KOL.PAS and several test samples. At the KOL Web page (http://bonanzas.rinet.ru), you can download also other parts:
+
+MCK		- Mirror Classes Kit - visual programming environment for KOL
+xHelpGen	- utility to generate html-documentation on base of comments in the source;
+KolErr	(~25K) - "light" (for 6K), but functional exception handling unit
+KOLEdb, StrDb (by Mike Talcott), TdkDbKol (by Thaddy de Koning) - DB-extensions for KOL
+KolGif	(~20K) - GIF (animated, transparent) support for KOL
+KolJpegObj (~127K + 340K) - JPEG support for KOL
+KolOGL12 (~59K) - OpenGL support for KOL
+KOLword (~12K) - MS Word automation
+Service	(~20K) - writing NT services with KOL
+KOLSocket (~30K) - sockets for KOL (by Alexander Shakhaylo)
+TestKOLRas (~20K) - RAS dial-up for KOL (by Alexander Shakhaylo)
+sysdcu	(~200K) - system.dcu, sysinit.dcu replacement for Delphi5 (allows to economy 9Kbytes of .exe)
+sysdcuD6 (~200K) - system.dcu, ... replacement for Delphi6
+HeapMM  (~1K) - alteranative memory manager
+MapMem
+Widgets
+ZLib
+... and many others, which list is constantly extended with new items.
+
+
+_____________
+INSTALLATION:
+
+1. When You install KOL first time, create new directory for KOL (e.g., E:\KOL).
+
+2. Unpack all files from KOL.ZIP there. (When update, confirm overwriting old files with new ones).
+
+3. If You have downloaded xhelpgen.zip package, also unpack it into the same directory. Read also docs for xHelpGen from the package.
+
+4. If You have downloaded SYSDCU.ZIP, create subdirectory for it (e.g. E:\KOL\SYS) and unpack it there. Read also docs for system units replacement in the package.
+
+5. About installation of MCK (Mirror Classes Kit) see instructions in MCK.ZIP archive.
+
+6. To get know how to install KOLEdb, see instructions in KOLEDB.ZIP archive. Etc. for all other packages and programs found on KOL site.
+
+Note: KOL itself does not require creating a package since it has no design-time components to install it onto Component Palette. See MCK, which has such components and allows visual programming using KOL.
+--------------------------------------------------
+
+http://bonanzas.rinet.ru OR http://xcl.cjb.net
+bonanzas@online.sinor.ru OR bonanzas@xcl.cjb.net       
+Vladimir Kladov
