@@ -5,7 +5,7 @@ const chiptunesDir = path.resolve(__dirname, '..', 'chiptunes');
 const outputFile = path.resolve(__dirname, '..', 'api', 'playlist.m3u');
 const baseDir = path.resolve(__dirname, '..');
 
-const EXTENSIONS = ['.fym', '.pt3', '.vt2', '.psg', '.stc', '.ay', '.pt2', '.snd', '.asc'];
+const EXTENSIONS = ['.fym', '.pt3', '.vt2', '.psg', '.stc', '.ay', '.pt2', '.snd', '.asc', '.stp', '.pt1'];
 
 function scanDir(dir, depth, parentAuthor, parentYear, parentSection) {
     var entries = [];
@@ -28,7 +28,7 @@ function scanDir(dir, depth, parentAuthor, parentYear, parentSection) {
             var ext = path.extname(name).toLowerCase();
             if (EXTENSIONS.includes(ext)) {
                 var relative = path.relative(baseDir, fullPath).replace(/\\/g, '/');
-                var title = name.replace(/\.(fym|pt3|vt2|psg|stc|pt2|ay|snd|asc)$/i, '').replace(/%20/g, ' ');
+                var title = name.replace(/\.(fym|pt3|vt2|psg|stc|pt2|ay|snd|asc|stp|pt1)$/i, '').replace(/%20/g, ' ');
                 entries.push({
                     file: relative,
                     title: title,

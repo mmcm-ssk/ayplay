@@ -2179,7 +2179,7 @@
         }
     }
 
-    var _awVersion = '306';
+    var _awVersion = '310';
 
     function _stopStreamer() {
         if (_streamer) {
@@ -3495,11 +3495,7 @@
         var scale = 1.0;
         if (waveformMode === 'mix') {
             var mid = h >> 1;
-            var waveGrad = ctx.createLinearGradient(0, 0, 0, h);
-            waveGrad.addColorStop(0, 'rgba(0,180,220,0)');
-            waveGrad.addColorStop(0.5, 'rgba(0,180,220,0.5)');
-            waveGrad.addColorStop(1, 'rgba(0,180,220,0)');
-            ctx.fillStyle = waveGrad;
+            ctx.fillStyle = 'rgba(0,180,220,0.5)';
             ctx.globalAlpha = 1;
             ctx.beginPath();
             ctx.moveTo(0, mid);
@@ -3508,7 +3504,7 @@
                 for (var ch = 0; ch < waveformCh.length; ch++) {
                     sum += waveformCh[ch][i];
                 }
-                var amp = Math.min(sum, 1) * mid * 0.85;
+                var amp = Math.min(sum, 1) * mid;
                 ctx.lineTo(i * step, mid - amp);
             }
             ctx.lineTo(waveEnd, mid);
@@ -3518,7 +3514,7 @@
                 for (var ch = 0; ch < waveformCh.length; ch++) {
                     sum += waveformCh[ch][i];
                 }
-                var amp = Math.min(sum, 1) * mid * 0.85;
+                var amp = Math.min(sum, 1) * mid;
                 ctx.lineTo(i * step, mid + amp);
             }
             ctx.closePath();
@@ -3528,16 +3524,16 @@
             var chColors = ['#44FF44', '#FFFF44', '#44AAFF', '#FF6644', '#CC66FF', '#44FFAA', '#FF88CC', '#88FF88', '#FFAA44'];
             var chNames = [];
             for (var ci = 0; ci < chCount; ci++) chNames.push(String.fromCharCode(65 + (ci % 3)) + (chCount > 3 ? Math.floor(ci / 3) + 1 : ''));
-            var bandH = h / chCount;
+            var gap = 4;
+            var bandH = (h - gap * (chCount - 1)) / chCount;
             for (var ch = 0; ch < chCount; ch++) {
-                var y0 = Math.round(ch * bandH);
-                var bh = Math.round(bandH);
+                var y0 = Math.round(ch * (bandH + gap));
+                var y1 = Math.round((ch + 1) * (bandH + gap)) - gap;
+                var bh = y1 - y0;
                 var mid = bh >> 1;
-                var pad = Math.max(3, Math.round(bh * 0.12));
-                var ph = Math.floor((bh - pad * 2) * 0.45);
                 ctx.globalAlpha = 1;
                 ctx.fillStyle = '#001824';
-                ctx.fillRect(0, y0 + pad, w, bh - pad * 2);
+                ctx.fillRect(0, y0, w, bh);
                 ctx.strokeStyle = 'rgba(255,255,255,0.08)';
                 ctx.lineWidth = 1;
                 ctx.beginPath();
@@ -3550,13 +3546,13 @@
                 ctx.beginPath();
                 ctx.moveTo(0, y0 + mid);
                 for (var i = 0; i < n; i++) {
-                    var amp = data[i] * ph * scale;
+                    var amp = data[i] * mid * scale;
                     ctx.lineTo(i * step, y0 + mid - amp);
                 }
                 ctx.lineTo(waveEnd, y0 + mid);
                 ctx.lineTo(waveEnd, y0 + mid + 0.5);
                 for (var i = n - 1; i >= 0; i--) {
-                    var amp = data[i] * ph * scale;
+                    var amp = data[i] * mid * scale;
                     ctx.lineTo(i * step, y0 + mid + amp);
                 }
                 ctx.closePath();
@@ -3999,6 +3995,7 @@
                 });
             }
             restoreState();
+            if (_waveformContainer) _waveformContainer.classList.toggle('is-mix', waveformMode === 'mix');
             initScope();
             var _playlistEl = document.getElementById(containerId + '_playlistItems');
             if (_playlistEl) {
@@ -4383,6 +4380,9 @@
                 btns[i].classList.toggle('active', btns[i].dataset.wave === mode);
             }
             saveState();
+            var wfEl = _waveformContainer || document.getElementById(containerId + '_waveform');
+            if (wfEl) wfEl.classList.toggle('is-mix', mode === 'mix');
+            _cachedWaveHeight = 0;
             drawWaveform();
         },
         setScopeFps: function(fps) {

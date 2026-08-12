@@ -108,6 +108,24 @@ function getStcTime(filePath) {
     }
 }
 
+function getStpTime(filePath) {
+    try {
+        var buf = fs.readFileSync(filePath);
+        if (buf.length < 10) return null;
+        var delay = buf[0];
+        if (delay < 3 || delay > 15) return null;
+        var positionsPtr = buf[1] | (buf[2] << 8);
+        if (positionsPtr + 2 >= buf.length) return null;
+        var numPositions = buf[positionsPtr];
+        if (numPositions < 1 || numPositions > 255) return null;
+        var totalFrames = numPositions * 64 * delay;
+        if (totalFrames < 50) totalFrames = 50;
+        return formatTime(totalFrames / 50);
+    } catch(e) {
+        return null;
+    }
+}
+
 function getPt2Time(filePath) {
     try {
         var buf = fs.readFileSync(filePath);
@@ -147,6 +165,22 @@ function getAscTime(filePath) {
 
 function getAyTime(filePath) {
     return null;
+}
+
+function getPt1Time(filePath) {
+    try {
+        var buf = fs.readFileSync(filePath);
+        if (buf.length < 101) return null;
+        var delay = buf[0];
+        if (delay < 2 || delay > 15) return null;
+        var numPositions = buf[1];
+        if (numPositions < 1 || numPositions > 255) return null;
+        var totalFrames = numPositions * 64 * delay;
+        if (totalFrames < 50) totalFrames = 50;
+        return formatTime(totalFrames / 50);
+    } catch(e) {
+        return null;
+    }
 }
 
 function scanDir(dir, baseDir, parentAuthor) {
@@ -255,7 +289,7 @@ function scanDir(dir, baseDir, parentAuthor) {
                 entry.section = sectionOverride || null;
             }
             entries.push(entry);
-        } else if (name.toLowerCase().endsWith('.stc') || name.toLowerCase().endsWith('.pt2') || name.toLowerCase().endsWith('.ay') || name.toLowerCase().endsWith('.snd') || name.toLowerCase().endsWith('.asc')) {
+        } else if (name.toLowerCase().endsWith('.stc') || name.toLowerCase().endsWith('.pt2') || name.toLowerCase().endsWith('.ay') || name.toLowerCase().endsWith('.snd') || name.toLowerCase().endsWith('.asc') || name.toLowerCase().endsWith('.stp') || name.toLowerCase().endsWith('.pt1')) {
             var relative = path.relative(baseDir, fullPath).replace(/\\/g, '/');
             var entry = {
                 name: name,
@@ -290,8 +324,12 @@ function scanDir(dir, baseDir, parentAuthor) {
                 t = getAyTime(path.resolve(baseDir, e.file));
             } else if (/\.asc$/i.test(e.file)) {
                 t = getAscTime(path.resolve(baseDir, e.file));
+            } else if (/\.stp$/i.test(e.file)) {
+                t = getStpTime(path.resolve(baseDir, e.file));
             } else if (/\.snd$/i.test(e.file)) {
                 t = null;
+            } else if (/\.pt1$/i.test(e.file)) {
+                t = getPt1Time(path.resolve(baseDir, e.file));
             }
             if (t) e.time = t;
         }

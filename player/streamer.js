@@ -4,7 +4,7 @@
    pass-through AudioWorklet (player_worklet.js) can play the chunks without
    ever missing audio, even when the main thread is throttled (screen off). */
 
-var _AWV = '306';
+var _AWV = '310';
 
 self.sampleRate = 48000;
 

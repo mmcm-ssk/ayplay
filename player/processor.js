@@ -146,6 +146,7 @@ class AYProcessor extends AudioWorkletProcessor {
     this._panData = null;
     this._chanRaw = new Float64Array(12);
     this._opnTmp = new Float64Array(3);
+    this._sampleHook = null;
     this.dump = [];
     this.dumpLen = 0;
     this.pos = 0;
@@ -206,6 +207,7 @@ class AYProcessor extends AudioWorkletProcessor {
         this.isYM = msg.isYM;
         this.clock = msg.clock;
         this.frameRate = msg.frameRate;
+        if (!(this.frameRate > 0)) this.frameRate = 50;
         this.volume = msg.volume !== undefined ? msg.volume : this.volume;
         this.repeat = msg.repeat || false;
         this.loopFrame = msg.loopFrame || 0;
@@ -468,6 +470,7 @@ class AYProcessor extends AudioWorkletProcessor {
       var normFactor = Math.sqrt(this.chipCount);
       left[i] = (mixedLeft / normFactor) * this.volume;
       right[i] = (mixedRight / normFactor) * this.volume;
+      if (this._sampleHook) this._sampleHook(this.pos, this._chanRaw, left[i], right[i]);
       if ((i & 7) === 0 && this._scopeCount < 256) {
         var sc = this.chipCount;
         var idx = this._scopeCount * sc * 3;

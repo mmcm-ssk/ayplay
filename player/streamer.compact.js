@@ -1,4 +1,4 @@
-﻿var _AWV = '306';
+﻿var _AWV = '310';
 self.sampleRate = 48000;
 var scopeAccum = null;
 var scopeAccumLen = 0;

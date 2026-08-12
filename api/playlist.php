@@ -3,7 +3,7 @@ header('Content-Type: application/json; charset=utf-8');
 header('Cache-Control: no-cache, must-revalidate');
 
 $chiptunesDir = realpath(dirname(__DIR__) . '/chiptunes');
-$cacheMaxAge = 300; // 5 minutes
+$cacheMaxAge = 86400; // 24 hours: scanning ~12k files takes ~1 minute, so cache long
 $action = $_GET['action'] ?? '';
 
 // Try writable location for cache
@@ -25,11 +25,18 @@ function _isPt3Ts($name) {
 
 function _detectPt3TsByContent($fullPath) {
     if (!file_exists($fullPath) || filesize($fullPath) < 22) return 0;
-    $data = file_get_contents($fullPath);
-    $len = strlen($data);
+    // Read only the tail of the file: TS tags live in the last ~220 bytes.
+    $len = filesize($fullPath);
+    $start = max(0, $len - 260);
+    $fp = @fopen($fullPath, 'rb');
+    if (!$fp) return 0;
+    fseek($fp, $start);
+    $data = fread($fp, 260);
+    fclose($fp);
+    $dataLen = strlen($data);
 
     // Primary: check fixed footer at len - 22
-    $tagOffset = $len - 22;
+    $tagOffset = $len - 22 - $start;
     $tag = substr($data, $tagOffset + 18, 4);
     if ($tag === '02TS') {
         $s1 = unpack('v', substr($data, $tagOffset + 10, 2))[1];
@@ -43,8 +50,8 @@ function _detectPt3TsByContent($fullPath) {
     }
 
     // Fallback: search for tag in last 220 bytes
-    $start = max(0, $len - 220);
-    for ($i = $start; $i + 20 <= $len; $i++) {
+    $loopStart = max(0, $dataLen - 220);
+    for ($i = $loopStart; $i + 20 <= $dataLen; $i++) {
         $tag = substr($data, $i + 16, 4);
         if ($tag === '02TS') {
             $s1 = unpack('v', substr($data, $i + 10, 2))[1];
@@ -64,6 +71,38 @@ function _detectFymTsByContent($fullPath) {
     if (!file_exists($fullPath)) return false;
     $data = file_get_contents($fullPath);
     if (strlen($data) < 9) return false;
+    // Stream-decompress only the start: offset+frameCount are in the first 8 bytes,
+    // and TS detection only needs to know if data extends past a single-chip frame block.
+    if (function_exists('inflate_init') && function_exists('inflate_add')) {
+        $ctx = @inflate_init(ZLIB_ENCODING_DEFLATE);
+        if ($ctx) {
+            $raw = '';
+            $pos = 0;
+            $len = strlen($data);
+            $single = null;
+            while ($pos < $len) {
+                $chunk = substr($data, $pos, 8192);
+                $pos += strlen($chunk);
+                $out = @inflate_add($ctx, $chunk, ZLIB_SYNC_FLUSH);
+                if ($out === false) break;
+                $raw .= $out;
+                if ($single === null && strlen($raw) >= 8) {
+                    $offset = unpack('V', substr($raw, 0, 4))[1];
+                    $frameCount = unpack('V', substr($raw, 4, 4))[1];
+                    if (!$frameCount) return false;
+                    $single = $offset + $frameCount * 14;
+                }
+                if ($single !== null && strlen($raw) > $single) return true;
+                if (inflate_get_status($ctx) === ZLIB_STREAM_END) break;
+            }
+            if ($single !== null) return false;
+            return _detectFymTsByContentFull($data);
+        }
+    }
+    return _detectFymTsByContentFull($data);
+}
+
+function _detectFymTsByContentFull($data) {
     // Try gzip decompression
     $raw = @gzuncompress($data);
     if ($raw === false) return false;
@@ -141,6 +180,10 @@ function _guessChannelsWithContent($relative, $fullPath) {
         return $chips * 3;
     } elseif ($ext === '.tfc') {
         return 6;
+    } elseif ($ext === '.stp') {
+        return 3;
+    } elseif ($ext === '.pt1') {
+        return 3;
     }
     return 3;
 }
@@ -335,6 +378,32 @@ function _ay_scanDir($dir, $baseDir, $chiptunesDir = null, $parentAuthor = null)
             if (!isset($entry['section'])) $entry['section'] = $sectionOverride ?? null;
             if (!isset($entry['channels']) || $entry['channels'] === null) {
                 $entry['channels'] = 6;
+            }
+            $entries[] = $entry;
+        } elseif (substr($name, -4) === '.stp') {
+            $relative = substr($fullPath, strlen($baseDir) + 1);
+            $entry = [
+                'name' => $name,
+                'file' => str_replace('\\', '/', $relative),
+                'pt3' => false
+            ];
+            if (!isset($entry['author'])) $entry['author'] = $author;
+            if (!isset($entry['section'])) $entry['section'] = $sectionOverride ?? null;
+            if (!isset($entry['channels']) || $entry['channels'] === null) {
+                $entry['channels'] = 3;
+            }
+            $entries[] = $entry;
+        } elseif (substr($name, -4) === '.pt1') {
+            $relative = substr($fullPath, strlen($baseDir) + 1);
+            $entry = [
+                'name' => $name,
+                'file' => str_replace('\\', '/', $relative),
+                'pt3' => false
+            ];
+            if (!isset($entry['author'])) $entry['author'] = $author;
+            if (!isset($entry['section'])) $entry['section'] = $sectionOverride ?? null;
+            if (!isset($entry['channels']) || $entry['channels'] === null) {
+                $entry['channels'] = 3;
             }
             $entries[] = $entry;
         }

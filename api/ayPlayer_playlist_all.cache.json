@@ -4849,8 +4849,72 @@
             "channels": 3
         },
         {
+            "name": "SLOW DJD.stp",
+            "file": "chiptunes\/CJ.Echo\/1998\/SLOW DJD.stp",
+            "pt3": false,
+            "author": "CJ.Echo",
+            "section": "1998",
+            "channels": 3
+        },
+        {
+            "name": "ARMS_UP0.stp",
+            "file": "chiptunes\/CJ.Echo\/1999\/ARMS_UP0.stp",
+            "pt3": false,
+            "author": "CJ.Echo",
+            "section": "1999",
+            "channels": 3
+        },
+        {
+            "name": "DEADFLY.stp",
+            "file": "chiptunes\/CJ.Echo\/1999\/DEADFLY.stp",
+            "pt3": false,
+            "author": "CJ.Echo",
+            "section": "1999",
+            "channels": 3
+        },
+        {
             "name": "DJ DEVIL - FX 1.stc",
             "file": "chiptunes\/CJ.Echo\/1999\/DJ DEVIL - FX 1.stc",
+            "pt3": false,
+            "author": "CJ.Echo",
+            "section": "1999",
+            "channels": 3
+        },
+        {
+            "name": "ENIGMA D.stp",
+            "file": "chiptunes\/CJ.Echo\/1999\/ENIGMA D.stp",
+            "pt3": false,
+            "author": "CJ.Echo",
+            "section": "1999",
+            "channels": 3
+        },
+        {
+            "name": "FANTASY.stp",
+            "file": "chiptunes\/CJ.Echo\/1999\/FANTASY.stp",
+            "pt3": false,
+            "author": "CJ.Echo",
+            "section": "1999",
+            "channels": 3
+        },
+        {
+            "name": "FOR YOU!.stp",
+            "file": "chiptunes\/CJ.Echo\/1999\/FOR YOU!.stp",
+            "pt3": false,
+            "author": "CJ.Echo",
+            "section": "1999",
+            "channels": 3
+        },
+        {
+            "name": "FOREVER.stp",
+            "file": "chiptunes\/CJ.Echo\/1999\/FOREVER.stp",
+            "pt3": false,
+            "author": "CJ.Echo",
+            "section": "1999",
+            "channels": 3
+        },
+        {
+            "name": "GIRL.stp",
+            "file": "chiptunes\/CJ.Echo\/1999\/GIRL.stp",
             "pt3": false,
             "author": "CJ.Echo",
             "section": "1999",
@@ -4905,6 +4969,30 @@
             "channels": 3
         },
         {
+            "name": "NO LIM..stp",
+            "file": "chiptunes\/CJ.Echo\/1999\/NO LIM..stp",
+            "pt3": false,
+            "author": "CJ.Echo",
+            "section": "1999",
+            "channels": 3
+        },
+        {
+            "name": "NON STOP.stp",
+            "file": "chiptunes\/CJ.Echo\/1999\/NON STOP.stp",
+            "pt3": false,
+            "author": "CJ.Echo",
+            "section": "1999",
+            "channels": 3
+        },
+        {
+            "name": "OIL&FIRE.stp",
+            "file": "chiptunes\/CJ.Echo\/1999\/OIL&FIRE.stp",
+            "pt3": false,
+            "author": "CJ.Echo",
+            "section": "1999",
+            "channels": 3
+        },
+        {
             "name": "Pribambasses.pt3",
             "file": "chiptunes\/CJ.Echo\/1999\/Pribambasses.pt3",
             "pt3": false,
@@ -4921,6 +5009,14 @@
             "channels": 3
         },
         {
+            "name": "TICKET.stp",
+            "file": "chiptunes\/CJ.Echo\/1999\/TICKET.stp",
+            "pt3": false,
+            "author": "CJ.Echo",
+            "section": "1999",
+            "channels": 3
+        },
+        {
             "name": "Temnaya Nochya Tolya Ebuchya.pt3",
             "file": "chiptunes\/CJ.Echo\/1999\/Temnaya Nochya Tolya Ebuchya.pt3",
             "pt3": false,
@@ -4931,6 +5027,14 @@
         {
             "name": "The Prodigy 'Drum's rave'.pt3",
             "file": "chiptunes\/CJ.Echo\/1999\/The Prodigy 'Drum's rave'.pt3",
+            "pt3": false,
+            "author": "CJ.Echo",
+            "section": "1999",
+            "channels": 3
+        },
+        {
+            "name": "W.P.R.D!.stp",
+            "file": "chiptunes\/CJ.Echo\/1999\/W.P.R.D!.stp",
             "pt3": false,
             "author": "CJ.Echo",
             "section": "1999",
@@ -10418,6 +10522,14 @@
             "channels": 3
         },
         {
+            "name": "(C)MR.Z.stp",
+            "file": "chiptunes\/D-Juice\/1997\/(C)MR.Z.stp",
+            "pt3": false,
+            "author": "D-Juice",
+            "section": "1997",
+            "channels": 3
+        },
+        {
             "name": "3in1.pt2",
             "file": "chiptunes\/D-Juice\/1997\/3in1.pt2",
             "pt3": false,
@@ -10722,6 +10834,14 @@
             "channels": 3
         },
         {
+            "name": "noname'1.stp",
+            "file": "chiptunes\/D-Juice\/1997\/noname'1.stp",
+            "pt3": false,
+            "author": "D-Juice",
+            "section": "1997",
+            "channels": 3
+        },
+        {
             "name": "noname'2.pt2",
             "file": "chiptunes\/D-Juice\/1997\/noname'2.pt2",
             "pt3": false,
@@ -10810,6 +10930,14 @@
             "channels": 3
         },
         {
+            "name": "st-dmm.stp",
+            "file": "chiptunes\/D-Juice\/1997\/st-dmm.stp",
+            "pt3": false,
+            "author": "D-Juice",
+            "section": "1997",
+            "channels": 3
+        },
+        {
             "name": "summer'mus.pt2",
             "file": "chiptunes\/D-Juice\/1997\/summer'mus.pt2",
             "pt3": false,
@@ -10820,6 +10948,14 @@
         {
             "name": "synchro'tune.pt2",
             "file": "chiptunes\/D-Juice\/1997\/synchro'tune.pt2",
+            "pt3": false,
+            "author": "D-Juice",
+            "section": "1997",
+            "channels": 3
+        },
+        {
+            "name": "war's.stp",
+            "file": "chiptunes\/D-Juice\/1997\/war's.stp",
             "pt3": false,
             "author": "D-Juice",
             "section": "1997",
@@ -20281,6 +20417,14 @@
             "channels": 6
         },
         {
+            "name": "AndyNikGift.stp",
+            "file": "chiptunes\/EA\/1996\/AndyNikGift.stp",
+            "pt3": false,
+            "author": "EA",
+            "section": "1996",
+            "channels": 3
+        },
+        {
             "name": "AndyNikGift1.pt2",
             "file": "chiptunes\/EA\/1996\/AndyNikGift1.pt2",
             "pt3": false,
@@ -20305,6 +20449,14 @@
             "channels": 3
         },
         {
+            "name": "CDSGift1.stp",
+            "file": "chiptunes\/EA\/1996\/CDSGift1.stp",
+            "pt3": false,
+            "author": "EA",
+            "section": "1996",
+            "channels": 3
+        },
+        {
             "name": "CDSGift2.pt2",
             "file": "chiptunes\/EA\/1996\/CDSGift2.pt2",
             "pt3": false,
@@ -20323,6 +20475,14 @@
         {
             "name": "CDSGift5.pt2",
             "file": "chiptunes\/EA\/1996\/CDSGift5.pt2",
+            "pt3": false,
+            "author": "EA",
+            "section": "1996",
+            "channels": 3
+        },
+        {
+            "name": "Christmass Demo 1997.stp",
+            "file": "chiptunes\/EA\/1996\/Christmass Demo 1997.stp",
             "pt3": false,
             "author": "EA",
             "section": "1996",
@@ -20363,6 +20523,14 @@
         {
             "name": "WetDream2.pt2",
             "file": "chiptunes\/EA\/1996\/WetDream2.pt2",
+            "pt3": false,
+            "author": "EA",
+            "section": "1996",
+            "channels": 3
+        },
+        {
+            "name": "WetDream3.stp",
+            "file": "chiptunes\/EA\/1996\/WetDream3.stp",
             "pt3": false,
             "author": "EA",
             "section": "1996",
@@ -22241,6 +22409,22 @@
             "channels": 3
         },
         {
+            "name": "FlyBanki1.stp",
+            "file": "chiptunes\/EA\/FlyBanki1.stp",
+            "pt3": false,
+            "author": "EA",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "FlyBanki2.stp",
+            "file": "chiptunes\/EA\/FlyBanki2.stp",
+            "pt3": false,
+            "author": "EA",
+            "section": null,
+            "channels": 3
+        },
+        {
             "name": "SURPRIZE.pt3",
             "file": "chiptunes\/EA\/SURPRIZE.pt3",
             "pt3": false,
@@ -22379,6 +22563,22 @@
             "pt3": false,
             "author": "Evolver",
             "section": "1994",
+            "channels": 3
+        },
+        {
+            "name": "KRYTEXHO.stp",
+            "file": "chiptunes\/Evolver\/1996\/KRYTEXHO.stp",
+            "pt3": false,
+            "author": "Evolver",
+            "section": "1996",
+            "channels": 3
+        },
+        {
+            "name": "Tn2.stp",
+            "file": "chiptunes\/Evolver\/1996\/Tn2.stp",
+            "pt3": false,
+            "author": "Evolver",
+            "section": "1996",
             "channels": 3
         },
         {
@@ -34311,6 +34511,22 @@
             "channels": 3
         },
         {
+            "name": "IMP11.stp",
+            "file": "chiptunes\/IMP\/1995\/IMP11.stp",
+            "pt3": false,
+            "author": "IMP",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "digital player - technot.stp",
+            "file": "chiptunes\/IMP\/1995\/digital player - technot.stp",
+            "pt3": false,
+            "author": "IMP",
+            "section": "1995",
+            "channels": 3
+        },
+        {
             "name": "dmm help.pt3",
             "file": "chiptunes\/IMP\/1995\/dmm help.pt3",
             "pt3": false,
@@ -34359,6 +34575,46 @@
             "channels": 3
         },
         {
+            "name": "IMPR1.stp",
+            "file": "chiptunes\/IMP\/1996\/IMPR1.stp",
+            "pt3": false,
+            "author": "IMP",
+            "section": "1996",
+            "channels": 3
+        },
+        {
+            "name": "IMPR2.stp",
+            "file": "chiptunes\/IMP\/1996\/IMPR2.stp",
+            "pt3": false,
+            "author": "IMP",
+            "section": "1996",
+            "channels": 3
+        },
+        {
+            "name": "IMPR3.stp",
+            "file": "chiptunes\/IMP\/1996\/IMPR3.stp",
+            "pt3": false,
+            "author": "IMP",
+            "section": "1996",
+            "channels": 3
+        },
+        {
+            "name": "IMPR4.stp",
+            "file": "chiptunes\/IMP\/1996\/IMPR4.stp",
+            "pt3": false,
+            "author": "IMP",
+            "section": "1996",
+            "channels": 3
+        },
+        {
+            "name": "Morbid.stp",
+            "file": "chiptunes\/IMP\/1996\/Morbid.stp",
+            "pt3": false,
+            "author": "IMP",
+            "section": "1996",
+            "channels": 3
+        },
+        {
             "name": "elochka.stc",
             "file": "chiptunes\/IMP\/1996\/elochka.stc",
             "pt3": false,
@@ -34367,8 +34623,192 @@
             "channels": 3
         },
         {
+            "name": "imp38 - brain surre intro.stp",
+            "file": "chiptunes\/IMP\/1996\/imp38 - brain surre intro.stp",
+            "pt3": false,
+            "author": "IMP",
+            "section": "1996",
+            "channels": 3
+        },
+        {
             "name": "imp40 - rushinfo.stc",
             "file": "chiptunes\/IMP\/1996\/imp40 - rushinfo.stc",
+            "pt3": false,
+            "author": "IMP",
+            "section": "1996",
+            "channels": 3
+        },
+        {
+            "name": "imp41.stp",
+            "file": "chiptunes\/IMP\/1996\/imp41.stp",
+            "pt3": false,
+            "author": "IMP",
+            "section": "1996",
+            "channels": 3
+        },
+        {
+            "name": "imp43.stp",
+            "file": "chiptunes\/IMP\/1996\/imp43.stp",
+            "pt3": false,
+            "author": "IMP",
+            "section": "1996",
+            "channels": 3
+        },
+        {
+            "name": "imp44.stp",
+            "file": "chiptunes\/IMP\/1996\/imp44.stp",
+            "pt3": false,
+            "author": "IMP",
+            "section": "1996",
+            "channels": 3
+        },
+        {
+            "name": "imp45.stp",
+            "file": "chiptunes\/IMP\/1996\/imp45.stp",
+            "pt3": false,
+            "author": "IMP",
+            "section": "1996",
+            "channels": 3
+        },
+        {
+            "name": "imp46.stp",
+            "file": "chiptunes\/IMP\/1996\/imp46.stp",
+            "pt3": false,
+            "author": "IMP",
+            "section": "1996",
+            "channels": 3
+        },
+        {
+            "name": "imp47.stp",
+            "file": "chiptunes\/IMP\/1996\/imp47.stp",
+            "pt3": false,
+            "author": "IMP",
+            "section": "1996",
+            "channels": 3
+        },
+        {
+            "name": "imp48.stp",
+            "file": "chiptunes\/IMP\/1996\/imp48.stp",
+            "pt3": false,
+            "author": "IMP",
+            "section": "1996",
+            "channels": 3
+        },
+        {
+            "name": "imp49.stp",
+            "file": "chiptunes\/IMP\/1996\/imp49.stp",
+            "pt3": false,
+            "author": "IMP",
+            "section": "1996",
+            "channels": 3
+        },
+        {
+            "name": "imp50.stp",
+            "file": "chiptunes\/IMP\/1996\/imp50.stp",
+            "pt3": false,
+            "author": "IMP",
+            "section": "1996",
+            "channels": 3
+        },
+        {
+            "name": "imp51 - brain surre.stp",
+            "file": "chiptunes\/IMP\/1996\/imp51 - brain surre.stp",
+            "pt3": false,
+            "author": "IMP",
+            "section": "1996",
+            "channels": 3
+        },
+        {
+            "name": "imp52 - dying.stp",
+            "file": "chiptunes\/IMP\/1996\/imp52 - dying.stp",
+            "pt3": false,
+            "author": "IMP",
+            "section": "1996",
+            "channels": 3
+        },
+        {
+            "name": "imp53.stp",
+            "file": "chiptunes\/IMP\/1996\/imp53.stp",
+            "pt3": false,
+            "author": "IMP",
+            "section": "1996",
+            "channels": 3
+        },
+        {
+            "name": "imp54.stp",
+            "file": "chiptunes\/IMP\/1996\/imp54.stp",
+            "pt3": false,
+            "author": "IMP",
+            "section": "1996",
+            "channels": 3
+        },
+        {
+            "name": "imp55 - morbid visions.stp",
+            "file": "chiptunes\/IMP\/1996\/imp55 - morbid visions.stp",
+            "pt3": false,
+            "author": "IMP",
+            "section": "1996",
+            "channels": 3
+        },
+        {
+            "name": "imp56.stp",
+            "file": "chiptunes\/IMP\/1996\/imp56.stp",
+            "pt3": false,
+            "author": "IMP",
+            "section": "1996",
+            "channels": 3
+        },
+        {
+            "name": "imp57.stp",
+            "file": "chiptunes\/IMP\/1996\/imp57.stp",
+            "pt3": false,
+            "author": "IMP",
+            "section": "1996",
+            "channels": 3
+        },
+        {
+            "name": "imp58.stp",
+            "file": "chiptunes\/IMP\/1996\/imp58.stp",
+            "pt3": false,
+            "author": "IMP",
+            "section": "1996",
+            "channels": 3
+        },
+        {
+            "name": "imp59.stp",
+            "file": "chiptunes\/IMP\/1996\/imp59.stp",
+            "pt3": false,
+            "author": "IMP",
+            "section": "1996",
+            "channels": 3
+        },
+        {
+            "name": "imp63.stp",
+            "file": "chiptunes\/IMP\/1996\/imp63.stp",
+            "pt3": false,
+            "author": "IMP",
+            "section": "1996",
+            "channels": 3
+        },
+        {
+            "name": "imp64 - morbid visions (demo).stp",
+            "file": "chiptunes\/IMP\/1996\/imp64 - morbid visions (demo).stp",
+            "pt3": false,
+            "author": "IMP",
+            "section": "1996",
+            "channels": 3
+        },
+        {
+            "name": "imp64 - morbid visions.stp",
+            "file": "chiptunes\/IMP\/1996\/imp64 - morbid visions.stp",
+            "pt3": false,
+            "author": "IMP",
+            "section": "1996",
+            "channels": 3
+        },
+        {
+            "name": "imp66 - strange days.stp",
+            "file": "chiptunes\/IMP\/1996\/imp66 - strange days.stp",
             "pt3": false,
             "author": "IMP",
             "section": "1996",
@@ -34396,6 +34836,14 @@
             "pt3": false,
             "author": "IMP",
             "section": "1996",
+            "channels": 3
+        },
+        {
+            "name": "yolka-97.stp",
+            "file": "chiptunes\/IMP\/1997\/yolka-97.stp",
+            "pt3": false,
+            "author": "IMP",
+            "section": "1997",
             "channels": 3
         },
         {
@@ -34655,6 +35103,14 @@
             "channels": 3
         },
         {
+            "name": "unk_10.stp",
+            "file": "chiptunes\/IMP\/unk_10.stp",
+            "pt3": false,
+            "author": "IMP",
+            "section": null,
+            "channels": 3
+        },
+        {
             "name": "unk_2.asc",
             "file": "chiptunes\/IMP\/unk_2.asc",
             "pt3": false,
@@ -34708,6 +35164,22 @@
             "pt3": false,
             "author": "IMP",
             "section": null,
+            "channels": 3
+        },
+        {
+            "name": "2unlimit.stp",
+            "file": "chiptunes\/Ironman\/1995\/2unlimit.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "3axbat.stp",
+            "file": "chiptunes\/Ironman\/1995\/3axbat.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
             "channels": 3
         },
         {
@@ -34913,6 +35385,1662 @@
         {
             "name": "ZyxMusic.stc",
             "file": "chiptunes\/Ironman\/1995\/ZyxMusic.stc",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "a-nana.stp",
+            "file": "chiptunes\/Ironman\/1995\/a-nana.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "aaa.stp",
+            "file": "chiptunes\/Ironman\/1995\/aaa.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "aftogen.stp",
+            "file": "chiptunes\/Ironman\/1995\/aftogen.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "aftogen2.stp",
+            "file": "chiptunes\/Ironman\/1995\/aftogen2.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "aftogen4.stp",
+            "file": "chiptunes\/Ironman\/1995\/aftogen4.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "ahton3.stp",
+            "file": "chiptunes\/Ironman\/1995\/ahton3.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "ahton4.stp",
+            "file": "chiptunes\/Ironman\/1995\/ahton4.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "alban.stp",
+            "file": "chiptunes\/Ironman\/1995\/alban.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "andy3.stp",
+            "file": "chiptunes\/Ironman\/1995\/andy3.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "anto2.stp",
+            "file": "chiptunes\/Ironman\/1995\/anto2.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "anton1.stp",
+            "file": "chiptunes\/Ironman\/1995\/anton1.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "apina.stp",
+            "file": "chiptunes\/Ironman\/1995\/apina.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "axel.stp",
+            "file": "chiptunes\/Ironman\/1995\/axel.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "axel2.stp",
+            "file": "chiptunes\/Ironman\/1995\/axel2.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "b_dash1.stp",
+            "file": "chiptunes\/Ironman\/1995\/b_dash1.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "bad_sonf.stp",
+            "file": "chiptunes\/Ironman\/1995\/bad_sonf.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "batle.stp",
+            "file": "chiptunes\/Ironman\/1995\/batle.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "batman.stp",
+            "file": "chiptunes\/Ironman\/1995\/batman.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "batty.stp",
+            "file": "chiptunes\/Ironman\/1995\/batty.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "beat.stp",
+            "file": "chiptunes\/Ironman\/1995\/beat.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "beat_ass.stp",
+            "file": "chiptunes\/Ironman\/1995\/beat_ass.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "benny.stp",
+            "file": "chiptunes\/Ironman\/1995\/benny.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "berezka.stp",
+            "file": "chiptunes\/Ironman\/1995\/berezka.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "besthits.stp",
+            "file": "chiptunes\/Ironman\/1995\/besthits.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "blus.stp",
+            "file": "chiptunes\/Ironman\/1995\/blus.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "boys.stp",
+            "file": "chiptunes\/Ironman\/1995\/boys.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "bravo.stp",
+            "file": "chiptunes\/Ironman\/1995\/bravo.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "capella1.stp",
+            "file": "chiptunes\/Ironman\/1995\/capella1.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "children.stp",
+            "file": "chiptunes\/Ironman\/1995\/children.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "classic1.stp",
+            "file": "chiptunes\/Ironman\/1995\/classic1.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "classic2.stp",
+            "file": "chiptunes\/Ironman\/1995\/classic2.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "country.stp",
+            "file": "chiptunes\/Ironman\/1995\/country.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "country2.stp",
+            "file": "chiptunes\/Ironman\/1995\/country2.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "country3.stp",
+            "file": "chiptunes\/Ironman\/1995\/country3.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "country4.stp",
+            "file": "chiptunes\/Ironman\/1995\/country4.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "craaazy.stp",
+            "file": "chiptunes\/Ironman\/1995\/craaazy.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "crazy.stp",
+            "file": "chiptunes\/Ironman\/1995\/crazy.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "crux4.stp",
+            "file": "chiptunes\/Ironman\/1995\/crux4.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "crux5.stp",
+            "file": "chiptunes\/Ironman\/1995\/crux5.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "cultmix2.stp",
+            "file": "chiptunes\/Ironman\/1995\/cultmix2.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "culture.stp",
+            "file": "chiptunes\/Ironman\/1995\/culture.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "dizzy.stp",
+            "file": "chiptunes\/Ironman\/1995\/dizzy.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "dizzy4.stp",
+            "file": "chiptunes\/Ironman\/1995\/dizzy4.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "elite.stp",
+            "file": "chiptunes\/Ironman\/1995\/elite.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "elite2.stp",
+            "file": "chiptunes\/Ironman\/1995\/elite2.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "ethanol.stp",
+            "file": "chiptunes\/Ironman\/1995\/ethanol.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "express.stp",
+            "file": "chiptunes\/Ironman\/1995\/express.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "fantasy.stp",
+            "file": "chiptunes\/Ironman\/1995\/fantasy.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "freezero.stp",
+            "file": "chiptunes\/Ironman\/1995\/freezero.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "fruit.stp",
+            "file": "chiptunes\/Ironman\/1995\/fruit.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "getaway.stp",
+            "file": "chiptunes\/Ironman\/1995\/getaway.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "greatwar.stp",
+            "file": "chiptunes\/Ironman\/1995\/greatwar.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "groob.stp",
+            "file": "chiptunes\/Ironman\/1995\/groob.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "ha-ha.stp",
+            "file": "chiptunes\/Ironman\/1995\/ha-ha.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "happy day2.stp",
+            "file": "chiptunes\/Ironman\/1995\/happy day2.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "hitmix.stp",
+            "file": "chiptunes\/Ironman\/1995\/hitmix.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "hitmix2.stp",
+            "file": "chiptunes\/Ironman\/1995\/hitmix2.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "home.stp",
+            "file": "chiptunes\/Ironman\/1995\/home.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "hronolog.stp",
+            "file": "chiptunes\/Ironman\/1995\/hronolog.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "insult1.stp",
+            "file": "chiptunes\/Ironman\/1995\/insult1.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "ironsoft.stp",
+            "file": "chiptunes\/Ironman\/1995\/ironsoft.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "ironsoft2.stp",
+            "file": "chiptunes\/Ironman\/1995\/ironsoft2.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "isultloa.stp",
+            "file": "chiptunes\/Ironman\/1995\/isultloa.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "jarre.stp",
+            "file": "chiptunes\/Ironman\/1995\/jarre.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "jarre2.stp",
+            "file": "chiptunes\/Ironman\/1995\/jarre2.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "jarre2_.stp",
+            "file": "chiptunes\/Ironman\/1995\/jarre2_.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "jenessis.stp",
+            "file": "chiptunes\/Ironman\/1995\/jenessis.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "jms0last.stp",
+            "file": "chiptunes\/Ironman\/1995\/jms0last.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "jokw.stp",
+            "file": "chiptunes\/Ironman\/1995\/jokw.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "judgment.stp",
+            "file": "chiptunes\/Ironman\/1995\/judgment.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "jurassic.stp",
+            "file": "chiptunes\/Ironman\/1995\/jurassic.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "k_texno.stp",
+            "file": "chiptunes\/Ironman\/1995\/k_texno.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "katusha.stp",
+            "file": "chiptunes\/Ironman\/1995\/katusha.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "katusha3.stp",
+            "file": "chiptunes\/Ironman\/1995\/katusha3.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "kiborg1.stp",
+            "file": "chiptunes\/Ironman\/1995\/kiborg1.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "kiborg2.stp",
+            "file": "chiptunes\/Ironman\/1995\/kiborg2.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "klav.stp",
+            "file": "chiptunes\/Ironman\/1995\/klav.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "klav_mix.stp",
+            "file": "chiptunes\/Ironman\/1995\/klav_mix.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "klf.stp",
+            "file": "chiptunes\/Ironman\/1995\/klf.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "korabli2.stp",
+            "file": "chiptunes\/Ironman\/1995\/korabli2.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "korablik.stp",
+            "file": "chiptunes\/Ironman\/1995\/korablik.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "korneluk.stp",
+            "file": "chiptunes\/Ironman\/1995\/korneluk.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "laser1.stp",
+            "file": "chiptunes\/Ironman\/1995\/laser1.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "laser2.stp",
+            "file": "chiptunes\/Ironman\/1995\/laser2.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "laser3.stp",
+            "file": "chiptunes\/Ironman\/1995\/laser3.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "laser4.stp",
+            "file": "chiptunes\/Ironman\/1995\/laser4.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "laser5.stp",
+            "file": "chiptunes\/Ironman\/1995\/laser5.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "laser6.stp",
+            "file": "chiptunes\/Ironman\/1995\/laser6.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "lastnote.stp",
+            "file": "chiptunes\/Ironman\/1995\/lastnote.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "lebedy.stp",
+            "file": "chiptunes\/Ironman\/1995\/lebedy.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "life.stp",
+            "file": "chiptunes\/Ironman\/1995\/life.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "lira.stp",
+            "file": "chiptunes\/Ironman\/1995\/lira.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "lovers.stp",
+            "file": "chiptunes\/Ironman\/1995\/lovers.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "loveyou1.stp",
+            "file": "chiptunes\/Ironman\/1995\/loveyou1.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "m'affair.stp",
+            "file": "chiptunes\/Ironman\/1995\/m'affair.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "maxi.stp",
+            "file": "chiptunes\/Ironman\/1995\/maxi.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "maxmix1.stp",
+            "file": "chiptunes\/Ironman\/1995\/maxmix1.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "maxmix2.stp",
+            "file": "chiptunes\/Ironman\/1995\/maxmix2.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "maxmix3.stp",
+            "file": "chiptunes\/Ironman\/1995\/maxmix3.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "maxmix4.stp",
+            "file": "chiptunes\/Ironman\/1995\/maxmix4.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "maxmix5.stp",
+            "file": "chiptunes\/Ironman\/1995\/maxmix5.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "maxmix6.stp",
+            "file": "chiptunes\/Ironman\/1995\/maxmix6.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "maxmix7.stp",
+            "file": "chiptunes\/Ironman\/1995\/maxmix7.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "maxx.stp",
+            "file": "chiptunes\/Ironman\/1995\/maxx.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "maxx1.stp",
+            "file": "chiptunes\/Ironman\/1995\/maxx1.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "maxx2.stp",
+            "file": "chiptunes\/Ironman\/1995\/maxx2.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "maxx3.stp",
+            "file": "chiptunes\/Ironman\/1995\/maxx3.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "meatlow.stp",
+            "file": "chiptunes\/Ironman\/1995\/meatlow.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "mixdup.stp",
+            "file": "chiptunes\/Ironman\/1995\/mixdup.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "mixedup2.stp",
+            "file": "chiptunes\/Ironman\/1995\/mixedup2.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "mo-do.stp",
+            "file": "chiptunes\/Ironman\/1995\/mo-do.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "monday.stp",
+            "file": "chiptunes\/Ironman\/1995\/monday.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "money.stp",
+            "file": "chiptunes\/Ironman\/1995\/money.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "morgen.stp",
+            "file": "chiptunes\/Ironman\/1995\/morgen.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "moro3.stp",
+            "file": "chiptunes\/Ironman\/1995\/moro3.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "move it.stp",
+            "file": "chiptunes\/Ironman\/1995\/move it.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "muha.stp",
+            "file": "chiptunes\/Ironman\/1995\/muha.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "muha2.stp",
+            "file": "chiptunes\/Ironman\/1995\/muha2.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "my.stp",
+            "file": "chiptunes\/Ironman\/1995\/my.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "my_song3.stp",
+            "file": "chiptunes\/Ironman\/1995\/my_song3.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "nfucked.stp",
+            "file": "chiptunes\/Ironman\/1995\/nfucked.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "night.stp",
+            "file": "chiptunes\/Ironman\/1995\/night.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "no_bad.stp",
+            "file": "chiptunes\/Ironman\/1995\/no_bad.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "nonamed.stp",
+            "file": "chiptunes\/Ironman\/1995\/nonamed.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "oh-no!.stp",
+            "file": "chiptunes\/Ironman\/1995\/oh-no!.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "our_song.stp",
+            "file": "chiptunes\/Ironman\/1995\/our_song.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "panama j.stp",
+            "file": "chiptunes\/Ironman\/1995\/panama j.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "parting.stp",
+            "file": "chiptunes\/Ironman\/1995\/parting.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "phantas2.stp",
+            "file": "chiptunes\/Ironman\/1995\/phantas2.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "phantasm.stp",
+            "file": "chiptunes\/Ironman\/1995\/phantasm.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "phantom2.stp",
+            "file": "chiptunes\/Ironman\/1995\/phantom2.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "pogance.stp",
+            "file": "chiptunes\/Ironman\/1995\/pogance.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "pokmania.stp",
+            "file": "chiptunes\/Ironman\/1995\/pokmania.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "police.stp",
+            "file": "chiptunes\/Ironman\/1995\/police.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "privet1.stp",
+            "file": "chiptunes\/Ironman\/1995\/privet1.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "project1.stp",
+            "file": "chiptunes\/Ironman\/1995\/project1.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "project2.stp",
+            "file": "chiptunes\/Ironman\/1995\/project2.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "protenis.stp",
+            "file": "chiptunes\/Ironman\/1995\/protenis.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "rectime.stp",
+            "file": "chiptunes\/Ironman\/1995\/rectime.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "rectime6.stp",
+            "file": "chiptunes\/Ironman\/1995\/rectime6.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "redheat.stp",
+            "file": "chiptunes\/Ironman\/1995\/redheat.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "roma.stp",
+            "file": "chiptunes\/Ironman\/1995\/roma.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "round2.stp",
+            "file": "chiptunes\/Ironman\/1995\/round2.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "round3.stp",
+            "file": "chiptunes\/Ironman\/1995\/round3.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "round4.stp",
+            "file": "chiptunes\/Ironman\/1995\/round4.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "round5.stp",
+            "file": "chiptunes\/Ironman\/1995\/round5.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "round6.stp",
+            "file": "chiptunes\/Ironman\/1995\/round6.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "round7.stp",
+            "file": "chiptunes\/Ironman\/1995\/round7.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "roxette.stp",
+            "file": "chiptunes\/Ironman\/1995\/roxette.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "roxette2.stp",
+            "file": "chiptunes\/Ironman\/1995\/roxette2.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "rythm.stp",
+            "file": "chiptunes\/Ironman\/1995\/rythm.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "rythm2.stp",
+            "file": "chiptunes\/Ironman\/1995\/rythm2.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "s_scrols.stp",
+            "file": "chiptunes\/Ironman\/1995\/s_scrols.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "saboteur.stp",
+            "file": "chiptunes\/Ironman\/1995\/saboteur.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "sanxion.stp",
+            "file": "chiptunes\/Ironman\/1995\/sanxion.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "sapfir.stp",
+            "file": "chiptunes\/Ironman\/1995\/sapfir.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "sapfir2.stp",
+            "file": "chiptunes\/Ironman\/1995\/sapfir2.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "sapfir3.stp",
+            "file": "chiptunes\/Ironman\/1995\/sapfir3.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "scooter.stp",
+            "file": "chiptunes\/Ironman\/1995\/scooter.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "scooter2.stp",
+            "file": "chiptunes\/Ironman\/1995\/scooter2.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "sean.stp",
+            "file": "chiptunes\/Ironman\/1995\/sean.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "sector11.stp",
+            "file": "chiptunes\/Ironman\/1995\/sector11.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "sektor1.stp",
+            "file": "chiptunes\/Ironman\/1995\/sektor1.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "sektor10.stp",
+            "file": "chiptunes\/Ironman\/1995\/sektor10.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "sektor2.stp",
+            "file": "chiptunes\/Ironman\/1995\/sektor2.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "sektor3.stp",
+            "file": "chiptunes\/Ironman\/1995\/sektor3.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "sektor4.stp",
+            "file": "chiptunes\/Ironman\/1995\/sektor4.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "sektor5.stp",
+            "file": "chiptunes\/Ironman\/1995\/sektor5.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "sektor7.stp",
+            "file": "chiptunes\/Ironman\/1995\/sektor7.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "sektor9.stp",
+            "file": "chiptunes\/Ironman\/1995\/sektor9.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "sergey4.stp",
+            "file": "chiptunes\/Ironman\/1995\/sergey4.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "shitsong.stp",
+            "file": "chiptunes\/Ironman\/1995\/shitsong.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "simphony.stp",
+            "file": "chiptunes\/Ironman\/1995\/simphony.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "sketor7.stp",
+            "file": "chiptunes\/Ironman\/1995\/sketor7.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "solaris.stp",
+            "file": "chiptunes\/Ironman\/1995\/solaris.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "sonic.stp",
+            "file": "chiptunes\/Ironman\/1995\/sonic.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "space.stp",
+            "file": "chiptunes\/Ironman\/1995\/space.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "stardark.stp",
+            "file": "chiptunes\/Ironman\/1995\/stardark.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "status.stp",
+            "file": "chiptunes\/Ironman\/1995\/status.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "status2.stp",
+            "file": "chiptunes\/Ironman\/1995\/status2.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "strahhoe.stp",
+            "file": "chiptunes\/Ironman\/1995\/strahhoe.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "stremno!.stp",
+            "file": "chiptunes\/Ironman\/1995\/stremno!.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "stremno2.stp",
+            "file": "chiptunes\/Ironman\/1995\/stremno2.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "surpris2.stp",
+            "file": "chiptunes\/Ironman\/1995\/surpris2.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "surprise.stp",
+            "file": "chiptunes\/Ironman\/1995\/surprise.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "tank.stp",
+            "file": "chiptunes\/Ironman\/1995\/tank.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "tecspeed.stp",
+            "file": "chiptunes\/Ironman\/1995\/tecspeed.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "tehno3.stp",
+            "file": "chiptunes\/Ironman\/1995\/tehno3.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "tehno4.stp",
+            "file": "chiptunes\/Ironman\/1995\/tehno4.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "tehno5.stp",
+            "file": "chiptunes\/Ironman\/1995\/tehno5.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "terintro.stp",
+            "file": "chiptunes\/Ironman\/1995\/terintro.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "term.stp",
+            "file": "chiptunes\/Ironman\/1995\/term.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "texhkoph.stp",
+            "file": "chiptunes\/Ironman\/1995\/texhkoph.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "texno.stp",
+            "file": "chiptunes\/Ironman\/1995\/texno.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "texno2.stp",
+            "file": "chiptunes\/Ironman\/1995\/texno2.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "texnopo2.stp",
+            "file": "chiptunes\/Ironman\/1995\/texnopo2.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "texnopo3.stp",
+            "file": "chiptunes\/Ironman\/1995\/texnopo3.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "texnopok.stp",
+            "file": "chiptunes\/Ironman\/1995\/texnopok.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "thdfuck.stp",
+            "file": "chiptunes\/Ironman\/1995\/thdfuck.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "tonic.stp",
+            "file": "chiptunes\/Ironman\/1995\/tonic.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "toxic1.stp",
+            "file": "chiptunes\/Ironman\/1995\/toxic1.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "translat.stp",
+            "file": "chiptunes\/Ironman\/1995\/translat.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "twin.stp",
+            "file": "chiptunes\/Ironman\/1995\/twin.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "umbrell.stp",
+            "file": "chiptunes\/Ironman\/1995\/umbrell.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "union.stp",
+            "file": "chiptunes\/Ironman\/1995\/union.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "unlimit1.stp",
+            "file": "chiptunes\/Ironman\/1995\/unlimit1.stp",
+            "pt3": false,
+            "author": "Ironman",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "unlimit2.stp",
+            "file": "chiptunes\/Ironman\/1995\/unlimit2.stp",
             "pt3": false,
             "author": "Ironman",
             "section": "1995",
@@ -45862,6 +47990,14 @@
             "channels": 3
         },
         {
+            "name": "19 MNG.W.stp",
+            "file": "chiptunes\/Ksa\/19 MNG.W.stp",
+            "pt3": false,
+            "author": "Ksa",
+            "section": null,
+            "channels": 3
+        },
+        {
             "name": "4C-MUSIC I.stc",
             "file": "chiptunes\/Ksa\/4C-MUSIC I.stc",
             "pt3": false,
@@ -45902,6 +48038,14 @@
             "channels": 3
         },
         {
+            "name": "AMMY-RMX.stp",
+            "file": "chiptunes\/Ksa\/AMMY-RMX.stp",
+            "pt3": false,
+            "author": "Ksa",
+            "section": null,
+            "channels": 3
+        },
+        {
             "name": "ANSWER II.stc",
             "file": "chiptunes\/Ksa\/ANSWER II.stc",
             "pt3": false,
@@ -45910,8 +48054,32 @@
             "channels": 3
         },
         {
+            "name": "Action #1.stp",
+            "file": "chiptunes\/Ksa\/Action #1.stp",
+            "pt3": false,
+            "author": "Ksa",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "Action #2.stp",
+            "file": "chiptunes\/Ksa\/Action #2.stp",
+            "pt3": false,
+            "author": "Ksa",
+            "section": null,
+            "channels": 3
+        },
+        {
             "name": "BALLADE.stc",
             "file": "chiptunes\/Ksa\/BALLADE.stc",
+            "pt3": false,
+            "author": "Ksa",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "BIFF.stp",
+            "file": "chiptunes\/Ksa\/BIFF.stp",
             "pt3": false,
             "author": "Ksa",
             "section": null,
@@ -46024,6 +48192,22 @@
         {
             "name": "DARK EAGLE.stc",
             "file": "chiptunes\/Ksa\/DARK EAGLE.stc",
+            "pt3": false,
+            "author": "Ksa",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "DECIL2.stp",
+            "file": "chiptunes\/Ksa\/DECIL2.stp",
+            "pt3": false,
+            "author": "Ksa",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "DECIL3.stp",
+            "file": "chiptunes\/Ksa\/DECIL3.stp",
             "pt3": false,
             "author": "Ksa",
             "section": null,
@@ -46294,6 +48478,14 @@
             "channels": 3
         },
         {
+            "name": "GENAGIFT.stp",
+            "file": "chiptunes\/Ksa\/GENAGIFT.stp",
+            "pt3": false,
+            "author": "Ksa",
+            "section": null,
+            "channels": 3
+        },
+        {
             "name": "GIVEMELOVE.stc",
             "file": "chiptunes\/Ksa\/GIVEMELOVE.stc",
             "pt3": false,
@@ -46350,8 +48542,56 @@
             "channels": 3
         },
         {
+            "name": "ICECLIM2.stp",
+            "file": "chiptunes\/Ksa\/ICECLIM2.stp",
+            "pt3": false,
+            "author": "Ksa",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "ICECLIM3.stp",
+            "file": "chiptunes\/Ksa\/ICECLIM3.stp",
+            "pt3": false,
+            "author": "Ksa",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "ICECLIM4.stp",
+            "file": "chiptunes\/Ksa\/ICECLIM4.stp",
+            "pt3": false,
+            "author": "Ksa",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "ICECLIM5.stp",
+            "file": "chiptunes\/Ksa\/ICECLIM5.stp",
+            "pt3": false,
+            "author": "Ksa",
+            "section": null,
+            "channels": 3
+        },
+        {
             "name": "INTRO BLAD BY KSA SOFTWARE.stc",
             "file": "chiptunes\/Ksa\/INTRO BLAD BY KSA SOFTWARE.stc",
+            "pt3": false,
+            "author": "Ksa",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "Influence #2.stp",
+            "file": "chiptunes\/Ksa\/Influence #2.stp",
+            "pt3": false,
+            "author": "Ksa",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "Influence #3.stp",
+            "file": "chiptunes\/Ksa\/Influence #3.stp",
             "pt3": false,
             "author": "Ksa",
             "section": null,
@@ -46398,6 +48638,22 @@
             "channels": 3
         },
         {
+            "name": "KORA-RESONAN7.stp",
+            "file": "chiptunes\/Ksa\/KORA-RESONAN7.stp",
+            "pt3": false,
+            "author": "Ksa",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "KORA-YO-MOYO.stp",
+            "file": "chiptunes\/Ksa\/KORA-YO-MOYO.stp",
+            "pt3": false,
+            "author": "Ksa",
+            "section": null,
+            "channels": 3
+        },
+        {
             "name": "KORNELIUS.stc",
             "file": "chiptunes\/Ksa\/KORNELIUS.stc",
             "pt3": false,
@@ -46424,6 +48680,14 @@
         {
             "name": "KSA 11.stc",
             "file": "chiptunes\/Ksa\/KSA 11.stc",
+            "pt3": false,
+            "author": "Ksa",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "KSA 12.stp",
+            "file": "chiptunes\/Ksa\/KSA 12.stp",
             "pt3": false,
             "author": "Ksa",
             "section": null,
@@ -46462,8 +48726,24 @@
             "channels": 3
         },
         {
+            "name": "KSA 22.stp",
+            "file": "chiptunes\/Ksa\/KSA 22.stp",
+            "pt3": false,
+            "author": "Ksa",
+            "section": null,
+            "channels": 3
+        },
+        {
             "name": "KSA 23.ay",
             "file": "chiptunes\/Ksa\/KSA 23.ay",
+            "pt3": false,
+            "author": "Ksa",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "KSA 27.stp",
+            "file": "chiptunes\/Ksa\/KSA 27.stp",
             "pt3": false,
             "author": "Ksa",
             "section": null,
@@ -46504,6 +48784,22 @@
         {
             "name": "KSA GLUK 2.stc",
             "file": "chiptunes\/Ksa\/KSA GLUK 2.stc",
+            "pt3": false,
+            "author": "Ksa",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "KSA INS (Party Version).stp",
+            "file": "chiptunes\/Ksa\/KSA INS (Party Version).stp",
+            "pt3": false,
+            "author": "Ksa",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "KSA INS.stp",
+            "file": "chiptunes\/Ksa\/KSA INS.stp",
             "pt3": false,
             "author": "Ksa",
             "section": null,
@@ -46566,6 +48862,14 @@
             "channels": 3
         },
         {
+            "name": "LastBatl.stp",
+            "file": "chiptunes\/Ksa\/LastBatl.stp",
+            "pt3": false,
+            "author": "Ksa",
+            "section": null,
+            "channels": 3
+        },
+        {
             "name": "Lazer_D1.pt2",
             "file": "chiptunes\/Ksa\/Lazer_D1.pt2",
             "pt3": false,
@@ -46576,6 +48880,14 @@
         {
             "name": "Lazer_D2.pt2",
             "file": "chiptunes\/Ksa\/Lazer_D2.pt2",
+            "pt3": false,
+            "author": "Ksa",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "LibCncrt.pt1",
+            "file": "chiptunes\/Ksa\/LibCncrt.pt1",
             "pt3": false,
             "author": "Ksa",
             "section": null,
@@ -46608,6 +48920,14 @@
         {
             "name": "MEGA-3.stc",
             "file": "chiptunes\/Ksa\/MEGA-3.stc",
+            "pt3": false,
+            "author": "Ksa",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "MIC18.stp",
+            "file": "chiptunes\/Ksa\/MIC18.stp",
             "pt3": false,
             "author": "Ksa",
             "section": null,
@@ -46750,8 +49070,56 @@
             "channels": 3
         },
         {
+            "name": "P-TECHNO.pt1",
+            "file": "chiptunes\/Ksa\/P-TECHNO.pt1",
+            "pt3": false,
+            "author": "Ksa",
+            "section": null,
+            "channels": 3
+        },
+        {
             "name": "PEPSIDRINK.stc",
             "file": "chiptunes\/Ksa\/PEPSIDRINK.stc",
+            "pt3": false,
+            "author": "Ksa",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "PRINCE.stp",
+            "file": "chiptunes\/Ksa\/PRINCE.stp",
+            "pt3": false,
+            "author": "Ksa",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "PowerOfMind.stp",
+            "file": "chiptunes\/Ksa\/PowerOfMind.stp",
+            "pt3": false,
+            "author": "Ksa",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "Puli.stp",
+            "file": "chiptunes\/Ksa\/Puli.stp",
+            "pt3": false,
+            "author": "Ksa",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "RESONAN1.stp",
+            "file": "chiptunes\/Ksa\/RESONAN1.stp",
+            "pt3": false,
+            "author": "Ksa",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "RESONAN5.stp",
+            "file": "chiptunes\/Ksa\/RESONAN5.stp",
             "pt3": false,
             "author": "Ksa",
             "section": null,
@@ -46902,6 +49270,222 @@
             "channels": 3
         },
         {
+            "name": "Spec18_00.stp",
+            "file": "chiptunes\/Ksa\/Spec18_00.stp",
+            "pt3": false,
+            "author": "Ksa",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "Spec18_02.stp",
+            "file": "chiptunes\/Ksa\/Spec18_02.stp",
+            "pt3": false,
+            "author": "Ksa",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "Spec18_03.stp",
+            "file": "chiptunes\/Ksa\/Spec18_03.stp",
+            "pt3": false,
+            "author": "Ksa",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "Spec18_04.stp",
+            "file": "chiptunes\/Ksa\/Spec18_04.stp",
+            "pt3": false,
+            "author": "Ksa",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "Spec18_05.stp",
+            "file": "chiptunes\/Ksa\/Spec18_05.stp",
+            "pt3": false,
+            "author": "Ksa",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "Spec18_06.stp",
+            "file": "chiptunes\/Ksa\/Spec18_06.stp",
+            "pt3": false,
+            "author": "Ksa",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "Spec18_07.stp",
+            "file": "chiptunes\/Ksa\/Spec18_07.stp",
+            "pt3": false,
+            "author": "Ksa",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "Spec19_0.stp",
+            "file": "chiptunes\/Ksa\/Spec19_0.stp",
+            "pt3": false,
+            "author": "Ksa",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "Spec19_1.stp",
+            "file": "chiptunes\/Ksa\/Spec19_1.stp",
+            "pt3": false,
+            "author": "Ksa",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "Spec19_2.stp",
+            "file": "chiptunes\/Ksa\/Spec19_2.stp",
+            "pt3": false,
+            "author": "Ksa",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "Spec19_3.stp",
+            "file": "chiptunes\/Ksa\/Spec19_3.stp",
+            "pt3": false,
+            "author": "Ksa",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "Spec19_4.stp",
+            "file": "chiptunes\/Ksa\/Spec19_4.stp",
+            "pt3": false,
+            "author": "Ksa",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "Spec19_5.stp",
+            "file": "chiptunes\/Ksa\/Spec19_5.stp",
+            "pt3": false,
+            "author": "Ksa",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "Spec19_6.stp",
+            "file": "chiptunes\/Ksa\/Spec19_6.stp",
+            "pt3": false,
+            "author": "Ksa",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "Spec19_7.stp",
+            "file": "chiptunes\/Ksa\/Spec19_7.stp",
+            "pt3": false,
+            "author": "Ksa",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "Spec19_8.stp",
+            "file": "chiptunes\/Ksa\/Spec19_8.stp",
+            "pt3": false,
+            "author": "Ksa",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "Spec19_9.stp",
+            "file": "chiptunes\/Ksa\/Spec19_9.stp",
+            "pt3": false,
+            "author": "Ksa",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "Spec20_03.stp",
+            "file": "chiptunes\/Ksa\/Spec20_03.stp",
+            "pt3": false,
+            "author": "Ksa",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "Spec20_04.stp",
+            "file": "chiptunes\/Ksa\/Spec20_04.stp",
+            "pt3": false,
+            "author": "Ksa",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "Spec20_05.stp",
+            "file": "chiptunes\/Ksa\/Spec20_05.stp",
+            "pt3": false,
+            "author": "Ksa",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "Spec20_06.stp",
+            "file": "chiptunes\/Ksa\/Spec20_06.stp",
+            "pt3": false,
+            "author": "Ksa",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "Spec20_07.stp",
+            "file": "chiptunes\/Ksa\/Spec20_07.stp",
+            "pt3": false,
+            "author": "Ksa",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "Spec20_08.stp",
+            "file": "chiptunes\/Ksa\/Spec20_08.stp",
+            "pt3": false,
+            "author": "Ksa",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "Spec20_09.stp",
+            "file": "chiptunes\/Ksa\/Spec20_09.stp",
+            "pt3": false,
+            "author": "Ksa",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "Spec20_10.stp",
+            "file": "chiptunes\/Ksa\/Spec20_10.stp",
+            "pt3": false,
+            "author": "Ksa",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "Spec20_11.stp",
+            "file": "chiptunes\/Ksa\/Spec20_11.stp",
+            "pt3": false,
+            "author": "Ksa",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "Spec20_12.stp",
+            "file": "chiptunes\/Ksa\/Spec20_12.stp",
+            "pt3": false,
+            "author": "Ksa",
+            "section": null,
+            "channels": 3
+        },
+        {
             "name": "TARTOR 2.stc",
             "file": "chiptunes\/Ksa\/TARTOR 2.stc",
             "pt3": false,
@@ -47014,6 +49598,30 @@
             "channels": 3
         },
         {
+            "name": "ZY-ZY1-Transer.stp",
+            "file": "chiptunes\/Ksa\/ZY-ZY1-Transer.stp",
+            "pt3": false,
+            "author": "Ksa",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "ZY-ZY2.stp",
+            "file": "chiptunes\/Ksa\/ZY-ZY2.stp",
+            "pt3": false,
+            "author": "Ksa",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "ZY-ZY3.stp",
+            "file": "chiptunes\/Ksa\/ZY-ZY3.stp",
+            "pt3": false,
+            "author": "Ksa",
+            "section": null,
+            "channels": 3
+        },
+        {
             "name": "cerla.stc",
             "file": "chiptunes\/Ksa\/cerla.stc",
             "pt3": false,
@@ -47038,8 +49646,24 @@
             "channels": 3
         },
         {
+            "name": "freedom.pt1",
+            "file": "chiptunes\/Ksa\/freedom.pt1",
+            "pt3": false,
+            "author": "Ksa",
+            "section": null,
+            "channels": 3
+        },
+        {
             "name": "int2_ksa.stc",
             "file": "chiptunes\/Ksa\/int2_ksa.stc",
+            "pt3": false,
+            "author": "Ksa",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "italian disco.pt1",
+            "file": "chiptunes\/Ksa\/italian disco.pt1",
             "pt3": false,
             "author": "Ksa",
             "section": null,
@@ -47510,6 +50134,14 @@
             "channels": 3
         },
         {
+            "name": "slash gift 1.stp",
+            "file": "chiptunes\/Lav\/1996\/slash gift 1.stp",
+            "pt3": false,
+            "author": "Lav",
+            "section": "1996",
+            "channels": 3
+        },
+        {
             "name": "slash gift 2.stp.pt2",
             "file": "chiptunes\/Lav\/1996\/slash gift 2.stp.pt2",
             "pt3": false,
@@ -47656,6 +50288,14 @@
         {
             "name": "lav17.pt2",
             "file": "chiptunes\/Lav\/lav17.pt2",
+            "pt3": false,
+            "author": "Lav",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "lav18.stp",
+            "file": "chiptunes\/Lav\/lav18.stp",
             "pt3": false,
             "author": "Lav",
             "section": null,
@@ -51618,6 +54258,142 @@
             "channels": 3
         },
         {
+            "name": "unprize 2.stp",
+            "file": "chiptunes\/Mic\/1995\/unprize 2.stp",
+            "pt3": false,
+            "author": "Mic",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "unprize 3.stp",
+            "file": "chiptunes\/Mic\/1995\/unprize 3.stp",
+            "pt3": false,
+            "author": "Mic",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "unprize 4.stp",
+            "file": "chiptunes\/Mic\/1995\/unprize 4.stp",
+            "pt3": false,
+            "author": "Mic",
+            "section": "1995",
+            "channels": 3
+        },
+        {
+            "name": "3-EYE.stp",
+            "file": "chiptunes\/Mic\/1996\/3-EYE.stp",
+            "pt3": false,
+            "author": "Mic",
+            "section": "1996",
+            "channels": 3
+        },
+        {
+            "name": "4 COMORRA.stp",
+            "file": "chiptunes\/Mic\/1996\/4 COMORRA.stp",
+            "pt3": false,
+            "author": "Mic",
+            "section": "1996",
+            "channels": 3
+        },
+        {
+            "name": "4 RACE.stp",
+            "file": "chiptunes\/Mic\/1996\/4 RACE.stp",
+            "pt3": false,
+            "author": "Mic",
+            "section": "1996",
+            "channels": 3
+        },
+        {
+            "name": "Brain Crash.stp",
+            "file": "chiptunes\/Mic\/1996\/Brain Crash.stp",
+            "pt3": false,
+            "author": "Mic",
+            "section": "1996",
+            "channels": 3
+        },
+        {
+            "name": "DOGS SHIT.stp",
+            "file": "chiptunes\/Mic\/1996\/DOGS SHIT.stp",
+            "pt3": false,
+            "author": "Mic",
+            "section": "1996",
+            "channels": 3
+        },
+        {
+            "name": "GOOD M.stp",
+            "file": "chiptunes\/Mic\/1996\/GOOD M.stp",
+            "pt3": false,
+            "author": "Mic",
+            "section": "1996",
+            "channels": 3
+        },
+        {
+            "name": "HAHA.stp",
+            "file": "chiptunes\/Mic\/1996\/HAHA.stp",
+            "pt3": false,
+            "author": "Mic",
+            "section": "1996",
+            "channels": 3
+        },
+        {
+            "name": "Paroxyzm.stp",
+            "file": "chiptunes\/Mic\/1996\/Paroxyzm.stp",
+            "pt3": false,
+            "author": "Mic",
+            "section": "1996",
+            "channels": 3
+        },
+        {
+            "name": "REFRESH.stp",
+            "file": "chiptunes\/Mic\/1996\/REFRESH.stp",
+            "pt3": false,
+            "author": "Mic",
+            "section": "1996",
+            "channels": 3
+        },
+        {
+            "name": "ROBO.stp",
+            "file": "chiptunes\/Mic\/1996\/ROBO.stp",
+            "pt3": false,
+            "author": "Mic",
+            "section": "1996",
+            "channels": 3
+        },
+        {
+            "name": "STOP.stp",
+            "file": "chiptunes\/Mic\/1996\/STOP.stp",
+            "pt3": false,
+            "author": "Mic",
+            "section": "1996",
+            "channels": 3
+        },
+        {
+            "name": "WATER.stp",
+            "file": "chiptunes\/Mic\/1996\/WATER.stp",
+            "pt3": false,
+            "author": "Mic",
+            "section": "1996",
+            "channels": 3
+        },
+        {
+            "name": "decil 2_1.stp",
+            "file": "chiptunes\/Mic\/1996\/decil 2_1.stp",
+            "pt3": false,
+            "author": "Mic",
+            "section": "1996",
+            "channels": 3
+        },
+        {
+            "name": "gift alex.stp",
+            "file": "chiptunes\/Mic\/1996\/gift alex.stp",
+            "pt3": false,
+            "author": "Mic",
+            "section": "1996",
+            "channels": 3
+        },
+        {
             "name": "CMX_PROM.pt2",
             "file": "chiptunes\/Mic\/1997\/CMX_PROM.pt2",
             "pt3": false,
@@ -51626,8 +54402,88 @@
             "channels": 3
         },
         {
+            "name": "Dreamless.stp",
+            "file": "chiptunes\/Mic\/1997\/Dreamless.stp",
+            "pt3": false,
+            "author": "Mic",
+            "section": "1997",
+            "channels": 3
+        },
+        {
+            "name": "Energy1.stp",
+            "file": "chiptunes\/Mic\/1997\/Energy1.stp",
+            "pt3": false,
+            "author": "Mic",
+            "section": "1997",
+            "channels": 3
+        },
+        {
+            "name": "Energy2.stp",
+            "file": "chiptunes\/Mic\/1997\/Energy2.stp",
+            "pt3": false,
+            "author": "Mic",
+            "section": "1997",
+            "channels": 3
+        },
+        {
+            "name": "Shit For Brains #1.stp",
+            "file": "chiptunes\/Mic\/1997\/Shit For Brains #1.stp",
+            "pt3": false,
+            "author": "Mic",
+            "section": "1997",
+            "channels": 3
+        },
+        {
+            "name": "Shit For Brains #2.stp",
+            "file": "chiptunes\/Mic\/1997\/Shit For Brains #2.stp",
+            "pt3": false,
+            "author": "Mic",
+            "section": "1997",
+            "channels": 3
+        },
+        {
+            "name": "FUXGIFT.stp",
+            "file": "chiptunes\/Mic\/1998\/FUXGIFT.stp",
+            "pt3": false,
+            "author": "Mic",
+            "section": "1998",
+            "channels": 3
+        },
+        {
+            "name": "LIS!.stp",
+            "file": "chiptunes\/Mic\/1998\/LIS!.stp",
+            "pt3": false,
+            "author": "Mic",
+            "section": "1998",
+            "channels": 3
+        },
+        {
+            "name": "4 MAFIA.stp",
+            "file": "chiptunes\/Mic\/4 MAFIA.stp",
+            "pt3": false,
+            "author": "Mic",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "4_Mafia.stp",
+            "file": "chiptunes\/Mic\/4_Mafia.stp",
+            "pt3": false,
+            "author": "Mic",
+            "section": null,
+            "channels": 3
+        },
+        {
             "name": "BACK.pt2",
             "file": "chiptunes\/Mic\/BACK.pt2",
+            "pt3": false,
+            "author": "Mic",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "BRED.stp",
+            "file": "chiptunes\/Mic\/BRED.stp",
             "pt3": false,
             "author": "Mic",
             "section": null,
@@ -51642,8 +54498,72 @@
             "channels": 3
         },
         {
+            "name": "CATCH.stp",
+            "file": "chiptunes\/Mic\/CATCH.stp",
+            "pt3": false,
+            "author": "Mic",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "DECIL1.stp",
+            "file": "chiptunes\/Mic\/DECIL1.stp",
+            "pt3": false,
+            "author": "Mic",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "Epilogue.stp",
+            "file": "chiptunes\/Mic\/Epilogue.stp",
+            "pt3": false,
+            "author": "Mic",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "GOLDEN.stp",
+            "file": "chiptunes\/Mic\/GOLDEN.stp",
+            "pt3": false,
+            "author": "Mic",
+            "section": null,
+            "channels": 3
+        },
+        {
             "name": "GenaABotMy3Oh.pt2",
             "file": "chiptunes\/Mic\/GenaABotMy3Oh.pt2",
+            "pt3": false,
+            "author": "Mic",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "Interactive.stp",
+            "file": "chiptunes\/Mic\/Interactive.stp",
+            "pt3": false,
+            "author": "Mic",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "JUMP 2 XTC.stp",
+            "file": "chiptunes\/Mic\/JUMP 2 XTC.stp",
+            "pt3": false,
+            "author": "Mic",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "MARAZZM.stp",
+            "file": "chiptunes\/Mic\/MARAZZM.stp",
+            "pt3": false,
+            "author": "Mic",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "MICROFONE.stp",
+            "file": "chiptunes\/Mic\/MICROFONE.stp",
             "pt3": false,
             "author": "Mic",
             "section": null,
@@ -51660,6 +54580,102 @@
         {
             "name": "Mps.pt2",
             "file": "chiptunes\/Mic\/Mps.pt2",
+            "pt3": false,
+            "author": "Mic",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "NAS.stp",
+            "file": "chiptunes\/Mic\/NAS.stp",
+            "pt3": false,
+            "author": "Mic",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "OUTSIDE.stp",
+            "file": "chiptunes\/Mic\/OUTSIDE.stp",
+            "pt3": false,
+            "author": "Mic",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "Power.stp",
+            "file": "chiptunes\/Mic\/Power.stp",
+            "pt3": false,
+            "author": "Mic",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "Q.stp",
+            "file": "chiptunes\/Mic\/Q.stp",
+            "pt3": false,
+            "author": "Mic",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "SLIGHTLY.stp",
+            "file": "chiptunes\/Mic\/SLIGHTLY.stp",
+            "pt3": false,
+            "author": "Mic",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "av_demo.stp",
+            "file": "chiptunes\/Mic\/av_demo.stp",
+            "pt3": false,
+            "author": "Mic",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "fastfood.stp",
+            "file": "chiptunes\/Mic\/fastfood.stp",
+            "pt3": false,
+            "author": "Mic",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "mic12.stp",
+            "file": "chiptunes\/Mic\/mic12.stp",
+            "pt3": false,
+            "author": "Mic",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "mic17.stp",
+            "file": "chiptunes\/Mic\/mic17.stp",
+            "pt3": false,
+            "author": "Mic",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "mic21.stp",
+            "file": "chiptunes\/Mic\/mic21.stp",
+            "pt3": false,
+            "author": "Mic",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "r0m_gift.stp",
+            "file": "chiptunes\/Mic\/r0m_gift.stp",
+            "pt3": false,
+            "author": "Mic",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "story.stp",
+            "file": "chiptunes\/Mic\/story.stp",
             "pt3": false,
             "author": "Mic",
             "section": null,
