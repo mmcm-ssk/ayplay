@@ -15,22 +15,13 @@
     <meta name="twitter:title" content="AY Player — ZX Spectrum AY Music Player">
     <meta name="twitter:description" content="Online player for ZX Spectrum AY music files (PT3, VT2, PSG, FYM, STC, MTC).">
     <link rel="canonical" href="https://ayplay.ru/">
+    <link rel="icon" type="image/svg+xml" href="logo_ayplay.svg">
     <link rel="icon" href="favicon.ico">
-    <link rel="stylesheet" href="player/ayPlayer.css?v=110">
+    <link rel="stylesheet" href="player/ayPlayer.css?v=145">
 </head>
     <body>
-    <div id="logo-bar" style="width:100%;max-width:1024px;margin:0 auto;padding:8px 10px 4px 12px;display:flex;align-items:center;box-sizing:border-box;">
-        <div>
-            <img src="favicon.png" alt="" style="height:32px;vertical-align:middle;">
-            <span style="color:#64B5F6;font-size:18px;font-weight:300;letter-spacing:1px;vertical-align:middle;margin-left:6px;">Player chiptune music</span>
-            <a href="mailto:studio@mmcm.ru" title="studio@mmcm.ru" style="display:inline-flex;align-items:center;text-decoration:none;vertical-align:middle;margin-left:8px;">
-                <img src="data:image/svg+xml,%3Csvg%20width%3D%22800px%22%20height%3D%22800px%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M12%2022C6.477%2022%202%2017.523%202%2012S6.477%202%2012%202s10%204.477%2010%2010-4.477%2010-10%2010zM7.92%209.234v.102a.5.5%200%200%200%20.5.5h.997a.499.499%200%200%200%20.499-.499c0-1.29.998-1.979%202.34-1.979%201.308%200%202.168.689%202.168%201.67%200%20.928-.482%201.359-1.686%201.91l-.344.154C11.379%2011.54%2011%2012.21%2011%2013.381v.119a.5.5%200%200%200%20.5.5h.997a.499.499%200%200%200%20.499-.499c0-.516.138-.723.55-.912l.345-.155c1.445-.654%202.529-1.514%202.529-3.39v-.103c0-1.978-1.72-3.441-4.164-3.441-2.478%200-4.336%201.428-4.336%203.734zm2.58%207.757c0%20.867.659%201.509%201.491%201.509.85%200%201.509-.642%201.509-1.509%200-.867-.659-1.491-1.509-1.491-.832%200-1.491.624-1.491%201.491z%22%20fill%3D%22%23FFFFFF%22%2F%3E%3C%2Fsvg%3E" alt="Help" style="height:18px;opacity:0.35;" onmouseover="this.style.opacity='0.7'" onmouseout="this.style.opacity='0.35'" title="Если хотите добавить в коллекцию свою музыку, напишите.">
-            </a>
-        </div>
-    </div>
     <div id="player"></div>
-    <div class="ayPlayer-footer-bar">AY Player &copy; 2026</div>
-    <div id="countryFlags" style="text-align:left;font-size:0;max-width:1024px;margin-left:auto;margin-right:auto;padding:6px 0 0 8px;width:100%;"></div>
+    <div id="countryFlags" style="text-align:left;font-size:0;max-width:1024px;margin-left:auto;margin-right:auto;padding:6px 0 16px 8px;width:100%;"></div>
 
     <script src="player/pako_inflate.min.js?v=16"></script>
     <script src="player/ayumi.js?v=17"></script>
@@ -44,10 +35,12 @@
     <script src="player/pt2.js?v=1"></script>
     <script src="player/asc.js?v=1"></script>
     <script src="player/tfc.js?v=1"></script>
+    <script src="player/stp.js?v=1"></script>
+    <script src="player/pt1.js?v=1"></script>
     <script src="player/aym_reader.js?v=5"></script>
     <script src="player/z80core.js?v=5"></script>
     <script src="player/ay.js?v=4"></script>
-    <script src="player/ayPlayer.js?v=267"></script>
+    <script src="player/ayPlayer.js?v=306"></script>
     <script>
         var LS_KEY = 'ayPlayer_playlist';
         var LS_TIME = 'ayPlayer_playlist_time';
@@ -123,16 +116,6 @@
                 fetch(counterUrl).then(function(r){return r.json();}).then(function(d){
                     if (counterUrl === 'api/counter.php') localStorage.setItem(COUNTER_KEY, Date.now());
                     state.visitCount = d.count || 0;
-                    state.flagsHtml = '';
-                    if (d.countries) {
-                        var countries = d.countries;
-                        var keys = Object.keys(countries).sort(function(a,b){return countries[b]-countries[a]}).filter(function(k){return k !== 'XX' && k !== ''});
-                        if (keys.length > 0) {
-                            keys.forEach(function(k){
-                                state.flagsHtml += '<span style="display:inline-block;margin:1px 4px;font-size:20px;line-height:1.2;" title="' + k + ': ' + countries[k] + '"><img src="https://flagcdn.com/16x12/' + k.toLowerCase() + '.png" srcset="https://flagcdn.com/32x24/' + k.toLowerCase() + '.png 2x" alt="' + k + '" style="vertical-align:middle;width:16px;height:12px;"> <span style="font-size:12px;font-family:sans-serif;color:#003850;">' + countries[k] + '</span></span>';
-                            });
-                        }
-                    }
                     renderFlags();
                 }).catch(function(){renderFlags();});
             } catch(e) { renderFlags(); }
@@ -141,7 +124,6 @@
         function renderFlags() {
             if (!flagsEl) return;
             var html = '<span style="font-size:12px;font-family:sans-serif;color:#003850;">Visit counter: ' + state.visitCount + '</span>';
-            if (state.flagsHtml) html += '<span style="margin-left:16px;"></span>' + state.flagsHtml;
             flagsEl.innerHTML = html;
         }
     </script>

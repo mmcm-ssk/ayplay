@@ -1,8 +1,13 @@
 ﻿var AYPlayer = (function() {
 
+    var _folderCloseIco = 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%3E%3Cpath%20d%3D%22M0%201H6L9%204H16V14H0V1Z%22%20fill%3D%22%23D4AF37%22%2F%3E%3C%2Fsvg%3E';
+    var _folderOpenIco = 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%3E%3Cpath%20d%3D%22M0%201H5L8%203H13V5H3.7457L2.03141%2011H4.11144L5.2543%207H16L14%2014H0V1Z%22%20fill%3D%22%23D4AF37%22%2F%3E%3C%2Fsvg%3E';
+
     var audioContext = null;
     var _workletNode = null;
     var _gainNode = null;
+    var _roomNode = null;
+    var _roomGain = null;
     var song = null;
     var isTurbo = false;
     var _chipCount = 1;
@@ -40,7 +45,11 @@
     var volume = (savedVol !== null && !isNaN(parseFloat(savedVol))) ? parseFloat(savedVol) : 1.0;
     var favorites = JSON.parse(localStorage.getItem('ayPlayer_favorites') || '{}');
     var favoritesOnly = false;
-    var firEnabled = true;
+    var firEnabled = false;
+    var xfEnabled = false;
+    var roomEnabled = false;
+    var showFormat = true;
+    var showChannels = true;
     var _notFound = {};
     var _initialView = true;
     var filterFormat = 'all';
@@ -90,6 +99,10 @@
                 repeat: repeat,
                 favoritesOnly: favoritesOnly,
                 firEnabled: firEnabled,
+                xfEnabled: xfEnabled,
+                roomEnabled: roomEnabled,
+                showFormat: showFormat,
+                showChannels: showChannels,
                 isMono: isMono,
                 chipMode: chipMode,
                 isYM: isYM,
@@ -118,6 +131,10 @@
             if (state.repeat !== undefined) repeat = state.repeat;
             if (state.favoritesOnly !== undefined) favoritesOnly = state.favoritesOnly;
             if (state.firEnabled !== undefined) firEnabled = state.firEnabled;
+            if (state.xfEnabled !== undefined) xfEnabled = state.xfEnabled;
+            if (state.roomEnabled !== undefined) roomEnabled = state.roomEnabled;
+            if (state.showFormat !== undefined) showFormat = state.showFormat;
+            if (state.showChannels !== undefined) showChannels = state.showChannels;
             if (state.isMono !== undefined) isMono = state.isMono;
             if (state.chipMode !== undefined) chipMode = state.chipMode;
             if (state.isYM !== undefined) isYM = state.isYM;
@@ -162,6 +179,31 @@
         return pan;
     }
 
+    function _makeRoomIR(ctx) {
+        var sr = ctx.sampleRate;
+        var len = Math.floor(sr * 0.9);
+        var buffer = ctx.createBuffer(2, len, sr);
+        for (var ch = 0; ch < 2; ch++) {
+            var data = buffer.getChannelData(ch);
+            for (var i = 0; i < len; i++) {
+                var env = Math.pow(1 - i / len, 2.5);
+                data[i] = (Math.random() * 2 - 1) * env * 0.6;
+            }
+            data[Math.floor(sr * 0.011)] += 0.45;
+            data[Math.floor(sr * 0.018)] += 0.32;
+            data[Math.floor(sr * 0.027)] += 0.24;
+            data[Math.floor(sr * 0.039)] += 0.17;
+            data[Math.floor(sr * 0.053)] += 0.12;
+        }
+        return buffer;
+    }
+
+    function _applyRoomGain() {
+        if (_roomGain && audioContext) {
+            _roomGain.gain.setValueAtTime(roomEnabled ? 0.3 : 0, audioContext.currentTime);
+        }
+    }
+
     function updatePan() {
         var pan = _getPanData();
         if (_workletNode) {
@@ -202,7 +244,8 @@
     var _fadeDuration = 0;
     var _fadeStartTime = 0;
     var _fadeOnDone = null;
-    var scopeFps = 60;
+    var scopeFps = _isMobile ? 30 : 60;
+    var _isMobile = /Android|iPhone|iPad|iPod|Mobile/i.test(navigator.userAgent);
     var scopeFrame = 0;
     var scopeColors = ['#44FF44', '#FFFF44', '#44AAFF', '#FF6644', '#CC66FF', '#44FFAA', '#FF88CC', '#88FF88', '#FFAA44', '#66FFFF', '#FF9944', '#B4FF44'];
     var trackEndedFlag = false;
@@ -257,6 +300,8 @@
     var _streamer = null;
     var _streamMode = false;
     var _streamGen = 0;
+    var _waveWorker = null;
+    var _waveGen = 0;
     var _streamRenderDone = false;
     var _streamEndFrame = 0;
     var _streamInQueue = 0;
@@ -299,7 +344,7 @@
         f = f.replace(/%20/g, ' ');
         var i = f.lastIndexOf('/');
         if (i >= 0) f = f.substring(i + 1);
-        return f.replace(/\.(fym|pt3|vt2|psg|stc|ay|pt2|snd|asc|mtc|tfc)$/i, '');
+        return f.replace(/\.(fym|pt3|vt2|psg|stc|ay|pt2|pt1|snd|asc|mtc|tfc|stp)$/i, '');
     }
 
     document.addEventListener('contextmenu', function(e) { e.preventDefault(); });
@@ -326,9 +371,7 @@
         for (var ch = 0; ch < 12; ch++) {
             var c = document.getElementById(containerId + '_scope' + ch);
             if (c) {
-                c.width = 48;
-                c.height = 48;
-                scopeCtx[ch] = c.getContext('2d');
+                scopeCtx[ch] = sizeScopeCanvas(ch);
                 c.style.cursor = 'pointer';
                 c.addEventListener('click', (function(idx) {
                     return function(e) {
@@ -360,6 +403,26 @@
 
 
 
+    function sizeScopeCanvas(ch) {
+        var c = document.getElementById(containerId + '_scope' + ch);
+        if (!c) return null;
+        var dpr = window.devicePixelRatio || 1;
+        var cw = c.clientWidth || 48;
+        var dw = Math.max(1, Math.round(cw * dpr));
+        if (c.width !== dw) { c.width = dw; c.height = dw; }
+        var ctx = c.getContext('2d');
+        ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+        return ctx;
+    }
+
+    function resizeScope() {
+        for (var ch = 0; ch < 12; ch++) {
+            var c = document.getElementById(containerId + '_scope' + ch);
+            if (c) scopeCtx[ch] = sizeScopeCanvas(ch);
+        }
+        if (!document.hidden) drawScope();
+    }
+
     function isTrackVisible(id) {
         var entry = playlist[id];
         if (!entry) return false;
@@ -374,7 +437,9 @@
             var asc = isAscFile(entry.file);
             var mtc = isMtcFile(entry.file);
             var tfc = isTfcFile(entry.file);
-            if (filterFormat === 'fym' && (pt3 || vt2 || psg || snd || stc || ay || pt2 || asc || mtc || tfc)) return false;
+            var stp = isStpFile(entry.file);
+            var pt1 = isPt1File(entry.file);
+            if (filterFormat === 'fym' && (pt3 || vt2 || psg || snd || stc || ay || pt2 || asc || mtc || tfc || stp || pt1)) return false;
             if (filterFormat === 'pt3' && !pt3) return false;
             if (filterFormat === 'vt2' && !vt2) return false;
             if (filterFormat === 'psg' && !psg) return false;
@@ -385,6 +450,8 @@
             if (filterFormat === 'asc' && !asc) return false;
             if (filterFormat === 'mtc' && !mtc) return false;
             if (filterFormat === 'tfc' && !tfc) return false;
+            if (filterFormat === 'stp' && !stp) return false;
+            if (filterFormat === 'pt1' && !pt1) return false;
         }
         if (chFilter !== 'all' && (entry.channels || 3) !== parseInt(chFilter)) return false;
         if (alphaFilter !== 'all') {
@@ -401,18 +468,29 @@
         for (var ch = 0; ch < 12; ch++) scopeBuf[ch] = [];
     }
 
+    var _lastTimeText = '';
+    var _waveformLastK = -1;
+    var _waveformRendered = false;
     function updateProgress() {
-        if (!song) return;
+        if (!song || document.hidden) return;
         var fc = pt3FrameCount || song.getFrameCount();
         var progress = fc > 0 ? playFrame / fc : 0;
         if (progress > 1) progress = 1;
         var k = Math.round(progress * 10000) * 0.01;
-        if (waveformData && k !== _waveformProgress) {
-            _waveformProgress = k;
+        if (waveformData && k !== _waveformLastK) {
+            _waveformLastK = k;
             drawWaveform(k);
         }
         var time = document.getElementById(containerId + '_trackTime');
-        if (time) time.textContent = getTimeDisplay();
+        var timeM = document.getElementById(containerId + '_trackTimeM');
+        if (time || timeM) {
+            var txt = getTimeDisplay();
+            if (txt !== _lastTimeText) {
+                _lastTimeText = txt;
+                if (time) time.textContent = txt;
+                if (timeM) timeM.textContent = txt;
+            }
+        }
         if (onTimeUpdate) onTimeUpdate(getTimeDisplay());
     }
 
@@ -442,7 +520,7 @@
         for (var ch = 0; ch < 12; ch++) {
             var ctx = scopeCtx[ch];
             if (!ctx) continue;
-            var w = ctx.canvas.width, h = ctx.canvas.height;
+            var w = ctx.canvas.clientWidth || 48, h = ctx.canvas.clientHeight || 48;
             if (ch < _chipCount * 3) {
                 var isMuted = muted[ch];
                 ctx.fillStyle = isMuted ? '#003850' : '#001020';
@@ -486,6 +564,7 @@
     }
 
     function rafLoop() {
+        if (document.hidden) { rafId = null; resetScope(); return; }
         for (var ch = 0; ch < _chipCount * 3; ch++) {
             if (scopeBuf[ch].length > scopeMax) {
                 scopeBuf[ch].splice(0, scopeBuf[ch].length - scopeMax);
@@ -496,27 +575,30 @@
             var t = _fadeDuration > 0 ? Math.min(1, elapsed / _fadeDuration) : 1;
             _scopeFade = _fadeStartVal + (_fadeTarget - _fadeStartVal) * t;
             _applyFadeGain();
-            drawScope();
+            if (!document.hidden) drawScope();
             if (t >= 1) {
                 _scopeFade = _fadeTarget;
                 _applyFadeGain();
-                drawScope();
+                if (!document.hidden) drawScope();
                 _fadeTarget = -1;
                 var cb = _fadeOnDone;
                 _fadeOnDone = null;
                 if (cb) cb();
             }
         }
-        updateProgress();
-        scopeFrame++;
-        if (_scopeDirty && (scopeFps >= 60 || (scopeFrame % (60 / scopeFps)) === 1)) {
-            drawScope(); _scopeDirty = false;
+        // Don't update progress or scope when hidden (screen off)
+        if (!document.hidden) {
+            updateProgress();
+            scopeFrame++;
+            if (_scopeDirty && (scopeFps >= 60 || (scopeFrame % (60 / scopeFps)) === 1)) {
+                drawScope(); _scopeDirty = false;
+            }
         }
-        if (playlistRenderPending) {
+        if (playlistRenderPending && !document.hidden) {
             playlistRenderPending = false;
-            setTimeout(function() { renderPlaylist(); }, 0);
+            renderPlaylist();
         }
-        if (playing || _fadeTarget >= 0) rafId = requestAnimationFrame(rafLoop);
+        if ((playing && !document.hidden) || _fadeTarget >= 0) rafId = requestAnimationFrame(rafLoop);
     }
 
     function handleWorkletMessage(e) {
@@ -538,6 +620,13 @@
                 if (!_streamUnderflowShown) {
                     _streamUnderflowShown = true;
                     showToast('Буферизация\u2026');
+                }
+            } else if (msg.type === 'ended') {
+                if (!repeat && !loadingNext) {
+                    loadingNext = true;
+                    trackEndedFlag = false;
+                    if (rafId) { cancelAnimationFrame(rafId); rafId = null; }
+                    api.next();
                 }
             } else if (msg.type === 'chunkConsumed') {
                 _streamInQueue--;
@@ -591,6 +680,8 @@
     function isAscFile(file) { return /\.asc$/i.test(file); }
     function isMtcFile(file) { return /\.mtc$/i.test(file); }
     function isTfcFile(file) { return /\.tfc$/i.test(file); }
+    function isStpFile(file) { return /\.stp$/i.test(file); }
+    function isPt1File(file) { return /\.pt1$/i.test(file); }
 
     function updateFilterDisplay() {
         var el = document.getElementById(containerId + '_playlistItems');
@@ -611,7 +702,9 @@
                 var asc = isAscFile(playlist[ci].file);
                 var mtc = isMtcFile(playlist[ci].file);
                 var tfc = isTfcFile(playlist[ci].file);
-                if (filterFormat === 'fym' && (pt3 || vt2 || psg || snd || stc || ay || pt2 || asc || mtc || tfc)) continue;
+                var stp = isStpFile(playlist[ci].file);
+                var pt1 = isPt1File(playlist[ci].file);
+                if (filterFormat === 'fym' && (pt3 || vt2 || psg || snd || stc || ay || pt2 || asc || mtc || tfc || stp || pt1)) continue;
                 if (filterFormat === 'pt3' && !pt3) continue;
                 if (filterFormat === 'vt2' && !vt2) continue;
                 if (filterFormat === 'psg' && !psg) continue;
@@ -622,6 +715,8 @@
                 if (filterFormat === 'asc' && !asc) continue;
                 if (filterFormat === 'mtc' && !mtc) continue;
                 if (filterFormat === 'tfc' && !tfc) continue;
+                if (filterFormat === 'stp' && !stp) continue;
+                if (filterFormat === 'pt1' && !pt1) continue;
             }
             if (chFilter !== 'all' && (playlist[ci].channels || 3) !== parseInt(chFilter)) continue;
             if (alphaFilter !== 'all') {
@@ -685,7 +780,9 @@
                 var asc = isAscFile(playlist[ci].file);
                 var mtc = isMtcFile(playlist[ci].file);
                 var tfc = isTfcFile(playlist[ci].file);
-                if (filterFormat === 'fym' && (pt3 || vt2 || psg || snd || stc || ay || pt2 || asc || mtc || tfc)) continue;
+                var stp = isStpFile(playlist[ci].file);
+                var pt1 = isPt1File(playlist[ci].file);
+                if (filterFormat === 'fym' && (pt3 || vt2 || psg || snd || stc || ay || pt2 || asc || mtc || tfc || stp || pt1)) continue;
                 if (filterFormat === 'pt3' && !pt3) continue;
                 if (filterFormat === 'vt2' && !vt2) continue;
                 if (filterFormat === 'psg' && !psg) continue;
@@ -696,6 +793,8 @@
                 if (filterFormat === 'asc' && !asc) continue;
                 if (filterFormat === 'mtc' && !mtc) continue;
                 if (filterFormat === 'tfc' && !tfc) continue;
+                if (filterFormat === 'stp' && !stp) continue;
+                if (filterFormat === 'pt1' && !pt1) continue;
             if (chFilter !== 'all' && (playlist[ci].channels || 3) !== parseInt(chFilter)) continue;
             if (alphaFilter !== 'all') {
                 var display = _trackDisplay(playlist[ci]);
@@ -764,7 +863,9 @@
                 var asc = isAscFile(playlist[ci].file);
                 var mtc = isMtcFile(playlist[ci].file);
                 var tfc = isTfcFile(playlist[ci].file);
-                if (filterFormat === 'fym' && (pt3 || vt2 || psg || snd || stc || ay || pt2 || asc || mtc || tfc)) continue;
+                var stp = isStpFile(playlist[ci].file);
+                var pt1 = isPt1File(playlist[ci].file);
+                if (filterFormat === 'fym' && (pt3 || vt2 || psg || snd || stc || ay || pt2 || asc || mtc || tfc || stp || pt1)) continue;
                 if (filterFormat === 'pt3' && !pt3) continue;
                 if (filterFormat === 'vt2' && !vt2) continue;
                 if (filterFormat === 'psg' && !psg) continue;
@@ -775,6 +876,8 @@
                 if (filterFormat === 'asc' && !asc) continue;
                 if (filterFormat === 'mtc' && !mtc) continue;
                 if (filterFormat === 'tfc' && !tfc) continue;
+                if (filterFormat === 'stp' && !stp) continue;
+                if (filterFormat === 'pt1' && !pt1) continue;
             }
             if (alphaFilter !== 'all') {
                 var display = _trackDisplay(playlist[ci]);
@@ -832,8 +935,6 @@
             var prevActive = el.querySelector('.ayPlayer-playlist-item.active');
             if (prevActive) {
                 prevActive.classList.remove('active');
-                var prevIcon = prevActive.querySelector('.ayPlayer-playlist-play-icon');
-                if (prevIcon) prevIcon.remove();
                 if (playlist[currentId] && playlist[currentId].channels) {
                     var chEl = prevActive.querySelector('.ayPlayer-playlist-ch');
                     if (chEl) { chEl.textContent = playlist[currentId].channels + 'ch'; chEl.className = 'ayPlayer-playlist-format ayPlayer-playlist-ch ayPlayer-ch-' + playlist[currentId].channels; }
@@ -848,15 +949,6 @@
                 if (newActive) {
                     newActive.classList.add('active');
                     newActive.classList.remove('not-found');
-                    if (!newActive.querySelector('.ayPlayer-playlist-play-icon')) {
-                        var nameEl = newActive.querySelector('.ayPlayer-playlist-item-name');
-                        if (nameEl) {
-                            var icon = document.createElement('span');
-                            icon.className = 'ayPlayer-playlist-play-icon';
-                            icon.textContent = '\u25B6';
-                            nameEl.parentNode.insertBefore(icon, nameEl);
-                        }
-                    }
                     if (playlist[currentId] && playlist[currentId].channels) {
                         var chEl2 = newActive.querySelector('.ayPlayer-playlist-ch');
                         if (chEl2 && chEl2.textContent !== playlist[currentId].channels + 'ch') {
@@ -973,7 +1065,9 @@
                     var fAsc = isAscFile(playlist[idx].file);
                     var fMtc = isMtcFile(playlist[idx].file);
                     var fTfc = isTfcFile(playlist[idx].file);
-                    if (filterFormat === 'fym' && (fPt3 || fVt2 || fPsg || fSnd || fStc || fAy || fPt2 || fAsc || fMtc || fTfc)) continue;
+                    var fStp = isStpFile(playlist[idx].file);
+                    var fPt1 = isPt1File(playlist[idx].file);
+                    if (filterFormat === 'fym' && (fPt3 || fVt2 || fPsg || fSnd || fStc || fAy || fPt2 || fAsc || fMtc || fTfc || fStp || fPt1)) continue;
                     if (filterFormat === 'pt3' && !fPt3) continue;
                     if (filterFormat === 'vt2' && !fVt2) continue;
                     if (filterFormat === 'psg' && !fPsg) continue;
@@ -984,6 +1078,8 @@
                     if (filterFormat === 'asc' && !fAsc) continue;
                     if (filterFormat === 'mtc' && !fMtc) continue;
                     if (filterFormat === 'tfc' && !fTfc) continue;
+                    if (filterFormat === 'stp' && !fStp) continue;
+                    if (filterFormat === 'pt1' && !fPt1) continue;
                 }
                 if (alphaFilter !== 'all') {
                     var fDisplay = _trackDisplay(playlist[idx]);
@@ -1019,7 +1115,10 @@
                 ' data-dir="' + dir.replace(/"/g, '&quot;') + '"' +
                 (folderHidden ? ' style="display:none"' : '') + '>' +
                 '<div class="ayPlayer-playlist-folder-header" onclick="AYPlayer.toggleFolder(this)">' +
-                '<span class="ayPlayer-playlist-folder-arrow' + (isOpen ? ' open' : '') + '">\u25B6</span> ' +
+                '<span class="ayPlayer-playlist-folder-arrow' + (isOpen ? ' open' : '') + '">' +
+                '<img class="ayPlayer-playlist-folder-ico ayPlayer-playlist-folder-close-ico" src="' + _folderCloseIco + '" alt="">' +
+                '<img class="ayPlayer-playlist-folder-ico ayPlayer-playlist-folder-open-ico" src="' + _folderOpenIco + '" alt="">' +
+                '</span> ' +
                 displayDir + ' <span class="ayPlayer-playlist-folder-count">(' + fCount + ')</span>' +
                 '</div>' +
                 '<div class="ayPlayer-playlist-folder-items"' + (isOpen ? ' style="display:block"' : ' style="display:none"') + '"></div></div>';
@@ -1141,22 +1240,52 @@
                 line1.textContent = '\u00A0';
                 line2.textContent = _trackDisplay(entry) || info.fileName || '';
             } else if (info.author) {
-                line1.textContent = info.author;
+                line1.appendChild(document.createTextNode(info.author));
                 line2.textContent = info.title;
             } else {
                 var display = isPT3
-                    ? ((info.title || info.fileName) || '').replace(/%20/g, ' ').replace(/\.(fym|pt3|vt2|psg|stc|ay|snd|asc)$/i, '')
+                    ? ((info.title || info.fileName) || '').replace(/%20/g, ' ').replace(/\.(fym|pt3|vt2|psg|stc|ay|snd|asc|pt1|stp)$/i, '')
                     : (_trackDisplay(entry) || info.fileName || '').replace(/%20/g, ' ');
-                line1.textContent = display;
-                line2.textContent = '\u00A0';
+                var sub = '';
+                if (entry) {
+                    if (entry.section) sub = entry.section;
+                    else if (entry.file) {
+                        var parts = entry.file.split('/');
+                        parts.pop();
+                        if (parts.length > 1) sub = parts[parts.length - 1];
+                    }
+                }
+                if (sub) {
+                    line1.textContent = sub;
+                    line2.textContent = display;
+                } else {
+                    line1.appendChild(document.createTextNode(display));
+                    line2.textContent = '\u00A0';
+                }
             }
             el.appendChild(line1);
             el.appendChild(line2);
+            fitTrackInfo(el);
         }
         displayTrackInfo(document.getElementById(containerId + '_trackName'));
         displayTrackInfo(document.querySelector('#' + containerId + '_trackName2 .ayPlayer-trackName-mobile'));
         if (onTrackChange) onTrackChange(info);
         updatePlaylistActive();
+    }
+
+    function fitTrackInfo(el) {
+        if (!el) return;
+        var lines = el.querySelectorAll('.ayPlayer-trackAuthor, .ayPlayer-trackTitle');
+        for (var i = 0; i < lines.length; i++) {
+            var line = lines[i];
+            line.style.whiteSpace = 'nowrap';
+            line.style.fontSize = '';
+            var fs = 15;
+            while (fs > 8 && line.scrollWidth > line.clientWidth) {
+                fs -= 0.5;
+                line.style.fontSize = fs + 'px';
+            }
+        }
     }
 
     function updateSepHighlight(list) {
@@ -1212,8 +1341,6 @@
             var oldEl = list.querySelector('.ayPlayer-playlist-item[data-id="' + _lastActiveId + '"]');
             if (oldEl) {
                 oldEl.classList.remove('active');
-                var oldIcon = oldEl.querySelector('.ayPlayer-playlist-play-icon');
-                if (oldIcon) oldIcon.remove();
             }
         }
         _lastActiveId = currentId;
@@ -1235,17 +1362,6 @@
         if (newEl) {
             var isActive = playing;
             newEl.classList.toggle('active', isActive);
-            var icon = newEl.querySelector('.ayPlayer-playlist-play-icon');
-            if (icon) icon.remove();
-            if (isActive) {
-                var nameEl = newEl.querySelector('.ayPlayer-playlist-item-name');
-                if (nameEl) {
-                    var playIcon = document.createElement('span');
-                    playIcon.className = 'ayPlayer-playlist-play-icon';
-                    playIcon.textContent = '\u25B6';
-                    nameEl.parentNode.insertBefore(playIcon, nameEl);
-                }
-            }
             newEl.scrollIntoView({ block: 'nearest' });
         }
         updateSepHighlight(list);
@@ -1268,6 +1384,8 @@
         var isASC = /\.asc$/i.test(fileName);
         var isMTC = /\.mtc$/i.test(fileName);
         var isTFC = /\.tfc$/i.test(fileName);
+        var isSTP = /\.stp$/i.test(fileName);
+        var isPT1 = /\.pt1$/i.test(fileName);
         var dump = [];
         var dumpLen = 0;
         var fr = 50, clock = 1773400, turbo = false, chipCount = 1;
@@ -1351,10 +1469,14 @@
             requestWakeLock();
             updateTrackDisplay();
             var totalEl = document.getElementById(containerId + '_totalTime');
-            if (totalEl) totalEl.textContent = trackTotalTime || getTotalTime();
+            var totalElM = document.getElementById(containerId + '_totalTimeM');
+            var totalTxt = trackTotalTime || getTotalTime();
+            if (totalEl) totalEl.textContent = totalTxt;
+            if (totalElM) totalElM.textContent = totalTxt;
             if (onTimeUpdate) onTimeUpdate(getTimeDisplay());
             updatePlayBtn();
             _showAutoplayPrompt();
+            _requestAccurateWaveform(fileName);
         }
 
         function startDumpLoad(reader, maxFc, formatDumpFn, onComplete) {
@@ -1661,6 +1783,64 @@
                 var effectiveClock = clockSelect || clock;
                 generatePt3Waveform(dump, dumpLen, fr, effectiveClock, chipCount, fileName, reader.getLoopFrame(), numPos, loopPos, 0, false, startAudio);
             });
+        } else if (isSTP) {
+            var reader = new STPReader(fym, fileName);
+            if (reader.error) { showError(reader.error); return; }
+            fr = reader.getFrameRate();
+            clock = reader.getClockRate();
+            turbo = reader.getTurbo();
+            chipCount = reader.getNumChips ? reader.getNumChips() : 1;
+            trackName = reader.getTrackName();
+            authorName = reader.getAuthorName();
+            trackFileName = reader.getTrackFileName();
+            numPos = reader.getNumPositions();
+            loopPos = reader.getLoopPos();
+            var stpFc = reader.getFrameCount();
+            var stpMaxFc = Math.max(stpFc * 2, fr * 120);
+            startDumpLoad(reader, stpMaxFc, function(dump, r) {
+                dump.push({ a: r[0].slice(), b: [] });
+            }, function(localDump, lf, di) {
+                dump = localDump;
+                dumpLen = dump.length;
+                if (lf >= 0) {
+                    var effectiveEnd = Math.min(dumpLen, lf);
+                    if (effectiveEnd < dumpLen) { dump.length = effectiveEnd; dumpLen = effectiveEnd; }
+                } else if (dumpLen > stpFc) {
+                    dump.length = stpFc; dumpLen = stpFc;
+                }
+                pt3FrameCount = dumpLen;
+                var effectiveClock = clockSelect || clock;
+                generatePt3Waveform(dump, dumpLen, fr, effectiveClock, chipCount, fileName, lf, numPos, loopPos, reader.getDelay(), false, startAudio);
+            });
+        } else if (isPT1) {
+            var reader = new PT1Reader(fym, fileName);
+            if (reader.error) { showError(reader.error); return; }
+            fr = reader.getFrameRate();
+            clock = reader.getClockRate();
+            turbo = reader.getTurbo();
+            chipCount = reader.getNumChips ? reader.getNumChips() : 1;
+            trackName = reader.getTrackName();
+            authorName = reader.getAuthorName();
+            trackFileName = reader.getTrackFileName();
+            numPos = reader.getNumPositions();
+            loopPos = reader.getLoopPos();
+            var pt1Fc = reader.getFrameCount();
+            var pt1MaxFc = Math.max(pt1Fc * 2, fr * 120);
+            startDumpLoad(reader, pt1MaxFc, function(dump, r) {
+                dump.push({ a: r[0].slice(), b: [] });
+            }, function(localDump, lf, di) {
+                dump = localDump;
+                dumpLen = dump.length;
+                if (lf >= 0) {
+                    var effectiveEnd = Math.min(dumpLen, lf);
+                    if (effectiveEnd < dumpLen) { dump.length = effectiveEnd; dumpLen = effectiveEnd; }
+                } else if (dumpLen > pt1Fc) {
+                    dump.length = pt1Fc; dumpLen = pt1Fc;
+                }
+                pt3FrameCount = dumpLen;
+                var effectiveClock = clockSelect || clock;
+                generatePt3Waveform(dump, dumpLen, fr, effectiveClock, chipCount, fileName, lf, numPos, loopPos, reader.getDelay(), false, startAudio);
+            });
         } else {
             var fymReader = new FYMReader(fym, fileName);
             fr = fymReader.getFrameRate();
@@ -1854,20 +2034,6 @@
             el.style.right = '0';
             var shouldBeActive = playing && slots[si].type === 'item' && slots[si].id === currentId;
             el.classList.toggle('active', shouldBeActive);
-            var icon = el.querySelector('.ayPlayer-playlist-play-icon');
-            if (shouldBeActive) {
-                if (!icon) {
-                    var nameEl = el.querySelector('.ayPlayer-playlist-item-name');
-                    if (nameEl) {
-                        icon = document.createElement('span');
-                        icon.className = 'ayPlayer-playlist-play-icon';
-                        icon.textContent = '\u25B6';
-                        nameEl.parentNode.insertBefore(icon, nameEl);
-                    }
-                }
-            } else if (icon) {
-                icon.remove();
-            }
             if (prevSib) {
                 itemsEl.insertBefore(el, prevSib.nextSibling);
             } else if (itemsEl.firstChild) {
@@ -1910,11 +2076,13 @@
         var iisAsc = isAscFile(playlist[ii].file);
         var iisMtc = isMtcFile(playlist[ii].file);
         var iisTfc = isTfcFile(playlist[ii].file);
+        var iisStp = isStpFile(playlist[ii].file);
+        var iisPt1 = isPt1File(playlist[ii].file);
         var idisplay = _trackDisplay(playlist[ii]);
         var iactive = (ii === currentId && playing) ? ' active' : '';
         var ifirstChar = idisplay.charAt(0).toUpperCase();
         var ialpha = (ifirstChar >= 'A' && ifirstChar <= 'Z') ? ifirstChar : '0';
-        var iformat = iisPt3 ? 'pt3' : (iisVt2 ? 'vt2' : (iisPsg ? 'psg' : (iisSnd ? 'snd' : (iisStc ? 'stc' : (iisAy ? 'ay' : (iisPt2 ? 'pt2' : (iisAsc ? 'asc' : (iisTfc ? 'tfc' : (iisMtc ? 'mtc' : 'fym')))))))));
+        var iformat = iisPt3 ? 'pt3' : (iisVt2 ? 'vt2' : (iisPsg ? 'psg' : (iisSnd ? 'snd' : (iisStc ? 'stc' : (iisAy ? 'ay' : (iisPt2 ? 'pt2' : (iisAsc ? 'asc' : (iisTfc ? 'tfc' : (iisStp ? 'stp' : (iisPt1 ? 'pt1' : (iisMtc ? 'mtc' : 'fym')))))))))));
         var slots = [];
         if (playlist[ii].year && (prevIi === null || playlist[prevIi].year !== playlist[ii].year)) {
             slots.push({ type: 'year-sep', h: 28, html: '<div class="ayPlayer-playlist-year-sep" data-alpha="' + ialpha + '">' + playlist[ii].year + ' <span class="ayPlayer-playlist-year-line"></span></div>' });
@@ -1922,16 +2090,16 @@
         if (playlist[ii].section && (prevIi === null || playlist[prevIi].section !== playlist[ii].section)) {
             slots.push({ type: 'auth-sep', h: 28, html: '<div class="ayPlayer-playlist-auth-sep" data-alpha="' + ialpha + '">' + playlist[ii].section + '</div>' });
         }
-        var iplayIcon = iactive ? '<span class="ayPlayer-playlist-play-icon">\u25B6</span> ' : '';
+        var iplayIcon = '';
         var itimeStr = playlist[ii].time ? '<span class="ayPlayer-playlist-time">' + playlist[ii].time + '</span>' : '';
         var iisFav = favorites[ii] ? ' active' : '';
         var ifavStar = '<span class="ayPlayer-playlist-fav-star' + iisFav + '" onclick="event.stopPropagation(); AYPlayer.toggleFavorite(' + ii + ')"></span>';
-        var iformatLabel = '<span class="ayPlayer-playlist-format">' + (iisPt3 ? 'PT3' : (iisVt2 ? 'VT2' : (iisPsg ? 'PSG' : (iisSnd ? 'SND' : (iisStc ? 'STC' : (iisAy ? 'AY' : (iisPt2 ? 'PT2' : (iisAsc ? 'ASC' : (iisTfc ? 'TFC' : (iisMtc ? 'MTC' : 'FYM')))))))))) + '</span>';
-        var ichLabel = playlist[ii].channels ? '<span class="ayPlayer-playlist-format ayPlayer-playlist-ch ayPlayer-ch-' + playlist[ii].channels + '">' + playlist[ii].channels + 'ch</span>' : '';
+        var iformatLabel = showFormat ? '<span class="ayPlayer-playlist-format">' + (iisPt3 ? 'PT3' : (iisVt2 ? 'VT2' : (iisPsg ? 'PSG' : (iisSnd ? 'SND' : (iisStc ? 'STC' : (iisAy ? 'AY' : (iisPt2 ? 'PT2' : (iisAsc ? 'ASC' : (iisTfc ? 'TFC' : (iisStp ? 'STP' : (iisPt1 ? 'PT1' : (iisMtc ? 'MTC' : 'FYM')))))))))))) + '</span>' : '';
+        var ichLabel = (showChannels && playlist[ii].channels) ? '<span class="ayPlayer-playlist-format ayPlayer-playlist-ch ayPlayer-ch-' + playlist[ii].channels + '">' + playlist[ii].channels + 'ch</span>' : '';
             var istemBtn = '<button class="ayPlayer-stems-btn" onclick="event.stopPropagation(); AYPlayer.exportStems(' + ii + ')" title="Export stems (WAV 48kHz/24bit)"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2010584%209535%22%20fill%3D%22%23FFFFFF%22%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%3E%3Cpath%20d%3D%22M5272.36%207413.11c-228.26%2C0%20-398.8%2C-160.84%20-468.37%2C-321.9%20-98.64%2C-228.36%20-9.34%2C-453.08%20120.55%2C-583.13%20321.21%2C-321.61%20894.49%2C-92.78%20894.49%2C381.58%200%2C276.9%20-232.49%2C523.45%20-505.21%2C523.45l-41.45%200zm1606.32%20-572.69c0%2C-384.76%20-184.58%2C-749.63%20-359.87%2C-961.65%20-90.08%2C-108.95%20-223.38%2C-238.44%20-346.64%2C-314.09%20-73.92%2C-45.37%20-130.12%2C-78.26%20-210.66%2C-118.4%20-147.98%2C-73.74%20-140.04%2C-28.6%20-139.9%2C-108.84%202.8%2C-1565.94%200.01%2C-3134.3%200.01%2C-4700.7%200%2C-235.89%20-39.81%2C-381.62%20-168.67%2C-489.5%20-109.45%2C-91.63%20-287.32%2C-192.31%20-500.8%2C-125.68%20-167.04%2C52.13%20-285.49%2C153.85%20-350.22%2C307.91%20-62.51%2C148.78%20-39.97%2C413.65%20-39.97%2C620.82l0%204288.67c0%2C196.57%2015.92%2C135.31%20-128.13%2C200.95%20-296.74%2C135.21%20-534.43%2C352.71%20-698.95%2C619.91%20-412.72%2C670.31%20-239.98%2C1476.8%20229.24%2C1946.05%20137.85%2C137.86%20305.58%2C258.24%20489.14%2C337.41%2023.13%2C9.98%20103.21%2C31.78%20107.1%2C56.13%2010.78%2C67.43%201.59%2C245.4%201.59%2C327.5%200%2C266.4%20-22.17%2C403.2%2088.83%2C571.94%2074.76%2C113.65%20235.97%2C236.56%20421.56%2C236.56l33.68%200c228.83%2C0%20427.89%2C-176%20483.09%2C-351.23%2067.4%2C-213.92%2013.55%2C-540.54%2035.08%2C-799.33%20111.42%2C-25.96%20326.57%2C-156.27%20410.48%2C-219.14%20117.45%2C-88.01%20228.3%2C-193.5%20316.08%2C-310.96%20162.4%2C-217.31%20327.91%2C-549.1%20327.91%2C-926.23l0%20-88.11z%22%2F%3E%3Cpath%20d%3D%22M8466.86%202616.54c0%2C-125.65%2093.92%2C-290.36%20162.92%2C-347.54%2094.74%2C-78.52%20192.47%2C-144.81%20365.61%2C-144.81%20288.5%2C0%20525.94%2C233.83%20525.94%2C520.86l0%2018.14c0%2C274.03%20-239.55%2C515.68%20-512.99%2C515.68l-28.5%200c-150.85%2C0%20-274.91%2C-75.1%20-353.19%2C-149.46%20-69.73%2C-66.24%20-159.8%2C-210.56%20-159.8%2C-342.89l0%20-69.97zm546.67%206918.88c246.86%2C0%20447.32%2C-200.69%20494.89%2C-404.21%2027.95%2C-119.56%2015.5%2C-291.8%2015.5%2C-435.39l0%20-4490.79c-0.04%2C-62.85%20-6.94%2C-52.32%2043.51%2C-70.51%2060.45%2C-21.79%20173.78%2C-77.59%20225.48%2C-108.76%20189.72%2C-114.39%20342.87%2C-249%20473.5%2C-423.01%20243.78%2C-324.73%20421.84%2C-879.17%20248.83%2C-1410.23%20-150.28%2C-461.3%20-422.86%2C-762.62%20-825.34%2C-970.3%20-32.36%2C-16.7%20-138.5%2C-54.26%20-157.88%2C-67.54%20-15.78%2C-10.82%20-8.11%2C-181.07%20-8.11%2C-217.34%200%2C-143.86%205.98%2C-308.05%20-2.26%2C-446.04%20-13.86%2C-232.1%20-208.9%2C-446.41%20-419.49%2C-477.04%20-303.08%2C-44.07%20-489.73%2C99.72%20-586.73%2C292.74%20-59.42%2C118.24%20-51.17%2C223.6%20-51.17%2C397.12%200%2C50.03%204.63%2C434.33%20-2.59%2C445.71%20-0.26%2C0.73%20-196.86%2C88.86%20-216.5%2C99.6%20-189.04%2C103.42%20-388.08%2C263.54%20-512.52%2C435.81%20-166.41%2C230.36%20-325.45%2C541.6%20-325.45%2C936.47l0%2059.6c0%2C395.58%20159.8%2C707.68%20326.97%2C937.54%2082.95%2C114.06%20205.99%2C227.89%20319.23%2C313%2056.99%2C42.84%20128.94%2C88.2%20193.82%2C122.28%2034.9%2C18.33%2069.56%2C35.59%20106.24%2C51.82%2028.71%2C12.7%2089.44%2C32.94%20110.8%2C47.25l0%204788.8c0%2C141.51%2010.41%2C213.68%2060.28%2C307.68%2073.47%2C138.51%20242.17%2C285.74%20450.11%2C285.74l38.86%200z%22%2F%3E%3Cpath%20d%3D%22M2116.72%204769.95c0%2C469.65%20-573.71%2C701.9%20-899.68%2C373.81%20-128.93%2C-129.77%20-216.39%2C-364.76%20-112.06%2C-587.6%2079.88%2C-170.61%20244.9%2C-314.84%20488.38%2C-314.84%20286.74%2C0%20523.35%2C241.5%20523.35%2C528.63zm-505.22%204765.48c221.21%2C0%20397.94%2C-169.39%20466.27%2C-326.6%2046.78%2C-107.63%2038.95%2C-207.12%2038.95%2C-357.52l0%20-1977.19c0%2C-46.55%20-3.36%2C-576.02%201%2C-595.01%204.88%2C-21.28%20108.14%2C-52.64%20132.42%2C-64.5%20188.85%2C-92.24%20324.05%2C-185.45%20464.42%2C-325.85%20244.44%2C-244.49%20461.82%2C-632.75%20461.82%2C-1121.4%200%2C-382.89%20-148.22%2C-738.35%20-318.13%2C-951.57%20-101.19%2C-126.99%20-186.5%2C-219.57%20-317%2C-317.81%20-62.64%2C-47.16%20-121.34%2C-84.1%20-192.5%2C-123.6%20-76.29%2C-42.35%20-134.92%2C-62.4%20-217.47%2C-98.63%20-27.28%2C-11.97%20-14.54%2C-109.03%20-14.54%2C-146.12l0%20-2376.26c0%2C-267.86%2015.09%2C-368.31%20-101.55%2C-533.31%20-77.27%2C-109.3%20-230.8%2C-215.7%20-419.21%2C-215.59%20-205.89%2C0.12%20-337.07%2C90.86%20-428.05%2C206.74%20-115.59%2C147.24%20-110.84%2C268.07%20-110.84%2C521.42%200%2C236.7%205.81%2C2516.83%20-2.59%2C2534.33%20-4%2C5.46%20-191.61%2C88.18%20-215.34%2C100.76%20-204.37%2C108.28%20-367.55%2C252.04%20-510.4%2C432.75%20-162.38%2C205.41%20-328.73%2C563.7%20-328.73%2C930.6l0%2072.56c0%2C472.39%20238.55%2C861.81%20476.07%2C1099.38%20121.93%2C121.95%20296.7%2C247.52%20468.61%2C319.07%2024.05%2C10.01%2044.99%2C18.16%2069.95%2C28.51%2035.95%2C14.9%2043.11%2C7.51%2042.53%2C55.93%20-0.79%2C65.52%20-0.09%2C131.47%20-0.09%2C197.03l0%202363.3c0%2C164.84%20-2.14%2C226.89%2044.81%2C349.06%2059.41%2C154.58%20253.23%2C319.5%20468.17%2C319.5l41.45%200z%22%2F%3E%3C%2Fsvg%3E" alt="Stems" width="16" height="16" class="ayPlayer-btn-icon"></button>';
         var imixBtn = '<button class="ayPlayer-mix-btn" onclick="event.stopPropagation(); AYPlayer.exportMix(' + ii + ')" title="Export stereo mix (WAV 48kHz/24bit)"><svg width="16" height="16" viewBox="0 0 41634 41634" fill="currentColor"><rect x="2997" y="16905" width="2776" height="7823" rx="1014" ry="2859"/><rect x="7692" y="7375" width="2776" height="26884" rx="1014" ry="9824"/><rect x="12387" y="13287" width="2776" height="15059" rx="1014" ry="5503"/><rect x="17082" y="18399" width="2776" height="4835" rx="1014" ry="1767"/><rect x="21777" y="2396" width="2776" height="36842" rx="1014" ry="13463"/><rect x="26471" y="15404" width="2776" height="10826" rx="1014" ry="3956"/><rect x="31166" y="17760" width="2776" height="6115" rx="1014" ry="2234"/><rect x="35861" y="18948" width="2776" height="3737" rx="1014" ry="1366"/></svg></button>';
         var ipt3Btn = '';
-            if (iisPt3 || iisVt2 || iisPsg || iisSnd || iisStc || iisAy || iisPt2 || iisAsc || iisMtc || iisTfc) {
+            if (iisPt3 || iisVt2 || iisPsg || iisSnd || iisStc || iisAy || iisPt2 || iisAsc || iisMtc || iisTfc || iisStp || iisPt1) {
             ipt3Btn = '<a class="ayPlayer-pt3-btn" href="' + playlist[ii].file.replace(/#/g, '%23') + '" download title="Download track" onclick="event.stopPropagation()"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg></a>';
         }
         var ishareBtn = '<button class="ayPlayer-share-btn" onclick="event.stopPropagation(); AYPlayer.copyTrackLink(' + ii + ')" title="Copy track link"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20512%20512%22%20fill%3D%22%23FFFFFF%22%3E%3Cpath%20d%3D%22M469%20299c0-4%200-8%200-11%200-65-29-126-79-166-9-7-23-6-30%203s-6%2023%203%2030c40%2032%2064%2081%2064%20133-48%200-86%2038-86%2085s38%2085%2085%2085%2086-38%2086-85c0-32-18-60-43-74zM427%20416c-24%200-43-19-43-43s19-43%2043-43%2043%2019%2043%2043-19%2043-43%2043zM64%20266c12%203%2023-4%2026-16%2011-50%2045-92%2090-115%2014%2027%2043%2046%2076%2046%2047%200%2085-38%2085-85S303%2011%20256%2011c-46%200-83%2036-85%2082C109%20119%2063%20174%2048%20241c-3%2011%205%2023%2016%2025zM256%2053c24%200%2043%2019%2043%2043s-19%2043-43%2043c-21%200-38-15-42-36%200%200%200%200%200%200%200-2%200-4%200-6%200-24%2019-43%2042-44zM313%20449c-18%206-37%2010-57%2010-37%200-73-12-102-34%2011-14%2017-32%2017-51%200-47-38-85-85-85S0%20326%200%20373s38%2085%2085%2085c12%200%2024-2%2034-7%2038%2032%2086%2050%20137%2050%2024%200%2048-4%2071-12%2011-4%2017-16%2013-27s-16-17-27-13zM43%20373c0-24%2019-43%2042-43s43%2019%2043%2043-19%2043-43%2043S43%20397%2043%20373z%22%2F%3E%3C%2Fsvg%3E" alt="Link" width="16" height="16" class="ayPlayer-btn-icon"></button>';
@@ -1963,27 +2131,29 @@
         var iisAsc = isAscFile(playlist[ii].file);
         var iisMtc = isMtcFile(playlist[ii].file);
         var iisTfc = isTfcFile(playlist[ii].file);
+        var iisStp = isStpFile(playlist[ii].file);
+        var iisPt1 = isPt1File(playlist[ii].file);
             var idisplay = _trackDisplay(playlist[ii]);
             var iactive = (ii === currentId && playing) ? ' active' : '';
             var ifirstChar = idisplay.charAt(0).toUpperCase();
             var ialpha = (ifirstChar >= 'A' && ifirstChar <= 'Z') ? ifirstChar : '0';
-            var iformat = iisPt3 ? 'pt3' : (iisVt2 ? 'vt2' : (iisPsg ? 'psg' : (iisSnd ? 'snd' : (iisStc ? 'stc' : (iisAy ? 'ay' : (iisPt2 ? 'pt2' : (iisAsc ? 'asc' : (iisTfc ? 'tfc' : (iisMtc ? 'mtc' : 'fym')))))))));
+            var iformat = iisPt3 ? 'pt3' : (iisVt2 ? 'vt2' : (iisPsg ? 'psg' : (iisSnd ? 'snd' : (iisStc ? 'stc' : (iisAy ? 'ay' : (iisPt2 ? 'pt2' : (iisAsc ? 'asc' : (iisTfc ? 'tfc' : (iisStp ? 'stp' : (iisPt1 ? 'pt1' : (iisMtc ? 'mtc' : 'fym')))))))))));
             if (playlist[ii].year && (!fi || playlist[ids[fi - 1]].year !== playlist[ii].year)) {
                 html += '<div class="ayPlayer-playlist-year-sep" data-alpha="' + ialpha + '">' + playlist[ii].year + ' <span class="ayPlayer-playlist-year-line"></span></div>';
             }
             if (playlist[ii].section && (!fi || playlist[ids[fi - 1]].section !== playlist[ii].section)) {
                 html += '<div class="ayPlayer-playlist-auth-sep" data-alpha="' + ialpha + '">' + playlist[ii].section + '</div>';
             }
-            var iplayIcon = iactive ? '<span class="ayPlayer-playlist-play-icon">\u25B6</span> ' : '';
+            var iplayIcon = '';
             var itimeStr = playlist[ii].time ? '<span class="ayPlayer-playlist-time">' + playlist[ii].time + '</span>' : '';
             var iisFav = favorites[ii] ? ' active' : '';
             var ifavStar = '<span class="ayPlayer-playlist-fav-star' + iisFav + '" onclick="event.stopPropagation(); AYPlayer.toggleFavorite(' + ii + ')"></span>';
-        var iformatLabel = '<span class="ayPlayer-playlist-format">' + (iisPt3 ? 'PT3' : (iisVt2 ? 'VT2' : (iisPsg ? 'PSG' : (iisSnd ? 'SND' : (iisStc ? 'STC' : (iisAy ? 'AY' : (iisPt2 ? 'PT2' : (iisAsc ? 'ASC' : (iisTfc ? 'TFC' : (iisMtc ? 'MTC' : 'FYM')))))))))) + '</span>';
-            var ichLabel = playlist[ii].channels ? '<span class="ayPlayer-playlist-format ayPlayer-playlist-ch ayPlayer-ch-' + playlist[ii].channels + '">' + playlist[ii].channels + 'ch</span>' : '';
+        var iformatLabel = showFormat ? '<span class="ayPlayer-playlist-format">' + (iisPt3 ? 'PT3' : (iisVt2 ? 'VT2' : (iisPsg ? 'PSG' : (iisSnd ? 'SND' : (iisStc ? 'STC' : (iisAy ? 'AY' : (iisPt2 ? 'PT2' : (iisAsc ? 'ASC' : (iisTfc ? 'TFC' : (iisStp ? 'STP' : (iisPt1 ? 'PT1' : (iisMtc ? 'MTC' : 'FYM')))))))))))) + '</span>' : '';
+            var ichLabel = (showChannels && playlist[ii].channels) ? '<span class="ayPlayer-playlist-format ayPlayer-playlist-ch ayPlayer-ch-' + playlist[ii].channels + '">' + playlist[ii].channels + 'ch</span>' : '';
             var istemBtn = '<button class="ayPlayer-stems-btn" onclick="event.stopPropagation(); AYPlayer.exportStems(' + ii + ')" title="Export stems (WAV 48kHz/24bit)"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2010584%209535%22%20fill%3D%22%23FFFFFF%22%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%3E%3Cpath%20d%3D%22M5272.36%207413.11c-228.26%2C0%20-398.8%2C-160.84%20-468.37%2C-321.9%20-98.64%2C-228.36%20-9.34%2C-453.08%20120.55%2C-583.13%20321.21%2C-321.61%20894.49%2C-92.78%20894.49%2C381.58%200%2C276.9%20-232.49%2C523.45%20-505.21%2C523.45l-41.45%200zm1606.32%20-572.69c0%2C-384.76%20-184.58%2C-749.63%20-359.87%2C-961.65%20-90.08%2C-108.95%20-223.38%2C-238.44%20-346.64%2C-314.09%20-73.92%2C-45.37%20-130.12%2C-78.26%20-210.66%2C-118.4%20-147.98%2C-73.74%20-140.04%2C-28.6%20-139.9%2C-108.84%202.8%2C-1565.94%200.01%2C-3134.3%200.01%2C-4700.7%200%2C-235.89%20-39.81%2C-381.62%20-168.67%2C-489.5%20-109.45%2C-91.63%20-287.32%2C-192.31%20-500.8%2C-125.68%20-167.04%2C52.13%20-285.49%2C153.85%20-350.22%2C307.91%20-62.51%2C148.78%20-39.97%2C413.65%20-39.97%2C620.82l0%204288.67c0%2C196.57%2015.92%2C135.31%20-128.13%2C200.95%20-296.74%2C135.21%20-534.43%2C352.71%20-698.95%2C619.91%20-412.72%2C670.31%20-239.98%2C1476.8%20229.24%2C1946.05%20137.85%2C137.86%20305.58%2C258.24%20489.14%2C337.41%2023.13%2C9.98%20103.21%2C31.78%20107.1%2C56.13%2010.78%2C67.43%201.59%2C245.4%201.59%2C327.5%200%2C266.4%20-22.17%2C403.2%2088.83%2C571.94%2074.76%2C113.65%20235.97%2C236.56%20421.56%2C236.56l33.68%200c228.83%2C0%20427.89%2C-176%20483.09%2C-351.23%2067.4%2C-213.92%2013.55%2C-540.54%2035.08%2C-799.33%20111.42%2C-25.96%20326.57%2C-156.27%20410.48%2C-219.14%20117.45%2C-88.01%20228.3%2C-193.5%20316.08%2C-310.96%20162.4%2C-217.31%20327.91%2C-549.1%20327.91%2C-926.23l0%20-88.11z%22%2F%3E%3Cpath%20d%3D%22M8466.86%202616.54c0%2C-125.65%2093.92%2C-290.36%20162.92%2C-347.54%2094.74%2C-78.52%20192.47%2C-144.81%20365.61%2C-144.81%20288.5%2C0%20525.94%2C233.83%20525.94%2C520.86l0%2018.14c0%2C274.03%20-239.55%2C515.68%20-512.99%2C515.68l-28.5%200c-150.85%2C0%20-274.91%2C-75.1%20-353.19%2C-149.46%20-69.73%2C-66.24%20-159.8%2C-210.56%20-159.8%2C-342.89l0%20-69.97zm546.67%206918.88c246.86%2C0%20447.32%2C-200.69%20494.89%2C-404.21%2027.95%2C-119.56%2015.5%2C-291.8%2015.5%2C-435.39l0%20-4490.79c-0.04%2C-62.85%20-6.94%2C-52.32%2043.51%2C-70.51%2060.45%2C-21.79%20173.78%2C-77.59%20225.48%2C-108.76%20189.72%2C-114.39%20342.87%2C-249%20473.5%2C-423.01%20243.78%2C-324.73%20421.84%2C-879.17%20248.83%2C-1410.23%20-150.28%2C-461.3%20-422.86%2C-762.62%20-825.34%2C-970.3%20-32.36%2C-16.7%20-138.5%2C-54.26%20-157.88%2C-67.54%20-15.78%2C-10.82%20-8.11%2C-181.07%20-8.11%2C-217.34%200%2C-143.86%205.98%2C-308.05%20-2.26%2C-446.04%20-13.86%2C-232.1%20-208.9%2C-446.41%20-419.49%2C-477.04%20-303.08%2C-44.07%20-489.73%2C99.72%20-586.73%2C292.74%20-59.42%2C118.24%20-51.17%2C223.6%20-51.17%2C397.12%200%2C50.03%204.63%2C434.33%20-2.59%2C445.71%20-0.26%2C0.73%20-196.86%2C88.86%20-216.5%2C99.6%20-189.04%2C103.42%20-388.08%2C263.54%20-512.52%2C435.81%20-166.41%2C230.36%20-325.45%2C541.6%20-325.45%2C936.47l0%2059.6c0%2C395.58%20159.8%2C707.68%20326.97%2C937.54%2082.95%2C114.06%20205.99%2C227.89%20319.23%2C313%2056.99%2C42.84%20128.94%2C88.2%20193.82%2C122.28%2034.9%2C18.33%2069.56%2C35.59%20106.24%2C51.82%2028.71%2C12.7%2089.44%2C32.94%20110.8%2C47.25l0%204788.8c0%2C141.51%2010.41%2C213.68%2060.28%2C307.68%2073.47%2C138.51%20242.17%2C285.74%20450.11%2C285.74l38.86%200z%22%2F%3E%3Cpath%20d%3D%22M2116.72%204769.95c0%2C469.65%20-573.71%2C701.9%20-899.68%2C373.81%20-128.93%2C-129.77%20-216.39%2C-364.76%20-112.06%2C-587.6%2079.88%2C-170.61%20244.9%2C-314.84%20488.38%2C-314.84%20286.74%2C0%20523.35%2C241.5%20523.35%2C528.63zm-505.22%204765.48c221.21%2C0%20397.94%2C-169.39%20466.27%2C-326.6%2046.78%2C-107.63%2038.95%2C-207.12%2038.95%2C-357.52l0%20-1977.19c0%2C-46.55%20-3.36%2C-576.02%201%2C-595.01%204.88%2C-21.28%20108.14%2C-52.64%20132.42%2C-64.5%20188.85%2C-92.24%20324.05%2C-185.45%20464.42%2C-325.85%20244.44%2C-244.49%20461.82%2C-632.75%20461.82%2C-1121.4%200%2C-382.89%20-148.22%2C-738.35%20-318.13%2C-951.57%20-101.19%2C-126.99%20-186.5%2C-219.57%20-317%2C-317.81%20-62.64%2C-47.16%20-121.34%2C-84.1%20-192.5%2C-123.6%20-76.29%2C-42.35%20-134.92%2C-62.4%20-217.47%2C-98.63%20-27.28%2C-11.97%20-14.54%2C-109.03%20-14.54%2C-146.12l0%20-2376.26c0%2C-267.86%2015.09%2C-368.31%20-101.55%2C-533.31%20-77.27%2C-109.3%20-230.8%2C-215.7%20-419.21%2C-215.59%20-205.89%2C0.12%20-337.07%2C90.86%20-428.05%2C206.74%20-115.59%2C147.24%20-110.84%2C268.07%20-110.84%2C521.42%200%2C236.7%205.81%2C2516.83%20-2.59%2C2534.33%20-4%2C5.46%20-191.61%2C88.18%20-215.34%2C100.76%20-204.37%2C108.28%20-367.55%2C252.04%20-510.4%2C432.75%20-162.38%2C205.41%20-328.73%2C563.7%20-328.73%2C930.6l0%2072.56c0%2C472.39%20238.55%2C861.81%20476.07%2C1099.38%20121.93%2C121.95%20296.7%2C247.52%20468.61%2C319.07%2024.05%2C10.01%2044.99%2C18.16%2069.95%2C28.51%2035.95%2C14.9%2043.11%2C7.51%2042.53%2C55.93%20-0.79%2C65.52%20-0.09%2C131.47%20-0.09%2C197.03l0%202363.3c0%2C164.84%20-2.14%2C226.89%2044.81%2C349.06%2059.41%2C154.58%20253.23%2C319.5%20468.17%2C319.5l41.45%200z%22%2F%3E%3C%2Fsvg%3E" alt="Stems" width="16" height="16" class="ayPlayer-btn-icon"></button>';
             var imixBtn = '<button class="ayPlayer-mix-btn" onclick="event.stopPropagation(); AYPlayer.exportMix(' + ii + ')" title="Export stereo mix (WAV 48kHz/24bit)"><svg width="16" height="16" viewBox="0 0 41634 41634" fill="currentColor"><rect x="2997" y="16905" width="2776" height="7823" rx="1014" ry="2859"/><rect x="7692" y="7375" width="2776" height="26884" rx="1014" ry="9824"/><rect x="12387" y="13287" width="2776" height="15059" rx="1014" ry="5503"/><rect x="17082" y="18399" width="2776" height="4835" rx="1014" ry="1767"/><rect x="21777" y="2396" width="2776" height="36842" rx="1014" ry="13463"/><rect x="26471" y="15404" width="2776" height="10826" rx="1014" ry="3956"/><rect x="31166" y="17760" width="2776" height="6115" rx="1014" ry="2234"/><rect x="35861" y="18948" width="2776" height="3737" rx="1014" ry="1366"/></svg></button>';
             var ipt3Btn = '';
-        if (iisPt3 || iisVt2 || iisPsg || iisSnd || iisStc || iisAy || iisPt2 || iisMtc || iisTfc) {
+        if (iisPt3 || iisVt2 || iisPsg || iisSnd || iisStc || iisAy || iisPt2 || iisAsc || iisMtc || iisTfc || iisStp || iisPt1) {
                 ipt3Btn = '<a class="ayPlayer-pt3-btn" href="' + playlist[ii].file.replace(/#/g, '%23') + '" download title="Download track" onclick="event.stopPropagation()"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg></a>';
             }
             var ishareBtn = '<button class="ayPlayer-share-btn" onclick="event.stopPropagation(); AYPlayer.copyTrackLink(' + ii + ')" title="Copy track link"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20512%20512%22%20fill%3D%22%23FFFFFF%22%3E%3Cpath%20d%3D%22M469%20299c0-4%200-8%200-11%200-65-29-126-79-166-9-7-23-6-30%203s-6%2023%203%2030c40%2032%2064%2081%2064%20133-48%200-86%2038-86%2085s38%2085%2085%2085%2086-38%2086-85c0-32-18-60-43-74zM427%20416c-24%200-43-19-43-43s19-43%2043-43%2043%2019%2043%2043-19%2043-43%2043zM64%20266c12%203%2023-4%2026-16%2011-50%2045-92%2090-115%2014%2027%2043%2046%2076%2046%2047%200%2085-38%2085-85S303%2011%20256%2011c-46%200-83%2036-85%2082C109%20119%2063%20174%2048%20241c-3%2011%205%2023%2016%2025zM256%2053c24%200%2043%2019%2043%2043s-19%2043-43%2043c-21%200-38-15-42-36%200%200%200%200%200%200%200-2%200-4%200-6%200-24%2019-43%2042-44zM313%20449c-18%206-37%2010-57%2010-37%200-73-12-102-34%2011-14%2017-32%2017-51%200-47-38-85-85-85S0%20326%200%20373s38%2085%2085%2085c12%200%2024-2%2034-7%2038%2032%2086%2050%20137%2050%2024%200%2048-4%2071-12%2011-4%2017-16%2013-27s-16-17-27-13zM43%20373c0-24%2019-43%2042-43s43%2019%2043%2043-19%2043-43%2043S43%20397%2043%20373z%22%2F%3E%3C%2Fsvg%3E" alt="Link" width="16" height="16" class="ayPlayer-btn-icon"></button>';
@@ -2009,7 +2179,7 @@
         }
     }
 
-    var _awVersion = '20260825';
+    var _awVersion = '306';
 
     function _stopStreamer() {
         if (_streamer) {
@@ -2021,6 +2191,10 @@
         _chunkQueue.length = 0;
         _streamInQueue = 0;
         _streamRenderDone = false;
+        if (_waveWorker) {
+            try { _waveWorker.terminate(); } catch(e) {}
+            _waveWorker = null;
+        }
     }
 
     function _streamGo() {
@@ -2043,7 +2217,10 @@
             if (msg.finished) _streamRenderDone = true;
             _streamGo();
         } else if (msg.type === 'renderDone') {
-            if (msg.gen === _streamGen) _streamRenderDone = true;
+            if (msg.gen === _streamGen) {
+                _streamRenderDone = true;
+                if (_workletNode) _workletNode.port.postMessage({ type: 'endOfTrack' });
+            }
         } else if (msg.type === 'loaded') {
             loadingNext = false;
         } else if (msg.type === 'error') {
@@ -2064,7 +2241,7 @@
         _streamUnderflowShown = false;
         _renderSR = audioContext ? audioContext.sampleRate : 48000;
         _renderFrameRate = intFreqSelect || _dumpData.frameRate || 50;
-        _streamEndFrame = _dumpData.dumpLen;
+        _streamEndFrame = _dumpData.dumpLen > 0 ? _dumpData.dumpLen - 1 : 0;
         var dl = _dumpData.dumpLen || 1;
         _workletNode.port.postMessage({ type: 'clear', base: Math.round(k * dl) });
         _workletNode.port.postMessage({ type: 'frameRate', frameRate: intFreqSelect || _dumpData.frameRate });
@@ -2241,7 +2418,12 @@
         _scopeFade = 1.0;
         _fadeTarget = -1;
         _fadeOnDone = null;
-        var ctx = new AudioCtx();
+        var ctx;
+        try {
+            ctx = new AudioCtx({ sampleRate: 48000 });
+        } catch(e) {
+            ctx = new AudioCtx();
+        }
         audioContext = ctx;
         try { window.__ayAudioCtx = ctx; } catch(e) {}
         if (ctx.state === 'suspended') ctx.resume();
@@ -2265,9 +2447,17 @@
                 _workletNode = new AudioWorkletNode(ctx, 'ay-player-processor', { outputChannelCount: [2] });
                 _workletNode.port.onmessage = handleWorkletMessage;
                 _gainNode = ctx.createGain();
+                _roomNode = ctx.createConvolver();
+                _roomNode.buffer = _makeRoomIR(ctx);
+                _roomGain = ctx.createGain();
+                _roomGain.gain.value = roomEnabled ? 0.3 : 0;
                 _workletNode.connect(_gainNode);
+                _workletNode.connect(_roomNode);
+                _roomNode.connect(_roomGain);
+                _roomGain.connect(_gainNode);
                 _gainNode.connect(ctx.destination);
                 _workletNode.port.postMessage({ type: 'fps', fps: scopeFps });
+                _workletNode.port.postMessage({ type: 'xf', enabled: xfEnabled });
                 _streamMode = true;
                 _streamRenderDone = false;
                 _chunkQueue.length = 0;
@@ -2294,9 +2484,17 @@
             _workletNode = new AudioWorkletNode(ctx, 'ay-processor', { outputChannelCount: [2] });
             _workletNode.port.onmessage = handleWorkletMessage;
             _gainNode = ctx.createGain();
+            _roomNode = ctx.createConvolver();
+            _roomNode.buffer = _makeRoomIR(ctx);
+            _roomGain = ctx.createGain();
+            _roomGain.gain.value = roomEnabled ? 0.3 : 0;
             _workletNode.connect(_gainNode);
+            _workletNode.connect(_roomNode);
+            _roomNode.connect(_roomGain);
+            _roomGain.connect(_gainNode);
             _gainNode.connect(ctx.destination);
             _workletNode.port.postMessage({ type: 'fir', enabled: firEnabled });
+            _workletNode.port.postMessage({ type: 'xf', enabled: xfEnabled });
             _workletNode.port.postMessage({ type: 'fps', fps: scopeFps });
             _streamMode = false;
             callback();
@@ -2394,13 +2592,14 @@
             if (_xhr) { _xhr.abort(); _xhr = null; }
             _workletNode = null;
             _gainNode = null;
+            _roomNode = null;
+            _roomGain = null;
             _stopStreamer();
             if (!cont) {
                 song = null;
                 _dumpData = null;
                 waveformData = null; endFrame = 0;
-                waveformCh = []; _waveformProgress = -1;
-                _chipKinds = null; _opnClock = 0;
+                waveformCh = []; _waveformProgress = -1; _chipKinds = null; _opnClock = 0;
                 var loadingEl = document.getElementById(containerId + '_waveLoading');
                 if (loadingEl) loadingEl.classList.remove('active');
                 var wc = document.getElementById(containerId + '_waveCanvas');
@@ -2475,7 +2674,7 @@
             song = null;
             _dumpData = null;
             waveformData = null; endFrame = 0;
-            waveformCh = []; _waveformProgress = -1;
+            waveformCh = []; _waveformProgress = -1; _waveformLastK = -1;
             _chipKinds = null; _opnClock = 0;
             var loadingEl = document.getElementById(containerId + '_waveLoading');
             if (loadingEl) loadingEl.classList.remove('active');
@@ -2539,6 +2738,8 @@
             var isASC = /\.asc$/i.test(loadFile);
             var isMTC = /\.mtc$/i.test(loadFile);
             var isTFC = /\.tfc$/i.test(loadFile);
+            var isSTP = /\.stp$/i.test(loadFile);
+            var isPT1 = /\.pt1$/i.test(loadFile);
 
         if (isPT3) {
                 var dump = [], lf = -1;
@@ -2707,6 +2908,42 @@
                     }
                     generatePt3Waveform(dump, dump.length, fr2, clock2, chipCount2, loadFile, reader.getLoopFrame(), reader.getFrameCount(), reader.getLoopFrame(), 0, true);
                 } catch(e) {}
+        } else if (isSTP) {
+                try {
+                    var reader = new STPReader(arr.buffer, loadFile);
+                    var estFc = reader.getFrameCount();
+                    var fr2 = reader.getFrameRate();
+                    var clock2 = reader.getClockRate();
+                    var dump = [], lf = -1;
+                    var maxFc = Math.max(estFc * 2, fr2 * 120);
+                    for (var i = 0; i < maxFc; i++) {
+                        var r = reader.getNextFrame();
+                        if (r[r.length - 1] && lf < 0) lf = i;
+                        if (lf >= 0) break;
+                        dump.push({ a: r[0].slice(), b: [] });
+                    }
+                    var dumpLen2 = dump.length;
+                    if (dumpLen2 > estFc && lf < 0) { dump.length = estFc; dumpLen2 = estFc; }
+                    generatePt3Waveform(dump, dumpLen2, fr2, clock2, 1, loadFile, lf, reader.getNumPositions(), reader.getLoopPos(), reader.getDelay(), true);
+                } catch(e) {}
+        } else if (isPT1) {
+                try {
+                    var reader = new PT1Reader(arr.buffer, loadFile);
+                    var estFc = reader.getFrameCount();
+                    var fr2 = reader.getFrameRate();
+                    var clock2 = reader.getClockRate();
+                    var dump = [], lf = -1;
+                    var maxFc = Math.max(estFc * 2, fr2 * 120);
+                    for (var i = 0; i < maxFc; i++) {
+                        var r = reader.getNextFrame();
+                        if (r[r.length - 1] && lf < 0) lf = i;
+                        if (lf >= 0) break;
+                        dump.push({ a: r[0].slice(), b: [] });
+                    }
+                    var dumpLen2 = dump.length;
+                    if (dumpLen2 > estFc && lf < 0) { dump.length = estFc; dumpLen2 = estFc; }
+                    generatePt3Waveform(dump, dumpLen2, fr2, clock2, 1, loadFile, lf, reader.getNumPositions(), reader.getLoopPos(), reader.getDelay(), true);
+                } catch(e) {}
         } else {
                 try {
                     generateFymWaveform(arr.buffer, loadFile);
@@ -2753,7 +2990,7 @@
         s = s.replace(/%20/g, ' ');
         if (s.indexOf('/') !== -1 || s.indexOf('\\') !== -1) {
             s = s.replace(/^.*[\/\\]/, '');
-            s = s.replace(/\.(fym|pt3|vt2|psg|stc|ay|pt2|snd|asc|mtc|tfc)$/i, '');
+            s = s.replace(/\.(fym|pt3|vt2|psg|stc|ay|pt2|snd|asc|mtc|tfc|stp)$/i, '');
         }
         return s;
     }
@@ -2807,9 +3044,124 @@
         localStorage.setItem('ayPlayer_volume', volume);
     }
 
-    var _waveformCancelled = false;
+        var _waveformCancelled = false;
 
-    function generatePt3Waveform(dump, fc, fr, clock, turbo, fileName, loopFrame, numPos, loopPos, delay, noDraw, onDone) {
+        function _requestAccurateWaveform(fileName) { return;
+            var entry = playlist[currentId];
+            if (!entry || entry.file !== fileName) return;
+            if (typeof Worker === 'undefined') return;
+            if (waveformCache[fileName] && waveformCache[fileName].exact) return;
+            if (!_dumpData || !_dumpData.dump || !_dumpData.dump.length) return;
+            _waveGen++;
+            var wg = _waveGen;
+            var waveFile = fileName;
+            if (_waveWorker) { try { _waveWorker.terminate(); } catch(e) {} _waveWorker = null; }
+            try {
+                _waveWorker = new Worker('player/streamer.js?v=' + _awVersion);
+            } catch(e) {
+                _waveWorker = null;
+                return;
+            }
+            _waveWorker.onmessage = function(e) {
+                var msg = e.data;
+                if (!msg) return;
+                if (msg.type === 'waveformData') {
+                    if (msg.gen !== wg) return;
+                    var cur = playlist[currentId];
+                    if (!cur || cur.file !== waveFile) return;
+                    _applyAccurateWaveform(msg, waveFile);
+                    if (_waveWorker) { try { _waveWorker.terminate(); } catch(e) {} _waveWorker = null; }
+                } else if (msg.type === 'error') {
+                    console.error('Waveform worker:', msg.message);
+                    if (_waveWorker) { try { _waveWorker.terminate(); } catch(e) {} _waveWorker = null; }
+                }
+            };
+            _waveWorker.onerror = function() {
+                _waveWorker = null;
+            };
+            var wfRate = intFreqSelect;
+            if (wfRate === 0 || wfRate === 200) {
+                var want200 = /200%/i.test(fileName || '');
+                wfRate = want200 ? 200 : (_dumpData.frameRate || 50);
+            }
+            if (!(wfRate > 0)) wfRate = _dumpData.frameRate || 50;
+            _waveWorker.postMessage({
+                type: 'waveform',
+                gen: wg,
+                sampleRate: 48000,
+                dump: _dumpData.dump,
+                isTurbo: _dumpData.isTurbo,
+                chipCount: _dumpData.chipCount || 1,
+                isYM: isYM,
+                clock: clockSelect || _dumpData.clock,
+                frameRate: wfRate,
+                chipKinds: _dumpData.chipKinds || null,
+                opnClock: _dumpData.opnClock || 0,
+                pan: _getPanData(),
+                firEnabled: firEnabled
+            });
+        }
+
+        function _applyAccurateWaveform(msg, fn) {
+            var frames = msg.frames || 0;
+            var chCount = msg.chCount || 1;
+            if (frames <= 0) return;
+            var mix = new Float64Array(msg.mix);
+            var channels = new Float64Array(msg.channels);
+            var allAmps = [];
+            var chAmps = [];
+            for (var ch = 0; ch < chCount; ch++) chAmps.push(new Array(frames));
+            for (var i = 0; i < frames; i++) {
+                allAmps.push(mix[i]);
+                for (var ch = 0; ch < chCount; ch++) chAmps[ch][i] = channels[i * chCount + ch];
+            }
+            function binData(arr) {
+                var pts = 1000;
+                var n = arr.length;
+                if (n === 0) return new Array(pts).fill(0);
+                if (n <= pts) {
+                    var data = new Array(pts).fill(0);
+                    for (var i = 0; i < pts; i++) data[i] = arr[Math.floor(i * n / pts)];
+                    return data;
+                }
+                var data = new Array(pts).fill(0);
+                for (var i = 0; i < n; i++) {
+                    var idx = Math.floor(i * pts / n);
+                    if (arr[i] > data[idx]) data[idx] = arr[i];
+                }
+                return data;
+            }
+            var binnedOverall = binData(allAmps);
+            var binnedChannels = chAmps.map(binData);
+            function _pct(arr, p) {
+                if (!arr.length) return 0.001;
+                var s = arr.slice().sort(function(a, b) { return a - b; });
+                var v = s[Math.floor((s.length - 1) * p)];
+                return v > 0 ? v : 0.001;
+            }
+            var globalMax = 0.001;
+            globalMax = Math.max(globalMax, _pct(binnedOverall, 0.97));
+            for (var ch = 0; ch < binnedChannels.length; ch++) globalMax = Math.max(globalMax, _pct(binnedChannels[ch], 0.97));
+            if (globalMax < 0.02) globalMax = 0.02;
+            waveformData = binnedOverall.map(function(v) { return Math.min(v / globalMax, 1); });
+            waveformCh = binnedChannels.map(function(chData) { return chData.map(function(v) { return Math.min(v / globalMax, 1); }); });
+            var appliedMax = 0;
+            for (var i = 0; i < waveformData.length; i++) if (waveformData[i] > appliedMax) appliedMax = waveformData[i];
+            console.log('Accurate waveform applied: max=' + appliedMax.toFixed(4) + ' (worker mixMax=' + (msg.mixMax != null ? msg.mixMax.toFixed(4) : '?') + ') chCount=' + waveformCh.length + ' frames=' + frames);
+            if (appliedMax < 0.001) {
+                console.warn('Accurate waveform empty (worker mixMax=' + (msg.mixMax != null ? msg.mixMax.toFixed(4) : '?') + '), keeping fast preview');
+                if (_waveWorker) { try { _waveWorker.terminate(); } catch(e) {} _waveWorker = null; }
+                return;
+            }
+            var fc = pt3FrameCount || (song ? song.getFrameCount() : 0);
+            endFrame = fc > 0 ? fc - 1 : frames - 1;
+            waveformCache[fn] = { data: waveformData, channels: waveformCh, endFrame: endFrame, exact: true };
+            drawWaveform();
+            var canvas = document.getElementById(containerId + '_waveCanvas');
+            if (canvas) canvas.classList.add('visible');
+        }
+
+        function generatePt3Waveform(dump, fc, fr, clock, turbo, fileName, loopFrame, numPos, loopPos, delay, noDraw, onDone) {
         var chipCount = typeof turbo === 'boolean' ? (turbo ? 2 : 1) : turbo;
         var fn = fileName;
         var loadingEl = document.getElementById(containerId + '_waveLoading');
@@ -2931,13 +3283,10 @@
                         return data;
                     }
                     var data = new Array(pts).fill(0);
-                    var counts = new Array(pts).fill(0);
                     for (var i = 0; i < n; i++) {
                         var idx = Math.floor(i * pts / n);
-                        data[idx] += arr[i];
-                        counts[idx]++;
+                        if (arr[i] > data[idx]) data[idx] = arr[i];
                     }
-                    for (var i = 0; i < pts; i++) data[i] = counts[i] > 0 ? data[i] / counts[i] : 0;
                     return data;
                 }
 
@@ -2953,7 +3302,6 @@
                 waveformCh = binnedChannels.map(function(chData) { return chData.map(function(v) { return v / globalMax; }); });
                 endFrame = endIdx;
                 waveformCache[fn] = { data: waveformData, channels: waveformCh, endFrame: endIdx };
-                if (noDraw) return;
                 drawWaveform();
                 var canvas = document.getElementById(containerId + '_waveCanvas');
                 if (canvas) canvas.classList.add('visible');
@@ -3058,13 +3406,10 @@
                         return data;
                     }
                     var data = new Array(pts).fill(0);
-                    var counts = new Array(pts).fill(0);
                     for (var i = 0; i < n; i++) {
                         var idx = Math.floor(i * pts / n);
-                        data[idx] += arr[i];
-                        counts[idx]++;
+                        if (arr[i] > data[idx]) data[idx] = arr[i];
                     }
-                    for (var i = 0; i < pts; i++) data[i] = counts[i] > 0 ? data[i] / counts[i] : 0;
                     return data;
                 }
 
@@ -3149,7 +3494,6 @@
         var step = waveEnd / n;
         var scale = 1.0;
         if (waveformMode === 'mix') {
-            // Mono: single combined waveform centered
             var mid = h >> 1;
             var waveGrad = ctx.createLinearGradient(0, 0, 0, h);
             waveGrad.addColorStop(0, 'rgba(0,180,220,0)');
@@ -3189,9 +3533,11 @@
                 var y0 = Math.round(ch * bandH);
                 var bh = Math.round(bandH);
                 var mid = bh >> 1;
+                var pad = Math.max(3, Math.round(bh * 0.12));
+                var ph = Math.floor((bh - pad * 2) * 0.45);
                 ctx.globalAlpha = 1;
                 ctx.fillStyle = '#001824';
-                ctx.fillRect(0, y0, w, bh);
+                ctx.fillRect(0, y0 + pad, w, bh - pad * 2);
                 ctx.strokeStyle = 'rgba(255,255,255,0.08)';
                 ctx.lineWidth = 1;
                 ctx.beginPath();
@@ -3204,13 +3550,13 @@
                 ctx.beginPath();
                 ctx.moveTo(0, y0 + mid);
                 for (var i = 0; i < n; i++) {
-                    var amp = data[i] * mid * scale;
+                    var amp = data[i] * ph * scale;
                     ctx.lineTo(i * step, y0 + mid - amp);
                 }
                 ctx.lineTo(waveEnd, y0 + mid);
                 ctx.lineTo(waveEnd, y0 + mid + 0.5);
                 for (var i = n - 1; i >= 0; i--) {
-                    var amp = data[i] * mid * scale;
+                    var amp = data[i] * ph * scale;
                     ctx.lineTo(i * step, y0 + mid + amp);
                 }
                 ctx.closePath();
@@ -3427,15 +3773,13 @@
                 ? document.getElementById(containerIdOrEl)
                 : containerIdOrEl;
             containerId = el.id || 'ayPlayer';
+            window.addEventListener('resize', resizeScope);
             el.innerHTML =
                 '<div class="ayPlayer">' +
                 '  <div class="ayPlayer-top">' +
-                '    <div class="ayPlayer-controls">' +
-                '      <div class="ayPlayer-info">' +
-                '        <div class="ayPlayer-trackName" id="' + containerId + '_trackName"><div class="ayPlayer-trackAuthor">Author</div><div class="ayPlayer-trackTitle">Name Track</div></div>' +
-                '      </div>' +
-                '      <div class="ayPlayer-right">' +
-                '        <div class="ayPlayer-scope" id="' + containerId + '_scope">' +
+                 '    <div class="ayPlayer-controls">' +
+                 '      <div class="ayPlayer-logo"><img src="logo_ayplay.svg" alt="AY Player"></div>' +
+                 '      <div class="ayPlayer-scope" id="' + containerId + '_scope">' +
                 '          <canvas class="ayPlayer-scope-canvas" id="' + containerId + '_scope0"></canvas>' +
                 '          <canvas class="ayPlayer-scope-canvas" id="' + containerId + '_scope1"></canvas>' +
                 '          <canvas class="ayPlayer-scope-canvas" id="' + containerId + '_scope2"></canvas>' +
@@ -3448,8 +3792,12 @@
                 '          <canvas class="ayPlayer-scope-canvas" id="' + containerId + '_scope9"></canvas>' +
                 '          <canvas class="ayPlayer-scope-canvas" id="' + containerId + '_scope10"></canvas>' +
                 '          <canvas class="ayPlayer-scope-canvas" id="' + containerId + '_scope11"></canvas>' +
-                '        </div>' +
-                '        <span class="ayPlayer-transport">' +
+                 '        </div>' +
+                 '      <div class="ayPlayer-info">' +
+                 '        <div class="ayPlayer-trackName" id="' + containerId + '_trackName"><div class="ayPlayer-trackAuthor">Author</div><div class="ayPlayer-trackTitle">Name Track</div></div>' +
+                 '      </div>' +
+                 '      <div class="ayPlayer-right">' +
+                 '        <span class="ayPlayer-transport">' +
                 '        <button class="ayPlayer-btn setup" title="Options" onclick="AYPlayer.showOptions()"><span class="icon"></span></button>' +
                 '        <button class="ayPlayer-btn prev" title="Previous" onclick="AYPlayer.prev()"><span class="icon"></span></button>' +
                 '        <button class="ayPlayer-btn play" id="' + containerId + '_playBtn" title="Play/Pause" onclick="AYPlayer.togglePlay()"><span class="icon"></span></button>' +
@@ -3503,9 +3851,13 @@
                 '  <div class="ayPlayer-alpha-overlay" id="' + containerId + '_alphaOverlay" onclick="AYPlayer.toggleAlphaOverlay()">' +
                 '    <div class="ayPlayer-alpha-overlay-content" id="' + containerId + '_alphaOverlayContent"></div>' +
                 '  </div>' +
-                '  <div class="ayPlayer-bottom-controls" id="' + containerId + '_bottomControls">' +
-                '    <button class="ayPlayer-btn-bottom-toggle" id="' + containerId + '_bottomToggle" onclick="event.stopPropagation(); AYPlayer.toggleBottomControls()"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 8l-6 6 1.41 1.41L12 10.83l4.59 4.58L18 14z"/></svg></button>' +
-                '    <div class="ayPlayer-bottom-controls-inner" id="' + containerId + '_bottomInner">' +
+                 '  <div class="ayPlayer-bottom-controls" id="' + containerId + '_bottomControls">' +
+                 '    <div class="ayPlayer-bottom-top">' +
+                 '      <div class="ayPlayer-trackTotalTime" id="' + containerId + '_totalTimeM">00:00</div>' +
+                 '      <button class="ayPlayer-btn-bottom-toggle" id="' + containerId + '_bottomToggle" onclick="event.stopPropagation(); AYPlayer.toggleBottomControls()"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 8l-6 6 1.41 1.41L12 10.83l4.59 4.58L18 14z"/></svg></button>' +
+                 '      <div class="ayPlayer-trackTime" id="' + containerId + '_trackTimeM" onclick="AYPlayer.toggleTime()">00:00</div>' +
+                 '    </div>' +
+                 '    <div class="ayPlayer-bottom-controls-inner" id="' + containerId + '_bottomInner">' +
                 '    <button class="ayPlayer-btn setup" title="Options" onclick="AYPlayer.showOptions()"><span class="icon"></span></button>' +
                 '    <span class="ayPlayer-transport">' +
                 '    <button class="ayPlayer-btn prev" title="Previous" onclick="AYPlayer.prev()"><span class="icon"></span></button>' +
@@ -3597,23 +3949,39 @@
                 '      </div>' +
                 '      <div class="ayPlayer-options-divider"></div>' +
                 '      <div class="ayPlayer-mix-row">' +
-                '        <span class="ayPlayer-mix-label">Waveform:</span>' +
+                '        <span class="ayPlayer-mix-label">Crossfeed:</span>' +
                 '        <div class="ayPlayer-mix-btns">' +
-                '        <button class="ayPlayer-options-chip-btn" data-wave="channels" onclick="AYPlayer.setWaveformMode(\'channels\')">Channels</button>' +
-                '        <button class="ayPlayer-options-chip-btn" data-wave="mix" onclick="AYPlayer.setWaveformMode(\'mix\')">Mix</button>' +
+                '        <button class="ayPlayer-options-chip-btn" data-xf="1" onclick="AYPlayer.setXf(1)">ON</button>' +
+                '        <button class="ayPlayer-options-chip-btn" data-xf="0" onclick="AYPlayer.setXf(0)">OFF</button>' +
                 '        </div>' +
                 '      </div>' +
                 '      <div class="ayPlayer-options-divider"></div>' +
                 '      <div class="ayPlayer-mix-row">' +
-                '        <span class="ayPlayer-mix-label">Scope FPS:</span>' +
+                '        <span class="ayPlayer-mix-label">Room:</span>' +
                 '        <div class="ayPlayer-mix-btns">' +
-                '        <button class="ayPlayer-options-chip-btn" data-fps="60" onclick="AYPlayer.setScopeFps(60)">60</button>' +
-                '        <button class="ayPlayer-options-chip-btn" data-fps="30" onclick="AYPlayer.setScopeFps(30)">30</button>' +
-                '        <button class="ayPlayer-options-chip-btn" data-fps="15" onclick="AYPlayer.setScopeFps(15)">15</button>' +
-                 '        </div>' +
-                 '      </div>' +
-                 '      <div class="ayPlayer-options-divider"></div>' +
-                 '      <div class="ayPlayer-options-about">AY Player &copy; 2026</div>' +
+                '        <button class="ayPlayer-options-chip-btn" data-room="1" onclick="AYPlayer.setRoom(1)">ON</button>' +
+                '        <button class="ayPlayer-options-chip-btn" data-room="0" onclick="AYPlayer.setRoom(0)">OFF</button>' +
+                '        </div>' +
+                '      </div>' +
+                '      <div class="ayPlayer-options-divider"></div>' +
+                '      <div class="ayPlayer-mix-row">' +
+                '        <span class="ayPlayer-mix-label">Waveform:</span>' +
+                '        <div class="ayPlayer-mix-btns">' +
+                '        <button class="ayPlayer-options-chip-btn" data-wave="channels" onclick="AYPlayer.setWaveformMode(\'channels\')">Stems</button>' +
+                '        <button class="ayPlayer-options-chip-btn" data-wave="mix" onclick="AYPlayer.setWaveformMode(\'mix\')">Mix</button>' +
+                '        </div>' +
+                '      </div>' +
+                '      <div class="ayPlayer-options-divider"></div>' +
+
+                  '      <div class="ayPlayer-mix-row">' +
+                  '        <span class="ayPlayer-mix-label">Playlist:</span>' +
+                  '        <div class="ayPlayer-mix-btns">' +
+                  '        <button class="ayPlayer-options-chip-btn active" data-showfmt="1" onclick="AYPlayer.toggleShowFormat()" title="Show format">' + (_isMobile ? 'mod' : 'Format') + '</button>' +
+                  '        <button class="ayPlayer-options-chip-btn active" data-showch="1" onclick="AYPlayer.toggleShowChannels()" title="Show channels">' + (_isMobile ? 'ch' : 'Channels') + '</button>' +
+                  '        </div>' +
+                  '      </div>' +
+                  '      <div class="ayPlayer-options-divider"></div>' +
+                  '      <div class="ayPlayer-options-about">AY Player &copy; 2026</div>' +
                  '    </div>' +
                 '  </div>' +
                 '</div>';
@@ -3659,12 +4027,21 @@
             for (var i = 0; i < firBtns.length; i++) {
                 firBtns[i].classList.toggle('active', parseInt(firBtns[i].dataset.fir) === (firEnabled ? 1 : 0));
             }
+            var xfBtns = document.querySelectorAll('#' + containerId + '_mix .ayPlayer-options-chip-btn[data-xf]');
+            for (var i = 0; i < xfBtns.length; i++) {
+                xfBtns[i].classList.toggle('active', parseInt(xfBtns[i].dataset.xf) === (xfEnabled ? 1 : 0));
+            }
             var fpsBtns = document.querySelectorAll('#' + containerId + '_mix .ayPlayer-options-chip-btn[data-fps]');
             for (var i = 0; i < fpsBtns.length; i++) {
                 fpsBtns[i].classList.toggle('active', parseInt(fpsBtns[i].dataset.fps) === scopeFps);
             }
+            var fmtBtn = document.querySelector('#' + containerId + '_mix .ayPlayer-options-chip-btn[data-showfmt]');
+            if (fmtBtn) fmtBtn.classList.toggle('active', showFormat);
+            var chBtn = document.querySelector('#' + containerId + '_mix .ayPlayer-options-chip-btn[data-showch]');
+            if (chBtn) chBtn.classList.toggle('active', showChannels);
             document.addEventListener('visibilitychange', function() {
                 if (document.visibilityState === 'visible') {
+                    if (playing && !rafId) rafId = requestAnimationFrame(rafLoop);
                     var canvas = document.getElementById(containerId + '_waveCanvas');
                     if (!waveformData && _dumpData && playing && canvas) {
                         var entry = playlist[currentId];
@@ -3676,9 +4053,13 @@
                                 _dumpData.loopFrame, 0, -1, 0, false, null
                             );
                         }
-                    } else if (waveformData && _waveformProgress >= 0) {
-                        drawWaveform(_waveformProgress);
+                    } else if (waveformData) {
+                        // Force full redraw + immediate position/time update
+                        drawWaveform(_waveformLastK >= 0 ? _waveformLastK : 0);
+                        updateProgress();
                     }
+                } else if (document.hidden) {
+                    if (rafId) { cancelAnimationFrame(rafId); rafId = null; }
                 }
             });
             api.destroyOnUnload();
@@ -3945,6 +4326,26 @@
             if (_streamMode) _streamReRender();
             saveState();
         },
+        setXf: function(on) {
+            xfEnabled = on === 1;
+            var btns = document.querySelectorAll('#' + containerId + '_mix .ayPlayer-options-chip-btn[data-xf]');
+            for (var i = 0; i < btns.length; i++) {
+                btns[i].classList.toggle('active', parseInt(btns[i].dataset.xf) === (xfEnabled ? 1 : 0));
+            }
+            if (_workletNode) {
+                _workletNode.port.postMessage({ type: 'xf', enabled: xfEnabled });
+            }
+            saveState();
+        },
+        setRoom: function(on) {
+            roomEnabled = on === 1;
+            var btns = document.querySelectorAll('#' + containerId + '_mix .ayPlayer-options-chip-btn[data-room]');
+            for (var i = 0; i < btns.length; i++) {
+                btns[i].classList.toggle('active', parseInt(btns[i].dataset.room) === (roomEnabled ? 1 : 0));
+            }
+            _applyRoomGain();
+            saveState();
+        },
         setClock: function(hz) {
             clockSelect = hz;
             var btns = document.querySelectorAll('#' + containerId + '_mix .ayPlayer-options-chip-btn[data-clock]');
@@ -3996,6 +4397,20 @@
             }
             saveState();
         },
+        toggleShowFormat: function() {
+            showFormat = !showFormat;
+            var btn = document.querySelector('#' + containerId + '_mix .ayPlayer-options-chip-btn[data-showfmt]');
+            if (btn) btn.classList.toggle('active', showFormat);
+            renderPlaylist(true);
+            saveState();
+        },
+        toggleShowChannels: function() {
+            showChannels = !showChannels;
+            var btn = document.querySelector('#' + containerId + '_mix .ayPlayer-options-chip-btn[data-showch]');
+            if (btn) btn.classList.toggle('active', showChannels);
+            renderPlaylist(true);
+            saveState();
+        },
         setChipType: function(type) {
             isYM = (type === 'ym');
             var arr = chipMode % 6;
@@ -4039,6 +4454,14 @@
             var firBtns = document.querySelectorAll('#' + containerId + '_mix .ayPlayer-options-chip-btn[data-fir]');
             for (var i = 0; i < firBtns.length; i++) {
                 firBtns[i].classList.toggle('active', parseInt(firBtns[i].dataset.fir) === (firEnabled ? 1 : 0));
+            }
+            var xfBtns = document.querySelectorAll('#' + containerId + '_mix .ayPlayer-options-chip-btn[data-xf]');
+            for (var i = 0; i < xfBtns.length; i++) {
+                xfBtns[i].classList.toggle('active', parseInt(xfBtns[i].dataset.xf) === (xfEnabled ? 1 : 0));
+            }
+            var roomBtns = document.querySelectorAll('#' + containerId + '_mix .ayPlayer-options-chip-btn[data-room]');
+            for (var i = 0; i < roomBtns.length; i++) {
+                roomBtns[i].classList.toggle('active', parseInt(roomBtns[i].dataset.room) === (roomEnabled ? 1 : 0));
             }
             var fpsBtns = document.querySelectorAll('#' + containerId + '_mix .ayPlayer-options-chip-btn[data-fps]');
             for (var i = 0; i < fpsBtns.length; i++) {
@@ -4150,10 +4573,14 @@
                 html += '</div>';
                 html += '<div class="ayPlayer-alpha-overlay-grid is-formats">';
                 html += '<button class="ayPlayer-alpha-overlay-btn' + (filterFormat === 'stc' ? ' active' : '') + '" onclick="event.stopPropagation(); AYPlayer.setFilter(\'stc\')">STC</button>';
+                html += '<button class="ayPlayer-alpha-overlay-btn' + (filterFormat === 'stp' ? ' active' : '') + '" onclick="event.stopPropagation(); AYPlayer.setFilter(\'stp\')">STP</button>';
                 html += '<button class="ayPlayer-alpha-overlay-btn' + (filterFormat === 'asc' ? ' active' : '') + '" onclick="event.stopPropagation(); AYPlayer.setFilter(\'asc\')">ASC</button>';
+                html += '<button class="ayPlayer-alpha-overlay-btn' + (filterFormat === 'pt1' ? ' active' : '') + '" onclick="event.stopPropagation(); AYPlayer.setFilter(\'pt1\')">PT1</button>';
                 html += '<button class="ayPlayer-alpha-overlay-btn' + (filterFormat === 'pt2' ? ' active' : '') + '" onclick="event.stopPropagation(); AYPlayer.setFilter(\'pt2\')">PT2</button>';
                 html += '<button class="ayPlayer-alpha-overlay-btn' + (filterFormat === 'pt3' ? ' active' : '') + '" onclick="event.stopPropagation(); AYPlayer.setFilter(\'pt3\')">PT3</button>';
                 html += '<button class="ayPlayer-alpha-overlay-btn' + (filterFormat === 'vt2' ? ' active' : '') + '" onclick="event.stopPropagation(); AYPlayer.setFilter(\'vt2\')">VT2</button>';
+                html += '</div>';
+                html += '<div class="ayPlayer-alpha-overlay-grid is-formats">';
                 html += '<button class="ayPlayer-alpha-overlay-btn' + (filterFormat === 'snd' ? ' active' : '') + '" onclick="event.stopPropagation(); AYPlayer.setFilter(\'snd\')">SND</button>';
                 html += '<button class="ayPlayer-alpha-overlay-btn' + (filterFormat === 'fym' ? ' active' : '') + '" onclick="event.stopPropagation(); AYPlayer.setFilter(\'fym\')">FYM</button>';
                 html += '<button class="ayPlayer-alpha-overlay-btn' + (filterFormat === 'psg' ? ' active' : '') + '" onclick="event.stopPropagation(); AYPlayer.setFilter(\'psg\')">PSG</button>';
@@ -4301,7 +4728,18 @@
             var arrow = el.querySelector('.ayPlayer-playlist-folder-arrow');
             if (!items) return;
             if (items.style.display !== 'none') {
-                items.style.display = 'none';
+                var container = document.getElementById(containerId + '_playlistItems');
+                if (container) {
+                    var folderEl = el.parentNode;
+                    var cRect = container.getBoundingClientRect();
+                    var fdRect = folderEl.getBoundingClientRect();
+                    var naturalDocY = container.scrollTop + (fdRect.top - cRect.top);
+                    items.style.display = 'none';
+                    var newMax = container.scrollHeight - container.clientHeight;
+                    container.scrollTop = Math.min(Math.max(0, naturalDocY), newMax);
+                } else {
+                    items.style.display = 'none';
+                }
                 if (arrow) arrow.classList.remove('open');
                 return;
             }
@@ -4390,7 +4828,9 @@
             var isASC = /\.asc$/i.test(loadFile);
             var isMTC = /\.mtc$/i.test(loadFile);
             var isTFC = /\.tfc$/i.test(loadFile);
-            if (!isPT3 && !isVT2 && !isSTC && !isPSG && !isSND && !isAY && !isPT2 && !isASC && !isMTC && !isTFC && entry.pt3) {
+            var isSTP = /\.stp$/i.test(loadFile);
+            var isPT1 = /\.pt1$/i.test(loadFile);
+            if (!isPT3 && !isVT2 && !isSTC && !isPSG && !isSND && !isAY && !isPT2 && !isASC && !isMTC && !isTFC && !isSTP && !isPT1 && entry.pt3) {
                 loadFile = entry.pt3File
                     ? entry.file.replace(/[^/]*$/, entry.pt3File)
                     : entry.file.replace(/\.fym$/i, '.pt3');
@@ -4404,7 +4844,7 @@
                 if (!modal.classList.contains('active')) return;
                 if (!xhr.response) { showError('Failed to load track data'); return; }
 
-                if (isPT3 || isVT2 || isSTC || isPSG || isSND || isAY || isPT2 || isASC || isMTC || isTFC) {
+                if (isPT3 || isVT2 || isSTC || isPSG || isSND || isAY || isPT2 || isASC || isMTC || isTFC || isSTP || isPT1) {
                     if (isMTC && typeof MTCReader === 'undefined') { showError('Модуль MTC заблокирован рекламным блокировщиком — добавьте ayplay.ru в исключения'); return; }
                     try {
                         var buf = xhr.response;
@@ -4412,7 +4852,7 @@
                             var sp = new SndToPsg(new Int8Array(buf));
                             buf = new Uint8Array(sp.exec).buffer;
                         }
-                        var reader = isAY ? new AYReader(buf, loadFile) : (isSTC ? new STCReader(buf, loadFile) : (isPSG ? new PSGReader(buf, loadFile) : (isSND ? new PSGReader(buf, loadFile.replace(/\.snd$/i, '.psg')) : (isPT2 ? new PT2Reader(buf, loadFile) : (isASC ? new ASCReader(buf, loadFile) : (isPT3 ? new PT3Reader(buf, loadFile) : (isTFC ? new TFCReader(buf, loadFile) : (isMTC ? new MTCReader(buf, loadFile) : new VT2Player(buf, loadFile)))))))));
+                        var reader = isAY ? new AYReader(buf, loadFile) : (isSTC ? new STCReader(buf, loadFile) : (isPSG ? new PSGReader(buf, loadFile) : (isSND ? new PSGReader(buf, loadFile.replace(/\.snd$/i, '.psg')) : (isPT2 ? new PT2Reader(buf, loadFile) : (isASC ? new ASCReader(buf, loadFile) : (isPT3 ? new PT3Reader(buf, loadFile) : (isTFC ? new TFCReader(buf, loadFile) : (isSTP ? new STPReader(buf, loadFile) : (isPT1 ? new PT1Reader(buf, loadFile) : (isMTC ? new MTCReader(buf, loadFile) : new VT2Player(buf, loadFile)))))))))));
                     } catch(e) { showError('Failed to parse: ' + e.message); return; }
                     var frameCount = reader.getFrameCount();
                     if (reader.computeLoopFrame) {
@@ -4515,7 +4955,7 @@
                                     var scale = MAX_24 / peak;
                                     var chNames = [];
                                     for (var ci = 0; ci < chCount; ci++) chNames.push(String.fromCharCode(65 + (ci % 3)) + (chCount > 3 ? Math.floor(ci / 3) + 1 : ''));
-                                    var stemBase = (entry.name || entry.file || 'track').replace(/\.(fym|pt3|vt2|psg|stc|ay|snd|asc|mtc|tfc)$/i, '').replace(/^.*[/\\]/, '');
+                                var stemBase = (entry.name || entry.file || 'track').replace(/\.(fym|pt3|vt2|psg|stc|ay|snd|asc|mtc|tfc|stp)$/i, '').replace(/^.*[/\\]/, '');
                                     var wavBuffers = [];
                                     for (var ch = 0; ch < chCount; ch++) {
                                         for (var i = 0; i < chSamples[ch].length; i++) chSamples[ch][i] *= scale;
@@ -4615,7 +5055,7 @@
                                 var scale = MAX_24 / peak;
                                 var chNames = [];
                                 for (var ci = 0; ci < chCount; ci++) chNames.push(String.fromCharCode(65 + (ci % 3)) + (chCount > 3 ? Math.floor(ci / 3) + 1 : ''));
-                                var stemBase = (entry.name || entry.file || 'track').replace(/\.(fym|pt3|vt2|psg|stc|ay|snd|asc|mtc|tfc)$/i, '').replace(/^.*[/\\]/, '');
+                                var stemBase = (entry.name || entry.file || 'track').replace(/\.(fym|pt3|vt2|psg|stc|ay|snd|asc|mtc|tfc|stp)$/i, '').replace(/^.*[/\\]/, '');
                                 var wavBuffers = [];
                                 for (var ch = 0; ch < chCount; ch++) {
                                     for (var i = 0; i < chSamples[ch].length; i++) chSamples[ch][i] *= scale;
@@ -4717,7 +5157,9 @@
             var isPT2 = /\.pt2$/i.test(loadFile);
             var isSND = /\.snd$/i.test(loadFile);
             var isASC = /\.asc$/i.test(loadFile);
-            if (!isPT3 && !isVT2 && !isSTC && !isPSG && !isSND && !isAY && !isPT2 && !isASC && entry.pt3) {
+            var isSTP = /\.stp$/i.test(loadFile);
+            var isPT1 = /\.pt1$/i.test(loadFile);
+            if (!isPT3 && !isVT2 && !isSTC && !isPSG && !isSND && !isAY && !isPT2 && !isASC && !isSTP && !isPT1 && entry.pt3) {
                 loadFile = entry.pt3File
                     ? entry.file.replace(/[^/]*$/, entry.pt3File)
                     : entry.file.replace(/\.fym$/i, '.pt3');
@@ -4802,7 +5244,7 @@
                                     v.setUint8(off + 5, (vr >> 16) & 0xff);
                                     off += 6;
                                 }
-                                var stemBase = (entry.name || entry.file || 'track').replace(/\.(fym|pt3|vt2|psg|stc|ay|snd|asc|mtc|tfc)$/i, '').replace(/^.*[/\\]/, '');
+                                var stemBase = (entry.name || entry.file || 'track').replace(/\.(fym|pt3|vt2|psg|stc|ay|snd|asc|mtc|tfc|stp)$/i, '').replace(/^.*[/\\]/, '');
                                 var wavName = stemBase + '_mix.wav';
                                 var zip = _exportZipSingle(buf, wavName);
                                 var blob = new Blob([zip], { type: 'application/zip' });
@@ -4890,7 +5332,7 @@
                     if (!modal.classList.contains('active')) return;
                     if (!xhr.response) { showError('Failed to load track data'); return; }
 
-                    if (isPT3 || isVT2 || isSTC || isPSG || isSND || isAY || isASC || isMTC) {
+                    if (isPT3 || isVT2 || isSTC || isPSG || isSND || isAY || isASC || isMTC || isTFC || isSTP || isPT1) {
                         if (isMTC && typeof MTCReader === 'undefined') { showError('Модуль MTC заблокирован рекламным блокировщиком — добавьте ayplay.ru в исключения'); return; }
                         try {
                             var buf = xhr.response;
@@ -4898,7 +5340,7 @@
                                 var sp = new SndToPsg(new Int8Array(buf));
                                 buf = new Uint8Array(sp.exec).buffer;
                             }
-                        var reader = isAY ? new AYReader(buf, loadFile) : (isSTC ? new STCReader(buf, loadFile) : (isPSG ? new PSGReader(buf, loadFile) : (isSND ? new PSGReader(buf, loadFile.replace(/\.snd$/i, '.psg')) : (isPT2 ? new PT2Reader(buf, loadFile) : (isASC ? new ASCReader(buf, loadFile) : (isPT3 ? new PT3Reader(buf, loadFile) : (isMTC ? new MTCReader(buf, loadFile) : new VT2Player(buf, loadFile))))))));
+                        var reader = isAY ? new AYReader(buf, loadFile) : (isSTC ? new STCReader(buf, loadFile) : (isPSG ? new PSGReader(buf, loadFile) : (isSND ? new PSGReader(buf, loadFile.replace(/\.snd$/i, '.psg')) : (isPT2 ? new PT2Reader(buf, loadFile) : (isASC ? new ASCReader(buf, loadFile) : (isPT3 ? new PT3Reader(buf, loadFile) : (isMTC ? new MTCReader(buf, loadFile) : (isTFC ? new TFCReader(buf, loadFile) : (isSTP ? new STPReader(buf, loadFile) : (isPT1 ? new PT1Reader(buf, loadFile) : new VT2Player(buf, loadFile)))))))))));
                         } catch(e) { showError('Failed to parse: ' + e.message); return; }
                         var frameCount = reader.getFrameCount();
                         if (reader.computeLoopFrame) {
@@ -5003,6 +5445,8 @@
             audioContext = null;
             _workletNode = null;
             _gainNode = null;
+            _roomNode = null;
+            _roomGain = null;
             song = null;
             _dumpData = null;
             playing = false;
