@@ -1,4 +1,4 @@
-﻿var AYPlayer = (function() {
+var AYPlayer = (function() {
 
     var _folderCloseIco = 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%3E%3Cpath%20d%3D%22M0%201H6L9%204H16V14H0V1Z%22%20fill%3D%22%23D4AF37%22%2F%3E%3C%2Fsvg%3E';
     var _folderOpenIco = 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%3E%3Cpath%20d%3D%22M0%201H5L8%203H13V5H3.7457L2.03141%2011H4.11144L5.2543%207H16L14%2014H0V1Z%22%20fill%3D%22%23D4AF37%22%2F%3E%3C%2Fsvg%3E';
@@ -2179,7 +2179,7 @@
         }
     }
 
-    var _awVersion = '310';
+    var _awVersion = '312';
 
     function _stopStreamer() {
         if (_streamer) {
@@ -3477,14 +3477,14 @@
         updateVolumeUI();
     }
 
-    function drawWaveform(progress) {
-        var canvas = document.getElementById(containerId + '_waveCanvas');
-        if (!canvas || !waveformData) return;
+    var _wfOff = null;
+    var _wfOffCtx = null;
+    var _wfOffValid = false;
+    var _wfOffData = null;
+    var _wfOffMode = null;
+
+    function _renderWaveformStatic(ctx, w, h) {
         var fc = song ? (pt3FrameCount || song.getFrameCount()) : 0;
-        var ctx = canvas.getContext('2d');
-        var w = _cachedWaveWidth || canvas.parentNode.clientWidth;
-        var h = _cachedWaveHeight || canvas.parentNode.clientHeight || 186;
-        if (canvas.width !== w || canvas.height !== h) { canvas.width = w; canvas.height = h; }
         ctx.fillStyle = '#001828';
         ctx.fillRect(0, 0, w, h);
         var wf = endFrame || fc;
@@ -3525,10 +3525,11 @@
             var chNames = [];
             for (var ci = 0; ci < chCount; ci++) chNames.push(String.fromCharCode(65 + (ci % 3)) + (chCount > 3 ? Math.floor(ci / 3) + 1 : ''));
             var gap = 4;
-            var bandH = (h - gap * (chCount - 1)) / chCount;
+            var padTB = 4;
+            var bandH = (h - padTB * 2 - gap * (chCount - 1)) / chCount;
             for (var ch = 0; ch < chCount; ch++) {
-                var y0 = Math.round(ch * (bandH + gap));
-                var y1 = Math.round((ch + 1) * (bandH + gap)) - gap;
+                var y0 = Math.round(padTB + ch * (bandH + gap));
+                var y1 = Math.round(padTB + (ch + 1) * (bandH + gap)) - gap;
                 var bh = y1 - y0;
                 var mid = bh >> 1;
                 ctx.globalAlpha = 1;
@@ -3566,7 +3567,27 @@
             }
         }
         ctx.globalAlpha = 1;
+    }
+
+    function drawWaveform(progress) {
+        var canvas = document.getElementById(containerId + '_waveCanvas');
+        if (!canvas || !waveformData) return;
+        var ctx = canvas.getContext('2d');
+        var w = _cachedWaveWidth || canvas.parentNode.clientWidth;
+        var h = _cachedWaveHeight || canvas.parentNode.clientHeight || 186;
+        if (canvas.width !== w || canvas.height !== h) { canvas.width = w; canvas.height = h; _wfOffValid = false; }
+        var needStatic = !_wfOffValid || _wfOffData !== waveformData || _wfOffMode !== waveformMode;
+        if (needStatic) {
+            if (!_wfOff) { _wfOff = document.createElement('canvas'); _wfOffCtx = _wfOff.getContext('2d'); }
+            if (_wfOff.width !== w || _wfOff.height !== h) { _wfOff.width = w; _wfOff.height = h; }
+            _renderWaveformStatic(_wfOffCtx, w, h);
+            _wfOffData = waveformData;
+            _wfOffMode = waveformMode;
+            _wfOffValid = true;
+        }
+        ctx.drawImage(_wfOff, 0, 0);
         if (progress != null && progress >= 0 && song) {
+            ctx.globalAlpha = 1;
             var frac = progress / 100;
             var px = Math.round(frac * w);
             ctx.fillStyle = 'rgba(0,200,220,0.12)';
@@ -3579,7 +3600,6 @@
             ctx.stroke();
         }
     }
-
     function _exportPause() {
         var w = playing;
         if (w) {
@@ -5458,6 +5478,7 @@
     };
     return api;
 })();
+
 
 
 
