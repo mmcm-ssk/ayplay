@@ -567,33 +567,8 @@ var AYPlayer = (function() {
     var _lastTimeText = '';
     var _waveformLastK = -1;
     var _waveformRendered = false;
-    var _playheadPx = -1;
     function _updatePlayhead(frac) {
-        var line = document.getElementById(containerId + '_wavePlayhead');
-        var shade = document.getElementById(containerId + '_wavePlayed');
-        var shown = !!waveformData && frac >= 0;
-        var w = _cachedWaveWidth || (line ? line.parentNode.clientWidth : 0);
-        var px = 0;
-        if (shown) {
-            px = Math.round(frac * w);
-            if (px > w) px = w;
-            if (px < 0) px = 0;
-        }
-        if (line) {
-            if (!shown) { if (line.style.opacity !== '0') line.style.opacity = '0'; }
-            else {
-                if (px !== _playheadPx) { _playheadPx = px; line.style.transform = 'translate3d(' + px + 'px,0,0)'; }
-                if (line.style.opacity !== '1') line.style.opacity = '1';
-            }
-        }
-        if (shade) {
-            if (!shown) { if (shade.style.opacity !== '0') shade.style.opacity = '0'; }
-            else {
-                var s = Math.max(0, Math.min(1, frac));
-                shade.style.transform = 'scaleX(' + s.toFixed(4) + ')';
-                if (shade.style.opacity !== '1') shade.style.opacity = '1';
-            }
-        }
+        AYWaveformUI.updatePlayhead({ containerId: containerId, hasData: !!waveformData, cachedWidth: _cachedWaveWidth }, frac);
     }
 
     function updatePlayhead() {
@@ -630,23 +605,7 @@ var AYPlayer = (function() {
     }
 
     function drawWave(ctx, data, w, h, mid, color, invert, half) {
-        var len = data.length;
-        if (len < 4) return;
-        ctx.strokeStyle = color;
-        ctx.lineWidth = 1;
-        ctx.beginPath();
-        var scale = half ? mid : mid * 2;
-        var step = Math.max(1, (len / w) | 0);
-        var n = Math.min(w, (len / step) | 0);
-        for (var i = 0; i < n; i++) {
-            var v = data[i * step];
-            var x = (i * w / n) | 0;
-            var y = invert ? mid + ((v * scale) | 0) : mid - ((v * scale) | 0);
-            if (y < 1) y = 1; if (y > h - 1) y = h - 1;
-            if (i === 0) ctx.moveTo(x, y);
-            else ctx.lineTo(x, y);
-        }
-        ctx.stroke();
+        AYWaveformUI.drawWave(ctx, data, w, h, mid, color, invert, half);
     }
 
     var scopeLabels = ['A1', 'B1', 'C1', 'A2', 'B2', 'C2', 'A3', 'B3', 'C3', 'A4', 'B4', 'C4'];
@@ -3508,116 +3467,31 @@ var AYPlayer = (function() {
         updateVolumeUI();
     }
 
-    var _wfOff = null;
-    var _wfOffCtx = null;
-    var _wfOffValid = false;
-    var _wfOffData = null;
-    var _wfOffMode = null;
-
     function _renderWaveformStatic(ctx, w, h) {
         var fc = song ? (pt3FrameCount || song.getFrameCount()) : 0;
-        ctx.fillStyle = '#001828';
-        ctx.fillRect(0, 0, w, h);
-        var wf = endFrame || fc;
-        var waveEnd = fc > 0 ? Math.round(w * wf / fc) : w;
-        if (waveEnd > w) waveEnd = w;
-        var n = waveformData.length;
-        var step = waveEnd / n;
-        var scale = 1.0;
-        if (waveformMode === 'mix') {
-            var mid = h >> 1;
-            ctx.fillStyle = 'rgba(0,180,220,0.5)';
-            ctx.globalAlpha = 1;
-            ctx.beginPath();
-            ctx.moveTo(0, mid);
-            for (var i = 0; i < n; i++) {
-                var sum = 0;
-                for (var ch = 0; ch < waveformCh.length; ch++) {
-                    sum += waveformCh[ch][i];
-                }
-                var amp = Math.min(sum, 1) * mid;
-                ctx.lineTo(i * step, mid - amp);
-            }
-            ctx.lineTo(waveEnd, mid);
-            ctx.lineTo(waveEnd, mid + 0.5);
-            for (var i = n - 1; i >= 0; i--) {
-                var sum = 0;
-                for (var ch = 0; ch < waveformCh.length; ch++) {
-                    sum += waveformCh[ch][i];
-                }
-                var amp = Math.min(sum, 1) * mid;
-                ctx.lineTo(i * step, mid + amp);
-            }
-            ctx.closePath();
-            ctx.fill();
-        } else {
-            var chCount = waveformCh.length || 3;
-            var chColors = ['#44FF44', '#FFFF44', '#44AAFF', '#FF6644', '#CC66FF', '#44FFAA', '#FF88CC', '#88FF88', '#FFAA44'];
-            var chNames = [];
-            for (var ci = 0; ci < chCount; ci++) chNames.push(String.fromCharCode(65 + (ci % 3)) + (chCount > 3 ? Math.floor(ci / 3) + 1 : ''));
-            var gap = 4;
-            var padTB = 4;
-            var bandH = (h - padTB * 2 - gap * (chCount - 1)) / chCount;
-            for (var ch = 0; ch < chCount; ch++) {
-                var y0 = Math.round(padTB + ch * (bandH + gap));
-                var y1 = Math.round(padTB + (ch + 1) * (bandH + gap)) - gap;
-                var bh = y1 - y0;
-                var mid = bh >> 1;
-                ctx.globalAlpha = 1;
-                ctx.fillStyle = '#001824';
-                ctx.fillRect(0, y0, w, bh);
-                ctx.strokeStyle = 'rgba(255,255,255,0.08)';
-                ctx.lineWidth = 1;
-                ctx.beginPath();
-                ctx.moveTo(0, y0 + mid);
-                ctx.lineTo(waveEnd, y0 + mid);
-                ctx.stroke();
-                var data = ch < waveformCh.length ? waveformCh[ch] : waveformData;
-                ctx.fillStyle = chColors[ch % chColors.length];
-                ctx.globalAlpha = 0.5;
-                ctx.beginPath();
-                ctx.moveTo(0, y0 + mid);
-                for (var i = 0; i < n; i++) {
-                    var amp = data[i] * mid * scale;
-                    ctx.lineTo(i * step, y0 + mid - amp);
-                }
-                ctx.lineTo(waveEnd, y0 + mid);
-                ctx.lineTo(waveEnd, y0 + mid + 0.5);
-                for (var i = n - 1; i >= 0; i--) {
-                    var amp = data[i] * mid * scale;
-                    ctx.lineTo(i * step, y0 + mid + amp);
-                }
-                ctx.closePath();
-                ctx.fill();
-                ctx.globalAlpha = 1;
-                ctx.fillStyle = '#FFFFFF';
-                ctx.font = '7px sans-serif';
-                ctx.textAlign = 'left';
-                ctx.textBaseline = 'top';
-                ctx.fillText(chNames[ch % chNames.length], 1, y0 + 1);
-            }
-        }
-        ctx.globalAlpha = 1;
+        AYWaveformUI.renderStatic(ctx, w, h, {
+            frameCount: fc,
+            endFrame: endFrame,
+            data: waveformData,
+            channels: waveformCh,
+            mode: waveformMode
+        });
     }
 
     function drawWaveform(progress) {
         var canvas = document.getElementById(containerId + '_waveCanvas');
         if (!canvas || !waveformData) return;
-        var ctx = canvas.getContext('2d');
-        var w = _cachedWaveWidth || canvas.parentNode.clientWidth;
-        var h = _cachedWaveHeight || canvas.parentNode.clientHeight || 186;
-        if (canvas.width !== w || canvas.height !== h) { canvas.width = w; canvas.height = h; _wfOffValid = false; }
-        var needStatic = !_wfOffValid || _wfOffData !== waveformData || _wfOffMode !== waveformMode;
-        if (needStatic) {
-            if (!_wfOff) { _wfOff = document.createElement('canvas'); _wfOffCtx = _wfOff.getContext('2d'); }
-            if (_wfOff.width !== w || _wfOff.height !== h) { _wfOff.width = w; _wfOff.height = h; }
-            _renderWaveformStatic(_wfOffCtx, w, h);
-            _wfOffData = waveformData;
-            _wfOffMode = waveformMode;
-            _wfOffValid = true;
-        }
-        ctx.drawImage(_wfOff, 0, 0);
-        _updatePlayhead(_waveformLastK >= 0 ? _waveformLastK / 100 : 0);
+        AYWaveformUI.draw({
+            containerId: containerId,
+            data: waveformData,
+            channels: waveformCh,
+            mode: waveformMode,
+            frameCount: song ? (pt3FrameCount || song.getFrameCount()) : 0,
+            endFrame: endFrame,
+            cachedWidth: _cachedWaveWidth,
+            cachedHeight: _cachedWaveHeight,
+            lastK: _waveformLastK
+        });
     }
     function _exportPause() {
         var w = playing;
