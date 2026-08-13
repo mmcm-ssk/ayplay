@@ -1,6 +1,7 @@
 const Ayumi = globalThis.Ayumi;
 const OPN = globalThis.OPN;
 const OPN_SCALE = 1 / 32768;
+const OPN_SCOPE_SCALE = 1 / 8192;
 const DECIMATE_FACTOR = globalThis.DECIMATE_FACTOR;
 const FIR_SIZE = globalThis.FIR_SIZE;
 const DC_FILTER_SIZE = globalThis.DC_FILTER_SIZE;
@@ -451,8 +452,11 @@ class AYProcessor extends AudioWorkletProcessor {
           var opn = this._getOpn(ci);
           var c = opn.renderSample(this._opnTmp);
           for (var g = 0; g < 3; g++) {
-            var amp = c[g] * OPN_SCALE;
-            this._chanRaw[base + g] = amp;
+            var raw = c[g];
+            if (raw > 8191) raw = 8191;
+            else if (raw < -8192) raw = -8192;
+            var amp = raw * OPN_SCALE;
+            this._chanRaw[base + g] = raw * OPN_SCOPE_SCALE;
             var p = pd ? pd[base + g] : null;
             mixedLeft += p ? amp * p.left : amp * 0.5;
             mixedRight += p ? amp * p.right : amp * 0.5;

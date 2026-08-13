@@ -2168,7 +2168,7 @@ var AYPlayer = (function() {
         }
     }
 
-    var _awVersion = '325';
+    var _awVersion = '327';
 
     function _stopStreamer() {
         if (_streamer) {
