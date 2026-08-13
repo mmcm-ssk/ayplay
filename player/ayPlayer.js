@@ -669,7 +669,7 @@ var AYPlayer = (function() {
             return;
         }
         if (msg.type === 'scope') {
-            var data = new Float64Array(msg.data);
+            var data = new Float32Array(msg.data);
             var chCount = _chipCount * 3;
             var count = data.length / chCount;
             if (count !== (count | 0) || count < 1) return;
@@ -2212,7 +2212,7 @@ var AYPlayer = (function() {
         }
     }
 
-    var _awVersion = '314';
+    var _awVersion = '316';
 
     function _stopStreamer() {
         if (_streamer) {
@@ -2354,11 +2354,21 @@ var AYPlayer = (function() {
         if (start + count > points) start = Math.max(0, points - count);
         var n = Math.min(count, points - start);
         if (!(n > 0) || n > 8192) return;
+        var bins = 24;
         for (var ch = 0; ch < chCount; ch++) {
             var buf = scopeBuf[ch];
-            buf.length = n;
-            for (var j = 0; j < n; j++) {
-                buf[j] = entry.scope[(start + j) * chCount + ch];
+            buf.length = bins;
+            for (var b = 0; b < bins; b++) {
+                var i0 = (b * n / bins) | 0;
+                var i1 = ((b + 1) * n / bins) | 0;
+                if (i1 <= i0) i1 = i0 + 1;
+                if (i1 > n) i1 = n;
+                var mx = 0;
+                for (var j = i0; j < i1; j++) {
+                    var v = entry.scope[(start + j) * chCount + ch];
+                    if (v > mx) mx = v;
+                }
+                buf[b] = mx;
             }
         }
         _scopeDirty = true;

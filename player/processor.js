@@ -144,7 +144,7 @@ class AYProcessor extends AudioWorkletProcessor {
     this.chipKinds = null;
     this.opnClock = 3500000;
     this._panData = null;
-    this._chanRaw = new Float64Array(12);
+    this._chanRaw = new Float32Array(12);
     this._opnTmp = new Float64Array(3);
     this._sampleHook = null;
     this.dump = [];
@@ -164,10 +164,12 @@ class AYProcessor extends AudioWorkletProcessor {
     this._lastProcessTime = -1;
     this._silenceEnd = 0;
 
-    this._scopeBuf = new Float64Array(256 * 12);
+    this._scopeBuf = new Float32Array(256 * 12);
     this._scopeCount = 0;
     this._scopeSendSkip = 0;
     this._scopeSendThreshold = 6;
+    this._scopeBins = 24;
+    this._scopeSendBuf = new Float32Array(24 * 12);
     this._cpuAccum = 0;
     this._cpuCount = 0;
     this._cpuSendSkip = 0;
@@ -402,7 +404,6 @@ class AYProcessor extends AudioWorkletProcessor {
       return true;
     }
 
-    this._scopeCount = 0;
     if (this.finished) {
       for (var i = 0; i < left.length; i++) { left[i] = 0; if (right) right[i] = 0; }
       if (this.finished) this.port.postMessage({ type: 'finished' });
@@ -482,8 +483,26 @@ class AYProcessor extends AudioWorkletProcessor {
       this._scopeSendSkip++;
       if (this._scopeSendSkip >= this._scopeSendThreshold) {
         this._scopeSendSkip = 0;
-        var buf = this._scopeBuf.slice(0, this._scopeCount * this.chipCount * 3);
-        this.port.postMessage({ type: 'scope', data: buf.buffer, pos: this.pos }, [buf.buffer]);
+        var sc3 = this.chipCount * 3;
+        var count = this._scopeCount;
+        var bins = this._scopeBins;
+        var out = this._scopeSendBuf.slice(0, bins * sc3);
+        for (var ch = 0; ch < sc3; ch++) {
+          for (var b = 0; b < bins; b++) {
+            var i0 = (b * count / bins) | 0;
+            var i1 = ((b + 1) * count / bins) | 0;
+            if (i1 <= i0) i1 = i0 + 1;
+            if (i1 > count) i1 = count;
+            var mx = 0;
+            for (var j = i0; j < i1; j++) {
+              var v = this._scopeBuf[j * sc3 + ch];
+              if (v > mx) mx = v;
+            }
+            out[b * sc3 + ch] = mx;
+          }
+        }
+        this.port.postMessage({ type: 'scope', data: out.buffer, pos: this.pos }, [out.buffer]);
+        this._scopeCount = 0;
       }
     }
     if (this.finished) this.port.postMessage({ type: 'finished' });
