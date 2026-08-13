@@ -70,6 +70,109 @@ var AYPlayer = (function() {
         return name.indexOf(q) !== -1 || author.indexOf(q) !== -1 || file.indexOf(q) !== -1;
     }
 
+    var _itemMeta = null;
+    var _folderIds = null;
+    var _folderItemCount = {};
+    var _visibleCount = 0;
+    var _filterVersion = 0;
+    var _computedFilterVersion = -1;
+
+    function _bumpFilterVersion() {
+        _filterVersion++;
+    }
+
+    function _ensureItemMeta() {
+        if (_itemMeta && _itemMeta.length === playlist.length) return;
+        var arr = new Array(playlist.length);
+        for (var mi = 0; mi < playlist.length; mi++) {
+            var me = playlist[mi];
+            var mfile = me.file || '';
+            var mPt3 = /\.pt3$/i.test(mfile);
+            var mVt2 = isVt2File(mfile);
+            var mPsg = isPsgFile(mfile);
+            var mSnd = isSndFile(mfile);
+            var mStc = isStcFile(mfile);
+            var mAy = isAyFile(mfile);
+            var mPt2 = isPt2File(mfile);
+            var mAsc = isAscFile(mfile);
+            var mMtc = isMtcFile(mfile);
+            var mTfc = isTfcFile(mfile);
+            var mStp = isStpFile(mfile);
+            var mPt1 = isPt1File(mfile);
+            var mDisp = _trackDisplay(me);
+            var mfc = mDisp.charAt(0).toUpperCase();
+            arr[mi] = {
+                fmt: mPt3 ? 'pt3' : (mVt2 ? 'vt2' : (mPsg ? 'psg' : (mSnd ? 'snd' : (mStc ? 'stc' : (mAy ? 'ay' : (mPt2 ? 'pt2' : (mAsc ? 'asc' : (mTfc ? 'tfc' : (mStp ? 'stp' : (mPt1 ? 'pt1' : (mMtc ? 'mtc' : 'fym'))))))))))),
+                pt3: mPt3, vt2: mVt2, psg: mPsg, snd: mSnd, stc: mStc, ay: mAy, pt2: mPt2, asc: mAsc, mtc: mMtc, tfc: mTfc, stp: mStp, pt1: mPt1,
+                alpha: (mfc >= 'A' && mfc <= 'Z') ? mfc : '0',
+                dir: me.author || (function(f) { var s = f.lastIndexOf('/'); return s > 0 ? f.substring(0, s) : '/'; })(mfile),
+                disp: mDisp,
+                ch: me.channels || 3,
+                year: me.year || '',
+                section: me.section || '',
+                time: me.time || ''
+            };
+        }
+        _itemMeta = arr;
+    }
+
+    function _ensureFiltered() {
+        if (_folderIds && _computedFilterVersion === _filterVersion) return;
+        _computedFilterVersion = _filterVersion;
+        _ensureItemMeta();
+        var folders = {};
+        var itemCount = {};
+        var count = 0;
+        var noFmt = filterFormat === 'all';
+        var noAlpha = alphaFilter === 'all';
+        var noCh = chFilter === 'all';
+        var q = searchTerm ? searchTerm.toLowerCase() : '';
+        var hasQ = q !== '';
+        for (var fi = 0; fi < playlist.length; fi++) {
+            if (favoritesOnly && !favorites[fi]) continue;
+            var fm = _itemMeta[fi];
+            if (!noFmt) {
+                if (filterFormat === 'fym') { if (fm.fmt !== 'fym') continue; }
+                else if (fm.fmt !== filterFormat) continue;
+            }
+            if (!noAlpha && fm.alpha !== alphaFilter) continue;
+            if (!noCh && fm.ch !== parseInt(chFilter)) continue;
+            if (hasQ) {
+                if (fm.disp.toLowerCase().indexOf(q) === -1 &&
+                    (playlist[fi].author || '').toLowerCase().indexOf(q) === -1 &&
+                    (playlist[fi].file || '').toLowerCase().indexOf(q) === -1) continue;
+            }
+            var fdir = fm.dir;
+            if (!folders[fdir]) folders[fdir] = [];
+            folders[fdir].push(fi);
+            itemCount[fdir] = (itemCount[fdir] || 0) + 1;
+            count++;
+        }
+        var fNames = Object.keys(folders);
+        var out = {};
+        for (var fi2 = 0; fi2 < fNames.length; fi2++) {
+            var fd = fNames[fi2];
+            var fids = folders[fd];
+            if (fids.length > 1) {
+                fids.sort(function(a, b) {
+                    var ma = _itemMeta[a], mb = _itemMeta[b];
+                    var sa = ma.section, sb = mb.section;
+                    if (!sa && sb) return -1;
+                    if (sa && !sb) return 1;
+                    if (sa && sb) {
+                        if (sa < sb) return -1;
+                        if (sa > sb) return 1;
+                    }
+                    return a - b;
+                });
+            }
+            out[fd] = fids;
+        }
+        _folderIds = out;
+        _folderItemCount = itemCount;
+        _visibleCount = count;
+    }
+
     function sndGetAuthor(data) {
         try {
             var b = new Uint8Array(data);
@@ -130,6 +233,7 @@ var AYPlayer = (function() {
             if (state.shuffle !== undefined) shuffle = state.shuffle;
             if (state.repeat !== undefined) repeat = state.repeat;
             if (state.favoritesOnly !== undefined) favoritesOnly = state.favoritesOnly;
+            _bumpFilterVersion();
             if (state.firEnabled !== undefined) firEnabled = state.firEnabled;
             if (state.xfEnabled !== undefined) xfEnabled = state.xfEnabled;
             if (state.roomEnabled !== undefined) roomEnabled = state.roomEnabled;
@@ -237,7 +341,8 @@ var AYPlayer = (function() {
     var scopeBuf = [[],[],[],[],[],[],[],[],[],[],[],[]];
     var scopeMax = 64;
     var _scopeDirty = false;
-    var _scopePeaks = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+    var _scopePosFrame = 0;
+    var _scopePosTime = -1;
     var _scopeFade = 1.0;
     var _fadeTarget = -1;
     var _fadeStartVal = 1.0;
@@ -573,19 +678,15 @@ var AYPlayer = (function() {
                         ctx.lineWidth = 1;
                         ctx.beginPath();
                         var step = Math.max(1, (len / w) | 0);
-                        var peak = 0;
-                        for (var pi = 0; pi < len; pi += step) {
-                            var av = data[pi] < 0 ? -data[pi] : data[pi];
-                            if (av > peak) peak = av;
-                        }
-                        if (peak > _scopePeaks[ch]) _scopePeaks[ch] = peak;
-                        else _scopePeaks[ch] *= 0.995;
-                        var scale = Math.min((h - 2) * 0.85 / Math.max(_scopePeaks[ch], 0.03), (h - 2) * 3.0) * _scopeFade;
+                        var scale = (h - 2) * 0.85 * _scopeFade;
                         var n = Math.min(w, (len / step) | 0);
+                        var y0 = h / 2;
+                        var isOpn = !!(_chipKinds && _chipKinds[(ch / 3) | 0] === 'opn');
+                        var dcOff = isOpn ? 0 : 0.5;
                         for (var i = 0; i < n; i++) {
                             var v = data[i * step];
                             var x = (i * w / n) | 0;
-                            var y = (h - 1) - v * scale;
+                            var y = y0 - (v - dcOff) * scale;
                             if (y < 0) y = 0; if (y > h - 1) y = h - 1;
                             if (i === 0) ctx.moveTo(x, y);
                             else ctx.lineTo(x, y);
@@ -628,7 +729,12 @@ var AYPlayer = (function() {
             updateClock();
         }
         scopeFrame++;
-        if (_scopeDirty && (scopeFps >= 60 || (scopeFrame % (60 / scopeFps)) === 1)) {
+        var doScopeFrame = (scopeFps >= 60 || (scopeFrame % (60 / scopeFps)) === 1);
+        if (doScopeFrame && _streamMode && playing && _scopePosTime >= 0 && _seekTarget < 0) {
+            var _curF = _wrapStreamFrame(_scopePosFrame + (performance.now() - _scopePosTime) / 1000 * (_renderFrameRate || 50));
+            _paceScope(_curF);
+        }
+        if (_scopeDirty && doScopeFrame) {
             drawScope(); _scopeDirty = false;
         }
         if (playing || _fadeTarget >= 0) rafId = requestAnimationFrame(rafLoop);
@@ -645,6 +751,8 @@ var AYPlayer = (function() {
                 }
                 if (_seekTarget < 0) {
                     if (isFinite(frame)) playFrame = frame;
+                    _scopePosFrame = frame;
+                    _scopePosTime = performance.now();
                     _paceScope(frame);
                     _checkStreamEnd(frame);
                     _checkSilenceSkip(frame);
@@ -881,49 +989,9 @@ var AYPlayer = (function() {
         if (!el) return;
 
         // update visible count
-        var visibleCount = 0;
-        var folderItemCount = {};
-        for (var ci = 0; ci < playlist.length; ci++) {
-            if (favoritesOnly && !favorites[ci]) continue;
-            if (filterFormat !== 'all') {
-                var pt3 = /\.pt3$/i.test(playlist[ci].file);
-                var vt2 = isVt2File(playlist[ci].file);
-                var psg = isPsgFile(playlist[ci].file);
-                var snd = isSndFile(playlist[ci].file);
-                var stc = isStcFile(playlist[ci].file);
-                var ay = isAyFile(playlist[ci].file);
-                var pt2 = isPt2File(playlist[ci].file);
-                var asc = isAscFile(playlist[ci].file);
-                var mtc = isMtcFile(playlist[ci].file);
-                var tfc = isTfcFile(playlist[ci].file);
-                var stp = isStpFile(playlist[ci].file);
-                var pt1 = isPt1File(playlist[ci].file);
-                if (filterFormat === 'fym' && (pt3 || vt2 || psg || snd || stc || ay || pt2 || asc || mtc || tfc || stp || pt1)) continue;
-                if (filterFormat === 'pt3' && !pt3) continue;
-                if (filterFormat === 'vt2' && !vt2) continue;
-                if (filterFormat === 'psg' && !psg) continue;
-                if (filterFormat === 'stc' && !stc) continue;
-                if (filterFormat === 'ay' && !ay) continue;
-                if (filterFormat === 'pt2' && !pt2) continue;
-                if (filterFormat === 'snd' && !snd) continue;
-                if (filterFormat === 'asc' && !asc) continue;
-                if (filterFormat === 'mtc' && !mtc) continue;
-                if (filterFormat === 'tfc' && !tfc) continue;
-                if (filterFormat === 'stp' && !stp) continue;
-                if (filterFormat === 'pt1' && !pt1) continue;
-            }
-            if (alphaFilter !== 'all') {
-                var display = _trackDisplay(playlist[ci]);
-                var fc = display.charAt(0).toUpperCase();
-                var alpha = (fc >= 'A' && fc <= 'Z') ? fc : '0';
-                if (alpha !== alphaFilter) continue;
-            }
-            if (chFilter !== 'all' && (playlist[ci].channels || 3) !== parseInt(chFilter)) continue;
-            if (!_matchesSearch(playlist[ci])) continue;
-            var ciDir = playlist[ci].author || (function(f) { var s = f.lastIndexOf('/'); return s > 0 ? f.substring(0, s) : '/'; })(playlist[ci].file);
-            folderItemCount[ciDir] = (folderItemCount[ciDir] || 0) + 1;
-            visibleCount++;
-        }
+        _ensureFiltered();
+        var visibleCount = _visibleCount;
+        var folderItemCount = _folderItemCount;
         var count = document.getElementById(containerId + '_playlistCount');
         if (count) count.textContent = visibleCount;
 
@@ -1042,14 +1110,7 @@ var AYPlayer = (function() {
             }
         }
 
-        var folders = {};
-        for (var i = 0; i < playlist.length; i++) {
-            var dir = playlist[i].author || (function(f) { var s = f.lastIndexOf('/'); return s > 0 ? f.substring(0, s) : '/'; })(playlist[i].file);
-            if (!folders[dir]) folders[dir] = [];
-            folders[dir].push(i);
-        }
-
-        _folderHtml = {};
+        var folders = _folderIds;
         _folderSlots = {};
         _folderSlotTops = {};
         _folderTotalHeight = {};
@@ -1083,47 +1144,7 @@ var AYPlayer = (function() {
             });
             var displayDir = dir === '/' ? 'chiptunes' : dir.replace(/^chiptunes\//, '');
             var isOpen = !!openDirs[dir];
-            var filteredIds = [];
-            for (var fdi = 0; fdi < ids.length; fdi++) {
-                var idx = ids[fdi];
-                if (favoritesOnly && !favorites[idx]) continue;
-                if (filterFormat !== 'all') {
-                    var fPt3 = /\.pt3$/i.test(playlist[idx].file);
-                    var fVt2 = isVt2File(playlist[idx].file);
-                    var fPsg = isPsgFile(playlist[idx].file);
-                    var fSnd = isSndFile(playlist[idx].file);
-                    var fStc = isStcFile(playlist[idx].file);
-                    var fAy = isAyFile(playlist[idx].file);
-                    var fPt2 = isPt2File(playlist[idx].file);
-                    var fAsc = isAscFile(playlist[idx].file);
-                    var fMtc = isMtcFile(playlist[idx].file);
-                    var fTfc = isTfcFile(playlist[idx].file);
-                    var fStp = isStpFile(playlist[idx].file);
-                    var fPt1 = isPt1File(playlist[idx].file);
-                    if (filterFormat === 'fym' && (fPt3 || fVt2 || fPsg || fSnd || fStc || fAy || fPt2 || fAsc || fMtc || fTfc || fStp || fPt1)) continue;
-                    if (filterFormat === 'pt3' && !fPt3) continue;
-                    if (filterFormat === 'vt2' && !fVt2) continue;
-                    if (filterFormat === 'psg' && !fPsg) continue;
-                    if (filterFormat === 'snd' && !fSnd) continue;
-                    if (filterFormat === 'stc' && !fStc) continue;
-                    if (filterFormat === 'ay' && !fAy) continue;
-                    if (filterFormat === 'pt2' && !fPt2) continue;
-                    if (filterFormat === 'asc' && !fAsc) continue;
-                    if (filterFormat === 'mtc' && !fMtc) continue;
-                    if (filterFormat === 'tfc' && !fTfc) continue;
-                    if (filterFormat === 'stp' && !fStp) continue;
-                    if (filterFormat === 'pt1' && !fPt1) continue;
-                }
-                if (alphaFilter !== 'all') {
-                    var fDisplay = _trackDisplay(playlist[idx]);
-                    var fFc = fDisplay.charAt(0).toUpperCase();
-                    var fAlpha = (fFc >= 'A' && fFc <= 'Z') ? fFc : '0';
-                    if (fAlpha !== alphaFilter) continue;
-                }
-                if (chFilter !== 'all' && (playlist[idx].channels || 3) !== parseInt(chFilter)) continue;
-                if (!_matchesSearch(playlist[idx])) continue;
-                filteredIds.push(idx);
-            }
+            var filteredIds = ids;
             var fCount = folderItemCount[dir] || 0;
             var folderHidden = fCount === 0;
             if (!folderHidden && folderAlphaFilter !== 'all') {
@@ -1140,9 +1161,6 @@ var AYPlayer = (function() {
             }
             _folderSlotTops[dir] = tops;
             _folderTotalHeight[dir] = totalH;
-            var itemHtml = '';
-            for (var si = 0; si < slots.length; si++) itemHtml += slots[si].html;
-            _folderHtml[dir] = itemHtml;
             if (!folderHidden) anyVisible = true;
             html += '<div class="ayPlayer-playlist-folder"' +
                 ' data-dir="' + dir.replace(/"/g, '&quot;') + '"' +
@@ -1189,7 +1207,7 @@ var AYPlayer = (function() {
                 var fItems = fEl.querySelector('.ayPlayer-playlist-folder-items');
                 if (fItems && (fItems.style.display === 'block' || fDir === currentDir)) {
                     fItems.style.display = 'block';
-                    if (_folderHtml[fDir] && (!fItems.hasChildNodes() || !_folderFullyLoaded[fDir])) openFolderItems(fItems, fDir);
+                    if (_folderSlots[fDir] && (!fItems.hasChildNodes() || !_folderFullyLoaded[fDir])) openFolderItems(fItems, fDir);
                     var arrow = fEl.querySelector('.ayPlayer-playlist-folder-arrow');
                     if (arrow) arrow.classList.add('open');
                 }
@@ -1359,7 +1377,7 @@ var AYPlayer = (function() {
             for (var i = 0; i < allArrows.length; i++) allArrows[i].classList.remove('open');
             items.style.display = 'block';
             if (!items.hasChildNodes() || !_folderFullyLoaded[dir]) {
-                if (_folderHtml[dir]) openFolderItems(items, dir);
+                if (_folderSlots[dir]) openFolderItems(items, dir);
             }
             if (arrow) arrow.classList.add('open');
         }
@@ -1463,7 +1481,6 @@ var AYPlayer = (function() {
             _silenceSkipDone = false;
             for (var _mc = 0; _mc < 12; _mc++) muted[_mc] = false;
             soloedIdx = -1;
-            _scopePeaks = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
             if (playlist[currentId] && chipCount > 0) {
                 var realCh = chipCount * 3;
                 if (playlist[currentId].channels !== realCh) {
@@ -1896,7 +1913,6 @@ var AYPlayer = (function() {
     var _loadGen = 0;
     var _playlistClickTimer = null;
     var _xhr = null;
-    var _folderHtml = {};
     var _folderChunks = {};
     var _folderRAF = null;
     var _folderFullyLoaded = {};
@@ -2058,7 +2074,8 @@ var AYPlayer = (function() {
         for (var si = startIdx; si <= endIdx; si++) {
             if (existing[si]) { prevSib = existing[si]; continue; }
             var tmp = document.createElement('div');
-            tmp.innerHTML = slots[si].html;
+            var slotHtml = slots[si].html;
+            tmp.innerHTML = typeof slotHtml === 'function' ? slotHtml() : slotHtml;
             var el = tmp.firstChild;
             el.setAttribute('data-si', si);
             el.style.position = 'absolute';
@@ -2099,18 +2116,19 @@ var AYPlayer = (function() {
     }
 
     function buildItemHtml(ii, prevIi) {
-        var iisPt3 = /\.pt3$/i.test(playlist[ii].file);
-        var iisVt2 = isVt2File(playlist[ii].file);
-        var iisPsg = isPsgFile(playlist[ii].file);
-        var iisSnd = isSndFile(playlist[ii].file);
-        var iisStc = isStcFile(playlist[ii].file);
-        var iisAy = isAyFile(playlist[ii].file);
-        var iisPt2 = isPt2File(playlist[ii].file);
-        var iisAsc = isAscFile(playlist[ii].file);
-        var iisMtc = isMtcFile(playlist[ii].file);
-        var iisTfc = isTfcFile(playlist[ii].file);
-        var iisStp = isStpFile(playlist[ii].file);
-        var iisPt1 = isPt1File(playlist[ii].file);
+        var _mi = _itemMeta[ii] || {};
+        var iisPt3 = !!_mi.pt3;
+        var iisVt2 = !!_mi.vt2;
+        var iisPsg = !!_mi.psg;
+        var iisSnd = !!_mi.snd;
+        var iisStc = !!_mi.stc;
+        var iisAy = !!_mi.ay;
+        var iisPt2 = !!_mi.pt2;
+        var iisAsc = !!_mi.asc;
+        var iisMtc = !!_mi.mtc;
+        var iisTfc = !!_mi.tfc;
+        var iisStp = !!_mi.stp;
+        var iisPt1 = !!_mi.pt1;
         var idisplay = _trackDisplay(playlist[ii]);
         var iactive = (ii === currentId && playing) ? ' active' : '';
         var ifirstChar = idisplay.charAt(0).toUpperCase();
@@ -2140,11 +2158,32 @@ var AYPlayer = (function() {
         return slots;
     }
 
+    function buildItemSlots(ids, fi) {
+        var ii = ids[fi];
+        var prev = fi > 0 ? ids[fi - 1] : null;
+        var idisplay = _trackDisplay(playlist[ii]);
+        var ifirstChar = idisplay.charAt(0).toUpperCase();
+        var ialpha = (ifirstChar >= 'A' && ifirstChar <= 'Z') ? ifirstChar : '0';
+        var slots = [];
+        if (playlist[ii].year && (prev === null || playlist[prev].year !== playlist[ii].year)) {
+            slots.push({ type: 'year-sep', h: 28, html: '<div class="ayPlayer-playlist-year-sep" data-alpha="' + ialpha + '">' + playlist[ii].year + ' <span class="ayPlayer-playlist-year-line"></span></div>' });
+        }
+        if (playlist[ii].section && (prev === null || playlist[prev].section !== playlist[ii].section)) {
+            slots.push({ type: 'auth-sep', h: 28, html: '<div class="ayPlayer-playlist-auth-sep" data-alpha="' + ialpha + '">' + playlist[ii].section + '</div>' });
+        }
+        slots.push({ type: 'item', h: 30, id: ii, html: (function(ii, prev) {
+            return function() {
+                var ss = buildItemHtml(ii, prev);
+                return ss[ss.length - 1].html;
+            };
+        })(ii, prev) });
+        return slots;
+    }
+
     function buildFolderSlots(ids) {
         var allSlots = [];
         for (var fi = 0; fi < ids.length; fi++) {
-            var prev = fi > 0 ? ids[fi - 1] : null;
-            var itemSlots = buildItemHtml(ids[fi], prev);
+            var itemSlots = buildItemSlots(ids, fi);
             for (var si = 0; si < itemSlots.length; si++) allSlots.push(itemSlots[si]);
         }
         return allSlots;
@@ -2212,7 +2251,7 @@ var AYPlayer = (function() {
         }
     }
 
-    var _awVersion = '316';
+    var _awVersion = '324';
 
     function _stopStreamer() {
         if (_streamer) {
@@ -2272,6 +2311,7 @@ var AYPlayer = (function() {
         _streamInQueue = 0;
         _streamChunkCount = 0;
         _streamUnderflowShown = false;
+        _scopePosTime = -1;
         _renderSR = audioContext ? audioContext.sampleRate : 48000;
         _renderFrameRate = intFreqSelect || _dumpData.frameRate || 50;
         _streamEndFrame = _dumpData.dumpLen > 0 ? _dumpData.dumpLen - 1 : 0;
@@ -2345,30 +2385,20 @@ var AYPlayer = (function() {
         }
         if (!entry) return;
         if (qi > 0) _chunkQueue.splice(0, qi);
-        var points = entry.scope.length / chCount;
-        if (points < 2) return;
-        var pi = Math.floor(entryOff * sr / fr / 8);
-        var count = 64;
-        var start = pi - count + 1;
-        if (start < 0) start = 0;
-        if (start + count > points) start = Math.max(0, points - count);
-        var n = Math.min(count, points - start);
-        if (!(n > 0) || n > 8192) return;
         var bins = 24;
+        var points = entry.scope.length / chCount;
+        if (points < bins) return;
+        var frames = entry.scope.length / (bins * chCount);
+        var totalFrames = (sp <= ep) ? (ep - sp) : ((dl - sp) + (ep - lf));
+        var samplesPerBf = Math.max(1, totalFrames * sr / fr / frames);
+        var bf = Math.floor(entryOff * sr / fr / samplesPerBf);
+        if (bf < 0) bf = 0;
+        if (bf >= frames) bf = Math.max(0, Math.floor(frames) - 1);
         for (var ch = 0; ch < chCount; ch++) {
             var buf = scopeBuf[ch];
             buf.length = bins;
             for (var b = 0; b < bins; b++) {
-                var i0 = (b * n / bins) | 0;
-                var i1 = ((b + 1) * n / bins) | 0;
-                if (i1 <= i0) i1 = i0 + 1;
-                if (i1 > n) i1 = n;
-                var mx = 0;
-                for (var j = i0; j < i1; j++) {
-                    var v = entry.scope[(start + j) * chCount + ch];
-                    if (v > mx) mx = v;
-                }
-                buf[b] = mx;
+                buf[b] = entry.scope[(bf * bins + b) * chCount + ch];
             }
         }
         _scopeDirty = true;
@@ -3638,6 +3668,7 @@ var AYPlayer = (function() {
             if (rafId) { cancelAnimationFrame(rafId); rafId = null; }
             stopEndCheck(); releaseWakeLock();
             playing = false; updatePlayBtn();
+            _scopePosTime = -1;
             if (onPlayStateChange) onPlayStateChange(false, currentId);
         }
         return w;
@@ -4132,6 +4163,8 @@ var AYPlayer = (function() {
                 prevCurrentFile = restoredCurrentFile;
             }
             playlist = tracks;
+            _itemMeta = null;
+            _bumpFilterVersion();
             for (var i = 0; i < playlist.length; i++) {
                 if (playlist[i].file && playlist[i].file.indexOf('%23') >= 0)
                     playlist[i].file = playlist[i].file.replace(/%23/g, '#');
@@ -4344,6 +4377,7 @@ var AYPlayer = (function() {
             var fc = pt3FrameCount || song.getFrameCount();
             playFrame = Math.round(x * fc);
             _seekTarget = playFrame; _seekTime = performance.now();
+            _scopePosTime = -1;
             updateProgress();
             if (_streamMode) {
                 _streamLoad(x);
@@ -4537,6 +4571,7 @@ var AYPlayer = (function() {
 
         setFilter: function(format) {
             filterFormat = format;
+            _bumpFilterVersion();
             if (!playlist || playlist.length === 0) return;
             renderPlaylist(true);
             AYPlayer.updateAlphaOverlay();
@@ -4545,6 +4580,7 @@ var AYPlayer = (function() {
 
         setChFilter: function(ch) {
             chFilter = ch;
+            _bumpFilterVersion();
             if (!playlist || playlist.length === 0) return;
             renderPlaylist(true);
             AYPlayer.updateAlphaOverlay();
@@ -4554,6 +4590,7 @@ var AYPlayer = (function() {
         setAlphaFilter: function(letter) {
             alphaFilter = letter;
             alphaMode = 'track';
+            _bumpFilterVersion();
             if (!playlist || playlist.length === 0) return;
             renderPlaylist(true);
             AYPlayer.updateAlphaOverlay();
@@ -4563,6 +4600,7 @@ var AYPlayer = (function() {
         setFolderAlphaFilter: function(letter) {
             folderAlphaFilter = letter;
             alphaMode = 'folder';
+            _bumpFilterVersion();
             if (!playlist || playlist.length === 0) return;
             renderPlaylist(true);
             AYPlayer.updateAlphaOverlay();
@@ -4664,6 +4702,7 @@ var AYPlayer = (function() {
 
         toggleFavorites: function() {
             favoritesOnly = !favoritesOnly;
+            _bumpFilterVersion();
             updateFavBtn();
             renderPlaylist(true);
             if (favoritesOnly && !favorites[currentId]) {
@@ -4686,6 +4725,7 @@ var AYPlayer = (function() {
                 bar.style.display = 'none';
                 searchTerm = '';
                 input.value = '';
+                _bumpFilterVersion();
                 renderPlaylist(true);
                 updateFilterDisplay();
             } else {
@@ -4697,6 +4737,7 @@ var AYPlayer = (function() {
 
         onSearchInput: function(val) {
             searchTerm = (val || '').trim();
+            _bumpFilterVersion();
             renderPlaylist(true);
             updateFilterDisplay();
         },
@@ -4820,7 +4861,7 @@ var AYPlayer = (function() {
             var folderEl = el.parentNode;
             var dir = folderEl.getAttribute('data-dir');
             if (!items.hasChildNodes() || !_folderFullyLoaded[dir]) {
-                if (_folderHtml[dir]) openFolderItems(items, dir);
+                if (_folderSlots[dir]) openFolderItems(items, dir);
             }
             if (arrow) arrow.classList.add('open');
             el.scrollIntoView({block:'start'});

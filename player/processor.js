@@ -493,12 +493,13 @@ class AYProcessor extends AudioWorkletProcessor {
             var i1 = ((b + 1) * count / bins) | 0;
             if (i1 <= i0) i1 = i0 + 1;
             if (i1 > count) i1 = count;
-            var mx = 0;
+            var mx = 0, mn = 0;
             for (var j = i0; j < i1; j++) {
               var v = this._scopeBuf[j * sc3 + ch];
               if (v > mx) mx = v;
+              else if (v < mn) mn = v;
             }
-            out[b * sc3 + ch] = mx;
+            out[b * sc3 + ch] = (-mn > mx) ? mn : mx;
           }
         }
         this.port.postMessage({ type: 'scope', data: out.buffer, pos: this.pos }, [out.buffer]);

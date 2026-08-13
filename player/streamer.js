@@ -4,7 +4,7 @@
    pass-through AudioWorklet (player_worklet.js) can play the chunks without
    ever missing audio, even when the main thread is throttled (screen off). */
 
-var _AWV = '310';
+var _AWV = '321';
 
 self.sampleRate = 48000;
 
@@ -15,7 +15,7 @@ var renderFinished = false;
 function FakePort() {}
 FakePort.prototype.postMessage = function(msg) {
     if (msg.type === 'scope') {
-        var data = new Float64Array(msg.data);
+        var data = new Float32Array(msg.data);
         if (scopeAccum && scopeAccumLen + data.length <= scopeAccum.length) {
             scopeAccum.set(data, scopeAccumLen);
             scopeAccumLen += data.length;
@@ -104,17 +104,18 @@ function tick(gen) {
         return;
     }
     var endPos = proc.pos;
-    var scopeView = scopeAccum.subarray(0, scopeAccumLen);
+    var scopeOut = new Float32Array(scopeAccumLen);
+    if (scopeAccumLen) scopeOut.set(scopeAccum.subarray(0, scopeAccumLen));
     self.postMessage({
         type: 'chunk',
         gen: gen,
         left: left.buffer,
         right: right.buffer,
-        scope: scopeView.buffer,
+        scope: scopeOut.buffer,
         startPos: startPos,
         endPos: endPos,
         finished: finished
-    }, [left.buffer, right.buffer, scopeView.buffer]);
+    }, [left.buffer, right.buffer, scopeOut.buffer]);
     if (finished) {
         renderDone = true;
         renderFinished = false;
@@ -156,7 +157,7 @@ function handleLoad(msg) {
             opnClock: msg.opnClock,
             pan: msg.pan
         } });
-        proc._onMessage({ data: { type: 'fps', fps: 1000 } });
+        proc._onMessage({ data: { type: 'fps', fps: 150 } });
         if (msg.firEnabled === false) proc._onMessage({ data: { type: 'fir', enabled: false } });
         if (msg.progress && msg.progress > 0) {
             proc._onMessage({ data: { type: 'setProgress', progress: msg.progress } });
@@ -203,7 +204,7 @@ function handleWaveform(msg) {
             opnClock: msg.opnClock,
             pan: msg.pan
         } });
-        proc._onMessage({ data: { type: 'fps', fps: 1000 } });
+        proc._onMessage({ data: { type: 'fps', fps: 150 } });
         if (msg.firEnabled === false) proc._onMessage({ data: { type: 'fir', enabled: false } });
     } catch (err) {
         self.postMessage({ type: 'error', message: 'load: ' + String((err && err.message) || err) });
