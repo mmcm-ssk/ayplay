@@ -471,6 +471,35 @@ var AYPlayer = (function() {
     var _lastTimeText = '';
     var _waveformLastK = -1;
     var _waveformRendered = false;
+    var _playheadPx = -1;
+    function _updatePlayhead(frac) {
+        var line = document.getElementById(containerId + '_wavePlayhead');
+        var shade = document.getElementById(containerId + '_wavePlayed');
+        var shown = !!waveformData && frac >= 0;
+        var w = _cachedWaveWidth || (line ? line.parentNode.clientWidth : 0);
+        var px = 0;
+        if (shown) {
+            px = Math.round(frac * w);
+            if (px > w) px = w;
+            if (px < 0) px = 0;
+        }
+        if (line) {
+            if (!shown) { if (line.style.opacity !== '0') line.style.opacity = '0'; }
+            else {
+                if (px !== _playheadPx) { _playheadPx = px; line.style.transform = 'translate3d(' + px + 'px,0,0)'; }
+                if (line.style.opacity !== '1') line.style.opacity = '1';
+            }
+        }
+        if (shade) {
+            if (!shown) { if (shade.style.opacity !== '0') shade.style.opacity = '0'; }
+            else {
+                var s = Math.max(0, Math.min(1, frac));
+                shade.style.transform = 'scaleX(' + s.toFixed(4) + ')';
+                if (shade.style.opacity !== '1') shade.style.opacity = '1';
+            }
+        }
+    }
+
     function updateProgress() {
         if (!song || document.hidden) return;
         var fc = pt3FrameCount || song.getFrameCount();
@@ -479,7 +508,7 @@ var AYPlayer = (function() {
         var k = Math.round(progress * 10000) * 0.01;
         if (waveformData && k !== _waveformLastK) {
             _waveformLastK = k;
-            drawWaveform(k);
+            _updatePlayhead(k / 100);
         }
         var time = document.getElementById(containerId + '_trackTime');
         var timeM = document.getElementById(containerId + '_trackTimeM');
@@ -2179,7 +2208,7 @@ var AYPlayer = (function() {
         }
     }
 
-    var _awVersion = '312';
+    var _awVersion = '313';
 
     function _stopStreamer() {
         if (_streamer) {
@@ -3586,19 +3615,7 @@ var AYPlayer = (function() {
             _wfOffValid = true;
         }
         ctx.drawImage(_wfOff, 0, 0);
-        if (progress != null && progress >= 0 && song) {
-            ctx.globalAlpha = 1;
-            var frac = progress / 100;
-            var px = Math.round(frac * w);
-            ctx.fillStyle = 'rgba(0,200,220,0.12)';
-            ctx.fillRect(0, 0, px, h);
-            ctx.strokeStyle = '#FFFFFF';
-            ctx.lineWidth = 1;
-            ctx.beginPath();
-            ctx.moveTo(px, 0);
-            ctx.lineTo(px, h);
-            ctx.stroke();
-        }
+        _updatePlayhead(_waveformLastK >= 0 ? _waveformLastK / 100 : 0);
     }
     function _exportPause() {
         var w = playing;
@@ -3831,6 +3848,8 @@ var AYPlayer = (function() {
                 '  </div>' +
 '  <div class="ayPlayer-waveform" id="' + containerId + '_waveform" onclick="AYPlayer.seek(event)">' +
 '    <canvas class="ayPlayer-waveform-canvas" id="' + containerId + '_waveCanvas"></canvas>' +
+    '    <div class="ayPlayer-waveform-played" id="' + containerId + '_wavePlayed"></div>' +
+    '    <div class="ayPlayer-waveform-progress" id="' + containerId + '_wavePlayhead"></div>' +
 '    <div class="ayPlayer-waveform-loading" id="' + containerId + '_waveLoading">' +
 '      <div class="ayPlayer-waveform-loading-pulse" id="' + containerId + '_waveSpinner"></div>' +
 '      <div class="ayPlayer-waveform-loading-text" id="' + containerId + '_waveLoadingText">Rendering waveform</div>' +
@@ -4005,13 +4024,21 @@ var AYPlayer = (function() {
             if (window.ResizeObserver) {
                 var ro = new ResizeObserver(function() {
                     var c = _waveformContainer && _waveformContainer.querySelector('canvas');
-                    if (c) { _cachedWaveWidth = c.parentNode.clientWidth; _cachedWaveHeight = c.parentNode.clientHeight; }
+                    if (c) {
+                        _cachedWaveWidth = c.parentNode.clientWidth;
+                        _cachedWaveHeight = c.parentNode.clientHeight;
+                        if (waveformData) drawWaveform();
+                    }
                 });
                 ro.observe(_waveformContainer);
             } else {
                 window.addEventListener('resize', function() {
                     var c = document.getElementById(containerId + '_waveCanvas');
-                    if (c) { _cachedWaveWidth = c.parentNode.clientWidth; _cachedWaveHeight = c.parentNode.clientHeight; }
+                    if (c) {
+                        _cachedWaveWidth = c.parentNode.clientWidth;
+                        _cachedWaveHeight = c.parentNode.clientHeight;
+                        if (waveformData) drawWaveform();
+                    }
                 });
             }
             restoreState();
@@ -4072,7 +4099,7 @@ var AYPlayer = (function() {
                         }
                     } else if (waveformData) {
                         // Force full redraw + immediate position/time update
-                        drawWaveform(_waveformLastK >= 0 ? _waveformLastK : 0);
+                        drawWaveform();
                         updateProgress();
                     }
                 } else if (document.hidden) {
