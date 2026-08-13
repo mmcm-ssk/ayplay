@@ -510,23 +510,13 @@ var AYPlayer = (function() {
 
 
     function sizeScopeCanvas(ch) {
-        var c = document.getElementById(containerId + '_scope' + ch);
-        if (!c) return null;
-        var dpr = window.devicePixelRatio || 1;
-        var cw = c.clientWidth || 48;
-        var dw = Math.max(1, Math.round(cw * dpr));
-        if (c.width !== dw) { c.width = dw; c.height = dw; }
-        var ctx = c.getContext('2d');
-        ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
-        return ctx;
+        return AYScopeUI.sizeCanvas(containerId, ch);
     }
 
     function resizeScope() {
-        for (var ch = 0; ch < 12; ch++) {
-            var c = document.getElementById(containerId + '_scope' + ch);
-            if (c) scopeCtx[ch] = sizeScopeCanvas(ch);
-        }
-        if (!document.hidden) drawScope();
+        AYScopeUI.resize(containerId, scopeCtx, function() {
+            if (!document.hidden) drawScope();
+        });
     }
 
     function isTrackVisible(id) {
@@ -571,7 +561,7 @@ var AYPlayer = (function() {
     }
 
     function resetScope() {
-        for (var ch = 0; ch < 12; ch++) scopeBuf[ch] = [];
+        AYScopeUI.reset(scopeBuf);
     }
 
     var _lastTimeText = '';
@@ -662,46 +652,14 @@ var AYPlayer = (function() {
     var scopeLabels = ['A1', 'B1', 'C1', 'A2', 'B2', 'C2', 'A3', 'B3', 'C3', 'A4', 'B4', 'C4'];
 
     function drawScope() {
-        for (var ch = 0; ch < 12; ch++) {
-            var ctx = scopeCtx[ch];
-            if (!ctx) continue;
-            var w = ctx.canvas.clientWidth || 48, h = ctx.canvas.clientHeight || 48;
-            if (ch < _chipCount * 3) {
-                var isMuted = muted[ch];
-                ctx.fillStyle = isMuted ? '#003850' : '#001020';
-                ctx.fillRect(0, 0, w, h);
-                if (!isMuted) {
-                    var data = scopeBuf[ch];
-                    var len = data.length;
-                    if (len >= 4) {
-                        ctx.strokeStyle = scopeColors[ch];
-                        ctx.lineWidth = 1;
-                        ctx.beginPath();
-                        var step = Math.max(1, (len / w) | 0);
-                        var scale = (h - 2) * 0.85 * _scopeFade;
-                        var n = Math.min(w, (len / step) | 0);
-                        var y0 = h / 2;
-                        var isOpn = !!(_chipKinds && _chipKinds[(ch / 3) | 0] === 'opn');
-                        var dcOff = isOpn ? 0 : 0.5;
-                        for (var i = 0; i < n; i++) {
-                            var v = data[i * step];
-                            var x = (i * w / n) | 0;
-                            var y = y0 - (v - dcOff) * scale;
-                            if (y < 0) y = 0; if (y > h - 1) y = h - 1;
-                            if (i === 0) ctx.moveTo(x, y);
-                            else ctx.lineTo(x, y);
-                        }
-                        ctx.stroke();
-                    }
-                }
-            } else {
-                ctx.fillStyle = '#003850';
-                ctx.fillRect(0, 0, w, h);
-            }
-            ctx.fillStyle = '#FFFFFF';
-            ctx.font = '10px sans-serif';
-            ctx.fillText(scopeLabels[ch], 2, 10);
-        }
+        AYScopeUI.draw(scopeCtx, scopeBuf, {
+            muted: muted,
+            chipCount: _chipCount,
+            chipKinds: _chipKinds,
+            colors: scopeColors,
+            labels: scopeLabels,
+            fade: _scopeFade
+        });
     }
 
     function rafLoop() {
@@ -2251,7 +2209,7 @@ var AYPlayer = (function() {
         }
     }
 
-    var _awVersion = '324';
+    var _awVersion = '325';
 
     function _stopStreamer() {
         if (_streamer) {
