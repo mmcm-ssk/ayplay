@@ -247,6 +247,7 @@ var AYPlayer = (function() {
     var scopeFps = _isMobile ? 30 : 60;
     var _isMobile = /Android|iPhone|iPad|iPod|Mobile/i.test(navigator.userAgent);
     var scopeFrame = 0;
+    var _lastClockT = 0;
     var scopeColors = ['#44FF44', '#FFFF44', '#44AAFF', '#FF6644', '#CC66FF', '#44FFAA', '#FF88CC', '#88FF88', '#FFAA44', '#66FFFF', '#FF9944', '#B4FF44'];
     var trackEndedFlag = false;
     var _seekTarget = -1;
@@ -500,8 +501,8 @@ var AYPlayer = (function() {
         }
     }
 
-    function updateProgress() {
-        if (!song || document.hidden) return;
+    function updatePlayhead() {
+        if (!song) return;
         var fc = pt3FrameCount || song.getFrameCount();
         var progress = fc > 0 ? playFrame / fc : 0;
         if (progress > 1) progress = 1;
@@ -510,6 +511,10 @@ var AYPlayer = (function() {
             _waveformLastK = k;
             _updatePlayhead(k / 100);
         }
+    }
+
+    function updateClock() {
+        if (!song) return;
         var time = document.getElementById(containerId + '_trackTime');
         var timeM = document.getElementById(containerId + '_trackTimeM');
         if (time || timeM) {
@@ -521,6 +526,12 @@ var AYPlayer = (function() {
             }
         }
         if (onTimeUpdate) onTimeUpdate(getTimeDisplay());
+    }
+
+    function updateProgress() {
+        if (!song || document.hidden) return;
+        updatePlayhead();
+        updateClock();
     }
 
     function drawWave(ctx, data, w, h, mid, color, invert, half) {
@@ -594,40 +605,33 @@ var AYPlayer = (function() {
 
     function rafLoop() {
         if (document.hidden) { rafId = null; resetScope(); return; }
-        for (var ch = 0; ch < _chipCount * 3; ch++) {
-            if (scopeBuf[ch].length > scopeMax) {
-                scopeBuf[ch].splice(0, scopeBuf[ch].length - scopeMax);
-            }
-        }
+        var now = performance.now();
         if (_fadeTarget >= 0) {
-            var elapsed = performance.now() - _fadeStartTime;
+            var elapsed = now - _fadeStartTime;
             var t = _fadeDuration > 0 ? Math.min(1, elapsed / _fadeDuration) : 1;
             _scopeFade = _fadeStartVal + (_fadeTarget - _fadeStartVal) * t;
             _applyFadeGain();
-            if (!document.hidden) drawScope();
+            drawScope();
             if (t >= 1) {
                 _scopeFade = _fadeTarget;
                 _applyFadeGain();
-                if (!document.hidden) drawScope();
+                drawScope();
                 _fadeTarget = -1;
                 var cb = _fadeOnDone;
                 _fadeOnDone = null;
                 if (cb) cb();
             }
         }
-        // Don't update progress or scope when hidden (screen off)
-        if (!document.hidden) {
-            updateProgress();
-            scopeFrame++;
-            if (_scopeDirty && (scopeFps >= 60 || (scopeFrame % (60 / scopeFps)) === 1)) {
-                drawScope(); _scopeDirty = false;
-            }
+        updatePlayhead();
+        if (now - _lastClockT > 100) {
+            _lastClockT = now;
+            updateClock();
         }
-        if (playlistRenderPending && !document.hidden) {
-            playlistRenderPending = false;
-            renderPlaylist();
+        scopeFrame++;
+        if (_scopeDirty && (scopeFps >= 60 || (scopeFrame % (60 / scopeFps)) === 1)) {
+            drawScope(); _scopeDirty = false;
         }
-        if ((playing && !document.hidden) || _fadeTarget >= 0) rafId = requestAnimationFrame(rafLoop);
+        if (playing || _fadeTarget >= 0) rafId = requestAnimationFrame(rafLoop);
     }
 
     function handleWorkletMessage(e) {
@@ -2208,7 +2212,7 @@ var AYPlayer = (function() {
         }
     }
 
-    var _awVersion = '313';
+    var _awVersion = '314';
 
     function _stopStreamer() {
         if (_streamer) {
