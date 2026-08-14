@@ -1610,9 +1610,8 @@ var AYPlayer = (function() {
         }
 
         function startDumpLoad(reader, maxFc, formatDumpFn, onComplete) {
-            setWaveformLoadingText('Dumping frames');
-            var loadingEl = document.getElementById(containerId + '_waveLoading');
-            if (loadingEl) loadingEl.classList.add('active');
+            var sp = document.getElementById(containerId + '_waveSplash');
+            if (sp) sp.style.display = '';
             var wc = document.getElementById(containerId + '_waveCanvas');
             if (wc) wc.classList.remove('visible');
             var lf = -1;
@@ -1834,9 +1833,8 @@ var AYPlayer = (function() {
                 generatePt3Waveform(dump, dumpLen, fr, effectiveClock, chipCount, fileName, lf, numPos, loopPos, reader.getDelay(), false, startAudio);
             });
         } else if (isAY) {
-            setWaveformLoadingText('Z80 processing');
-            var loadingEl = document.getElementById(containerId + '_waveLoading');
-            if (loadingEl) loadingEl.classList.add('active');
+            var sp = document.getElementById(containerId + '_waveSplash');
+            if (sp) sp.style.display = '';
             var wc = document.getElementById(containerId + '_waveCanvas');
             if (wc) wc.classList.remove('visible');
             var ayGen = _loadGen;
