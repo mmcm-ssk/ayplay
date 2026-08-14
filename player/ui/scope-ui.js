@@ -7,7 +7,7 @@ var AYScopeUI = (function() {
     function sizeCanvas(containerId, ch) {
         var c = document.getElementById(containerId + '_scope' + ch);
         if (!c) return null;
-        var dpr = window.devicePixelRatio || 1;
+        var dpr = Math.min(window.devicePixelRatio || 1, 2);
         var cw = c.clientWidth || 48;
         var dw = Math.max(1, Math.round(cw * dpr));
         if (c.width !== dw) { c.width = dw; c.height = dw; }
