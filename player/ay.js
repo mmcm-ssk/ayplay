@@ -16,6 +16,9 @@ function AYReader(buffer, fileName) {
         this._loopFrame = c.loopFrame;
         this._fileName = fileName;
         this._portMode = c.portMode;
+        this._maxFrames = c.frameCount;
+        this._emuRunning = false;
+        this.run = function(onProgress, onDone) { if (onDone) onDone(); };
         buildAPI(this);
         return;
     }
@@ -209,66 +212,143 @@ function AYReader(buffer, fileName) {
     initState.cycle_counter = 0;
     z80.setState(initState);
 
-    var maxFrames = songLength > 0 ? Math.min(songLength + fadeLength + 50, 15000) : 15000;
-    var frames = new Uint8Array(maxFrames * 14);
-    var frameCount = 0;
-    var silentFrames = 0;
-    var prevRegs = new Uint8Array(14);
-    var loopFrame = -1;
-    var seenStates = {};
-    for (var frame = 0; frame < maxFrames; frame++) {
-        var totalT = 0;
-        while (totalT < TSTATES_PER_FRAME) {
-            totalT += z80.run_instruction();
-        }
-        var off = frame * 14;
-        for (var r = 0; r < 14; r++) frames[off + r] = ayRegs[r];
-        if (!envWritten) frames[off + 13] = 0xff;
-        envWritten = false;
-        frameCount++;
-        z80.interrupt(false, 0xFF);
-        if (songLength > 0 && frame >= songLength) break;
-        var same = true;
-        for (var r = 0; r < 14; r++) { if (ayRegs[r] !== prevRegs[r]) { same = false; break; } }
-        if (same) { silentFrames++; if (silentFrames > 200) break; }
-        else {
-            silentFrames = 0;
-            for (var r = 0; r < 14; r++) prevRegs[r] = ayRegs[r];
-        }
-        if (frame > 50) {
-            var key = 0;
-            for (var r = 0; r < 13; r++) key = ((key << 5) - key + ayRegs[r]) | 0;
-            if (seenStates[key] !== undefined && (frame - seenStates[key]) >= 20) {
-                if (loopFrame < 0) loopFrame = seenStates[key];
-            }
-            if (seenStates[key] === undefined) seenStates[key] = frame;
-        }
-    }
-
-    console.log('AYReader:', fileName, 'portMode:', portMode, 'clock:', (portMode === 2 ? 1000000 : 1773400), 'frames:', frameCount);
-    this._frames = frames;
-    this._frameCount = frameCount;
+    this._maxFrames = songLength > 0 ? Math.min(songLength + fadeLength + 50, 15000) : 15000;
     this._trackName = trackName;
     this._authorName = authorName;
-    this._loopFrame = loopFrame >= 0 ? loopFrame : 0;
     this._fileName = fileName;
+    this._portMode = portMode;
+    this._frames = null;
+    this._frameCount = 0;
+    this._loopFrame = -1;
+    this._emuRunning = false;
 
-    _cache[cacheKey] = {
-        frames: frames,
-        frameCount: frameCount,
-        trackName: trackName,
-        authorName: authorName,
-        loopFrame: 0,
-        fileName: fileName,
-        portMode: portMode
+    var selfReader = this;
+    this.run = function(onProgress, onDone, isCancelled) {
+        if (selfReader.error) { if (onDone) onDone(); return; }
+        if (selfReader._frames) { if (onDone) onDone(); return; }
+        if (selfReader._emuRunning) return;
+        selfReader._emuRunning = true;
+        var maxFrames = selfReader._maxFrames;
+        var frames = new Uint8Array(maxFrames * 14);
+        var frameCount = 0;
+        var silentFrames = 0;
+        var prevRegs = new Uint8Array(14);
+        var loopFrame = -1;
+        var seenStates = {};
+        var frame = 0;
+        function step() {
+            if (isCancelled && isCancelled()) { selfReader._emuRunning = false; return; }
+            var t0 = performance.now();
+            while (frame < maxFrames && performance.now() - t0 < 12) {
+                var totalT = 0;
+                while (totalT < TSTATES_PER_FRAME) {
+                    totalT += z80.run_instruction();
+                }
+                var off = frame * 14;
+                for (var r = 0; r < 14; r++) frames[off + r] = ayRegs[r];
+                if (!envWritten) frames[off + 13] = 0xff;
+                envWritten = false;
+                frameCount++;
+                z80.interrupt(false, 0xFF);
+                if (songLength > 0 && frame >= songLength) { frame = maxFrames; break; }
+                var same = true;
+                for (var r = 0; r < 14; r++) { if (ayRegs[r] !== prevRegs[r]) { same = false; break; } }
+                if (same) { silentFrames++; if (silentFrames > 200) { frame = maxFrames; break; } }
+                else {
+                    silentFrames = 0;
+                    for (var r = 0; r < 14; r++) prevRegs[r] = ayRegs[r];
+                }
+                if (frame > 50) {
+                    var key = 0;
+                    for (var r = 0; r < 13; r++) key = ((key << 5) - key + ayRegs[r]) | 0;
+                    if (seenStates[key] !== undefined && (frame - seenStates[key]) >= 20) {
+                        if (loopFrame < 0) loopFrame = seenStates[key];
+                    }
+                    if (seenStates[key] === undefined) seenStates[key] = frame;
+                }
+                frame++;
+            }
+            if (onProgress) { try { onProgress(frame, maxFrames); } catch (e) {} }
+            if (frame >= maxFrames) {
+                selfReader._frameCount = frameCount;
+                selfReader._frames = frames;
+                selfReader._loopFrame = loopFrame >= 0 ? loopFrame : 0;
+                _cache[cacheKey] = {
+                    frames: frames,
+                    frameCount: frameCount,
+                    trackName: trackName,
+                    authorName: authorName,
+                    loopFrame: 0,
+                    fileName: fileName,
+                    portMode: portMode
+                };
+                selfReader._emuRunning = false;
+                if (onDone) onDone();
+                return;
+            }
+            if (document.hidden) step(); else requestAnimationFrame(step);
+        }
+        if (document.hidden) step(); else requestAnimationFrame(step);
     };
 
-    this._portMode = portMode;
+    this._ensureEmulated = function() {
+        if (selfReader._frames || selfReader._emuRunning || selfReader.error) return;
+        selfReader._emuRunning = true;
+        var maxFrames = selfReader._maxFrames;
+        var frames = new Uint8Array(maxFrames * 14);
+        var frameCount = 0;
+        var silentFrames = 0;
+        var prevRegs = new Uint8Array(14);
+        var loopFrame = -1;
+        var seenStates = {};
+        for (var frame = 0; frame < maxFrames; frame++) {
+            var totalT = 0;
+            while (totalT < TSTATES_PER_FRAME) {
+                totalT += z80.run_instruction();
+            }
+            var off = frame * 14;
+            for (var r = 0; r < 14; r++) frames[off + r] = ayRegs[r];
+            if (!envWritten) frames[off + 13] = 0xff;
+            envWritten = false;
+            frameCount++;
+            z80.interrupt(false, 0xFF);
+            if (songLength > 0 && frame >= songLength) break;
+            var same = true;
+            for (var r = 0; r < 14; r++) { if (ayRegs[r] !== prevRegs[r]) { same = false; break; } }
+            if (same) { silentFrames++; if (silentFrames > 200) break; }
+            else {
+                silentFrames = 0;
+                for (var r = 0; r < 14; r++) prevRegs[r] = ayRegs[r];
+            }
+            if (frame > 50) {
+                var key = 0;
+                for (var r = 0; r < 13; r++) key = ((key << 5) - key + ayRegs[r]) | 0;
+                if (seenStates[key] !== undefined && (frame - seenStates[key]) >= 20) {
+                    if (loopFrame < 0) loopFrame = seenStates[key];
+                }
+                if (seenStates[key] === undefined) seenStates[key] = frame;
+            }
+        }
+        selfReader._frameCount = frameCount;
+        selfReader._frames = frames;
+        selfReader._loopFrame = loopFrame >= 0 ? loopFrame : 0;
+        _cache[cacheKey] = {
+            frames: frames,
+            frameCount: frameCount,
+            trackName: trackName,
+            authorName: authorName,
+            loopFrame: 0,
+            fileName: fileName,
+            portMode: portMode
+        };
+        selfReader._emuRunning = false;
+    };
+
     buildAPI(this);
 }
 
 function buildAPI(self) {
-    self.getFrameCount = function() { return self._frameCount; };
+    self.getFrameCount = function() { if (!self._frames && !self.error && self._ensureEmulated) self._ensureEmulated(); return self._frameCount; };
     self.getLoopFrame = function() { return self._loopFrame; };
     self.getFrameRate = function() { return 50; };
     self.getClockRate = function() { return self._portMode === 2 ? 1000000 : 1773400; };
@@ -283,6 +363,8 @@ function buildAPI(self) {
     self.getDelay = function() { return 0; };
     var _frame = 0;
     self.getNextFrame = function() {
+        if (!self._frames) { if (!self.error && self._ensureEmulated) self._ensureEmulated(); }
+        if (!self._frames) return [[0,0,0,0,0,0,0,0,0,0,0,0,0,0], [], [], true];
         if (_frame >= self._frameCount) return [[0,0,0,0,0,0,0,0,0,0,0,0,0,0], [], [], true];
         var off = _frame * 14;
         var regs = [

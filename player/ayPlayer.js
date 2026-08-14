@@ -1829,14 +1829,43 @@ var AYPlayer = (function() {
                 trackName = reader.getTrackName();
                 authorName = reader.getAuthorName();
                 trackFileName = reader.getTrackFileName();
-                dumpLen = reader.getFrameCount();
-                for (var i = 0; i < dumpLen; i++) {
-                    var r = reader.getNextFrame();
-                    dump.push({ a: r[0].slice(), b: [] });
+                reader.run(function(p, total) {
+                    setWaveformLoadingText('Z80 processing (' + p + '/' + total + ')');
+                }, function() {
+                var totalFc = reader.getFrameCount();
+                var localDump = [];
+                if (document.hidden) {
+                    for (var i = 0; i < totalFc; i++) {
+                        var rr = reader.getNextFrame();
+                        localDump.push({ a: rr[0].slice(), b: [] });
+                    }
+                    dump = localDump;
+                    dumpLen = dump.length;
+                    pt3FrameCount = dumpLen;
+                    generatePt3Waveform(dump, dumpLen, fr, clock, chipCount, fileName, -1, 0, -1, 0, false, function() { startAudio(); });
+                    return;
                 }
-                console.log('AY dump built: frames=' + dumpLen + ' clock=' + clock);
-                pt3FrameCount = dumpLen;
-                generatePt3Waveform(dump, dumpLen, fr, clock, chipCount, fileName, -1, 0, -1, 0, false, function() { startAudio(); });
+                var di = 0;
+                function buildAyDumpChunk() {
+                    if (ayGen !== _loadGen) return;
+                    if (!playlist[currentId] || playlist[currentId].file !== fileName) return;
+                    var t0 = performance.now();
+                    for (; di < totalFc && performance.now() - t0 < 12; di++) {
+                        var r = reader.getNextFrame();
+                        localDump.push({ a: r[0].slice(), b: [] });
+                    }
+                    setWaveformLoadingText('Z80 processing (' + di + '/' + totalFc + ')');
+                    if (di >= totalFc) {
+                        dump = localDump;
+                        dumpLen = dump.length;
+                        pt3FrameCount = dumpLen;
+                        generatePt3Waveform(dump, dumpLen, fr, clock, chipCount, fileName, -1, 0, -1, 0, false, function() { startAudio(); });
+                    } else {
+                        requestAnimationFrame(buildAyDumpChunk);
+                    }
+                }
+                requestAnimationFrame(buildAyDumpChunk);
+                }, function() { return ayGen !== _loadGen || !playlist[currentId] || playlist[currentId].file !== fileName; });
             }, 50);
         } else if (isMTC) {
             if (typeof MTCReader === 'undefined') { showToast('Модуль MTC заблокирован рекламным блокировщиком — добавьте ayplay.ru в исключения'); return; }
@@ -3006,15 +3035,18 @@ var AYPlayer = (function() {
         } else if (isAY) {
                 try {
                     var reader = new AYReader(arr.buffer, loadFile);
-                    var fc = reader.getFrameCount();
+                    if (reader.error) return;
                     var fr = reader.getFrameRate();
                     var clock = reader.getClockRate();
-                    var dump = [];
-                    for (var i = 0; i < fc; i++) {
-                        var r = reader.getNextFrame();
-                        dump.push({ a: r[0].slice(), b: [] });
-                    }
-                    generatePt3Waveform(dump, dump.length, fr, clock, 1, loadFile, -1, 0, -1, 0, true);
+                    reader.run(null, function() {
+                        var fc = reader.getFrameCount();
+                        var dump = [];
+                        for (var i = 0; i < fc; i++) {
+                            var r = reader.getNextFrame();
+                            dump.push({ a: r[0].slice(), b: [] });
+                        }
+                        generatePt3Waveform(dump, dump.length, fr, clock, 1, loadFile, -1, 0, -1, 0, true);
+                    }, null);
                 } catch(e) {}
         } else if (isPSG || isSND) {
                 try {
