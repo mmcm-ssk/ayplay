@@ -330,6 +330,7 @@ var AYPlayer = (function() {
             if (state.waveformMode !== undefined) waveformMode = state.waveformMode;
             if (state.waveformScale !== undefined) waveformScale = state.waveformScale;
             if (state.scopeFps !== undefined) scopeFps = state.scopeFps;
+            _adaptiveFps = scopeFps;
             if (state.scopeEnabled !== undefined) scopeEnabled = state.scopeEnabled;
             if (state.currentFile !== undefined) restoredCurrentFile = String(state.currentFile).replace(/%23/g, '#');
         } catch(e) {}
@@ -434,6 +435,10 @@ var AYPlayer = (function() {
     var _fadeOnDone = null;
     var _isMobile = /Android|iPhone|iPad|iPod|Mobile/i.test(navigator.userAgent);
     var scopeFps = _isMobile ? 30 : 60;
+    var _adaptiveFps = scopeFps;
+    var _lastRafT = 0;
+    var _lastScopeDrawT = 0;
+    var ADAPTIVE_MIN = 10;
     var scopeEnabled = true;
     var _debug = /[?&]debug\b/.test(location.search) || (typeof localStorage !== 'undefined' && localStorage.getItem('ayp_debug') === '1');
     var _dbgFps = 0;
@@ -723,6 +728,20 @@ var AYPlayer = (function() {
         if (document.hidden) { rafId = null; resetScope(); return; }
         var _loopStart = performance.now();
         var now = _loopStart;
+        if (_lastRafT > 0) {
+            var _adt = now - _lastRafT;
+            if (_adt > 0) {
+                var _tInt = 1000 / _adaptiveFps;
+                if (_adt > _tInt * 1.4 && _adaptiveFps > ADAPTIVE_MIN) {
+                    _adaptiveFps = Math.max(ADAPTIVE_MIN, _adaptiveFps - 5);
+                    if (_workletNode && _workletNode.port) _workletNode.port.postMessage({ type: 'fps', fps: _adaptiveFps });
+                } else if (_adt < _tInt * 0.65 && _adaptiveFps < scopeFps) {
+                    _adaptiveFps = Math.min(scopeFps, _adaptiveFps + 5);
+                    if (_workletNode && _workletNode.port) _workletNode.port.postMessage({ type: 'fps', fps: _adaptiveFps });
+                }
+            }
+        }
+        _lastRafT = now;
         if (_fadeTarget >= 0) {
             var elapsed = now - _fadeStartTime;
             var t = _fadeDuration > 0 ? Math.min(1, elapsed / _fadeDuration) : 1;
@@ -745,7 +764,7 @@ var AYPlayer = (function() {
             updateClock();
         }
         scopeFrame++;
-        var doScopeFrame = (scopeFps >= 60 || (scopeFrame % (60 / scopeFps)) === 1);
+        var doScopeFrame = (now - _lastScopeDrawT) >= (1000 / _adaptiveFps) - 1;
         if (doScopeFrame && _streamMode && playing && _scopePosTime >= 0 && _seekTarget < 0) {
             var _curF = _wrapStreamFrame(_scopePosFrame + (performance.now() - _scopePosTime) / 1000 * (_renderFrameRate || 50));
             _paceScope(_curF);
@@ -753,6 +772,7 @@ var AYPlayer = (function() {
         if (_scopeDirty && doScopeFrame && (scopeEnabled || !_isMobile)) {
             var _sd0 = performance.now();
             drawScope(); _scopeDirty = false;
+            _lastScopeDrawT = performance.now();
             if (_debug) _dbgScopeMs = _dbgScopeMs * 0.8 + (performance.now() - _sd0) * 0.2;
         }
         if (playing || _fadeTarget >= 0) rafId = requestAnimationFrame(rafLoop);
@@ -779,6 +799,7 @@ var AYPlayer = (function() {
             var mem = (typeof performance !== 'undefined' && performance.memory) ? (performance.memory.usedJSHeapSize / 1048576).toFixed(0) + ' MB' : 'n/a';
             _dbgPanel.textContent =
                 'FPS ' + _dbgFps +
+                '  afps ' + _adaptiveFps +
                 '  main ' + _dbgMainMs.toFixed(2) + ' ms' +
                 '  scope ' + _dbgScopeMs.toFixed(2) + ' ms' +
                 '  wave ' + _dbgWaveMs.toFixed(1) + ' ms' +
@@ -4594,6 +4615,8 @@ var AYPlayer = (function() {
         },
         setScopeFps: function(fps) {
             scopeFps = fps;
+            _adaptiveFps = fps;
+            _lastRafT = 0;
             scopeFrame = 0;
             var btns = document.querySelectorAll('#' + containerId + '_mix .ayPlayer-options-chip-btn[data-fps]');
             for (var i = 0; i < btns.length; i++) {
