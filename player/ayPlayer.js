@@ -63,11 +63,16 @@ var AYPlayer = (function() {
 
     function _matchesSearch(entry) {
         if (!searchTerm) return true;
-        var q = searchTerm.toLowerCase();
+        var terms = searchTerm.toLowerCase().split(/\s+/);
         var name = _trackDisplay(entry).toLowerCase();
         var author = (entry.author || '').toLowerCase();
         var file = (entry.file || '').toLowerCase();
-        return name.indexOf(q) !== -1 || author.indexOf(q) !== -1 || file.indexOf(q) !== -1;
+        for (var t = 0; t < terms.length; t++) {
+            var term = terms[t];
+            if (!term) continue;
+            if (name.indexOf(term) === -1 && author.indexOf(term) === -1 && file.indexOf(term) === -1) return false;
+        }
+        return true;
     }
 
     var _itemMeta = null;
@@ -126,8 +131,7 @@ var AYPlayer = (function() {
         var noFmt = filterFormat === 'all';
         var noAlpha = alphaFilter === 'all';
         var noCh = chFilter === 'all';
-        var q = searchTerm ? searchTerm.toLowerCase() : '';
-        var hasQ = q !== '';
+        var hasQ = searchTerm ? searchTerm.trim() !== '' : false;
         for (var fi = 0; fi < playlist.length; fi++) {
             if (favoritesOnly && !favorites[fi]) continue;
             var fm = _itemMeta[fi];
@@ -137,11 +141,7 @@ var AYPlayer = (function() {
             }
             if (!noAlpha && fm.alpha !== alphaFilter) continue;
             if (!noCh && fm.ch !== parseInt(chFilter)) continue;
-            if (hasQ) {
-                if (fm.disp.toLowerCase().indexOf(q) === -1 &&
-                    (playlist[fi].author || '').toLowerCase().indexOf(q) === -1 &&
-                    (playlist[fi].file || '').toLowerCase().indexOf(q) === -1) continue;
-            }
+            if (hasQ && !_matchesSearch(playlist[fi])) continue;
             var fdir = fm.dir;
             if (!folders[fdir]) folders[fdir] = [];
             folders[fdir].push(fi);
@@ -214,7 +214,9 @@ var AYPlayer = (function() {
                 clockSelect: clockSelect,
                 intFreqSelect: intFreqSelect,
                 waveformMode: waveformMode,
+                waveformScale: waveformScale,
                 scopeFps: scopeFps,
+                scopeEnabled: scopeEnabled,
                 currentFile: (playlist[currentId] && playlist[currentId].file) || null
             };
             localStorage.setItem(STATE_KEY, JSON.stringify(state));
@@ -247,7 +249,9 @@ var AYPlayer = (function() {
             if (state.clockSelect !== undefined) clockSelect = state.clockSelect;
             if (state.intFreqSelect !== undefined) intFreqSelect = state.intFreqSelect;
             if (state.waveformMode !== undefined) waveformMode = state.waveformMode;
+            if (state.waveformScale !== undefined) waveformScale = state.waveformScale;
             if (state.scopeFps !== undefined) scopeFps = state.scopeFps;
+            if (state.scopeEnabled !== undefined) scopeEnabled = state.scopeEnabled;
             if (state.currentFile !== undefined) restoredCurrentFile = String(state.currentFile).replace(/%23/g, '#');
         } catch(e) {}
     }
@@ -349,8 +353,9 @@ var AYPlayer = (function() {
     var _fadeDuration = 0;
     var _fadeStartTime = 0;
     var _fadeOnDone = null;
-    var scopeFps = _isMobile ? 30 : 60;
     var _isMobile = /Android|iPhone|iPad|iPod|Mobile/i.test(navigator.userAgent);
+    var scopeFps = _isMobile ? 30 : 60;
+    var scopeEnabled = true;
     var scopeFrame = 0;
     var _lastClockT = 0;
     var scopeColors = ['#44FF44', '#FFFF44', '#44AAFF', '#FF6644', '#CC66FF', '#44FFAA', '#FF88CC', '#88FF88', '#FFAA44', '#66FFFF', '#FF9944', '#B4FF44'];
@@ -430,6 +435,7 @@ var AYPlayer = (function() {
     var soloedIdx = -1;
     var isMono = false;
     var waveformMode = 'channels'; // 'channels' or 'mix'
+    var waveformScale = 1.5;
     var clockSelect = 0; // 0=auto, 1773400=ZX Spectrum, 1750000=Pentagon, 2000000=Atari ST, 1000000=Amstrad CPC
     var intFreqSelect = 0; // 0=auto, 50=ZX Spectrum, 48.828=Pentagon 128k
     var _autoIntFreq = false; // true = frame rate chosen automatically from track name
@@ -651,7 +657,7 @@ var AYPlayer = (function() {
             var _curF = _wrapStreamFrame(_scopePosFrame + (performance.now() - _scopePosTime) / 1000 * (_renderFrameRate || 50));
             _paceScope(_curF);
         }
-        if (_scopeDirty && doScopeFrame) {
+        if (_scopeDirty && doScopeFrame && (scopeEnabled || !_isMobile)) {
             drawScope(); _scopeDirty = false;
         }
         if (playing || _fadeTarget >= 0) rafId = requestAnimationFrame(rafLoop);
@@ -2168,7 +2174,7 @@ var AYPlayer = (function() {
         }
     }
 
-    var _awVersion = '327';
+    var _awVersion = '331';
 
     function _stopStreamer() {
         if (_streamer) {
@@ -3876,6 +3882,15 @@ var AYPlayer = (function() {
                 '        </div>' +
                 '      </div>' +
                 '      <div class="ayPlayer-options-divider"></div>' +
+                (_isMobile ?
+                '      <div class="ayPlayer-mix-row">' +
+                '        <span class="ayPlayer-mix-label">Scope:</span>' +
+                '        <div class="ayPlayer-mix-btns">' +
+                '        <button class="ayPlayer-options-chip-btn" data-scope="1" onclick="AYPlayer.setScope(1)">ON</button>' +
+                '        <button class="ayPlayer-options-chip-btn" data-scope="0" onclick="AYPlayer.setScope(0)">OFF</button>' +
+                '        </div>' +
+                '      </div>' +
+                '      <div class="ayPlayer-options-divider"></div>' : '') +
                 '      <div class="ayPlayer-mix-row">' +
                 '        <span class="ayPlayer-mix-label">Waveform:</span>' +
                 '        <div class="ayPlayer-mix-btns">' +
@@ -3883,6 +3898,12 @@ var AYPlayer = (function() {
                 '        <button class="ayPlayer-options-chip-btn" data-wave="mix" onclick="AYPlayer.setWaveformMode(\'mix\')">Mix</button>' +
                 '        </div>' +
                 '      </div>' +
+                '      <div class="ayPlayer-mix-row">' +
+                '        <span class="ayPlayer-mix-label">Wave height:</span>' +
+                '        <input class="ayPlayer-wave-range" type="range" min="100" max="200" step="10" value="' + Math.round(waveformScale * 100) + '" oninput="AYPlayer.setWaveformScale(this.value)">' +
+                '        <span class="ayPlayer-wave-range-val" id="' + containerId + '_waveScaleVal">' + Math.round(waveformScale * 100) + '%</span>' +
+                '      </div>' +
+                '      <div class="ayPlayer-options-divider"></div>' +
                 '      <div class="ayPlayer-options-divider"></div>' +
 
                   '      <div class="ayPlayer-mix-row">' +
@@ -3920,7 +3941,13 @@ var AYPlayer = (function() {
             }
             restoreState();
             if (_waveformContainer) _waveformContainer.classList.toggle('is-mix', waveformMode === 'mix');
+            if (_waveformContainer) _waveformContainer.style.setProperty('--wave-scale', waveformScale);
+            var initWaveRange = document.querySelector('#' + containerId + '_mix .ayPlayer-wave-range');
+            if (initWaveRange) initWaveRange.style.setProperty('--fill', Math.round((waveformScale - 1) * 100) + '%');
             initScope();
+            var scopeEl = document.getElementById(containerId + '_scope');
+            if (scopeEl && _isMobile) scopeEl.style.display = scopeEnabled ? '' : 'none';
+            if (_isMobile && !scopeEnabled) resetScope();
             var _playlistEl = document.getElementById(containerId + '_playlistItems');
             if (_playlistEl) {
                 var _scrollTimer = null;
@@ -3951,6 +3978,10 @@ var AYPlayer = (function() {
             var xfBtns = document.querySelectorAll('#' + containerId + '_mix .ayPlayer-options-chip-btn[data-xf]');
             for (var i = 0; i < xfBtns.length; i++) {
                 xfBtns[i].classList.toggle('active', parseInt(xfBtns[i].dataset.xf) === (xfEnabled ? 1 : 0));
+            }
+            var scopeBtns = document.querySelectorAll('#' + containerId + '_mix .ayPlayer-options-chip-btn[data-scope]');
+            for (var i = 0; i < scopeBtns.length; i++) {
+                scopeBtns[i].classList.toggle('active', parseInt(scopeBtns[i].dataset.scope) === (scopeEnabled ? 1 : 0));
             }
             var fpsBtns = document.querySelectorAll('#' + containerId + '_mix .ayPlayer-options-chip-btn[data-fps]');
             for (var i = 0; i < fpsBtns.length; i++) {
@@ -4270,6 +4301,22 @@ var AYPlayer = (function() {
             _applyRoomGain();
             saveState();
         },
+        setScope: function(on) {
+            scopeEnabled = on === 1;
+            var btns = document.querySelectorAll('#' + containerId + '_mix .ayPlayer-options-chip-btn[data-scope]');
+            for (var i = 0; i < btns.length; i++) {
+                btns[i].classList.toggle('active', parseInt(btns[i].dataset.scope) === (scopeEnabled ? 1 : 0));
+            }
+            var scopeEl = document.getElementById(containerId + '_scope');
+            if (scopeEl && _isMobile) scopeEl.style.display = scopeEnabled ? '' : 'none';
+            if (_isMobile && scopeEnabled) {
+                resizeScope();
+                drawScope();
+            } else if (_isMobile) {
+                resetScope();
+            }
+            saveState();
+        },
         setClock: function(hz) {
             clockSelect = hz;
             var btns = document.querySelectorAll('#' + containerId + '_mix .ayPlayer-options-chip-btn[data-clock]');
@@ -4311,6 +4358,17 @@ var AYPlayer = (function() {
             if (wfEl) wfEl.classList.toggle('is-mix', mode === 'mix');
             _cachedWaveHeight = 0;
             drawWaveform();
+        },
+        setWaveformScale: function(val) {
+            waveformScale = Math.max(1, Math.min(2, (parseFloat(val) || 100) / 100));
+            if (_waveformContainer) _waveformContainer.style.setProperty('--wave-scale', waveformScale);
+            var valEl = document.getElementById(containerId + '_waveScaleVal');
+            if (valEl) valEl.textContent = Math.round(waveformScale * 100) + '%';
+            var rangeEl = document.querySelector('#' + containerId + '_mix .ayPlayer-wave-range');
+            if (rangeEl) rangeEl.style.setProperty('--fill', Math.round((waveformScale - 1) * 100) + '%');
+            _cachedWaveHeight = 0;
+            drawWaveform();
+            saveState();
         },
         setScopeFps: function(fps) {
             scopeFps = fps;
@@ -4390,10 +4448,21 @@ var AYPlayer = (function() {
             for (var i = 0; i < roomBtns.length; i++) {
                 roomBtns[i].classList.toggle('active', parseInt(roomBtns[i].dataset.room) === (roomEnabled ? 1 : 0));
             }
+            var scopeBtns = document.querySelectorAll('#' + containerId + '_mix .ayPlayer-options-chip-btn[data-scope]');
+            for (var i = 0; i < scopeBtns.length; i++) {
+                scopeBtns[i].classList.toggle('active', parseInt(scopeBtns[i].dataset.scope) === (scopeEnabled ? 1 : 0));
+            }
             var fpsBtns = document.querySelectorAll('#' + containerId + '_mix .ayPlayer-options-chip-btn[data-fps]');
             for (var i = 0; i < fpsBtns.length; i++) {
                 fpsBtns[i].classList.toggle('active', parseInt(fpsBtns[i].dataset.fps) === scopeFps);
             }
+            var waveRange = document.querySelector('#' + containerId + '_mix .ayPlayer-wave-range');
+            if (waveRange) {
+                waveRange.value = Math.round(waveformScale * 100);
+                waveRange.style.setProperty('--fill', Math.round((waveformScale - 1) * 100) + '%');
+            }
+            var waveScaleVal = document.getElementById(containerId + '_waveScaleVal');
+            if (waveScaleVal) waveScaleVal.textContent = Math.round(waveformScale * 100) + '%';
         },
 
         hideOptions: function() {
@@ -4690,13 +4759,13 @@ var AYPlayer = (function() {
             }
             // lazy-inject cached HTML on first open
             items.style.display = 'block';
+            el.scrollIntoView({block:'start'});
             var folderEl = el.parentNode;
             var dir = folderEl.getAttribute('data-dir');
             if (!items.hasChildNodes() || !_folderFullyLoaded[dir]) {
                 if (_folderSlots[dir]) openFolderItems(items, dir);
             }
             if (arrow) arrow.classList.add('open');
-            el.scrollIntoView({block:'start'});
         },
 
         selectTrack: function(id) {

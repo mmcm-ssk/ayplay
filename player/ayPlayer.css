@@ -293,14 +293,14 @@ body > h2 {
 .ayPlayer-waveform {
     position: relative;
     --wave-base: 186px;
-    height: var(--wave-base);
+    height: calc(var(--wave-base) * var(--wave-scale, 1));
     margin: 0 8px 2px;
     cursor: pointer;
     overflow: hidden;
 }
 .ayPlayer-waveform.is-mix {
-    height: calc(var(--wave-base) * 0.5);
-    flex-basis: calc(var(--wave-base) * 0.5);
+    height: calc(var(--wave-base) * var(--wave-scale, 1) * 0.5);
+    flex-basis: calc(var(--wave-base) * var(--wave-scale, 1) * 0.5);
 }
 .ayPlayer-waveform-canvas {
     width: 100%;
@@ -640,6 +640,54 @@ body > h2 {
 .ayPlayer-int-input:focus {
     border-color: #00B0C0;
     color: #FFFFFF;
+}
+.ayPlayer-wave-range {
+    flex: 1;
+    min-width: 100px;
+    max-width: 160px;
+    -webkit-appearance: none;
+    appearance: none;
+    height: 22px;
+    background: transparent;
+    cursor: pointer;
+}
+.ayPlayer-wave-range::-webkit-slider-runnable-track {
+    height: 6px;
+    border-radius: 3px;
+    background: linear-gradient(to right, #00D0E0 var(--fill, 50%), #003850 var(--fill, 50%));
+}
+.ayPlayer-wave-range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    border: 2px solid #00D0E0;
+    margin-top: -4px;
+    box-shadow: 0 0 4px rgba(0, 208, 224, 0.5);
+}
+.ayPlayer-wave-range::-moz-range-track {
+    height: 6px;
+    border-radius: 3px;
+    background: #003850;
+}
+.ayPlayer-wave-range::-moz-range-progress {
+    height: 6px;
+    border-radius: 3px;
+    background: #00D0E0;
+}
+.ayPlayer-wave-range::-moz-range-thumb {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    border: 2px solid #00D0E0;
+}
+.ayPlayer-wave-range-val {
+    color: #00D0E0;
+    font-size: 10pt;
+    min-width: 40px;
+    text-align: right;
 }
 .ayPlayer-chip-btn {
     display: inline-flex;
@@ -1614,7 +1662,7 @@ body > h2 {
 /* ---------- mobile ---------- */
 
 @media (max-width: 820px) {
-    .ayPlayer-waveform { --wave-base: 130px; height: var(--wave-base); }
+    .ayPlayer-waveform { --wave-base: 130px; height: calc(var(--wave-base) * var(--wave-scale, 1)); }
     .ayPlayer-playlist { height: 240px; }
     .ayPlayer-right { gap: 0; }
     .ayPlayer-scope-canvas { width: 34px; height: 34px; }
@@ -1632,13 +1680,13 @@ body > h2 {
     .ayPlayer-top { flex-direction: column; flex: 0 0 auto; }
     .ayPlayer-logo { display: flex; order: 1; margin: 0 10px 0 5px; flex-shrink: 0; }
     .ayPlayer-logo img { height: 26px; }
-    .ayPlayer-controls { flex-wrap: wrap; flex-direction: row; align-items: center; }
+    .ayPlayer-controls { flex-wrap: wrap; flex-direction: row; align-items: center; width: 100%; }
     .ayPlayer-top { order: 1; flex: 0 0 auto; }
     .ayPlayer-info { display: block; order: 2; flex: 1 1 auto; min-width: 0; text-align: left; }
     .ayPlayer-info-mobile { display: none; }
     .ayPlayer-trackName-mobile { font-size: 16px; }
     .ayPlayer-right { display: none; }
-    .ayPlayer-waveform { --wave-base: 130px; height: var(--wave-base); flex: 0 0 var(--wave-base); order: 5; -webkit-tap-highlight-color: transparent; margin: 0; flex-shrink: 0; border-top: 1px solid #004466; margin-top: 2px; box-shadow: inset 0 1px 0 rgba(0,208,224,0.08); }
+    .ayPlayer-waveform { --wave-base: 130px; height: calc(var(--wave-base) * var(--wave-scale, 1)); flex: 0 0 calc(var(--wave-base) * var(--wave-scale, 1)); order: 5; -webkit-tap-highlight-color: transparent; margin: 0; flex-shrink: 0; border-top: 1px solid #004466; margin-top: 2px; box-shadow: inset 0 1px 0 rgba(0,208,224,0.08); }
     .ayPlayer-waveform-loading-pulse { width: 32px; height: 32px; }
 
     .ayPlayer-waveform-loading-text { font-size: 8pt; }
@@ -1703,7 +1751,7 @@ body > h2 {
 }
 
 @media (max-width: 400px) {
-    .ayPlayer-waveform { --wave-base: 70px; height: var(--wave-base); }
+    .ayPlayer-waveform { --wave-base: 70px; height: calc(var(--wave-base) * var(--wave-scale, 1)); }
     .ayPlayer-waveform-loading-pulse { width: 28px; height: 28px; }
     .ayPlayer-playlist { height: 150px; }
     .ayPlayer-scope-canvas { width: 100%; height: auto; }
