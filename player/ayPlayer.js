@@ -4904,9 +4904,7 @@ var AYPlayer = (function() {
         },
         showCurrentTrack: function() {
             if (currentId < 0 || currentId >= playlist.length) return;
-            var curDir = playlist[currentId].author || (function(f) { var s = f.lastIndexOf('/'); return s > 0 ? f.substring(0, s) : '/'; })(playlist[currentId].file);
-            for (var k in openDirs) openDirs[k] = false;
-            openDirs[curDir] = true;
+            api.collapseAll();
             _initialView = false;
             renderPlaylist(true);
             var list = document.getElementById(containerId + '_playlistItems');

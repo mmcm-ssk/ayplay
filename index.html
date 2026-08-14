@@ -1,4 +1,4 @@
-Ôªø<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ru">
 <head>
     <meta charset="utf-8">
@@ -7,17 +7,17 @@
     <meta name="description" content="Online player for ZX Spectrum AY music files (PT3, VT2, PSG, FYM, STC, MTC) with playlist, waveform visualization, and favorites.">
     <meta name="keywords" content="ZX Spectrum, AY, YM, PT3, VT2, PSG, FYM, STC, MTC, Sound Tracker, chiptune, music player, retro, 8-bit">
     <meta name="robots" content="index, follow">
-    <meta property="og:title" content="AY Player ‚Äî ZX Spectrum AY Music Player (PT3, VT2, PSG, FYM, STC, MTC)">
+    <meta property="og:title" content="AY Player ó ZX Spectrum AY Music Player (PT3, VT2, PSG, FYM, STC, MTC)">
     <meta property="og:description" content="Online player for ZX Spectrum AY music files (PT3, VT2, PSG, FYM, STC, MTC).">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://ayplay.ru/">
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="AY Player ‚Äî ZX Spectrum AY Music Player">
+    <meta name="twitter:title" content="AY Player ó ZX Spectrum AY Music Player">
     <meta name="twitter:description" content="Online player for ZX Spectrum AY music files (PT3, VT2, PSG, FYM, STC, MTC).">
     <link rel="canonical" href="https://ayplay.ru/">
     <link rel="icon" type="image/svg+xml" href="logo_ayplay.svg">
     <link rel="icon" href="favicon.ico">
-    <link rel="stylesheet" href="player/ayPlayer.css?v=331">
+    <link rel="stylesheet" href="player/ayPlayer.css?v=333">
 </head>
     <body>
     <div id="player"></div>
@@ -28,7 +28,7 @@
     <script src="player/opn.js?v=1"></script>
     <script src="player/fym.js?v=16"></script>
     <script src="player/pt3.js?v=16"></script>
-    <script src="player/vt2.js?v=12"></script>
+    <script src="player/vt2.js?v=13"></script>
     <script src="player/psg.js?v=1"></script>
     <script src="player/snd2psg.js?v=2"></script>
     <script src="player/stc.js?v=3"></script>
@@ -42,7 +42,7 @@
     <script src="player/ay.js?v=4"></script>
     <script src="player/ui/scope-ui.js"></script>
     <script src="player/ui/waveform-ui.js"></script>
-    <script src="player/ayPlayer.js?v=331"></script>
+    <script src="player/ayPlayer.js?v=333"></script>
     <script>
         var LS_KEY = 'ayPlayer_playlist';
         var LS_TIME = 'ayPlayer_playlist_time';
@@ -57,7 +57,7 @@
 
         function loadPlaylist(playlist) {
             if (playlist.length === 0) {
-                document.querySelector('.ayPlayer-trackName').textContent = '–ù–µ—Ç —Ñ–∞–π–ª–æ–≤ –≤ chiptunes/';
+                document.querySelector('.ayPlayer-trackName').textContent = 'ÕÂÚ Ù‡ÈÎÓ‚ ‚ chiptunes/';
                 return;
             }
             player.setPlaylist(playlist);
