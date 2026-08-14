@@ -162,7 +162,7 @@ class AYProcessor extends AudioWorkletProcessor {
     this.loopFrame = 0;
     this.isrStep = 0;
     this.isrCounter = 0;
-    this._lastProcessTime = -1;
+    this._finishedSent = false;
     this._silenceEnd = 0;
 
     this._scopeBuf = new Float32Array(256 * 12);
@@ -201,7 +201,7 @@ class AYProcessor extends AudioWorkletProcessor {
     var msg = e.data;
     switch (msg.type) {
       case 'load':
-        this._lastProcessTime = -1;
+        this._finishedSent = false;
         this._silenceEnd = 0;
         this.dump = msg.dump;
         this.dumpLen = msg.dump.length;
@@ -282,6 +282,7 @@ class AYProcessor extends AudioWorkletProcessor {
         if (this.pos >= this.dumpLen) this.pos = this.dumpLen - 1;
         if (this.pos < 0) this.pos = 0;
         this.finished = false;
+        this._finishedSent = false;
         this._rebuildState();
         break;
       case 'chipType':
@@ -344,19 +345,53 @@ class AYProcessor extends AudioWorkletProcessor {
   }
 
   _rebuildState() {
-    /* reconstruct full register state from frame 0 up to this.pos (no audio) */
-    for (var f = 0; f < this.pos; f++) {
-      var e = this.dump[f];
-      if (!e) continue;
+    if (this.pos <= 0) return;
+    /* AY-family dumps store a FULL register snapshot per frame, so only the
+       last frame before pos needs to be applied. OPN dumps store per-frame
+       diffs ([reg,val] pairs) and must be replayed from 0. */
+    var anyOpn = false;
+    for (var ci = 0; ci < this.chipCount && !anyOpn; ci++) {
+      if (this._isOpn(ci)) anyOpn = true;
+    }
+    if (!anyOpn) {
+      var e = this.dump[this.pos - 1];
+      if (!e) return;
       var srcs = [e.a, e.b, e.c, e.d];
-      for (var ci = 0; ci < this.chipCount; ci++) {
-        var s = srcs[ci];
-        if (!s) continue;
-        if (this._isOpn(ci)) {
-          var opn = this._getOpn(ci);
-          for (var gi = 0; gi < s.length; gi++) opn.writeReg(s[gi][0], s[gi][1]);
+      for (var ci2 = 0; ci2 < this.chipCount; ci2++) {
+        var s = srcs[ci2];
+        if (!s || !s.length) continue;
+        _updateState(this._getAyumi(ci2), s);
+      }
+      /* envelope shape uses a 0xFF sentinel ("no change"): scan back per chip
+         to the last frame that actually set it so the correct shape is restored. */
+      for (var ci3 = 0; ci3 < this.chipCount; ci3++) {
+        var ay = this._getAyumi(ci3);
+        for (var b = this.pos - 1; b >= 0; b--) {
+          var eb = this.dump[b];
+          if (!eb) continue;
+          var sb = [eb.a, eb.b, eb.c, eb.d];
+          var s3 = sb[ci3];
+          if (s3 && s3.length && s3[13] !== undefined && s3[13] !== 0xff) {
+            ay.setEnvelopeShape(s3[13]);
+            break;
+          }
+        }
+      }
+      return;
+    }
+    /* OPN-involving dump: replay register writes from frame 0 up to pos */
+    for (var f = 0; f < this.pos; f++) {
+      var ef = this.dump[f];
+      if (!ef) continue;
+      var ssrcs = [ef.a, ef.b, ef.c, ef.d];
+      for (var ci4 = 0; ci4 < this.chipCount; ci4++) {
+        var ss = ssrcs[ci4];
+        if (!ss) continue;
+        if (this._isOpn(ci4)) {
+          var opn = this._getOpn(ci4);
+          for (var gi = 0; gi < ss.length; gi++) opn.writeReg(ss[gi][0], ss[gi][1]);
         } else {
-          _updateState(this._getAyumi(ci), s);
+          _updateState(this._getAyumi(ci4), ss);
         }
       }
     }
@@ -385,21 +420,8 @@ class AYProcessor extends AudioWorkletProcessor {
     var left = output[0];
     var right = output[1];
     if (!left || !right) return true;
-    if (this._lastProcessTime >= 0 && !this.finished) {
-      var gap = Date.now() - this._lastProcessTime;
-      var expectedGap = (left.length || 128) / sampleRate * 1000;
-      if (gap > expectedGap * 2) {
-        var missedFrames = Math.round((gap - expectedGap) / 1000 * this.frameRate);
-        if (missedFrames > 0) {
-          this.pos += missedFrames;
-          if (this.pos >= this.dumpLen - 1) {
-            this.finished = true;
-            if (this.repeat) { this.pos = this.loopFrame; this.finished = false; }
-          }
-        }
-      }
-    }
-    this._lastProcessTime = Date.now();
+    // Wall-clock catch-up disabled: offline rendering must never skip frames
+    // because of Date.now() gaps.
     if ((!this.ayumi && !this.opn) || this.dumpLen === 0) {
       for (var i = 0; i < (left.length || 0); i++) { left[i] = 0; if (right) right[i] = 0; }
       return true;
@@ -407,7 +429,10 @@ class AYProcessor extends AudioWorkletProcessor {
 
     if (this.finished) {
       for (var i = 0; i < left.length; i++) { left[i] = 0; if (right) right[i] = 0; }
-      if (this.finished) this.port.postMessage({ type: 'finished' });
+      if (!this._finishedSent) {
+        this._finishedSent = true;
+        this.port.postMessage({ type: 'finished' });
+      }
       return true;
     }
     for (var i = 0; i < left.length; i++) {
@@ -438,7 +463,10 @@ class AYProcessor extends AudioWorkletProcessor {
           right[i] = 0;
           i++;
           for (; i < left.length; i++) { left[i] = 0; if (right) right[i] = 0; }
-          this.port.postMessage({ type: 'finished' });
+          if (!this._finishedSent) {
+            this._finishedSent = true;
+            this.port.postMessage({ type: 'finished' });
+          }
           return true;
         }
         this.isrCounter--;
@@ -510,7 +538,10 @@ class AYProcessor extends AudioWorkletProcessor {
         this._scopeCount = 0;
       }
     }
-    if (this.finished) this.port.postMessage({ type: 'finished' });
+    if (this.finished && !this._finishedSent) {
+      this._finishedSent = true;
+      this.port.postMessage({ type: 'finished' });
+    }
 
     if (cpuStart >= 0) {
       if (this._usePerf) this._cpuAccum += performance.now() - cpuStart;

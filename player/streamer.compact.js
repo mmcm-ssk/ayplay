@@ -1,5 +1,8 @@
-﻿var _AWV = '321';
-self.sampleRate = 48000;
+﻿var _AWV = '334';
+/* Chunks are always rendered at 48000 Hz; AudioContext sampleRate may differ,
+   player_worklet.js resamples from 48000 to the context rate. */
+const RENDER_SAMPLE_RATE = 48000;
+self.sampleRate = RENDER_SAMPLE_RATE;
 var scopeAccum = null;
 var scopeAccumLen = 0;
 var renderFinished = false;
@@ -67,7 +70,6 @@ var left = new Float32Array(ch);
 var right = new Float32Array(ch);
 scopeAccum = new Float32Array((Math.ceil(ch / 8) + 16) * chipCh);
 scopeAccumLen = 0;
-proc._lastProcessTime = -1;
 var startPos = proc.pos;
 var finished = false;
 var i = 0;
@@ -111,7 +113,6 @@ renderDone = false;
 renderFinished = false;
 waiting = false;
 chunkIdx = 0;
-if (msg.sampleRate) self.sampleRate = msg.sampleRate;
 try {
 proc = new ProcClass();
 } catch (err) {
@@ -146,10 +147,24 @@ self.postMessage({ type: 'error', message: 'load: ' + String((err && err.message
 proc = null;
 return;
 }
-proc._lastProcessTime = -1;
 currentMsg = msg;
 self.postMessage({ type: 'loaded', gen: curGen });
-setTimeout(function() { tick(curGen); }, 0);
+tick(curGen);
+}
+function handleSeek(msg) {
+if (!proc) return;
+curGen = (typeof msg.gen === 'number') ? msg.gen : curGen + 1;
+renderDone = false;
+renderFinished = false;
+waiting = false;
+chunkIdx = 0;
+try {
+proc._onMessage({ data: { type: 'setProgress', progress: msg.progress } });
+} catch (err) {
+self.postMessage({ type: 'error', message: 'seek: ' + String((err && err.message) || err) });
+return;
+}
+tick(curGen);
 }
 function handleWaveform(msg) {
 curGen = (typeof msg.gen === 'number') ? msg.gen : curGen + 1;
@@ -157,7 +172,6 @@ renderDone = false;
 renderFinished = false;
 waiting = false;
 chunkIdx = 0;
-if (msg.sampleRate) self.sampleRate = msg.sampleRate;
 try {
 proc = new ProcClass();
 } catch (err) {
@@ -189,7 +203,6 @@ self.postMessage({ type: 'error', message: 'load: ' + String((err && err.message
 proc = null;
 return;
 }
-proc._lastProcessTime = -1;
 var dumpLen = msg.dump ? msg.dump.length : 0;
 var chipCount = msg.chipCount || 1;
 var chCount = chipCount * 3;
@@ -259,10 +272,13 @@ pendingLoad = msg;
 return;
 }
 handleWaveform(msg);
+} else if (msg.type === 'seek') {
+if (!procSourceReady || !ProcClass) return;
+if (proc) handleSeek(msg);
 } else if (msg.type === 'go') {
 if (waiting) {
 waiting = false;
-setTimeout(function() { tick(curGen); }, 0);
+tick(curGen);
 }
 } else if (msg.type === 'stop') {
 curGen++;

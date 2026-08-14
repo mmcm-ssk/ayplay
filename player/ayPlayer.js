@@ -411,6 +411,7 @@ var AYPlayer = (function() {
     var _streamer = null;
     var _streamMode = false;
     var _streamGen = 0;
+    var _streamerDumpRef = null;
     var _waveWorker = null;
     var _waveGen = 0;
     var _streamRenderDone = false;
@@ -1390,7 +1391,7 @@ var AYPlayer = (function() {
                 getAuthorName: function() { return authorName; },
                 getTrackFileName: function() { return trackFileName; },
                 setProgress: function(k) {
-                    if (_streamMode) { _streamLoad(k); return; }
+                    if (_streamMode) { _streamSeek(k); return; }
                     if (_workletNode) {
                         _workletNode.port.postMessage({ type: 'setProgress', progress: k });
                     }
@@ -2174,7 +2175,7 @@ var AYPlayer = (function() {
         }
     }
 
-    var _awVersion = '331';
+    var _awVersion = '334';
 
     function _stopStreamer() {
         if (_streamer) {
@@ -2183,6 +2184,7 @@ var AYPlayer = (function() {
         }
         _streamer = null;
         _streamMode = false;
+        _streamerDumpRef = null;
         _chunkQueue.length = 0;
         _streamInQueue = 0;
         _streamRenderDone = false;
@@ -2228,6 +2230,7 @@ var AYPlayer = (function() {
         if (!_streamer || !_workletNode || !_streamMode || !_dumpData) {
             return;
         }
+        _streamerDumpRef = _dumpData.dump;
         _streamGen++;
         _streamRenderDone = false;
         _chunkQueue.length = 0;
@@ -2235,7 +2238,7 @@ var AYPlayer = (function() {
         _streamChunkCount = 0;
         _streamUnderflowShown = false;
         _scopePosTime = -1;
-        _renderSR = audioContext ? audioContext.sampleRate : 48000;
+        _renderSR = 48000;
         _renderFrameRate = intFreqSelect || _dumpData.frameRate || 50;
         _streamEndFrame = _dumpData.dumpLen > 0 ? _dumpData.dumpLen - 1 : 0;
         var dl = _dumpData.dumpLen || 1;
@@ -2269,6 +2272,28 @@ var AYPlayer = (function() {
         if (!_streamMode || !_dumpData) return;
         var dl = _dumpData.dumpLen || 1;
         _streamLoad(playFrame / dl);
+    }
+
+    function _streamSeek(k) {
+        if (!_streamer || !_workletNode || !_streamMode || !_dumpData) {
+            return;
+        }
+        if (_streamerDumpRef !== _dumpData.dump) {
+            _streamLoad(k);
+            return;
+        }
+        _streamGen++;
+        _streamRenderDone = false;
+        _chunkQueue.length = 0;
+        _streamInQueue = 0;
+        _streamChunkCount = 0;
+        _streamUnderflowShown = false;
+        _scopePosTime = -1;
+        var dl = _dumpData.dumpLen || 1;
+        _workletNode.port.postMessage({ type: 'clear', base: Math.round(k * dl) });
+        _workletNode.port.postMessage({ type: 'frameRate', frameRate: intFreqSelect || _dumpData.frameRate });
+        _workletNode.port.postMessage({ type: 'volume', volume: volume });
+        _streamer.postMessage({ type: 'seek', gen: _streamGen, progress: k });
     }
 
     function _wrapStreamFrame(raw) {
@@ -3178,6 +3203,7 @@ var AYPlayer = (function() {
             if (onDone) onDone();
             return;
         }
+        if (onDone) onDone();
         var chCount = chipCount * 3;
         var allAmps = [];
         var chAmps = [];
@@ -3301,7 +3327,6 @@ var AYPlayer = (function() {
                 drawWaveform();
                 var canvas = document.getElementById(containerId + '_waveCanvas');
                 if (canvas) canvas.classList.add('visible');
-                if (onDone) onDone();
             }
         }
         requestAnimationFrame(processChunk);
@@ -3324,6 +3349,7 @@ var AYPlayer = (function() {
             if (onDone) onDone();
             return;
         }
+        if (onDone) onDone();
         var genSong = new FYMReader(buffer, fileName);
         var fc = genSong.getFrameCount();
         var fr = genSong.getFrameRate();
@@ -3424,7 +3450,6 @@ var AYPlayer = (function() {
                 drawWaveform();
                 var canvas = document.getElementById(containerId + '_waveCanvas');
                 if (canvas) canvas.classList.add('visible');
-                if (onDone) onDone();
             }
         }
         requestAnimationFrame(processChunk);
@@ -4243,7 +4268,7 @@ var AYPlayer = (function() {
             _scopePosTime = -1;
             updateProgress();
             if (_streamMode) {
-                _streamLoad(x);
+                _streamSeek(x);
             } else if (_workletNode) {
                 _workletNode.port.postMessage({ type: 'setProgress', progress: x });
             }
