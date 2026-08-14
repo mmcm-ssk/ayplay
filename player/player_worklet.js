@@ -96,26 +96,57 @@ class StreamPlayerProcessor extends AudioWorkletProcessor {
             const L = chunk.left;
             const R = chunk.right;
             const srcLen = L.length;
-            // how many source samples remain in this chunk
+
+            if (!srcLen) {
+                this._q.shift();
+                this._qi = 0;
+                continue;
+            }
+
+            if (this._qi >= srcLen) {
+                this._qi -= srcLen;
+                this._q.shift();
+                this.port.postMessage({ type: 'chunkConsumed' });
+                continue;
+            }
+
             const remaining = srcLen - this._qi;
-            // how many output samples can come from this chunk
-            const availOut = Math.floor(remaining / step);
+
+            let availOut = Math.floor(remaining / step);
+
+            // If less than one full output step remains, still produce one
+            // sample so we never stall and never drop the chunk tail.
+            if (availOut <= 0) {
+                availOut = 1;
+            }
+
             const takeOut = Math.min(n - ti, availOut);
+
             for (let j = 0; j < takeOut; j++) {
                 const pos = this._qi + j * step;
+
                 let i0 = pos | 0;
-                if (i0 > srcLen - 1) i0 = srcLen - 1;
-                const i1 = i0 + 1 < srcLen ? i0 + 1 : i0;
+
+                if (i0 >= srcLen) i0 = srcLen - 1;
+                if (i0 < 0) i0 = 0;
+
+                const i1 = (i0 + 1 < srcLen) ? (i0 + 1) : i0;
                 const frac = pos - i0;
+
                 left[ti + j] = (L[i0] + (L[i1] - L[i0]) * frac) * vol;
                 right[ti + j] = (R[i0] + (R[i1] - R[i0]) * frac) * vol;
             }
+
             this._qi += takeOut * step;
             this._total += takeOut * step;
             ti += takeOut;
-            if (this._qi >= srcLen - 1) {
+
+            if (this._qi >= srcLen) {
+                const carry = this._qi - srcLen;
+
                 this._q.shift();
-                this._qi = 0;
+                this._qi = carry;
+
                 this.port.postMessage({ type: 'chunkConsumed' });
             }
         }

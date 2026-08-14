@@ -89,88 +89,8 @@
             "channels": 6
         },
         {
-            "name": "Hypersonic 2000.stc",
-            "file": "chiptunes\/Agent-X\/1991\/Hypersonic 2000.stc",
-            "pt3": false,
-            "author": "Agent-X",
-            "section": "1991",
-            "channels": 3
-        },
-        {
-            "name": "Hypersonic demo.stc",
-            "file": "chiptunes\/Agent-X\/1991\/Hypersonic demo.stc",
-            "pt3": false,
-            "author": "Agent-X",
-            "section": "1991",
-            "channels": 3
-        },
-        {
-            "name": "Hypersonic2 - alternate tune.stc",
-            "file": "chiptunes\/Agent-X\/1991\/Hypersonic2 - alternate tune.stc",
-            "pt3": false,
-            "author": "Agent-X",
-            "section": "1991",
-            "channels": 3
-        },
-        {
-            "name": "Hypersonic2 - intro.stc",
-            "file": "chiptunes\/Agent-X\/1991\/Hypersonic2 - intro.stc",
-            "pt3": false,
-            "author": "Agent-X",
-            "section": "1991",
-            "channels": 3
-        },
-        {
-            "name": "Hypersonic2 - main part.stc",
-            "file": "chiptunes\/Agent-X\/1991\/Hypersonic2 - main part.stc",
-            "pt3": false,
-            "author": "Agent-X",
-            "section": "1991",
-            "channels": 3
-        },
-        {
-            "name": "Hypersonic2 preview - messages part.stc",
-            "file": "chiptunes\/Agent-X\/1991\/Hypersonic2 preview - messages part.stc",
-            "pt3": false,
-            "author": "Agent-X",
-            "section": "1991",
-            "channels": 3
-        },
-        {
-            "name": "Hypersonic2 preview - night city.stc",
-            "file": "chiptunes\/Agent-X\/1991\/Hypersonic2 preview - night city.stc",
-            "pt3": false,
-            "author": "Agent-X",
-            "section": "1991",
-            "channels": 3
-        },
-        {
-            "name": "AGENT3.stc",
-            "file": "chiptunes\/Agent-X\/AGENT3.stc",
-            "pt3": false,
-            "author": "Agent-X",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "Agent 005.stc",
-            "file": "chiptunes\/Agent-X\/Agent 005.stc",
-            "pt3": false,
-            "author": "Agent-X",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "Agent 006 extended.stc",
-            "file": "chiptunes\/Agent-X\/Agent 006 extended.stc",
-            "pt3": false,
-            "author": "Agent-X",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "Agent 006.stc",
-            "file": "chiptunes\/Agent-X\/Agent 006.stc",
+            "name": "Agent-X - AGENT 3.stc",
+            "file": "chiptunes\/Agent-X\/Agent-X - AGENT 3.stc",
             "pt3": false,
             "author": "Agent-X",
             "section": null,
@@ -201,16 +121,8 @@
             "channels": 3
         },
         {
-            "name": "Agent-X - Branch of mind1.stc",
-            "file": "chiptunes\/Agent-X\/Agent-X - Branch of mind1.stc",
-            "pt3": false,
-            "author": "Agent-X",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "Agent-X - Branch of mind2.stc",
-            "file": "chiptunes\/Agent-X\/Agent-X - Branch of mind2.stc",
+            "name": "Agent-X - Dies Irae.ay",
+            "file": "chiptunes\/Agent-X\/Agent-X - Dies Irae.ay",
             "pt3": false,
             "author": "Agent-X",
             "section": null,
@@ -233,16 +145,32 @@
             "channels": 3
         },
         {
-            "name": "Agent-X - First challenge (HEXOGEN1).stc",
-            "file": "chiptunes\/Agent-X\/Agent-X - First challenge (HEXOGEN1).stc",
+            "name": "Agent-X - First Challenge (HEXOGEN1).stc",
+            "file": "chiptunes\/Agent-X\/Agent-X - First Challenge (HEXOGEN1).stc",
             "pt3": false,
             "author": "Agent-X",
             "section": null,
             "channels": 3
         },
         {
-            "name": "Agent-X - First challenge.stc",
-            "file": "chiptunes\/Agent-X\/Agent-X - First challenge.stc",
+            "name": "Agent-X - First Challenge.stc",
+            "file": "chiptunes\/Agent-X\/Agent-X - First Challenge.stc",
+            "pt3": false,
+            "author": "Agent-X",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "Agent-X - Gemini - Double Preview.ay",
+            "file": "chiptunes\/Agent-X\/Agent-X - Gemini - Double Preview.ay",
+            "pt3": false,
+            "author": "Agent-X",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "Agent-X - HEXOGEN 3.stc",
+            "file": "chiptunes\/Agent-X\/Agent-X - HEXOGEN 3.stc",
             "pt3": false,
             "author": "Agent-X",
             "section": null,
@@ -257,88 +185,16 @@
             "channels": 3
         },
         {
-            "name": "Agent-X - Hypersonic demo.stc",
-            "file": "chiptunes\/Agent-X\/Agent-X - Hypersonic demo.stc",
+            "name": "Agent-X - Hypersonic Demo.stc",
+            "file": "chiptunes\/Agent-X\/Agent-X - Hypersonic Demo.stc",
             "pt3": false,
             "author": "Agent-X",
             "section": null,
             "channels": 3
         },
         {
-            "name": "Agent-X - Hypersonic2 - alternate tune.stc",
-            "file": "chiptunes\/Agent-X\/Agent-X - Hypersonic2 - alternate tune.stc",
-            "pt3": false,
-            "author": "Agent-X",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "Agent-X - Hypersonic2 - intro.stc",
-            "file": "chiptunes\/Agent-X\/Agent-X - Hypersonic2 - intro.stc",
-            "pt3": false,
-            "author": "Agent-X",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "Agent-X - Hypersonic2 - main part.stc",
-            "file": "chiptunes\/Agent-X\/Agent-X - Hypersonic2 - main part.stc",
-            "pt3": false,
-            "author": "Agent-X",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "Agent-X - Hypersonic2 preview - messages part.stc",
-            "file": "chiptunes\/Agent-X\/Agent-X - Hypersonic2 preview - messages part.stc",
-            "pt3": false,
-            "author": "Agent-X",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "Agent-X - Hypersonic2 preview - night city.stc",
-            "file": "chiptunes\/Agent-X\/Agent-X - Hypersonic2 preview - night city.stc",
-            "pt3": false,
-            "author": "Agent-X",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "Agent-X - Intro beat.stc",
-            "file": "chiptunes\/Agent-X\/Agent-X - Intro beat.stc",
-            "pt3": false,
-            "author": "Agent-X",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "Agent-X - LSD megademo - Agent's part.stc",
-            "file": "chiptunes\/Agent-X\/Agent-X - LSD megademo - Agent's part.stc",
-            "pt3": false,
-            "author": "Agent-X",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "Agent-X - LSD megademo - Chris's part.stc",
-            "file": "chiptunes\/Agent-X\/Agent-X - LSD megademo - Chris's part.stc",
-            "pt3": false,
-            "author": "Agent-X",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "Agent-X - LSD megademo - intro.stc",
-            "file": "chiptunes\/Agent-X\/Agent-X - LSD megademo - intro.stc",
-            "pt3": false,
-            "author": "Agent-X",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "Agent-X - LSD megademo - messages part.stc",
-            "file": "chiptunes\/Agent-X\/Agent-X - LSD megademo - messages part.stc",
+            "name": "Agent-X - Intro Beat.stc",
+            "file": "chiptunes\/Agent-X\/Agent-X - Intro Beat.stc",
             "pt3": false,
             "author": "Agent-X",
             "section": null,
@@ -353,56 +209,96 @@
             "channels": 3
         },
         {
-            "name": "Agent-X - My favourite one.stc",
-            "file": "chiptunes\/Agent-X\/Agent-X - My favourite one.stc",
+            "name": "Agent-X - My Favourite One.stc",
+            "file": "chiptunes\/Agent-X\/Agent-X - My Favourite One.stc",
             "pt3": false,
             "author": "Agent-X",
             "section": null,
             "channels": 3
         },
         {
-            "name": "Agent-X - Name it yourself.stc",
-            "file": "chiptunes\/Agent-X\/Agent-X - Name it yourself.stc",
+            "name": "Agent-X - NMI End Part.stc",
+            "file": "chiptunes\/Agent-X\/Agent-X - NMI End Part.stc",
             "pt3": false,
             "author": "Agent-X",
             "section": null,
             "channels": 3
         },
         {
-            "name": "Agent-X - Nonamedzak02.stc",
-            "file": "chiptunes\/Agent-X\/Agent-X - Nonamedzak02.stc",
+            "name": "Agent-X - Name It Yourself.stc",
+            "file": "chiptunes\/Agent-X\/Agent-X - Name It Yourself.stc",
             "pt3": false,
             "author": "Agent-X",
             "section": null,
             "channels": 3
         },
         {
-            "name": "Agent-X - Number fifteenth.stc",
-            "file": "chiptunes\/Agent-X\/Agent-X - Number fifteenth.stc",
+            "name": "Agent-X - Noname Dzak 02.stc",
+            "file": "chiptunes\/Agent-X\/Agent-X - Noname Dzak 02.stc",
             "pt3": false,
             "author": "Agent-X",
             "section": null,
             "channels": 3
         },
         {
-            "name": "Agent-X - Second noiser.stc",
-            "file": "chiptunes\/Agent-X\/Agent-X - Second noiser.stc",
+            "name": "Agent-X - Number Fifteenth.stc",
+            "file": "chiptunes\/Agent-X\/Agent-X - Number Fifteenth.stc",
             "pt3": false,
             "author": "Agent-X",
             "section": null,
             "channels": 3
         },
         {
-            "name": "Agent-X - Simple but nice.stc",
-            "file": "chiptunes\/Agent-X\/Agent-X - Simple but nice.stc",
+            "name": "Agent-X - Schizofrenia Game.stc",
+            "file": "chiptunes\/Agent-X\/Agent-X - Schizofrenia Game.stc",
             "pt3": false,
             "author": "Agent-X",
             "section": null,
             "channels": 3
         },
         {
-            "name": "Agent-X - Special music collection - the guide.stc",
-            "file": "chiptunes\/Agent-X\/Agent-X - Special music collection - the guide.stc",
+            "name": "Agent-X - Schizophrenia.ay",
+            "file": "chiptunes\/Agent-X\/Agent-X - Schizophrenia.ay",
+            "pt3": false,
+            "author": "Agent-X",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "Agent-X - Second Noiser.stc",
+            "file": "chiptunes\/Agent-X\/Agent-X - Second Noiser.stc",
+            "pt3": false,
+            "author": "Agent-X",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "Agent-X - Simple But Nice.stc",
+            "file": "chiptunes\/Agent-X\/Agent-X - Simple But Nice.stc",
+            "pt3": false,
+            "author": "Agent-X",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "Agent-X - Special Music Collection - The Guide.stc",
+            "file": "chiptunes\/Agent-X\/Agent-X - Special Music Collection - The Guide.stc",
+            "pt3": false,
+            "author": "Agent-X",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "Agent-X - The City Demo-1.stc",
+            "file": "chiptunes\/Agent-X\/Agent-X - The City Demo-1.stc",
+            "pt3": false,
+            "author": "Agent-X",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "Agent-X - The Fly Demo.ay",
+            "file": "chiptunes\/Agent-X\/Agent-X - The Fly Demo.ay",
             "pt3": false,
             "author": "Agent-X",
             "section": null,
@@ -417,24 +313,16 @@
             "channels": 3
         },
         {
-            "name": "Agent-X - The city demo-1.stc",
-            "file": "chiptunes\/Agent-X\/Agent-X - The city demo-1.stc",
+            "name": "Agent-X - Three Days In 91.stc",
+            "file": "chiptunes\/Agent-X\/Agent-X - Three Days In 91.stc",
             "pt3": false,
             "author": "Agent-X",
             "section": null,
             "channels": 3
         },
         {
-            "name": "Agent-X - Three days in 91.stc",
-            "file": "chiptunes\/Agent-X\/Agent-X - Three days in 91.stc",
-            "pt3": false,
-            "author": "Agent-X",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "Agent-X - Vidiparty demo.stc",
-            "file": "chiptunes\/Agent-X\/Agent-X - Vidiparty demo.stc",
+            "name": "Agent-X - Vidiparty Demo.stc",
+            "file": "chiptunes\/Agent-X\/Agent-X - Vidiparty Demo.stc",
             "pt3": false,
             "author": "Agent-X",
             "section": null,
@@ -449,283 +337,123 @@
             "channels": 3
         },
         {
-            "name": "Agent-XNonamedzak02.stc",
-            "file": "chiptunes\/Agent-X\/Agent-XNonamedzak02.stc",
+            "name": "Agent-X - Branch of Mind 1.stc",
+            "file": "chiptunes\/Agent-X\/Branch of Mind Demo\/Agent-X - Branch of Mind 1.stc",
             "pt3": false,
             "author": "Agent-X",
-            "section": null,
+            "section": "Branch of Mind Demo",
             "channels": 3
         },
         {
-            "name": "Branch of mind1.stc",
-            "file": "chiptunes\/Agent-X\/Branch of mind1.stc",
+            "name": "Agent-X - Branch of Mind 2.stc",
+            "file": "chiptunes\/Agent-X\/Branch of Mind Demo\/Agent-X - Branch of Mind 2.stc",
             "pt3": false,
             "author": "Agent-X",
-            "section": null,
+            "section": "Branch of Mind Demo",
             "channels": 3
         },
         {
-            "name": "Branch of mind2.stc",
-            "file": "chiptunes\/Agent-X\/Branch of mind2.stc",
+            "name": "Agent-X - Branch of Mind 3.ay",
+            "file": "chiptunes\/Agent-X\/Branch of Mind Demo\/Agent-X - Branch of Mind 3.ay",
             "pt3": false,
             "author": "Agent-X",
-            "section": null,
+            "section": "Branch of Mind Demo",
             "channels": 3
         },
         {
-            "name": "Branch of mind3.ay",
-            "file": "chiptunes\/Agent-X\/Branch of mind3.ay",
+            "name": "Agent-X - Alternate Tune.stc",
+            "file": "chiptunes\/Agent-X\/Hypersonic 2 Demo\/Agent-X - Alternate Tune.stc",
             "pt3": false,
             "author": "Agent-X",
-            "section": null,
+            "section": "Hypersonic 2 Demo",
             "channels": 3
         },
         {
-            "name": "Dies irae.ay",
-            "file": "chiptunes\/Agent-X\/Dies irae.ay",
+            "name": "Agent-X - Intro.stc",
+            "file": "chiptunes\/Agent-X\/Hypersonic 2 Demo\/Agent-X - Intro.stc",
             "pt3": false,
             "author": "Agent-X",
-            "section": null,
+            "section": "Hypersonic 2 Demo",
             "channels": 3
         },
         {
-            "name": "Film Music 001.stc",
-            "file": "chiptunes\/Agent-X\/Film Music 001.stc",
+            "name": "Agent-X - Main Part.stc",
+            "file": "chiptunes\/Agent-X\/Hypersonic 2 Demo\/Agent-X - Main Part.stc",
             "pt3": false,
             "author": "Agent-X",
-            "section": null,
+            "section": "Hypersonic 2 Demo",
             "channels": 3
         },
         {
-            "name": "Film Music 002.stc",
-            "file": "chiptunes\/Agent-X\/Film Music 002.stc",
+            "name": "Agent-X - Preview - Messages Part.stc",
+            "file": "chiptunes\/Agent-X\/Hypersonic 2 Demo\/Agent-X - Preview - Messages Part.stc",
             "pt3": false,
             "author": "Agent-X",
-            "section": null,
+            "section": "Hypersonic 2 Demo",
             "channels": 3
         },
         {
-            "name": "First challenge (HEXOGEN1).stc",
-            "file": "chiptunes\/Agent-X\/First challenge (HEXOGEN1).stc",
+            "name": "Agent-X - Preview - Night City.stc",
+            "file": "chiptunes\/Agent-X\/Hypersonic 2 Demo\/Agent-X - Preview - Night City.stc",
             "pt3": false,
             "author": "Agent-X",
-            "section": null,
+            "section": "Hypersonic 2 Demo",
             "channels": 3
         },
         {
-            "name": "First challenge.stc",
-            "file": "chiptunes\/Agent-X\/First challenge.stc",
+            "name": "Agent-X - Agent's part.stc",
+            "file": "chiptunes\/Agent-X\/LSD Megedemo\/Agent-X - Agent's part.stc",
             "pt3": false,
             "author": "Agent-X",
-            "section": null,
+            "section": "LSD Megedemo",
             "channels": 3
         },
         {
-            "name": "Gemini - double preview.ay",
-            "file": "chiptunes\/Agent-X\/Gemini - double preview.ay",
+            "name": "Agent-X - Chris's part.stc",
+            "file": "chiptunes\/Agent-X\/LSD Megedemo\/Agent-X - Chris's part.stc",
             "pt3": false,
             "author": "Agent-X",
-            "section": null,
+            "section": "LSD Megedemo",
             "channels": 3
         },
         {
-            "name": "HEXOGEN3.stc",
-            "file": "chiptunes\/Agent-X\/HEXOGEN3.stc",
+            "name": "Agent-X - Intro.stc",
+            "file": "chiptunes\/Agent-X\/LSD Megedemo\/Agent-X - Intro.stc",
             "pt3": false,
             "author": "Agent-X",
-            "section": null,
+            "section": "LSD Megedemo",
             "channels": 3
         },
         {
-            "name": "Intro beat.stc",
-            "file": "chiptunes\/Agent-X\/Intro beat.stc",
+            "name": "Agent-X - LSD MegaDemo 02.stc",
+            "file": "chiptunes\/Agent-X\/LSD Megedemo\/Agent-X - LSD MegaDemo 02.stc",
             "pt3": false,
             "author": "Agent-X",
-            "section": null,
+            "section": "LSD Megedemo",
             "channels": 3
         },
         {
-            "name": "LSD megademo - Agent's part.stc",
-            "file": "chiptunes\/Agent-X\/LSD megademo - Agent's part.stc",
+            "name": "Agent-X - Messages Part.stc",
+            "file": "chiptunes\/Agent-X\/LSD Megedemo\/Agent-X - Messages Part.stc",
             "pt3": false,
             "author": "Agent-X",
-            "section": null,
+            "section": "LSD Megedemo",
             "channels": 3
         },
         {
-            "name": "LSD megademo - Chris's part.stc",
-            "file": "chiptunes\/Agent-X\/LSD megademo - Chris's part.stc",
+            "name": "Agent-X - SOCOBAN 1.stc",
+            "file": "chiptunes\/Agent-X\/Socoban Game\/Agent-X - SOCOBAN 1.stc",
             "pt3": false,
             "author": "Agent-X",
-            "section": null,
+            "section": "Socoban Game",
             "channels": 3
         },
         {
-            "name": "LSD megademo - intro.stc",
-            "file": "chiptunes\/Agent-X\/LSD megademo - intro.stc",
+            "name": "Agent-X - SOCOBAN 2.stc",
+            "file": "chiptunes\/Agent-X\/Socoban Game\/Agent-X - SOCOBAN 2.stc",
             "pt3": false,
             "author": "Agent-X",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "LSD megademo - messages part.stc",
-            "file": "chiptunes\/Agent-X\/LSD megademo - messages part.stc",
-            "pt3": false,
-            "author": "Agent-X",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "LSDMegaDemo02.stc",
-            "file": "chiptunes\/Agent-X\/LSDMegaDemo02.stc",
-            "pt3": false,
-            "author": "Agent-X",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "Multiorn.stc",
-            "file": "chiptunes\/Agent-X\/Multiorn.stc",
-            "pt3": false,
-            "author": "Agent-X",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "My favourite one.stc",
-            "file": "chiptunes\/Agent-X\/My favourite one.stc",
-            "pt3": false,
-            "author": "Agent-X",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "NMIEndPart.stc",
-            "file": "chiptunes\/Agent-X\/NMIEndPart.stc",
-            "pt3": false,
-            "author": "Agent-X",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "Name it yourself.stc",
-            "file": "chiptunes\/Agent-X\/Name it yourself.stc",
-            "pt3": false,
-            "author": "Agent-X",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "Number fifteenth.stc",
-            "file": "chiptunes\/Agent-X\/Number fifteenth.stc",
-            "pt3": false,
-            "author": "Agent-X",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "SOCOBAN1.stc",
-            "file": "chiptunes\/Agent-X\/SOCOBAN1.stc",
-            "pt3": false,
-            "author": "Agent-X",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "SOCOBAN2.stc",
-            "file": "chiptunes\/Agent-X\/SOCOBAN2.stc",
-            "pt3": false,
-            "author": "Agent-X",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "Schizofrenia Game.stc",
-            "file": "chiptunes\/Agent-X\/Schizofrenia Game.stc",
-            "pt3": false,
-            "author": "Agent-X",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "Schizophrenia.ay",
-            "file": "chiptunes\/Agent-X\/Schizophrenia.ay",
-            "pt3": false,
-            "author": "Agent-X",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "Second noiser.stc",
-            "file": "chiptunes\/Agent-X\/Second noiser.stc",
-            "pt3": false,
-            "author": "Agent-X",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "Simple but nice.stc",
-            "file": "chiptunes\/Agent-X\/Simple but nice.stc",
-            "pt3": false,
-            "author": "Agent-X",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "Special music collection - the guide.stc",
-            "file": "chiptunes\/Agent-X\/Special music collection - the guide.stc",
-            "pt3": false,
-            "author": "Agent-X",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "The Funky Strut.stc",
-            "file": "chiptunes\/Agent-X\/The Funky Strut.stc",
-            "pt3": false,
-            "author": "Agent-X",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "The city demo-1.stc",
-            "file": "chiptunes\/Agent-X\/The city demo-1.stc",
-            "pt3": false,
-            "author": "Agent-X",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "TheFlyDemo.ay",
-            "file": "chiptunes\/Agent-X\/TheFlyDemo.ay",
-            "pt3": false,
-            "author": "Agent-X",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "Three days in 91.stc",
-            "file": "chiptunes\/Agent-X\/Three days in 91.stc",
-            "pt3": false,
-            "author": "Agent-X",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "Vidiparty demo.stc",
-            "file": "chiptunes\/Agent-X\/Vidiparty demo.stc",
-            "pt3": false,
-            "author": "Agent-X",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "What A Rumble.stc",
-            "file": "chiptunes\/Agent-X\/What A Rumble.stc",
-            "pt3": false,
-            "author": "Agent-X",
-            "section": null,
+            "section": "Socoban Game",
             "channels": 3
         },
         {
@@ -801,1056 +529,1056 @@
             "channels": 6
         },
         {
-            "name": "MaxGift1.stc",
-            "file": "chiptunes\/Andy Fer\/1996\/MaxGift1.stc",
+            "name": "Andy Fer - Arabian Night 96.pt2",
+            "file": "chiptunes\/Andy Fer\/1996\/Andy Fer - Arabian Night 96.pt2",
             "pt3": false,
             "author": "Andy Fer",
             "section": "1996",
             "channels": 3
         },
         {
-            "name": "MaxGift2.stc",
-            "file": "chiptunes\/Andy Fer\/1996\/MaxGift2.stc",
+            "name": "Andy Fer - It's Time.pt2",
+            "file": "chiptunes\/Andy Fer\/1996\/Andy Fer - It's Time.pt2",
             "pt3": false,
             "author": "Andy Fer",
             "section": "1996",
             "channels": 3
         },
         {
-            "name": "MaxGift3.stc",
-            "file": "chiptunes\/Andy Fer\/1996\/MaxGift3.stc",
+            "name": "Andy Fer - Max Gift 1.stc",
+            "file": "chiptunes\/Andy Fer\/1996\/Andy Fer - Max Gift 1.stc",
             "pt3": false,
             "author": "Andy Fer",
             "section": "1996",
             "channels": 3
         },
         {
-            "name": "Technodrom.stc",
-            "file": "chiptunes\/Andy Fer\/1996\/Technodrom.stc",
+            "name": "Andy Fer - Max Gift 2.stc",
+            "file": "chiptunes\/Andy Fer\/1996\/Andy Fer - Max Gift 2.stc",
             "pt3": false,
             "author": "Andy Fer",
             "section": "1996",
             "channels": 3
         },
         {
-            "name": "arabian_night96.pt2",
-            "file": "chiptunes\/Andy Fer\/1996\/arabian_night96.pt2",
+            "name": "Andy Fer - Max Gift 3.stc",
+            "file": "chiptunes\/Andy Fer\/1996\/Andy Fer - Max Gift 3.stc",
             "pt3": false,
             "author": "Andy Fer",
             "section": "1996",
             "channels": 3
         },
         {
-            "name": "it's_time.pt2",
-            "file": "chiptunes\/Andy Fer\/1996\/it's_time.pt2",
+            "name": "Andy Fer - Technodrom.stc",
+            "file": "chiptunes\/Andy Fer\/1996\/Andy Fer - Technodrom.stc",
             "pt3": false,
             "author": "Andy Fer",
             "section": "1996",
             "channels": 3
         },
         {
-            "name": "the_past.pt2",
-            "file": "chiptunes\/Andy Fer\/1996\/the_past.pt2",
+            "name": "Andy Fer - The Past.pt2",
+            "file": "chiptunes\/Andy Fer\/1996\/Andy Fer - The Past.pt2",
             "pt3": false,
             "author": "Andy Fer",
             "section": "1996",
             "channels": 3
         },
         {
-            "name": "you&me.pt2",
-            "file": "chiptunes\/Andy Fer\/1996\/you&me.pt2",
+            "name": "Andy Fer - You & Me.pt2",
+            "file": "chiptunes\/Andy Fer\/1996\/Andy Fer - You & Me.pt2",
             "pt3": false,
             "author": "Andy Fer",
             "section": "1996",
             "channels": 3
         },
         {
-            "name": "NewYear!.pt2",
-            "file": "chiptunes\/Andy Fer\/1997\/NewYear!.pt2",
+            "name": "Andy Fer - Cant 4give.pt2",
+            "file": "chiptunes\/Andy Fer\/1997\/Andy Fer - Cant 4give.pt2",
             "pt3": false,
             "author": "Andy Fer",
             "section": "1997",
             "channels": 3
         },
         {
-            "name": "cant_4give.pt2",
-            "file": "chiptunes\/Andy Fer\/1997\/cant_4give.pt2",
+            "name": "Andy Fer - Deja Vu.pt2",
+            "file": "chiptunes\/Andy Fer\/1997\/Andy Fer - Deja Vu.pt2",
             "pt3": false,
             "author": "Andy Fer",
             "section": "1997",
             "channels": 3
         },
         {
-            "name": "deja_vu.pt2",
-            "file": "chiptunes\/Andy Fer\/1997\/deja_vu.pt2",
+            "name": "Andy Fer - Epilogue.pt2",
+            "file": "chiptunes\/Andy Fer\/1997\/Andy Fer - Epilogue.pt2",
             "pt3": false,
             "author": "Andy Fer",
             "section": "1997",
             "channels": 3
         },
         {
-            "name": "epilogue.pt2",
-            "file": "chiptunes\/Andy Fer\/1997\/epilogue.pt2",
+            "name": "Andy Fer - New Year!.pt2",
+            "file": "chiptunes\/Andy Fer\/1997\/Andy Fer - New Year!.pt2",
             "pt3": false,
             "author": "Andy Fer",
             "section": "1997",
             "channels": 3
         },
         {
-            "name": "short_theme.pt2",
-            "file": "chiptunes\/Andy Fer\/1997\/short_theme.pt2",
+            "name": "Andy Fer - Short Theme.pt2",
+            "file": "chiptunes\/Andy Fer\/1997\/Andy Fer - Short Theme.pt2",
             "pt3": false,
             "author": "Andy Fer",
             "section": "1997",
             "channels": 3
         },
         {
-            "name": "#z80_#5_1.pt3",
-            "file": "chiptunes\/Andy Fer\/1998\/#z80_#5_1.pt3",
+            "name": "Andt Fer - Gorod Zolotoj (R) Akwarium.pt3",
+            "file": "chiptunes\/Andy Fer\/1998\/Andt Fer - Gorod Zolotoj (R) Akwarium.pt3",
             "pt3": false,
             "author": "Andy Fer",
             "section": "1998",
             "channels": 3
         },
         {
-            "name": "Buzz#17_2.pt3",
-            "file": "chiptunes\/Andy Fer\/1998\/Buzz#17_2.pt3",
+            "name": "Andy Fer - A Little.pt3",
+            "file": "chiptunes\/Andy Fer\/1998\/Andy Fer - A Little.pt3",
             "pt3": false,
             "author": "Andy Fer",
             "section": "1998",
             "channels": 3
         },
         {
-            "name": "DejaVU#06_30.pt3",
-            "file": "chiptunes\/Andy Fer\/1998\/DejaVU#06_30.pt3",
+            "name": "Andy Fer - Arabian Night.pt3",
+            "file": "chiptunes\/Andy Fer\/1998\/Andy Fer - Arabian Night.pt3",
             "pt3": false,
             "author": "Andy Fer",
             "section": "1998",
             "channels": 3
         },
         {
-            "name": "Heresy1_2.pt3",
-            "file": "chiptunes\/Andy Fer\/1998\/Heresy1_2.pt3",
+            "name": "Andy Fer - Da Bith.pt3",
+            "file": "chiptunes\/Andy Fer\/1998\/Andy Fer - Da Bith.pt3",
             "pt3": false,
             "author": "Andy Fer",
             "section": "1998",
             "channels": 3
         },
         {
-            "name": "Heresy2_2.pt3",
-            "file": "chiptunes\/Andy Fer\/1998\/Heresy2_2.pt3",
+            "name": "Andy Fer - Dream.pt3",
+            "file": "chiptunes\/Andy Fer\/1998\/Andy Fer - Dream.pt3",
             "pt3": false,
             "author": "Andy Fer",
             "section": "1998",
             "channels": 3
         },
         {
-            "name": "Rule1.pt2",
-            "file": "chiptunes\/Andy Fer\/1998\/Rule1.pt2",
+            "name": "Andy Fer - E-Pyh-Da.pt2",
+            "file": "chiptunes\/Andy Fer\/1998\/Andy Fer - E-Pyh-Da.pt2",
             "pt3": false,
             "author": "Andy Fer",
             "section": "1998",
             "channels": 3
         },
         {
-            "name": "TW_D_MAS.pt3",
-            "file": "chiptunes\/Andy Fer\/1998\/TW_D_MAS.pt3",
+            "name": "Andy Fer - FReEStYlE TheMe RolL'Em aLl 2.pt3",
+            "file": "chiptunes\/Andy Fer\/1998\/Andy Fer - FReEStYlE TheMe RolL'Em aLl 2.pt3",
             "pt3": false,
             "author": "Andy Fer",
             "section": "1998",
             "channels": 3
         },
         {
-            "name": "a_little.pt3",
-            "file": "chiptunes\/Andy Fer\/1998\/a_little.pt3",
+            "name": "Andy Fer - Folkwork.pt3",
+            "file": "chiptunes\/Andy Fer\/1998\/Andy Fer - Folkwork.pt3",
             "pt3": false,
             "author": "Andy Fer",
             "section": "1998",
             "channels": 3
         },
         {
-            "name": "arabian_night.pt3",
-            "file": "chiptunes\/Andy Fer\/1998\/arabian_night.pt3",
+            "name": "Andy Fer - IMP's TUNE mix.pt3",
+            "file": "chiptunes\/Andy Fer\/1998\/Andy Fer - IMP's TUNE mix.pt3",
             "pt3": false,
             "author": "Andy Fer",
             "section": "1998",
             "channels": 3
         },
         {
-            "name": "da_bith.pt3",
-            "file": "chiptunes\/Andy Fer\/1998\/da_bith.pt3",
+            "name": "Andy Fer - Madam Bo Q.pt3",
+            "file": "chiptunes\/Andy Fer\/1998\/Andy Fer - Madam Bo Q.pt3",
             "pt3": false,
             "author": "Andy Fer",
             "section": "1998",
             "channels": 3
         },
         {
-            "name": "dream.pt3",
-            "file": "chiptunes\/Andy Fer\/1998\/dream.pt3",
+            "name": "Andy Fer - Ocenb Nactupila.pt3",
+            "file": "chiptunes\/Andy Fer\/1998\/Andy Fer - Ocenb Nactupila.pt3",
             "pt3": false,
             "author": "Andy Fer",
             "section": "1998",
             "channels": 3
         },
         {
-            "name": "e-pyh-da.pt2",
-            "file": "chiptunes\/Andy Fer\/1998\/e-pyh-da.pt2",
+            "name": "Andy Fer - Rule 1.pt2",
+            "file": "chiptunes\/Andy Fer\/1998\/Andy Fer - Rule 1.pt2",
             "pt3": false,
             "author": "Andy Fer",
             "section": "1998",
             "channels": 3
         },
         {
-            "name": "folkwork.pt3",
-            "file": "chiptunes\/Andy Fer\/1998\/folkwork.pt3",
+            "name": "Andy Fer - Sumburian Fantasy Themes.pt3",
+            "file": "chiptunes\/Andy Fer\/1998\/Andy Fer - Sumburian Fantasy Themes.pt3",
             "pt3": false,
             "author": "Andy Fer",
             "section": "1998",
             "channels": 3
         },
         {
-            "name": "imp_mix.pt3",
-            "file": "chiptunes\/Andy Fer\/1998\/imp_mix.pt3",
+            "name": "Andy Fer - The Rain.pt3",
+            "file": "chiptunes\/Andy Fer\/1998\/Andy Fer - The Rain.pt3",
             "pt3": false,
             "author": "Andy Fer",
             "section": "1998",
             "channels": 3
         },
         {
-            "name": "roil'em_ali2.pt3",
-            "file": "chiptunes\/Andy Fer\/1998\/roil'em_ali2.pt3",
+            "name": "Andy Fer - Theme For Nothing Sh.Theme 5.pt3",
+            "file": "chiptunes\/Andy Fer\/1998\/Andy Fer - Theme For Nothing Sh.Theme 5.pt3",
             "pt3": false,
             "author": "Andy Fer",
             "section": "1998",
             "channels": 3
         },
         {
-            "name": "sumburian.pt3",
-            "file": "chiptunes\/Andy Fer\/1998\/sumburian.pt3",
+            "name": "Andy Fer - Twister's Dance Machine!.pt3",
+            "file": "chiptunes\/Andy Fer\/1998\/Andy Fer - Twister's Dance Machine!.pt3",
             "pt3": false,
             "author": "Andy Fer",
             "section": "1998",
             "channels": 3
         },
         {
-            "name": "the_rain.pt3",
-            "file": "chiptunes\/Andy Fer\/1998\/the_rain.pt3",
+            "name": "Andy Fer - Twister.pt3",
+            "file": "chiptunes\/Andy Fer\/1998\/Andy Fer - Twister.pt3",
             "pt3": false,
             "author": "Andy Fer",
             "section": "1998",
             "channels": 3
         },
         {
-            "name": "twister.pt3",
-            "file": "chiptunes\/Andy Fer\/1998\/twister.pt3",
+            "name": "Andy Fer - Where Am I.pt3",
+            "file": "chiptunes\/Andy Fer\/1998\/Andy Fer - Where Am I.pt3",
             "pt3": false,
             "author": "Andy Fer",
             "section": "1998",
             "channels": 3
         },
         {
-            "name": "Anothers Glare.pt3",
-            "file": "chiptunes\/Andy Fer\/1999\/Anothers Glare.pt3",
+            "name": "Andy Fer - Anothers Glare.pt3",
+            "file": "chiptunes\/Andy Fer\/1999\/Andy Fer - Anothers Glare.pt3",
             "pt3": false,
             "author": "Andy Fer",
             "section": "1999",
             "channels": 3
         },
         {
-            "name": "FunkySc.pt3",
-            "file": "chiptunes\/Andy Fer\/1999\/FunkySc.pt3",
+            "name": "Andy Fer - Cencored.pt3",
+            "file": "chiptunes\/Andy Fer\/1999\/Andy Fer - Cencored.pt3",
             "pt3": false,
             "author": "Andy Fer",
             "section": "1999",
             "channels": 3
         },
         {
-            "name": "La Futuristic Grahemania.pt3",
-            "file": "chiptunes\/Andy Fer\/1999\/La Futuristic Grahemania.pt3",
+            "name": "Andy Fer - Cenzored 99.pt3",
+            "file": "chiptunes\/Andy Fer\/1999\/Andy Fer - Cenzored 99.pt3",
             "pt3": false,
             "author": "Andy Fer",
             "section": "1999",
             "channels": 3
         },
         {
-            "name": "cencored.pt3",
-            "file": "chiptunes\/Andy Fer\/1999\/cencored.pt3",
+            "name": "Andy Fer - For Majam.pt3",
+            "file": "chiptunes\/Andy Fer\/1999\/Andy Fer - For Majam.pt3",
             "pt3": false,
             "author": "Andy Fer",
             "section": "1999",
             "channels": 3
         },
         {
-            "name": "for_majam.pt3",
-            "file": "chiptunes\/Andy Fer\/1999\/for_majam.pt3",
+            "name": "Andy Fer - For_Majam.pt3",
+            "file": "chiptunes\/Andy Fer\/1999\/Andy Fer - For_Majam.pt3",
             "pt3": false,
             "author": "Andy Fer",
             "section": "1999",
             "channels": 3
         },
         {
-            "name": "free_of_feel.pt3",
-            "file": "chiptunes\/Andy Fer\/1999\/free_of_feel.pt3",
+            "name": "Andy Fer - Fun Sun Shine.pt3",
+            "file": "chiptunes\/Andy Fer\/1999\/Andy Fer - Fun Sun Shine.pt3",
             "pt3": false,
             "author": "Andy Fer",
             "section": "1999",
             "channels": 3
         },
         {
-            "name": "fun_sun_shine.pt3",
-            "file": "chiptunes\/Andy Fer\/1999\/fun_sun_shine.pt3",
+            "name": "Andy Fer - Introsketch - Free Of Feel 99.pt3",
+            "file": "chiptunes\/Andy Fer\/1999\/Andy Fer - Introsketch - Free Of Feel 99.pt3",
             "pt3": false,
             "author": "Andy Fer",
             "section": "1999",
             "channels": 3
         },
         {
-            "name": "love'n'gun.pt3",
-            "file": "chiptunes\/Andy Fer\/1999\/love'n'gun.pt3",
+            "name": "Andy Fer - La Futuristic Grahemania.pt3",
+            "file": "chiptunes\/Andy Fer\/1999\/Andy Fer - La Futuristic Grahemania.pt3",
             "pt3": false,
             "author": "Andy Fer",
             "section": "1999",
             "channels": 3
         },
         {
-            "name": "once_in_bagdad.pt3",
-            "file": "chiptunes\/Andy Fer\/1999\/once_in_bagdad.pt3",
+            "name": "Andy Fer - Love'N'Gun.pt3",
+            "file": "chiptunes\/Andy Fer\/1999\/Andy Fer - Love'N'Gun.pt3",
             "pt3": false,
             "author": "Andy Fer",
             "section": "1999",
             "channels": 3
         },
         {
-            "name": "parasimulation.pt3",
-            "file": "chiptunes\/Andy Fer\/1999\/parasimulation.pt3",
+            "name": "Andy Fer - New Old Theme - Funky Sketch.pt3",
+            "file": "chiptunes\/Andy Fer\/1999\/Andy Fer - New Old Theme - Funky Sketch.pt3",
             "pt3": false,
             "author": "Andy Fer",
             "section": "1999",
             "channels": 3
         },
         {
-            "name": "stay_or_go.pt3",
-            "file": "chiptunes\/Andy Fer\/1999\/stay_or_go.pt3",
+            "name": "Andy Fer - Once In Bagdad.pt3",
+            "file": "chiptunes\/Andy Fer\/1999\/Andy Fer - Once In Bagdad.pt3",
             "pt3": false,
             "author": "Andy Fer",
             "section": "1999",
             "channels": 3
         },
         {
-            "name": "the_white_road.pt3",
-            "file": "chiptunes\/Andy Fer\/1999\/the_white_road.pt3",
+            "name": "Andy Fer - Parasimulation.pt3",
+            "file": "chiptunes\/Andy Fer\/1999\/Andy Fer - Parasimulation.pt3",
             "pt3": false,
             "author": "Andy Fer",
             "section": "1999",
             "channels": 3
         },
         {
-            "name": "where_is_aim.pt3",
-            "file": "chiptunes\/Andy Fer\/1999\/where_is_aim.pt3",
+            "name": "Andy Fer - Stay Or Go.pt3",
+            "file": "chiptunes\/Andy Fer\/1999\/Andy Fer - Stay Or Go.pt3",
             "pt3": false,
             "author": "Andy Fer",
             "section": "1999",
             "channels": 3
         },
         {
-            "name": "Arabian.pt3",
-            "file": "chiptunes\/Andy Fer\/2000\/Arabian.pt3",
+            "name": "Andy Fer - The White Road.pt3",
+            "file": "chiptunes\/Andy Fer\/1999\/Andy Fer - The White Road.pt3",
+            "pt3": false,
+            "author": "Andy Fer",
+            "section": "1999",
+            "channels": 3
+        },
+        {
+            "name": "Andy Fer - Where Is Aim.pt3",
+            "file": "chiptunes\/Andy Fer\/1999\/Andy Fer - Where Is Aim.pt3",
+            "pt3": false,
+            "author": "Andy Fer",
+            "section": "1999",
+            "channels": 3
+        },
+        {
+            "name": "Andy Fer - Arabian.pt3",
+            "file": "chiptunes\/Andy Fer\/2000\/Andy Fer - Arabian.pt3",
             "pt3": false,
             "author": "Andy Fer",
             "section": "2000",
             "channels": 3
         },
         {
-            "name": "ThemeIII.pt3",
-            "file": "chiptunes\/Andy Fer\/2000\/ThemeIII.pt3",
+            "name": "Andy Fer - Short Theme III - Purple Pelf.pt3",
+            "file": "chiptunes\/Andy Fer\/2000\/Andy Fer - Short Theme III - Purple Pelf.pt3",
             "pt3": false,
             "author": "Andy Fer",
             "section": "2000",
             "channels": 3
         },
         {
-            "name": "purple_perf.pt3",
-            "file": "chiptunes\/Andy Fer\/2000\/purple_perf.pt3",
+            "name": "Andy Fer - Snake Theme.pt3",
+            "file": "chiptunes\/Andy Fer\/2000\/Andy Fer - Snake Theme.pt3",
             "pt3": false,
             "author": "Andy Fer",
             "section": "2000",
             "channels": 3
         },
         {
-            "name": "snake_theme.pt3",
-            "file": "chiptunes\/Andy Fer\/2000\/snake_theme.pt3",
+            "name": "Andy Fer - The Intro.pt3",
+            "file": "chiptunes\/Andy Fer\/2000\/Andy Fer - The Intro.pt3",
             "pt3": false,
             "author": "Andy Fer",
             "section": "2000",
             "channels": 3
         },
         {
-            "name": "the_intro.pt3",
-            "file": "chiptunes\/Andy Fer\/2000\/the_intro.pt3",
+            "name": "Andy Fer - Theme III.pt3",
+            "file": "chiptunes\/Andy Fer\/2000\/Andy Fer - Theme III.pt3",
             "pt3": false,
             "author": "Andy Fer",
             "section": "2000",
             "channels": 3
         },
         {
-            "name": "ucing_russian.pt3",
-            "file": "chiptunes\/Andy Fer\/2000\/ucing_russian.pt3",
+            "name": "Andy Fer - Ucing Russian Poping Lyrics.pt3",
+            "file": "chiptunes\/Andy Fer\/2000\/Andy Fer - Ucing Russian Poping Lyrics.pt3",
             "pt3": false,
             "author": "Andy Fer",
             "section": "2000",
             "channels": 3
         },
         {
-            "name": "you&me_mix.pt3",
-            "file": "chiptunes\/Andy Fer\/2000\/you&me_mix.pt3",
+            "name": "Andy Fer - You & Me mix (cover of '96 year).pt3",
+            "file": "chiptunes\/Andy Fer\/2000\/Andy Fer - You & Me mix (cover of '96 year).pt3",
             "pt3": false,
             "author": "Andy Fer",
             "section": "2000",
             "channels": 3
         },
         {
-            "name": "Pussy - Intro Crack.pt3",
-            "file": "chiptunes\/Andy Fer\/2001\/Pussy - Intro Crack.pt3",
+            "name": "Andy Fer - You'n'Me (Cover of '96 Year).pt3",
+            "file": "chiptunes\/Andy Fer\/2000\/Andy Fer - You'n'Me (Cover of '96 Year).pt3",
+            "pt3": false,
+            "author": "Andy Fer",
+            "section": "2000",
+            "channels": 3
+        },
+        {
+            "name": "Andy Fer - IntroSketch - Free Of Feel 2001.pt3",
+            "file": "chiptunes\/Andy Fer\/2001\/Andy Fer - IntroSketch - Free Of Feel 2001.pt3",
             "pt3": false,
             "author": "Andy Fer",
             "section": "2001",
             "channels": 3
         },
         {
-            "name": "4_MAJAM.pt3",
-            "file": "chiptunes\/Andy Fer\/other\/4_MAJAM.pt3",
+            "name": "Andy Fer - A'La Mad.pt2",
+            "file": "chiptunes\/Andy Fer\/other\/Andy Fer - A'La Mad.pt2",
             "pt3": false,
             "author": "Andy Fer",
             "section": "other",
             "channels": 3
         },
         {
-            "name": "CHEAT.pt2",
-            "file": "chiptunes\/Andy Fer\/other\/CHEAT.pt2",
+            "name": "Andy Fer - Abstraction.pt2",
+            "file": "chiptunes\/Andy Fer\/other\/Andy Fer - Abstraction.pt2",
             "pt3": false,
             "author": "Andy Fer",
             "section": "other",
             "channels": 3
         },
         {
-            "name": "Cenzored.pt3",
-            "file": "chiptunes\/Andy Fer\/other\/Cenzored.pt3",
+            "name": "Andy Fer - Autumn.pt2",
+            "file": "chiptunes\/Andy Fer\/other\/Andy Fer - Autumn.pt2",
             "pt3": false,
             "author": "Andy Fer",
             "section": "other",
             "channels": 3
         },
         {
-            "name": "D'T KNOW.pt2",
-            "file": "chiptunes\/Andy Fer\/other\/D'T KNOW.pt2",
+            "name": "Andy Fer - Battler.pt2",
+            "file": "chiptunes\/Andy Fer\/other\/Andy Fer - Battler.pt2",
             "pt3": false,
             "author": "Andy Fer",
             "section": "other",
             "channels": 3
         },
         {
-            "name": "DejaVU#02_06.pt2",
-            "file": "chiptunes\/Andy Fer\/other\/DejaVU#02_06.pt2",
+            "name": "Andy Fer - Be Always Happy Tolstopuz.pt2",
+            "file": "chiptunes\/Andy Fer\/other\/Andy Fer - Be Always Happy Tolstopuz.pt2",
             "pt3": false,
             "author": "Andy Fer",
             "section": "other",
             "channels": 3
         },
         {
-            "name": "JAZZZZZZ.pt2",
-            "file": "chiptunes\/Andy Fer\/other\/JAZZZZZZ.pt2",
+            "name": "Andy Fer - C Circus.pt2",
+            "file": "chiptunes\/Andy Fer\/other\/Andy Fer - C Circus.pt2",
             "pt3": false,
             "author": "Andy Fer",
             "section": "other",
             "channels": 3
         },
         {
-            "name": "SHARP.pt2",
-            "file": "chiptunes\/Andy Fer\/other\/SHARP.pt2",
+            "name": "Andy Fer - CHEAT.pt2",
+            "file": "chiptunes\/Andy Fer\/other\/Andy Fer - CHEAT.pt2",
             "pt3": false,
             "author": "Andy Fer",
             "section": "other",
             "channels": 3
         },
         {
-            "name": "StayorGo.pt3",
-            "file": "chiptunes\/Andy Fer\/other\/StayorGo.pt3",
+            "name": "Andy Fer - Ceptor.pt2",
+            "file": "chiptunes\/Andy Fer\/other\/Andy Fer - Ceptor.pt2",
             "pt3": false,
             "author": "Andy Fer",
             "section": "other",
             "channels": 3
         },
         {
-            "name": "a'la MAD.pt2",
-            "file": "chiptunes\/Andy Fer\/other\/a'la MAD.pt2",
+            "name": "Andy Fer - Chunga-Changa.pt2",
+            "file": "chiptunes\/Andy Fer\/other\/Andy Fer - Chunga-Changa.pt2",
             "pt3": false,
             "author": "Andy Fer",
             "section": "other",
             "channels": 3
         },
         {
-            "name": "abstraction.pt2",
-            "file": "chiptunes\/Andy Fer\/other\/abstraction.pt2",
+            "name": "Andy Fer - Coloradskiy Zhuk Mix.pt2",
+            "file": "chiptunes\/Andy Fer\/other\/Andy Fer - Coloradskiy Zhuk Mix.pt2",
             "pt3": false,
             "author": "Andy Fer",
             "section": "other",
             "channels": 3
         },
         {
-            "name": "autumn.pt2",
-            "file": "chiptunes\/Andy Fer\/other\/autumn.pt2",
+            "name": "Andy Fer - Come Back.pt2",
+            "file": "chiptunes\/Andy Fer\/other\/Andy Fer - Come Back.pt2",
             "pt3": false,
             "author": "Andy Fer",
             "section": "other",
             "channels": 3
         },
         {
-            "name": "battler.pt2",
-            "file": "chiptunes\/Andy Fer\/other\/battler.pt2",
+            "name": "Andy Fer - Crack Invasion.pt3",
+            "file": "chiptunes\/Andy Fer\/other\/Andy Fer - Crack Invasion.pt3",
             "pt3": false,
             "author": "Andy Fer",
             "section": "other",
             "channels": 3
         },
         {
-            "name": "be_always.pt2",
-            "file": "chiptunes\/Andy Fer\/other\/be_always.pt2",
+            "name": "Andy Fer - Cyganowa - Love & Death.pt2",
+            "file": "chiptunes\/Andy Fer\/other\/Andy Fer - Cyganowa - Love & Death.pt2",
             "pt3": false,
             "author": "Andy Fer",
             "section": "other",
             "channels": 3
         },
         {
-            "name": "c_circus.pt2",
-            "file": "chiptunes\/Andy Fer\/other\/c_circus.pt2",
+            "name": "Andy Fer - Don't know.pt2",
+            "file": "chiptunes\/Andy Fer\/other\/Andy Fer - Don't know.pt2",
             "pt3": false,
             "author": "Andy Fer",
             "section": "other",
             "channels": 3
         },
         {
-            "name": "ceptor.pt2",
-            "file": "chiptunes\/Andy Fer\/other\/ceptor.pt2",
+            "name": "Andy Fer - E John.pt2",
+            "file": "chiptunes\/Andy Fer\/other\/Andy Fer - E John.pt2",
             "pt3": false,
             "author": "Andy Fer",
             "section": "other",
             "channels": 3
         },
         {
-            "name": "chunga-changa.pt2",
-            "file": "chiptunes\/Andy Fer\/other\/chunga-changa.pt2",
+            "name": "Andy Fer - Fer De Dance.pt2",
+            "file": "chiptunes\/Andy Fer\/other\/Andy Fer - Fer De Dance.pt2",
             "pt3": false,
             "author": "Andy Fer",
             "section": "other",
             "channels": 3
         },
         {
-            "name": "coloradskiy_zhuk.pt2",
-            "file": "chiptunes\/Andy Fer\/other\/coloradskiy_zhuk.pt2",
+            "name": "Andy Fer - Fuck Isn't A Fact Yet.pt2",
+            "file": "chiptunes\/Andy Fer\/other\/Andy Fer - Fuck Isn't A Fact Yet.pt2",
             "pt3": false,
             "author": "Andy Fer",
             "section": "other",
             "channels": 3
         },
         {
-            "name": "come_back.pt2",
-            "file": "chiptunes\/Andy Fer\/other\/come_back.pt2",
+            "name": "Andy Fer - Have A Fun Man.pt2",
+            "file": "chiptunes\/Andy Fer\/other\/Andy Fer - Have A Fun Man.pt2",
             "pt3": false,
             "author": "Andy Fer",
             "section": "other",
             "channels": 3
         },
         {
-            "name": "crack_invasion.pt3",
-            "file": "chiptunes\/Andy Fer\/other\/crack_invasion.pt3",
+            "name": "Andy Fer - Image Theme Vers.pt2",
+            "file": "chiptunes\/Andy Fer\/other\/Andy Fer - Image Theme Vers.pt2",
             "pt3": false,
             "author": "Andy Fer",
             "section": "other",
             "channels": 3
         },
         {
-            "name": "cyganowa.pt2",
-            "file": "chiptunes\/Andy Fer\/other\/cyganowa.pt2",
+            "name": "Andy Fer - Image Theme.pt2",
+            "file": "chiptunes\/Andy Fer\/other\/Andy Fer - Image Theme.pt2",
             "pt3": false,
             "author": "Andy Fer",
             "section": "other",
             "channels": 3
         },
         {
-            "name": "daz_koncert.pt2",
-            "file": "chiptunes\/Andy Fer\/other\/daz_koncert.pt2",
+            "name": "Andy Fer - Image Theme.pt3",
+            "file": "chiptunes\/Andy Fer\/other\/Andy Fer - Image Theme.pt3",
             "pt3": false,
             "author": "Andy Fer",
             "section": "other",
             "channels": 3
         },
         {
-            "name": "e_john.pt2",
-            "file": "chiptunes\/Andy Fer\/other\/e_john.pt2",
+            "name": "Andy Fer - Jazzzzzz.pt2",
+            "file": "chiptunes\/Andy Fer\/other\/Andy Fer - Jazzzzzz.pt2",
             "pt3": false,
             "author": "Andy Fer",
             "section": "other",
             "channels": 3
         },
         {
-            "name": "fer_de_dance.pt2",
-            "file": "chiptunes\/Andy Fer\/other\/fer_de_dance.pt2",
+            "name": "Andy Fer - Lady NN.pt2",
+            "file": "chiptunes\/Andy Fer\/other\/Andy Fer - Lady NN.pt2",
             "pt3": false,
             "author": "Andy Fer",
             "section": "other",
             "channels": 3
         },
         {
-            "name": "fuck_isnt.pt2",
-            "file": "chiptunes\/Andy Fer\/other\/fuck_isnt.pt2",
+            "name": "Andy Fer - Land Of Fresh.pt2",
+            "file": "chiptunes\/Andy Fer\/other\/Andy Fer - Land Of Fresh.pt2",
             "pt3": false,
             "author": "Andy Fer",
             "section": "other",
             "channels": 3
         },
         {
-            "name": "have_a_fun_man.pt2",
-            "file": "chiptunes\/Andy Fer\/other\/have_a_fun_man.pt2",
+            "name": "Andy Fer - Let's Begin.pt2",
+            "file": "chiptunes\/Andy Fer\/other\/Andy Fer - Let's Begin.pt2",
             "pt3": false,
             "author": "Andy Fer",
             "section": "other",
             "channels": 3
         },
         {
-            "name": "image_theme.pt2",
-            "file": "chiptunes\/Andy Fer\/other\/image_theme.pt2",
+            "name": "Andy Fer - Limit Infraction.pt2",
+            "file": "chiptunes\/Andy Fer\/other\/Andy Fer - Limit Infraction.pt2",
             "pt3": false,
             "author": "Andy Fer",
             "section": "other",
             "channels": 3
         },
         {
-            "name": "image_theme.pt3",
-            "file": "chiptunes\/Andy Fer\/other\/image_theme.pt3",
+            "name": "Andy Fer - Little Nastya.pt3",
+            "file": "chiptunes\/Andy Fer\/other\/Andy Fer - Little Nastya.pt3",
             "pt3": false,
             "author": "Andy Fer",
             "section": "other",
             "channels": 3
         },
         {
-            "name": "image_theme_vers.pt2",
-            "file": "chiptunes\/Andy Fer\/other\/image_theme_vers.pt2",
+            "name": "Andy Fer - Little Story (Special 4 Diver).pt3",
+            "file": "chiptunes\/Andy Fer\/other\/Andy Fer - Little Story (Special 4 Diver).pt3",
             "pt3": false,
             "author": "Andy Fer",
             "section": "other",
             "channels": 3
         },
         {
-            "name": "kady_nn.pt2",
-            "file": "chiptunes\/Andy Fer\/other\/kady_nn.pt2",
+            "name": "Andy Fer - MO-DO - Daz Koncert.pt2",
+            "file": "chiptunes\/Andy Fer\/other\/Andy Fer - MO-DO - Daz Koncert.pt2",
             "pt3": false,
             "author": "Andy Fer",
             "section": "other",
             "channels": 3
         },
         {
-            "name": "l_story.pt3",
-            "file": "chiptunes\/Andy Fer\/other\/l_story.pt3",
+            "name": "Andy Fer - Mirror.pt2",
+            "file": "chiptunes\/Andy Fer\/other\/Andy Fer - Mirror.pt2",
             "pt3": false,
             "author": "Andy Fer",
             "section": "other",
             "channels": 3
         },
         {
-            "name": "land_of_fresh.pt2",
-            "file": "chiptunes\/Andy Fer\/other\/land_of_fresh.pt2",
+            "name": "Andy Fer - My Little World.pt2",
+            "file": "chiptunes\/Andy Fer\/other\/Andy Fer - My Little World.pt2",
             "pt3": false,
             "author": "Andy Fer",
             "section": "other",
             "channels": 3
         },
         {
-            "name": "let's_begin.pt2",
-            "file": "chiptunes\/Andy Fer\/other\/let's_begin.pt2",
+            "name": "Andy Fer - One Road.pt2",
+            "file": "chiptunes\/Andy Fer\/other\/Andy Fer - One Road.pt2",
             "pt3": false,
             "author": "Andy Fer",
             "section": "other",
             "channels": 3
         },
         {
-            "name": "limit_infraction.pt2",
-            "file": "chiptunes\/Andy Fer\/other\/limit_infraction.pt2",
+            "name": "Andy Fer - Possibilities.pt2",
+            "file": "chiptunes\/Andy Fer\/other\/Andy Fer - Possibilities.pt2",
             "pt3": false,
             "author": "Andy Fer",
             "section": "other",
             "channels": 3
         },
         {
-            "name": "little_nastya.pt3",
-            "file": "chiptunes\/Andy Fer\/other\/little_nastya.pt3",
+            "name": "Andy Fer - Progrooz.pt3",
+            "file": "chiptunes\/Andy Fer\/other\/Andy Fer - Progrooz.pt3",
             "pt3": false,
             "author": "Andy Fer",
             "section": "other",
             "channels": 3
         },
         {
-            "name": "mirror.pt2",
-            "file": "chiptunes\/Andy Fer\/other\/mirror.pt2",
+            "name": "Andy Fer - Roll'em.pt2",
+            "file": "chiptunes\/Andy Fer\/other\/Andy Fer - Roll'em.pt2",
             "pt3": false,
             "author": "Andy Fer",
             "section": "other",
             "channels": 3
         },
         {
-            "name": "my_little_world.pt2",
-            "file": "chiptunes\/Andy Fer\/other\/my_little_world.pt2",
+            "name": "Andy Fer - SHARP.pt2",
+            "file": "chiptunes\/Andy Fer\/other\/Andy Fer - SHARP.pt2",
             "pt3": false,
             "author": "Andy Fer",
             "section": "other",
             "channels": 3
         },
         {
-            "name": "one_road.pt2",
-            "file": "chiptunes\/Andy Fer\/other\/one_road.pt2",
+            "name": "Andy Fer - Say Me Bye.pt2",
+            "file": "chiptunes\/Andy Fer\/other\/Andy Fer - Say Me Bye.pt2",
             "pt3": false,
             "author": "Andy Fer",
             "section": "other",
             "channels": 3
         },
         {
-            "name": "possibilities.pt2",
-            "file": "chiptunes\/Andy Fer\/other\/possibilities.pt2",
+            "name": "Andy Fer - Say Me Where Is An Aim.pt2",
+            "file": "chiptunes\/Andy Fer\/other\/Andy Fer - Say Me Where Is An Aim.pt2",
             "pt3": false,
             "author": "Andy Fer",
             "section": "other",
             "channels": 3
         },
         {
-            "name": "progrooz.pt3",
-            "file": "chiptunes\/Andy Fer\/other\/progrooz.pt3",
+            "name": "Andy Fer - Short Compo.pt2",
+            "file": "chiptunes\/Andy Fer\/other\/Andy Fer - Short Compo.pt2",
             "pt3": false,
             "author": "Andy Fer",
             "section": "other",
             "channels": 3
         },
         {
-            "name": "roll'em.pt2",
-            "file": "chiptunes\/Andy Fer\/other\/roll'em.pt2",
+            "name": "Andy Fer - Short Theme 2.pt2",
+            "file": "chiptunes\/Andy Fer\/other\/Andy Fer - Short Theme 2.pt2",
             "pt3": false,
             "author": "Andy Fer",
             "section": "other",
             "channels": 3
         },
         {
-            "name": "say_me.pt2",
-            "file": "chiptunes\/Andy Fer\/other\/say_me.pt2",
+            "name": "Andy Fer - Silent Circle.pt2",
+            "file": "chiptunes\/Andy Fer\/other\/Andy Fer - Silent Circle.pt2",
             "pt3": false,
             "author": "Andy Fer",
             "section": "other",
             "channels": 3
         },
         {
-            "name": "say_me_bye.pt2",
-            "file": "chiptunes\/Andy Fer\/other\/say_me_bye.pt2",
+            "name": "Andy Fer - Stars.pt2",
+            "file": "chiptunes\/Andy Fer\/other\/Andy Fer - Stars.pt2",
             "pt3": false,
             "author": "Andy Fer",
             "section": "other",
             "channels": 3
         },
         {
-            "name": "short_compo.pt2",
-            "file": "chiptunes\/Andy Fer\/other\/short_compo.pt2",
+            "name": "Andy Fer - Stay Or Go.pt3",
+            "file": "chiptunes\/Andy Fer\/other\/Andy Fer - Stay Or Go.pt3",
             "pt3": false,
             "author": "Andy Fer",
             "section": "other",
             "channels": 3
         },
         {
-            "name": "short_theme2.pt2",
-            "file": "chiptunes\/Andy Fer\/other\/short_theme2.pt2",
+            "name": "Andy Fer - Suxxonia.pt3",
+            "file": "chiptunes\/Andy Fer\/other\/Andy Fer - Suxxonia.pt3",
             "pt3": false,
             "author": "Andy Fer",
             "section": "other",
             "channels": 3
         },
         {
-            "name": "silent_circle.pt2",
-            "file": "chiptunes\/Andy Fer\/other\/silent_circle.pt2",
+            "name": "Andy Fer - Team Instinct.pt2",
+            "file": "chiptunes\/Andy Fer\/other\/Andy Fer - Team Instinct.pt2",
             "pt3": false,
             "author": "Andy Fer",
             "section": "other",
             "channels": 3
         },
         {
-            "name": "stars.pt2",
-            "file": "chiptunes\/Andy Fer\/other\/stars.pt2",
+            "name": "Andy Fer - Terra-Tro.pt2",
+            "file": "chiptunes\/Andy Fer\/other\/Andy Fer - Terra-Tro.pt2",
             "pt3": false,
             "author": "Andy Fer",
             "section": "other",
             "channels": 3
         },
         {
-            "name": "suxxonia.pt3",
-            "file": "chiptunes\/Andy Fer\/other\/suxxonia.pt3",
+            "name": "Andy Fer - The Best Of DJ Paulo.pt2",
+            "file": "chiptunes\/Andy Fer\/other\/Andy Fer - The Best Of DJ Paulo.pt2",
             "pt3": false,
             "author": "Andy Fer",
             "section": "other",
             "channels": 3
         },
         {
-            "name": "team_instinct.pt2",
-            "file": "chiptunes\/Andy Fer\/other\/team_instinct.pt2",
+            "name": "Andy Fer - The Chance.pt2",
+            "file": "chiptunes\/Andy Fer\/other\/Andy Fer - The Chance.pt2",
             "pt3": false,
             "author": "Andy Fer",
             "section": "other",
             "channels": 3
         },
         {
-            "name": "terra_tro.pt2",
-            "file": "chiptunes\/Andy Fer\/other\/terra_tro.pt2",
+            "name": "Andy Fer - The Forest Walk.pt2",
+            "file": "chiptunes\/Andy Fer\/other\/Andy Fer - The Forest Walk.pt2",
             "pt3": false,
             "author": "Andy Fer",
             "section": "other",
             "channels": 3
         },
         {
-            "name": "the_best_of_dj_paulo.pt2",
-            "file": "chiptunes\/Andy Fer\/other\/the_best_of_dj_paulo.pt2",
+            "name": "Andy Fer - The Winners.pt2",
+            "file": "chiptunes\/Andy Fer\/other\/Andy Fer - The Winners.pt2",
             "pt3": false,
             "author": "Andy Fer",
             "section": "other",
             "channels": 3
         },
         {
-            "name": "the_chance.pt2",
-            "file": "chiptunes\/Andy Fer\/other\/the_chance.pt2",
+            "name": "Andy Fer - Theme L.pt2",
+            "file": "chiptunes\/Andy Fer\/other\/Andy Fer - Theme L.pt2",
             "pt3": false,
             "author": "Andy Fer",
             "section": "other",
             "channels": 3
         },
         {
-            "name": "the_forest_walk.pt2",
-            "file": "chiptunes\/Andy Fer\/other\/the_forest_walk.pt2",
+            "name": "Andy Fer - Trance Vers.pt2",
+            "file": "chiptunes\/Andy Fer\/other\/Andy Fer - Trance Vers.pt2",
             "pt3": false,
             "author": "Andy Fer",
             "section": "other",
             "channels": 3
         },
         {
-            "name": "the_winners.pt2",
-            "file": "chiptunes\/Andy Fer\/other\/the_winners.pt2",
+            "name": "Andy Fer - Trance.pt2",
+            "file": "chiptunes\/Andy Fer\/other\/Andy Fer - Trance.pt2",
             "pt3": false,
             "author": "Andy Fer",
             "section": "other",
             "channels": 3
         },
         {
-            "name": "trance.pt2",
-            "file": "chiptunes\/Andy Fer\/other\/trance.pt2",
+            "name": "Andy Fer - Virtual Earth.pt2",
+            "file": "chiptunes\/Andy Fer\/other\/Andy Fer - Virtual Earth.pt2",
             "pt3": false,
             "author": "Andy Fer",
             "section": "other",
             "channels": 3
         },
         {
-            "name": "trance_vers.pt2",
-            "file": "chiptunes\/Andy Fer\/other\/trance_vers.pt2",
+            "name": "Andy Fer - When You.pt2",
+            "file": "chiptunes\/Andy Fer\/other\/Andy Fer - When You.pt2",
             "pt3": false,
             "author": "Andy Fer",
             "section": "other",
             "channels": 3
         },
         {
-            "name": "virtual_earth.pt2",
-            "file": "chiptunes\/Andy Fer\/other\/virtual_earth.pt2",
+            "name": "Andy Fer - ZX Theme.pt2",
+            "file": "chiptunes\/Andy Fer\/other\/Andy Fer - ZX Theme.pt2",
             "pt3": false,
             "author": "Andy Fer",
             "section": "other",
             "channels": 3
         },
         {
-            "name": "when_you.pt2",
-            "file": "chiptunes\/Andy Fer\/other\/when_you.pt2",
-            "pt3": false,
-            "author": "Andy Fer",
-            "section": "other",
-            "channels": 3
-        },
-        {
-            "name": "ymoo_cc1.pt3",
-            "file": "chiptunes\/Andy Fer\/other\/ymoo_cc1.pt3",
-            "pt3": false,
-            "author": "Andy Fer",
-            "section": "other",
-            "channels": 3
-        },
-        {
-            "name": "zx_theme.pt2",
-            "file": "chiptunes\/Andy Fer\/other\/zx_theme.pt2",
-            "pt3": false,
-            "author": "Andy Fer",
-            "section": "other",
-            "channels": 3
-        },
-        {
-            "name": "Open Your Eyes p1.stc",
-            "file": "chiptunes\/Baze\/1994\/Open Your Eyes p1.stc",
+            "name": "Baze - Open Your Eyes p1.stc",
+            "file": "chiptunes\/Baze\/1994\/Baze - Open Your Eyes p1.stc",
             "pt3": false,
             "author": "Baze",
             "section": "1994",
             "channels": 3
         },
         {
-            "name": "Open Your Eyes p2.stc",
-            "file": "chiptunes\/Baze\/1994\/Open Your Eyes p2.stc",
+            "name": "Baze - Open Your Eyes p2.stc",
+            "file": "chiptunes\/Baze\/1994\/Baze - Open Your Eyes p2.stc",
             "pt3": false,
             "author": "Baze",
             "section": "1994",
             "channels": 3
         },
         {
-            "name": "Open Your Eyes p3-1.stc",
-            "file": "chiptunes\/Baze\/1994\/Open Your Eyes p3-1.stc",
+            "name": "Baze - Open Your Eyes p3-1.stc",
+            "file": "chiptunes\/Baze\/1994\/Baze - Open Your Eyes p3-1.stc",
             "pt3": false,
             "author": "Baze",
             "section": "1994",
             "channels": 3
         },
         {
-            "name": "Open Your Eyes p3-2.stc",
-            "file": "chiptunes\/Baze\/1994\/Open Your Eyes p3-2.stc",
+            "name": "Baze - Open Your Eyes p3-2.stc",
+            "file": "chiptunes\/Baze\/1994\/Baze - Open Your Eyes p3-2.stc",
             "pt3": false,
             "author": "Baze",
             "section": "1994",
             "channels": 3
         },
         {
-            "name": "Insane World Designer.stc",
-            "file": "chiptunes\/Baze\/1997\/Insane World Designer.stc",
+            "name": "Baze - Insane World Designer.stc",
+            "file": "chiptunes\/Baze\/1997\/Baze - Insane World Designer.stc",
             "pt3": false,
             "author": "Baze",
             "section": "1997",
             "channels": 3
         },
         {
-            "name": "insane1-sketch.stc",
-            "file": "chiptunes\/Baze\/1997\/insane1-sketch.stc",
+            "name": "Baze - insane 1-sketch.stc",
+            "file": "chiptunes\/Baze\/1997\/Baze - insane 1-sketch.stc",
             "pt3": false,
             "author": "Baze",
             "section": "1997",
             "channels": 3
         },
         {
-            "name": "insane4.stc",
-            "file": "chiptunes\/Baze\/1997\/insane4.stc",
+            "name": "Baze - insane 4.stc",
+            "file": "chiptunes\/Baze\/1997\/Baze - insane 4.stc",
             "pt3": false,
             "author": "Baze",
             "section": "1997",
             "channels": 3
         },
         {
-            "name": "insane5.stc",
-            "file": "chiptunes\/Baze\/1997\/insane5.stc",
+            "name": "Baze - insane 5.stc",
+            "file": "chiptunes\/Baze\/1997\/Baze - insane 5.stc",
             "pt3": false,
             "author": "Baze",
             "section": "1997",
             "channels": 3
         },
         {
-            "name": "insane6-sketch.stc",
-            "file": "chiptunes\/Baze\/1997\/insane6-sketch.stc",
+            "name": "Baze - insane 6-sketch.stc",
+            "file": "chiptunes\/Baze\/1997\/Baze - insane 6-sketch.stc",
             "pt3": false,
             "author": "Baze",
             "section": "1997",
             "channels": 3
         },
         {
-            "name": "insane7.stc",
-            "file": "chiptunes\/Baze\/1997\/insane7.stc",
+            "name": "Baze - insane 7.stc",
+            "file": "chiptunes\/Baze\/1997\/Baze - insane 7.stc",
             "pt3": false,
             "author": "Baze",
             "section": "1997",
             "channels": 3
         },
         {
-            "name": "Higher State p1.stc",
-            "file": "chiptunes\/Baze\/1998\/Higher State p1.stc",
+            "name": "Baze - Higher State p1.stc",
+            "file": "chiptunes\/Baze\/1998\/Baze - Higher State p1.stc",
             "pt3": false,
             "author": "Baze",
             "section": "1998",
             "channels": 3
         },
         {
-            "name": "Higher State p2.stc",
-            "file": "chiptunes\/Baze\/1998\/Higher State p2.stc",
+            "name": "Baze - Higher State p2.stc",
+            "file": "chiptunes\/Baze\/1998\/Baze - Higher State p2.stc",
             "pt3": false,
             "author": "Baze",
             "section": "1998",
             "channels": 3
         },
         {
-            "name": "Higher State p3 (Sketch).stc",
-            "file": "chiptunes\/Baze\/1998\/Higher State p3 (Sketch).stc",
+            "name": "Baze - Higher State p3 (Sketch).stc",
+            "file": "chiptunes\/Baze\/1998\/Baze - Higher State p3 (Sketch).stc",
             "pt3": false,
             "author": "Baze",
             "section": "1998",
             "channels": 3
         },
         {
-            "name": "Dispazio-sketch.stc",
-            "file": "chiptunes\/Baze\/2000\/Dispazio-sketch.stc",
+            "name": "Baze - Dispazio-sketch.stc",
+            "file": "chiptunes\/Baze\/2000\/Baze - Dispazio-sketch.stc",
             "pt3": false,
             "author": "Baze",
             "section": "2000",
             "channels": 3
         },
         {
-            "name": "Dispazio.stc",
-            "file": "chiptunes\/Baze\/2000\/Dispazio.stc",
+            "name": "Baze - Dispazio.stc",
+            "file": "chiptunes\/Baze\/2000\/Baze - Dispazio.stc",
             "pt3": false,
             "author": "Baze",
             "section": "2000",
             "channels": 3
         },
         {
-            "name": "Ether-sketch.stc",
-            "file": "chiptunes\/Baze\/2001\/Ether-sketch.stc",
+            "name": "Baze - Ether-sketch.stc",
+            "file": "chiptunes\/Baze\/2001\/Baze - Ether-sketch.stc",
             "pt3": false,
             "author": "Baze",
             "section": "2001",
             "channels": 3
         },
         {
-            "name": "Ether.stc",
-            "file": "chiptunes\/Baze\/2001\/Ether.stc",
+            "name": "Baze - Ether.stc",
+            "file": "chiptunes\/Baze\/2001\/Baze - Ether.stc",
             "pt3": false,
             "author": "Baze",
             "section": "2001",
             "channels": 3
         },
         {
-            "name": "The_loop.stc",
-            "file": "chiptunes\/Baze\/2001\/The_loop.stc",
+            "name": "Baze - The_loop.stc",
+            "file": "chiptunes\/Baze\/2001\/Baze - The_loop.stc",
             "pt3": false,
             "author": "Baze",
             "section": "2001",
             "channels": 3
         },
         {
-            "name": "Laya.stc",
-            "file": "chiptunes\/Baze\/2002\/Laya.stc",
+            "name": "Baze - Laya.stc",
+            "file": "chiptunes\/Baze\/2002\/Baze - Laya.stc",
             "pt3": false,
             "author": "Baze",
             "section": "2002",
             "channels": 3
         },
         {
-            "name": "Algorhythm (Sketch).stc",
-            "file": "chiptunes\/Baze\/Algorhythm (Sketch).stc",
+            "name": "Baze - Algorhythm (Sketch).stc",
+            "file": "chiptunes\/Baze\/Baze - Algorhythm (Sketch).stc",
             "pt3": false,
             "author": "Baze",
             "section": null,
             "channels": 3
         },
         {
-            "name": "Say Love.stc",
-            "file": "chiptunes\/Baze\/Say Love.stc",
+            "name": "Baze - Say Love.stc",
+            "file": "chiptunes\/Baze\/Baze - Say Love.stc",
             "pt3": false,
             "author": "Baze",
             "section": null,
@@ -1865,692 +1593,812 @@
             "channels": 6
         },
         {
-            "name": "TRACK_#1.pt3",
-            "file": "chiptunes\/Black Fox\/1999\/TRACK_#1.pt3",
+            "name": "Black Fox - TRACK_#1.pt3",
+            "file": "chiptunes\/Black Fox\/1999\/Black Fox - TRACK_#1.pt3",
             "pt3": false,
             "author": "Black Fox",
             "section": "1999",
             "channels": 3
         },
         {
-            "name": "TRACK_#2.pt3",
-            "file": "chiptunes\/Black Fox\/1999\/TRACK_#2.pt3",
+            "name": "Black Fox - TRACK_#2.pt3",
+            "file": "chiptunes\/Black Fox\/1999\/Black Fox - TRACK_#2.pt3",
             "pt3": false,
             "author": "Black Fox",
             "section": "1999",
             "channels": 3
         },
         {
-            "name": "RMI_2.pt3",
-            "file": "chiptunes\/Black Fox\/2000\/RMI_2.pt3",
+            "name": "Black Fox - RMI_2.pt3",
+            "file": "chiptunes\/Black Fox\/2000\/Black Fox - RMI_2.pt3",
             "pt3": false,
             "author": "Black Fox",
             "section": "2000",
             "channels": 3
         },
         {
-            "name": "WALK.pt3",
-            "file": "chiptunes\/Black Fox\/2000\/WALK.pt3",
+            "name": "Black Fox - WALK.pt3",
+            "file": "chiptunes\/Black Fox\/2000\/Black Fox - WALK.pt3",
             "pt3": false,
             "author": "Black Fox",
             "section": "2000",
             "channels": 3
         },
         {
-            "name": "BEAT!.pt3",
-            "file": "chiptunes\/Black Fox\/2001\/BEAT!.pt3",
+            "name": "Black Fox - BEAT!.pt3",
+            "file": "chiptunes\/Black Fox\/2001\/Black Fox - BEAT!.pt3",
             "pt3": false,
             "author": "Black Fox",
             "section": "2001",
             "channels": 3
         },
         {
-            "name": "FIND_MIX.pt3",
-            "file": "chiptunes\/Black Fox\/2001\/FIND_MIX.pt3",
+            "name": "Black Fox - FIND_MIX.pt3",
+            "file": "chiptunes\/Black Fox\/2001\/Black Fox - FIND_MIX.pt3",
             "pt3": false,
             "author": "Black Fox",
             "section": "2001",
             "channels": 3
         },
         {
-            "name": "GRIEF.pt3",
-            "file": "chiptunes\/Black Fox\/2001\/GRIEF.pt3",
+            "name": "Black Fox - GRIEF.pt3",
+            "file": "chiptunes\/Black Fox\/2001\/Black Fox - GRIEF.pt3",
             "pt3": false,
             "author": "Black Fox",
             "section": "2001",
             "channels": 3
         },
         {
-            "name": "MIRROR.pt3",
-            "file": "chiptunes\/Black Fox\/2001\/MIRROR.pt3",
+            "name": "Black Fox - MIRROR.pt3",
+            "file": "chiptunes\/Black Fox\/2001\/Black Fox - MIRROR.pt3",
             "pt3": false,
             "author": "Black Fox",
             "section": "2001",
             "channels": 3
         },
         {
-            "name": "M_MAYAK.pt3",
-            "file": "chiptunes\/Black Fox\/2001\/M_MAYAK.pt3",
+            "name": "Black Fox - M_MAYAK.pt3",
+            "file": "chiptunes\/Black Fox\/2001\/Black Fox - M_MAYAK.pt3",
             "pt3": false,
             "author": "Black Fox",
             "section": "2001",
             "channels": 3
         },
         {
-            "name": "PERMCITY.pt3",
-            "file": "chiptunes\/Black Fox\/2001\/PERMCITY.pt3",
+            "name": "Black Fox - PERMCITY.pt3",
+            "file": "chiptunes\/Black Fox\/2001\/Black Fox - PERMCITY.pt3",
             "pt3": false,
             "author": "Black Fox",
             "section": "2001",
             "channels": 3
         },
         {
-            "name": "SIMPNICE.pt3",
-            "file": "chiptunes\/Black Fox\/2001\/SIMPNICE.pt3",
+            "name": "Black Fox - SIMPNICE.pt3",
+            "file": "chiptunes\/Black Fox\/2001\/Black Fox - SIMPNICE.pt3",
             "pt3": false,
             "author": "Black Fox",
             "section": "2001",
             "channels": 3
         },
         {
-            "name": "SPACEFLY.pt3",
-            "file": "chiptunes\/Black Fox\/2001\/SPACEFLY.pt3",
+            "name": "Black Fox - SPACEFLY.pt3",
+            "file": "chiptunes\/Black Fox\/2001\/Black Fox - SPACEFLY.pt3",
             "pt3": false,
             "author": "Black Fox",
             "section": "2001",
             "channels": 3
         },
         {
-            "name": "48K_.pt3",
-            "file": "chiptunes\/Black Fox\/2002\/48K_.pt3",
+            "name": "Black Fox - 48K_.pt3",
+            "file": "chiptunes\/Black Fox\/2002\/Black Fox - 48K_.pt3",
             "pt3": false,
             "author": "Black Fox",
             "section": "2002",
             "channels": 3
         },
         {
-            "name": "6E3YMUE.pt3",
-            "file": "chiptunes\/Black Fox\/2002\/6E3YMUE.pt3",
+            "name": "Black Fox - 6E3YMUE.pt3",
+            "file": "chiptunes\/Black Fox\/2002\/Black Fox - 6E3YMUE.pt3",
             "pt3": false,
             "author": "Black Fox",
             "section": "2002",
             "channels": 3
         },
         {
-            "name": "BE4EPHUE.pt3",
-            "file": "chiptunes\/Black Fox\/2002\/BE4EPHUE.pt3",
+            "name": "Black Fox - BE4EPHUE.pt3",
+            "file": "chiptunes\/Black Fox\/2002\/Black Fox - BE4EPHUE.pt3",
             "pt3": false,
             "author": "Black Fox",
             "section": "2002",
             "channels": 3
         },
         {
-            "name": "DANCE.pt3",
-            "file": "chiptunes\/Black Fox\/2002\/DANCE.pt3",
+            "name": "Black Fox - DANCE.pt3",
+            "file": "chiptunes\/Black Fox\/2002\/Black Fox - DANCE.pt3",
             "pt3": false,
             "author": "Black Fox",
             "section": "2002",
             "channels": 3
         },
         {
-            "name": "DREAM.pt3",
-            "file": "chiptunes\/Black Fox\/2002\/DREAM.pt3",
+            "name": "Black Fox - DREAM.pt3",
+            "file": "chiptunes\/Black Fox\/2002\/Black Fox - DREAM.pt3",
             "pt3": false,
             "author": "Black Fox",
             "section": "2002",
             "channels": 3
         },
         {
-            "name": "DREAMS.pt3",
-            "file": "chiptunes\/Black Fox\/2002\/DREAMS.pt3",
+            "name": "Black Fox - DREAMS.pt3",
+            "file": "chiptunes\/Black Fox\/2002\/Black Fox - DREAMS.pt3",
             "pt3": false,
             "author": "Black Fox",
             "section": "2002",
             "channels": 3
         },
         {
-            "name": "DRIVE.pt3",
-            "file": "chiptunes\/Black Fox\/2002\/DRIVE.pt3",
+            "name": "Black Fox - DRIVE.pt3",
+            "file": "chiptunes\/Black Fox\/2002\/Black Fox - DRIVE.pt3",
             "pt3": false,
             "author": "Black Fox",
             "section": "2002",
             "channels": 3
         },
         {
-            "name": "EXAMIN_.pt3",
-            "file": "chiptunes\/Black Fox\/2002\/EXAMIN_.pt3",
+            "name": "Black Fox - EXAMIN_.pt3",
+            "file": "chiptunes\/Black Fox\/2002\/Black Fox - EXAMIN_.pt3",
             "pt3": false,
             "author": "Black Fox",
             "section": "2002",
             "channels": 3
         },
         {
-            "name": "FT_STORY.pt3",
-            "file": "chiptunes\/Black Fox\/2002\/FT_STORY.pt3",
+            "name": "Black Fox - FT_STORY.pt3",
+            "file": "chiptunes\/Black Fox\/2002\/Black Fox - FT_STORY.pt3",
             "pt3": false,
             "author": "Black Fox",
             "section": "2002",
             "channels": 3
         },
         {
-            "name": "HAPPY.pt3",
-            "file": "chiptunes\/Black Fox\/2002\/HAPPY.pt3",
+            "name": "Black Fox - HAPPY.pt3",
+            "file": "chiptunes\/Black Fox\/2002\/Black Fox - HAPPY.pt3",
             "pt3": false,
             "author": "Black Fox",
             "section": "2002",
             "channels": 3
         },
         {
-            "name": "I'M_ILL.pt3",
-            "file": "chiptunes\/Black Fox\/2002\/I'M_ILL.pt3",
+            "name": "Black Fox - I'M_ILL.pt3",
+            "file": "chiptunes\/Black Fox\/2002\/Black Fox - I'M_ILL.pt3",
             "pt3": false,
             "author": "Black Fox",
             "section": "2002",
             "channels": 3
         },
         {
-            "name": "I-INS.pt3",
-            "file": "chiptunes\/Black Fox\/2002\/I-INS.pt3",
+            "name": "Black Fox - I-INS.pt3",
+            "file": "chiptunes\/Black Fox\/2002\/Black Fox - I-INS.pt3",
             "pt3": false,
             "author": "Black Fox",
             "section": "2002",
             "channels": 3
         },
         {
-            "name": "IMPR_#3.pt3",
-            "file": "chiptunes\/Black Fox\/2002\/IMPR_#3.pt3",
+            "name": "Black Fox - IMPR_#3.pt3",
+            "file": "chiptunes\/Black Fox\/2002\/Black Fox - IMPR_#3.pt3",
             "pt3": false,
             "author": "Black Fox",
             "section": "2002",
             "channels": 3
         },
         {
-            "name": "MORTAL.pt3",
-            "file": "chiptunes\/Black Fox\/2002\/MORTAL.pt3",
+            "name": "Black Fox - MORTAL.pt3",
+            "file": "chiptunes\/Black Fox\/2002\/Black Fox - MORTAL.pt3",
             "pt3": false,
             "author": "Black Fox",
             "section": "2002",
             "channels": 3
         },
         {
-            "name": "MULTI_.pt3",
-            "file": "chiptunes\/Black Fox\/2002\/MULTI_.pt3",
+            "name": "Black Fox - MULTI_.pt3",
+            "file": "chiptunes\/Black Fox\/2002\/Black Fox - MULTI_.pt3",
             "pt3": false,
             "author": "Black Fox",
             "section": "2002",
             "channels": 3
         },
         {
-            "name": "MY_TEARS.pt3",
-            "file": "chiptunes\/Black Fox\/2002\/MY_TEARS.pt3",
+            "name": "Black Fox - MY_TEARS.pt3",
+            "file": "chiptunes\/Black Fox\/2002\/Black Fox - MY_TEARS.pt3",
             "pt3": false,
             "author": "Black Fox",
             "section": "2002",
             "channels": 3
         },
         {
-            "name": "NONAME.pt3",
-            "file": "chiptunes\/Black Fox\/2002\/NONAME.pt3",
+            "name": "Black Fox - NONAME.pt3",
+            "file": "chiptunes\/Black Fox\/2002\/Black Fox - NONAME.pt3",
             "pt3": false,
             "author": "Black Fox",
             "section": "2002",
             "channels": 3
         },
         {
-            "name": "ONE_MORE.pt3",
-            "file": "chiptunes\/Black Fox\/2002\/ONE_MORE.pt3",
+            "name": "Black Fox - ONE_MORE.pt3",
+            "file": "chiptunes\/Black Fox\/2002\/Black Fox - ONE_MORE.pt3",
             "pt3": false,
             "author": "Black Fox",
             "section": "2002",
             "channels": 3
         },
         {
-            "name": "POPSA.pt3",
-            "file": "chiptunes\/Black Fox\/2002\/POPSA.pt3",
+            "name": "Black Fox - POPSA.pt3",
+            "file": "chiptunes\/Black Fox\/2002\/Black Fox - POPSA.pt3",
             "pt3": false,
             "author": "Black Fox",
             "section": "2002",
             "channels": 3
         },
         {
-            "name": "SIM!LAR.pt3",
-            "file": "chiptunes\/Black Fox\/2002\/SIM!LAR.pt3",
+            "name": "Black Fox - SIM!LAR.pt3",
+            "file": "chiptunes\/Black Fox\/2002\/Black Fox - SIM!LAR.pt3",
             "pt3": false,
             "author": "Black Fox",
             "section": "2002",
             "channels": 3
         },
         {
-            "name": "SOMETIME.pt3",
-            "file": "chiptunes\/Black Fox\/2002\/SOMETIME.pt3",
+            "name": "Black Fox - SOMETIME.pt3",
+            "file": "chiptunes\/Black Fox\/2002\/Black Fox - SOMETIME.pt3",
             "pt3": false,
             "author": "Black Fox",
             "section": "2002",
             "channels": 3
         },
         {
-            "name": "SONG.pt3",
-            "file": "chiptunes\/Black Fox\/2002\/SONG.pt3",
+            "name": "Black Fox - SONG.pt3",
+            "file": "chiptunes\/Black Fox\/2002\/Black Fox - SONG.pt3",
             "pt3": false,
             "author": "Black Fox",
             "section": "2002",
             "channels": 3
         },
         {
-            "name": "STRANGE.pt3",
-            "file": "chiptunes\/Black Fox\/2002\/STRANGE.pt3",
+            "name": "Black Fox - STRANGE.pt3",
+            "file": "chiptunes\/Black Fox\/2002\/Black Fox - STRANGE.pt3",
             "pt3": false,
             "author": "Black Fox",
             "section": "2002",
             "channels": 3
         },
         {
-            "name": "ALONE___.pt3",
-            "file": "chiptunes\/Black Fox\/2003\/ALONE___.pt3",
+            "name": "Black Fox - ALONE___.pt3",
+            "file": "chiptunes\/Black Fox\/2003\/Black Fox - ALONE___.pt3",
             "pt3": false,
             "author": "Black Fox",
             "section": "2003",
             "channels": 3
         },
         {
-            "name": "Its_come.pt3",
-            "file": "chiptunes\/Black Fox\/2003\/Its_come.pt3",
+            "name": "Black Fox - Its_come.pt3",
+            "file": "chiptunes\/Black Fox\/2003\/Black Fox - Its_come.pt3",
             "pt3": false,
             "author": "Black Fox",
             "section": "2003",
             "channels": 3
         },
         {
-            "name": "POSSIBIL.pt3",
-            "file": "chiptunes\/Black Fox\/2003\/POSSIBIL.pt3",
+            "name": "Black Fox - POSSIBIL.pt3",
+            "file": "chiptunes\/Black Fox\/2003\/Black Fox - POSSIBIL.pt3",
             "pt3": false,
             "author": "Black Fox",
             "section": "2003",
             "channels": 3
         },
         {
-            "name": "PYKU!.pt3",
-            "file": "chiptunes\/Black Fox\/2003\/PYKU!.pt3",
+            "name": "Black Fox - PYKU!.pt3",
+            "file": "chiptunes\/Black Fox\/2003\/Black Fox - PYKU!.pt3",
             "pt3": false,
             "author": "Black Fox",
             "section": "2003",
             "channels": 3
         },
         {
-            "name": "RA!N.pt3",
-            "file": "chiptunes\/Black Fox\/2003\/RA!N.pt3",
+            "name": "Black Fox - RA!N.pt3",
+            "file": "chiptunes\/Black Fox\/2003\/Black Fox - RA!N.pt3",
             "pt3": false,
             "author": "Black Fox",
             "section": "2003",
             "channels": 3
         },
         {
-            "name": "THEME_1.pt3",
-            "file": "chiptunes\/Black Fox\/2003\/THEME_1.pt3",
+            "name": "Black Fox - THEME_1.pt3",
+            "file": "chiptunes\/Black Fox\/2003\/Black Fox - THEME_1.pt3",
             "pt3": false,
             "author": "Black Fox",
             "section": "2003",
             "channels": 3
         },
         {
-            "name": "W_DAY!;).pt3",
-            "file": "chiptunes\/Black Fox\/2003\/W_DAY!;).pt3",
+            "name": "Black Fox - W_DAY!;).pt3",
+            "file": "chiptunes\/Black Fox\/2003\/Black Fox - W_DAY!;).pt3",
             "pt3": false,
             "author": "Black Fox",
             "section": "2003",
             "channels": 3
         },
         {
-            "name": "CHEWING.pt3",
-            "file": "chiptunes\/Black Fox\/2004\/CHEWING.pt3",
+            "name": "Black Fox - CHEWING.pt3",
+            "file": "chiptunes\/Black Fox\/2004\/Black Fox - CHEWING.pt3",
             "pt3": false,
             "author": "Black Fox",
             "section": "2004",
             "channels": 3
         },
         {
-            "name": "DOUBT.pt3",
-            "file": "chiptunes\/Black Fox\/2004\/DOUBT.pt3",
+            "name": "Black Fox - DOUBT.pt3",
+            "file": "chiptunes\/Black Fox\/2004\/Black Fox - DOUBT.pt3",
             "pt3": false,
             "author": "Black Fox",
             "section": "2004",
             "channels": 3
         },
         {
-            "name": "DVORN!K.pt3",
-            "file": "chiptunes\/Black Fox\/2004\/DVORN!K.pt3",
+            "name": "Black Fox - DVORN!K.pt3",
+            "file": "chiptunes\/Black Fox\/2004\/Black Fox - DVORN!K.pt3",
             "pt3": false,
             "author": "Black Fox",
             "section": "2004",
             "channels": 3
         },
         {
-            "name": "ESQ_1.pt3",
-            "file": "chiptunes\/Black Fox\/2004\/ESQ_1.pt3",
+            "name": "Black Fox - ESQ_1.pt3",
+            "file": "chiptunes\/Black Fox\/2004\/Black Fox - ESQ_1.pt3",
             "pt3": false,
             "author": "Black Fox",
             "section": "2004",
             "channels": 3
         },
         {
-            "name": "FINALCUT.pt3",
-            "file": "chiptunes\/Black Fox\/2004\/FINALCUT.pt3",
+            "name": "Black Fox - FINALCUT.pt3",
+            "file": "chiptunes\/Black Fox\/2004\/Black Fox - FINALCUT.pt3",
             "pt3": false,
             "author": "Black Fox",
             "section": "2004",
             "channels": 3
         },
         {
-            "name": "GIFT1ADD.pt3",
-            "file": "chiptunes\/Black Fox\/2004\/GIFT1ADD.pt3",
+            "name": "Black Fox - GIFT1ADD.pt3",
+            "file": "chiptunes\/Black Fox\/2004\/Black Fox - GIFT1ADD.pt3",
             "pt3": false,
             "author": "Black Fox",
             "section": "2004",
             "channels": 3
         },
         {
-            "name": "GIFT_#2'.pt3",
-            "file": "chiptunes\/Black Fox\/2004\/GIFT_#2'.pt3",
+            "name": "Black Fox - GIFT_#2'.pt3",
+            "file": "chiptunes\/Black Fox\/2004\/Black Fox - GIFT_#2'.pt3",
             "pt3": false,
             "author": "Black Fox",
             "section": "2004",
             "channels": 3
         },
         {
-            "name": "HAPPY_H.pt3",
-            "file": "chiptunes\/Black Fox\/2004\/HAPPY_H.pt3",
+            "name": "Black Fox - HAPPY_H.pt3",
+            "file": "chiptunes\/Black Fox\/2004\/Black Fox - HAPPY_H.pt3",
             "pt3": false,
             "author": "Black Fox",
             "section": "2004",
             "channels": 3
         },
         {
-            "name": "IT'SPACE.pt3",
-            "file": "chiptunes\/Black Fox\/2004\/IT'SPACE.pt3",
+            "name": "Black Fox - IT'SPACE.pt3",
+            "file": "chiptunes\/Black Fox\/2004\/Black Fox - IT'SPACE.pt3",
             "pt3": false,
             "author": "Black Fox",
             "section": "2004",
             "channels": 3
         },
         {
-            "name": "LOVESTOR.pt3",
-            "file": "chiptunes\/Black Fox\/2004\/LOVESTOR.pt3",
+            "name": "Black Fox - LOVESTOR.pt3",
+            "file": "chiptunes\/Black Fox\/2004\/Black Fox - LOVESTOR.pt3",
             "pt3": false,
             "author": "Black Fox",
             "section": "2004",
             "channels": 3
         },
         {
-            "name": "MAG!C_D.pt3",
-            "file": "chiptunes\/Black Fox\/2004\/MAG!C_D.pt3",
+            "name": "Black Fox - MAG!C_D.pt3",
+            "file": "chiptunes\/Black Fox\/2004\/Black Fox - MAG!C_D.pt3",
             "pt3": false,
             "author": "Black Fox",
             "section": "2004",
             "channels": 3
         },
         {
-            "name": "SHOCK.pt3",
-            "file": "chiptunes\/Black Fox\/2004\/SHOCK.pt3",
+            "name": "Black Fox - SHOCK.pt3",
+            "file": "chiptunes\/Black Fox\/2004\/Black Fox - SHOCK.pt3",
             "pt3": false,
             "author": "Black Fox",
             "section": "2004",
             "channels": 3
         },
         {
-            "name": "SPB_DEMO.pt3",
-            "file": "chiptunes\/Black Fox\/2004\/SPB_DEMO.pt3",
+            "name": "Black Fox - SPB_DEMO.pt3",
+            "file": "chiptunes\/Black Fox\/2004\/Black Fox - SPB_DEMO.pt3",
             "pt3": false,
             "author": "Black Fox",
             "section": "2004",
             "channels": 3
         },
         {
-            "name": "TRUST.pt3",
-            "file": "chiptunes\/Black Fox\/2004\/TRUST.pt3",
+            "name": "Black Fox - TRUST.pt3",
+            "file": "chiptunes\/Black Fox\/2004\/Black Fox - TRUST.pt3",
             "pt3": false,
             "author": "Black Fox",
             "section": "2004",
             "channels": 3
         },
         {
-            "name": "TRYSPACE.pt3",
-            "file": "chiptunes\/Black Fox\/2004\/TRYSPACE.pt3",
+            "name": "Black Fox - TRYSPACE.pt3",
+            "file": "chiptunes\/Black Fox\/2004\/Black Fox - TRYSPACE.pt3",
             "pt3": false,
             "author": "Black Fox",
             "section": "2004",
             "channels": 3
         },
         {
-            "name": "WALKIN'.pt3",
-            "file": "chiptunes\/Black Fox\/2004\/WALKIN'.pt3",
+            "name": "Black Fox - WALKIN'.pt3",
+            "file": "chiptunes\/Black Fox\/2004\/Black Fox - WALKIN'.pt3",
             "pt3": false,
             "author": "Black Fox",
             "section": "2004",
             "channels": 3
         },
         {
-            "name": "DELYVERS.pt3",
-            "file": "chiptunes\/Black Fox\/2005\/DELYVERS.pt3",
+            "name": "Black Fox - DELYVERS.pt3",
+            "file": "chiptunes\/Black Fox\/2005\/Black Fox - DELYVERS.pt3",
             "pt3": false,
             "author": "Black Fox",
             "section": "2005",
             "channels": 3
         },
         {
-            "name": "DREAM_OF.pt3",
-            "file": "chiptunes\/Black Fox\/2005\/DREAM_OF.pt3",
+            "name": "Black Fox - DREAM_OF.pt3",
+            "file": "chiptunes\/Black Fox\/2005\/Black Fox - DREAM_OF.pt3",
             "pt3": false,
             "author": "Black Fox",
             "section": "2005",
             "channels": 3
         },
         {
-            "name": "Our_T!me_-_Now! (final fixed).pt3",
-            "file": "chiptunes\/Black Fox\/2005\/Our_T!me_-_Now! (final fixed).pt3",
+            "name": "Black Fox - Our_T!me_-_Now! (final fixed).pt3",
+            "file": "chiptunes\/Black Fox\/2005\/Black Fox - Our_T!me_-_Now! (final fixed).pt3",
             "pt3": false,
             "author": "Black Fox",
             "section": "2005",
             "channels": 3
         },
         {
-            "name": "Remember.pt3",
-            "file": "chiptunes\/Black Fox\/2005\/Remember.pt3",
+            "name": "Black Fox - Remember.pt3",
+            "file": "chiptunes\/Black Fox\/2005\/Black Fox - Remember.pt3",
             "pt3": false,
             "author": "Black Fox",
             "section": "2005",
             "channels": 3
         },
         {
-            "name": "Saturday_N!ght.pt3",
-            "file": "chiptunes\/Black Fox\/2005\/Saturday_N!ght.pt3",
+            "name": "Black Fox - Saturday_N!ght.pt3",
+            "file": "chiptunes\/Black Fox\/2005\/Black Fox - Saturday_N!ght.pt3",
             "pt3": false,
             "author": "Black Fox",
             "section": "2005",
             "channels": 3
         },
         {
-            "name": "TRUST'.pt3",
-            "file": "chiptunes\/Black Fox\/2005\/TRUST'.pt3",
+            "name": "Black Fox - TRUST'.pt3",
+            "file": "chiptunes\/Black Fox\/2005\/Black Fox - TRUST'.pt3",
             "pt3": false,
             "author": "Black Fox",
             "section": "2005",
             "channels": 3
         },
         {
-            "name": "chausette.pt3",
-            "file": "chiptunes\/Black Fox\/2005\/chausette.pt3",
+            "name": "Black Fox - chausette.pt3",
+            "file": "chiptunes\/Black Fox\/2005\/Black Fox - chausette.pt3",
             "pt3": false,
             "author": "Black Fox",
             "section": "2005",
             "channels": 3
         },
         {
-            "name": "destron_revival.pt3",
-            "file": "chiptunes\/Black Fox\/2005\/destron_revival.pt3",
+            "name": "Black Fox - destron_revival.pt3",
+            "file": "chiptunes\/Black Fox\/2005\/Black Fox - destron_revival.pt3",
             "pt3": false,
             "author": "Black Fox",
             "section": "2005",
             "channels": 3
         },
         {
-            "name": "gates_of_infinity.pt3",
-            "file": "chiptunes\/Black Fox\/2005\/gates_of_infinity.pt3",
+            "name": "Black Fox - gates_of_infinity.pt3",
+            "file": "chiptunes\/Black Fox\/2005\/Black Fox - gates_of_infinity.pt3",
             "pt3": false,
             "author": "Black Fox",
             "section": "2005",
             "channels": 3
         },
         {
-            "name": "little_swedish_g!rl.pt3",
-            "file": "chiptunes\/Black Fox\/2005\/little_swedish_g!rl.pt3",
+            "name": "Black Fox - little_swedish_g!rl.pt3",
+            "file": "chiptunes\/Black Fox\/2005\/Black Fox - little_swedish_g!rl.pt3",
             "pt3": false,
             "author": "Black Fox",
             "section": "2005",
             "channels": 3
         },
         {
-            "name": "autumn.pt3",
-            "file": "chiptunes\/Black Fox\/2006\/autumn.pt3",
+            "name": "Black Fox - Autumn.pt3",
+            "file": "chiptunes\/Black Fox\/2006\/Black Fox - Autumn.pt3",
             "pt3": false,
             "author": "Black Fox",
             "section": "2006",
             "channels": 6
         },
         {
-            "name": "make_your_choice.pt3",
-            "file": "chiptunes\/Black Fox\/2006\/make_your_choice.pt3",
+            "name": "Black Fox - Make Your Choice.pt3",
+            "file": "chiptunes\/Black Fox\/2006\/Black Fox - Make Your Choice.pt3",
             "pt3": false,
             "author": "Black Fox",
             "section": "2006",
             "channels": 3
         },
         {
-            "name": "Black Fox - autumn.pt3",
-            "file": "chiptunes\/Black Fox\/Black Fox - autumn.pt3",
+            "name": "Bonysoft - AntiDandy (1993).stc",
+            "file": "chiptunes\/Bonysoft\/1993\/Bonysoft - AntiDandy (1993).stc",
             "pt3": false,
-            "author": "Black Fox",
-            "section": null,
+            "author": "Bonysoft",
+            "section": "1993",
+            "channels": 3
+        },
+        {
+            "name": "Bonysoft - Battle Ships (1993).stc",
+            "file": "chiptunes\/Bonysoft\/1993\/Bonysoft - Battle Ships (1993).stc",
+            "pt3": false,
+            "author": "Bonysoft",
+            "section": "1993",
+            "channels": 3
+        },
+        {
+            "name": "Bonysoft - Fancy - Spy In The Night (1993).stc",
+            "file": "chiptunes\/Bonysoft\/1993\/Bonysoft - Fancy - Spy In The Night (1993).stc",
+            "pt3": false,
+            "author": "Bonysoft",
+            "section": "1993",
+            "channels": 3
+        },
+        {
+            "name": "Bonysoft - Loft - Theme Of Loft (1993).stc",
+            "file": "chiptunes\/Bonysoft\/1993\/Bonysoft - Loft - Theme Of Loft (1993).stc",
+            "pt3": false,
+            "author": "Bonysoft",
+            "section": "1993",
+            "channels": 3
+        },
+        {
+            "name": "Bonysoft - Maxx - Getaway (1993).stc",
+            "file": "chiptunes\/Bonysoft\/1993\/Bonysoft - Maxx - Getaway (1993).stc",
+            "pt3": false,
+            "author": "Bonysoft",
+            "section": "1993",
+            "channels": 3
+        },
+        {
+            "name": "Bonysoft - Popcorn (1993).stc",
+            "file": "chiptunes\/Bonysoft\/1993\/Bonysoft - Popcorn (1993).stc",
+            "pt3": false,
+            "author": "Bonysoft",
+            "section": "1993",
+            "channels": 3
+        },
+        {
+            "name": "Bonysoft - Koto - Tender Force (1994).stc",
+            "file": "chiptunes\/Bonysoft\/1994\/Bonysoft - Koto - Tender Force (1994).stc",
+            "pt3": false,
+            "author": "Bonysoft",
+            "section": "1994",
+            "channels": 3
+        },
+        {
+            "name": "Bonysoft - WhoKnows (1994).pt3",
+            "file": "chiptunes\/Bonysoft\/1994\/Bonysoft - WhoKnows (1994).pt3",
+            "pt3": false,
+            "author": "Bonysoft",
+            "section": "1994",
+            "channels": 3
+        },
+        {
+            "name": "Bonysoft, Voxel - Rec-Time 6 mixTS (2009).pt3",
+            "file": "chiptunes\/Bonysoft\/2009\/Bonysoft, Voxel - Rec-Time 6 mixTS (2009).pt3",
+            "pt3": false,
+            "author": "Bonysoft",
+            "section": "2009",
             "channels": 6
         },
         {
-            "name": "Bonysoft - A Touch of Spring.pt3",
-            "file": "chiptunes\/Bonysoft\/Bonysoft - A Touch of Spring.pt3",
+            "name": "Bonysoft, Voxel - Rec-Time 7-2 mix.pt2",
+            "file": "chiptunes\/Bonysoft\/2009\/Bonysoft, Voxel - Rec-Time 7-2 mix.pt2",
             "pt3": false,
             "author": "Bonysoft",
-            "section": null,
+            "section": "2009",
+            "channels": 3
+        },
+        {
+            "name": "Bonysoft - Sanxion (2017).pt3",
+            "file": "chiptunes\/Bonysoft\/2017\/Bonysoft - Sanxion (2017).pt3",
+            "pt3": false,
+            "author": "Bonysoft",
+            "section": "2017",
+            "channels": 3
+        },
+        {
+            "name": "Bonysoft - PM - A Touch of Spring (2018).pt3",
+            "file": "chiptunes\/Bonysoft\/2018\/Bonysoft - PM - A Touch of Spring (2018).pt3",
+            "pt3": false,
+            "author": "Bonysoft",
+            "section": "2018",
             "channels": 6
         },
         {
-            "name": "Bonysoft - America - People in the Valley.pt3",
-            "file": "chiptunes\/Bonysoft\/Bonysoft - America - People in the Valley.pt3",
+            "name": "Bonysoft - PM - Global Motion (2018).pt3",
+            "file": "chiptunes\/Bonysoft\/2018\/Bonysoft - PM - Global Motion (2018).pt3",
             "pt3": false,
             "author": "Bonysoft",
-            "section": null,
+            "section": "2018",
             "channels": 6
         },
         {
-            "name": "Bonysoft - Beatles - Because.pt3",
-            "file": "chiptunes\/Bonysoft\/Bonysoft - Beatles - Because.pt3",
+            "name": "Bonysoft - PM - Minimum Velocity (2018).pt3",
+            "file": "chiptunes\/Bonysoft\/2018\/Bonysoft - PM - Minimum Velocity (2018).pt3",
             "pt3": false,
             "author": "Bonysoft",
-            "section": null,
+            "section": "2018",
+            "channels": 3
+        },
+        {
+            "name": "Bonysoft - PM - Starshine (2018).pt3",
+            "file": "chiptunes\/Bonysoft\/2018\/Bonysoft - PM - Starshine (2018).pt3",
+            "pt3": false,
+            "author": "Bonysoft",
+            "section": "2018",
             "channels": 6
         },
         {
-            "name": "Bonysoft - Global Motion.pt3",
-            "file": "chiptunes\/Bonysoft\/Bonysoft - Global Motion.pt3",
+            "name": "Bonysoft - PM - When the Heavens Fall (2018).pt3",
+            "file": "chiptunes\/Bonysoft\/2018\/Bonysoft - PM - When the Heavens Fall (2018).pt3",
             "pt3": false,
             "author": "Bonysoft",
-            "section": null,
+            "section": "2018",
             "channels": 6
         },
         {
-            "name": "Bonysoft - ICO - You Were There.pt3",
-            "file": "chiptunes\/Bonysoft\/Bonysoft - ICO - You Were There.pt3",
+            "name": "Bonysoft - PM - Inspiration (2019).pt3",
+            "file": "chiptunes\/Bonysoft\/2019\/Bonysoft - PM - Inspiration (2019).pt3",
             "pt3": false,
             "author": "Bonysoft",
-            "section": null,
+            "section": "2019",
+            "channels": 3
+        },
+        {
+            "name": "Bonysoft - PM - Miracle Man (2019).pt3",
+            "file": "chiptunes\/Bonysoft\/2019\/Bonysoft - PM - Miracle Man (2019).pt3",
+            "pt3": false,
+            "author": "Bonysoft",
+            "section": "2019",
             "channels": 6
         },
         {
-            "name": "Bonysoft - Mellan sommar och host.pt3",
-            "file": "chiptunes\/Bonysoft\/Bonysoft - Mellan sommar och host.pt3",
+            "name": "Bonysoft - PM - Purple Sky (2019).pt3",
+            "file": "chiptunes\/Bonysoft\/2019\/Bonysoft - PM - Purple Sky (2019).pt3",
             "pt3": false,
             "author": "Bonysoft",
-            "section": null,
+            "section": "2019",
             "channels": 6
         },
         {
-            "name": "Bonysoft - Miracle Man.pt3",
-            "file": "chiptunes\/Bonysoft\/Bonysoft - Miracle Man.pt3",
+            "name": "Bonysoft - PM - Satellite One (2019).pt3",
+            "file": "chiptunes\/Bonysoft\/2019\/Bonysoft - PM - Satellite One (2019).pt3",
             "pt3": false,
             "author": "Bonysoft",
-            "section": null,
+            "section": "2019",
             "channels": 6
         },
         {
-            "name": "Bonysoft - Muse - Dead Inside.pt3",
-            "file": "chiptunes\/Bonysoft\/Bonysoft - Muse - Dead Inside.pt3",
+            "name": "Bonysoft - PM - World of Plastic (2019).pt3",
+            "file": "chiptunes\/Bonysoft\/2019\/Bonysoft - PM - World of Plastic (2019).pt3",
             "pt3": false,
             "author": "Bonysoft",
-            "section": null,
+            "section": "2019",
             "channels": 6
         },
         {
-            "name": "Bonysoft - Poets of the Fall - My Dark Disquiet.pt3",
-            "file": "chiptunes\/Bonysoft\/Bonysoft - Poets of the Fall - My Dark Disquiet.pt3",
+            "name": "Bonysoft - Marie Fredriksson - Mellan sommar och höst (2021).pt3",
+            "file": "chiptunes\/Bonysoft\/2021\/Bonysoft - Marie Fredriksson - Mellan sommar och höst (2021).pt3",
             "pt3": false,
             "author": "Bonysoft",
-            "section": null,
+            "section": "2021",
             "channels": 6
         },
         {
-            "name": "Bonysoft - Purple Sky.pt3",
-            "file": "chiptunes\/Bonysoft\/Bonysoft - Purple Sky.pt3",
+            "name": "Bonysoft - Beatles - Because (2022).pt3",
+            "file": "chiptunes\/Bonysoft\/2022\/Bonysoft - Beatles - Because (2022).pt3",
             "pt3": false,
             "author": "Bonysoft",
-            "section": null,
+            "section": "2022",
             "channels": 6
         },
         {
-            "name": "Bonysoft - Roxette - Stars.pt3",
-            "file": "chiptunes\/Bonysoft\/Bonysoft - Roxette - Stars.pt3",
+            "name": "Bonysoft - ICO - You Were There (2022).pt3",
+            "file": "chiptunes\/Bonysoft\/2022\/Bonysoft - ICO - You Were There (2022).pt3",
             "pt3": false,
             "author": "Bonysoft",
-            "section": null,
+            "section": "2022",
             "channels": 6
         },
         {
-            "name": "Bonysoft - Satellite One.pt3",
-            "file": "chiptunes\/Bonysoft\/Bonysoft - Satellite One.pt3",
+            "name": "Bonysoft - Roxette - Stars (2022).pt3",
+            "file": "chiptunes\/Bonysoft\/2022\/Bonysoft - Roxette - Stars (2022).pt3",
             "pt3": false,
             "author": "Bonysoft",
-            "section": null,
+            "section": "2022",
             "channels": 6
         },
         {
-            "name": "Bonysoft - Starshine.pt3",
-            "file": "chiptunes\/Bonysoft\/Bonysoft - Starshine.pt3",
+            "name": "Bonysoft - America - People in the Valley (2023).pt3",
+            "file": "chiptunes\/Bonysoft\/2023\/Bonysoft - America - People in the Valley (2023).pt3",
             "pt3": false,
             "author": "Bonysoft",
-            "section": null,
+            "section": "2023",
             "channels": 6
         },
         {
-            "name": "Bonysoft - When the Heavens Fall.pt3",
-            "file": "chiptunes\/Bonysoft\/Bonysoft - When the Heavens Fall.pt3",
+            "name": "Bonysoft - Beatles - You Like Me Too Much (2023).pt3",
+            "file": "chiptunes\/Bonysoft\/2023\/Bonysoft - Beatles - You Like Me Too Much (2023).pt3",
             "pt3": false,
             "author": "Bonysoft",
-            "section": null,
+            "section": "2023",
+            "channels": 3
+        },
+        {
+            "name": "Bonysoft - Muse - Dead Inside (2023).pt3",
+            "file": "chiptunes\/Bonysoft\/2023\/Bonysoft - Muse - Dead Inside (2023).pt3",
+            "pt3": false,
+            "author": "Bonysoft",
+            "section": "2023",
             "channels": 6
         },
         {
-            "name": "Bonysoft - World of Plastic.pt3",
-            "file": "chiptunes\/Bonysoft\/Bonysoft - World of Plastic.pt3",
+            "name": "Bonysoft - Poets of the Fall - My Dark Disquiet (2024).pt3",
+            "file": "chiptunes\/Bonysoft\/2024\/Bonysoft - Poets of the Fall - My Dark Disquiet (2024).pt3",
+            "pt3": false,
+            "author": "Bonysoft",
+            "section": "2024",
+            "channels": 6
+        },
+        {
+            "name": "Bonysoft - ICO - You Were There (v2) (2026).pt3",
+            "file": "chiptunes\/Bonysoft\/2026\/Bonysoft - ICO - You Were There (v2) (2026).pt3",
+            "pt3": false,
+            "author": "Bonysoft",
+            "section": "2026",
+            "channels": 6
+        },
+        {
+            "name": "Bonysoft - Koto - Tender Force (1994).stc",
+            "file": "chiptunes\/Bonysoft\/Bonysoft - Koto - Tender Force (1994).stc",
             "pt3": false,
             "author": "Bonysoft",
             "section": null,
-            "channels": 6
+            "channels": 3
         },
         {
             "name": "Bugsy - Somebody.pt3",
@@ -9913,591 +9761,6 @@
             "channels": 6
         },
         {
-            "name": "180.fym",
-            "file": "chiptunes\/D Whittaker\/180.fym",
-            "pt3": false,
-            "pt3File": null,
-            "author": "D Whittaker",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "advanced pinball simulator.fym",
-            "file": "chiptunes\/D Whittaker\/advanced pinball simulator.fym",
-            "pt3": false,
-            "pt3File": null,
-            "author": "D Whittaker",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "amaurote.fym",
-            "file": "chiptunes\/D Whittaker\/amaurote.fym",
-            "pt3": false,
-            "pt3File": null,
-            "author": "D Whittaker",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "apb.fym",
-            "file": "chiptunes\/D Whittaker\/apb.fym",
-            "pt3": false,
-            "pt3File": null,
-            "author": "D Whittaker",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "arcade flight simulator.fym",
-            "file": "chiptunes\/D Whittaker\/arcade flight simulator.fym",
-            "pt3": false,
-            "pt3File": null,
-            "author": "D Whittaker",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "atv simulator.fym",
-            "file": "chiptunes\/D Whittaker\/atv simulator.fym",
-            "pt3": false,
-            "pt3File": null,
-            "author": "D Whittaker",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "back to the future 2.fym",
-            "file": "chiptunes\/D Whittaker\/back to the future 2.fym",
-            "pt3": false,
-            "pt3File": null,
-            "author": "D Whittaker",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "beverly hills cop.fym",
-            "file": "chiptunes\/D Whittaker\/beverly hills cop.fym",
-            "pt3": false,
-            "pt3File": null,
-            "author": "D Whittaker",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "beyond the ice palace.fym",
-            "file": "chiptunes\/D Whittaker\/beyond the ice palace.fym",
-            "pt3": false,
-            "pt3File": null,
-            "author": "D Whittaker",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "bmx freestyle simulator.fym",
-            "file": "chiptunes\/D Whittaker\/bmx freestyle simulator.fym",
-            "pt3": false,
-            "pt3File": null,
-            "author": "D Whittaker",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "brave starr.fym",
-            "file": "chiptunes\/D Whittaker\/brave starr.fym",
-            "pt3": false,
-            "pt3File": null,
-            "author": "D Whittaker",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "bubble dizzy.fym",
-            "file": "chiptunes\/D Whittaker\/bubble dizzy.fym",
-            "pt3": false,
-            "pt3File": null,
-            "author": "D Whittaker",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "captain fizz meets the blaster - trons.fym",
-            "file": "chiptunes\/D Whittaker\/captain fizz meets the blaster - trons.fym",
-            "pt3": false,
-            "pt3File": null,
-            "author": "D Whittaker",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "chip_s challenge.fym",
-            "file": "chiptunes\/D Whittaker\/chip_s challenge.fym",
-            "pt3": false,
-            "pt3File": null,
-            "author": "D Whittaker",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "combat school.fym",
-            "file": "chiptunes\/D Whittaker\/combat school.fym",
-            "pt3": false,
-            "pt3File": null,
-            "author": "D Whittaker",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "dan dare 3.fym",
-            "file": "chiptunes\/D Whittaker\/dan dare 3.fym",
-            "pt3": false,
-            "pt3File": null,
-            "author": "D Whittaker",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "death stalker.fym",
-            "file": "chiptunes\/D Whittaker\/death stalker.fym",
-            "pt3": false,
-            "pt3File": null,
-            "author": "D Whittaker",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "defcom.fym",
-            "file": "chiptunes\/D Whittaker\/defcom.fym",
-            "pt3": false,
-            "pt3File": null,
-            "author": "D Whittaker",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "dizzy 2 - treasure island dizzy.fym",
-            "file": "chiptunes\/D Whittaker\/dizzy 2 - treasure island dizzy.fym",
-            "pt3": false,
-            "pt3File": null,
-            "author": "D Whittaker",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "dizzy 3 - fantasy world dizzy.fym",
-            "file": "chiptunes\/D Whittaker\/dizzy 3 - fantasy world dizzy.fym",
-            "pt3": false,
-            "pt3File": null,
-            "author": "D Whittaker",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "dizzy 4 - magic land dizzy.fym",
-            "file": "chiptunes\/D Whittaker\/dizzy 4 - magic land dizzy.fym",
-            "pt3": false,
-            "pt3File": null,
-            "author": "D Whittaker",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "dizzy 5 - spellbound dizzy.fym",
-            "file": "chiptunes\/D Whittaker\/dizzy 5 - spellbound dizzy.fym",
-            "pt3": false,
-            "pt3File": null,
-            "author": "D Whittaker",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "dizzy 6 - prince of the yolk folk.fym",
-            "file": "chiptunes\/D Whittaker\/dizzy 6 - prince of the yolk folk.fym",
-            "pt3": false,
-            "pt3File": null,
-            "author": "D Whittaker",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "elevator action.fym",
-            "file": "chiptunes\/D Whittaker\/elevator action.fym",
-            "pt3": false,
-            "pt3File": null,
-            "author": "D Whittaker",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "fast food dizzy.fym",
-            "file": "chiptunes\/D Whittaker\/fast food dizzy.fym",
-            "pt3": false,
-            "pt3File": null,
-            "author": "D Whittaker",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "four soccer simulators.fym",
-            "file": "chiptunes\/D Whittaker\/four soccer simulators.fym",
-            "pt3": false,
-            "pt3File": null,
-            "author": "D Whittaker",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "fruit machine simulator 2.fym",
-            "file": "chiptunes\/D Whittaker\/fruit machine simulator 2.fym",
-            "pt3": false,
-            "pt3File": null,
-            "author": "D Whittaker",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "fruit machine simulator.fym",
-            "file": "chiptunes\/D Whittaker\/fruit machine simulator.fym",
-            "pt3": false,
-            "pt3File": null,
-            "author": "D Whittaker",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "ghostbusters 2.fym",
-            "file": "chiptunes\/D Whittaker\/ghostbusters 2.fym",
-            "pt3": false,
-            "pt3File": null,
-            "author": "D Whittaker",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "glider rider.fym",
-            "file": "chiptunes\/D Whittaker\/glider rider.fym",
-            "pt3": false,
-            "pt3File": null,
-            "author": "D Whittaker",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "grand prix simulator 2.fym",
-            "file": "chiptunes\/D Whittaker\/grand prix simulator 2.fym",
-            "pt3": false,
-            "pt3File": null,
-            "author": "D Whittaker",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "grand prix simulator.fym",
-            "file": "chiptunes\/D Whittaker\/grand prix simulator.fym",
-            "pt3": false,
-            "pt3File": null,
-            "author": "D Whittaker",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "grange hill.fym",
-            "file": "chiptunes\/D Whittaker\/grange hill.fym",
-            "pt3": false,
-            "pt3File": null,
-            "author": "D Whittaker",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "gryzor.fym",
-            "file": "chiptunes\/D Whittaker\/gryzor.fym",
-            "pt3": false,
-            "pt3File": null,
-            "author": "D Whittaker",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "hades nebula.fym",
-            "file": "chiptunes\/D Whittaker\/hades nebula.fym",
-            "pt3": false,
-            "pt3File": null,
-            "author": "D Whittaker",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "infection.fym",
-            "file": "chiptunes\/D Whittaker\/infection.fym",
-            "pt3": false,
-            "pt3File": null,
-            "author": "D Whittaker",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "international rugby simulator.fym",
-            "file": "chiptunes\/D Whittaker\/international rugby simulator.fym",
-            "pt3": false,
-            "pt3File": null,
-            "author": "D Whittaker",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "international speedway.fym",
-            "file": "chiptunes\/D Whittaker\/international speedway.fym",
-            "pt3": false,
-            "pt3File": null,
-            "author": "D Whittaker",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "jet bike simulator.fym",
-            "file": "chiptunes\/D Whittaker\/jet bike simulator.fym",
-            "pt3": false,
-            "pt3File": null,
-            "author": "D Whittaker",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "knight tyme.fym",
-            "file": "chiptunes\/D Whittaker\/knight tyme.fym",
-            "pt3": false,
-            "pt3File": null,
-            "author": "D Whittaker",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "leviathan.fym",
-            "file": "chiptunes\/D Whittaker\/leviathan.fym",
-            "pt3": false,
-            "pt3File": null,
-            "author": "D Whittaker",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "loopz.fym",
-            "file": "chiptunes\/D Whittaker\/loopz.fym",
-            "pt3": false,
-            "pt3File": null,
-            "author": "D Whittaker",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "milk race.fym",
-            "file": "chiptunes\/D Whittaker\/milk race.fym",
-            "pt3": false,
-            "pt3File": null,
-            "author": "D Whittaker",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "monte carlo casino.fym",
-            "file": "chiptunes\/D Whittaker\/monte carlo casino.fym",
-            "pt3": false,
-            "pt3File": null,
-            "author": "D Whittaker",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "operation gunship.fym",
-            "file": "chiptunes\/D Whittaker\/operation gunship.fym",
-            "pt3": false,
-            "pt3File": null,
-            "author": "D Whittaker",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "platoon.fym",
-            "file": "chiptunes\/D Whittaker\/platoon.fym",
-            "pt3": false,
-            "pt3File": null,
-            "author": "D Whittaker",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "pro bmx simulator 2.fym",
-            "file": "chiptunes\/D Whittaker\/pro bmx simulator 2.fym",
-            "pt3": false,
-            "pt3File": null,
-            "author": "D Whittaker",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "pro bmx simulator.fym",
-            "file": "chiptunes\/D Whittaker\/pro bmx simulator.fym",
-            "pt3": false,
-            "pt3File": null,
-            "author": "D Whittaker",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "professional skateboard simulator.fym",
-            "file": "chiptunes\/D Whittaker\/professional skateboard simulator.fym",
-            "pt3": false,
-            "pt3File": null,
-            "author": "D Whittaker",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "savage.fym",
-            "file": "chiptunes\/D Whittaker\/savage.fym",
-            "pt3": false,
-            "pt3File": null,
-            "author": "D Whittaker",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "shadow of the beast.fym",
-            "file": "chiptunes\/D Whittaker\/shadow of the beast.fym",
-            "pt3": false,
-            "pt3File": null,
-            "author": "D Whittaker",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "sky high stunt man.fym",
-            "file": "chiptunes\/D Whittaker\/sky high stunt man.fym",
-            "pt3": false,
-            "pt3File": null,
-            "author": "D Whittaker",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "spitting image.fym",
-            "file": "chiptunes\/D Whittaker\/spitting image.fym",
-            "pt3": false,
-            "pt3File": null,
-            "author": "D Whittaker",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "split personalities.fym",
-            "file": "chiptunes\/D Whittaker\/split personalities.fym",
-            "pt3": false,
-            "pt3File": null,
-            "author": "D Whittaker",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "star wars.fym",
-            "file": "chiptunes\/D Whittaker\/star wars.fym",
-            "pt3": false,
-            "pt3File": null,
-            "author": "D Whittaker",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "stormbringer.fym",
-            "file": "chiptunes\/D Whittaker\/stormbringer.fym",
-            "pt3": false,
-            "pt3File": null,
-            "author": "D Whittaker",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "super robin hood.fym",
-            "file": "chiptunes\/D Whittaker\/super robin hood.fym",
-            "pt3": false,
-            "pt3File": null,
-            "author": "D Whittaker",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "super stuntman.fym",
-            "file": "chiptunes\/D Whittaker\/super stuntman.fym",
-            "pt3": false,
-            "pt3File": null,
-            "author": "D Whittaker",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "terrormeter.fym",
-            "file": "chiptunes\/D Whittaker\/terrormeter.fym",
-            "pt3": false,
-            "pt3File": null,
-            "author": "D Whittaker",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "tetris.fym",
-            "file": "chiptunes\/D Whittaker\/tetris.fym",
-            "pt3": false,
-            "pt3File": null,
-            "author": "D Whittaker",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "the tube.fym",
-            "file": "chiptunes\/D Whittaker\/the tube.fym",
-            "pt3": false,
-            "pt3File": null,
-            "author": "D Whittaker",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "transmuter.fym",
-            "file": "chiptunes\/D Whittaker\/transmuter.fym",
-            "pt3": false,
-            "pt3File": null,
-            "author": "D Whittaker",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "trantor the last storm trooper.fym",
-            "file": "chiptunes\/D Whittaker\/trantor the last storm trooper.fym",
-            "pt3": false,
-            "pt3File": null,
-            "author": "D Whittaker",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "xenon.fym",
-            "file": "chiptunes\/D Whittaker\/xenon.fym",
-            "pt3": false,
-            "pt3File": null,
-            "author": "D Whittaker",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "zub.fym",
-            "file": "chiptunes\/D Whittaker\/zub.fym",
-            "pt3": false,
-            "pt3File": null,
-            "author": "D Whittaker",
-            "section": null,
-            "channels": 3
-        },
-        {
             "name": "$STRENGE$.pt3",
             "file": "chiptunes\/D-Juice\/$STRENGE$.pt3",
             "pt3": false,
@@ -15806,28 +15069,613 @@
             "channels": 3
         },
         {
-            "name": "last_wish.pt3",
-            "file": "chiptunes\/Darkman007\/2006\/last_wish.pt3",
+            "name": "Darkman007 - last_wish.pt3",
+            "file": "chiptunes\/Darkman007\/2006\/Darkman007 - last_wish.pt3",
             "pt3": false,
             "author": "Darkman007",
             "section": "2006",
             "channels": 3
         },
         {
-            "name": "technodrive.pt3",
-            "file": "chiptunes\/Darkman007\/2007\/technodrive.pt3",
+            "name": "Darkman007 - technodrive.pt3",
+            "file": "chiptunes\/Darkman007\/2007\/Darkman007 - technodrive.pt3",
             "pt3": false,
             "author": "Darkman007",
             "section": "2007",
             "channels": 6
         },
         {
-            "name": "turbo.pt3",
-            "file": "chiptunes\/Darkman007\/2007\/turbo.pt3",
+            "name": "Darkman007 - turbo.pt3",
+            "file": "chiptunes\/Darkman007\/2007\/Darkman007 - turbo.pt3",
             "pt3": false,
             "author": "Darkman007",
             "section": "2007",
             "channels": 6
+        },
+        {
+            "name": "David Whittaker - 180.fym",
+            "file": "chiptunes\/David Whittaker\/David Whittaker - 180.fym",
+            "pt3": false,
+            "pt3File": null,
+            "author": "David Whittaker",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "David Whittaker - advanced pinball simulator.fym",
+            "file": "chiptunes\/David Whittaker\/David Whittaker - advanced pinball simulator.fym",
+            "pt3": false,
+            "pt3File": null,
+            "author": "David Whittaker",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "David Whittaker - amaurote.fym",
+            "file": "chiptunes\/David Whittaker\/David Whittaker - amaurote.fym",
+            "pt3": false,
+            "pt3File": null,
+            "author": "David Whittaker",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "David Whittaker - apb.fym",
+            "file": "chiptunes\/David Whittaker\/David Whittaker - apb.fym",
+            "pt3": false,
+            "pt3File": null,
+            "author": "David Whittaker",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "David Whittaker - arcade flight simulator.fym",
+            "file": "chiptunes\/David Whittaker\/David Whittaker - arcade flight simulator.fym",
+            "pt3": false,
+            "pt3File": null,
+            "author": "David Whittaker",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "David Whittaker - atv simulator.fym",
+            "file": "chiptunes\/David Whittaker\/David Whittaker - atv simulator.fym",
+            "pt3": false,
+            "pt3File": null,
+            "author": "David Whittaker",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "David Whittaker - back to the future 2.fym",
+            "file": "chiptunes\/David Whittaker\/David Whittaker - back to the future 2.fym",
+            "pt3": false,
+            "pt3File": null,
+            "author": "David Whittaker",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "David Whittaker - beverly hills cop.fym",
+            "file": "chiptunes\/David Whittaker\/David Whittaker - beverly hills cop.fym",
+            "pt3": false,
+            "pt3File": null,
+            "author": "David Whittaker",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "David Whittaker - beyond the ice palace.fym",
+            "file": "chiptunes\/David Whittaker\/David Whittaker - beyond the ice palace.fym",
+            "pt3": false,
+            "pt3File": null,
+            "author": "David Whittaker",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "David Whittaker - bmx freestyle simulator.fym",
+            "file": "chiptunes\/David Whittaker\/David Whittaker - bmx freestyle simulator.fym",
+            "pt3": false,
+            "pt3File": null,
+            "author": "David Whittaker",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "David Whittaker - brave starr.fym",
+            "file": "chiptunes\/David Whittaker\/David Whittaker - brave starr.fym",
+            "pt3": false,
+            "pt3File": null,
+            "author": "David Whittaker",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "David Whittaker - bubble dizzy.fym",
+            "file": "chiptunes\/David Whittaker\/David Whittaker - bubble dizzy.fym",
+            "pt3": false,
+            "pt3File": null,
+            "author": "David Whittaker",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "David Whittaker - captain fizz meets the blaster - trons.fym",
+            "file": "chiptunes\/David Whittaker\/David Whittaker - captain fizz meets the blaster - trons.fym",
+            "pt3": false,
+            "pt3File": null,
+            "author": "David Whittaker",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "David Whittaker - chip_s challenge.fym",
+            "file": "chiptunes\/David Whittaker\/David Whittaker - chip_s challenge.fym",
+            "pt3": false,
+            "pt3File": null,
+            "author": "David Whittaker",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "David Whittaker - combat school.fym",
+            "file": "chiptunes\/David Whittaker\/David Whittaker - combat school.fym",
+            "pt3": false,
+            "pt3File": null,
+            "author": "David Whittaker",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "David Whittaker - dan dare 3.fym",
+            "file": "chiptunes\/David Whittaker\/David Whittaker - dan dare 3.fym",
+            "pt3": false,
+            "pt3File": null,
+            "author": "David Whittaker",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "David Whittaker - death stalker.fym",
+            "file": "chiptunes\/David Whittaker\/David Whittaker - death stalker.fym",
+            "pt3": false,
+            "pt3File": null,
+            "author": "David Whittaker",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "David Whittaker - defcom.fym",
+            "file": "chiptunes\/David Whittaker\/David Whittaker - defcom.fym",
+            "pt3": false,
+            "pt3File": null,
+            "author": "David Whittaker",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "David Whittaker - elevator action.fym",
+            "file": "chiptunes\/David Whittaker\/David Whittaker - elevator action.fym",
+            "pt3": false,
+            "pt3File": null,
+            "author": "David Whittaker",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "David Whittaker - fantasy world dizzy.fym",
+            "file": "chiptunes\/David Whittaker\/David Whittaker - fantasy world dizzy.fym",
+            "pt3": false,
+            "pt3File": null,
+            "author": "David Whittaker",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "David Whittaker - fast food dizzy.fym",
+            "file": "chiptunes\/David Whittaker\/David Whittaker - fast food dizzy.fym",
+            "pt3": false,
+            "pt3File": null,
+            "author": "David Whittaker",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "David Whittaker - four soccer simulators.fym",
+            "file": "chiptunes\/David Whittaker\/David Whittaker - four soccer simulators.fym",
+            "pt3": false,
+            "pt3File": null,
+            "author": "David Whittaker",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "David Whittaker - fruit machine simulator 2.fym",
+            "file": "chiptunes\/David Whittaker\/David Whittaker - fruit machine simulator 2.fym",
+            "pt3": false,
+            "pt3File": null,
+            "author": "David Whittaker",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "David Whittaker - fruit machine simulator.fym",
+            "file": "chiptunes\/David Whittaker\/David Whittaker - fruit machine simulator.fym",
+            "pt3": false,
+            "pt3File": null,
+            "author": "David Whittaker",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "David Whittaker - ghostbusters 2.fym",
+            "file": "chiptunes\/David Whittaker\/David Whittaker - ghostbusters 2.fym",
+            "pt3": false,
+            "pt3File": null,
+            "author": "David Whittaker",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "David Whittaker - glider rider.fym",
+            "file": "chiptunes\/David Whittaker\/David Whittaker - glider rider.fym",
+            "pt3": false,
+            "pt3File": null,
+            "author": "David Whittaker",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "David Whittaker - grand prix simulator 2.fym",
+            "file": "chiptunes\/David Whittaker\/David Whittaker - grand prix simulator 2.fym",
+            "pt3": false,
+            "pt3File": null,
+            "author": "David Whittaker",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "David Whittaker - grand prix simulator.fym",
+            "file": "chiptunes\/David Whittaker\/David Whittaker - grand prix simulator.fym",
+            "pt3": false,
+            "pt3File": null,
+            "author": "David Whittaker",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "David Whittaker - grange hill.fym",
+            "file": "chiptunes\/David Whittaker\/David Whittaker - grange hill.fym",
+            "pt3": false,
+            "pt3File": null,
+            "author": "David Whittaker",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "David Whittaker - gryzor.fym",
+            "file": "chiptunes\/David Whittaker\/David Whittaker - gryzor.fym",
+            "pt3": false,
+            "pt3File": null,
+            "author": "David Whittaker",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "David Whittaker - hades nebula.fym",
+            "file": "chiptunes\/David Whittaker\/David Whittaker - hades nebula.fym",
+            "pt3": false,
+            "pt3File": null,
+            "author": "David Whittaker",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "David Whittaker - infection.fym",
+            "file": "chiptunes\/David Whittaker\/David Whittaker - infection.fym",
+            "pt3": false,
+            "pt3File": null,
+            "author": "David Whittaker",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "David Whittaker - international rugby simulator.fym",
+            "file": "chiptunes\/David Whittaker\/David Whittaker - international rugby simulator.fym",
+            "pt3": false,
+            "pt3File": null,
+            "author": "David Whittaker",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "David Whittaker - international speedway.fym",
+            "file": "chiptunes\/David Whittaker\/David Whittaker - international speedway.fym",
+            "pt3": false,
+            "pt3File": null,
+            "author": "David Whittaker",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "David Whittaker - jet bike simulator.fym",
+            "file": "chiptunes\/David Whittaker\/David Whittaker - jet bike simulator.fym",
+            "pt3": false,
+            "pt3File": null,
+            "author": "David Whittaker",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "David Whittaker - knight tyme.fym",
+            "file": "chiptunes\/David Whittaker\/David Whittaker - knight tyme.fym",
+            "pt3": false,
+            "pt3File": null,
+            "author": "David Whittaker",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "David Whittaker - leviathan.fym",
+            "file": "chiptunes\/David Whittaker\/David Whittaker - leviathan.fym",
+            "pt3": false,
+            "pt3File": null,
+            "author": "David Whittaker",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "David Whittaker - loopz.fym",
+            "file": "chiptunes\/David Whittaker\/David Whittaker - loopz.fym",
+            "pt3": false,
+            "pt3File": null,
+            "author": "David Whittaker",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "David Whittaker - magic land dizzy.fym",
+            "file": "chiptunes\/David Whittaker\/David Whittaker - magic land dizzy.fym",
+            "pt3": false,
+            "pt3File": null,
+            "author": "David Whittaker",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "David Whittaker - milk race.fym",
+            "file": "chiptunes\/David Whittaker\/David Whittaker - milk race.fym",
+            "pt3": false,
+            "pt3File": null,
+            "author": "David Whittaker",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "David Whittaker - monte carlo casino.fym",
+            "file": "chiptunes\/David Whittaker\/David Whittaker - monte carlo casino.fym",
+            "pt3": false,
+            "pt3File": null,
+            "author": "David Whittaker",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "David Whittaker - operation gunship.fym",
+            "file": "chiptunes\/David Whittaker\/David Whittaker - operation gunship.fym",
+            "pt3": false,
+            "pt3File": null,
+            "author": "David Whittaker",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "David Whittaker - platoon.fym",
+            "file": "chiptunes\/David Whittaker\/David Whittaker - platoon.fym",
+            "pt3": false,
+            "pt3File": null,
+            "author": "David Whittaker",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "David Whittaker - prince of the yolk folk.fym",
+            "file": "chiptunes\/David Whittaker\/David Whittaker - prince of the yolk folk.fym",
+            "pt3": false,
+            "pt3File": null,
+            "author": "David Whittaker",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "David Whittaker - pro bmx simulator 2.fym",
+            "file": "chiptunes\/David Whittaker\/David Whittaker - pro bmx simulator 2.fym",
+            "pt3": false,
+            "pt3File": null,
+            "author": "David Whittaker",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "David Whittaker - pro bmx simulator.fym",
+            "file": "chiptunes\/David Whittaker\/David Whittaker - pro bmx simulator.fym",
+            "pt3": false,
+            "pt3File": null,
+            "author": "David Whittaker",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "David Whittaker - professional skateboard simulator.fym",
+            "file": "chiptunes\/David Whittaker\/David Whittaker - professional skateboard simulator.fym",
+            "pt3": false,
+            "pt3File": null,
+            "author": "David Whittaker",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "David Whittaker - savage.fym",
+            "file": "chiptunes\/David Whittaker\/David Whittaker - savage.fym",
+            "pt3": false,
+            "pt3File": null,
+            "author": "David Whittaker",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "David Whittaker - shadow of the beast.fym",
+            "file": "chiptunes\/David Whittaker\/David Whittaker - shadow of the beast.fym",
+            "pt3": false,
+            "pt3File": null,
+            "author": "David Whittaker",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "David Whittaker - sky high stunt man.fym",
+            "file": "chiptunes\/David Whittaker\/David Whittaker - sky high stunt man.fym",
+            "pt3": false,
+            "pt3File": null,
+            "author": "David Whittaker",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "David Whittaker - spellbound dizzy.fym",
+            "file": "chiptunes\/David Whittaker\/David Whittaker - spellbound dizzy.fym",
+            "pt3": false,
+            "pt3File": null,
+            "author": "David Whittaker",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "David Whittaker - spitting image.fym",
+            "file": "chiptunes\/David Whittaker\/David Whittaker - spitting image.fym",
+            "pt3": false,
+            "pt3File": null,
+            "author": "David Whittaker",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "David Whittaker - split personalities.fym",
+            "file": "chiptunes\/David Whittaker\/David Whittaker - split personalities.fym",
+            "pt3": false,
+            "pt3File": null,
+            "author": "David Whittaker",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "David Whittaker - star wars.fym",
+            "file": "chiptunes\/David Whittaker\/David Whittaker - star wars.fym",
+            "pt3": false,
+            "pt3File": null,
+            "author": "David Whittaker",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "David Whittaker - stormbringer.fym",
+            "file": "chiptunes\/David Whittaker\/David Whittaker - stormbringer.fym",
+            "pt3": false,
+            "pt3File": null,
+            "author": "David Whittaker",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "David Whittaker - super robin hood.fym",
+            "file": "chiptunes\/David Whittaker\/David Whittaker - super robin hood.fym",
+            "pt3": false,
+            "pt3File": null,
+            "author": "David Whittaker",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "David Whittaker - super stuntman.fym",
+            "file": "chiptunes\/David Whittaker\/David Whittaker - super stuntman.fym",
+            "pt3": false,
+            "pt3File": null,
+            "author": "David Whittaker",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "David Whittaker - terrormeter.fym",
+            "file": "chiptunes\/David Whittaker\/David Whittaker - terrormeter.fym",
+            "pt3": false,
+            "pt3File": null,
+            "author": "David Whittaker",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "David Whittaker - tetris.fym",
+            "file": "chiptunes\/David Whittaker\/David Whittaker - tetris.fym",
+            "pt3": false,
+            "pt3File": null,
+            "author": "David Whittaker",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "David Whittaker - the tube.fym",
+            "file": "chiptunes\/David Whittaker\/David Whittaker - the tube.fym",
+            "pt3": false,
+            "pt3File": null,
+            "author": "David Whittaker",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "David Whittaker - transmuter.fym",
+            "file": "chiptunes\/David Whittaker\/David Whittaker - transmuter.fym",
+            "pt3": false,
+            "pt3File": null,
+            "author": "David Whittaker",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "David Whittaker - trantor the last storm trooper.fym",
+            "file": "chiptunes\/David Whittaker\/David Whittaker - trantor the last storm trooper.fym",
+            "pt3": false,
+            "pt3File": null,
+            "author": "David Whittaker",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "David Whittaker - treasure island dizzy.fym",
+            "file": "chiptunes\/David Whittaker\/David Whittaker - treasure island dizzy.fym",
+            "pt3": false,
+            "pt3File": null,
+            "author": "David Whittaker",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "David Whittaker - xenon.fym",
+            "file": "chiptunes\/David Whittaker\/David Whittaker - xenon.fym",
+            "pt3": false,
+            "pt3File": null,
+            "author": "David Whittaker",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "David Whittaker - zub.fym",
+            "file": "chiptunes\/David Whittaker\/David Whittaker - zub.fym",
+            "pt3": false,
+            "pt3File": null,
+            "author": "David Whittaker",
+            "section": null,
+            "channels": 3
         },
         {
             "name": "17IOFS.pt3",
@@ -40956,7 +40804,7 @@
             "pt3": false,
             "author": "Jhon",
             "section": null,
-            "channels": 3
+            "channels": 6
         },
         {
             "name": "Johnny McGibbitts - Computer Bounce.pt3",
@@ -40967,144 +40815,144 @@
             "channels": 6
         },
         {
-            "name": "Robocop.ay",
-            "file": "chiptunes\/Jonathan Dunn\/1987\/Robocop.ay",
+            "name": "Jonathan Dunn - Robocop.ay",
+            "file": "chiptunes\/Jonathan Dunn\/1987\/Jonathan Dunn - Robocop.ay",
             "pt3": false,
             "author": "Jonathan Dunn",
             "section": "1987",
             "channels": 3
         },
         {
-            "name": "Daley Thompson's Olympic Challenge.ay",
-            "file": "chiptunes\/Jonathan Dunn\/1988\/Daley Thompson's Olympic Challenge.ay",
+            "name": "Jonathan Dunn - Daley Thompson's Olympic Challenge.ay",
+            "file": "chiptunes\/Jonathan Dunn\/1988\/Jonathan Dunn - Daley Thompson's Olympic Challenge.ay",
             "pt3": false,
             "author": "Jonathan Dunn",
             "section": "1988",
             "channels": 3
         },
         {
-            "name": "Guerrilla War.ay",
-            "file": "chiptunes\/Jonathan Dunn\/1988\/Guerrilla War.ay",
+            "name": "Jonathan Dunn - Guerrilla War.ay",
+            "file": "chiptunes\/Jonathan Dunn\/1988\/Jonathan Dunn - Guerrilla War.ay",
             "pt3": false,
             "author": "Jonathan Dunn",
             "section": "1988",
             "channels": 3
         },
         {
-            "name": "Operation Wolf.ay",
-            "file": "chiptunes\/Jonathan Dunn\/1988\/Operation Wolf.ay",
+            "name": "Jonathan Dunn - Operation Wolf.ay",
+            "file": "chiptunes\/Jonathan Dunn\/1988\/Jonathan Dunn - Operation Wolf.ay",
             "pt3": false,
             "author": "Jonathan Dunn",
             "section": "1988",
             "channels": 3
         },
         {
-            "name": "Rambo 3.ay",
-            "file": "chiptunes\/Jonathan Dunn\/1988\/Rambo 3.ay",
+            "name": "Jonathan Dunn - Rambo 3.ay",
+            "file": "chiptunes\/Jonathan Dunn\/1988\/Jonathan Dunn - Rambo 3.ay",
             "pt3": false,
             "author": "Jonathan Dunn",
             "section": "1988",
             "channels": 3
         },
         {
-            "name": "Target Renegade.ay",
-            "file": "chiptunes\/Jonathan Dunn\/1988\/Target Renegade.ay",
+            "name": "Jonathan Dunn - Target Renegade.ay",
+            "file": "chiptunes\/Jonathan Dunn\/1988\/Jonathan Dunn - Target Renegade.ay",
             "pt3": false,
             "author": "Jonathan Dunn",
             "section": "1988",
             "channels": 3
         },
         {
-            "name": "Typhoon.ay",
-            "file": "chiptunes\/Jonathan Dunn\/1988\/Typhoon.ay",
+            "name": "Jonathan Dunn - Typhoon.ay",
+            "file": "chiptunes\/Jonathan Dunn\/1988\/Jonathan Dunn - Typhoon.ay",
             "pt3": false,
             "author": "Jonathan Dunn",
             "section": "1988",
             "channels": 3
         },
         {
-            "name": "Vindicator.ay",
-            "file": "chiptunes\/Jonathan Dunn\/1988\/Vindicator.ay",
+            "name": "Jonathan Dunn - Vindicator.ay",
+            "file": "chiptunes\/Jonathan Dunn\/1988\/Jonathan Dunn - Vindicator.ay",
             "pt3": false,
             "author": "Jonathan Dunn",
             "section": "1988",
             "channels": 3
         },
         {
-            "name": "Wec Le Mans.ay",
-            "file": "chiptunes\/Jonathan Dunn\/1988\/Wec Le Mans.ay",
+            "name": "Jonathan Dunn - Wec Le Mans.ay",
+            "file": "chiptunes\/Jonathan Dunn\/1988\/Jonathan Dunn - Wec Le Mans.ay",
             "pt3": false,
             "author": "Jonathan Dunn",
             "section": "1988",
             "channels": 3
         },
         {
-            "name": "Chase Hq.ay",
-            "file": "chiptunes\/Jonathan Dunn\/1989\/Chase Hq.ay",
+            "name": "Jonathan Dunn - Chase Hq.ay",
+            "file": "chiptunes\/Jonathan Dunn\/1989\/Jonathan Dunn - Chase Hq.ay",
             "pt3": false,
             "author": "Jonathan Dunn",
             "section": "1989",
             "channels": 3
         },
         {
-            "name": "Renegade 3 - The Final Chapter.ay",
-            "file": "chiptunes\/Jonathan Dunn\/1989\/Renegade 3 - The Final Chapter.ay",
+            "name": "Jonathan Dunn - Renegade 3 - The Final Chapter.ay",
+            "file": "chiptunes\/Jonathan Dunn\/1989\/Jonathan Dunn - Renegade 3 - The Final Chapter.ay",
             "pt3": false,
             "author": "Jonathan Dunn",
             "section": "1989",
             "channels": 3
         },
         {
-            "name": "The New Zealand Story.ay",
-            "file": "chiptunes\/Jonathan Dunn\/1989\/The New Zealand Story.ay",
+            "name": "Jonathan Dunn - The New Zealand Story.ay",
+            "file": "chiptunes\/Jonathan Dunn\/1989\/Jonathan Dunn - The New Zealand Story.ay",
             "pt3": false,
             "author": "Jonathan Dunn",
             "section": "1989",
             "channels": 3
         },
         {
-            "name": "Puzznic.ay",
-            "file": "chiptunes\/Jonathan Dunn\/1990\/Puzznic.ay",
+            "name": "Jonathan Dunn - Puzznic.ay",
+            "file": "chiptunes\/Jonathan Dunn\/1990\/Jonathan Dunn - Puzznic.ay",
             "pt3": false,
             "author": "Jonathan Dunn",
             "section": "1990",
             "channels": 3
         },
         {
-            "name": "Battle Command.ay",
-            "file": "chiptunes\/Jonathan Dunn\/1991\/Battle Command.ay",
+            "name": "Jonathan Dunn - Battle Command.ay",
+            "file": "chiptunes\/Jonathan Dunn\/1991\/Jonathan Dunn - Battle Command.ay",
             "pt3": false,
             "author": "Jonathan Dunn",
             "section": "1991",
             "channels": 3
         },
         {
-            "name": "Darkman.ay",
-            "file": "chiptunes\/Jonathan Dunn\/1991\/Darkman.ay",
+            "name": "Jonathan Dunn - Darkman.ay",
+            "file": "chiptunes\/Jonathan Dunn\/1991\/Jonathan Dunn - Darkman.ay",
             "pt3": false,
             "author": "Jonathan Dunn",
             "section": "1991",
             "channels": 3
         },
         {
-            "name": "Simpsons - Bart Vs The Space Mutants .ay",
-            "file": "chiptunes\/Jonathan Dunn\/1991\/Simpsons - Bart Vs The Space Mutants .ay",
+            "name": "Jonathan Dunn - Simpsons - Bart Vs The Space Mutants .ay",
+            "file": "chiptunes\/Jonathan Dunn\/1991\/Jonathan Dunn - Simpsons - Bart Vs The Space Mutants .ay",
             "pt3": false,
             "author": "Jonathan Dunn",
             "section": "1991",
             "channels": 3
         },
         {
-            "name": "The Addams Family.ay",
-            "file": "chiptunes\/Jonathan Dunn\/1991\/The Addams Family.ay",
+            "name": "Jonathan Dunn - The Addams Family.ay",
+            "file": "chiptunes\/Jonathan Dunn\/1991\/Jonathan Dunn - The Addams Family.ay",
             "pt3": false,
             "author": "Jonathan Dunn",
             "section": "1991",
             "channels": 3
         },
         {
-            "name": "Total Recall.ay",
-            "file": "chiptunes\/Jonathan Dunn\/1991\/Total Recall.ay",
+            "name": "Jonathan Dunn - Total Recall.ay",
+            "file": "chiptunes\/Jonathan Dunn\/1991\/Jonathan Dunn - Total Recall.ay",
             "pt3": false,
             "author": "Jonathan Dunn",
             "section": "1991",
@@ -42813,6 +42661,14 @@
             "author": "Karbofos",
             "section": null,
             "channels": 3
+        },
+        {
+            "name": "Karbofos - Po reke plyvet topor ulibaetsa egor (2007) (DiHalt 2007, 2).tfc",
+            "file": "chiptunes\/Karbofos\/tfc\/Karbofos - Po reke plyvet topor ulibaetsa egor (2007) (DiHalt 2007, 2).tfc",
+            "pt3": false,
+            "author": "Karbofos",
+            "section": "tfc",
+            "channels": 6
         },
         {
             "name": "KENO1.pt3",
@@ -61162,6 +61018,22 @@
             "channels": 6
         },
         {
+            "name": "nq - I'm gonna be your wife! (2007).tfc",
+            "file": "chiptunes\/Nik-O\/nq - I'm gonna be your wife! (2007).tfc",
+            "pt3": false,
+            "author": "Nik-O",
+            "section": null,
+            "channels": 6
+        },
+        {
+            "name": "nq - Nothing else just skrju loves us (2007) (DiHalt 2007, 6).tfc",
+            "file": "chiptunes\/Nik-O\/nq - Nothing else just skrju loves us (2007) (DiHalt 2007, 6).tfc",
+            "pt3": false,
+            "author": "Nik-O",
+            "section": null,
+            "channels": 6
+        },
+        {
             "name": "echologia1.fym",
             "file": "chiptunes\/Noro\/echologia1.fym",
             "pt3": false,
@@ -61412,6 +61284,174 @@
             "author": "Noro",
             "section": null,
             "channels": 3
+        },
+        {
+            "name": "Oerg866 - ACAB - class 08 (1).tfc",
+            "file": "chiptunes\/Oerg866\/Oerg866 - ACAB - class 08 (1).tfc",
+            "pt3": false,
+            "author": "Oerg866",
+            "section": null,
+            "channels": 6
+        },
+        {
+            "name": "Oerg866 - ACAB - class 08.tfc",
+            "file": "chiptunes\/Oerg866\/Oerg866 - ACAB - class 08.tfc",
+            "pt3": false,
+            "author": "Oerg866",
+            "section": null,
+            "channels": 6
+        },
+        {
+            "name": "Oerg866 - Acidjazzed evening v2.tfc",
+            "file": "chiptunes\/Oerg866\/Oerg866 - Acidjazzed evening v2.tfc",
+            "pt3": false,
+            "author": "Oerg866",
+            "section": null,
+            "channels": 6
+        },
+        {
+            "name": "Oerg866 - All of me.tfc",
+            "file": "chiptunes\/Oerg866\/Oerg866 - All of me.tfc",
+            "pt3": false,
+            "author": "Oerg866",
+            "section": null,
+            "channels": 6
+        },
+        {
+            "name": "Oerg866 - At0mic playboys v2.tfc",
+            "file": "chiptunes\/Oerg866\/Oerg866 - At0mic playboys v2.tfc",
+            "pt3": false,
+            "author": "Oerg866",
+            "section": null,
+            "channels": 6
+        },
+        {
+            "name": "Oerg866 - At0mic playboys.tfc",
+            "file": "chiptunes\/Oerg866\/Oerg866 - At0mic playboys.tfc",
+            "pt3": false,
+            "author": "Oerg866",
+            "section": null,
+            "channels": 6
+        },
+        {
+            "name": "Oerg866 - Avgn2 wip.tfc",
+            "file": "chiptunes\/Oerg866\/Oerg866 - Avgn2 wip.tfc",
+            "pt3": false,
+            "author": "Oerg866",
+            "section": null,
+            "channels": 6
+        },
+        {
+            "name": "Oerg866 - Chiptunes Save The World.tfc",
+            "file": "chiptunes\/Oerg866\/Oerg866 - Chiptunes Save The World.tfc",
+            "pt3": false,
+            "author": "Oerg866",
+            "section": null,
+            "channels": 6
+        },
+        {
+            "name": "Oerg866 - Chronologie Part 4 Mix.tfc",
+            "file": "chiptunes\/Oerg866\/Oerg866 - Chronologie Part 4 Mix.tfc",
+            "pt3": false,
+            "author": "Oerg866",
+            "section": null,
+            "channels": 6
+        },
+        {
+            "name": "Oerg866 - Civilian.tfc",
+            "file": "chiptunes\/Oerg866\/Oerg866 - Civilian.tfc",
+            "pt3": false,
+            "author": "Oerg866",
+            "section": null,
+            "channels": 6
+        },
+        {
+            "name": "Oerg866 - Class 05.tfc",
+            "file": "chiptunes\/Oerg866\/Oerg866 - Class 05.tfc",
+            "pt3": false,
+            "author": "Oerg866",
+            "section": null,
+            "channels": 6
+        },
+        {
+            "name": "Oerg866 - Class 11.tfc",
+            "file": "chiptunes\/Oerg866\/Oerg866 - Class 11.tfc",
+            "pt3": false,
+            "author": "Oerg866",
+            "section": null,
+            "channels": 6
+        },
+        {
+            "name": "Oerg866 - Commercial Rhythm.tfc",
+            "file": "chiptunes\/Oerg866\/Oerg866 - Commercial Rhythm.tfc",
+            "pt3": false,
+            "author": "Oerg866",
+            "section": null,
+            "channels": 6
+        },
+        {
+            "name": "Oerg866 - Credits.tfc",
+            "file": "chiptunes\/Oerg866\/Oerg866 - Credits.tfc",
+            "pt3": false,
+            "author": "Oerg866",
+            "section": null,
+            "channels": 6
+        },
+        {
+            "name": "Oerg866 - Demo tfm.tfc",
+            "file": "chiptunes\/Oerg866\/Oerg866 - Demo tfm.tfc",
+            "pt3": false,
+            "author": "Oerg866",
+            "section": null,
+            "channels": 6
+        },
+        {
+            "name": "Oerg866 - Die Trachtenpuppe.tfc",
+            "file": "chiptunes\/Oerg866\/Oerg866 - Die Trachtenpuppe.tfc",
+            "pt3": false,
+            "author": "Oerg866",
+            "section": null,
+            "channels": 6
+        },
+        {
+            "name": "Oerg866 - Grant Kelly.tfc",
+            "file": "chiptunes\/Oerg866\/Oerg866 - Grant Kelly.tfc",
+            "pt3": false,
+            "author": "Oerg866",
+            "section": null,
+            "channels": 6
+        },
+        {
+            "name": "Oerg866 - Imploder remix.tfc",
+            "file": "chiptunes\/Oerg866\/Oerg866 - Imploder remix.tfc",
+            "pt3": false,
+            "author": "Oerg866",
+            "section": null,
+            "channels": 6
+        },
+        {
+            "name": "Oerg866 - Legends never die.tfc",
+            "file": "chiptunes\/Oerg866\/Oerg866 - Legends never die.tfc",
+            "pt3": false,
+            "author": "Oerg866",
+            "section": null,
+            "channels": 6
+        },
+        {
+            "name": "Oerg866 - Lovely chip music.tfc",
+            "file": "chiptunes\/Oerg866\/Oerg866 - Lovely chip music.tfc",
+            "pt3": false,
+            "author": "Oerg866",
+            "section": null,
+            "channels": 6
+        },
+        {
+            "name": "Oerg866 - Unreeeal superhero 3.tfc",
+            "file": "chiptunes\/Oerg866\/Oerg866 - Unreeeal superhero 3.tfc",
+            "pt3": false,
+            "author": "Oerg866",
+            "section": null,
+            "channels": 6
         },
         {
             "name": "dano.snd",
@@ -63368,6 +63408,30 @@
             "author": "Phantom lord",
             "section": null,
             "channels": 3
+        },
+        {
+            "name": "Pinball Wizzard - Blue Monday.tfc",
+            "file": "chiptunes\/Pinball Wizzard\/Pinball Wizzard - Blue Monday.tfc",
+            "pt3": false,
+            "author": "Pinball Wizzard",
+            "section": null,
+            "channels": 6
+        },
+        {
+            "name": "Pinball Wizzard, Shiru - Another It (arranged).tfc",
+            "file": "chiptunes\/Pinball Wizzard\/Pinball Wizzard, Shiru - Another It (arranged).tfc",
+            "pt3": false,
+            "author": "Pinball Wizzard",
+            "section": null,
+            "channels": 6
+        },
+        {
+            "name": "Pinball Wizzard, Shiru - Another It.tfc",
+            "file": "chiptunes\/Pinball Wizzard\/Pinball Wizzard, Shiru - Another It.tfc",
+            "pt3": false,
+            "author": "Pinball Wizzard",
+            "section": null,
+            "channels": 6
         },
         {
             "name": "100hz.fym",
@@ -66069,8 +66133,72 @@
             "channels": 3
         },
         {
+            "name": "Renegade - Depeche mode mix.tfc",
+            "file": "chiptunes\/Renegade\/Renegade - Depeche mode mix.tfc",
+            "pt3": false,
+            "author": "Renegade",
+            "section": null,
+            "channels": 6
+        },
+        {
+            "name": "Renegade - Depress.tfc",
+            "file": "chiptunes\/Renegade\/Renegade - Depress.tfc",
+            "pt3": false,
+            "author": "Renegade",
+            "section": null,
+            "channels": 6
+        },
+        {
+            "name": "Renegade - Disco.tfc",
+            "file": "chiptunes\/Renegade\/Renegade - Disco.tfc",
+            "pt3": false,
+            "author": "Renegade",
+            "section": null,
+            "channels": 6
+        },
+        {
+            "name": "Renegade - Intro music.tfc",
+            "file": "chiptunes\/Renegade\/Renegade - Intro music.tfc",
+            "pt3": false,
+            "author": "Renegade",
+            "section": null,
+            "channels": 6
+        },
+        {
             "name": "Renegade - Satellite (TSFM part).pt3",
             "file": "chiptunes\/Renegade\/Renegade - Satellite (TSFM part).pt3",
+            "pt3": false,
+            "author": "Renegade",
+            "section": null,
+            "channels": 6
+        },
+        {
+            "name": "Renegade - Shoir.tfc",
+            "file": "chiptunes\/Renegade\/Renegade - Shoir.tfc",
+            "pt3": false,
+            "author": "Renegade",
+            "section": null,
+            "channels": 6
+        },
+        {
+            "name": "Renegade - Still drdre.tfc",
+            "file": "chiptunes\/Renegade\/Renegade - Still drdre.tfc",
+            "pt3": false,
+            "author": "Renegade",
+            "section": null,
+            "channels": 6
+        },
+        {
+            "name": "Renegade - Unforgiven.tfc",
+            "file": "chiptunes\/Renegade\/Renegade - Unforgiven.tfc",
+            "pt3": false,
+            "author": "Renegade",
+            "section": null,
+            "channels": 6
+        },
+        {
+            "name": "Renegade - tech2tech.tfc",
+            "file": "chiptunes\/Renegade\/Renegade - tech2tech.tfc",
             "pt3": false,
             "author": "Renegade",
             "section": null,
@@ -71224,6 +71352,70 @@
             "channels": 3
         },
         {
+            "name": "Shiru - Deep (party version) (2008) (DiHalt 2008, 1).tfc",
+            "file": "chiptunes\/Shiru\/Shiru - Deep (party version) (2008) (DiHalt 2008, 1).tfc",
+            "pt3": false,
+            "author": "Shiru",
+            "section": null,
+            "channels": 6
+        },
+        {
+            "name": "Shiru - Duck Tales (NES) - Moon.tfc",
+            "file": "chiptunes\/Shiru\/Shiru - Duck Tales (NES) - Moon.tfc",
+            "pt3": false,
+            "author": "Shiru",
+            "section": null,
+            "channels": 6
+        },
+        {
+            "name": "Shiru - Hazard Lights (2010) (DiHalt 2010, 1).tfc",
+            "file": "chiptunes\/Shiru\/Shiru - Hazard Lights (2010) (DiHalt 2010, 1).tfc",
+            "pt3": false,
+            "author": "Shiru",
+            "section": null,
+            "channels": 6
+        },
+        {
+            "name": "Shiru - Space standart.tfc",
+            "file": "chiptunes\/Shiru\/Shiru - Space standart.tfc",
+            "pt3": false,
+            "author": "Shiru",
+            "section": null,
+            "channels": 6
+        },
+        {
+            "name": "Shiru - Stars Are Calling.tfc",
+            "file": "chiptunes\/Shiru\/Shiru - Stars Are Calling.tfc",
+            "pt3": false,
+            "author": "Shiru",
+            "section": null,
+            "channels": 6
+        },
+        {
+            "name": "Shiru - Top Gun The Second Mission (NES) - Level 2.tfc",
+            "file": "chiptunes\/Shiru\/Shiru - Top Gun The Second Mission (NES) - Level 2.tfc",
+            "pt3": false,
+            "author": "Shiru",
+            "section": null,
+            "channels": 6
+        },
+        {
+            "name": "Shiru - UWOL (Menu theme).tfc",
+            "file": "chiptunes\/Shiru\/Shiru - UWOL (Menu theme).tfc",
+            "pt3": false,
+            "author": "Shiru",
+            "section": null,
+            "channels": 6
+        },
+        {
+            "name": "Shiru - VolleyFire (GameBoy) - Area A.tfc",
+            "file": "chiptunes\/Shiru\/Shiru - VolleyFire (GameBoy) - Area A.tfc",
+            "pt3": false,
+            "author": "Shiru",
+            "section": null,
+            "channels": 6
+        },
+        {
             "name": "Shiru - castlevania.pt3",
             "file": "chiptunes\/Shiru\/Shiru - castlevania.pt3",
             "pt3": false,
@@ -73068,24 +73260,6 @@
             "channels": 6
         },
         {
-            "name": "crazzyhouse1.fym",
-            "file": "chiptunes\/Splinter\/crazzyhouse1.fym",
-            "pt3": false,
-            "pt3File": null,
-            "author": "Splinter",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "crazzyhouse2.fym",
-            "file": "chiptunes\/Splinter\/crazzyhouse2.fym",
-            "pt3": false,
-            "pt3File": null,
-            "author": "Splinter",
-            "section": null,
-            "channels": 3
-        },
-        {
             "name": "dizzy.fym",
             "file": "chiptunes\/Splinter\/dizzy.fym",
             "pt3": false,
@@ -73106,42 +73280,6 @@
         {
             "name": "domen2.fym",
             "file": "chiptunes\/Splinter\/domen2.fym",
-            "pt3": false,
-            "pt3File": null,
-            "author": "Splinter",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "illberemember1.fym",
-            "file": "chiptunes\/Splinter\/illberemember1.fym",
-            "pt3": false,
-            "pt3File": null,
-            "author": "Splinter",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "illberemember2.fym",
-            "file": "chiptunes\/Splinter\/illberemember2.fym",
-            "pt3": false,
-            "pt3File": null,
-            "author": "Splinter",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "ineedrest.fym",
-            "file": "chiptunes\/Splinter\/ineedrest.fym",
-            "pt3": false,
-            "pt3File": null,
-            "author": "Splinter",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "ineedrest2.fym",
-            "file": "chiptunes\/Splinter\/ineedrest2.fym",
             "pt3": false,
             "pt3File": null,
             "author": "Splinter",
@@ -73203,44 +73341,8 @@
             "channels": 3
         },
         {
-            "name": "mermaid1.fym",
-            "file": "chiptunes\/Splinter\/mermaid1.fym",
-            "pt3": false,
-            "pt3File": null,
-            "author": "Splinter",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "mermaid2.fym",
-            "file": "chiptunes\/Splinter\/mermaid2.fym",
-            "pt3": false,
-            "pt3File": null,
-            "author": "Splinter",
-            "section": null,
-            "channels": 3
-        },
-        {
             "name": "night.fym",
             "file": "chiptunes\/Splinter\/night.fym",
-            "pt3": false,
-            "pt3File": null,
-            "author": "Splinter",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "night1.fym",
-            "file": "chiptunes\/Splinter\/night1.fym",
-            "pt3": false,
-            "pt3File": null,
-            "author": "Splinter",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "night2.fym",
-            "file": "chiptunes\/Splinter\/night2.fym",
             "pt3": false,
             "pt3File": null,
             "author": "Splinter",
@@ -73257,44 +73359,8 @@
             "channels": 3
         },
         {
-            "name": "nowtrance1.fym",
-            "file": "chiptunes\/Splinter\/nowtrance1.fym",
-            "pt3": false,
-            "pt3File": null,
-            "author": "Splinter",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "nowtrance2.fym",
-            "file": "chiptunes\/Splinter\/nowtrance2.fym",
-            "pt3": false,
-            "pt3File": null,
-            "author": "Splinter",
-            "section": null,
-            "channels": 3
-        },
-        {
             "name": "pinkvision.fym",
             "file": "chiptunes\/Splinter\/pinkvision.fym",
-            "pt3": false,
-            "pt3File": null,
-            "author": "Splinter",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "pinkvision1.fym",
-            "file": "chiptunes\/Splinter\/pinkvision1.fym",
-            "pt3": false,
-            "pt3File": null,
-            "author": "Splinter",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "pinkvision2.fym",
-            "file": "chiptunes\/Splinter\/pinkvision2.fym",
             "pt3": false,
             "pt3File": null,
             "author": "Splinter",
@@ -73340,24 +73406,6 @@
         {
             "name": "sparks.fym",
             "file": "chiptunes\/Splinter\/sparks.fym",
-            "pt3": false,
-            "pt3File": null,
-            "author": "Splinter",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "stars1.fym",
-            "file": "chiptunes\/Splinter\/stars1.fym",
-            "pt3": false,
-            "pt3File": null,
-            "author": "Splinter",
-            "section": null,
-            "channels": 3
-        },
-        {
-            "name": "stars2.fym",
-            "file": "chiptunes\/Splinter\/stars2.fym",
             "pt3": false,
             "pt3File": null,
             "author": "Splinter",
@@ -74360,6 +74408,22 @@
             "author": "Tim Follin",
             "section": null,
             "channels": 3
+        },
+        {
+            "name": "TmK - Life song.tfc",
+            "file": "chiptunes\/TmK\/TmK - Life song.tfc",
+            "pt3": false,
+            "author": "TmK",
+            "section": null,
+            "channels": 6
+        },
+        {
+            "name": "TmK - Unbelievable Flying.tfc",
+            "file": "chiptunes\/TmK\/TmK - Unbelievable Flying.tfc",
+            "pt3": false,
+            "author": "TmK",
+            "section": null,
+            "channels": 6
         },
         {
             "name": "Tobikomi - Every Breath You Take - AY.pt3",
@@ -92117,366 +92181,6 @@
             "channels": 3
         },
         {
-            "name": "Karbofos - Po reke plyvet topor ulibaetsa egor (2007) (DiHalt 2007, 2).tfc",
-            "file": "chiptunes\/_tfc\/Karbofos - Po reke plyvet topor ulibaetsa egor (2007) (DiHalt 2007, 2).tfc",
-            "pt3": false,
-            "author": "_tfc",
-            "section": null,
-            "channels": 6
-        },
-        {
-            "name": "Oerg866 - ACAB - class 08 (1).tfc",
-            "file": "chiptunes\/_tfc\/Oerg866 - ACAB - class 08 (1).tfc",
-            "pt3": false,
-            "author": "_tfc",
-            "section": null,
-            "channels": 6
-        },
-        {
-            "name": "Oerg866 - ACAB - class 08.tfc",
-            "file": "chiptunes\/_tfc\/Oerg866 - ACAB - class 08.tfc",
-            "pt3": false,
-            "author": "_tfc",
-            "section": null,
-            "channels": 6
-        },
-        {
-            "name": "Oerg866 - Acidjazzed evening v2.tfc",
-            "file": "chiptunes\/_tfc\/Oerg866 - Acidjazzed evening v2.tfc",
-            "pt3": false,
-            "author": "_tfc",
-            "section": null,
-            "channels": 6
-        },
-        {
-            "name": "Oerg866 - All of me.tfc",
-            "file": "chiptunes\/_tfc\/Oerg866 - All of me.tfc",
-            "pt3": false,
-            "author": "_tfc",
-            "section": null,
-            "channels": 6
-        },
-        {
-            "name": "Oerg866 - At0mic playboys v2.tfc",
-            "file": "chiptunes\/_tfc\/Oerg866 - At0mic playboys v2.tfc",
-            "pt3": false,
-            "author": "_tfc",
-            "section": null,
-            "channels": 6
-        },
-        {
-            "name": "Oerg866 - At0mic playboys.tfc",
-            "file": "chiptunes\/_tfc\/Oerg866 - At0mic playboys.tfc",
-            "pt3": false,
-            "author": "_tfc",
-            "section": null,
-            "channels": 6
-        },
-        {
-            "name": "Oerg866 - Avgn2 wip.tfc",
-            "file": "chiptunes\/_tfc\/Oerg866 - Avgn2 wip.tfc",
-            "pt3": false,
-            "author": "_tfc",
-            "section": null,
-            "channels": 6
-        },
-        {
-            "name": "Oerg866 - Chiptunes Save The World.tfc",
-            "file": "chiptunes\/_tfc\/Oerg866 - Chiptunes Save The World.tfc",
-            "pt3": false,
-            "author": "_tfc",
-            "section": null,
-            "channels": 6
-        },
-        {
-            "name": "Oerg866 - Chronologie Part 4 Mix.tfc",
-            "file": "chiptunes\/_tfc\/Oerg866 - Chronologie Part 4 Mix.tfc",
-            "pt3": false,
-            "author": "_tfc",
-            "section": null,
-            "channels": 6
-        },
-        {
-            "name": "Oerg866 - Civilian.tfc",
-            "file": "chiptunes\/_tfc\/Oerg866 - Civilian.tfc",
-            "pt3": false,
-            "author": "_tfc",
-            "section": null,
-            "channels": 6
-        },
-        {
-            "name": "Oerg866 - Class 05.tfc",
-            "file": "chiptunes\/_tfc\/Oerg866 - Class 05.tfc",
-            "pt3": false,
-            "author": "_tfc",
-            "section": null,
-            "channels": 6
-        },
-        {
-            "name": "Oerg866 - Class 11.tfc",
-            "file": "chiptunes\/_tfc\/Oerg866 - Class 11.tfc",
-            "pt3": false,
-            "author": "_tfc",
-            "section": null,
-            "channels": 6
-        },
-        {
-            "name": "Oerg866 - Commercial Rhythm.tfc",
-            "file": "chiptunes\/_tfc\/Oerg866 - Commercial Rhythm.tfc",
-            "pt3": false,
-            "author": "_tfc",
-            "section": null,
-            "channels": 6
-        },
-        {
-            "name": "Oerg866 - Credits.tfc",
-            "file": "chiptunes\/_tfc\/Oerg866 - Credits.tfc",
-            "pt3": false,
-            "author": "_tfc",
-            "section": null,
-            "channels": 6
-        },
-        {
-            "name": "Oerg866 - Demo tfm.tfc",
-            "file": "chiptunes\/_tfc\/Oerg866 - Demo tfm.tfc",
-            "pt3": false,
-            "author": "_tfc",
-            "section": null,
-            "channels": 6
-        },
-        {
-            "name": "Oerg866 - Die Trachtenpuppe.tfc",
-            "file": "chiptunes\/_tfc\/Oerg866 - Die Trachtenpuppe.tfc",
-            "pt3": false,
-            "author": "_tfc",
-            "section": null,
-            "channels": 6
-        },
-        {
-            "name": "Oerg866 - Grant Kelly.tfc",
-            "file": "chiptunes\/_tfc\/Oerg866 - Grant Kelly.tfc",
-            "pt3": false,
-            "author": "_tfc",
-            "section": null,
-            "channels": 6
-        },
-        {
-            "name": "Oerg866 - Imploder remix.tfc",
-            "file": "chiptunes\/_tfc\/Oerg866 - Imploder remix.tfc",
-            "pt3": false,
-            "author": "_tfc",
-            "section": null,
-            "channels": 6
-        },
-        {
-            "name": "Oerg866 - Legends never die.tfc",
-            "file": "chiptunes\/_tfc\/Oerg866 - Legends never die.tfc",
-            "pt3": false,
-            "author": "_tfc",
-            "section": null,
-            "channels": 6
-        },
-        {
-            "name": "Oerg866 - Lovely chip music.tfc",
-            "file": "chiptunes\/_tfc\/Oerg866 - Lovely chip music.tfc",
-            "pt3": false,
-            "author": "_tfc",
-            "section": null,
-            "channels": 6
-        },
-        {
-            "name": "Oerg866 - Unreeeal superhero 3.tfc",
-            "file": "chiptunes\/_tfc\/Oerg866 - Unreeeal superhero 3.tfc",
-            "pt3": false,
-            "author": "_tfc",
-            "section": null,
-            "channels": 6
-        },
-        {
-            "name": "Pinball Wizzard - Blue Monday.tfc",
-            "file": "chiptunes\/_tfc\/Pinball Wizzard - Blue Monday.tfc",
-            "pt3": false,
-            "author": "_tfc",
-            "section": null,
-            "channels": 6
-        },
-        {
-            "name": "Pinball Wizzard, Shiru - Another It (arranged).tfc",
-            "file": "chiptunes\/_tfc\/Pinball Wizzard, Shiru - Another It (arranged).tfc",
-            "pt3": false,
-            "author": "_tfc",
-            "section": null,
-            "channels": 6
-        },
-        {
-            "name": "Pinball Wizzard, Shiru - Another It.tfc",
-            "file": "chiptunes\/_tfc\/Pinball Wizzard, Shiru - Another It.tfc",
-            "pt3": false,
-            "author": "_tfc",
-            "section": null,
-            "channels": 6
-        },
-        {
-            "name": "Renegade - Depeche mode mix.tfc",
-            "file": "chiptunes\/_tfc\/Renegade - Depeche mode mix.tfc",
-            "pt3": false,
-            "author": "_tfc",
-            "section": null,
-            "channels": 6
-        },
-        {
-            "name": "Renegade - Depress.tfc",
-            "file": "chiptunes\/_tfc\/Renegade - Depress.tfc",
-            "pt3": false,
-            "author": "_tfc",
-            "section": null,
-            "channels": 6
-        },
-        {
-            "name": "Renegade - Disco.tfc",
-            "file": "chiptunes\/_tfc\/Renegade - Disco.tfc",
-            "pt3": false,
-            "author": "_tfc",
-            "section": null,
-            "channels": 6
-        },
-        {
-            "name": "Renegade - Intro music.tfc",
-            "file": "chiptunes\/_tfc\/Renegade - Intro music.tfc",
-            "pt3": false,
-            "author": "_tfc",
-            "section": null,
-            "channels": 6
-        },
-        {
-            "name": "Renegade - Shoir.tfc",
-            "file": "chiptunes\/_tfc\/Renegade - Shoir.tfc",
-            "pt3": false,
-            "author": "_tfc",
-            "section": null,
-            "channels": 6
-        },
-        {
-            "name": "Renegade - Still drdre.tfc",
-            "file": "chiptunes\/_tfc\/Renegade - Still drdre.tfc",
-            "pt3": false,
-            "author": "_tfc",
-            "section": null,
-            "channels": 6
-        },
-        {
-            "name": "Renegade - Unforgiven.tfc",
-            "file": "chiptunes\/_tfc\/Renegade - Unforgiven.tfc",
-            "pt3": false,
-            "author": "_tfc",
-            "section": null,
-            "channels": 6
-        },
-        {
-            "name": "Renegade - tech2tech.tfc",
-            "file": "chiptunes\/_tfc\/Renegade - tech2tech.tfc",
-            "pt3": false,
-            "author": "_tfc",
-            "section": null,
-            "channels": 6
-        },
-        {
-            "name": "Shiru - Deep (party version) (2008) (DiHalt 2008, 1).tfc",
-            "file": "chiptunes\/_tfc\/Shiru - Deep (party version) (2008) (DiHalt 2008, 1).tfc",
-            "pt3": false,
-            "author": "_tfc",
-            "section": null,
-            "channels": 6
-        },
-        {
-            "name": "Shiru - Duck Tales (NES) - Moon.tfc",
-            "file": "chiptunes\/_tfc\/Shiru - Duck Tales (NES) - Moon.tfc",
-            "pt3": false,
-            "author": "_tfc",
-            "section": null,
-            "channels": 6
-        },
-        {
-            "name": "Shiru - Hazard Lights (2010) (DiHalt 2010, 1).tfc",
-            "file": "chiptunes\/_tfc\/Shiru - Hazard Lights (2010) (DiHalt 2010, 1).tfc",
-            "pt3": false,
-            "author": "_tfc",
-            "section": null,
-            "channels": 6
-        },
-        {
-            "name": "Shiru - Space standart.tfc",
-            "file": "chiptunes\/_tfc\/Shiru - Space standart.tfc",
-            "pt3": false,
-            "author": "_tfc",
-            "section": null,
-            "channels": 6
-        },
-        {
-            "name": "Shiru - Stars Are Calling.tfc",
-            "file": "chiptunes\/_tfc\/Shiru - Stars Are Calling.tfc",
-            "pt3": false,
-            "author": "_tfc",
-            "section": null,
-            "channels": 6
-        },
-        {
-            "name": "Shiru - Top Gun The Second Mission (NES) - Level 2.tfc",
-            "file": "chiptunes\/_tfc\/Shiru - Top Gun The Second Mission (NES) - Level 2.tfc",
-            "pt3": false,
-            "author": "_tfc",
-            "section": null,
-            "channels": 6
-        },
-        {
-            "name": "Shiru - UWOL (Menu theme).tfc",
-            "file": "chiptunes\/_tfc\/Shiru - UWOL (Menu theme).tfc",
-            "pt3": false,
-            "author": "_tfc",
-            "section": null,
-            "channels": 6
-        },
-        {
-            "name": "Shiru - VolleyFire (GameBoy) - Area A.tfc",
-            "file": "chiptunes\/_tfc\/Shiru - VolleyFire (GameBoy) - Area A.tfc",
-            "pt3": false,
-            "author": "_tfc",
-            "section": null,
-            "channels": 6
-        },
-        {
-            "name": "TMK - Unbelievable Flying.tfc",
-            "file": "chiptunes\/_tfc\/TMK - Unbelievable Flying.tfc",
-            "pt3": false,
-            "author": "_tfc",
-            "section": null,
-            "channels": 6
-        },
-        {
-            "name": "TmK - Life song.tfc",
-            "file": "chiptunes\/_tfc\/TmK - Life song.tfc",
-            "pt3": false,
-            "author": "_tfc",
-            "section": null,
-            "channels": 6
-        },
-        {
-            "name": "nq - I'm gonna be your wife! (2007).tfc",
-            "file": "chiptunes\/_tfc\/nq - I'm gonna be your wife! (2007).tfc",
-            "pt3": false,
-            "author": "_tfc",
-            "section": null,
-            "channels": 6
-        },
-        {
-            "name": "nq - Nothing else just skrju loves us (2007) (DiHalt 2007, 6).tfc",
-            "file": "chiptunes\/_tfc\/nq - Nothing else just skrju loves us (2007) (DiHalt 2007, 6).tfc",
-            "pt3": false,
-            "author": "_tfc",
-            "section": null,
-            "channels": 6
-        },
-        {
             "name": "djnzx48 - Another Rainy Day (2019).pt3",
             "file": "chiptunes\/djnzx48\/djnzx48 - Another Rainy Day (2019).pt3",
             "pt3": false,
@@ -92603,6 +92307,54 @@
             "author": "iyatemu",
             "section": null,
             "channels": 6
+        },
+        {
+            "name": "mborik - Harmonics (2014) (Forever 2014 Olympic Edition, 1).pt3",
+            "file": "chiptunes\/mborik\/mborik - Harmonics (2014) (Forever 2014 Olympic Edition, 1).pt3",
+            "pt3": false,
+            "author": "mborik",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "mborik - NextDash (2026).pt3",
+            "file": "chiptunes\/mborik\/mborik - NextDash (2026).pt3",
+            "pt3": false,
+            "author": "mborik",
+            "section": null,
+            "channels": 6
+        },
+        {
+            "name": "mborik - Quotlibet (2020).pt3",
+            "file": "chiptunes\/mborik\/mborik - Quotlibet (2020).pt3",
+            "pt3": false,
+            "author": "mborik",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "mborik - Serenity (2009) (FOReVER_neXt, 5).pt3",
+            "file": "chiptunes\/mborik\/mborik - Serenity (2009) (FOReVER_neXt, 5).pt3",
+            "pt3": false,
+            "author": "mborik",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "mborik - Squares (2014).pt3",
+            "file": "chiptunes\/mborik\/mborik - Squares (2014).pt3",
+            "pt3": false,
+            "author": "mborik",
+            "section": null,
+            "channels": 3
+        },
+        {
+            "name": "mborik - Zak-zaka-zak-zak (2016) (Forever 2016 - Defender of the 8 Bits, 4).pt3",
+            "file": "chiptunes\/mborik\/mborik - Zak-zaka-zak-zak (2016) (Forever 2016 - Defender of the 8 Bits, 4).pt3",
+            "pt3": false,
+            "author": "mborik",
+            "section": null,
+            "channels": 3
         },
         {
             "name": "mborik - alive_ab.pt3",
