@@ -262,14 +262,14 @@ function AYReader(buffer, fileName) {
                     for (var r = 0; r < 14; r++) prevRegs[r] = ayRegs[r];
                 }
                 var key = 0;
-                for (var r = 0; r < 14; r++) key = ((key << 5) - key + ayRegs[r]) | 0;
+                for (var r = 0; r < 13; r++) key = ((key << 5) - key + ayRegs[r]) | 0;
                 if (pendingVerify !== null && frame === pendingVerify.checkFrame) {
                     var vs = pendingVerify.start * 14, vb = (pendingVerify.start + pendingVerify.period) * 14, vk, vok = true;
-                    for (vk = 0; vk < pendingVerify.period * 14; vk++) { if (frames[vs + vk] !== frames[vb + vk]) { vok = false; break; } }
+                    for (vk = 0; vk < pendingVerify.period * 14; vk++) { if ((vk % 14) === 13) continue; if (frames[vs + vk] !== frames[vb + vk]) { vok = false; break; } }
                     if (vok) { loopFrame = pendingVerify.start; loopPeriod = pendingVerify.period; loopEndTarget = pendingVerify.start + pendingVerify.period; }
                     pendingVerify = null;
                 }
-                if (pendingVerify === null && loopEndTarget < 0 && frame > 150 && seenStates[key] !== undefined) {
+                if (pendingVerify === null && loopEndTarget < 0 && frame > 40 && seenStates[key] !== undefined) {
                     var lp = frame - seenStates[key];
                     if (lp >= 20) pendingVerify = { start: seenStates[key], period: lp, checkFrame: seenStates[key] + 2 * lp };
                 } else if (seenStates[key] === undefined) {
@@ -285,6 +285,9 @@ function AYReader(buffer, fileName) {
                 selfReader._frameCount = fc;
                 selfReader._frames = outFrames;
                 selfReader._loopFrame = (loopFrame >= 0) ? loopFrame : 0;
+                if (typeof localStorage !== 'undefined' && localStorage.getItem('ayp_debug') === '1') {
+                    try { console.log('[AY loop] ' + fileName + ' frames=' + fc + ' (' + (fc / 50).toFixed(1) + 's) loopFrame=' + selfReader._loopFrame + ' truncated=' + (loopEndTarget >= 0) + ' maxFrames=' + maxFrames); } catch (e) {}
+                }
                 _cache[cacheKey] = {
                     frames: outFrames,
                     frameCount: fc,
