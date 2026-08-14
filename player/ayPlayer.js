@@ -1612,6 +1612,12 @@ var AYPlayer = (function() {
         function startDumpLoad(reader, maxFc, formatDumpFn, onComplete) {
             var wc = document.getElementById(containerId + '_waveCanvas');
             if (wc) wc.classList.remove('visible');
+            var sp = document.getElementById(containerId + '_waveSplash');
+            var loadingEl = document.getElementById(containerId + '_waveLoading');
+            if (loadingEl) {
+                loadingEl.classList.add('bare');
+                if (!(sp && sp.style.display !== 'none')) loadingEl.classList.add('active');
+            }
             var lf = -1;
             var di = 0;
             var localDump = [];
@@ -1833,6 +1839,12 @@ var AYPlayer = (function() {
         } else if (isAY) {
             var wc = document.getElementById(containerId + '_waveCanvas');
             if (wc) wc.classList.remove('visible');
+            var sp = document.getElementById(containerId + '_waveSplash');
+            var loadingEl = document.getElementById(containerId + '_waveLoading');
+            if (loadingEl) {
+                loadingEl.classList.add('bare');
+                if (!(sp && sp.style.display !== 'none')) loadingEl.classList.add('active');
+            }
             var ayGen = _loadGen;
             setTimeout(function() {
                 if (ayGen !== _loadGen) return;

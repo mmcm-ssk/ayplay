@@ -358,6 +358,13 @@ body > h2 {
 }
 .ayPlayer-waveform-loading.active {
     opacity: 1;
+}
+.ayPlayer-waveform-loading.bare {
+    background: transparent;
+}
+.ayPlayer-waveform-loading.bare .ayPlayer-waveform-loading-pulse {
+    display: none;
+}
     transition: opacity 0.4s ease;
 }
 .ayPlayer-waveform-loading-pulse {
