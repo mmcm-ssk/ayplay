@@ -1181,6 +1181,9 @@ var AYPlayer = (function() {
             var ua = a.charAt(0) === '_' ? 0 : 1;
             var ub = b.charAt(0) === '_' ? 0 : 1;
             if (ua !== ub) return ua - ub;
+            var la = a.toLowerCase(), lb = b.toLowerCase();
+            if (la < lb) return -1;
+            if (la > lb) return 1;
             return a < b ? -1 : (a > b ? 1 : 0);
         });
         for (var di = 0; di < dirNames.length; di++) {
@@ -4251,12 +4254,18 @@ var AYPlayer = (function() {
                 var ua = fa.charAt(0) === '_' ? 0 : 1;
                 var ub = fb.charAt(0) === '_' ? 0 : 1;
                 if (ua !== ub) return ua - ub;
+                var lfa = fa.toLowerCase(), lfb = fb.toLowerCase();
+                if (lfa < lfb) return -1;
+                if (lfa > lfb) return 1;
                 if (fa < fb) return -1;
                 if (fa > fb) return 1;
                 var sa = a.section || '';
                 var sb = b.section || '';
                 if (!sa && sb) return -1;
                 if (sa && !sb) return 1;
+                var lsa = sa.toLowerCase(), lsb = sb.toLowerCase();
+                if (lsa < lsb) return -1;
+                if (lsa > lsb) return 1;
                 if (sa < sb) return -1;
                 if (sa > sb) return 1;
                 return (a.title || a.name || a.file).localeCompare(b.title || b.name || b.file);
@@ -4895,6 +4904,10 @@ var AYPlayer = (function() {
         },
         showCurrentTrack: function() {
             if (currentId < 0 || currentId >= playlist.length) return;
+            var curDir = playlist[currentId].author || (function(f) { var s = f.lastIndexOf('/'); return s > 0 ? f.substring(0, s) : '/'; })(playlist[currentId].file);
+            for (var k in openDirs) openDirs[k] = false;
+            openDirs[curDir] = true;
+            _initialView = false;
             renderPlaylist(true);
             var list = document.getElementById(containerId + '_playlistItems');
             if (!list) return;
