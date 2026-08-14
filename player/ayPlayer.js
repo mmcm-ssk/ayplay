@@ -33,6 +33,85 @@ var AYPlayer = (function() {
     var waveformCh = [];
     var waveformCache = {};
     var waveformLoadingFile = null;
+
+    var _WAVE_DB_VER = 1;
+    var _waveformDB = null;
+    var _waveformDBReady = false;
+    var _waveformDBFailed = false;
+    var _waveformDBWaiters = [];
+    function _waveformDBFlush(db) {
+        var w = _waveformDBWaiters;
+        _waveformDBWaiters = [];
+        for (var i = 0; i < w.length; i++) {
+            try { w[i](db); } catch (e) {}
+        }
+    }
+    function _withWaveformDB(cb) {
+        if (_waveformDBFailed) { cb(null); return; }
+        if (_waveformDBReady && _waveformDB) { cb(_waveformDB); return; }
+        _waveformDBWaiters.push(cb);
+        if (_waveformDBWaiters.length === 1 && !_waveformDB && typeof indexedDB !== 'undefined' && indexedDB) {
+            try {
+                var req = indexedDB.open('ayp_waveforms', 1);
+                req.onupgradeneeded = function(e) {
+                    var db = e.target.result;
+                    if (!db.objectStoreNames.contains('w')) db.createObjectStore('w');
+                };
+                req.onsuccess = function(e) {
+                    _waveformDB = e.target.result;
+                    _waveformDBReady = true;
+                    _waveformDBFlush(_waveformDB);
+                };
+                req.onerror = function() {
+                    _waveformDBFailed = true;
+                    _waveformDBFlush(null);
+                };
+            } catch (e) {
+                _waveformDBFailed = true;
+                _waveformDBFlush(null);
+            }
+        }
+    }
+    function _waveKey(fn, clock, chipKinds) {
+        var ck = '';
+        if (chipKinds) ck = Array.isArray(chipKinds) ? chipKinds.join(',') : String(chipKinds);
+        return 'w' + _WAVE_DB_VER + '|' + (fn || '') + '|' + (clock || 0) + '|' + ck;
+    }
+    function _getWaveformDB(key, cb) {
+        _withWaveformDB(function(db) {
+            if (!db) { cb(null); return; }
+            try {
+                var tx = db.transaction('w', 'readonly');
+                var rq = tx.objectStore('w').get(key);
+                rq.onsuccess = function() { cb(rq.result || null); };
+                rq.onerror = function() { cb(null); };
+            } catch (e) { cb(null); }
+        });
+    }
+    function _putWaveformDB(key, rec) {
+        _withWaveformDB(function(db) {
+            if (!db) return;
+            try {
+                var tx = db.transaction('w', 'readwrite');
+                tx.objectStore('w').put(rec, key);
+            } catch (err) {}
+        });
+    }
+    function _restoreWaveformDB(key, fn, cb) {
+        _getWaveformDB(key, function(rec) {
+            if (rec && rec.data && rec.data.length) {
+                if (!(playlist[currentId] && playlist[currentId].file === fn)) { cb(false); return; }
+                waveformData = rec.data;
+                waveformCh = rec.channels || [];
+                endFrame = rec.endFrame || 0;
+                waveformCache[fn] = { data: waveformData, channels: waveformCh, endFrame: endFrame };
+                drawWaveform();
+                cb(true);
+            } else {
+                cb(false);
+            }
+        });
+    }
     var _cachedWaveWidth = 0;
     var _cachedWaveHeight = 0;
     var _waveformContainer = null;
@@ -3258,6 +3337,14 @@ var AYPlayer = (function() {
             return;
         }
         if (onDone) onDone();
+        var _wkey = _waveKey(fn, clock, _chipKinds);
+        _restoreWaveformDB(_wkey, fn, function(_hit) {
+            if (_hit) {
+                var _cv = document.getElementById(containerId + '_waveCanvas');
+                if (_cv) _cv.classList.add('visible');
+                if (loadingEl) loadingEl.classList.remove('active');
+                return;
+            }
         var chCount = chipCount * 3;
         var allAmps = [];
         var chAmps = [];
@@ -3382,8 +3469,10 @@ var AYPlayer = (function() {
                 var canvas = document.getElementById(containerId + '_waveCanvas');
                 if (canvas) canvas.classList.add('visible');
             }
+            _putWaveformDB(_wkey, { data: waveformData, channels: waveformCh, endFrame: endIdx, version: _WAVE_DB_VER });
         }
         requestAnimationFrame(processChunk);
+        });
     }
 
     function generateFymWaveform(buffer, fileName, onDone) {
@@ -3405,6 +3494,15 @@ var AYPlayer = (function() {
         }
         if (onDone) onDone();
         var genSong = new FYMReader(buffer, fileName);
+        var _wclk = clockSelect || genSong.getClockRate();
+        var _wkey = _waveKey(fn, _wclk, isYM ? ['ym'] : ['ay']);
+        _restoreWaveformDB(_wkey, fn, function(_hit) {
+            if (_hit) {
+                var _cv = document.getElementById(containerId + '_waveCanvas');
+                if (_cv) _cv.classList.add('visible');
+                if (loadingEl) loadingEl.classList.remove('active');
+                return;
+            }
         var fc = genSong.getFrameCount();
         var fr = genSong.getFrameRate();
         var isTurboSong = genSong.getTurbo && genSong.getTurbo();
@@ -3505,8 +3603,10 @@ var AYPlayer = (function() {
                 var canvas = document.getElementById(containerId + '_waveCanvas');
                 if (canvas) canvas.classList.add('visible');
             }
+            _putWaveformDB(_wkey, { data: waveformData, channels: waveformCh, endFrame: endIdx, version: _WAVE_DB_VER });
         }
         requestAnimationFrame(processChunk);
+        });
     }
 
     function setupVolume() {
