@@ -356,6 +356,18 @@ var AYPlayer = (function() {
     var _isMobile = /Android|iPhone|iPad|iPod|Mobile/i.test(navigator.userAgent);
     var scopeFps = _isMobile ? 30 : 60;
     var scopeEnabled = true;
+    var _debug = /[?&]debug\b/.test(location.search) || (typeof localStorage !== 'undefined' && localStorage.getItem('ayp_debug') === '1');
+    var _dbgFps = 0;
+    var _dbgFpsLast = 0;
+    var _dbgFrames = 0;
+    var _dbgMainMs = 0;
+    var _dbgScopeMs = 0;
+    var _dbgWaveMs = 0;
+    var _dbgMsgCount = 0;
+    var _dbgMsgRate = 0;
+    var _dbgMsgWindow = 0;
+    var _dbgPanel = null;
+    var _dbgLastUpdate = 0;
     var scopeFrame = 0;
     var _lastClockT = 0;
     var scopeColors = ['#44FF44', '#FFFF44', '#44AAFF', '#FF6644', '#CC66FF', '#44FFAA', '#FF88CC', '#88FF88', '#FFAA44', '#66FFFF', '#FF9944', '#B4FF44'];
@@ -630,7 +642,8 @@ var AYPlayer = (function() {
 
     function rafLoop() {
         if (document.hidden) { rafId = null; resetScope(); return; }
-        var now = performance.now();
+        var _loopStart = performance.now();
+        var now = _loopStart;
         if (_fadeTarget >= 0) {
             var elapsed = now - _fadeStartTime;
             var t = _fadeDuration > 0 ? Math.min(1, elapsed / _fadeDuration) : 1;
@@ -659,13 +672,53 @@ var AYPlayer = (function() {
             _paceScope(_curF);
         }
         if (_scopeDirty && doScopeFrame && (scopeEnabled || !_isMobile)) {
+            var _sd0 = performance.now();
             drawScope(); _scopeDirty = false;
+            if (_debug) _dbgScopeMs = _dbgScopeMs * 0.8 + (performance.now() - _sd0) * 0.2;
         }
         if (playing || _fadeTarget >= 0) rafId = requestAnimationFrame(rafLoop);
+        if (_debug) _updateDebug(_loopStart, now);
+    }
+
+    function _updateDebug(startT, endT) {
+        var now = performance.now();
+        _dbgFrames++;
+        _dbgMainMs = _dbgMainMs * 0.9 + (now - startT) * 0.1;
+        if (now - _dbgFpsLast >= 500) {
+            _dbgFps = Math.round(_dbgFrames * 1000 / (now - _dbgFpsLast));
+            _dbgFrames = 0;
+            _dbgFpsLast = now;
+        }
+        if (now - _dbgMsgWindow >= 1000) {
+            _dbgMsgRate = _dbgMsgCount;
+            _dbgMsgCount = 0;
+            _dbgMsgWindow = now;
+        }
+        if (now - _dbgLastUpdate >= 250) {
+            _dbgLastUpdate = now;
+            if (!_dbgPanel) _initDebugPanel();
+            var mem = (typeof performance !== 'undefined' && performance.memory) ? (performance.memory.usedJSHeapSize / 1048576).toFixed(0) + ' MB' : 'n/a';
+            _dbgPanel.textContent =
+                'FPS ' + _dbgFps +
+                '  main ' + _dbgMainMs.toFixed(2) + ' ms' +
+                '  scope ' + _dbgScopeMs.toFixed(2) + ' ms' +
+                '  wave ' + _dbgWaveMs.toFixed(1) + ' ms' +
+                '  msg/s ' + _dbgMsgRate +
+                '  mem ' + mem;
+        }
+    }
+
+    function _initDebugPanel() {
+        var p = document.createElement('div');
+        p.style.cssText = 'position:fixed;left:4px;bottom:4px;z-index:99999;background:rgba(0,0,0,.75);color:#0f0;' +
+            'font:11px/1.3 monospace;padding:4px 6px;border-radius:4px;pointer-events:none;white-space:nowrap;';
+        document.body.appendChild(p);
+        _dbgPanel = p;
     }
 
     function handleWorkletMessage(e) {
         var msg = e.data;
+        if (_debug) _dbgMsgCount++;
         if (_streamMode) {
             if (msg.type === 'pos') {
                 var frame = _wrapStreamFrame(msg.frame);
@@ -2205,6 +2258,7 @@ var AYPlayer = (function() {
     function _handleStreamerMessage(e) {
         var msg = e.data;
         if (!msg) return;
+        if (_debug) _dbgMsgCount++;
         if (msg.type === 'chunk') {
             if (msg.gen !== _streamGen || !_workletNode || !_streamMode) return;
             var _sc = new Float32Array(msg.scope);
@@ -3512,6 +3566,7 @@ var AYPlayer = (function() {
     function drawWaveform(progress) {
         var canvas = document.getElementById(containerId + '_waveCanvas');
         if (!canvas || !waveformData) return;
+        var _w0 = _debug ? performance.now() : 0;
         AYWaveformUI.draw({
             containerId: containerId,
             data: waveformData,
@@ -3523,6 +3578,7 @@ var AYPlayer = (function() {
             cachedHeight: _cachedWaveHeight,
             lastK: _waveformLastK
         });
+        if (_debug) _dbgWaveMs = _dbgWaveMs * 0.8 + (performance.now() - _w0) * 0.2;
     }
     function _exportPause() {
         var w = playing;
@@ -4406,6 +4462,17 @@ var AYPlayer = (function() {
                 _workletNode.port.postMessage({ type: 'fps', fps: fps });
             }
             saveState();
+        },
+        debug: function(on) {
+            _debug = !!on;
+            if (typeof localStorage !== 'undefined') {
+                try { localStorage.setItem('ayp_debug', _debug ? '1' : '0'); } catch (e) {}
+            }
+            if (!_debug && _dbgPanel && _dbgPanel.parentNode) {
+                _dbgPanel.parentNode.removeChild(_dbgPanel);
+                _dbgPanel = null;
+            }
+            if (_debug && !rafId && (playing || _fadeTarget >= 0)) rafId = requestAnimationFrame(rafLoop);
         },
         toggleShowFormat: function() {
             showFormat = !showFormat;
