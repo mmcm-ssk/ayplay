@@ -1842,7 +1842,7 @@ var AYPlayer = (function() {
                     dump = localDump;
                     dumpLen = dump.length;
                     pt3FrameCount = dumpLen;
-                    generatePt3Waveform(dump, dumpLen, fr, clock, chipCount, fileName, -1, 0, -1, 0, false, function() { startAudio(); });
+                    generatePt3Waveform(dump, dumpLen, fr, clock, chipCount, fileName, reader.getLoopFrame(), 0, -1, 0, false, function() { startAudio(); });
                     return;
                 }
                 var di = 0;
@@ -1859,7 +1859,7 @@ var AYPlayer = (function() {
                         dump = localDump;
                         dumpLen = dump.length;
                         pt3FrameCount = dumpLen;
-                        generatePt3Waveform(dump, dumpLen, fr, clock, chipCount, fileName, -1, 0, -1, 0, false, function() { startAudio(); });
+                        generatePt3Waveform(dump, dumpLen, fr, clock, chipCount, fileName, reader.getLoopFrame(), 0, -1, 0, false, function() { startAudio(); });
                     } else {
                         requestAnimationFrame(buildAyDumpChunk);
                     }

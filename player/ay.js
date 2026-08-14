@@ -234,6 +234,9 @@ function AYReader(buffer, fileName) {
         var silentFrames = 0;
         var prevRegs = new Uint8Array(14);
         var loopFrame = -1;
+        var loopPeriod = 0;
+        var loopEndTarget = -1;
+        var pendingVerify = null;
         var seenStates = {};
         var frame = 0;
         function step() {
@@ -258,27 +261,36 @@ function AYReader(buffer, fileName) {
                     silentFrames = 0;
                     for (var r = 0; r < 14; r++) prevRegs[r] = ayRegs[r];
                 }
-                if (frame > 50) {
-                    var key = 0;
-                    for (var r = 0; r < 13; r++) key = ((key << 5) - key + ayRegs[r]) | 0;
-                    if (seenStates[key] !== undefined && (frame - seenStates[key]) >= 20) {
-                        if (loopFrame < 0) loopFrame = seenStates[key];
-                    }
-                    if (seenStates[key] === undefined) seenStates[key] = frame;
+                var key = 0;
+                for (var r = 0; r < 14; r++) key = ((key << 5) - key + ayRegs[r]) | 0;
+                if (pendingVerify !== null && frame === pendingVerify.checkFrame) {
+                    var vs = pendingVerify.start * 14, vb = (pendingVerify.start + pendingVerify.period) * 14, vk, vok = true;
+                    for (vk = 0; vk < pendingVerify.period * 14; vk++) { if (frames[vs + vk] !== frames[vb + vk]) { vok = false; break; } }
+                    if (vok) { loopFrame = pendingVerify.start; loopPeriod = pendingVerify.period; loopEndTarget = pendingVerify.start + pendingVerify.period; }
+                    pendingVerify = null;
                 }
+                if (pendingVerify === null && loopEndTarget < 0 && frame > 150 && seenStates[key] !== undefined) {
+                    var lp = frame - seenStates[key];
+                    if (lp >= 20) pendingVerify = { start: seenStates[key], period: lp, checkFrame: seenStates[key] + 2 * lp };
+                } else if (seenStates[key] === undefined) {
+                    seenStates[key] = frame;
+                }
+                if (loopEndTarget >= 0 && frame >= 0 && frame >= loopEndTarget) { frame = maxFrames; break; }
                 frame++;
             }
             if (onProgress) { try { onProgress(frame, maxFrames); } catch (e) {} }
             if (frame >= maxFrames) {
-                selfReader._frameCount = frameCount;
-                selfReader._frames = frames;
-                selfReader._loopFrame = loopFrame >= 0 ? loopFrame : 0;
+                var fc = (loopEndTarget >= 0) ? loopEndTarget : frameCount;
+                var outFrames = (loopEndTarget >= 0) ? frames.slice(0, fc * 14) : frames;
+                selfReader._frameCount = fc;
+                selfReader._frames = outFrames;
+                selfReader._loopFrame = (loopFrame >= 0) ? loopFrame : 0;
                 _cache[cacheKey] = {
-                    frames: frames,
-                    frameCount: frameCount,
+                    frames: outFrames,
+                    frameCount: fc,
                     trackName: trackName,
                     authorName: authorName,
-                    loopFrame: 0,
+                    loopFrame: selfReader._loopFrame,
                     fileName: fileName,
                     portMode: portMode
                 };
