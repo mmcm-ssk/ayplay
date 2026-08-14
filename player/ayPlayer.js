@@ -3719,10 +3719,16 @@ var AYPlayer = (function() {
         });
     }
 
+    function _hideWaveSplash() {
+        var s = document.getElementById(containerId + '_waveSplash');
+        if (s) s.style.display = 'none';
+    }
+
     function drawWaveform(progress) {
         var canvas = document.getElementById(containerId + '_waveCanvas');
         if (!canvas || !waveformData) return;
         var _w0 = _debug ? performance.now() : 0;
+        _hideWaveSplash();
         AYWaveformUI.draw({
             containerId: containerId,
             data: waveformData,
@@ -3974,6 +3980,7 @@ var AYPlayer = (function() {
 '      <div class="ayPlayer-waveform-loading-pulse" id="' + containerId + '_waveSpinner"></div>' +
 '      <div class="ayPlayer-waveform-loading-text" id="' + containerId + '_waveLoadingText">Rendering waveform</div>' +
 '    </div>' +
+'    <img class="ayPlayer-waveform-splash" id="' + containerId + '_waveSplash" src="ayplay_1260x340px.png" alt="">' +
  '  </div>' +
                 '  <div class="ayPlayer-info-mobile" id="' + containerId + '_trackName2">' +
                 '    <div class="ayPlayer-trackName-mobile"><div class="ayPlayer-trackAuthor">Author</div><div class="ayPlayer-trackTitle">Name Track</div></div>' +
