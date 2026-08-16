@@ -502,6 +502,7 @@ var AYPlayer = (function() {
     var endFrame = 0;
     var pt3FrameCount = 0;
     var loadingNext = false;
+    var _trackLoaded = false;
     var playFrame = 0;
 
     var _streamer = null;
@@ -1598,6 +1599,7 @@ var AYPlayer = (function() {
             startEndCheck();
             requestWakeLock();
             updateTrackDisplay();
+            _trackLoaded = true;
             var totalEl = document.getElementById(containerId + '_totalTime');
             var totalElM = document.getElementById(containerId + '_totalTimeM');
             var totalTxt = trackTotalTime || getTotalTime();
@@ -2786,6 +2788,7 @@ var AYPlayer = (function() {
             _autoIntFreq = (intFreqSelect === autoVal);
         }
         _waveformCancelled = true;
+        _trackLoaded = false;
         _loadGen++;
         var gen = _loadGen;
         playing = true;
@@ -5040,7 +5043,7 @@ var AYPlayer = (function() {
         },
 
         selectTrack: function(id) {
-            if (id === currentId && playing && song && !loadingNext && _dumpData) {
+            if (id === currentId && playing && _trackLoaded) {
             playFrame = 0; _seekTarget = -1;
                 song.setProgress(0);
                 if (_workletNode) _workletNode.port.postMessage({ type: 'setProgress', progress: 0 });
