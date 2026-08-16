@@ -2843,7 +2843,7 @@ var AYPlayer = (function() {
                 xhr.responseType = 'arraybuffer';
                 xhr.onload = function() {
                     if (_xhr === xhr) _xhr = null;
-                    if (gen !== _loadGen) return;
+                    if (gen !== _loadGen) { loadingNext = false; return; }
                     if (xhr.status === 404) {
                         _notFound[trackId] = true;
                         var errAuthor = entry.author || '';
@@ -5040,7 +5040,7 @@ var AYPlayer = (function() {
         },
 
         selectTrack: function(id) {
-            if (id === currentId && playing && song) {
+            if (id === currentId && playing && song && !loadingNext && _dumpData) {
             playFrame = 0; _seekTarget = -1;
                 song.setProgress(0);
                 if (_workletNode) _workletNode.port.postMessage({ type: 'setProgress', progress: 0 });
