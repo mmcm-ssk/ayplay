@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /source/
+
+Sitemap: https://ayplay.ru/sitemap.xml

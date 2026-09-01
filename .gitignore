@@ -1,0 +1,5 @@
+chiptunes/
+backup_2026-09-01/
+node_modules/
+sources/
+*.cache.json

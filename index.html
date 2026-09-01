@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>AY Player — ZX Spectrum AY Music Player (PT3, VT2, PSG, FYM, STC, MTC)</title>
+    <meta name="description" content="Online player for ZX Spectrum AY music files (PT3, VT2, PSG, FYM, STC, MTC) with playlist, waveform visualization, and favorites.">
+    <meta name="keywords" content="ZX Spectrum, AY, YM, PT3, VT2, PSG, FYM, STC, MTC, Sound Tracker, chiptune, music player, retro, 8-bit">
+    <meta name="robots" content="index, follow">
+    <meta property="og:site_name" content="AY Player">
+    <meta property="og:title" content="AY Player — ZX Spectrum AY Music Player (PT3, VT2, PSG, FYM, STC, MTC)">
+    <meta property="og:description" content="Online player for ZX Spectrum AY music files (PT3, VT2, PSG, FYM, STC, MTC) with playlist, waveform visualization and favorites.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ayplay.ru/">
+    <meta property="og:image" content="https://ayplay.ru/ayplay_1260x340px.webp">
+    <meta property="og:locale" content="ru_RU">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="AY Player — ZX Spectrum AY Music Player (PT3, VT2, PSG, FYM, STC, MTC)">
+    <meta name="twitter:description" content="Online player for ZX Spectrum AY music files (PT3, VT2, PSG, FYM, STC, MTC) with playlist, waveform visualization and favorites.">
+    <meta name="twitter:image" content="https://ayplay.ru/ayplay_1260x340px.webp">
+    <link rel="canonical" href="https://ayplay.ru/">
+    <link rel="icon" type="image/svg+xml" href="logo_ayplay.svg">
+    <link rel="icon" href="favicon.ico">
+    <link rel="manifest" href="manifest.json">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="apple-touch-icon" href="logo_ayplay.svg">
+    <link rel="preload" href="player/ayPlayer.css?v=337" as="style">
+    <link rel="preload" href="player/ayPlayer.js?v=383" as="script">
+    <link rel="stylesheet" href="player/ayPlayer.css?v=337">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebApplication",
+          "name": "AY Player",
+          "url": "https://ayplay.ru/",
+          "applicationCategory": "MusicApplication",
+          "operatingSystem": "Any",
+          "description": "Online player for ZX Spectrum AY music files (PT3, VT2, PSG, FYM, STC, MTC) with playlist, waveform visualization and favorites.",
+          "image": "https://ayplay.ru/ayplay_1260x340px.webp",
+          "offers": { "@type": "Offer", "price": "0", "priceCurrency": "RUB" }
+        },
+        {
+          "@type": "MusicPlayer",
+          "name": "AY Player — ZX Spectrum AY Music Player",
+          "url": "https://ayplay.ru/",
+          "potentialAction": {
+            "@type": "ListenAction",
+            "target": "https://ayplay.ru/?track={file}",
+            "query-input": "required name=file"
+          }
+        }
+      ]
+    }
+    </script>
+</head>
+<body>
+    <div id="player"></div>
+    <div id="countryFlags" style="text-align:left;font-size:0;max-width:1024px;margin-left:auto;margin-right:auto;padding:6px 0 16px 8px;width:100%;"></div>
+
+    <script src="player/pako_inflate.min.js?v=16" defer></script>
+    <script src="player/ayumi.js?v=17" defer></script>
+    <script src="player/opn.js?v=1" defer></script>
+    <script src="player/fym.js?v=16" defer></script>
+    <script src="player/pt3.js?v=16" defer></script>
+    <script src="player/vt2.js?v=13" defer></script>
+    <script src="player/psg.js?v=1" defer></script>
+    <script src="player/snd2psg.js?v=2" defer></script>
+    <script src="player/stc.js?v=3" defer></script>
+    <script src="player/pt2.js?v=1" defer></script>
+    <script src="player/asc.js?v=1" defer></script>
+    <script src="player/tfc.js?v=1" defer></script>
+    <script src="player/stp.js?v=1" defer></script>
+    <script src="player/pt1.js?v=1" defer></script>
+    <script src="player/aym_reader.js?v=6" defer></script>
+    <script src="player/z80core.js?v=5" defer></script>
+    <script src="player/ay.js?v=12" defer></script>
+    <script src="player/ui/scope-ui.js?v=2" defer></script>
+    <script src="player/ui/waveform-ui.js?v=4" defer></script>
+    <script src="player/ayPlayer.js?v=383" defer></script>
+    <script src="init.js" defer></script>
+</body>
+</html>

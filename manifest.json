@@ -1,0 +1,16 @@
+{
+  "name": "AY Player — ZX Spectrum AY Music Player",
+  "short_name": "AY Player",
+  "description": "Online player for ZX Spectrum AY music files (PT3, VT2, PSG, FYM, STC, MTC)",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#001020",
+  "theme_color": "#001020",
+  "icons": [
+    {
+      "src": "logo_ayplay.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
