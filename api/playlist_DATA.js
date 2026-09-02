@@ -88,86 +88,6 @@ var AYPLAYLIST_DATA = [
     "time": "06:47"
   },
   {
-    "name": "Hypersonic 2000.stc",
-    "file": "chiptunes/Agent-X/1991/Hypersonic 2000.stc",
-    "pt3": false,
-    "author": "Agent-X",
-    "section": "1991",
-    "time": "01:32"
-  },
-  {
-    "name": "Hypersonic demo.stc",
-    "file": "chiptunes/Agent-X/1991/Hypersonic demo.stc",
-    "pt3": false,
-    "author": "Agent-X",
-    "section": "1991",
-    "time": "03:27"
-  },
-  {
-    "name": "Hypersonic2 - alternate tune.stc",
-    "file": "chiptunes/Agent-X/1991/Hypersonic2 - alternate tune.stc",
-    "pt3": false,
-    "author": "Agent-X",
-    "section": "1991",
-    "time": "01:48"
-  },
-  {
-    "name": "Hypersonic2 - intro.stc",
-    "file": "chiptunes/Agent-X/1991/Hypersonic2 - intro.stc",
-    "pt3": false,
-    "author": "Agent-X",
-    "section": "1991",
-    "time": "00:38"
-  },
-  {
-    "name": "Hypersonic2 - main part.stc",
-    "file": "chiptunes/Agent-X/1991/Hypersonic2 - main part.stc",
-    "pt3": false,
-    "author": "Agent-X",
-    "section": "1991",
-    "time": "06:05"
-  },
-  {
-    "name": "Hypersonic2 preview - messages part.stc",
-    "file": "chiptunes/Agent-X/1991/Hypersonic2 preview - messages part.stc",
-    "pt3": false,
-    "author": "Agent-X",
-    "section": "1991",
-    "time": "00:46"
-  },
-  {
-    "name": "Hypersonic2 preview - night city.stc",
-    "file": "chiptunes/Agent-X/1991/Hypersonic2 preview - night city.stc",
-    "pt3": false,
-    "author": "Agent-X",
-    "section": "1991",
-    "time": "04:21"
-  },
-  {
-    "name": "Agent 005.stc",
-    "file": "chiptunes/Agent-X/Agent 005.stc",
-    "pt3": false,
-    "author": "Agent-X",
-    "section": null,
-    "time": "01:32"
-  },
-  {
-    "name": "Agent 006 extended.stc",
-    "file": "chiptunes/Agent-X/Agent 006 extended.stc",
-    "pt3": false,
-    "author": "Agent-X",
-    "section": null,
-    "time": "06:16"
-  },
-  {
-    "name": "Agent 006.stc",
-    "file": "chiptunes/Agent-X/Agent 006.stc",
-    "pt3": false,
-    "author": "Agent-X",
-    "section": null,
-    "time": "06:16"
-  },
-  {
     "name": "Agent-X - Agent 005.stc",
     "file": "chiptunes/Agent-X/Agent-X - Agent 005.stc",
     "pt3": false,
@@ -192,20 +112,19 @@ var AYPLAYLIST_DATA = [
     "time": "06:16"
   },
   {
-    "name": "Agent-X - Branch of mind1.stc",
-    "file": "chiptunes/Agent-X/Agent-X - Branch of mind1.stc",
+    "name": "Agent-X - AGENT 3.stc",
+    "file": "chiptunes/Agent-X/Agent-X - AGENT 3.stc",
     "pt3": false,
     "author": "Agent-X",
     "section": null,
-    "time": "04:29"
+    "time": "02:18"
   },
   {
-    "name": "Agent-X - Branch of mind2.stc",
-    "file": "chiptunes/Agent-X/Agent-X - Branch of mind2.stc",
+    "name": "Agent-X - Dies Irae.ay",
+    "file": "chiptunes/Agent-X/Agent-X - Dies Irae.ay",
     "pt3": false,
     "author": "Agent-X",
-    "section": null,
-    "time": "03:38"
+    "section": null
   },
   {
     "name": "Agent-X - Film Music 001.stc",
@@ -224,20 +143,35 @@ var AYPLAYLIST_DATA = [
     "time": "05:33"
   },
   {
-    "name": "Agent-X - First challenge (HEXOGEN1).stc",
-    "file": "chiptunes/Agent-X/Agent-X - First challenge (HEXOGEN1).stc",
+    "name": "Agent-X - First Challenge (HEXOGEN1).stc",
+    "file": "chiptunes/Agent-X/Agent-X - First Challenge (HEXOGEN1).stc",
     "pt3": false,
     "author": "Agent-X",
     "section": null,
     "time": "01:55"
   },
   {
-    "name": "Agent-X - First challenge.stc",
-    "file": "chiptunes/Agent-X/Agent-X - First challenge.stc",
+    "name": "Agent-X - First Challenge.stc",
+    "file": "chiptunes/Agent-X/Agent-X - First Challenge.stc",
     "pt3": false,
     "author": "Agent-X",
     "section": null,
     "time": "01:55"
+  },
+  {
+    "name": "Agent-X - Gemini - Double Preview.ay",
+    "file": "chiptunes/Agent-X/Agent-X - Gemini - Double Preview.ay",
+    "pt3": false,
+    "author": "Agent-X",
+    "section": null
+  },
+  {
+    "name": "Agent-X - HEXOGEN 3.stc",
+    "file": "chiptunes/Agent-X/Agent-X - HEXOGEN 3.stc",
+    "pt3": false,
+    "author": "Agent-X",
+    "section": null,
+    "time": "00:15"
   },
   {
     "name": "Agent-X - Hypersonic 2000.stc",
@@ -248,92 +182,20 @@ var AYPLAYLIST_DATA = [
     "time": "01:32"
   },
   {
-    "name": "Agent-X - Hypersonic demo.stc",
-    "file": "chiptunes/Agent-X/Agent-X - Hypersonic demo.stc",
+    "name": "Agent-X - Hypersonic Demo.stc",
+    "file": "chiptunes/Agent-X/Agent-X - Hypersonic Demo.stc",
     "pt3": false,
     "author": "Agent-X",
     "section": null,
     "time": "03:27"
   },
   {
-    "name": "Agent-X - Hypersonic2 - alternate tune.stc",
-    "file": "chiptunes/Agent-X/Agent-X - Hypersonic2 - alternate tune.stc",
-    "pt3": false,
-    "author": "Agent-X",
-    "section": null,
-    "time": "01:48"
-  },
-  {
-    "name": "Agent-X - Hypersonic2 - intro.stc",
-    "file": "chiptunes/Agent-X/Agent-X - Hypersonic2 - intro.stc",
-    "pt3": false,
-    "author": "Agent-X",
-    "section": null,
-    "time": "00:38"
-  },
-  {
-    "name": "Agent-X - Hypersonic2 - main part.stc",
-    "file": "chiptunes/Agent-X/Agent-X - Hypersonic2 - main part.stc",
-    "pt3": false,
-    "author": "Agent-X",
-    "section": null,
-    "time": "06:05"
-  },
-  {
-    "name": "Agent-X - Hypersonic2 preview - messages part.stc",
-    "file": "chiptunes/Agent-X/Agent-X - Hypersonic2 preview - messages part.stc",
-    "pt3": false,
-    "author": "Agent-X",
-    "section": null,
-    "time": "00:46"
-  },
-  {
-    "name": "Agent-X - Hypersonic2 preview - night city.stc",
-    "file": "chiptunes/Agent-X/Agent-X - Hypersonic2 preview - night city.stc",
-    "pt3": false,
-    "author": "Agent-X",
-    "section": null,
-    "time": "04:21"
-  },
-  {
-    "name": "Agent-X - Intro beat.stc",
-    "file": "chiptunes/Agent-X/Agent-X - Intro beat.stc",
+    "name": "Agent-X - Intro Beat.stc",
+    "file": "chiptunes/Agent-X/Agent-X - Intro Beat.stc",
     "pt3": false,
     "author": "Agent-X",
     "section": null,
     "time": "05:23"
-  },
-  {
-    "name": "Agent-X - LSD megademo - Agent's part.stc",
-    "file": "chiptunes/Agent-X/Agent-X - LSD megademo - Agent's part.stc",
-    "pt3": false,
-    "author": "Agent-X",
-    "section": null,
-    "time": "02:57"
-  },
-  {
-    "name": "Agent-X - LSD megademo - Chris's part.stc",
-    "file": "chiptunes/Agent-X/Agent-X - LSD megademo - Chris's part.stc",
-    "pt3": false,
-    "author": "Agent-X",
-    "section": null,
-    "time": "01:17"
-  },
-  {
-    "name": "Agent-X - LSD megademo - intro.stc",
-    "file": "chiptunes/Agent-X/Agent-X - LSD megademo - intro.stc",
-    "pt3": false,
-    "author": "Agent-X",
-    "section": null,
-    "time": "01:24"
-  },
-  {
-    "name": "Agent-X - LSD megademo - messages part.stc",
-    "file": "chiptunes/Agent-X/Agent-X - LSD megademo - messages part.stc",
-    "pt3": false,
-    "author": "Agent-X",
-    "section": null,
-    "time": "01:40"
   },
   {
     "name": "Agent-X - Multiorn.stc",
@@ -344,68 +206,98 @@ var AYPLAYLIST_DATA = [
     "time": "02:49"
   },
   {
-    "name": "Agent-X - My favourite one.stc",
-    "file": "chiptunes/Agent-X/Agent-X - My favourite one.stc",
+    "name": "Agent-X - My Favourite One.stc",
+    "file": "chiptunes/Agent-X/Agent-X - My Favourite One.stc",
     "pt3": false,
     "author": "Agent-X",
     "section": null,
     "time": "02:11"
   },
   {
-    "name": "Agent-X - Name it yourself.stc",
-    "file": "chiptunes/Agent-X/Agent-X - Name it yourself.stc",
+    "name": "Agent-X - Name It Yourself.stc",
+    "file": "chiptunes/Agent-X/Agent-X - Name It Yourself.stc",
     "pt3": false,
     "author": "Agent-X",
     "section": null,
     "time": "03:12"
   },
   {
-    "name": "Agent-X - Nonamedzak02.stc",
-    "file": "chiptunes/Agent-X/Agent-X - Nonamedzak02.stc",
+    "name": "Agent-X - NMI End Part.stc",
+    "file": "chiptunes/Agent-X/Agent-X - NMI End Part.stc",
+    "pt3": false,
+    "author": "Agent-X",
+    "section": null,
+    "time": "01:40"
+  },
+  {
+    "name": "Agent-X - Noname Dzak 02.stc",
+    "file": "chiptunes/Agent-X/Agent-X - Noname Dzak 02.stc",
     "pt3": false,
     "author": "Agent-X",
     "section": null,
     "time": "03:50"
   },
   {
-    "name": "Agent-X - Number fifteenth.stc",
-    "file": "chiptunes/Agent-X/Agent-X - Number fifteenth.stc",
+    "name": "Agent-X - Number Fifteenth.stc",
+    "file": "chiptunes/Agent-X/Agent-X - Number Fifteenth.stc",
     "pt3": false,
     "author": "Agent-X",
     "section": null,
     "time": "01:32"
   },
   {
-    "name": "Agent-X - Second noiser.stc",
-    "file": "chiptunes/Agent-X/Agent-X - Second noiser.stc",
+    "name": "Agent-X - Schizofrenia Game.stc",
+    "file": "chiptunes/Agent-X/Agent-X - Schizofrenia Game.stc",
+    "pt3": false,
+    "author": "Agent-X",
+    "section": null,
+    "time": "03:15"
+  },
+  {
+    "name": "Agent-X - Schizophrenia.ay",
+    "file": "chiptunes/Agent-X/Agent-X - Schizophrenia.ay",
+    "pt3": false,
+    "author": "Agent-X",
+    "section": null
+  },
+  {
+    "name": "Agent-X - Second Noiser.stc",
+    "file": "chiptunes/Agent-X/Agent-X - Second Noiser.stc",
     "pt3": false,
     "author": "Agent-X",
     "section": null,
     "time": "02:03"
   },
   {
-    "name": "Agent-X - Simple but nice.stc",
-    "file": "chiptunes/Agent-X/Agent-X - Simple but nice.stc",
+    "name": "Agent-X - Simple But Nice.stc",
+    "file": "chiptunes/Agent-X/Agent-X - Simple But Nice.stc",
     "pt3": false,
     "author": "Agent-X",
     "section": null,
     "time": "02:41"
   },
   {
-    "name": "Agent-X - Special music collection - the guide.stc",
-    "file": "chiptunes/Agent-X/Agent-X - Special music collection - the guide.stc",
+    "name": "Agent-X - Special Music Collection - The Guide.stc",
+    "file": "chiptunes/Agent-X/Agent-X - Special Music Collection - The Guide.stc",
     "pt3": false,
     "author": "Agent-X",
     "section": null,
     "time": "00:51"
   },
   {
-    "name": "Agent-X - The city demo-1.stc",
-    "file": "chiptunes/Agent-X/Agent-X - The city demo-1.stc",
+    "name": "Agent-X - The City Demo-1.stc",
+    "file": "chiptunes/Agent-X/Agent-X - The City Demo-1.stc",
     "pt3": false,
     "author": "Agent-X",
     "section": null,
     "time": "02:34"
+  },
+  {
+    "name": "Agent-X - The Fly Demo.ay",
+    "file": "chiptunes/Agent-X/Agent-X - The Fly Demo.ay",
+    "pt3": false,
+    "author": "Agent-X",
+    "section": null
   },
   {
     "name": "Agent-X - The Funky Strut.stc",
@@ -416,16 +308,16 @@ var AYPLAYLIST_DATA = [
     "time": "02:41"
   },
   {
-    "name": "Agent-X - Three days in 91.stc",
-    "file": "chiptunes/Agent-X/Agent-X - Three days in 91.stc",
+    "name": "Agent-X - Three Days In 91.stc",
+    "file": "chiptunes/Agent-X/Agent-X - Three Days In 91.stc",
     "pt3": false,
     "author": "Agent-X",
     "section": null,
     "time": "05:07"
   },
   {
-    "name": "Agent-X - Vidiparty demo.stc",
-    "file": "chiptunes/Agent-X/Agent-X - Vidiparty demo.stc",
+    "name": "Agent-X - Vidiparty Demo.stc",
+    "file": "chiptunes/Agent-X/Agent-X - Vidiparty Demo.stc",
     "pt3": false,
     "author": "Agent-X",
     "section": null,
@@ -440,287 +332,123 @@ var AYPLAYLIST_DATA = [
     "time": "01:48"
   },
   {
-    "name": "Agent-XNonamedzak02.stc",
-    "file": "chiptunes/Agent-X/Agent-XNonamedzak02.stc",
+    "name": "Agent-X - Branch of Mind 1.stc",
+    "file": "chiptunes/Agent-X/Branch of Mind Demo/Agent-X - Branch of Mind 1.stc",
     "pt3": false,
     "author": "Agent-X",
-    "section": null,
-    "time": "03:50"
-  },
-  {
-    "name": "AGENT3.stc",
-    "file": "chiptunes/Agent-X/AGENT3.stc",
-    "pt3": false,
-    "author": "Agent-X",
-    "section": null,
-    "time": "02:18"
-  },
-  {
-    "name": "Branch of mind1.stc",
-    "file": "chiptunes/Agent-X/Branch of mind1.stc",
-    "pt3": false,
-    "author": "Agent-X",
-    "section": null,
+    "section": "Branch of Mind Demo",
     "time": "04:29"
   },
   {
-    "name": "Branch of mind2.stc",
-    "file": "chiptunes/Agent-X/Branch of mind2.stc",
+    "name": "Agent-X - Branch of Mind 2.stc",
+    "file": "chiptunes/Agent-X/Branch of Mind Demo/Agent-X - Branch of Mind 2.stc",
     "pt3": false,
     "author": "Agent-X",
-    "section": null,
+    "section": "Branch of Mind Demo",
     "time": "03:38"
   },
   {
-    "name": "Branch of mind3.ay",
-    "file": "chiptunes/Agent-X/Branch of mind3.ay",
+    "name": "Agent-X - Branch of Mind 3.ay",
+    "file": "chiptunes/Agent-X/Branch of Mind Demo/Agent-X - Branch of Mind 3.ay",
     "pt3": false,
     "author": "Agent-X",
-    "section": null
+    "section": "Branch of Mind Demo"
   },
   {
-    "name": "Dies irae.ay",
-    "file": "chiptunes/Agent-X/Dies irae.ay",
+    "name": "Agent-X - Alternate Tune.stc",
+    "file": "chiptunes/Agent-X/Hypersonic 2 Demo/Agent-X - Alternate Tune.stc",
     "pt3": false,
     "author": "Agent-X",
-    "section": null
+    "section": "Hypersonic 2 Demo",
+    "time": "01:48"
   },
   {
-    "name": "Film Music 001.stc",
-    "file": "chiptunes/Agent-X/Film Music 001.stc",
+    "name": "Agent-X - Intro.stc",
+    "file": "chiptunes/Agent-X/Hypersonic 2 Demo/Agent-X - Intro.stc",
     "pt3": false,
     "author": "Agent-X",
-    "section": null,
-    "time": "06:01"
+    "section": "Hypersonic 2 Demo",
+    "time": "00:38"
   },
   {
-    "name": "Film Music 002.stc",
-    "file": "chiptunes/Agent-X/Film Music 002.stc",
+    "name": "Agent-X - Main Part.stc",
+    "file": "chiptunes/Agent-X/Hypersonic 2 Demo/Agent-X - Main Part.stc",
     "pt3": false,
     "author": "Agent-X",
-    "section": null,
-    "time": "05:33"
+    "section": "Hypersonic 2 Demo",
+    "time": "06:05"
   },
   {
-    "name": "First challenge (HEXOGEN1).stc",
-    "file": "chiptunes/Agent-X/First challenge (HEXOGEN1).stc",
+    "name": "Agent-X - Preview - Messages Part.stc",
+    "file": "chiptunes/Agent-X/Hypersonic 2 Demo/Agent-X - Preview - Messages Part.stc",
     "pt3": false,
     "author": "Agent-X",
-    "section": null,
-    "time": "01:55"
+    "section": "Hypersonic 2 Demo",
+    "time": "00:46"
   },
   {
-    "name": "First challenge.stc",
-    "file": "chiptunes/Agent-X/First challenge.stc",
+    "name": "Agent-X - Preview - Night City.stc",
+    "file": "chiptunes/Agent-X/Hypersonic 2 Demo/Agent-X - Preview - Night City.stc",
     "pt3": false,
     "author": "Agent-X",
-    "section": null,
-    "time": "01:55"
+    "section": "Hypersonic 2 Demo",
+    "time": "04:21"
   },
   {
-    "name": "Gemini - double preview.ay",
-    "file": "chiptunes/Agent-X/Gemini - double preview.ay",
+    "name": "Agent-X - Agent's part.stc",
+    "file": "chiptunes/Agent-X/LSD Megedemo/Agent-X - Agent's part.stc",
     "pt3": false,
     "author": "Agent-X",
-    "section": null
-  },
-  {
-    "name": "HEXOGEN3.stc",
-    "file": "chiptunes/Agent-X/HEXOGEN3.stc",
-    "pt3": false,
-    "author": "Agent-X",
-    "section": null,
-    "time": "00:15"
-  },
-  {
-    "name": "Intro beat.stc",
-    "file": "chiptunes/Agent-X/Intro beat.stc",
-    "pt3": false,
-    "author": "Agent-X",
-    "section": null,
-    "time": "05:23"
-  },
-  {
-    "name": "LSD megademo - Agent's part.stc",
-    "file": "chiptunes/Agent-X/LSD megademo - Agent's part.stc",
-    "pt3": false,
-    "author": "Agent-X",
-    "section": null,
+    "section": "LSD Megedemo",
     "time": "02:57"
   },
   {
-    "name": "LSD megademo - Chris's part.stc",
-    "file": "chiptunes/Agent-X/LSD megademo - Chris's part.stc",
+    "name": "Agent-X - Chris's part.stc",
+    "file": "chiptunes/Agent-X/LSD Megedemo/Agent-X - Chris's part.stc",
     "pt3": false,
     "author": "Agent-X",
-    "section": null,
+    "section": "LSD Megedemo",
     "time": "01:17"
   },
   {
-    "name": "LSD megademo - intro.stc",
-    "file": "chiptunes/Agent-X/LSD megademo - intro.stc",
+    "name": "Agent-X - Intro.stc",
+    "file": "chiptunes/Agent-X/LSD Megedemo/Agent-X - Intro.stc",
     "pt3": false,
     "author": "Agent-X",
-    "section": null,
+    "section": "LSD Megedemo",
     "time": "01:24"
   },
   {
-    "name": "LSD megademo - messages part.stc",
-    "file": "chiptunes/Agent-X/LSD megademo - messages part.stc",
+    "name": "Agent-X - LSD MegaDemo 02.stc",
+    "file": "chiptunes/Agent-X/LSD Megedemo/Agent-X - LSD MegaDemo 02.stc",
     "pt3": false,
     "author": "Agent-X",
-    "section": null,
-    "time": "01:40"
-  },
-  {
-    "name": "LSDMegaDemo02.stc",
-    "file": "chiptunes/Agent-X/LSDMegaDemo02.stc",
-    "pt3": false,
-    "author": "Agent-X",
-    "section": null,
+    "section": "LSD Megedemo",
     "time": "01:55"
   },
   {
-    "name": "Multiorn.stc",
-    "file": "chiptunes/Agent-X/Multiorn.stc",
+    "name": "Agent-X - Messages Part.stc",
+    "file": "chiptunes/Agent-X/LSD Megedemo/Agent-X - Messages Part.stc",
     "pt3": false,
     "author": "Agent-X",
-    "section": null,
-    "time": "02:49"
-  },
-  {
-    "name": "My favourite one.stc",
-    "file": "chiptunes/Agent-X/My favourite one.stc",
-    "pt3": false,
-    "author": "Agent-X",
-    "section": null,
-    "time": "02:11"
-  },
-  {
-    "name": "Name it yourself.stc",
-    "file": "chiptunes/Agent-X/Name it yourself.stc",
-    "pt3": false,
-    "author": "Agent-X",
-    "section": null,
-    "time": "03:12"
-  },
-  {
-    "name": "NMIEndPart.stc",
-    "file": "chiptunes/Agent-X/NMIEndPart.stc",
-    "pt3": false,
-    "author": "Agent-X",
-    "section": null,
+    "section": "LSD Megedemo",
     "time": "01:40"
   },
   {
-    "name": "Number fifteenth.stc",
-    "file": "chiptunes/Agent-X/Number fifteenth.stc",
+    "name": "Agent-X - SOCOBAN 1.stc",
+    "file": "chiptunes/Agent-X/Socoban Game/Agent-X - SOCOBAN 1.stc",
     "pt3": false,
     "author": "Agent-X",
-    "section": null,
-    "time": "01:32"
-  },
-  {
-    "name": "Schizofrenia Game.stc",
-    "file": "chiptunes/Agent-X/Schizofrenia Game.stc",
-    "pt3": false,
-    "author": "Agent-X",
-    "section": null,
-    "time": "03:15"
-  },
-  {
-    "name": "Schizophrenia.ay",
-    "file": "chiptunes/Agent-X/Schizophrenia.ay",
-    "pt3": false,
-    "author": "Agent-X",
-    "section": null
-  },
-  {
-    "name": "Second noiser.stc",
-    "file": "chiptunes/Agent-X/Second noiser.stc",
-    "pt3": false,
-    "author": "Agent-X",
-    "section": null,
-    "time": "02:03"
-  },
-  {
-    "name": "Simple but nice.stc",
-    "file": "chiptunes/Agent-X/Simple but nice.stc",
-    "pt3": false,
-    "author": "Agent-X",
-    "section": null,
-    "time": "02:41"
-  },
-  {
-    "name": "SOCOBAN1.stc",
-    "file": "chiptunes/Agent-X/SOCOBAN1.stc",
-    "pt3": false,
-    "author": "Agent-X",
-    "section": null,
+    "section": "Socoban Game",
     "time": "01:55"
   },
   {
-    "name": "SOCOBAN2.stc",
-    "file": "chiptunes/Agent-X/SOCOBAN2.stc",
+    "name": "Agent-X - SOCOBAN 2.stc",
+    "file": "chiptunes/Agent-X/Socoban Game/Agent-X - SOCOBAN 2.stc",
     "pt3": false,
     "author": "Agent-X",
-    "section": null,
+    "section": "Socoban Game",
     "time": "02:57"
-  },
-  {
-    "name": "Special music collection - the guide.stc",
-    "file": "chiptunes/Agent-X/Special music collection - the guide.stc",
-    "pt3": false,
-    "author": "Agent-X",
-    "section": null,
-    "time": "00:51"
-  },
-  {
-    "name": "The city demo-1.stc",
-    "file": "chiptunes/Agent-X/The city demo-1.stc",
-    "pt3": false,
-    "author": "Agent-X",
-    "section": null,
-    "time": "02:34"
-  },
-  {
-    "name": "The Funky Strut.stc",
-    "file": "chiptunes/Agent-X/The Funky Strut.stc",
-    "pt3": false,
-    "author": "Agent-X",
-    "section": null,
-    "time": "02:41"
-  },
-  {
-    "name": "TheFlyDemo.ay",
-    "file": "chiptunes/Agent-X/TheFlyDemo.ay",
-    "pt3": false,
-    "author": "Agent-X",
-    "section": null
-  },
-  {
-    "name": "Three days in 91.stc",
-    "file": "chiptunes/Agent-X/Three days in 91.stc",
-    "pt3": false,
-    "author": "Agent-X",
-    "section": null,
-    "time": "05:07"
-  },
-  {
-    "name": "Vidiparty demo.stc",
-    "file": "chiptunes/Agent-X/Vidiparty demo.stc",
-    "pt3": false,
-    "author": "Agent-X",
-    "section": null,
-    "time": "01:48"
-  },
-  {
-    "name": "What A Rumble.stc",
-    "file": "chiptunes/Agent-X/What A Rumble.stc",
-    "pt3": false,
-    "author": "Agent-X",
-    "section": null,
-    "time": "01:48"
   },
   {
     "name": "Aggressor - Dissonan.pt3",
@@ -795,1056 +523,1056 @@ var AYPLAYLIST_DATA = [
     "time": "03:04"
   },
   {
-    "name": "arabian_night96.pt2",
-    "file": "chiptunes/Andy Fer/1996/arabian_night96.pt2",
+    "name": "Andy Fer - Arabian Night 96.pt2",
+    "file": "chiptunes/Andy Fer/1996/Andy Fer - Arabian Night 96.pt2",
     "pt3": false,
     "author": "Andy Fer",
     "section": "1996",
     "time": "03:35"
   },
   {
-    "name": "it's_time.pt2",
-    "file": "chiptunes/Andy Fer/1996/it's_time.pt2",
+    "name": "Andy Fer - It's Time.pt2",
+    "file": "chiptunes/Andy Fer/1996/Andy Fer - It's Time.pt2",
     "pt3": false,
     "author": "Andy Fer",
     "section": "1996",
     "time": "06:09"
   },
   {
-    "name": "MaxGift1.stc",
-    "file": "chiptunes/Andy Fer/1996/MaxGift1.stc",
+    "name": "Andy Fer - Max Gift 1.stc",
+    "file": "chiptunes/Andy Fer/1996/Andy Fer - Max Gift 1.stc",
     "pt3": false,
     "author": "Andy Fer",
     "section": "1996",
     "time": "02:49"
   },
   {
-    "name": "MaxGift2.stc",
-    "file": "chiptunes/Andy Fer/1996/MaxGift2.stc",
+    "name": "Andy Fer - Max Gift 2.stc",
+    "file": "chiptunes/Andy Fer/1996/Andy Fer - Max Gift 2.stc",
     "pt3": false,
     "author": "Andy Fer",
     "section": "1996",
     "time": "02:39"
   },
   {
-    "name": "MaxGift3.stc",
-    "file": "chiptunes/Andy Fer/1996/MaxGift3.stc",
+    "name": "Andy Fer - Max Gift 3.stc",
+    "file": "chiptunes/Andy Fer/1996/Andy Fer - Max Gift 3.stc",
     "pt3": false,
     "author": "Andy Fer",
     "section": "1996",
     "time": "03:15"
   },
   {
-    "name": "Technodrom.stc",
-    "file": "chiptunes/Andy Fer/1996/Technodrom.stc",
+    "name": "Andy Fer - Technodrom.stc",
+    "file": "chiptunes/Andy Fer/1996/Andy Fer - Technodrom.stc",
     "pt3": false,
     "author": "Andy Fer",
     "section": "1996",
     "time": "03:58"
   },
   {
-    "name": "the_past.pt2",
-    "file": "chiptunes/Andy Fer/1996/the_past.pt2",
+    "name": "Andy Fer - The Past.pt2",
+    "file": "chiptunes/Andy Fer/1996/Andy Fer - The Past.pt2",
     "pt3": false,
     "author": "Andy Fer",
     "section": "1996",
     "time": "02:21"
   },
   {
-    "name": "you&me.pt2",
-    "file": "chiptunes/Andy Fer/1996/you&me.pt2",
+    "name": "Andy Fer - You & Me.pt2",
+    "file": "chiptunes/Andy Fer/1996/Andy Fer - You & Me.pt2",
     "pt3": false,
     "author": "Andy Fer",
     "section": "1996",
     "time": "03:50"
   },
   {
-    "name": "cant_4give.pt2",
-    "file": "chiptunes/Andy Fer/1997/cant_4give.pt2",
+    "name": "Andy Fer - Cant 4give.pt2",
+    "file": "chiptunes/Andy Fer/1997/Andy Fer - Cant 4give.pt2",
     "pt3": false,
     "author": "Andy Fer",
     "section": "1997",
     "time": "04:29"
   },
   {
-    "name": "deja_vu.pt2",
-    "file": "chiptunes/Andy Fer/1997/deja_vu.pt2",
+    "name": "Andy Fer - Deja Vu.pt2",
+    "file": "chiptunes/Andy Fer/1997/Andy Fer - Deja Vu.pt2",
     "pt3": false,
     "author": "Andy Fer",
     "section": "1997",
     "time": "02:26"
   },
   {
-    "name": "epilogue.pt2",
-    "file": "chiptunes/Andy Fer/1997/epilogue.pt2",
+    "name": "Andy Fer - Epilogue.pt2",
+    "file": "chiptunes/Andy Fer/1997/Andy Fer - Epilogue.pt2",
     "pt3": false,
     "author": "Andy Fer",
     "section": "1997",
     "time": "04:22"
   },
   {
-    "name": "NewYear!.pt2",
-    "file": "chiptunes/Andy Fer/1997/NewYear!.pt2",
+    "name": "Andy Fer - New Year!.pt2",
+    "file": "chiptunes/Andy Fer/1997/Andy Fer - New Year!.pt2",
     "pt3": false,
     "author": "Andy Fer",
     "section": "1997",
     "time": "02:54"
   },
   {
-    "name": "short_theme.pt2",
-    "file": "chiptunes/Andy Fer/1997/short_theme.pt2",
+    "name": "Andy Fer - Short Theme.pt2",
+    "file": "chiptunes/Andy Fer/1997/Andy Fer - Short Theme.pt2",
     "pt3": false,
     "author": "Andy Fer",
     "section": "1997",
     "time": "01:55"
   },
   {
-    "name": "#z80_#5_1.pt3",
-    "file": "chiptunes/Andy Fer/1998/#z80_#5_1.pt3",
+    "name": "Andt Fer - Gorod Zolotoj (R) Akwarium.pt3",
+    "file": "chiptunes/Andy Fer/1998/Andt Fer - Gorod Zolotoj (R) Akwarium.pt3",
     "pt3": false,
     "author": "Andy Fer",
     "section": "1998",
-    "time": "03:35"
+    "time": "01:49"
   },
   {
-    "name": "arabian_night.pt3",
-    "file": "chiptunes/Andy Fer/1998/arabian_night.pt3",
+    "name": "Andy Fer - A Little.pt3",
+    "file": "chiptunes/Andy Fer/1998/Andy Fer - A Little.pt3",
+    "pt3": false,
+    "author": "Andy Fer",
+    "section": "1998",
+    "time": "02:23"
+  },
+  {
+    "name": "Andy Fer - Arabian Night.pt3",
+    "file": "chiptunes/Andy Fer/1998/Andy Fer - Arabian Night.pt3",
     "pt3": false,
     "author": "Andy Fer",
     "section": "1998",
     "time": "03:43"
   },
   {
-    "name": "a_little.pt3",
-    "file": "chiptunes/Andy Fer/1998/a_little.pt3",
-    "pt3": false,
-    "author": "Andy Fer",
-    "section": "1998",
-    "time": "02:23"
-  },
-  {
-    "name": "Buzz#17_2.pt3",
-    "file": "chiptunes/Andy Fer/1998/Buzz#17_2.pt3",
-    "pt3": false,
-    "author": "Andy Fer",
-    "section": "1998",
-    "time": "02:23"
-  },
-  {
-    "name": "da_bith.pt3",
-    "file": "chiptunes/Andy Fer/1998/da_bith.pt3",
+    "name": "Andy Fer - Da Bith.pt3",
+    "file": "chiptunes/Andy Fer/1998/Andy Fer - Da Bith.pt3",
     "pt3": false,
     "author": "Andy Fer",
     "section": "1998",
     "time": "01:51"
   },
   {
-    "name": "DejaVU#06_30.pt3",
-    "file": "chiptunes/Andy Fer/1998/DejaVU#06_30.pt3",
-    "pt3": false,
-    "author": "Andy Fer",
-    "section": "1998",
-    "time": "03:45"
-  },
-  {
-    "name": "dream.pt3",
-    "file": "chiptunes/Andy Fer/1998/dream.pt3",
+    "name": "Andy Fer - Dream.pt3",
+    "file": "chiptunes/Andy Fer/1998/Andy Fer - Dream.pt3",
     "pt3": false,
     "author": "Andy Fer",
     "section": "1998",
     "time": "01:58"
   },
   {
-    "name": "e-pyh-da.pt2",
-    "file": "chiptunes/Andy Fer/1998/e-pyh-da.pt2",
+    "name": "Andy Fer - E-Pyh-Da.pt2",
+    "file": "chiptunes/Andy Fer/1998/Andy Fer - E-Pyh-Da.pt2",
     "pt3": false,
     "author": "Andy Fer",
     "section": "1998",
     "time": "01:53"
   },
   {
-    "name": "folkwork.pt3",
-    "file": "chiptunes/Andy Fer/1998/folkwork.pt3",
+    "name": "Andy Fer - Folkwork.pt3",
+    "file": "chiptunes/Andy Fer/1998/Andy Fer - Folkwork.pt3",
     "pt3": false,
     "author": "Andy Fer",
     "section": "1998",
     "time": "02:44"
   },
   {
-    "name": "Heresy1_2.pt3",
-    "file": "chiptunes/Andy Fer/1998/Heresy1_2.pt3",
-    "pt3": false,
-    "author": "Andy Fer",
-    "section": "1998",
-    "time": "01:49"
-  },
-  {
-    "name": "Heresy2_2.pt3",
-    "file": "chiptunes/Andy Fer/1998/Heresy2_2.pt3",
-    "pt3": false,
-    "author": "Andy Fer",
-    "section": "1998",
-    "time": "01:49"
-  },
-  {
-    "name": "imp_mix.pt3",
-    "file": "chiptunes/Andy Fer/1998/imp_mix.pt3",
-    "pt3": false,
-    "author": "Andy Fer",
-    "section": "1998",
-    "time": "02:03"
-  },
-  {
-    "name": "roil'em_ali2.pt3",
-    "file": "chiptunes/Andy Fer/1998/roil'em_ali2.pt3",
+    "name": "Andy Fer - FReEStYlE TheMe RolL'Em aLl 2.pt3",
+    "file": "chiptunes/Andy Fer/1998/Andy Fer - FReEStYlE TheMe RolL'Em aLl 2.pt3",
     "pt3": false,
     "author": "Andy Fer",
     "section": "1998",
     "time": "02:18"
   },
   {
-    "name": "Rule1.pt2",
-    "file": "chiptunes/Andy Fer/1998/Rule1.pt2",
+    "name": "Andy Fer - IMP's TUNE mix.pt3",
+    "file": "chiptunes/Andy Fer/1998/Andy Fer - IMP's TUNE mix.pt3",
+    "pt3": false,
+    "author": "Andy Fer",
+    "section": "1998",
+    "time": "02:03"
+  },
+  {
+    "name": "Andy Fer - Madam Bo Q.pt3",
+    "file": "chiptunes/Andy Fer/1998/Andy Fer - Madam Bo Q.pt3",
+    "pt3": false,
+    "author": "Andy Fer",
+    "section": "1998",
+    "time": "01:49"
+  },
+  {
+    "name": "Andy Fer - Ocenb Nactupila.pt3",
+    "file": "chiptunes/Andy Fer/1998/Andy Fer - Ocenb Nactupila.pt3",
+    "pt3": false,
+    "author": "Andy Fer",
+    "section": "1998",
+    "time": "02:23"
+  },
+  {
+    "name": "Andy Fer - Rule 1.pt2",
+    "file": "chiptunes/Andy Fer/1998/Andy Fer - Rule 1.pt2",
     "pt3": false,
     "author": "Andy Fer",
     "section": "1998",
     "time": "02:26"
   },
   {
-    "name": "sumburian.pt3",
-    "file": "chiptunes/Andy Fer/1998/sumburian.pt3",
+    "name": "Andy Fer - Sumburian Fantasy Themes.pt3",
+    "file": "chiptunes/Andy Fer/1998/Andy Fer - Sumburian Fantasy Themes.pt3",
     "pt3": false,
     "author": "Andy Fer",
     "section": "1998",
     "time": "03:15"
   },
   {
-    "name": "the_rain.pt3",
-    "file": "chiptunes/Andy Fer/1998/the_rain.pt3",
+    "name": "Andy Fer - The Rain.pt3",
+    "file": "chiptunes/Andy Fer/1998/Andy Fer - The Rain.pt3",
     "pt3": false,
     "author": "Andy Fer",
     "section": "1998",
     "time": "03:25"
   },
   {
-    "name": "twister.pt3",
-    "file": "chiptunes/Andy Fer/1998/twister.pt3",
+    "name": "Andy Fer - Theme For Nothing Sh.Theme 5.pt3",
+    "file": "chiptunes/Andy Fer/1998/Andy Fer - Theme For Nothing Sh.Theme 5.pt3",
+    "pt3": false,
+    "author": "Andy Fer",
+    "section": "1998",
+    "time": "03:35"
+  },
+  {
+    "name": "Andy Fer - Twister's Dance Machine!.pt3",
+    "file": "chiptunes/Andy Fer/1998/Andy Fer - Twister's Dance Machine!.pt3",
     "pt3": false,
     "author": "Andy Fer",
     "section": "1998",
     "time": "02:49"
   },
   {
-    "name": "TW_D_MAS.pt3",
-    "file": "chiptunes/Andy Fer/1998/TW_D_MAS.pt3",
+    "name": "Andy Fer - Twister.pt3",
+    "file": "chiptunes/Andy Fer/1998/Andy Fer - Twister.pt3",
     "pt3": false,
     "author": "Andy Fer",
     "section": "1998",
     "time": "02:49"
   },
   {
-    "name": "Anothers Glare.pt3",
-    "file": "chiptunes/Andy Fer/1999/Anothers Glare.pt3",
+    "name": "Andy Fer - Where Am I.pt3",
+    "file": "chiptunes/Andy Fer/1998/Andy Fer - Where Am I.pt3",
+    "pt3": false,
+    "author": "Andy Fer",
+    "section": "1998",
+    "time": "03:45"
+  },
+  {
+    "name": "Andy Fer - Anothers Glare.pt3",
+    "file": "chiptunes/Andy Fer/1999/Andy Fer - Anothers Glare.pt3",
     "pt3": false,
     "author": "Andy Fer",
     "section": "1999",
     "time": "03:25"
   },
   {
-    "name": "cencored.pt3",
-    "file": "chiptunes/Andy Fer/1999/cencored.pt3",
+    "name": "Andy Fer - Cencored.pt3",
+    "file": "chiptunes/Andy Fer/1999/Andy Fer - Cencored.pt3",
     "pt3": false,
     "author": "Andy Fer",
     "section": "1999",
     "time": "03:25"
   },
   {
-    "name": "for_majam.pt3",
-    "file": "chiptunes/Andy Fer/1999/for_majam.pt3",
+    "name": "Andy Fer - Cenzored 99.pt3",
+    "file": "chiptunes/Andy Fer/1999/Andy Fer - Cenzored 99.pt3",
+    "pt3": false,
+    "author": "Andy Fer",
+    "section": "1999",
+    "time": "03:31"
+  },
+  {
+    "name": "Andy Fer - For Majam.pt3",
+    "file": "chiptunes/Andy Fer/1999/Andy Fer - For Majam.pt3",
     "pt3": false,
     "author": "Andy Fer",
     "section": "1999",
     "time": "03:15"
   },
   {
-    "name": "free_of_feel.pt3",
-    "file": "chiptunes/Andy Fer/1999/free_of_feel.pt3",
+    "name": "Andy Fer - For_Majam.pt3",
+    "file": "chiptunes/Andy Fer/1999/Andy Fer - For_Majam.pt3",
     "pt3": false,
     "author": "Andy Fer",
     "section": "1999",
-    "time": "01:40"
+    "time": "03:15"
   },
   {
-    "name": "FunkySc.pt3",
-    "file": "chiptunes/Andy Fer/1999/FunkySc.pt3",
-    "pt3": false,
-    "author": "Andy Fer",
-    "section": "1999",
-    "time": "02:03"
-  },
-  {
-    "name": "fun_sun_shine.pt3",
-    "file": "chiptunes/Andy Fer/1999/fun_sun_shine.pt3",
+    "name": "Andy Fer - Fun Sun Shine.pt3",
+    "file": "chiptunes/Andy Fer/1999/Andy Fer - Fun Sun Shine.pt3",
     "pt3": false,
     "author": "Andy Fer",
     "section": "1999",
     "time": "02:08"
   },
   {
-    "name": "La Futuristic Grahemania.pt3",
-    "file": "chiptunes/Andy Fer/1999/La Futuristic Grahemania.pt3",
+    "name": "Andy Fer - Introsketch - Free Of Feel 99.pt3",
+    "file": "chiptunes/Andy Fer/1999/Andy Fer - Introsketch - Free Of Feel 99.pt3",
+    "pt3": false,
+    "author": "Andy Fer",
+    "section": "1999",
+    "time": "01:40"
+  },
+  {
+    "name": "Andy Fer - La Futuristic Grahemania.pt3",
+    "file": "chiptunes/Andy Fer/1999/Andy Fer - La Futuristic Grahemania.pt3",
     "pt3": false,
     "author": "Andy Fer",
     "section": "1999",
     "time": "02:39"
   },
   {
-    "name": "love'n'gun.pt3",
-    "file": "chiptunes/Andy Fer/1999/love'n'gun.pt3",
+    "name": "Andy Fer - Love'N'Gun.pt3",
+    "file": "chiptunes/Andy Fer/1999/Andy Fer - Love'N'Gun.pt3",
     "pt3": false,
     "author": "Andy Fer",
     "section": "1999",
     "time": "02:18"
   },
   {
-    "name": "once_in_bagdad.pt3",
-    "file": "chiptunes/Andy Fer/1999/once_in_bagdad.pt3",
+    "name": "Andy Fer - New Old Theme - Funky Sketch.pt3",
+    "file": "chiptunes/Andy Fer/1999/Andy Fer - New Old Theme - Funky Sketch.pt3",
+    "pt3": false,
+    "author": "Andy Fer",
+    "section": "1999",
+    "time": "02:03"
+  },
+  {
+    "name": "Andy Fer - Once In Bagdad.pt3",
+    "file": "chiptunes/Andy Fer/1999/Andy Fer - Once In Bagdad.pt3",
     "pt3": false,
     "author": "Andy Fer",
     "section": "1999",
     "time": "03:44"
   },
   {
-    "name": "parasimulation.pt3",
-    "file": "chiptunes/Andy Fer/1999/parasimulation.pt3",
+    "name": "Andy Fer - Parasimulation.pt3",
+    "file": "chiptunes/Andy Fer/1999/Andy Fer - Parasimulation.pt3",
     "pt3": false,
     "author": "Andy Fer",
     "section": "1999",
     "time": "01:40"
   },
   {
-    "name": "stay_or_go.pt3",
-    "file": "chiptunes/Andy Fer/1999/stay_or_go.pt3",
+    "name": "Andy Fer - Stay Or Go.pt3",
+    "file": "chiptunes/Andy Fer/1999/Andy Fer - Stay Or Go.pt3",
     "pt3": false,
     "author": "Andy Fer",
     "section": "1999",
     "time": "03:45"
   },
   {
-    "name": "the_white_road.pt3",
-    "file": "chiptunes/Andy Fer/1999/the_white_road.pt3",
+    "name": "Andy Fer - The White Road.pt3",
+    "file": "chiptunes/Andy Fer/1999/Andy Fer - The White Road.pt3",
     "pt3": false,
     "author": "Andy Fer",
     "section": "1999",
     "time": "04:47"
   },
   {
-    "name": "where_is_aim.pt3",
-    "file": "chiptunes/Andy Fer/1999/where_is_aim.pt3",
+    "name": "Andy Fer - Where Is Aim.pt3",
+    "file": "chiptunes/Andy Fer/1999/Andy Fer - Where Is Aim.pt3",
     "pt3": false,
     "author": "Andy Fer",
     "section": "1999",
     "time": "02:11"
   },
   {
-    "name": "Arabian.pt3",
-    "file": "chiptunes/Andy Fer/2000/Arabian.pt3",
+    "name": "Andy Fer - Arabian.pt3",
+    "file": "chiptunes/Andy Fer/2000/Andy Fer - Arabian.pt3",
     "pt3": false,
     "author": "Andy Fer",
     "section": "2000",
     "time": "02:23"
   },
   {
-    "name": "purple_perf.pt3",
-    "file": "chiptunes/Andy Fer/2000/purple_perf.pt3",
+    "name": "Andy Fer - Short Theme III - Purple Pelf.pt3",
+    "file": "chiptunes/Andy Fer/2000/Andy Fer - Short Theme III - Purple Pelf.pt3",
     "pt3": false,
     "author": "Andy Fer",
     "section": "2000",
     "time": "01:58"
   },
   {
-    "name": "snake_theme.pt3",
-    "file": "chiptunes/Andy Fer/2000/snake_theme.pt3",
+    "name": "Andy Fer - Snake Theme.pt3",
+    "file": "chiptunes/Andy Fer/2000/Andy Fer - Snake Theme.pt3",
     "pt3": false,
     "author": "Andy Fer",
     "section": "2000",
     "time": "01:48"
   },
   {
-    "name": "ThemeIII.pt3",
-    "file": "chiptunes/Andy Fer/2000/ThemeIII.pt3",
-    "pt3": false,
-    "author": "Andy Fer",
-    "section": "2000",
-    "time": "01:58"
-  },
-  {
-    "name": "the_intro.pt3",
-    "file": "chiptunes/Andy Fer/2000/the_intro.pt3",
+    "name": "Andy Fer - The Intro.pt3",
+    "file": "chiptunes/Andy Fer/2000/Andy Fer - The Intro.pt3",
     "pt3": false,
     "author": "Andy Fer",
     "section": "2000",
     "time": "01:32"
   },
   {
-    "name": "ucing_russian.pt3",
-    "file": "chiptunes/Andy Fer/2000/ucing_russian.pt3",
+    "name": "Andy Fer - Theme III.pt3",
+    "file": "chiptunes/Andy Fer/2000/Andy Fer - Theme III.pt3",
+    "pt3": false,
+    "author": "Andy Fer",
+    "section": "2000",
+    "time": "01:58"
+  },
+  {
+    "name": "Andy Fer - Ucing Russian Poping Lyrics.pt3",
+    "file": "chiptunes/Andy Fer/2000/Andy Fer - Ucing Russian Poping Lyrics.pt3",
     "pt3": false,
     "author": "Andy Fer",
     "section": "2000",
     "time": "02:34"
   },
   {
-    "name": "you&me_mix.pt3",
-    "file": "chiptunes/Andy Fer/2000/you&me_mix.pt3",
+    "name": "Andy Fer - You & Me mix (cover of '96 year).pt3",
+    "file": "chiptunes/Andy Fer/2000/Andy Fer - You & Me mix (cover of '96 year).pt3",
     "pt3": false,
     "author": "Andy Fer",
     "section": "2000",
     "time": "03:27"
   },
   {
-    "name": "Pussy - Intro Crack.pt3",
-    "file": "chiptunes/Andy Fer/2001/Pussy - Intro Crack.pt3",
+    "name": "Andy Fer - You'n'Me (Cover of '96 Year).pt3",
+    "file": "chiptunes/Andy Fer/2000/Andy Fer - You'n'Me (Cover of '96 Year).pt3",
+    "pt3": false,
+    "author": "Andy Fer",
+    "section": "2000",
+    "time": "02:57"
+  },
+  {
+    "name": "Andy Fer - IntroSketch - Free Of Feel 2001.pt3",
+    "file": "chiptunes/Andy Fer/2001/Andy Fer - IntroSketch - Free Of Feel 2001.pt3",
     "pt3": false,
     "author": "Andy Fer",
     "section": "2001",
     "time": "01:40"
   },
   {
-    "name": "4_MAJAM.pt3",
-    "file": "chiptunes/Andy Fer/other/4_MAJAM.pt3",
-    "pt3": false,
-    "author": "Andy Fer",
-    "section": "other",
-    "time": "03:15"
-  },
-  {
-    "name": "a'la MAD.pt2",
-    "file": "chiptunes/Andy Fer/other/a'la MAD.pt2",
+    "name": "Andy Fer - A'La Mad.pt2",
+    "file": "chiptunes/Andy Fer/other/Andy Fer - A'La Mad.pt2",
     "pt3": false,
     "author": "Andy Fer",
     "section": "other",
     "time": "01:48"
   },
   {
-    "name": "abstraction.pt2",
-    "file": "chiptunes/Andy Fer/other/abstraction.pt2",
+    "name": "Andy Fer - Abstraction.pt2",
+    "file": "chiptunes/Andy Fer/other/Andy Fer - Abstraction.pt2",
     "pt3": false,
     "author": "Andy Fer",
     "section": "other",
     "time": "02:14"
   },
   {
-    "name": "autumn.pt2",
-    "file": "chiptunes/Andy Fer/other/autumn.pt2",
+    "name": "Andy Fer - Autumn.pt2",
+    "file": "chiptunes/Andy Fer/other/Andy Fer - Autumn.pt2",
     "pt3": false,
     "author": "Andy Fer",
     "section": "other",
     "time": "04:42"
   },
   {
-    "name": "battler.pt2",
-    "file": "chiptunes/Andy Fer/other/battler.pt2",
+    "name": "Andy Fer - Battler.pt2",
+    "file": "chiptunes/Andy Fer/other/Andy Fer - Battler.pt2",
     "pt3": false,
     "author": "Andy Fer",
     "section": "other",
     "time": "03:43"
   },
   {
-    "name": "be_always.pt2",
-    "file": "chiptunes/Andy Fer/other/be_always.pt2",
+    "name": "Andy Fer - Be Always Happy Tolstopuz.pt2",
+    "file": "chiptunes/Andy Fer/other/Andy Fer - Be Always Happy Tolstopuz.pt2",
     "pt3": false,
     "author": "Andy Fer",
     "section": "other",
     "time": "02:46"
   },
   {
-    "name": "Cenzored.pt3",
-    "file": "chiptunes/Andy Fer/other/Cenzored.pt3",
+    "name": "Andy Fer - C Circus.pt2",
+    "file": "chiptunes/Andy Fer/other/Andy Fer - C Circus.pt2",
     "pt3": false,
     "author": "Andy Fer",
     "section": "other",
-    "time": "03:31"
+    "time": "01:23"
   },
   {
-    "name": "ceptor.pt2",
-    "file": "chiptunes/Andy Fer/other/ceptor.pt2",
+    "name": "Andy Fer - Ceptor.pt2",
+    "file": "chiptunes/Andy Fer/other/Andy Fer - Ceptor.pt2",
     "pt3": false,
     "author": "Andy Fer",
     "section": "other",
     "time": "03:06"
   },
   {
-    "name": "CHEAT.pt2",
-    "file": "chiptunes/Andy Fer/other/CHEAT.pt2",
+    "name": "Andy Fer - CHEAT.pt2",
+    "file": "chiptunes/Andy Fer/other/Andy Fer - CHEAT.pt2",
     "pt3": false,
     "author": "Andy Fer",
     "section": "other",
     "time": "03:20"
   },
   {
-    "name": "chunga-changa.pt2",
-    "file": "chiptunes/Andy Fer/other/chunga-changa.pt2",
+    "name": "Andy Fer - Chunga-Changa.pt2",
+    "file": "chiptunes/Andy Fer/other/Andy Fer - Chunga-Changa.pt2",
     "pt3": false,
     "author": "Andy Fer",
     "section": "other",
     "time": "01:36"
   },
   {
-    "name": "coloradskiy_zhuk.pt2",
-    "file": "chiptunes/Andy Fer/other/coloradskiy_zhuk.pt2",
+    "name": "Andy Fer - Coloradskiy Zhuk Mix.pt2",
+    "file": "chiptunes/Andy Fer/other/Andy Fer - Coloradskiy Zhuk Mix.pt2",
     "pt3": false,
     "author": "Andy Fer",
     "section": "other",
     "time": "00:51"
   },
   {
-    "name": "come_back.pt2",
-    "file": "chiptunes/Andy Fer/other/come_back.pt2",
+    "name": "Andy Fer - Come Back.pt2",
+    "file": "chiptunes/Andy Fer/other/Andy Fer - Come Back.pt2",
     "pt3": false,
     "author": "Andy Fer",
     "section": "other",
     "time": "02:50"
   },
   {
-    "name": "crack_invasion.pt3",
-    "file": "chiptunes/Andy Fer/other/crack_invasion.pt3",
+    "name": "Andy Fer - Crack Invasion.pt3",
+    "file": "chiptunes/Andy Fer/other/Andy Fer - Crack Invasion.pt3",
     "pt3": false,
     "author": "Andy Fer",
     "section": "other",
     "time": "01:21"
   },
   {
-    "name": "cyganowa.pt2",
-    "file": "chiptunes/Andy Fer/other/cyganowa.pt2",
+    "name": "Andy Fer - Cyganowa - Love & Death.pt2",
+    "file": "chiptunes/Andy Fer/other/Andy Fer - Cyganowa - Love & Death.pt2",
     "pt3": false,
     "author": "Andy Fer",
     "section": "other",
     "time": "04:06"
   },
   {
-    "name": "c_circus.pt2",
-    "file": "chiptunes/Andy Fer/other/c_circus.pt2",
-    "pt3": false,
-    "author": "Andy Fer",
-    "section": "other",
-    "time": "01:23"
-  },
-  {
-    "name": "D'T KNOW.pt2",
-    "file": "chiptunes/Andy Fer/other/D'T KNOW.pt2",
+    "name": "Andy Fer - Don't know.pt2",
+    "file": "chiptunes/Andy Fer/other/Andy Fer - Don't know.pt2",
     "pt3": false,
     "author": "Andy Fer",
     "section": "other",
     "time": "01:17"
   },
   {
-    "name": "daz_koncert.pt2",
-    "file": "chiptunes/Andy Fer/other/daz_koncert.pt2",
-    "pt3": false,
-    "author": "Andy Fer",
-    "section": "other",
-    "time": "04:42"
-  },
-  {
-    "name": "DejaVU#02_06.pt2",
-    "file": "chiptunes/Andy Fer/other/DejaVU#02_06.pt2",
-    "pt3": false,
-    "author": "Andy Fer",
-    "section": "other",
-    "time": "01:32"
-  },
-  {
-    "name": "e_john.pt2",
-    "file": "chiptunes/Andy Fer/other/e_john.pt2",
+    "name": "Andy Fer - E John.pt2",
+    "file": "chiptunes/Andy Fer/other/Andy Fer - E John.pt2",
     "pt3": false,
     "author": "Andy Fer",
     "section": "other",
     "time": "01:12"
   },
   {
-    "name": "fer_de_dance.pt2",
-    "file": "chiptunes/Andy Fer/other/fer_de_dance.pt2",
+    "name": "Andy Fer - Fer De Dance.pt2",
+    "file": "chiptunes/Andy Fer/other/Andy Fer - Fer De Dance.pt2",
     "pt3": false,
     "author": "Andy Fer",
     "section": "other",
     "time": "03:20"
   },
   {
-    "name": "fuck_isnt.pt2",
-    "file": "chiptunes/Andy Fer/other/fuck_isnt.pt2",
+    "name": "Andy Fer - Fuck Isn't A Fact Yet.pt2",
+    "file": "chiptunes/Andy Fer/other/Andy Fer - Fuck Isn't A Fact Yet.pt2",
     "pt3": false,
     "author": "Andy Fer",
     "section": "other",
     "time": "03:04"
   },
   {
-    "name": "have_a_fun_man.pt2",
-    "file": "chiptunes/Andy Fer/other/have_a_fun_man.pt2",
+    "name": "Andy Fer - Have A Fun Man.pt2",
+    "file": "chiptunes/Andy Fer/other/Andy Fer - Have A Fun Man.pt2",
     "pt3": false,
     "author": "Andy Fer",
     "section": "other",
     "time": "02:30"
   },
   {
-    "name": "image_theme.pt2",
-    "file": "chiptunes/Andy Fer/other/image_theme.pt2",
-    "pt3": false,
-    "author": "Andy Fer",
-    "section": "other",
-    "time": "04:10"
-  },
-  {
-    "name": "image_theme.pt3",
-    "file": "chiptunes/Andy Fer/other/image_theme.pt3",
-    "pt3": false,
-    "author": "Andy Fer",
-    "section": "other",
-    "time": "04:10"
-  },
-  {
-    "name": "image_theme_vers.pt2",
-    "file": "chiptunes/Andy Fer/other/image_theme_vers.pt2",
+    "name": "Andy Fer - Image Theme Vers.pt2",
+    "file": "chiptunes/Andy Fer/other/Andy Fer - Image Theme Vers.pt2",
     "pt3": false,
     "author": "Andy Fer",
     "section": "other",
     "time": "01:23"
   },
   {
-    "name": "JAZZZZZZ.pt2",
-    "file": "chiptunes/Andy Fer/other/JAZZZZZZ.pt2",
+    "name": "Andy Fer - Image Theme.pt2",
+    "file": "chiptunes/Andy Fer/other/Andy Fer - Image Theme.pt2",
+    "pt3": false,
+    "author": "Andy Fer",
+    "section": "other",
+    "time": "04:10"
+  },
+  {
+    "name": "Andy Fer - Image Theme.pt3",
+    "file": "chiptunes/Andy Fer/other/Andy Fer - Image Theme.pt3",
+    "pt3": false,
+    "author": "Andy Fer",
+    "section": "other",
+    "time": "04:10"
+  },
+  {
+    "name": "Andy Fer - Jazzzzzz.pt2",
+    "file": "chiptunes/Andy Fer/other/Andy Fer - Jazzzzzz.pt2",
     "pt3": false,
     "author": "Andy Fer",
     "section": "other",
     "time": "00:35"
   },
   {
-    "name": "kady_nn.pt2",
-    "file": "chiptunes/Andy Fer/other/kady_nn.pt2",
+    "name": "Andy Fer - Lady NN.pt2",
+    "file": "chiptunes/Andy Fer/other/Andy Fer - Lady NN.pt2",
     "pt3": false,
     "author": "Andy Fer",
     "section": "other",
     "time": "05:58"
   },
   {
-    "name": "land_of_fresh.pt2",
-    "file": "chiptunes/Andy Fer/other/land_of_fresh.pt2",
+    "name": "Andy Fer - Land Of Fresh.pt2",
+    "file": "chiptunes/Andy Fer/other/Andy Fer - Land Of Fresh.pt2",
     "pt3": false,
     "author": "Andy Fer",
     "section": "other",
     "time": "01:55"
   },
   {
-    "name": "let's_begin.pt2",
-    "file": "chiptunes/Andy Fer/other/let's_begin.pt2",
+    "name": "Andy Fer - Let's Begin.pt2",
+    "file": "chiptunes/Andy Fer/other/Andy Fer - Let's Begin.pt2",
     "pt3": false,
     "author": "Andy Fer",
     "section": "other",
     "time": "00:58"
   },
   {
-    "name": "limit_infraction.pt2",
-    "file": "chiptunes/Andy Fer/other/limit_infraction.pt2",
+    "name": "Andy Fer - Limit Infraction.pt2",
+    "file": "chiptunes/Andy Fer/other/Andy Fer - Limit Infraction.pt2",
     "pt3": false,
     "author": "Andy Fer",
     "section": "other",
     "time": "03:06"
   },
   {
-    "name": "little_nastya.pt3",
-    "file": "chiptunes/Andy Fer/other/little_nastya.pt3",
+    "name": "Andy Fer - Little Nastya.pt3",
+    "file": "chiptunes/Andy Fer/other/Andy Fer - Little Nastya.pt3",
     "pt3": false,
     "author": "Andy Fer",
     "section": "other",
     "time": "01:48"
   },
   {
-    "name": "l_story.pt3",
-    "file": "chiptunes/Andy Fer/other/l_story.pt3",
+    "name": "Andy Fer - Little Story (Special 4 Diver).pt3",
+    "file": "chiptunes/Andy Fer/other/Andy Fer - Little Story (Special 4 Diver).pt3",
     "pt3": false,
     "author": "Andy Fer",
     "section": "other",
     "time": "02:13"
   },
   {
-    "name": "mirror.pt2",
-    "file": "chiptunes/Andy Fer/other/mirror.pt2",
+    "name": "Andy Fer - Mirror.pt2",
+    "file": "chiptunes/Andy Fer/other/Andy Fer - Mirror.pt2",
     "pt3": false,
     "author": "Andy Fer",
     "section": "other",
     "time": "02:21"
   },
   {
-    "name": "my_little_world.pt2",
-    "file": "chiptunes/Andy Fer/other/my_little_world.pt2",
-    "pt3": false,
-    "author": "Andy Fer",
-    "section": "other",
-    "time": "02:11"
-  },
-  {
-    "name": "one_road.pt2",
-    "file": "chiptunes/Andy Fer/other/one_road.pt2",
-    "pt3": false,
-    "author": "Andy Fer",
-    "section": "other",
-    "time": "06:09"
-  },
-  {
-    "name": "possibilities.pt2",
-    "file": "chiptunes/Andy Fer/other/possibilities.pt2",
-    "pt3": false,
-    "author": "Andy Fer",
-    "section": "other",
-    "time": "03:12"
-  },
-  {
-    "name": "progrooz.pt3",
-    "file": "chiptunes/Andy Fer/other/progrooz.pt3",
-    "pt3": false,
-    "author": "Andy Fer",
-    "section": "other",
-    "time": "01:22"
-  },
-  {
-    "name": "roll'em.pt2",
-    "file": "chiptunes/Andy Fer/other/roll'em.pt2",
-    "pt3": false,
-    "author": "Andy Fer",
-    "section": "other",
-    "time": "02:34"
-  },
-  {
-    "name": "say_me.pt2",
-    "file": "chiptunes/Andy Fer/other/say_me.pt2",
-    "pt3": false,
-    "author": "Andy Fer",
-    "section": "other",
-    "time": "02:23"
-  },
-  {
-    "name": "say_me_bye.pt2",
-    "file": "chiptunes/Andy Fer/other/say_me_bye.pt2",
-    "pt3": false,
-    "author": "Andy Fer",
-    "section": "other",
-    "time": "02:11"
-  },
-  {
-    "name": "SHARP.pt2",
-    "file": "chiptunes/Andy Fer/other/SHARP.pt2",
-    "pt3": false,
-    "author": "Andy Fer",
-    "section": "other",
-    "time": "00:31"
-  },
-  {
-    "name": "short_compo.pt2",
-    "file": "chiptunes/Andy Fer/other/short_compo.pt2",
-    "pt3": false,
-    "author": "Andy Fer",
-    "section": "other",
-    "time": "01:48"
-  },
-  {
-    "name": "short_theme2.pt2",
-    "file": "chiptunes/Andy Fer/other/short_theme2.pt2",
-    "pt3": false,
-    "author": "Andy Fer",
-    "section": "other",
-    "time": "01:01"
-  },
-  {
-    "name": "silent_circle.pt2",
-    "file": "chiptunes/Andy Fer/other/silent_circle.pt2",
-    "pt3": false,
-    "author": "Andy Fer",
-    "section": "other",
-    "time": "03:12"
-  },
-  {
-    "name": "stars.pt2",
-    "file": "chiptunes/Andy Fer/other/stars.pt2",
-    "pt3": false,
-    "author": "Andy Fer",
-    "section": "other",
-    "time": "03:04"
-  },
-  {
-    "name": "StayorGo.pt3",
-    "file": "chiptunes/Andy Fer/other/StayorGo.pt3",
-    "pt3": false,
-    "author": "Andy Fer",
-    "section": "other",
-    "time": "03:45"
-  },
-  {
-    "name": "suxxonia.pt3",
-    "file": "chiptunes/Andy Fer/other/suxxonia.pt3",
-    "pt3": false,
-    "author": "Andy Fer",
-    "section": "other",
-    "time": "02:26"
-  },
-  {
-    "name": "team_instinct.pt2",
-    "file": "chiptunes/Andy Fer/other/team_instinct.pt2",
-    "pt3": false,
-    "author": "Andy Fer",
-    "section": "other",
-    "time": "04:44"
-  },
-  {
-    "name": "terra_tro.pt2",
-    "file": "chiptunes/Andy Fer/other/terra_tro.pt2",
-    "pt3": false,
-    "author": "Andy Fer",
-    "section": "other",
-    "time": "02:59"
-  },
-  {
-    "name": "the_best_of_dj_paulo.pt2",
-    "file": "chiptunes/Andy Fer/other/the_best_of_dj_paulo.pt2",
-    "pt3": false,
-    "author": "Andy Fer",
-    "section": "other",
-    "time": "06:09"
-  },
-  {
-    "name": "the_chance.pt2",
-    "file": "chiptunes/Andy Fer/other/the_chance.pt2",
-    "pt3": false,
-    "author": "Andy Fer",
-    "section": "other",
-    "time": "02:34"
-  },
-  {
-    "name": "the_forest_walk.pt2",
-    "file": "chiptunes/Andy Fer/other/the_forest_walk.pt2",
-    "pt3": false,
-    "author": "Andy Fer",
-    "section": "other",
-    "time": "03:31"
-  },
-  {
-    "name": "the_winners.pt2",
-    "file": "chiptunes/Andy Fer/other/the_winners.pt2",
-    "pt3": false,
-    "author": "Andy Fer",
-    "section": "other",
-    "time": "05:15"
-  },
-  {
-    "name": "trance.pt2",
-    "file": "chiptunes/Andy Fer/other/trance.pt2",
-    "pt3": false,
-    "author": "Andy Fer",
-    "section": "other",
-    "time": "02:53"
-  },
-  {
-    "name": "trance_vers.pt2",
-    "file": "chiptunes/Andy Fer/other/trance_vers.pt2",
-    "pt3": false,
-    "author": "Andy Fer",
-    "section": "other",
-    "time": "03:43"
-  },
-  {
-    "name": "virtual_earth.pt2",
-    "file": "chiptunes/Andy Fer/other/virtual_earth.pt2",
+    "name": "Andy Fer - MO-DO - Daz Koncert.pt2",
+    "file": "chiptunes/Andy Fer/other/Andy Fer - MO-DO - Daz Koncert.pt2",
     "pt3": false,
     "author": "Andy Fer",
     "section": "other",
     "time": "04:42"
   },
   {
-    "name": "when_you.pt2",
-    "file": "chiptunes/Andy Fer/other/when_you.pt2",
+    "name": "Andy Fer - My Little World.pt2",
+    "file": "chiptunes/Andy Fer/other/Andy Fer - My Little World.pt2",
+    "pt3": false,
+    "author": "Andy Fer",
+    "section": "other",
+    "time": "02:11"
+  },
+  {
+    "name": "Andy Fer - One Road.pt2",
+    "file": "chiptunes/Andy Fer/other/Andy Fer - One Road.pt2",
+    "pt3": false,
+    "author": "Andy Fer",
+    "section": "other",
+    "time": "06:09"
+  },
+  {
+    "name": "Andy Fer - Possibilities.pt2",
+    "file": "chiptunes/Andy Fer/other/Andy Fer - Possibilities.pt2",
+    "pt3": false,
+    "author": "Andy Fer",
+    "section": "other",
+    "time": "03:12"
+  },
+  {
+    "name": "Andy Fer - Progrooz.pt3",
+    "file": "chiptunes/Andy Fer/other/Andy Fer - Progrooz.pt3",
+    "pt3": false,
+    "author": "Andy Fer",
+    "section": "other",
+    "time": "01:22"
+  },
+  {
+    "name": "Andy Fer - Roll'em.pt2",
+    "file": "chiptunes/Andy Fer/other/Andy Fer - Roll'em.pt2",
+    "pt3": false,
+    "author": "Andy Fer",
+    "section": "other",
+    "time": "02:34"
+  },
+  {
+    "name": "Andy Fer - Say Me Bye.pt2",
+    "file": "chiptunes/Andy Fer/other/Andy Fer - Say Me Bye.pt2",
+    "pt3": false,
+    "author": "Andy Fer",
+    "section": "other",
+    "time": "02:11"
+  },
+  {
+    "name": "Andy Fer - Say Me Where Is An Aim.pt2",
+    "file": "chiptunes/Andy Fer/other/Andy Fer - Say Me Where Is An Aim.pt2",
+    "pt3": false,
+    "author": "Andy Fer",
+    "section": "other",
+    "time": "02:23"
+  },
+  {
+    "name": "Andy Fer - SHARP.pt2",
+    "file": "chiptunes/Andy Fer/other/Andy Fer - SHARP.pt2",
+    "pt3": false,
+    "author": "Andy Fer",
+    "section": "other",
+    "time": "00:31"
+  },
+  {
+    "name": "Andy Fer - Short Compo.pt2",
+    "file": "chiptunes/Andy Fer/other/Andy Fer - Short Compo.pt2",
+    "pt3": false,
+    "author": "Andy Fer",
+    "section": "other",
+    "time": "01:48"
+  },
+  {
+    "name": "Andy Fer - Short Theme 2.pt2",
+    "file": "chiptunes/Andy Fer/other/Andy Fer - Short Theme 2.pt2",
+    "pt3": false,
+    "author": "Andy Fer",
+    "section": "other",
+    "time": "01:01"
+  },
+  {
+    "name": "Andy Fer - Silent Circle.pt2",
+    "file": "chiptunes/Andy Fer/other/Andy Fer - Silent Circle.pt2",
+    "pt3": false,
+    "author": "Andy Fer",
+    "section": "other",
+    "time": "03:12"
+  },
+  {
+    "name": "Andy Fer - Stars.pt2",
+    "file": "chiptunes/Andy Fer/other/Andy Fer - Stars.pt2",
     "pt3": false,
     "author": "Andy Fer",
     "section": "other",
     "time": "03:04"
   },
   {
-    "name": "ymoo_cc1.pt3",
-    "file": "chiptunes/Andy Fer/other/ymoo_cc1.pt3",
+    "name": "Andy Fer - Stay Or Go.pt3",
+    "file": "chiptunes/Andy Fer/other/Andy Fer - Stay Or Go.pt3",
     "pt3": false,
     "author": "Andy Fer",
     "section": "other",
-    "time": "02:57"
+    "time": "03:45"
   },
   {
-    "name": "zx_theme.pt2",
-    "file": "chiptunes/Andy Fer/other/zx_theme.pt2",
+    "name": "Andy Fer - Suxxonia.pt3",
+    "file": "chiptunes/Andy Fer/other/Andy Fer - Suxxonia.pt3",
+    "pt3": false,
+    "author": "Andy Fer",
+    "section": "other",
+    "time": "02:26"
+  },
+  {
+    "name": "Andy Fer - Team Instinct.pt2",
+    "file": "chiptunes/Andy Fer/other/Andy Fer - Team Instinct.pt2",
+    "pt3": false,
+    "author": "Andy Fer",
+    "section": "other",
+    "time": "04:44"
+  },
+  {
+    "name": "Andy Fer - Terra-Tro.pt2",
+    "file": "chiptunes/Andy Fer/other/Andy Fer - Terra-Tro.pt2",
+    "pt3": false,
+    "author": "Andy Fer",
+    "section": "other",
+    "time": "02:59"
+  },
+  {
+    "name": "Andy Fer - The Best Of DJ Paulo.pt2",
+    "file": "chiptunes/Andy Fer/other/Andy Fer - The Best Of DJ Paulo.pt2",
+    "pt3": false,
+    "author": "Andy Fer",
+    "section": "other",
+    "time": "06:09"
+  },
+  {
+    "name": "Andy Fer - The Chance.pt2",
+    "file": "chiptunes/Andy Fer/other/Andy Fer - The Chance.pt2",
+    "pt3": false,
+    "author": "Andy Fer",
+    "section": "other",
+    "time": "02:34"
+  },
+  {
+    "name": "Andy Fer - The Forest Walk.pt2",
+    "file": "chiptunes/Andy Fer/other/Andy Fer - The Forest Walk.pt2",
+    "pt3": false,
+    "author": "Andy Fer",
+    "section": "other",
+    "time": "03:31"
+  },
+  {
+    "name": "Andy Fer - The Winners.pt2",
+    "file": "chiptunes/Andy Fer/other/Andy Fer - The Winners.pt2",
+    "pt3": false,
+    "author": "Andy Fer",
+    "section": "other",
+    "time": "05:15"
+  },
+  {
+    "name": "Andy Fer - Theme L.pt2",
+    "file": "chiptunes/Andy Fer/other/Andy Fer - Theme L.pt2",
+    "pt3": false,
+    "author": "Andy Fer",
+    "section": "other",
+    "time": "01:32"
+  },
+  {
+    "name": "Andy Fer - Trance Vers.pt2",
+    "file": "chiptunes/Andy Fer/other/Andy Fer - Trance Vers.pt2",
+    "pt3": false,
+    "author": "Andy Fer",
+    "section": "other",
+    "time": "03:43"
+  },
+  {
+    "name": "Andy Fer - Trance.pt2",
+    "file": "chiptunes/Andy Fer/other/Andy Fer - Trance.pt2",
+    "pt3": false,
+    "author": "Andy Fer",
+    "section": "other",
+    "time": "02:53"
+  },
+  {
+    "name": "Andy Fer - Virtual Earth.pt2",
+    "file": "chiptunes/Andy Fer/other/Andy Fer - Virtual Earth.pt2",
+    "pt3": false,
+    "author": "Andy Fer",
+    "section": "other",
+    "time": "04:42"
+  },
+  {
+    "name": "Andy Fer - When You.pt2",
+    "file": "chiptunes/Andy Fer/other/Andy Fer - When You.pt2",
+    "pt3": false,
+    "author": "Andy Fer",
+    "section": "other",
+    "time": "03:04"
+  },
+  {
+    "name": "Andy Fer - ZX Theme.pt2",
+    "file": "chiptunes/Andy Fer/other/Andy Fer - ZX Theme.pt2",
     "pt3": false,
     "author": "Andy Fer",
     "section": "other",
     "time": "02:03"
   },
   {
-    "name": "Open Your Eyes p1.stc",
-    "file": "chiptunes/Baze/1994/Open Your Eyes p1.stc",
+    "name": "Baze - Open Your Eyes p1.stc",
+    "file": "chiptunes/Baze/1994/Baze - Open Your Eyes p1.stc",
     "pt3": false,
     "author": "Baze",
     "section": "1994",
     "time": "02:59"
   },
   {
-    "name": "Open Your Eyes p2.stc",
-    "file": "chiptunes/Baze/1994/Open Your Eyes p2.stc",
+    "name": "Baze - Open Your Eyes p2.stc",
+    "file": "chiptunes/Baze/1994/Baze - Open Your Eyes p2.stc",
     "pt3": false,
     "author": "Baze",
     "section": "1994",
     "time": "02:59"
   },
   {
-    "name": "Open Your Eyes p3-1.stc",
-    "file": "chiptunes/Baze/1994/Open Your Eyes p3-1.stc",
+    "name": "Baze - Open Your Eyes p3-1.stc",
+    "file": "chiptunes/Baze/1994/Baze - Open Your Eyes p3-1.stc",
     "pt3": false,
     "author": "Baze",
     "section": "1994",
     "time": "01:48"
   },
   {
-    "name": "Open Your Eyes p3-2.stc",
-    "file": "chiptunes/Baze/1994/Open Your Eyes p3-2.stc",
+    "name": "Baze - Open Your Eyes p3-2.stc",
+    "file": "chiptunes/Baze/1994/Baze - Open Your Eyes p3-2.stc",
     "pt3": false,
     "author": "Baze",
     "section": "1994",
     "time": "02:40"
   },
   {
-    "name": "Insane World Designer.stc",
-    "file": "chiptunes/Baze/1997/Insane World Designer.stc",
-    "pt3": false,
-    "author": "Baze",
-    "section": "1997",
-    "time": "01:23"
-  },
-  {
-    "name": "insane1-sketch.stc",
-    "file": "chiptunes/Baze/1997/insane1-sketch.stc",
+    "name": "Baze - insane 1-sketch.stc",
+    "file": "chiptunes/Baze/1997/Baze - insane 1-sketch.stc",
     "pt3": false,
     "author": "Baze",
     "section": "1997",
     "time": "01:30"
   },
   {
-    "name": "insane4.stc",
-    "file": "chiptunes/Baze/1997/insane4.stc",
+    "name": "Baze - insane 4.stc",
+    "file": "chiptunes/Baze/1997/Baze - insane 4.stc",
     "pt3": false,
     "author": "Baze",
     "section": "1997",
     "time": "01:04"
   },
   {
-    "name": "insane5.stc",
-    "file": "chiptunes/Baze/1997/insane5.stc",
+    "name": "Baze - insane 5.stc",
+    "file": "chiptunes/Baze/1997/Baze - insane 5.stc",
     "pt3": false,
     "author": "Baze",
     "section": "1997",
     "time": "02:08"
   },
   {
-    "name": "insane6-sketch.stc",
-    "file": "chiptunes/Baze/1997/insane6-sketch.stc",
+    "name": "Baze - insane 6-sketch.stc",
+    "file": "chiptunes/Baze/1997/Baze - insane 6-sketch.stc",
     "pt3": false,
     "author": "Baze",
     "section": "1997",
     "time": "02:27"
   },
   {
-    "name": "insane7.stc",
-    "file": "chiptunes/Baze/1997/insane7.stc",
+    "name": "Baze - insane 7.stc",
+    "file": "chiptunes/Baze/1997/Baze - insane 7.stc",
     "pt3": false,
     "author": "Baze",
     "section": "1997",
     "time": "01:30"
   },
   {
-    "name": "Higher State p1.stc",
-    "file": "chiptunes/Baze/1998/Higher State p1.stc",
+    "name": "Baze - Insane World Designer.stc",
+    "file": "chiptunes/Baze/1997/Baze - Insane World Designer.stc",
+    "pt3": false,
+    "author": "Baze",
+    "section": "1997",
+    "time": "01:23"
+  },
+  {
+    "name": "Baze - Higher State p1.stc",
+    "file": "chiptunes/Baze/1998/Baze - Higher State p1.stc",
     "pt3": false,
     "author": "Baze",
     "section": "1998",
     "time": "02:08"
   },
   {
-    "name": "Higher State p2.stc",
-    "file": "chiptunes/Baze/1998/Higher State p2.stc",
+    "name": "Baze - Higher State p2.stc",
+    "file": "chiptunes/Baze/1998/Baze - Higher State p2.stc",
     "pt3": false,
     "author": "Baze",
     "section": "1998",
     "time": "02:34"
   },
   {
-    "name": "Higher State p3 (Sketch).stc",
-    "file": "chiptunes/Baze/1998/Higher State p3 (Sketch).stc",
+    "name": "Baze - Higher State p3 (Sketch).stc",
+    "file": "chiptunes/Baze/1998/Baze - Higher State p3 (Sketch).stc",
     "pt3": false,
     "author": "Baze",
     "section": "1998",
     "time": "02:27"
   },
   {
-    "name": "Dispazio-sketch.stc",
-    "file": "chiptunes/Baze/2000/Dispazio-sketch.stc",
+    "name": "Baze - Dispazio-sketch.stc",
+    "file": "chiptunes/Baze/2000/Baze - Dispazio-sketch.stc",
     "pt3": false,
     "author": "Baze",
     "section": "2000",
     "time": "01:42"
   },
   {
-    "name": "Dispazio.stc",
-    "file": "chiptunes/Baze/2000/Dispazio.stc",
+    "name": "Baze - Dispazio.stc",
+    "file": "chiptunes/Baze/2000/Baze - Dispazio.stc",
     "pt3": false,
     "author": "Baze",
     "section": "2000",
     "time": "01:30"
   },
   {
-    "name": "Ether-sketch.stc",
-    "file": "chiptunes/Baze/2001/Ether-sketch.stc",
+    "name": "Baze - Ether-sketch.stc",
+    "file": "chiptunes/Baze/2001/Baze - Ether-sketch.stc",
     "pt3": false,
     "author": "Baze",
     "section": "2001",
     "time": "01:42"
   },
   {
-    "name": "Ether.stc",
-    "file": "chiptunes/Baze/2001/Ether.stc",
+    "name": "Baze - Ether.stc",
+    "file": "chiptunes/Baze/2001/Baze - Ether.stc",
     "pt3": false,
     "author": "Baze",
     "section": "2001",
     "time": "01:49"
   },
   {
-    "name": "The_loop.stc",
-    "file": "chiptunes/Baze/2001/The_loop.stc",
+    "name": "Baze - The_loop.stc",
+    "file": "chiptunes/Baze/2001/Baze - The_loop.stc",
     "pt3": false,
     "author": "Baze",
     "section": "2001",
     "time": "03:57"
   },
   {
-    "name": "Laya.stc",
-    "file": "chiptunes/Baze/2002/Laya.stc",
+    "name": "Baze - Laya.stc",
+    "file": "chiptunes/Baze/2002/Baze - Laya.stc",
     "pt3": false,
     "author": "Baze",
     "section": "2002",
     "time": "02:40"
   },
   {
-    "name": "Algorhythm (Sketch).stc",
-    "file": "chiptunes/Baze/Algorhythm (Sketch).stc",
+    "name": "Baze - Algorhythm (Sketch).stc",
+    "file": "chiptunes/Baze/Baze - Algorhythm (Sketch).stc",
     "pt3": false,
     "author": "Baze",
     "section": null,
     "time": "02:21"
   },
   {
-    "name": "Say Love.stc",
-    "file": "chiptunes/Baze/Say Love.stc",
+    "name": "Baze - Say Love.stc",
+    "file": "chiptunes/Baze/Baze - Say Love.stc",
     "pt3": false,
     "author": "Baze",
     "section": null,
@@ -1859,692 +1587,844 @@ var AYPLAYLIST_DATA = [
     "time": "03:57"
   },
   {
-    "name": "TRACK_#1.pt3",
-    "file": "chiptunes/Black Fox/1999/TRACK_#1.pt3",
+    "name": "Black Fox - TRACK_#1.pt3",
+    "file": "chiptunes/Black Fox/1999/Black Fox - TRACK_#1.pt3",
     "pt3": false,
     "author": "Black Fox",
     "section": "1999",
     "time": "01:36"
   },
   {
-    "name": "TRACK_#2.pt3",
-    "file": "chiptunes/Black Fox/1999/TRACK_#2.pt3",
+    "name": "Black Fox - TRACK_#2.pt3",
+    "file": "chiptunes/Black Fox/1999/Black Fox - TRACK_#2.pt3",
     "pt3": false,
     "author": "Black Fox",
     "section": "1999",
     "time": "01:32"
   },
   {
-    "name": "RMI_2.pt3",
-    "file": "chiptunes/Black Fox/2000/RMI_2.pt3",
+    "name": "Black Fox - RMI_2.pt3",
+    "file": "chiptunes/Black Fox/2000/Black Fox - RMI_2.pt3",
     "pt3": false,
     "author": "Black Fox",
     "section": "2000",
     "time": "01:30"
   },
   {
-    "name": "WALK.pt3",
-    "file": "chiptunes/Black Fox/2000/WALK.pt3",
+    "name": "Black Fox - WALK.pt3",
+    "file": "chiptunes/Black Fox/2000/Black Fox - WALK.pt3",
     "pt3": false,
     "author": "Black Fox",
     "section": "2000",
     "time": "01:32"
   },
   {
-    "name": "BEAT!.pt3",
-    "file": "chiptunes/Black Fox/2001/BEAT!.pt3",
+    "name": "Black Fox - BEAT!.pt3",
+    "file": "chiptunes/Black Fox/2001/Black Fox - BEAT!.pt3",
     "pt3": false,
     "author": "Black Fox",
     "section": "2001",
     "time": "01:04"
   },
   {
-    "name": "FIND_MIX.pt3",
-    "file": "chiptunes/Black Fox/2001/FIND_MIX.pt3",
+    "name": "Black Fox - FIND_MIX.pt3",
+    "file": "chiptunes/Black Fox/2001/Black Fox - FIND_MIX.pt3",
     "pt3": false,
     "author": "Black Fox",
     "section": "2001",
     "time": "02:34"
   },
   {
-    "name": "GRIEF.pt3",
-    "file": "chiptunes/Black Fox/2001/GRIEF.pt3",
+    "name": "Black Fox - GRIEF.pt3",
+    "file": "chiptunes/Black Fox/2001/Black Fox - GRIEF.pt3",
     "pt3": false,
     "author": "Black Fox",
     "section": "2001",
     "time": "02:03"
   },
   {
-    "name": "MIRROR.pt3",
-    "file": "chiptunes/Black Fox/2001/MIRROR.pt3",
+    "name": "Black Fox - MIRROR.pt3",
+    "file": "chiptunes/Black Fox/2001/Black Fox - MIRROR.pt3",
     "pt3": false,
     "author": "Black Fox",
     "section": "2001",
     "time": "01:28"
   },
   {
-    "name": "M_MAYAK.pt3",
-    "file": "chiptunes/Black Fox/2001/M_MAYAK.pt3",
+    "name": "Black Fox - M_MAYAK.pt3",
+    "file": "chiptunes/Black Fox/2001/Black Fox - M_MAYAK.pt3",
     "pt3": false,
     "author": "Black Fox",
     "section": "2001",
     "time": "01:49"
   },
   {
-    "name": "PERMCITY.pt3",
-    "file": "chiptunes/Black Fox/2001/PERMCITY.pt3",
+    "name": "Black Fox - PERMCITY.pt3",
+    "file": "chiptunes/Black Fox/2001/Black Fox - PERMCITY.pt3",
     "pt3": false,
     "author": "Black Fox",
     "section": "2001",
     "time": "01:42"
   },
   {
-    "name": "SIMPNICE.pt3",
-    "file": "chiptunes/Black Fox/2001/SIMPNICE.pt3",
+    "name": "Black Fox - SIMPNICE.pt3",
+    "file": "chiptunes/Black Fox/2001/Black Fox - SIMPNICE.pt3",
     "pt3": false,
     "author": "Black Fox",
     "section": "2001",
     "time": "03:18"
   },
   {
-    "name": "SPACEFLY.pt3",
-    "file": "chiptunes/Black Fox/2001/SPACEFLY.pt3",
+    "name": "Black Fox - SPACEFLY.pt3",
+    "file": "chiptunes/Black Fox/2001/Black Fox - SPACEFLY.pt3",
     "pt3": false,
     "author": "Black Fox",
     "section": "2001",
     "time": "03:12"
   },
   {
-    "name": "48K_.pt3",
-    "file": "chiptunes/Black Fox/2002/48K_.pt3",
+    "name": "Black Fox - 48K_.pt3",
+    "file": "chiptunes/Black Fox/2002/Black Fox - 48K_.pt3",
     "pt3": false,
     "author": "Black Fox",
     "section": "2002",
     "time": "01:28"
   },
   {
-    "name": "6E3YMUE.pt3",
-    "file": "chiptunes/Black Fox/2002/6E3YMUE.pt3",
+    "name": "Black Fox - 6E3YMUE.pt3",
+    "file": "chiptunes/Black Fox/2002/Black Fox - 6E3YMUE.pt3",
     "pt3": false,
     "author": "Black Fox",
     "section": "2002",
     "time": "00:08"
   },
   {
-    "name": "BE4EPHUE.pt3",
-    "file": "chiptunes/Black Fox/2002/BE4EPHUE.pt3",
+    "name": "Black Fox - BE4EPHUE.pt3",
+    "file": "chiptunes/Black Fox/2002/Black Fox - BE4EPHUE.pt3",
     "pt3": false,
     "author": "Black Fox",
     "section": "2002",
     "time": "02:26"
   },
   {
-    "name": "DANCE.pt3",
-    "file": "chiptunes/Black Fox/2002/DANCE.pt3",
+    "name": "Black Fox - DANCE.pt3",
+    "file": "chiptunes/Black Fox/2002/Black Fox - DANCE.pt3",
     "pt3": false,
     "author": "Black Fox",
     "section": "2002",
     "time": "01:05"
   },
   {
-    "name": "DREAM.pt3",
-    "file": "chiptunes/Black Fox/2002/DREAM.pt3",
+    "name": "Black Fox - DREAM.pt3",
+    "file": "chiptunes/Black Fox/2002/Black Fox - DREAM.pt3",
     "pt3": false,
     "author": "Black Fox",
     "section": "2002",
     "time": "00:26"
   },
   {
-    "name": "DREAMS.pt3",
-    "file": "chiptunes/Black Fox/2002/DREAMS.pt3",
+    "name": "Black Fox - DREAMS.pt3",
+    "file": "chiptunes/Black Fox/2002/Black Fox - DREAMS.pt3",
     "pt3": false,
     "author": "Black Fox",
     "section": "2002",
     "time": "01:01"
   },
   {
-    "name": "DRIVE.pt3",
-    "file": "chiptunes/Black Fox/2002/DRIVE.pt3",
+    "name": "Black Fox - DRIVE.pt3",
+    "file": "chiptunes/Black Fox/2002/Black Fox - DRIVE.pt3",
     "pt3": false,
     "author": "Black Fox",
     "section": "2002",
     "time": "00:08"
   },
   {
-    "name": "EXAMIN_.pt3",
-    "file": "chiptunes/Black Fox/2002/EXAMIN_.pt3",
+    "name": "Black Fox - EXAMIN_.pt3",
+    "file": "chiptunes/Black Fox/2002/Black Fox - EXAMIN_.pt3",
     "pt3": false,
     "author": "Black Fox",
     "section": "2002",
     "time": "00:46"
   },
   {
-    "name": "FT_STORY.pt3",
-    "file": "chiptunes/Black Fox/2002/FT_STORY.pt3",
+    "name": "Black Fox - FT_STORY.pt3",
+    "file": "chiptunes/Black Fox/2002/Black Fox - FT_STORY.pt3",
     "pt3": false,
     "author": "Black Fox",
     "section": "2002",
     "time": "03:04"
   },
   {
-    "name": "HAPPY.pt3",
-    "file": "chiptunes/Black Fox/2002/HAPPY.pt3",
+    "name": "Black Fox - HAPPY.pt3",
+    "file": "chiptunes/Black Fox/2002/Black Fox - HAPPY.pt3",
     "pt3": false,
     "author": "Black Fox",
     "section": "2002",
     "time": "01:40"
   },
   {
-    "name": "I'M_ILL.pt3",
-    "file": "chiptunes/Black Fox/2002/I'M_ILL.pt3",
+    "name": "Black Fox - I'M_ILL.pt3",
+    "file": "chiptunes/Black Fox/2002/Black Fox - I'M_ILL.pt3",
     "pt3": false,
     "author": "Black Fox",
     "section": "2002",
     "time": "00:15"
   },
   {
-    "name": "I-INS.pt3",
-    "file": "chiptunes/Black Fox/2002/I-INS.pt3",
+    "name": "Black Fox - I-INS.pt3",
+    "file": "chiptunes/Black Fox/2002/Black Fox - I-INS.pt3",
     "pt3": false,
     "author": "Black Fox",
     "section": "2002",
     "time": "01:01"
   },
   {
-    "name": "IMPR_#3.pt3",
-    "file": "chiptunes/Black Fox/2002/IMPR_#3.pt3",
+    "name": "Black Fox - IMPR_#3.pt3",
+    "file": "chiptunes/Black Fox/2002/Black Fox - IMPR_#3.pt3",
     "pt3": false,
     "author": "Black Fox",
     "section": "2002",
     "time": "01:17"
   },
   {
-    "name": "MORTAL.pt3",
-    "file": "chiptunes/Black Fox/2002/MORTAL.pt3",
+    "name": "Black Fox - MORTAL.pt3",
+    "file": "chiptunes/Black Fox/2002/Black Fox - MORTAL.pt3",
     "pt3": false,
     "author": "Black Fox",
     "section": "2002",
     "time": "00:31"
   },
   {
-    "name": "MULTI_.pt3",
-    "file": "chiptunes/Black Fox/2002/MULTI_.pt3",
+    "name": "Black Fox - MULTI_.pt3",
+    "file": "chiptunes/Black Fox/2002/Black Fox - MULTI_.pt3",
     "pt3": false,
     "author": "Black Fox",
     "section": "2002",
     "time": "01:44"
   },
   {
-    "name": "MY_TEARS.pt3",
-    "file": "chiptunes/Black Fox/2002/MY_TEARS.pt3",
+    "name": "Black Fox - MY_TEARS.pt3",
+    "file": "chiptunes/Black Fox/2002/Black Fox - MY_TEARS.pt3",
     "pt3": false,
     "author": "Black Fox",
     "section": "2002",
     "time": "01:55"
   },
   {
-    "name": "NONAME.pt3",
-    "file": "chiptunes/Black Fox/2002/NONAME.pt3",
+    "name": "Black Fox - NONAME.pt3",
+    "file": "chiptunes/Black Fox/2002/Black Fox - NONAME.pt3",
     "pt3": false,
     "author": "Black Fox",
     "section": "2002",
     "time": "00:38"
   },
   {
-    "name": "ONE_MORE.pt3",
-    "file": "chiptunes/Black Fox/2002/ONE_MORE.pt3",
+    "name": "Black Fox - ONE_MORE.pt3",
+    "file": "chiptunes/Black Fox/2002/Black Fox - ONE_MORE.pt3",
     "pt3": false,
     "author": "Black Fox",
     "section": "2002",
     "time": "00:04"
   },
   {
-    "name": "POPSA.pt3",
-    "file": "chiptunes/Black Fox/2002/POPSA.pt3",
+    "name": "Black Fox - POPSA.pt3",
+    "file": "chiptunes/Black Fox/2002/Black Fox - POPSA.pt3",
     "pt3": false,
     "author": "Black Fox",
     "section": "2002",
     "time": "01:17"
   },
   {
-    "name": "SIM!LAR.pt3",
-    "file": "chiptunes/Black Fox/2002/SIM!LAR.pt3",
+    "name": "Black Fox - SIM!LAR.pt3",
+    "file": "chiptunes/Black Fox/2002/Black Fox - SIM!LAR.pt3",
     "pt3": false,
     "author": "Black Fox",
     "section": "2002",
     "time": "01:21"
   },
   {
-    "name": "SOMETIME.pt3",
-    "file": "chiptunes/Black Fox/2002/SOMETIME.pt3",
+    "name": "Black Fox - SOMETIME.pt3",
+    "file": "chiptunes/Black Fox/2002/Black Fox - SOMETIME.pt3",
     "pt3": false,
     "author": "Black Fox",
     "section": "2002",
     "time": "01:42"
   },
   {
-    "name": "SONG.pt3",
-    "file": "chiptunes/Black Fox/2002/SONG.pt3",
+    "name": "Black Fox - SONG.pt3",
+    "file": "chiptunes/Black Fox/2002/Black Fox - SONG.pt3",
     "pt3": false,
     "author": "Black Fox",
     "section": "2002",
     "time": "01:01"
   },
   {
-    "name": "STRANGE.pt3",
-    "file": "chiptunes/Black Fox/2002/STRANGE.pt3",
+    "name": "Black Fox - STRANGE.pt3",
+    "file": "chiptunes/Black Fox/2002/Black Fox - STRANGE.pt3",
     "pt3": false,
     "author": "Black Fox",
     "section": "2002",
     "time": "00:15"
   },
   {
-    "name": "ALONE___.pt3",
-    "file": "chiptunes/Black Fox/2003/ALONE___.pt3",
+    "name": "Black Fox - ALONE___.pt3",
+    "file": "chiptunes/Black Fox/2003/Black Fox - ALONE___.pt3",
     "pt3": false,
     "author": "Black Fox",
     "section": "2003",
     "time": "00:31"
   },
   {
-    "name": "Its_come.pt3",
-    "file": "chiptunes/Black Fox/2003/Its_come.pt3",
+    "name": "Black Fox - Its_come.pt3",
+    "file": "chiptunes/Black Fox/2003/Black Fox - Its_come.pt3",
     "pt3": false,
     "author": "Black Fox",
     "section": "2003",
     "time": "02:03"
   },
   {
-    "name": "POSSIBIL.pt3",
-    "file": "chiptunes/Black Fox/2003/POSSIBIL.pt3",
+    "name": "Black Fox - POSSIBIL.pt3",
+    "file": "chiptunes/Black Fox/2003/Black Fox - POSSIBIL.pt3",
     "pt3": false,
     "author": "Black Fox",
     "section": "2003",
     "time": "01:22"
   },
   {
-    "name": "PYKU!.pt3",
-    "file": "chiptunes/Black Fox/2003/PYKU!.pt3",
+    "name": "Black Fox - PYKU!.pt3",
+    "file": "chiptunes/Black Fox/2003/Black Fox - PYKU!.pt3",
     "pt3": false,
     "author": "Black Fox",
     "section": "2003",
     "time": "02:34"
   },
   {
-    "name": "RA!N.pt3",
-    "file": "chiptunes/Black Fox/2003/RA!N.pt3",
+    "name": "Black Fox - RA!N.pt3",
+    "file": "chiptunes/Black Fox/2003/Black Fox - RA!N.pt3",
     "pt3": false,
     "author": "Black Fox",
     "section": "2003",
     "time": "01:01"
   },
   {
-    "name": "THEME_1.pt3",
-    "file": "chiptunes/Black Fox/2003/THEME_1.pt3",
+    "name": "Black Fox - THEME_1.pt3",
+    "file": "chiptunes/Black Fox/2003/Black Fox - THEME_1.pt3",
     "pt3": false,
     "author": "Black Fox",
     "section": "2003",
     "time": "00:19"
   },
   {
-    "name": "W_DAY!;).pt3",
-    "file": "chiptunes/Black Fox/2003/W_DAY!;).pt3",
+    "name": "Black Fox - W_DAY!;).pt3",
+    "file": "chiptunes/Black Fox/2003/Black Fox - W_DAY!;).pt3",
     "pt3": false,
     "author": "Black Fox",
     "section": "2003",
     "time": "00:31"
   },
   {
-    "name": "CHEWING.pt3",
-    "file": "chiptunes/Black Fox/2004/CHEWING.pt3",
+    "name": "Black Fox - CHEWING.pt3",
+    "file": "chiptunes/Black Fox/2004/Black Fox - CHEWING.pt3",
     "pt3": false,
     "author": "Black Fox",
     "section": "2004",
     "time": "00:15"
   },
   {
-    "name": "DOUBT.pt3",
-    "file": "chiptunes/Black Fox/2004/DOUBT.pt3",
+    "name": "Black Fox - DOUBT.pt3",
+    "file": "chiptunes/Black Fox/2004/Black Fox - DOUBT.pt3",
     "pt3": false,
     "author": "Black Fox",
     "section": "2004",
     "time": "00:31"
   },
   {
-    "name": "DVORN!K.pt3",
-    "file": "chiptunes/Black Fox/2004/DVORN!K.pt3",
+    "name": "Black Fox - DVORN!K.pt3",
+    "file": "chiptunes/Black Fox/2004/Black Fox - DVORN!K.pt3",
     "pt3": false,
     "author": "Black Fox",
     "section": "2004",
     "time": "00:04"
   },
   {
-    "name": "ESQ_1.pt3",
-    "file": "chiptunes/Black Fox/2004/ESQ_1.pt3",
+    "name": "Black Fox - ESQ_1.pt3",
+    "file": "chiptunes/Black Fox/2004/Black Fox - ESQ_1.pt3",
     "pt3": false,
     "author": "Black Fox",
     "section": "2004",
     "time": "00:06"
   },
   {
-    "name": "FINALCUT.pt3",
-    "file": "chiptunes/Black Fox/2004/FINALCUT.pt3",
+    "name": "Black Fox - FINALCUT.pt3",
+    "file": "chiptunes/Black Fox/2004/Black Fox - FINALCUT.pt3",
     "pt3": false,
     "author": "Black Fox",
     "section": "2004",
     "time": "00:50"
   },
   {
-    "name": "GIFT1ADD.pt3",
-    "file": "chiptunes/Black Fox/2004/GIFT1ADD.pt3",
+    "name": "Black Fox - GIFT1ADD.pt3",
+    "file": "chiptunes/Black Fox/2004/Black Fox - GIFT1ADD.pt3",
     "pt3": false,
     "author": "Black Fox",
     "section": "2004",
     "time": "00:41"
   },
   {
-    "name": "GIFT_#2'.pt3",
-    "file": "chiptunes/Black Fox/2004/GIFT_#2'.pt3",
+    "name": "Black Fox - GIFT_#2'.pt3",
+    "file": "chiptunes/Black Fox/2004/Black Fox - GIFT_#2'.pt3",
     "pt3": false,
     "author": "Black Fox",
     "section": "2004",
     "time": "01:48"
   },
   {
-    "name": "HAPPY_H.pt3",
-    "file": "chiptunes/Black Fox/2004/HAPPY_H.pt3",
+    "name": "Black Fox - HAPPY_H.pt3",
+    "file": "chiptunes/Black Fox/2004/Black Fox - HAPPY_H.pt3",
     "pt3": false,
     "author": "Black Fox",
     "section": "2004",
     "time": "00:31"
   },
   {
-    "name": "IT'SPACE.pt3",
-    "file": "chiptunes/Black Fox/2004/IT'SPACE.pt3",
+    "name": "Black Fox - IT'SPACE.pt3",
+    "file": "chiptunes/Black Fox/2004/Black Fox - IT'SPACE.pt3",
     "pt3": false,
     "author": "Black Fox",
     "section": "2004",
     "time": "01:09"
   },
   {
-    "name": "LOVESTOR.pt3",
-    "file": "chiptunes/Black Fox/2004/LOVESTOR.pt3",
+    "name": "Black Fox - LOVESTOR.pt3",
+    "file": "chiptunes/Black Fox/2004/Black Fox - LOVESTOR.pt3",
     "pt3": false,
     "author": "Black Fox",
     "section": "2004",
     "time": "01:01"
   },
   {
-    "name": "MAG!C_D.pt3",
-    "file": "chiptunes/Black Fox/2004/MAG!C_D.pt3",
+    "name": "Black Fox - MAG!C_D.pt3",
+    "file": "chiptunes/Black Fox/2004/Black Fox - MAG!C_D.pt3",
     "pt3": false,
     "author": "Black Fox",
     "section": "2004",
     "time": "04:52"
   },
   {
-    "name": "SHOCK.pt3",
-    "file": "chiptunes/Black Fox/2004/SHOCK.pt3",
+    "name": "Black Fox - SHOCK.pt3",
+    "file": "chiptunes/Black Fox/2004/Black Fox - SHOCK.pt3",
     "pt3": false,
     "author": "Black Fox",
     "section": "2004",
     "time": "01:36"
   },
   {
-    "name": "SPB_DEMO.pt3",
-    "file": "chiptunes/Black Fox/2004/SPB_DEMO.pt3",
+    "name": "Black Fox - SPB_DEMO.pt3",
+    "file": "chiptunes/Black Fox/2004/Black Fox - SPB_DEMO.pt3",
     "pt3": false,
     "author": "Black Fox",
     "section": "2004",
     "time": "01:55"
   },
   {
-    "name": "TRUST.pt3",
-    "file": "chiptunes/Black Fox/2004/TRUST.pt3",
+    "name": "Black Fox - TRUST.pt3",
+    "file": "chiptunes/Black Fox/2004/Black Fox - TRUST.pt3",
     "pt3": false,
     "author": "Black Fox",
     "section": "2004",
     "time": "00:15"
   },
   {
-    "name": "TRYSPACE.pt3",
-    "file": "chiptunes/Black Fox/2004/TRYSPACE.pt3",
+    "name": "Black Fox - TRYSPACE.pt3",
+    "file": "chiptunes/Black Fox/2004/Black Fox - TRYSPACE.pt3",
     "pt3": false,
     "author": "Black Fox",
     "section": "2004",
     "time": "02:37"
   },
   {
-    "name": "WALKIN'.pt3",
-    "file": "chiptunes/Black Fox/2004/WALKIN'.pt3",
+    "name": "Black Fox - WALKIN'.pt3",
+    "file": "chiptunes/Black Fox/2004/Black Fox - WALKIN'.pt3",
     "pt3": false,
     "author": "Black Fox",
     "section": "2004",
     "time": "01:36"
   },
   {
-    "name": "chausette.pt3",
-    "file": "chiptunes/Black Fox/2005/chausette.pt3",
+    "name": "Black Fox - chausette.pt3",
+    "file": "chiptunes/Black Fox/2005/Black Fox - chausette.pt3",
     "pt3": false,
     "author": "Black Fox",
     "section": "2005",
     "time": "01:42"
   },
   {
-    "name": "DELYVERS.pt3",
-    "file": "chiptunes/Black Fox/2005/DELYVERS.pt3",
+    "name": "Black Fox - DELYVERS.pt3",
+    "file": "chiptunes/Black Fox/2005/Black Fox - DELYVERS.pt3",
     "pt3": false,
     "author": "Black Fox",
     "section": "2005",
     "time": "00:46"
   },
   {
-    "name": "destron_revival.pt3",
-    "file": "chiptunes/Black Fox/2005/destron_revival.pt3",
+    "name": "Black Fox - destron_revival.pt3",
+    "file": "chiptunes/Black Fox/2005/Black Fox - destron_revival.pt3",
     "pt3": false,
     "author": "Black Fox",
     "section": "2005",
     "time": "00:10"
   },
   {
-    "name": "DREAM_OF.pt3",
-    "file": "chiptunes/Black Fox/2005/DREAM_OF.pt3",
+    "name": "Black Fox - DREAM_OF.pt3",
+    "file": "chiptunes/Black Fox/2005/Black Fox - DREAM_OF.pt3",
     "pt3": false,
     "author": "Black Fox",
     "section": "2005",
     "time": "00:13"
   },
   {
-    "name": "gates_of_infinity.pt3",
-    "file": "chiptunes/Black Fox/2005/gates_of_infinity.pt3",
+    "name": "Black Fox - gates_of_infinity.pt3",
+    "file": "chiptunes/Black Fox/2005/Black Fox - gates_of_infinity.pt3",
     "pt3": false,
     "author": "Black Fox",
     "section": "2005",
     "time": "00:31"
   },
   {
-    "name": "little_swedish_g!rl.pt3",
-    "file": "chiptunes/Black Fox/2005/little_swedish_g!rl.pt3",
+    "name": "Black Fox - little_swedish_g!rl.pt3",
+    "file": "chiptunes/Black Fox/2005/Black Fox - little_swedish_g!rl.pt3",
     "pt3": false,
     "author": "Black Fox",
     "section": "2005",
     "time": "03:40"
   },
   {
-    "name": "Our_T!me_-_Now! (final fixed).pt3",
-    "file": "chiptunes/Black Fox/2005/Our_T!me_-_Now! (final fixed).pt3",
+    "name": "Black Fox - Our_T!me_-_Now! (final fixed).pt3",
+    "file": "chiptunes/Black Fox/2005/Black Fox - Our_T!me_-_Now! (final fixed).pt3",
     "pt3": false,
     "author": "Black Fox",
     "section": "2005",
     "time": "02:18"
   },
   {
-    "name": "Remember.pt3",
-    "file": "chiptunes/Black Fox/2005/Remember.pt3",
+    "name": "Black Fox - Remember.pt3",
+    "file": "chiptunes/Black Fox/2005/Black Fox - Remember.pt3",
     "pt3": false,
     "author": "Black Fox",
     "section": "2005",
     "time": "17:04"
   },
   {
-    "name": "Saturday_N!ght.pt3",
-    "file": "chiptunes/Black Fox/2005/Saturday_N!ght.pt3",
+    "name": "Black Fox - Saturday_N!ght.pt3",
+    "file": "chiptunes/Black Fox/2005/Black Fox - Saturday_N!ght.pt3",
     "pt3": false,
     "author": "Black Fox",
     "section": "2005",
     "time": "01:44"
   },
   {
-    "name": "TRUST'.pt3",
-    "file": "chiptunes/Black Fox/2005/TRUST'.pt3",
+    "name": "Black Fox - TRUST'.pt3",
+    "file": "chiptunes/Black Fox/2005/Black Fox - TRUST'.pt3",
     "pt3": false,
     "author": "Black Fox",
     "section": "2005",
     "time": "00:15"
   },
   {
-    "name": "autumn.pt3",
-    "file": "chiptunes/Black Fox/2006/autumn.pt3",
+    "name": "Black Fox - Autumn.pt3",
+    "file": "chiptunes/Black Fox/2006/Black Fox - Autumn.pt3",
     "pt3": false,
     "author": "Black Fox",
     "section": "2006",
     "time": "01:32"
   },
   {
-    "name": "make_your_choice.pt3",
-    "file": "chiptunes/Black Fox/2006/make_your_choice.pt3",
+    "name": "Black Fox - Make Your Choice.pt3",
+    "file": "chiptunes/Black Fox/2006/Black Fox - Make Your Choice.pt3",
     "pt3": false,
     "author": "Black Fox",
     "section": "2006",
     "time": "02:11"
   },
   {
-    "name": "Black Fox - autumn.pt3",
-    "file": "chiptunes/Black Fox/Black Fox - autumn.pt3",
-    "pt3": false,
-    "author": "Black Fox",
-    "section": null,
-    "time": "01:32"
-  },
-  {
-    "name": "Bonysoft - A Touch of Spring.pt3",
-    "file": "chiptunes/Bonysoft/Bonysoft - A Touch of Spring.pt3",
+    "name": "Bonysoft - AntiDandy (1993).stc",
+    "file": "chiptunes/Bonysoft/1993/Bonysoft - AntiDandy (1993).stc",
     "pt3": false,
     "author": "Bonysoft",
-    "section": null,
-    "time": "02:13"
+    "section": "1993",
+    "time": "00:08"
   },
   {
-    "name": "Bonysoft - America - People in the Valley.pt3",
-    "file": "chiptunes/Bonysoft/Bonysoft - America - People in the Valley.pt3",
+    "name": "Bonysoft - Battle Ships (1993).stc",
+    "file": "chiptunes/Bonysoft/1993/Bonysoft - Battle Ships (1993).stc",
     "pt3": false,
     "author": "Bonysoft",
-    "section": null,
-    "time": "02:54"
+    "section": "1993",
+    "time": "01:40"
   },
   {
-    "name": "Bonysoft - Beatles - Because.pt3",
-    "file": "chiptunes/Bonysoft/Bonysoft - Beatles - Because.pt3",
+    "name": "Bonysoft - Fancy - Spy In The Night (1993).stc",
+    "file": "chiptunes/Bonysoft/1993/Bonysoft - Fancy - Spy In The Night (1993).stc",
     "pt3": false,
     "author": "Bonysoft",
-    "section": null,
-    "time": "03:04"
-  },
-  {
-    "name": "Bonysoft - Global Motion.pt3",
-    "file": "chiptunes/Bonysoft/Bonysoft - Global Motion.pt3",
-    "pt3": false,
-    "author": "Bonysoft",
-    "section": null,
+    "section": "1993",
     "time": "05:38"
   },
   {
-    "name": "Bonysoft - ICO - You Were There.pt3",
-    "file": "chiptunes/Bonysoft/Bonysoft - ICO - You Were There.pt3",
+    "name": "Bonysoft - Loft - Theme Of Loft (1993).stc",
+    "file": "chiptunes/Bonysoft/1993/Bonysoft - Loft - Theme Of Loft (1993).stc",
     "pt3": false,
     "author": "Bonysoft",
-    "section": null,
-    "time": "02:40"
+    "section": "1993",
+    "time": "03:26"
   },
   {
-    "name": "Bonysoft - Mellan sommar och host.pt3",
-    "file": "chiptunes/Bonysoft/Bonysoft - Mellan sommar och host.pt3",
+    "name": "Bonysoft - Maxx - Getaway (1993).stc",
+    "file": "chiptunes/Bonysoft/1993/Bonysoft - Maxx - Getaway (1993).stc",
     "pt3": false,
     "author": "Bonysoft",
-    "section": null,
-    "time": "04:06"
+    "section": "1993",
+    "time": "03:35"
   },
   {
-    "name": "Bonysoft - Miracle Man.pt3",
-    "file": "chiptunes/Bonysoft/Bonysoft - Miracle Man.pt3",
+    "name": "Bonysoft - Popcorn (1993).stc",
+    "file": "chiptunes/Bonysoft/1993/Bonysoft - Popcorn (1993).stc",
     "pt3": false,
     "author": "Bonysoft",
-    "section": null,
+    "section": "1993",
+    "time": "03:12"
+  },
+  {
+    "name": "Bonysoft - Koto - Tender Force (1994).stc",
+    "file": "chiptunes/Bonysoft/1994/Bonysoft - Koto - Tender Force (1994).stc",
+    "pt3": false,
+    "author": "Bonysoft",
+    "section": "1994",
+    "time": "08:06"
+  },
+  {
+    "name": "Bonysoft - WhoKnows (1994).pt3",
+    "file": "chiptunes/Bonysoft/1994/Bonysoft - WhoKnows (1994).pt3",
+    "pt3": false,
+    "author": "Bonysoft",
+    "section": "1994",
+    "time": "05:23"
+  },
+  {
+    "name": "Bonysoft, Voxel - Rec-Time 6 mixTS (2009).pt3",
+    "file": "chiptunes/Bonysoft/2009/Bonysoft, Voxel - Rec-Time 6 mixTS (2009).pt3",
+    "pt3": false,
+    "author": "Bonysoft",
+    "section": "2009",
+    "time": "05:38"
+  },
+  {
+    "name": "Bonysoft, Voxel - Rec-Time 7-2 mix.pt2",
+    "file": "chiptunes/Bonysoft/2009/Bonysoft, Voxel - Rec-Time 7-2 mix.pt2",
+    "pt3": false,
+    "author": "Bonysoft",
+    "section": "2009",
+    "time": "04:02"
+  },
+  {
+    "name": "Bonysoft - Sanxion (2017).pt3",
+    "file": "chiptunes/Bonysoft/2017/Bonysoft - Sanxion (2017).pt3",
+    "pt3": false,
+    "author": "Bonysoft",
+    "section": "2017",
+    "time": "04:13"
+  },
+  {
+    "name": "Bonysoft - PM - A Touch of Spring (2018).pt3",
+    "file": "chiptunes/Bonysoft/2018/Bonysoft - PM - A Touch of Spring (2018).pt3",
+    "pt3": false,
+    "author": "Bonysoft",
+    "section": "2018",
+    "time": "02:13"
+  },
+  {
+    "name": "Bonysoft - PM - Global Motion (2018).pt3",
+    "file": "chiptunes/Bonysoft/2018/Bonysoft - PM - Global Motion (2018).pt3",
+    "pt3": false,
+    "author": "Bonysoft",
+    "section": "2018",
+    "time": "05:38"
+  },
+  {
+    "name": "Bonysoft - PM - Minimum Velocity (2018).pt3",
+    "file": "chiptunes/Bonysoft/2018/Bonysoft - PM - Minimum Velocity (2018).pt3",
+    "pt3": false,
+    "author": "Bonysoft",
+    "section": "2018",
+    "time": "02:18"
+  },
+  {
+    "name": "Bonysoft - PM - Starshine (2018).pt3",
+    "file": "chiptunes/Bonysoft/2018/Bonysoft - PM - Starshine (2018).pt3",
+    "pt3": false,
+    "author": "Bonysoft",
+    "section": "2018",
+    "time": "05:49"
+  },
+  {
+    "name": "Bonysoft - PM - When the Heavens Fall (2018).pt3",
+    "file": "chiptunes/Bonysoft/2018/Bonysoft - PM - When the Heavens Fall (2018).pt3",
+    "pt3": false,
+    "author": "Bonysoft",
+    "section": "2018",
+    "time": "05:23"
+  },
+  {
+    "name": "Bonysoft - PM - Inspiration (2019).pt3",
+    "file": "chiptunes/Bonysoft/2019/Bonysoft - PM - Inspiration (2019).pt3",
+    "pt3": false,
+    "author": "Bonysoft",
+    "section": "2019",
+    "time": "01:55"
+  },
+  {
+    "name": "Bonysoft - PM - Miracle Man (2019).pt3",
+    "file": "chiptunes/Bonysoft/2019/Bonysoft - PM - Miracle Man (2019).pt3",
+    "pt3": false,
+    "author": "Bonysoft",
+    "section": "2019",
     "time": "02:41"
   },
   {
-    "name": "Bonysoft - Muse - Dead Inside.pt3",
-    "file": "chiptunes/Bonysoft/Bonysoft - Muse - Dead Inside.pt3",
+    "name": "Bonysoft - PM - Purple Sky (2019).pt3",
+    "file": "chiptunes/Bonysoft/2019/Bonysoft - PM - Purple Sky (2019).pt3",
     "pt3": false,
     "author": "Bonysoft",
-    "section": null,
+    "section": "2019",
+    "time": "03:12"
+  },
+  {
+    "name": "Bonysoft - PM - Satellite One (2019).pt3",
+    "file": "chiptunes/Bonysoft/2019/Bonysoft - PM - Satellite One (2019).pt3",
+    "pt3": false,
+    "author": "Bonysoft",
+    "section": "2019",
+    "time": "01:48"
+  },
+  {
+    "name": "Bonysoft - PM - World of Plastic (2019).pt3",
+    "file": "chiptunes/Bonysoft/2019/Bonysoft - PM - World of Plastic (2019).pt3",
+    "pt3": false,
+    "author": "Bonysoft",
+    "section": "2019",
+    "time": "02:05"
+  },
+  {
+    "name": "Bonysoft - Marie Fredriksson - Mellan sommar och höst (2021).pt3",
+    "file": "chiptunes/Bonysoft/2021/Bonysoft - Marie Fredriksson - Mellan sommar och höst (2021).pt3",
+    "pt3": false,
+    "author": "Bonysoft",
+    "section": "2021",
+    "time": "04:06"
+  },
+  {
+    "name": "Bonysoft - Beatles - Because (2022).pt3",
+    "file": "chiptunes/Bonysoft/2022/Bonysoft - Beatles - Because (2022).pt3",
+    "pt3": false,
+    "author": "Bonysoft",
+    "section": "2022",
+    "time": "03:04"
+  },
+  {
+    "name": "Bonysoft - ICO - You Were There (2022).pt3",
+    "file": "chiptunes/Bonysoft/2022/Bonysoft - ICO - You Were There (2022).pt3",
+    "pt3": false,
+    "author": "Bonysoft",
+    "section": "2022",
+    "time": "02:40"
+  },
+  {
+    "name": "Bonysoft - Roxette - Stars (2022).pt3",
+    "file": "chiptunes/Bonysoft/2022/Bonysoft - Roxette - Stars (2022).pt3",
+    "pt3": false,
+    "author": "Bonysoft",
+    "section": "2022",
+    "time": "04:02"
+  },
+  {
+    "name": "Bonysoft - America - People in the Valley (2023).pt3",
+    "file": "chiptunes/Bonysoft/2023/Bonysoft - America - People in the Valley (2023).pt3",
+    "pt3": false,
+    "author": "Bonysoft",
+    "section": "2023",
+    "time": "02:54"
+  },
+  {
+    "name": "Bonysoft - Beatles - You Like Me Too Much (2023).pt3",
+    "file": "chiptunes/Bonysoft/2023/Bonysoft - Beatles - You Like Me Too Much (2023).pt3",
+    "pt3": false,
+    "author": "Bonysoft",
+    "section": "2023",
+    "time": "02:23"
+  },
+  {
+    "name": "Bonysoft - Muse - Dead Inside (2023).pt3",
+    "file": "chiptunes/Bonysoft/2023/Bonysoft - Muse - Dead Inside (2023).pt3",
+    "pt3": false,
+    "author": "Bonysoft",
+    "section": "2023",
     "time": "04:20"
   },
   {
-    "name": "Bonysoft - Poets of the Fall - My Dark Disquiet.pt3",
-    "file": "chiptunes/Bonysoft/Bonysoft - Poets of the Fall - My Dark Disquiet.pt3",
+    "name": "Bonysoft - Poets of the Fall - My Dark Disquiet (2024).pt3",
+    "file": "chiptunes/Bonysoft/2024/Bonysoft - Poets of the Fall - My Dark Disquiet (2024).pt3",
     "pt3": false,
     "author": "Bonysoft",
-    "section": null,
+    "section": "2024",
     "time": "04:22"
   },
   {
-    "name": "Bonysoft - Purple Sky.pt3",
-    "file": "chiptunes/Bonysoft/Bonysoft - Purple Sky.pt3",
+    "name": "Bonysoft - ICO - You Were There (v2) (2026).pt3",
+    "file": "chiptunes/Bonysoft/2026/Bonysoft - ICO - You Were There (v2) (2026).pt3",
     "pt3": false,
     "author": "Bonysoft",
+    "section": "2026",
+    "time": "02:40"
+  },
+  {
+    "name": "Megashit_3_-_Viktor_Kabatov_aka_S.E.Soft.stc",
+    "file": "chiptunes/Bonysoft/Megashit_3_-_Viktor_Kabatov_aka_S.E.Soft.stc",
+    "pt3": false,
+    "author": "Bonysoft",
+    "section": null,
+    "time": "05:46"
+  },
+  {
+    "name": "04_brightentayle-bladin.pt3",
+    "file": "chiptunes/brightentayle/04_brightentayle-bladin.pt3",
+    "pt3": false,
+    "author": "brightentayle",
     "section": null,
     "time": "03:12"
   },
   {
-    "name": "Bonysoft - Roxette - Stars.pt3",
-    "file": "chiptunes/Bonysoft/Bonysoft - Roxette - Stars.pt3",
+    "name": "04_brightentayle-TkkATkkA.pt3",
+    "file": "chiptunes/brightentayle/04_brightentayle-TkkATkkA.pt3",
     "pt3": false,
-    "author": "Bonysoft",
+    "author": "brightentayle",
     "section": null,
-    "time": "04:02"
+    "time": "03:04"
   },
   {
-    "name": "Bonysoft - Satellite One.pt3",
-    "file": "chiptunes/Bonysoft/Bonysoft - Satellite One.pt3",
+    "name": "Brightentayle - Bladin.pt3",
+    "file": "chiptunes/brightentayle/Brightentayle - Bladin.pt3",
     "pt3": false,
-    "author": "Bonysoft",
+    "author": "brightentayle",
     "section": null,
-    "time": "01:48"
+    "time": "03:12"
   },
   {
-    "name": "Bonysoft - Starshine.pt3",
-    "file": "chiptunes/Bonysoft/Bonysoft - Starshine.pt3",
+    "name": "Brightentayle - TkkATkkA.pt3",
+    "file": "chiptunes/brightentayle/Brightentayle - TkkATkkA.pt3",
     "pt3": false,
-    "author": "Bonysoft",
+    "author": "brightentayle",
     "section": null,
-    "time": "05:49"
-  },
-  {
-    "name": "Bonysoft - When the Heavens Fall.pt3",
-    "file": "chiptunes/Bonysoft/Bonysoft - When the Heavens Fall.pt3",
-    "pt3": false,
-    "author": "Bonysoft",
-    "section": null,
-    "time": "05:23"
-  },
-  {
-    "name": "Bonysoft - World of Plastic.pt3",
-    "file": "chiptunes/Bonysoft/Bonysoft - World of Plastic.pt3",
-    "pt3": false,
-    "author": "Bonysoft",
-    "section": null,
-    "time": "02:05"
+    "time": "03:04"
   },
   {
     "name": "Bugsy - Somebody.pt3",
@@ -2561,6 +2441,22 @@ var AYPLAYLIST_DATA = [
     "author": "Bugsy",
     "section": null,
     "time": "03:50"
+  },
+  {
+    "name": "BYTEMAN - Madness.pt3",
+    "file": "chiptunes/BYTEMAN/BYTEMAN - Madness.pt3",
+    "pt3": false,
+    "author": "BYTEMAN",
+    "section": null,
+    "time": "02:26"
+  },
+  {
+    "name": "BYTEMAN - Something.pt3",
+    "file": "chiptunes/BYTEMAN/BYTEMAN - Something.pt3",
+    "pt3": false,
+    "author": "BYTEMAN",
+    "section": null,
+    "time": "02:46"
   },
   {
     "name": "Flexo01.pt3",
@@ -8371,2089 +8267,6 @@ var AYPLAYLIST_DATA = [
     "time": "01:36"
   },
   {
-    "name": "39kb shock intro.ay",
-    "file": "chiptunes/CPC AY music/Demos/39kb shock intro.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "afc report VI_1.ay",
-    "file": "chiptunes/CPC AY music/Demos/afc report VI_1.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "albert hates you.ay",
-    "file": "chiptunes/CPC AY music/Demos/albert hates you.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "alf theme.ay",
-    "file": "chiptunes/CPC AY music/Demos/alf theme.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "ARCHAOS.AY",
-    "file": "chiptunes/CPC AY music/Demos/ARCHAOS.AY",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "ARKINT.AY",
-    "file": "chiptunes/CPC AY music/Demos/ARKINT.AY",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "ASTEROID.AY",
-    "file": "chiptunes/CPC AY music/Demos/ASTEROID.AY",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "Babafan7_1.ay",
-    "file": "chiptunes/CPC AY music/Demos/Babafan7_1.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "Babafan7_2.ay",
-    "file": "chiptunes/CPC AY music/Demos/Babafan7_2.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "Babafan7_3.ay",
-    "file": "chiptunes/CPC AY music/Demos/Babafan7_3.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "BARTHY.AY",
-    "file": "chiptunes/CPC AY music/Demos/BARTHY.AY",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "best off demo.ay",
-    "file": "chiptunes/CPC AY music/Demos/best off demo.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "Bombastic_music1.ay",
-    "file": "chiptunes/CPC AY music/Demos/Bombastic_music1.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "Bombastic_music2.ay",
-    "file": "chiptunes/CPC AY music/Demos/Bombastic_music2.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "bordelik IV_1.ay",
-    "file": "chiptunes/CPC AY music/Demos/bordelik IV_1.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "bordelik IV_2.ay",
-    "file": "chiptunes/CPC AY music/Demos/bordelik IV_2.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "bordelik IV_3.ay",
-    "file": "chiptunes/CPC AY music/Demos/bordelik IV_3.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "Bordelik4.ay",
-    "file": "chiptunes/CPC AY music/Demos/Bordelik4.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "buggos party.ay",
-    "file": "chiptunes/CPC AY music/Demos/buggos party.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "burger party 1.ay",
-    "file": "chiptunes/CPC AY music/Demos/burger party 1.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "Byte96.ay",
-    "file": "chiptunes/CPC AY music/Demos/Byte96.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "CFL4_music1.ay",
-    "file": "chiptunes/CPC AY music/Demos/CFL4_music1.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "CFL4_music2.ay",
-    "file": "chiptunes/CPC AY music/Demos/CFL4_music2.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "constellation.ay",
-    "file": "chiptunes/CPC AY music/Demos/constellation.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "CPC-Telegramm16_1.ay",
-    "file": "chiptunes/CPC AY music/Demos/CPC-Telegramm16_1.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "CPC-Telegramm16_2.ay",
-    "file": "chiptunes/CPC AY music/Demos/CPC-Telegramm16_2.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "CPC-Telegramm17_1.ay",
-    "file": "chiptunes/CPC AY music/Demos/CPC-Telegramm17_1.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "CPC-Telegramm17_2.ay",
-    "file": "chiptunes/CPC AY music/Demos/CPC-Telegramm17_2.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "Crystal_music1.ay",
-    "file": "chiptunes/CPC AY music/Demos/Crystal_music1.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "Crystal_music2.ay",
-    "file": "chiptunes/CPC AY music/Demos/Crystal_music2.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "DANIELE.AY",
-    "file": "chiptunes/CPC AY music/Demos/DANIELE.AY",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "darkage 1.ay",
-    "file": "chiptunes/CPC AY music/Demos/darkage 1.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "darkage 2.ay",
-    "file": "chiptunes/CPC AY music/Demos/darkage 2.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "DemowarII_1.ay",
-    "file": "chiptunes/CPC AY music/Demos/DemowarII_1.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "DemowarII_2.ay",
-    "file": "chiptunes/CPC AY music/Demos/DemowarII_2.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "DESERT.AY",
-    "file": "chiptunes/CPC AY music/Demos/DESERT.AY",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "desertdream.ay",
-    "file": "chiptunes/CPC AY music/Demos/desertdream.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "DigitalPress3_1.ay",
-    "file": "chiptunes/CPC AY music/Demos/DigitalPress3_1.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "DigitalPress3_2.ay",
-    "file": "chiptunes/CPC AY music/Demos/DigitalPress3_2.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "DigitalPress3_3.ay",
-    "file": "chiptunes/CPC AY music/Demos/DigitalPress3_3.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "dream 3.ay",
-    "file": "chiptunes/CPC AY music/Demos/dream 3.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "ELYSEUM.AY",
-    "file": "chiptunes/CPC AY music/Demos/ELYSEUM.AY",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "Epsilon1.ay",
-    "file": "chiptunes/CPC AY music/Demos/Epsilon1.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "Epsilon2.ay",
-    "file": "chiptunes/CPC AY music/Demos/Epsilon2.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "Epsilon3.ay",
-    "file": "chiptunes/CPC AY music/Demos/Epsilon3.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "Epsilon4.ay",
-    "file": "chiptunes/CPC AY music/Demos/Epsilon4.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "ETERNAL.AY",
-    "file": "chiptunes/CPC AY music/Demos/ETERNAL.AY",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "FASTER.AY",
-    "file": "chiptunes/CPC AY music/Demos/FASTER.AY",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "fat ass 2.ay",
-    "file": "chiptunes/CPC AY music/Demos/fat ass 2.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "FICTION.AY",
-    "file": "chiptunes/CPC AY music/Demos/FICTION.AY",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "Focus1.ay",
-    "file": "chiptunes/CPC AY music/Demos/Focus1.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "fractal flight.ay",
-    "file": "chiptunes/CPC AY music/Demos/fractal flight.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "free delire_1.ay",
-    "file": "chiptunes/CPC AY music/Demos/free delire_1.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "free delire_2.ay",
-    "file": "chiptunes/CPC AY music/Demos/free delire_2.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "free delire_4.ay",
-    "file": "chiptunes/CPC AY music/Demos/free delire_4.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "GA2.AY",
-    "file": "chiptunes/CPC AY music/Demos/GA2.AY",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "greek meeting demo.ay",
-    "file": "chiptunes/CPC AY music/Demos/greek meeting demo.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "hages first demo.ay",
-    "file": "chiptunes/CPC AY music/Demos/hages first demo.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "impact demo 3_1.ay",
-    "file": "chiptunes/CPC AY music/Demos/impact demo 3_1.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "impact demo 3_2.ay",
-    "file": "chiptunes/CPC AY music/Demos/impact demo 3_2.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "impact demo 3_3.ay",
-    "file": "chiptunes/CPC AY music/Demos/impact demo 3_3.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "IMPERIAL.AY",
-    "file": "chiptunes/CPC AY music/Demos/IMPERIAL.AY",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "jubilee 1.ay",
-    "file": "chiptunes/CPC AY music/Demos/jubilee 1.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "jubilee 2.ay",
-    "file": "chiptunes/CPC AY music/Demos/jubilee 2.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "jubilee 3.ay",
-    "file": "chiptunes/CPC AY music/Demos/jubilee 3.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "jubilee 4.ay",
-    "file": "chiptunes/CPC AY music/Demos/jubilee 4.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "jubilee 5.ay",
-    "file": "chiptunes/CPC AY music/Demos/jubilee 5.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "jubilee 6.ay",
-    "file": "chiptunes/CPC AY music/Demos/jubilee 6.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "jump mania themis.ay",
-    "file": "chiptunes/CPC AY music/Demos/jump mania themis.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "Kunst_music.ay",
-    "file": "chiptunes/CPC AY music/Demos/Kunst_music.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "lcr intro.ay",
-    "file": "chiptunes/CPC AY music/Demos/lcr intro.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "MAGIC.AY",
-    "file": "chiptunes/CPC AY music/Demos/MAGIC.AY",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "matchwood.ay",
-    "file": "chiptunes/CPC AY music/Demos/matchwood.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "megaparty 92_1.ay",
-    "file": "chiptunes/CPC AY music/Demos/megaparty 92_1.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "megaparty 92_2.ay",
-    "file": "chiptunes/CPC AY music/Demos/megaparty 92_2.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "megaparty 92_3.ay",
-    "file": "chiptunes/CPC AY music/Demos/megaparty 92_3.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "MEINER.AY",
-    "file": "chiptunes/CPC AY music/Demos/MEINER.AY",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "mops 1.ay",
-    "file": "chiptunes/CPC AY music/Demos/mops 1.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "mops 2.ay",
-    "file": "chiptunes/CPC AY music/Demos/mops 2.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "msi demo.ay",
-    "file": "chiptunes/CPC AY music/Demos/msi demo.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "mushroom demo.ay",
-    "file": "chiptunes/CPC AY music/Demos/mushroom demo.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "music00.ay",
-    "file": "chiptunes/CPC AY music/Demos/music00.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "music01.ay",
-    "file": "chiptunes/CPC AY music/Demos/music01.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "music02.ay",
-    "file": "chiptunes/CPC AY music/Demos/music02.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "music03.ay",
-    "file": "chiptunes/CPC AY music/Demos/music03.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "music04.ay",
-    "file": "chiptunes/CPC AY music/Demos/music04.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "music05.ay",
-    "file": "chiptunes/CPC AY music/Demos/music05.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "music06.ay",
-    "file": "chiptunes/CPC AY music/Demos/music06.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "music07.ay",
-    "file": "chiptunes/CPC AY music/Demos/music07.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "music08.ay",
-    "file": "chiptunes/CPC AY music/Demos/music08.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "music09.ay",
-    "file": "chiptunes/CPC AY music/Demos/music09.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "music10.ay",
-    "file": "chiptunes/CPC AY music/Demos/music10.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "music11.ay",
-    "file": "chiptunes/CPC AY music/Demos/music11.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "music12.ay",
-    "file": "chiptunes/CPC AY music/Demos/music12.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "music13.ay",
-    "file": "chiptunes/CPC AY music/Demos/music13.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "Music14.ay",
-    "file": "chiptunes/CPC AY music/Demos/Music14.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "my boy 3.ay",
-    "file": "chiptunes/CPC AY music/Demos/my boy 3.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "Odyssey_1.ay",
-    "file": "chiptunes/CPC AY music/Demos/Odyssey_1.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "Odyssey_2.ay",
-    "file": "chiptunes/CPC AY music/Demos/Odyssey_2.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "Odyssey_3.ay",
-    "file": "chiptunes/CPC AY music/Demos/Odyssey_3.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "Odyssey_4.ay",
-    "file": "chiptunes/CPC AY music/Demos/Odyssey_4.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "only for your eyes 2.ay",
-    "file": "chiptunes/CPC AY music/Demos/only for your eyes 2.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "only for your eyes 3.ay",
-    "file": "chiptunes/CPC AY music/Demos/only for your eyes 3.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "only for your eyes 4.ay",
-    "file": "chiptunes/CPC AY music/Demos/only for your eyes 4.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "ORPHEUS.AY",
-    "file": "chiptunes/CPC AY music/Demos/ORPHEUS.AY",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "OVERDOZ.AY",
-    "file": "chiptunes/CPC AY music/Demos/OVERDOZ.AY",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "OVL96.ay",
-    "file": "chiptunes/CPC AY music/Demos/OVL96.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "paint fantasy demo.ay",
-    "file": "chiptunes/CPC AY music/Demos/paint fantasy demo.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "painting fantasy 0.ay",
-    "file": "chiptunes/CPC AY music/Demos/painting fantasy 0.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "painting fantasy 1.ay",
-    "file": "chiptunes/CPC AY music/Demos/painting fantasy 1.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "painting fantasy 2.ay",
-    "file": "chiptunes/CPC AY music/Demos/painting fantasy 2.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "painting fantasy 3.ay",
-    "file": "chiptunes/CPC AY music/Demos/painting fantasy 3.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "painting fantasy 4.ay",
-    "file": "chiptunes/CPC AY music/Demos/painting fantasy 4.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "painting fantasy 5.ay",
-    "file": "chiptunes/CPC AY music/Demos/painting fantasy 5.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "painting fantasy 6.ay",
-    "file": "chiptunes/CPC AY music/Demos/painting fantasy 6.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "painting fantasy 7.ay",
-    "file": "chiptunes/CPC AY music/Demos/painting fantasy 7.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "PCAMCPC.ay",
-    "file": "chiptunes/CPC AY music/Demos/PCAMCPC.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "PMD_1.ay",
-    "file": "chiptunes/CPC AY music/Demos/PMD_1.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "PMD_2.ay",
-    "file": "chiptunes/CPC AY music/Demos/PMD_2.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "PMD_3.ay",
-    "file": "chiptunes/CPC AY music/Demos/PMD_3.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "PMD_4.ay",
-    "file": "chiptunes/CPC AY music/Demos/PMD_4.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "power system md 1.ay",
-    "file": "chiptunes/CPC AY music/Demos/power system md 1.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "power system md 2.ay",
-    "file": "chiptunes/CPC AY music/Demos/power system md 2.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "power system md 3.ay",
-    "file": "chiptunes/CPC AY music/Demos/power system md 3.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "power system md 4.ay",
-    "file": "chiptunes/CPC AY music/Demos/power system md 4.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "power system md 5.ay",
-    "file": "chiptunes/CPC AY music/Demos/power system md 5.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "power system md 6.ay",
-    "file": "chiptunes/CPC AY music/Demos/power system md 6.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "power system md 7.ay",
-    "file": "chiptunes/CPC AY music/Demos/power system md 7.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "power system md 8.ay",
-    "file": "chiptunes/CPC AY music/Demos/power system md 8.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "PowerSystem_1.ay",
-    "file": "chiptunes/CPC AY music/Demos/PowerSystem_1.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "PowerSystem_2.ay",
-    "file": "chiptunes/CPC AY music/Demos/PowerSystem_2.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "PowerSystem_3.ay",
-    "file": "chiptunes/CPC AY music/Demos/PowerSystem_3.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "PowerSystem_4.ay",
-    "file": "chiptunes/CPC AY music/Demos/PowerSystem_4.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "PowerSystem_5.ay",
-    "file": "chiptunes/CPC AY music/Demos/PowerSystem_5.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "PowerSystem_6.ay",
-    "file": "chiptunes/CPC AY music/Demos/PowerSystem_6.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "PREGRUZ.AY",
-    "file": "chiptunes/CPC AY music/Demos/PREGRUZ.AY",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "Prehist.ay",
-    "file": "chiptunes/CPC AY music/Demos/Prehist.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "prehistorik 2.ay",
-    "file": "chiptunes/CPC AY music/Demos/prehistorik 2.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "Prophecy_1.ay",
-    "file": "chiptunes/CPC AY music/Demos/Prophecy_1.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "Prophecy_2.ay",
-    "file": "chiptunes/CPC AY music/Demos/Prophecy_2.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "Prophecy_3.ay",
-    "file": "chiptunes/CPC AY music/Demos/Prophecy_3.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "Prophecy_4.ay",
-    "file": "chiptunes/CPC AY music/Demos/Prophecy_4.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "PS-MDEMO.AY",
-    "file": "chiptunes/CPC AY music/Demos/PS-MDEMO.AY",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "RASTA.AY",
-    "file": "chiptunes/CPC AY music/Demos/RASTA.AY",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "RedStorm_1.ay",
-    "file": "chiptunes/CPC AY music/Demos/RedStorm_1.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "RedStorm_2.ay",
-    "file": "chiptunes/CPC AY music/Demos/RedStorm_2.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "salamander.ay",
-    "file": "chiptunes/CPC AY music/Demos/salamander.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "scoopxtreme 4.ay",
-    "file": "chiptunes/CPC AY music/Demos/scoopxtreme 4.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "scoopxtreme 5.ay",
-    "file": "chiptunes/CPC AY music/Demos/scoopxtreme 5.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "sentinelle.ay",
-    "file": "chiptunes/CPC AY music/Demos/sentinelle.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "sex 2_2.ay",
-    "file": "chiptunes/CPC AY music/Demos/sex 2_2.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "sex 2_3.ay",
-    "file": "chiptunes/CPC AY music/Demos/sex 2_3.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "sex 2_4.ay",
-    "file": "chiptunes/CPC AY music/Demos/sex 2_4.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "sex 2_5.ay",
-    "file": "chiptunes/CPC AY music/Demos/sex 2_5.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "sex 2_6.ay",
-    "file": "chiptunes/CPC AY music/Demos/sex 2_6.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "SkidRow.ay",
-    "file": "chiptunes/CPC AY music/Demos/SkidRow.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "super cauldron.ay",
-    "file": "chiptunes/CPC AY music/Demos/super cauldron.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "super simon 2_1.ay",
-    "file": "chiptunes/CPC AY music/Demos/super simon 2_1.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "super simon 2_2.ay",
-    "file": "chiptunes/CPC AY music/Demos/super simon 2_2.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "Swab_meeting93_1.ay",
-    "file": "chiptunes/CPC AY music/Demos/Swab_meeting93_1.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "Swab_meeting93_2.ay",
-    "file": "chiptunes/CPC AY music/Demos/Swab_meeting93_2.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "Sweet_1.ay",
-    "file": "chiptunes/CPC AY music/Demos/Sweet_1.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "Sweet_2.ay",
-    "file": "chiptunes/CPC AY music/Demos/Sweet_2.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "Sweet_3.ay",
-    "file": "chiptunes/CPC AY music/Demos/Sweet_3.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "TBAST.AY",
-    "file": "chiptunes/CPC AY music/Demos/TBAST.AY",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "Telepatique_demo.ay",
-    "file": "chiptunes/CPC AY music/Demos/Telepatique_demo.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "TenYears_1.ay",
-    "file": "chiptunes/CPC AY music/Demos/TenYears_1.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "TenYears_2.ay",
-    "file": "chiptunes/CPC AY music/Demos/TenYears_2.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "TenYears_3.ay",
-    "file": "chiptunes/CPC AY music/Demos/TenYears_3.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "tetris95_1.ay",
-    "file": "chiptunes/CPC AY music/Demos/tetris95_1.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "tetris95_2.ay",
-    "file": "chiptunes/CPC AY music/Demos/tetris95_2.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "tetris95_3.ay",
-    "file": "chiptunes/CPC AY music/Demos/tetris95_3.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "tetris95_4.ay",
-    "file": "chiptunes/CPC AY music/Demos/tetris95_4.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "the sandman.ay",
-    "file": "chiptunes/CPC AY music/Demos/the sandman.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "total eclipse 1.ay",
-    "file": "chiptunes/CPC AY music/Demos/total eclipse 1.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "total eclipse 3.ay",
-    "file": "chiptunes/CPC AY music/Demos/total eclipse 3.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "twistn shout 1.ay",
-    "file": "chiptunes/CPC AY music/Demos/twistn shout 1.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "twistn shout 2.ay",
-    "file": "chiptunes/CPC AY music/Demos/twistn shout 2.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "twistn shout 3.ay",
-    "file": "chiptunes/CPC AY music/Demos/twistn shout 3.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "UNDEMO.AY",
-    "file": "chiptunes/CPC AY music/Demos/UNDEMO.AY",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "VIRTUAL.AY",
-    "file": "chiptunes/CPC AY music/Demos/VIRTUAL.AY",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "voyage 1.ay",
-    "file": "chiptunes/CPC AY music/Demos/voyage 1.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "Voyage93_0.ay",
-    "file": "chiptunes/CPC AY music/Demos/Voyage93_0.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "Voyage93_1.ay",
-    "file": "chiptunes/CPC AY music/Demos/Voyage93_1.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "wcm split demo.ay",
-    "file": "chiptunes/CPC AY music/Demos/wcm split demo.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "Xmas.ay",
-    "file": "chiptunes/CPC AY music/Demos/Xmas.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "xtreme 2_1.ay",
-    "file": "chiptunes/CPC AY music/Demos/xtreme 2_1.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "xtreme 2_2.ay",
-    "file": "chiptunes/CPC AY music/Demos/xtreme 2_2.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "xtreme 2_3.ay",
-    "file": "chiptunes/CPC AY music/Demos/xtreme 2_3.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "yo diego.ay",
-    "file": "chiptunes/CPC AY music/Demos/yo diego.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "zapt ball 1.ay",
-    "file": "chiptunes/CPC AY music/Demos/zapt ball 1.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "zapt ball 2.ay",
-    "file": "chiptunes/CPC AY music/Demos/zapt ball 2.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "zapt ball 3.ay",
-    "file": "chiptunes/CPC AY music/Demos/zapt ball 3.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "zeta 2.ay",
-    "file": "chiptunes/CPC AY music/Demos/zeta 2.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Demos"
-  },
-  {
-    "name": "Burnin'Rubber.ay",
-    "file": "chiptunes/CPC AY music/Games/Burnin'Rubber.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Games"
-  },
-  {
-    "name": "Commando.ay",
-    "file": "chiptunes/CPC AY music/Games/Commando.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Games"
-  },
-  {
-    "name": "DarkFusion.ay",
-    "file": "chiptunes/CPC AY music/Games/DarkFusion.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Games"
-  },
-  {
-    "name": "Deflektor.ay",
-    "file": "chiptunes/CPC AY music/Games/Deflektor.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Games"
-  },
-  {
-    "name": "Extreme.ay",
-    "file": "chiptunes/CPC AY music/Games/Extreme.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Games"
-  },
-  {
-    "name": "Feud.ay",
-    "file": "chiptunes/CPC AY music/Games/Feud.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Games"
-  },
-  {
-    "name": "Ghosts'nGoblins.ay",
-    "file": "chiptunes/CPC AY music/Games/Ghosts'nGoblins.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Games"
-  },
-  {
-    "name": "H.A.T.E..ay",
-    "file": "chiptunes/CPC AY music/Games/H.A.T.E..ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Games"
-  },
-  {
-    "name": "Hydrofool.ay",
-    "file": "chiptunes/CPC AY music/Games/Hydrofool.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Games"
-  },
-  {
-    "name": "Impossamole.ay",
-    "file": "chiptunes/CPC AY music/Games/Impossamole.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Games"
-  },
-  {
-    "name": "LastV8The.ay",
-    "file": "chiptunes/CPC AY music/Games/LastV8The.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Games"
-  },
-  {
-    "name": "Leviathan.ay",
-    "file": "chiptunes/CPC AY music/Games/Leviathan.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Games"
-  },
-  {
-    "name": "Rygar.ay",
-    "file": "chiptunes/CPC AY music/Games/Rygar.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Games"
-  },
-  {
-    "name": "S.T.U.N.Runner.ay",
-    "file": "chiptunes/CPC AY music/Games/S.T.U.N.Runner.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Games"
-  },
-  {
-    "name": "Saboteur2.ay",
-    "file": "chiptunes/CPC AY music/Games/Saboteur2.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Games"
-  },
-  {
-    "name": "Trans-AtlanticBalloonChallenge.ay",
-    "file": "chiptunes/CPC AY music/Games/Trans-AtlanticBalloonChallenge.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Games"
-  },
-  {
-    "name": "Transmuter.ay",
-    "file": "chiptunes/CPC AY music/Games/Transmuter.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Games"
-  },
-  {
-    "name": "Uridium.ay",
-    "file": "chiptunes/CPC AY music/Games/Uridium.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Games"
-  },
-  {
-    "name": "Xenon.ay",
-    "file": "chiptunes/CPC AY music/Games/Xenon.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Games"
-  },
-  {
-    "name": "Zynaps.ay",
-    "file": "chiptunes/CPC AY music/Games/Zynaps.ay",
-    "pt3": false,
-    "author": "CPC AY music",
-    "section": "Games"
-  },
-  {
-    "name": "180.fym",
-    "file": "chiptunes/D Whittaker/180.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "D Whittaker",
-    "section": null,
-    "time": "03:00"
-  },
-  {
-    "name": "advanced pinball simulator.fym",
-    "file": "chiptunes/D Whittaker/advanced pinball simulator.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "D Whittaker",
-    "section": null,
-    "time": "02:03"
-  },
-  {
-    "name": "amaurote.fym",
-    "file": "chiptunes/D Whittaker/amaurote.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "D Whittaker",
-    "section": null,
-    "time": "00:31"
-  },
-  {
-    "name": "apb.fym",
-    "file": "chiptunes/D Whittaker/apb.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "D Whittaker",
-    "section": null,
-    "time": "00:26"
-  },
-  {
-    "name": "arcade flight simulator.fym",
-    "file": "chiptunes/D Whittaker/arcade flight simulator.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "D Whittaker",
-    "section": null,
-    "time": "01:30"
-  },
-  {
-    "name": "atv simulator.fym",
-    "file": "chiptunes/D Whittaker/atv simulator.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "D Whittaker",
-    "section": null,
-    "time": "01:32"
-  },
-  {
-    "name": "back to the future 2.fym",
-    "file": "chiptunes/D Whittaker/back to the future 2.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "D Whittaker",
-    "section": null,
-    "time": "01:30"
-  },
-  {
-    "name": "beverly hills cop.fym",
-    "file": "chiptunes/D Whittaker/beverly hills cop.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "D Whittaker",
-    "section": null,
-    "time": "10:55"
-  },
-  {
-    "name": "beyond the ice palace.fym",
-    "file": "chiptunes/D Whittaker/beyond the ice palace.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "D Whittaker",
-    "section": null,
-    "time": "01:30"
-  },
-  {
-    "name": "bmx freestyle simulator.fym",
-    "file": "chiptunes/D Whittaker/bmx freestyle simulator.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "D Whittaker",
-    "section": null,
-    "time": "03:00"
-  },
-  {
-    "name": "brave starr.fym",
-    "file": "chiptunes/D Whittaker/brave starr.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "D Whittaker",
-    "section": null,
-    "time": "01:53"
-  },
-  {
-    "name": "bubble dizzy.fym",
-    "file": "chiptunes/D Whittaker/bubble dizzy.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "D Whittaker",
-    "section": null,
-    "time": "03:00"
-  },
-  {
-    "name": "captain fizz meets the blaster - trons.fym",
-    "file": "chiptunes/D Whittaker/captain fizz meets the blaster - trons.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "D Whittaker",
-    "section": null,
-    "time": "02:10"
-  },
-  {
-    "name": "chip_s challenge.fym",
-    "file": "chiptunes/D Whittaker/chip_s challenge.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "D Whittaker",
-    "section": null,
-    "time": "03:00"
-  },
-  {
-    "name": "combat school.fym",
-    "file": "chiptunes/D Whittaker/combat school.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "D Whittaker",
-    "section": null,
-    "time": "01:02"
-  },
-  {
-    "name": "dan dare 3.fym",
-    "file": "chiptunes/D Whittaker/dan dare 3.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "D Whittaker",
-    "section": null,
-    "time": "01:30"
-  },
-  {
-    "name": "death stalker.fym",
-    "file": "chiptunes/D Whittaker/death stalker.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "D Whittaker",
-    "section": null,
-    "time": "03:00"
-  },
-  {
-    "name": "defcom.fym",
-    "file": "chiptunes/D Whittaker/defcom.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "D Whittaker",
-    "section": null,
-    "time": "02:01"
-  },
-  {
-    "name": "dizzy 2 - treasure island dizzy.fym",
-    "file": "chiptunes/D Whittaker/dizzy 2 - treasure island dizzy.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "D Whittaker",
-    "section": null,
-    "time": "03:00"
-  },
-  {
-    "name": "dizzy 3 - fantasy world dizzy.fym",
-    "file": "chiptunes/D Whittaker/dizzy 3 - fantasy world dizzy.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "D Whittaker",
-    "section": null,
-    "time": "03:00"
-  },
-  {
-    "name": "dizzy 4 - magic land dizzy.fym",
-    "file": "chiptunes/D Whittaker/dizzy 4 - magic land dizzy.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "D Whittaker",
-    "section": null,
-    "time": "03:00"
-  },
-  {
-    "name": "dizzy 5 - spellbound dizzy.fym",
-    "file": "chiptunes/D Whittaker/dizzy 5 - spellbound dizzy.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "D Whittaker",
-    "section": null,
-    "time": "03:00"
-  },
-  {
-    "name": "dizzy 6 - prince of the yolk folk.fym",
-    "file": "chiptunes/D Whittaker/dizzy 6 - prince of the yolk folk.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "D Whittaker",
-    "section": null,
-    "time": "03:00"
-  },
-  {
-    "name": "elevator action.fym",
-    "file": "chiptunes/D Whittaker/elevator action.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "D Whittaker",
-    "section": null,
-    "time": "01:24"
-  },
-  {
-    "name": "fast food dizzy.fym",
-    "file": "chiptunes/D Whittaker/fast food dizzy.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "D Whittaker",
-    "section": null,
-    "time": "03:00"
-  },
-  {
-    "name": "four soccer simulators.fym",
-    "file": "chiptunes/D Whittaker/four soccer simulators.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "D Whittaker",
-    "section": null,
-    "time": "00:20"
-  },
-  {
-    "name": "fruit machine simulator 2.fym",
-    "file": "chiptunes/D Whittaker/fruit machine simulator 2.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "D Whittaker",
-    "section": null,
-    "time": "03:00"
-  },
-  {
-    "name": "fruit machine simulator.fym",
-    "file": "chiptunes/D Whittaker/fruit machine simulator.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "D Whittaker",
-    "section": null,
-    "time": "02:03"
-  },
-  {
-    "name": "ghostbusters 2.fym",
-    "file": "chiptunes/D Whittaker/ghostbusters 2.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "D Whittaker",
-    "section": null,
-    "time": "01:30"
-  },
-  {
-    "name": "glider rider.fym",
-    "file": "chiptunes/D Whittaker/glider rider.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "D Whittaker",
-    "section": null,
-    "time": "01:39"
-  },
-  {
-    "name": "grand prix simulator 2.fym",
-    "file": "chiptunes/D Whittaker/grand prix simulator 2.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "D Whittaker",
-    "section": null,
-    "time": "01:30"
-  },
-  {
-    "name": "grand prix simulator.fym",
-    "file": "chiptunes/D Whittaker/grand prix simulator.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "D Whittaker",
-    "section": null,
-    "time": "00:56"
-  },
-  {
-    "name": "grange hill.fym",
-    "file": "chiptunes/D Whittaker/grange hill.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "D Whittaker",
-    "section": null,
-    "time": "02:03"
-  },
-  {
-    "name": "gryzor.fym",
-    "file": "chiptunes/D Whittaker/gryzor.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "D Whittaker",
-    "section": null,
-    "time": "01:17"
-  },
-  {
-    "name": "hades nebula.fym",
-    "file": "chiptunes/D Whittaker/hades nebula.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "D Whittaker",
-    "section": null,
-    "time": "01:40"
-  },
-  {
-    "name": "infection.fym",
-    "file": "chiptunes/D Whittaker/infection.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "D Whittaker",
-    "section": null,
-    "time": "01:22"
-  },
-  {
-    "name": "international rugby simulator.fym",
-    "file": "chiptunes/D Whittaker/international rugby simulator.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "D Whittaker",
-    "section": null,
-    "time": "03:00"
-  },
-  {
-    "name": "international speedway.fym",
-    "file": "chiptunes/D Whittaker/international speedway.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "D Whittaker",
-    "section": null,
-    "time": "01:22"
-  },
-  {
-    "name": "jet bike simulator.fym",
-    "file": "chiptunes/D Whittaker/jet bike simulator.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "D Whittaker",
-    "section": null,
-    "time": "01:30"
-  },
-  {
-    "name": "knight tyme.fym",
-    "file": "chiptunes/D Whittaker/knight tyme.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "D Whittaker",
-    "section": null,
-    "time": "03:00"
-  },
-  {
-    "name": "leviathan.fym",
-    "file": "chiptunes/D Whittaker/leviathan.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "D Whittaker",
-    "section": null,
-    "time": "01:43"
-  },
-  {
-    "name": "loopz.fym",
-    "file": "chiptunes/D Whittaker/loopz.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "D Whittaker",
-    "section": null,
-    "time": "01:58"
-  },
-  {
-    "name": "milk race.fym",
-    "file": "chiptunes/D Whittaker/milk race.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "D Whittaker",
-    "section": null,
-    "time": "02:35"
-  },
-  {
-    "name": "monte carlo casino.fym",
-    "file": "chiptunes/D Whittaker/monte carlo casino.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "D Whittaker",
-    "section": null,
-    "time": "03:00"
-  },
-  {
-    "name": "operation gunship.fym",
-    "file": "chiptunes/D Whittaker/operation gunship.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "D Whittaker",
-    "section": null,
-    "time": "01:59"
-  },
-  {
-    "name": "platoon.fym",
-    "file": "chiptunes/D Whittaker/platoon.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "D Whittaker",
-    "section": null,
-    "time": "03:00"
-  },
-  {
-    "name": "pro bmx simulator 2.fym",
-    "file": "chiptunes/D Whittaker/pro bmx simulator 2.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "D Whittaker",
-    "section": null,
-    "time": "00:54"
-  },
-  {
-    "name": "pro bmx simulator.fym",
-    "file": "chiptunes/D Whittaker/pro bmx simulator.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "D Whittaker",
-    "section": null,
-    "time": "03:00"
-  },
-  {
-    "name": "professional skateboard simulator.fym",
-    "file": "chiptunes/D Whittaker/professional skateboard simulator.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "D Whittaker",
-    "section": null,
-    "time": "03:00"
-  },
-  {
-    "name": "savage.fym",
-    "file": "chiptunes/D Whittaker/savage.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "D Whittaker",
-    "section": null,
-    "time": "05:04"
-  },
-  {
-    "name": "shadow of the beast.fym",
-    "file": "chiptunes/D Whittaker/shadow of the beast.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "D Whittaker",
-    "section": null,
-    "time": "01:49"
-  },
-  {
-    "name": "sky high stunt man.fym",
-    "file": "chiptunes/D Whittaker/sky high stunt man.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "D Whittaker",
-    "section": null,
-    "time": "03:00"
-  },
-  {
-    "name": "spitting image.fym",
-    "file": "chiptunes/D Whittaker/spitting image.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "D Whittaker",
-    "section": null,
-    "time": "01:00"
-  },
-  {
-    "name": "split personalities.fym",
-    "file": "chiptunes/D Whittaker/split personalities.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "D Whittaker",
-    "section": null,
-    "time": "00:04"
-  },
-  {
-    "name": "star wars.fym",
-    "file": "chiptunes/D Whittaker/star wars.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "D Whittaker",
-    "section": null,
-    "time": "00:52"
-  },
-  {
-    "name": "stormbringer.fym",
-    "file": "chiptunes/D Whittaker/stormbringer.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "D Whittaker",
-    "section": null,
-    "time": "04:18"
-  },
-  {
-    "name": "super robin hood.fym",
-    "file": "chiptunes/D Whittaker/super robin hood.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "D Whittaker",
-    "section": null,
-    "time": "01:30"
-  },
-  {
-    "name": "super stuntman.fym",
-    "file": "chiptunes/D Whittaker/super stuntman.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "D Whittaker",
-    "section": null,
-    "time": "03:00"
-  },
-  {
-    "name": "terrormeter.fym",
-    "file": "chiptunes/D Whittaker/terrormeter.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "D Whittaker",
-    "section": null,
-    "time": "01:30"
-  },
-  {
-    "name": "tetris.fym",
-    "file": "chiptunes/D Whittaker/tetris.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "D Whittaker",
-    "section": null,
-    "time": "00:45"
-  },
-  {
-    "name": "the tube.fym",
-    "file": "chiptunes/D Whittaker/the tube.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "D Whittaker",
-    "section": null,
-    "time": "02:02"
-  },
-  {
-    "name": "transmuter.fym",
-    "file": "chiptunes/D Whittaker/transmuter.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "D Whittaker",
-    "section": null,
-    "time": "01:30"
-  },
-  {
-    "name": "trantor the last storm trooper.fym",
-    "file": "chiptunes/D Whittaker/trantor the last storm trooper.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "D Whittaker",
-    "section": null,
-    "time": "02:19"
-  },
-  {
-    "name": "xenon.fym",
-    "file": "chiptunes/D Whittaker/xenon.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "D Whittaker",
-    "section": null,
-    "time": "01:30"
-  },
-  {
-    "name": "zub.fym",
-    "file": "chiptunes/D Whittaker/zub.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "D Whittaker",
-    "section": null,
-    "time": "00:22"
-  },
-  {
     "name": "$STRENGE$.pt3",
     "file": "chiptunes/D-Juice/$STRENGE$.pt3",
     "pt3": false,
@@ -13107,28 +10920,521 @@ var AYPLAYLIST_DATA = [
     "time": "01:04"
   },
   {
-    "name": "last_wish.pt3",
-    "file": "chiptunes/Darkman007/2006/last_wish.pt3",
+    "name": "Darkman007 - last_wish.pt3",
+    "file": "chiptunes/Darkman007/2006/Darkman007 - last_wish.pt3",
     "pt3": false,
     "author": "Darkman007",
     "section": "2006",
     "time": "02:54"
   },
   {
-    "name": "technodrive.pt3",
-    "file": "chiptunes/Darkman007/2007/technodrive.pt3",
+    "name": "Darkman007 - technodrive.pt3",
+    "file": "chiptunes/Darkman007/2007/Darkman007 - technodrive.pt3",
     "pt3": false,
     "author": "Darkman007",
     "section": "2007",
     "time": "02:30"
   },
   {
-    "name": "turbo.pt3",
-    "file": "chiptunes/Darkman007/2007/turbo.pt3",
+    "name": "Darkman007 - turbo.pt3",
+    "file": "chiptunes/Darkman007/2007/Darkman007 - turbo.pt3",
     "pt3": false,
     "author": "Darkman007",
     "section": "2007",
     "time": "02:37"
+  },
+  {
+    "name": "Battle Valley.ay",
+    "file": "chiptunes/Dave Rogers/1988/Battle Valley.ay",
+    "pt3": false,
+    "author": "Dave Rogers",
+    "section": "1988"
+  },
+  {
+    "name": "Bear A Grudge.ay",
+    "file": "chiptunes/Dave Rogers/1988/Bear A Grudge.ay",
+    "pt3": false,
+    "author": "Dave Rogers",
+    "section": "1988"
+  },
+  {
+    "name": "Cybernoid 2.ay",
+    "file": "chiptunes/Dave Rogers/1988/Cybernoid 2.ay",
+    "pt3": false,
+    "author": "Dave Rogers",
+    "section": "1988"
+  },
+  {
+    "name": "Cybernoid The Fighting Machine.ay",
+    "file": "chiptunes/Dave Rogers/1988/Cybernoid The Fighting Machine.ay",
+    "pt3": false,
+    "author": "Dave Rogers",
+    "section": "1988"
+  },
+  {
+    "name": "G.i. Hero.ay",
+    "file": "chiptunes/Dave Rogers/1988/G.i. Hero.ay",
+    "pt3": false,
+    "author": "Dave Rogers",
+    "section": "1988"
+  },
+  {
+    "name": "Marauder.ay",
+    "file": "chiptunes/Dave Rogers/1988/Marauder.ay",
+    "pt3": false,
+    "author": "Dave Rogers",
+    "section": "1988"
+  },
+  {
+    "name": "Netherworld.ay",
+    "file": "chiptunes/Dave Rogers/1988/Netherworld.ay",
+    "pt3": false,
+    "author": "Dave Rogers",
+    "section": "1988"
+  },
+  {
+    "name": "Turbo Boat Simulator.ay",
+    "file": "chiptunes/Dave Rogers/1988/Turbo Boat Simulator.ay",
+    "pt3": false,
+    "author": "Dave Rogers",
+    "section": "1988"
+  },
+  {
+    "name": "Stormlord 2 - Deliverance.ay",
+    "file": "chiptunes/Dave Rogers/1989/Stormlord 2 - Deliverance.ay",
+    "pt3": false,
+    "author": "Dave Rogers",
+    "section": "1989"
+  },
+  {
+    "name": "Stormlord.ay",
+    "file": "chiptunes/Dave Rogers/1989/Stormlord.ay",
+    "pt3": false,
+    "author": "Dave Rogers",
+    "section": "1989"
+  },
+  {
+    "name": "David Whittaker - 180.fym",
+    "file": "chiptunes/David Whittaker/David Whittaker - 180.fym",
+    "pt3": false,
+    "pt3File": null,
+    "author": "David Whittaker",
+    "section": null,
+    "time": "03:00"
+  },
+  {
+    "name": "David Whittaker - advanced pinball simulator.fym",
+    "file": "chiptunes/David Whittaker/David Whittaker - advanced pinball simulator.fym",
+    "pt3": false,
+    "pt3File": null,
+    "author": "David Whittaker",
+    "section": null,
+    "time": "02:03"
+  },
+  {
+    "name": "David Whittaker - amaurote.fym",
+    "file": "chiptunes/David Whittaker/David Whittaker - amaurote.fym",
+    "pt3": false,
+    "pt3File": null,
+    "author": "David Whittaker",
+    "section": null,
+    "time": "00:31"
+  },
+  {
+    "name": "David Whittaker - apb.fym",
+    "file": "chiptunes/David Whittaker/David Whittaker - apb.fym",
+    "pt3": false,
+    "pt3File": null,
+    "author": "David Whittaker",
+    "section": null,
+    "time": "00:26"
+  },
+  {
+    "name": "David Whittaker - back to the future 2.fym",
+    "file": "chiptunes/David Whittaker/David Whittaker - back to the future 2.fym",
+    "pt3": false,
+    "pt3File": null,
+    "author": "David Whittaker",
+    "section": null,
+    "time": "01:30"
+  },
+  {
+    "name": "David Whittaker - beverly hills cop.fym",
+    "file": "chiptunes/David Whittaker/David Whittaker - beverly hills cop.fym",
+    "pt3": false,
+    "pt3File": null,
+    "author": "David Whittaker",
+    "section": null,
+    "time": "10:55"
+  },
+  {
+    "name": "David Whittaker - beyond the ice palace.fym",
+    "file": "chiptunes/David Whittaker/David Whittaker - beyond the ice palace.fym",
+    "pt3": false,
+    "pt3File": null,
+    "author": "David Whittaker",
+    "section": null,
+    "time": "01:30"
+  },
+  {
+    "name": "David Whittaker - bmx freestyle simulator.fym",
+    "file": "chiptunes/David Whittaker/David Whittaker - bmx freestyle simulator.fym",
+    "pt3": false,
+    "pt3File": null,
+    "author": "David Whittaker",
+    "section": null,
+    "time": "03:00"
+  },
+  {
+    "name": "David Whittaker - bubble dizzy.fym",
+    "file": "chiptunes/David Whittaker/David Whittaker - bubble dizzy.fym",
+    "pt3": false,
+    "pt3File": null,
+    "author": "David Whittaker",
+    "section": null,
+    "time": "03:00"
+  },
+  {
+    "name": "David Whittaker - captain fizz meets the blaster - trons.fym",
+    "file": "chiptunes/David Whittaker/David Whittaker - captain fizz meets the blaster - trons.fym",
+    "pt3": false,
+    "pt3File": null,
+    "author": "David Whittaker",
+    "section": null,
+    "time": "02:10"
+  },
+  {
+    "name": "David Whittaker - chip_s challenge.fym",
+    "file": "chiptunes/David Whittaker/David Whittaker - chip_s challenge.fym",
+    "pt3": false,
+    "pt3File": null,
+    "author": "David Whittaker",
+    "section": null,
+    "time": "03:00"
+  },
+  {
+    "name": "David Whittaker - combat school.fym",
+    "file": "chiptunes/David Whittaker/David Whittaker - combat school.fym",
+    "pt3": false,
+    "pt3File": null,
+    "author": "David Whittaker",
+    "section": null,
+    "time": "01:02"
+  },
+  {
+    "name": "David Whittaker - death stalker.fym",
+    "file": "chiptunes/David Whittaker/David Whittaker - death stalker.fym",
+    "pt3": false,
+    "pt3File": null,
+    "author": "David Whittaker",
+    "section": null,
+    "time": "03:00"
+  },
+  {
+    "name": "David Whittaker - defcom.fym",
+    "file": "chiptunes/David Whittaker/David Whittaker - defcom.fym",
+    "pt3": false,
+    "pt3File": null,
+    "author": "David Whittaker",
+    "section": null,
+    "time": "02:01"
+  },
+  {
+    "name": "David Whittaker - elevator action.fym",
+    "file": "chiptunes/David Whittaker/David Whittaker - elevator action.fym",
+    "pt3": false,
+    "pt3File": null,
+    "author": "David Whittaker",
+    "section": null,
+    "time": "01:24"
+  },
+  {
+    "name": "David Whittaker - fantasy world dizzy.fym",
+    "file": "chiptunes/David Whittaker/David Whittaker - fantasy world dizzy.fym",
+    "pt3": false,
+    "pt3File": null,
+    "author": "David Whittaker",
+    "section": null,
+    "time": "03:00"
+  },
+  {
+    "name": "David Whittaker - fast food dizzy.fym",
+    "file": "chiptunes/David Whittaker/David Whittaker - fast food dizzy.fym",
+    "pt3": false,
+    "pt3File": null,
+    "author": "David Whittaker",
+    "section": null,
+    "time": "03:00"
+  },
+  {
+    "name": "David Whittaker - four soccer simulators.fym",
+    "file": "chiptunes/David Whittaker/David Whittaker - four soccer simulators.fym",
+    "pt3": false,
+    "pt3File": null,
+    "author": "David Whittaker",
+    "section": null,
+    "time": "00:20"
+  },
+  {
+    "name": "David Whittaker - fruit machine simulator 2.fym",
+    "file": "chiptunes/David Whittaker/David Whittaker - fruit machine simulator 2.fym",
+    "pt3": false,
+    "pt3File": null,
+    "author": "David Whittaker",
+    "section": null,
+    "time": "03:00"
+  },
+  {
+    "name": "David Whittaker - ghostbusters 2.fym",
+    "file": "chiptunes/David Whittaker/David Whittaker - ghostbusters 2.fym",
+    "pt3": false,
+    "pt3File": null,
+    "author": "David Whittaker",
+    "section": null,
+    "time": "01:30"
+  },
+  {
+    "name": "David Whittaker - glider rider.fym",
+    "file": "chiptunes/David Whittaker/David Whittaker - glider rider.fym",
+    "pt3": false,
+    "pt3File": null,
+    "author": "David Whittaker",
+    "section": null,
+    "time": "01:39"
+  },
+  {
+    "name": "David Whittaker - grand prix simulator 2.fym",
+    "file": "chiptunes/David Whittaker/David Whittaker - grand prix simulator 2.fym",
+    "pt3": false,
+    "pt3File": null,
+    "author": "David Whittaker",
+    "section": null,
+    "time": "01:30"
+  },
+  {
+    "name": "David Whittaker - grange hill.fym",
+    "file": "chiptunes/David Whittaker/David Whittaker - grange hill.fym",
+    "pt3": false,
+    "pt3File": null,
+    "author": "David Whittaker",
+    "section": null,
+    "time": "02:03"
+  },
+  {
+    "name": "David Whittaker - gryzor.fym",
+    "file": "chiptunes/David Whittaker/David Whittaker - gryzor.fym",
+    "pt3": false,
+    "pt3File": null,
+    "author": "David Whittaker",
+    "section": null,
+    "time": "01:17"
+  },
+  {
+    "name": "David Whittaker - infection.fym",
+    "file": "chiptunes/David Whittaker/David Whittaker - infection.fym",
+    "pt3": false,
+    "pt3File": null,
+    "author": "David Whittaker",
+    "section": null,
+    "time": "01:22"
+  },
+  {
+    "name": "David Whittaker - international speedway.fym",
+    "file": "chiptunes/David Whittaker/David Whittaker - international speedway.fym",
+    "pt3": false,
+    "pt3File": null,
+    "author": "David Whittaker",
+    "section": null,
+    "time": "01:22"
+  },
+  {
+    "name": "David Whittaker - knight tyme.fym",
+    "file": "chiptunes/David Whittaker/David Whittaker - knight tyme.fym",
+    "pt3": false,
+    "pt3File": null,
+    "author": "David Whittaker",
+    "section": null,
+    "time": "03:00"
+  },
+  {
+    "name": "David Whittaker - leviathan.fym",
+    "file": "chiptunes/David Whittaker/David Whittaker - leviathan.fym",
+    "pt3": false,
+    "pt3File": null,
+    "author": "David Whittaker",
+    "section": null,
+    "time": "01:43"
+  },
+  {
+    "name": "David Whittaker - loopz.fym",
+    "file": "chiptunes/David Whittaker/David Whittaker - loopz.fym",
+    "pt3": false,
+    "pt3File": null,
+    "author": "David Whittaker",
+    "section": null,
+    "time": "01:58"
+  },
+  {
+    "name": "David Whittaker - magic land dizzy.fym",
+    "file": "chiptunes/David Whittaker/David Whittaker - magic land dizzy.fym",
+    "pt3": false,
+    "pt3File": null,
+    "author": "David Whittaker",
+    "section": null,
+    "time": "03:00"
+  },
+  {
+    "name": "David Whittaker - monte carlo casino.fym",
+    "file": "chiptunes/David Whittaker/David Whittaker - monte carlo casino.fym",
+    "pt3": false,
+    "pt3File": null,
+    "author": "David Whittaker",
+    "section": null,
+    "time": "03:00"
+  },
+  {
+    "name": "David Whittaker - operation gunship.fym",
+    "file": "chiptunes/David Whittaker/David Whittaker - operation gunship.fym",
+    "pt3": false,
+    "pt3File": null,
+    "author": "David Whittaker",
+    "section": null,
+    "time": "01:59"
+  },
+  {
+    "name": "David Whittaker - platoon.fym",
+    "file": "chiptunes/David Whittaker/David Whittaker - platoon.fym",
+    "pt3": false,
+    "pt3File": null,
+    "author": "David Whittaker",
+    "section": null,
+    "time": "03:00"
+  },
+  {
+    "name": "David Whittaker - prince of the yolk folk.fym",
+    "file": "chiptunes/David Whittaker/David Whittaker - prince of the yolk folk.fym",
+    "pt3": false,
+    "pt3File": null,
+    "author": "David Whittaker",
+    "section": null,
+    "time": "03:00"
+  },
+  {
+    "name": "David Whittaker - pro bmx simulator 2.fym",
+    "file": "chiptunes/David Whittaker/David Whittaker - pro bmx simulator 2.fym",
+    "pt3": false,
+    "pt3File": null,
+    "author": "David Whittaker",
+    "section": null,
+    "time": "00:54"
+  },
+  {
+    "name": "David Whittaker - pro bmx simulator.fym",
+    "file": "chiptunes/David Whittaker/David Whittaker - pro bmx simulator.fym",
+    "pt3": false,
+    "pt3File": null,
+    "author": "David Whittaker",
+    "section": null,
+    "time": "03:00"
+  },
+  {
+    "name": "David Whittaker - professional skateboard simulator.fym",
+    "file": "chiptunes/David Whittaker/David Whittaker - professional skateboard simulator.fym",
+    "pt3": false,
+    "pt3File": null,
+    "author": "David Whittaker",
+    "section": null,
+    "time": "03:00"
+  },
+  {
+    "name": "David Whittaker - shadow of the beast.fym",
+    "file": "chiptunes/David Whittaker/David Whittaker - shadow of the beast.fym",
+    "pt3": false,
+    "pt3File": null,
+    "author": "David Whittaker",
+    "section": null,
+    "time": "01:49"
+  },
+  {
+    "name": "David Whittaker - sky high stunt man.fym",
+    "file": "chiptunes/David Whittaker/David Whittaker - sky high stunt man.fym",
+    "pt3": false,
+    "pt3File": null,
+    "author": "David Whittaker",
+    "section": null,
+    "time": "03:00"
+  },
+  {
+    "name": "David Whittaker - spellbound dizzy.fym",
+    "file": "chiptunes/David Whittaker/David Whittaker - spellbound dizzy.fym",
+    "pt3": false,
+    "pt3File": null,
+    "author": "David Whittaker",
+    "section": null,
+    "time": "03:00"
+  },
+  {
+    "name": "David Whittaker - spitting image.fym",
+    "file": "chiptunes/David Whittaker/David Whittaker - spitting image.fym",
+    "pt3": false,
+    "pt3File": null,
+    "author": "David Whittaker",
+    "section": null,
+    "time": "01:00"
+  },
+  {
+    "name": "David Whittaker - stormbringer.fym",
+    "file": "chiptunes/David Whittaker/David Whittaker - stormbringer.fym",
+    "pt3": false,
+    "pt3File": null,
+    "author": "David Whittaker",
+    "section": null,
+    "time": "04:18"
+  },
+  {
+    "name": "David Whittaker - tetris.fym",
+    "file": "chiptunes/David Whittaker/David Whittaker - tetris.fym",
+    "pt3": false,
+    "pt3File": null,
+    "author": "David Whittaker",
+    "section": null,
+    "time": "00:45"
+  },
+  {
+    "name": "David Whittaker - the tube.fym",
+    "file": "chiptunes/David Whittaker/David Whittaker - the tube.fym",
+    "pt3": false,
+    "pt3File": null,
+    "author": "David Whittaker",
+    "section": null,
+    "time": "02:02"
+  },
+  {
+    "name": "David Whittaker - treasure island dizzy.fym",
+    "file": "chiptunes/David Whittaker/David Whittaker - treasure island dizzy.fym",
+    "pt3": false,
+    "pt3File": null,
+    "author": "David Whittaker",
+    "section": null,
+    "time": "03:00"
+  },
+  {
+    "name": "David Whittaker - xenon.fym",
+    "file": "chiptunes/David Whittaker/David Whittaker - xenon.fym",
+    "pt3": false,
+    "pt3File": null,
+    "author": "David Whittaker",
+    "section": null,
+    "time": "01:30"
+  },
+  {
+    "name": "David Whittaker - zub.fym",
+    "file": "chiptunes/David Whittaker/David Whittaker - zub.fym",
+    "pt3": false,
+    "pt3File": null,
+    "author": "David Whittaker",
+    "section": null,
+    "time": "00:22"
   },
   {
     "name": "17IOFS.pt3",
@@ -15339,1329 +13645,6 @@ var AYPLAYLIST_DATA = [
     "time": "03:35"
   },
   {
-    "name": "01_bfox-related_memories.pt3",
-    "file": "chiptunes/Demoparty/01_bfox-related_memories.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "03:44"
-  },
-  {
-    "name": "01_bfox_Motivative.pt3",
-    "file": "chiptunes/Demoparty/01_bfox_Motivative.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "01:44"
-  },
-  {
-    "name": "01_c-jeff_changyes_(party_version).pt3",
-    "file": "chiptunes/Demoparty/01_c-jeff_changyes_(party_version).pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "03:35"
-  },
-  {
-    "name": "01_cj_splinter-adversary.pt3",
-    "file": "chiptunes/Demoparty/01_cj_splinter-adversary.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "03:00"
-  },
-  {
-    "name": "01_darkman007_turbo.pt3",
-    "file": "chiptunes/Demoparty/01_darkman007_turbo.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "02:37"
-  },
-  {
-    "name": "01_darkman_technodrive.pt3",
-    "file": "chiptunes/Demoparty/01_darkman_technodrive.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "02:30"
-  },
-  {
-    "name": "01_MmcM-Beyond_Time.pt3",
-    "file": "chiptunes/Demoparty/01_MmcM-Beyond_Time.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "03:16"
-  },
-  {
-    "name": "01_mmcm-classification.pt3",
-    "file": "chiptunes/Demoparty/01_mmcm-classification.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "02:49"
-  },
-  {
-    "name": "01_mmcm-hny_speccy.pt3",
-    "file": "chiptunes/Demoparty/01_mmcm-hny_speccy.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "03:47"
-  },
-  {
-    "name": "01_MmcM-Over_Line.pt3",
-    "file": "chiptunes/Demoparty/01_MmcM-Over_Line.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "02:57"
-  },
-  {
-    "name": "01_mmcm_fast_creature.pt3",
-    "file": "chiptunes/Demoparty/01_mmcm_fast_creature.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "02:30"
-  },
-  {
-    "name": "01_mmcm_level.pt3",
-    "file": "chiptunes/Demoparty/01_mmcm_level.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "01:32"
-  },
-  {
-    "name": "01_mmcm_night_instant.pt3",
-    "file": "chiptunes/Demoparty/01_mmcm_night_instant.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "02:14"
-  },
-  {
-    "name": "01_mmcm_realtime_track.pt3",
-    "file": "chiptunes/Demoparty/01_mmcm_realtime_track.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "00:54"
-  },
-  {
-    "name": "01_mmcm_when_you_were_a_hero.pt3",
-    "file": "chiptunes/Demoparty/01_mmcm_when_you_were_a_hero.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "02:26"
-  },
-  {
-    "name": "01_scalesmann-misfire.pt3",
-    "file": "chiptunes/Demoparty/01_scalesmann-misfire.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "01:24"
-  },
-  {
-    "name": "01_splinter_i_ll_be_remember.pt3",
-    "file": "chiptunes/Demoparty/01_splinter_i_ll_be_remember.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "02:49"
-  },
-  {
-    "name": "01_stellar_fix_insert_8_fix_partyCut.pt3",
-    "file": "chiptunes/Demoparty/01_stellar_fix_insert_8_fix_partyCut.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "02:49"
-  },
-  {
-    "name": "01_[ts]_ksy_in_love.pt3",
-    "file": "chiptunes/Demoparty/01_[ts]_ksy_in_love.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "02:41"
-  },
-  {
-    "name": "02_ccination.pt3",
-    "file": "chiptunes/Demoparty/02_ccination.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "01:49"
-  },
-  {
-    "name": "02_ch41ns4w_ganbatte.pt3",
-    "file": "chiptunes/Demoparty/02_ch41ns4w_ganbatte.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "02:18"
-  },
-  {
-    "name": "02_cjsplinter_djdenson_t-means.pt3",
-    "file": "chiptunes/Demoparty/02_cjsplinter_djdenson_t-means.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "03:04"
-  },
-  {
-    "name": "02_karbofos-where_are_you.pt3",
-    "file": "chiptunes/Demoparty/02_karbofos-where_are_you.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "01:51"
-  },
-  {
-    "name": "02_mborik_its_alive_abc_ay.pt3",
-    "file": "chiptunes/Demoparty/02_mborik_its_alive_abc_ay.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "03:06"
-  },
-  {
-    "name": "02_mmcm-ashes_of_dreams.pt3",
-    "file": "chiptunes/Demoparty/02_mmcm-ashes_of_dreams.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "03:00"
-  },
-  {
-    "name": "02_mmcm-life_movement.pt3",
-    "file": "chiptunes/Demoparty/02_mmcm-life_movement.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "02:37"
-  },
-  {
-    "name": "02_MmcM_Doubtful_Future.pt3",
-    "file": "chiptunes/Demoparty/02_MmcM_Doubtful_Future.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "02:57"
-  },
-  {
-    "name": "02_MmcM_End_Time.pt3",
-    "file": "chiptunes/Demoparty/02_MmcM_End_Time.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "02:53"
-  },
-  {
-    "name": "02_mmcm_good_in_wood.pt3",
-    "file": "chiptunes/Demoparty/02_mmcm_good_in_wood.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "03:00"
-  },
-  {
-    "name": "02_mmcm_summer_night.pt3",
-    "file": "chiptunes/Demoparty/02_mmcm_summer_night.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "02:37"
-  },
-  {
-    "name": "02_moran-past.pt3",
-    "file": "chiptunes/Demoparty/02_moran-past.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "02:41"
-  },
-  {
-    "name": "02_scalesmann-calling.pt3",
-    "file": "chiptunes/Demoparty/02_scalesmann-calling.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "00:58"
-  },
-  {
-    "name": "02_scalesmann-[as_soon]_as_it_began_cc.pt3",
-    "file": "chiptunes/Demoparty/02_scalesmann-[as_soon]_as_it_began_cc.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "01:32"
-  },
-  {
-    "name": "02_splinter-stellar-II.pt3",
-    "file": "chiptunes/Demoparty/02_splinter-stellar-II.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "02:30"
-  },
-  {
-    "name": "02_splinter_eva_ts.pt3",
-    "file": "chiptunes/Demoparty/02_splinter_eva_ts.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "02:41"
-  },
-  {
-    "name": "02_splinter_last_hope.pt3",
-    "file": "chiptunes/Demoparty/02_splinter_last_hope.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "02:45"
-  },
-  {
-    "name": "02_vedem-dimension_zx.pt3",
-    "file": "chiptunes/Demoparty/02_vedem-dimension_zx.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "01:48"
-  },
-  {
-    "name": "02_voxel_turbo.pt3",
-    "file": "chiptunes/Demoparty/02_voxel_turbo.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "03:12"
-  },
-  {
-    "name": "02_[ts]_star_dust.pt3",
-    "file": "chiptunes/Demoparty/02_[ts]_star_dust.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "02:41"
-  },
-  {
-    "name": "03_bfox-make_your_choice.pt3",
-    "file": "chiptunes/Demoparty/03_bfox-make_your_choice.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "02:11"
-  },
-  {
-    "name": "03_bugsy-we_are_the_people_by_empire_of_the_sun.pt3",
-    "file": "chiptunes/Demoparty/03_bugsy-we_are_the_people_by_empire_of_the_sun.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "03:50"
-  },
-  {
-    "name": "03_c-jeff-lovers.pt3",
-    "file": "chiptunes/Demoparty/03_c-jeff-lovers.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "03:04"
-  },
-  {
-    "name": "03_cc_ahymn_nostalgie.pt3",
-    "file": "chiptunes/Demoparty/03_cc_ahymn_nostalgie.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "02:34"
-  },
-  {
-    "name": "03_cj_splinter-once_a_upon.pt3",
-    "file": "chiptunes/Demoparty/03_cj_splinter-once_a_upon.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "02:30"
-  },
-  {
-    "name": "03_cj_splinter-regret.pt3",
-    "file": "chiptunes/Demoparty/03_cj_splinter-regret.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "03:08"
-  },
-  {
-    "name": "03_ea_N_E_S.pt3",
-    "file": "chiptunes/Demoparty/03_ea_N_E_S.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "02:07"
-  },
-  {
-    "name": "03_hacker_vbi-dance.pt2",
-    "file": "chiptunes/Demoparty/03_hacker_vbi-dance.pt2",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "02:08"
-  },
-  {
-    "name": "03_hacker_vbidancem.fym",
-    "file": "chiptunes/Demoparty/03_hacker_vbidancem.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Demoparty",
-    "section": null,
-    "time": "01:52"
-  },
-  {
-    "name": "03_hacker_vbi_rva-together.pt2",
-    "file": "chiptunes/Demoparty/03_hacker_vbi_rva-together.pt2",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "01:36"
-  },
-  {
-    "name": "03_hacker_vbi_rvatogether.fym",
-    "file": "chiptunes/Demoparty/03_hacker_vbi_rvatogether.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Demoparty",
-    "section": null,
-    "time": "01:30"
-  },
-  {
-    "name": "03_jerrs_rose_ts.pt3",
-    "file": "chiptunes/Demoparty/03_jerrs_rose_ts.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "00:15"
-  },
-  {
-    "name": "03_megabyte_contra-rock.pt3",
-    "file": "chiptunes/Demoparty/03_megabyte_contra-rock.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "01:48"
-  },
-  {
-    "name": "03_MmcM_Finder.pt3",
-    "file": "chiptunes/Demoparty/03_MmcM_Finder.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "01:44"
-  },
-  {
-    "name": "03_MmcM_Forest_Conflict.pt3",
-    "file": "chiptunes/Demoparty/03_MmcM_Forest_Conflict.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "01:59"
-  },
-  {
-    "name": "03_riskej_pbikesho.pt3",
-    "file": "chiptunes/Demoparty/03_riskej_pbikesho.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "02:18"
-  },
-  {
-    "name": "03_sav-walk.pt3",
-    "file": "chiptunes/Demoparty/03_sav-walk.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "02:14"
-  },
-  {
-    "name": "03_scalesmann_waterfall.pt3",
-    "file": "chiptunes/Demoparty/03_scalesmann_waterfall.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "01:40"
-  },
-  {
-    "name": "03_vedem_timedrops.pt3",
-    "file": "chiptunes/Demoparty/03_vedem_timedrops.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "02:03"
-  },
-  {
-    "name": "04_brightentayle-bladin.pt3",
-    "file": "chiptunes/Demoparty/04_brightentayle-bladin.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "03:12"
-  },
-  {
-    "name": "04_brightentayle-TkkATkkA.pt3",
-    "file": "chiptunes/Demoparty/04_brightentayle-TkkATkkA.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "03:04"
-  },
-  {
-    "name": "04_darkman007-ending.pt3",
-    "file": "chiptunes/Demoparty/04_darkman007-ending.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "02:59"
-  },
-  {
-    "name": "04_jerrs-golden_ring.pt3",
-    "file": "chiptunes/Demoparty/04_jerrs-golden_ring.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "00:23"
-  },
-  {
-    "name": "04_jerrs_bitdance.pt3",
-    "file": "chiptunes/Demoparty/04_jerrs_bitdance.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "01:17"
-  },
-  {
-    "name": "04_klim-exodus_game.pt3",
-    "file": "chiptunes/Demoparty/04_klim-exodus_game.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "02:41"
-  },
-  {
-    "name": "04_Klim_New_Break.pt3",
-    "file": "chiptunes/Demoparty/04_Klim_New_Break.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "02:37"
-  },
-  {
-    "name": "04_lamer_pinky-black_sunshine.pt3",
-    "file": "chiptunes/Demoparty/04_lamer_pinky-black_sunshine.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "04:02"
-  },
-  {
-    "name": "04_mmcm-next_day.pt3",
-    "file": "chiptunes/Demoparty/04_mmcm-next_day.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "02:18"
-  },
-  {
-    "name": "04_nix._mint.pt3",
-    "file": "chiptunes/Demoparty/04_nix._mint.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "02:31"
-  },
-  {
-    "name": "04_nq_strolling_around_the_shine.pt3",
-    "file": "chiptunes/Demoparty/04_nq_strolling_around_the_shine.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "01:32"
-  },
-  {
-    "name": "04_s.a.v._blaze.pt3",
-    "file": "chiptunes/Demoparty/04_s.a.v._blaze.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "02:08"
-  },
-  {
-    "name": "04_s.a.v._fascinate.pt3",
-    "file": "chiptunes/Demoparty/04_s.a.v._fascinate.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "02:46"
-  },
-  {
-    "name": "04_s.a.v._poslednij_den.pt3",
-    "file": "chiptunes/Demoparty/04_s.a.v._poslednij_den.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "02:08"
-  },
-  {
-    "name": "04_scalesmann-alexis.pt3",
-    "file": "chiptunes/Demoparty/04_scalesmann-alexis.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "01:22"
-  },
-  {
-    "name": "04_Silent-Empiror.pt3",
-    "file": "chiptunes/Demoparty/04_Silent-Empiror.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "02:59"
-  },
-  {
-    "name": "04_splinter-third_eternal_wind.pt3",
-    "file": "chiptunes/Demoparty/04_splinter-third_eternal_wind.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "03:12"
-  },
-  {
-    "name": "05_jerrs-nothing_told.pt3",
-    "file": "chiptunes/Demoparty/05_jerrs-nothing_told.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "01:17"
-  },
-  {
-    "name": "05_jerrs_neponatka2.pt3",
-    "file": "chiptunes/Demoparty/05_jerrs_neponatka2.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "00:31"
-  },
-  {
-    "name": "05_kakos_nonos-torum2.pt3",
-    "file": "chiptunes/Demoparty/05_kakos_nonos-torum2.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "01:48"
-  },
-  {
-    "name": "05_karbofos_&_ch41ns4w-dot_ts.pt3",
-    "file": "chiptunes/Demoparty/05_karbofos_&_ch41ns4w-dot_ts.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "01:59"
-  },
-  {
-    "name": "05_KLIM93.pt3",
-    "file": "chiptunes/Demoparty/05_KLIM93.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "02:37"
-  },
-  {
-    "name": "05_klim_chaos_in_music.pt3",
-    "file": "chiptunes/Demoparty/05_klim_chaos_in_music.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "02:49"
-  },
-  {
-    "name": "05_mmcm-i_like_dub.pt3",
-    "file": "chiptunes/Demoparty/05_mmcm-i_like_dub.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "02:49"
-  },
-  {
-    "name": "05_nq-Young_and_Beautiful.pt3",
-    "file": "chiptunes/Demoparty/05_nq-Young_and_Beautiful.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "02:11"
-  },
-  {
-    "name": "05_oldfag.pt3",
-    "file": "chiptunes/Demoparty/05_oldfag.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "03:35"
-  },
-  {
-    "name": "05_riskej_osen.pt3",
-    "file": "chiptunes/Demoparty/05_riskej_osen.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "01:48"
-  },
-  {
-    "name": "05_rnr_t.a.d._wooden_toy.pt3",
-    "file": "chiptunes/Demoparty/05_rnr_t.a.d._wooden_toy.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "02:53"
-  },
-  {
-    "name": "05_Simon_False.pt3",
-    "file": "chiptunes/Demoparty/05_Simon_False.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "02:34"
-  },
-  {
-    "name": "05_Siril-lgbr_t2.pt3",
-    "file": "chiptunes/Demoparty/05_Siril-lgbr_t2.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "03:09"
-  },
-  {
-    "name": "05_siril_swoon.pt3",
-    "file": "chiptunes/Demoparty/05_siril_swoon.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "02:41"
-  },
-  {
-    "name": "05_suchka.pt3",
-    "file": "chiptunes/Demoparty/05_suchka.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "00:26"
-  },
-  {
-    "name": "05_wormsbiysk-buzzing_brazzing.pt3",
-    "file": "chiptunes/Demoparty/05_wormsbiysk-buzzing_brazzing.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "02:34"
-  },
-  {
-    "name": "05_Yerzmyey-a_ery_odd_adventure.stc",
-    "file": "chiptunes/Demoparty/05_Yerzmyey-a_ery_odd_adventure.stc",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "03:31"
-  },
-  {
-    "name": "05_yerzmyeya_ery_odd_adventure.fym",
-    "file": "chiptunes/Demoparty/05_yerzmyeya_ery_odd_adventure.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Demoparty",
-    "section": null,
-    "time": "03:31"
-  },
-  {
-    "name": "06_aer-sonar.pt3",
-    "file": "chiptunes/Demoparty/06_aer-sonar.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "03:04"
-  },
-  {
-    "name": "06_aggressor-sid_and_nancy.pt3",
-    "file": "chiptunes/Demoparty/06_aggressor-sid_and_nancy.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "02:26"
-  },
-  {
-    "name": "06_bugsy_somebody_that_i_used_to_know_by_gotye.pt3",
-    "file": "chiptunes/Demoparty/06_bugsy_somebody_that_i_used_to_know_by_gotye.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "03:16"
-  },
-  {
-    "name": "06_bugsy_sophie_ellis_bextor_-_can't_fight_this_feeling.pt3",
-    "file": "chiptunes/Demoparty/06_bugsy_sophie_ellis_bextor_-_can't_fight_this_feeling.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "02:30"
-  },
-  {
-    "name": "06_ch41ns4w-another_stupid_pop.pt3",
-    "file": "chiptunes/Demoparty/06_ch41ns4w-another_stupid_pop.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "01:05"
-  },
-  {
-    "name": "06_ch4ins4w_kawaii_desu_YM.pt3",
-    "file": "chiptunes/Demoparty/06_ch4ins4w_kawaii_desu_YM.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "01:28"
-  },
-  {
-    "name": "06_megabyte_indian_tonky_ponky.pt3",
-    "file": "chiptunes/Demoparty/06_megabyte_indian_tonky_ponky.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "02:11"
-  },
-  {
-    "name": "06_scalesmann-sweet thing.pt3",
-    "file": "chiptunes/Demoparty/06_scalesmann-sweet thing.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "02:18"
-  },
-  {
-    "name": "06_Scalesmann_Summer_Walk.pt3",
-    "file": "chiptunes/Demoparty/06_Scalesmann_Summer_Walk.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "00:58"
-  },
-  {
-    "name": "06_Silent-Zatknis(funny_remix).pt3",
-    "file": "chiptunes/Demoparty/06_Silent-Zatknis(funny_remix).pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "02:02"
-  },
-  {
-    "name": "06_simon-gymnasium.pt3",
-    "file": "chiptunes/Demoparty/06_simon-gymnasium.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "00:42"
-  },
-  {
-    "name": "06_Splinter_long_path_4_dihalt.pt3",
-    "file": "chiptunes/Demoparty/06_Splinter_long_path_4_dihalt.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "03:35"
-  },
-  {
-    "name": "06_summer day's (1)_fix.pt3",
-    "file": "chiptunes/Demoparty/06_summer day's (1)_fix.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "00:58"
-  },
-  {
-    "name": "06_summer day's.pt3",
-    "file": "chiptunes/Demoparty/06_summer day's.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "00:58"
-  },
-  {
-    "name": "06_wormsbiysk-envelope_illusion.pt3",
-    "file": "chiptunes/Demoparty/06_wormsbiysk-envelope_illusion.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "03:04"
-  },
-  {
-    "name": "07_aer-bzik.pt3",
-    "file": "chiptunes/Demoparty/07_aer-bzik.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "04:56"
-  },
-  {
-    "name": "07_alone_coder_&_nik-o-tones_ts.pt3",
-    "file": "chiptunes/Demoparty/07_alone_coder_&_nik-o-tones_ts.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "03:04"
-  },
-  {
-    "name": "07_ejkot_summer_good_bye.pt3",
-    "file": "chiptunes/Demoparty/07_ejkot_summer_good_bye.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "03:20"
-  },
-  {
-    "name": "07_JeRrS_Space.pt3",
-    "file": "chiptunes/Demoparty/07_JeRrS_Space.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "00:35"
-  },
-  {
-    "name": "07_kakos_nonos-arabian_swim.pt3",
-    "file": "chiptunes/Demoparty/07_kakos_nonos-arabian_swim.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "02:59"
-  },
-  {
-    "name": "07_Moran-last.pt3",
-    "file": "chiptunes/Demoparty/07_Moran-last.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "02:41"
-  },
-  {
-    "name": "07_moran-wait_waiting.pt3",
-    "file": "chiptunes/Demoparty/07_moran-wait_waiting.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "02:41"
-  },
-  {
-    "name": "07_Research-Space_Odyssey.asc",
-    "file": "chiptunes/Demoparty/07_Research-Space_Odyssey.asc",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "02:54"
-  },
-  {
-    "name": "07_scalesmann_watch_my_emotions.pt3",
-    "file": "chiptunes/Demoparty/07_scalesmann_watch_my_emotions.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "02:30"
-  },
-  {
-    "name": "07_simon-kalambur.pt3",
-    "file": "chiptunes/Demoparty/07_simon-kalambur.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "01:36"
-  },
-  {
-    "name": "07_siril_scrolleqs.pt3",
-    "file": "chiptunes/Demoparty/07_siril_scrolleqs.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "03:20"
-  },
-  {
-    "name": "07_voxel-genz.pt3",
-    "file": "chiptunes/Demoparty/07_voxel-genz.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "02:08"
-  },
-  {
-    "name": "07_voxel_Spac_Adventure-Sleeping_star.pt3",
-    "file": "chiptunes/Demoparty/07_voxel_Spac_Adventure-Sleeping_star.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "02:13"
-  },
-  {
-    "name": "08_ch41ns4w_something from beyond.pt3",
-    "file": "chiptunes/Demoparty/08_ch41ns4w_something from beyond.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "03:35"
-  },
-  {
-    "name": "08_madmax_mechanic_hi-tech_ii.pt3",
-    "file": "chiptunes/Demoparty/08_madmax_mechanic_hi-tech_ii.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "02:22"
-  },
-  {
-    "name": "08_Moran-Carrot and stick.pt3",
-    "file": "chiptunes/Demoparty/08_Moran-Carrot and stick.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "02:37"
-  },
-  {
-    "name": "08_moran-half-di-halt.pt3",
-    "file": "chiptunes/Demoparty/08_moran-half-di-halt.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "02:05"
-  },
-  {
-    "name": "08_moran-prostration.pt3",
-    "file": "chiptunes/Demoparty/08_moran-prostration.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "02:22"
-  },
-  {
-    "name": "08_moran_tili-tili.pt3",
-    "file": "chiptunes/Demoparty/08_moran_tili-tili.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "02:03"
-  },
-  {
-    "name": "08_PingsEra.m.pt3",
-    "file": "chiptunes/Demoparty/08_PingsEra.m.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "01:10"
-  },
-  {
-    "name": "08_riskej-i_need_speed.pt3",
-    "file": "chiptunes/Demoparty/08_riskej-i_need_speed.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "02:22"
-  },
-  {
-    "name": "08_voxel_CC2010_back_to_the_future.pt3",
-    "file": "chiptunes/Demoparty/08_voxel_CC2010_back_to_the_future.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "03:12"
-  },
-  {
-    "name": "08_[ts]_love_is_gonna_save_us_3.pt3",
-    "file": "chiptunes/Demoparty/08_[ts]_love_is_gonna_save_us_3.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "01:30"
-  },
-  {
-    "name": "09_c-jeff_to_risk_the_courage.pt3",
-    "file": "chiptunes/Demoparty/09_c-jeff_to_risk_the_courage.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "03:08"
-  },
-  {
-    "name": "09_firestarter-lumen.pt3",
-    "file": "chiptunes/Demoparty/09_firestarter-lumen.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "04:42"
-  },
-  {
-    "name": "09_gibson_deep_music.pt3",
-    "file": "chiptunes/Demoparty/09_gibson_deep_music.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "03:18"
-  },
-  {
-    "name": "09_kadafi_compo.pt3",
-    "file": "chiptunes/Demoparty/09_kadafi_compo.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "02:18"
-  },
-  {
-    "name": "09_key-jee-happy_end.pt3",
-    "file": "chiptunes/Demoparty/09_key-jee-happy_end.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "02:57"
-  },
-  {
-    "name": "09_moran_technobit.pt3",
-    "file": "chiptunes/Demoparty/09_moran_technobit.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "01:55"
-  },
-  {
-    "name": "09_splinter_star_travel.pt3",
-    "file": "chiptunes/Demoparty/09_splinter_star_travel.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "02:53"
-  },
-  {
-    "name": "09_[ts]_still_speeding.pt3",
-    "file": "chiptunes/Demoparty/09_[ts]_still_speeding.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "02:34"
-  },
-  {
-    "name": "10_aer_AERmusicCC.pt3",
-    "file": "chiptunes/Demoparty/10_aer_AERmusicCC.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "02:41"
-  },
-  {
-    "name": "10_firestarter_alco2.pt3",
-    "file": "chiptunes/Demoparty/10_firestarter_alco2.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "00:59"
-  },
-  {
-    "name": "10_NES.pt3",
-    "file": "chiptunes/Demoparty/10_NES.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "07:15"
-  },
-  {
-    "name": "10_red_barbnark-full_dizorgazm.pt3",
-    "file": "chiptunes/Demoparty/10_red_barbnark-full_dizorgazm.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "01:48"
-  },
-  {
-    "name": "10_rnr_tad-forgotten_souls.pt3",
-    "file": "chiptunes/Demoparty/10_rnr_tad-forgotten_souls.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "01:01"
-  },
-  {
-    "name": "10_scalesmann_nmb_flight.pt3",
-    "file": "chiptunes/Demoparty/10_scalesmann_nmb_flight.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "02:54"
-  },
-  {
-    "name": "11_biozoom-ms-tggs.pt3",
-    "file": "chiptunes/Demoparty/11_biozoom-ms-tggs.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "03:57"
-  },
-  {
-    "name": "11_karbofos-bored_toy.pt3",
-    "file": "chiptunes/Demoparty/11_karbofos-bored_toy.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "01:53"
-  },
-  {
-    "name": "11_moran_kumar.pt3",
-    "file": "chiptunes/Demoparty/11_moran_kumar.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "01:58"
-  },
-  {
-    "name": "11_moran_subtrash.pt3",
-    "file": "chiptunes/Demoparty/11_moran_subtrash.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "03:39"
-  },
-  {
-    "name": "12_riskej-shadowpop.evening_ts.pt3",
-    "file": "chiptunes/Demoparty/12_riskej-shadowpop.evening_ts.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "00:51"
-  },
-  {
-    "name": "13_n1k-0-to_hate_with_love.pt3",
-    "file": "chiptunes/Demoparty/13_n1k-0-to_hate_with_love.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "01:48"
-  },
-  {
-    "name": "13_pops-shmops.pt3",
-    "file": "chiptunes/Demoparty/13_pops-shmops.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "01:32"
-  },
-  {
-    "name": "14_scalesmann-my_bleep_is_inside_ts.pt3",
-    "file": "chiptunes/Demoparty/14_scalesmann-my_bleep_is_inside_ts.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "01:17"
-  },
-  {
-    "name": "14_Southern Sun_1.pt3",
-    "file": "chiptunes/Demoparty/14_Southern Sun_1.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "00:31"
-  },
-  {
-    "name": "15_moran-mind-a-gap-e.pt3",
-    "file": "chiptunes/Demoparty/15_moran-mind-a-gap-e.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "02:22"
-  },
-  {
-    "name": "16_promise.pt3",
-    "file": "chiptunes/Demoparty/16_promise.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "03:35"
-  },
-  {
-    "name": "16_trefi-squeaking_devil_of_nothing.pt3",
-    "file": "chiptunes/Demoparty/16_trefi-squeaking_devil_of_nothing.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "02:44"
-  },
-  {
-    "name": "17_oldschool_syndrome.pt3",
-    "file": "chiptunes/Demoparty/17_oldschool_syndrome.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "02:03"
-  },
-  {
-    "name": "19_bubbles_in_my_mind_intro.pt3",
-    "file": "chiptunes/Demoparty/19_bubbles_in_my_mind_intro.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "00:50"
-  },
-  {
-    "name": "20_Apologize2.pt3",
-    "file": "chiptunes/Demoparty/20_Apologize2.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "00:31"
-  },
-  {
-    "name": "21_madness.pt3",
-    "file": "chiptunes/Demoparty/21_madness.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "02:26"
-  },
-  {
-    "name": "23_mope_nvitia_00.pt3",
-    "file": "chiptunes/Demoparty/23_mope_nvitia_00.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "04:11"
-  },
-  {
-    "name": "24_vox_clamantis_in_deserto_main_track.pt3",
-    "file": "chiptunes/Demoparty/24_vox_clamantis_in_deserto_main_track.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "01:32"
-  },
-  {
-    "name": "25_something.pt3",
-    "file": "chiptunes/Demoparty/25_something.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "02:46"
-  },
-  {
-    "name": "nq-tinyDungeons-ingame-1.pt3",
-    "file": "chiptunes/Demoparty/nq-tinyDungeons-ingame-1.pt3",
-    "pt3": false,
-    "author": "Demoparty",
-    "section": null,
-    "time": "01:07"
-  },
-  {
     "name": "Dexus - Somnery.pt3",
     "file": "chiptunes/Dexus/Dexus - Somnery.pt3",
     "pt3": false,
@@ -18255,6 +15238,62 @@ var AYPLAYLIST_DATA = [
     "time": "02:22"
   },
   {
+    "name": "djnzx48 - Another Rainy Day (2019).pt3",
+    "file": "chiptunes/djnzx48/djnzx48 - Another Rainy Day (2019).pt3",
+    "pt3": false,
+    "author": "djnzx48",
+    "section": null,
+    "time": "02:54"
+  },
+  {
+    "name": "djnzx48 - Bean Brothers in-game (2018).pt3",
+    "file": "chiptunes/djnzx48/djnzx48 - Bean Brothers in-game (2018).pt3",
+    "pt3": false,
+    "author": "djnzx48",
+    "section": null,
+    "time": "12:15"
+  },
+  {
+    "name": "djnzx48 - Dream (Wacky Wheels Theme) (2018).pt3",
+    "file": "chiptunes/djnzx48/djnzx48 - Dream (Wacky Wheels Theme) (2018).pt3",
+    "pt3": false,
+    "author": "djnzx48",
+    "section": null,
+    "time": "02:18"
+  },
+  {
+    "name": "djnzx48 - Left Bank Two (2018).pt3",
+    "file": "chiptunes/djnzx48/djnzx48 - Left Bank Two (2018).pt3",
+    "pt3": false,
+    "author": "djnzx48",
+    "section": null,
+    "time": "01:05"
+  },
+  {
+    "name": "djnzx48 - Shooting Stars (2018).pt3",
+    "file": "chiptunes/djnzx48/djnzx48 - Shooting Stars (2018).pt3",
+    "pt3": false,
+    "author": "djnzx48",
+    "section": null,
+    "time": "01:01"
+  },
+  {
+    "name": "djnzx48 - Sprouty in-game (2019).pt3",
+    "file": "chiptunes/djnzx48/djnzx48 - Sprouty in-game (2019).pt3",
+    "pt3": false,
+    "author": "djnzx48",
+    "section": null,
+    "time": "06:43"
+  },
+  {
+    "name": "djnzx48 - Sprouty in-game (sketch) (2019).pt3",
+    "file": "chiptunes/djnzx48/djnzx48 - Sprouty in-game (sketch) (2019).pt3",
+    "pt3": false,
+    "author": "djnzx48",
+    "section": null,
+    "time": "01:28"
+  },
+  {
     "name": "djnzx48 - Surfing on a Sine Wave.pt3",
     "file": "chiptunes/djnzx48/djnzx48 - Surfing on a Sine Wave.pt3",
     "pt3": false,
@@ -18269,6 +15308,14 @@ var AYPLAYLIST_DATA = [
     "author": "djnzx48",
     "section": null,
     "time": "06:06"
+  },
+  {
+    "name": "djnzx48 - The Elements Song (2018).pt3",
+    "file": "chiptunes/djnzx48/djnzx48 - The Elements Song (2018).pt3",
+    "pt3": false,
+    "author": "djnzx48",
+    "section": null,
+    "time": "03:26"
   },
   {
     "name": "04.07.96.fym",
@@ -20346,128 +17393,144 @@ var AYPLAYLIST_DATA = [
     "time": "01:55"
   },
   {
-    "name": "AndyNikGift.stp",
-    "file": "chiptunes/EA/1996/AndyNikGift.stp",
+    "name": "EA - AndyNik Gift 0.stp",
+    "file": "chiptunes/EA/1996/EA - AndyNik Gift 0.stp",
     "pt3": false,
     "author": "EA",
     "section": "1996",
     "time": "02:34"
   },
   {
-    "name": "AndyNikGift1.pt2",
-    "file": "chiptunes/EA/1996/AndyNikGift1.pt2",
+    "name": "EA - AndyNik Gift 1 - Jivago Song.pt2",
+    "file": "chiptunes/EA/1996/EA - AndyNik Gift 1 - Jivago Song.pt2",
     "pt3": false,
     "author": "EA",
     "section": "1996",
     "time": "01:40"
   },
   {
-    "name": "AndyNikGift2.pt2",
-    "file": "chiptunes/EA/1996/AndyNikGift2.pt2",
+    "name": "EA - AndyNik Gift 2 - Impossible Music.pt2",
+    "file": "chiptunes/EA/1996/EA - AndyNik Gift 2 - Impossible Music.pt2",
     "pt3": false,
     "author": "EA",
     "section": "1996",
     "time": "01:22"
   },
   {
-    "name": "AndyNikGift3.pt2",
-    "file": "chiptunes/EA/1996/AndyNikGift3.pt2",
+    "name": "EA - AndyNik Gift 3.pt2",
+    "file": "chiptunes/EA/1996/EA - AndyNik Gift 3.pt2",
     "pt3": false,
     "author": "EA",
     "section": "1996",
     "time": "01:32"
   },
   {
-    "name": "CDSGift1.stp",
-    "file": "chiptunes/EA/1996/CDSGift1.stp",
+    "name": "EA - CDS Gift 1.stp",
+    "file": "chiptunes/EA/1996/EA - CDS Gift 1.stp",
     "pt3": false,
     "author": "EA",
     "section": "1996",
     "time": "00:38"
   },
   {
-    "name": "CDSGift2.pt2",
-    "file": "chiptunes/EA/1996/CDSGift2.pt2",
+    "name": "EA - CDS Gift 2.pt2",
+    "file": "chiptunes/EA/1996/EA - CDS Gift 2.pt2",
     "pt3": false,
     "author": "EA",
     "section": "1996",
     "time": "01:09"
   },
   {
-    "name": "CDSGift3.pt2",
-    "file": "chiptunes/EA/1996/CDSGift3.pt2",
+    "name": "EA - CDS Gift 3.pt2",
+    "file": "chiptunes/EA/1996/EA - CDS Gift 3.pt2",
     "pt3": false,
     "author": "EA",
     "section": "1996",
     "time": "02:18"
   },
   {
-    "name": "CDSGift5.pt2",
-    "file": "chiptunes/EA/1996/CDSGift5.pt2",
+    "name": "EA - CDS Gift 5.pt2",
+    "file": "chiptunes/EA/1996/EA - CDS Gift 5.pt2",
     "pt3": false,
     "author": "EA",
     "section": "1996",
     "time": "02:59"
   },
   {
-    "name": "Christmass Demo 1997.stp",
-    "file": "chiptunes/EA/1996/Christmass Demo 1997.stp",
-    "pt3": false,
-    "author": "EA",
-    "section": "1996",
-    "time": "03:50"
-  },
-  {
-    "name": "EA'1996.stc",
-    "file": "chiptunes/EA/1996/EA'1996.stc",
+    "name": "EA - EA'1996.stc",
+    "file": "chiptunes/EA/1996/EA - EA'1996.stc",
     "pt3": false,
     "author": "EA",
     "section": "1996",
     "time": "03:12"
   },
   {
-    "name": "FlyBanki3.pt2",
-    "file": "chiptunes/EA/1996/FlyBanki3.pt2",
+    "name": "EA - FlyBanki1 - Terminator Theme.stp",
+    "file": "chiptunes/EA/1996/EA - FlyBanki1 - Terminator Theme.stp",
+    "pt3": false,
+    "author": "EA",
+    "section": "1996",
+    "time": "03:04"
+  },
+  {
+    "name": "EA - FlyBanki2.stp",
+    "file": "chiptunes/EA/1996/EA - FlyBanki2.stp",
+    "pt3": false,
+    "author": "EA",
+    "section": "1996",
+    "time": "02:34"
+  },
+  {
+    "name": "EA - FlyBanki3 - for E'96 MusCompo.pt2",
+    "file": "chiptunes/EA/1996/EA - FlyBanki3 - for E'96 MusCompo.pt2",
     "pt3": false,
     "author": "EA",
     "section": "1996",
     "time": "02:18"
   },
   {
-    "name": "FlyBanki4.pt2",
-    "file": "chiptunes/EA/1996/FlyBanki4.pt2",
+    "name": "EA - FlyBanki4 - Techno Rave.pt2",
+    "file": "chiptunes/EA/1996/EA - FlyBanki4 - Techno Rave.pt2",
     "pt3": false,
     "author": "EA",
     "section": "1996",
     "time": "01:55"
   },
   {
-    "name": "WetDream1.pt2",
-    "file": "chiptunes/EA/1996/WetDream1.pt2",
+    "name": "EA - Stentor (Christmass Demo 1997).stp",
+    "file": "chiptunes/EA/1996/EA - Stentor (Christmass Demo 1997).stp",
+    "pt3": false,
+    "author": "EA",
+    "section": "1996",
+    "time": "03:50"
+  },
+  {
+    "name": "EA - WetDream 1 - Super Glist Part-1.pt2",
+    "file": "chiptunes/EA/1996/EA - WetDream 1 - Super Glist Part-1.pt2",
     "pt3": false,
     "author": "EA",
     "section": "1996",
     "time": "01:42"
   },
   {
-    "name": "WetDream2.pt2",
-    "file": "chiptunes/EA/1996/WetDream2.pt2",
+    "name": "EA - WetDream 2 - Rus Megamix Part-1.pt2",
+    "file": "chiptunes/EA/1996/EA - WetDream 2 - Rus Megamix Part-1.pt2",
     "pt3": false,
     "author": "EA",
     "section": "1996",
     "time": "02:18"
   },
   {
-    "name": "WetDream3.stp",
-    "file": "chiptunes/EA/1996/WetDream3.stp",
+    "name": "EA - WetDream 3 - Wet Dream.stp",
+    "file": "chiptunes/EA/1996/EA - WetDream 3 - Wet Dream.stp",
     "pt3": false,
     "author": "EA",
     "section": "1996",
     "time": "01:04"
   },
   {
-    "name": "WetDream4.pt2",
-    "file": "chiptunes/EA/1996/WetDream4.pt2",
+    "name": "EA - WetDream 4 - Slow Theme.pt2",
+    "file": "chiptunes/EA/1996/EA - WetDream 4 - Slow Theme.pt2",
     "pt3": false,
     "author": "EA",
     "section": "1996",
@@ -22154,237 +19217,212 @@ var AYPLAYLIST_DATA = [
     "time": "02:08"
   },
   {
-    "name": "01 - Advanced.pt3",
-    "file": "chiptunes/EA/2000/01 - Advanced.pt3",
+    "name": "01 EA - Advanced.pt3",
+    "file": "chiptunes/EA/2000/01 EA - Advanced.pt3",
     "pt3": false,
     "author": "EA",
     "section": "2000",
     "time": "01:17"
   },
   {
-    "name": "02 - Song 01.pt3",
-    "file": "chiptunes/EA/2000/02 - Song 01.pt3",
+    "name": "02 EA - Song 01.pt3",
+    "file": "chiptunes/EA/2000/02 EA - Song 01.pt3",
     "pt3": false,
     "author": "EA",
     "section": "2000",
     "time": "02:03"
   },
   {
-    "name": "03 - Song 02.pt3",
-    "file": "chiptunes/EA/2000/03 - Song 02.pt3",
+    "name": "03 EA - Song 02.pt3",
+    "file": "chiptunes/EA/2000/03 EA - Song 02.pt3",
     "pt3": false,
     "author": "EA",
     "section": "2000",
     "time": "01:01"
   },
   {
-    "name": "04 - Song 03.pt3",
-    "file": "chiptunes/EA/2000/04 - Song 03.pt3",
+    "name": "04 EA - Song 03.pt3",
+    "file": "chiptunes/EA/2000/04 EA - Song 03.pt3",
     "pt3": false,
     "author": "EA",
     "section": "2000",
     "time": "02:37"
   },
   {
-    "name": "05 - Song 04.pt3",
-    "file": "chiptunes/EA/2000/05 - Song 04.pt3",
+    "name": "05 EA - Song 04.pt3",
+    "file": "chiptunes/EA/2000/05 EA - Song 04.pt3",
     "pt3": false,
     "author": "EA",
     "section": "2000",
     "time": "00:51"
   },
   {
-    "name": "06 - Long Way To Victory.pt3",
-    "file": "chiptunes/EA/2000/06 - Long Way To Victory.pt3",
+    "name": "06 EA - Long Way To Victory.pt3",
+    "file": "chiptunes/EA/2000/06 EA - Long Way To Victory.pt3",
     "pt3": false,
     "author": "EA",
     "section": "2000",
     "time": "02:03"
   },
   {
-    "name": "07 - HIT.pt3",
-    "file": "chiptunes/EA/2000/07 - HIT.pt3",
+    "name": "07 EA - HIT.pt3",
+    "file": "chiptunes/EA/2000/07 EA - HIT.pt3",
     "pt3": false,
     "author": "EA",
     "section": "2000",
     "time": "00:23"
   },
   {
-    "name": "08 - Bright Day.pt3",
-    "file": "chiptunes/EA/2000/08 - Bright Day.pt3",
+    "name": "08 EA - Bright Day.pt3",
+    "file": "chiptunes/EA/2000/08 EA - Bright Day.pt3",
     "pt3": false,
     "author": "EA",
     "section": "2000",
     "time": "01:17"
   },
   {
-    "name": "09 - Perebor.pt3",
-    "file": "chiptunes/EA/2000/09 - Perebor.pt3",
+    "name": "09 EA - Perebor.pt3",
+    "file": "chiptunes/EA/2000/09 EA - Perebor.pt3",
     "pt3": false,
     "author": "EA",
     "section": "2000",
     "time": "01:21"
   },
   {
-    "name": "10 - Sweet Dreams (Feat Elwood) (4 CC'000).pt3",
-    "file": "chiptunes/EA/2000/10 - Sweet Dreams (Feat Elwood) (4 CC'000).pt3",
+    "name": "10 EA - Sweet Dreams (Feat Elwood) (4 CC'000).pt3",
+    "file": "chiptunes/EA/2000/10 EA - Sweet Dreams (Feat Elwood) (4 CC'000).pt3",
     "pt3": false,
     "author": "EA",
     "section": "2000",
     "time": "02:37"
   },
   {
-    "name": "11 - Electric Wave (4 CC'000).pt3",
-    "file": "chiptunes/EA/2000/11 - Electric Wave (4 CC'000).pt3",
+    "name": "11 EA - Electric Wave (4 CC'000).pt3",
+    "file": "chiptunes/EA/2000/11 EA - Electric Wave (4 CC'000).pt3",
     "pt3": false,
     "author": "EA",
     "section": "2000",
     "time": "02:37"
   },
   {
-    "name": "01 - Especially 4 Anybody (4 MLN'01).pt3",
-    "file": "chiptunes/EA/2001/01 - Especially 4 Anybody (4 MLN'01).pt3",
+    "name": "EA - Especially 4 Anybody (4 MLN'01).pt3",
+    "file": "chiptunes/EA/2001/EA - Especially 4 Anybody (4 MLN'01).pt3",
     "pt3": false,
     "author": "EA",
     "section": "2001",
     "time": "01:28"
   },
   {
-    "name": "01 - I Want Be Back! (4 PDM'03).pt3",
-    "file": "chiptunes/EA/2003/01 - I Want Be Back! (4 PDM'03).pt3",
-    "pt3": false,
-    "author": "EA",
-    "section": "2003",
-    "time": "02:30"
-  },
-  {
-    "name": "02 - Good Times.pt3",
-    "file": "chiptunes/EA/2003/02 - Good Times.pt3",
+    "name": "EA - Good Times.pt3",
+    "file": "chiptunes/EA/2003/EA - Good Times.pt3",
     "pt3": false,
     "author": "EA",
     "section": "2003",
     "time": "01:40"
   },
   {
-    "name": "03 - Tpexhem (4 CAFe'03).pt3",
-    "file": "chiptunes/EA/2003/03 - Tpexhem (4 CAFe'03).pt3",
+    "name": "EA - I Want Be Back! (4 PDM'03).pt3",
+    "file": "chiptunes/EA/2003/EA - I Want Be Back! (4 PDM'03).pt3",
     "pt3": false,
     "author": "EA",
     "section": "2003",
-    "time": "02:22"
+    "time": "02:30"
   },
   {
-    "name": "04 - Old SKooL 4ever! (4 MLN'03).pt3",
-    "file": "chiptunes/EA/2003/04 - Old SKooL 4ever! (4 MLN'03).pt3",
+    "name": "EA - Old SKooL 4ever! (4 MLN'03).pt3",
+    "file": "chiptunes/EA/2003/EA - Old SKooL 4ever! (4 MLN'03).pt3",
     "pt3": false,
     "author": "EA",
     "section": "2003",
     "time": "03:12"
   },
   {
-    "name": "01 - Especially 4 DJ I-Kick.pt3",
-    "file": "chiptunes/EA/2004/01 - Especially 4 DJ I-Kick.pt3",
+    "name": "EA - Tpexhem (4 CAFe'03).pt3",
+    "file": "chiptunes/EA/2003/EA - Tpexhem (4 CAFe'03).pt3",
     "pt3": false,
     "author": "EA",
-    "section": "2004",
-    "time": "02:30"
+    "section": "2003",
+    "time": "02:22"
   },
   {
-    "name": "02 - Muzak 4 Intro 4 Gamez.pt3",
-    "file": "chiptunes/EA/2004/02 - Muzak 4 Intro 4 Gamez.pt3",
-    "pt3": false,
-    "author": "EA",
-    "section": "2004",
-    "time": "00:46"
-  },
-  {
-    "name": "03 - Nonamed.pt3",
-    "file": "chiptunes/EA/2004/03 - Nonamed.pt3",
-    "pt3": false,
-    "author": "EA",
-    "section": "2004",
-    "time": "01:44"
-  },
-  {
-    "name": "04 - My Promise (Full Version).pt3",
-    "file": "chiptunes/EA/2004/04 - My Promise (Full Version).pt3",
-    "pt3": false,
-    "author": "EA",
-    "section": "2004",
-    "time": "02:37"
-  },
-  {
-    "name": "05 - My Promise (CC'04).pt3",
-    "file": "chiptunes/EA/2004/05 - My Promise (CC'04).pt3",
-    "pt3": false,
-    "author": "EA",
-    "section": "2004",
-    "time": "01:51"
-  },
-  {
-    "name": "06 - After Party.pt3",
-    "file": "chiptunes/EA/2004/06 - After Party.pt3",
+    "name": "EA - After Party.pt3",
+    "file": "chiptunes/EA/2004/EA - After Party.pt3",
     "pt3": false,
     "author": "EA",
     "section": "2004",
     "time": "00:31"
   },
   {
-    "name": "N_E_S.pt3",
-    "file": "chiptunes/EA/2007/N_E_S.pt3",
+    "name": "EA - Especially 4 DJ I-Kick.pt3",
+    "file": "chiptunes/EA/2004/EA - Especially 4 DJ I-Kick.pt3",
+    "pt3": false,
+    "author": "EA",
+    "section": "2004",
+    "time": "02:30"
+  },
+  {
+    "name": "EA - Muzak 4 Intro 4 Gamez.pt3",
+    "file": "chiptunes/EA/2004/EA - Muzak 4 Intro 4 Gamez.pt3",
+    "pt3": false,
+    "author": "EA",
+    "section": "2004",
+    "time": "00:46"
+  },
+  {
+    "name": "EA - My Promise (CC'04).pt3",
+    "file": "chiptunes/EA/2004/EA - My Promise (CC'04).pt3",
+    "pt3": false,
+    "author": "EA",
+    "section": "2004",
+    "time": "01:51"
+  },
+  {
+    "name": "EA - My Promise (Full Version).pt3",
+    "file": "chiptunes/EA/2004/EA - My Promise (Full Version).pt3",
+    "pt3": false,
+    "author": "EA",
+    "section": "2004",
+    "time": "02:37"
+  },
+  {
+    "name": "EA - Nonamed.pt3",
+    "file": "chiptunes/EA/2004/EA - Nonamed.pt3",
+    "pt3": false,
+    "author": "EA",
+    "section": "2004",
+    "time": "01:44"
+  },
+  {
+    "name": "EA - Neverending Song.pt3",
+    "file": "chiptunes/EA/2007/EA - Neverending Song.pt3",
     "pt3": false,
     "author": "EA",
     "section": "2007",
     "time": "02:07"
   },
   {
-    "name": "FlyBanki1.stp",
-    "file": "chiptunes/EA/FlyBanki1.stp",
-    "pt3": false,
-    "author": "EA",
-    "section": null,
-    "time": "03:04"
-  },
-  {
-    "name": "FlyBanki2.stp",
-    "file": "chiptunes/EA/FlyBanki2.stp",
-    "pt3": false,
-    "author": "EA",
-    "section": null,
-    "time": "02:34"
-  },
-  {
-    "name": "Subj.pt3",
-    "file": "chiptunes/EA/Subj.pt3",
-    "pt3": false,
-    "author": "EA",
-    "section": null,
-    "time": "01:04"
-  },
-  {
-    "name": "SURPRIZE.pt3",
-    "file": "chiptunes/EA/SURPRIZE.pt3",
-    "pt3": false,
-    "author": "EA",
-    "section": null,
-    "time": "04:56"
-  },
-  {
-    "name": "Sysopnik3.pt2",
-    "file": "chiptunes/EA/Sysopnik3.pt2",
+    "name": "EA - Let's Go Crazy!.pt2",
+    "file": "chiptunes/EA/EA - Let's Go Crazy!.pt2",
     "pt3": false,
     "author": "EA",
     "section": null,
     "time": "03:35"
   },
   {
-    "name": "danger.fym",
-    "file": "chiptunes/Elfh/danger.fym",
+    "name": "EA - Subj.pt3",
+    "file": "chiptunes/EA/EA - Subj.pt3",
     "pt3": false,
-    "pt3File": null,
-    "author": "Elfh",
+    "author": "EA",
     "section": null,
-    "time": "00:04"
+    "time": "01:04"
+  },
+  {
+    "name": "EA - Surprize.pt3",
+    "file": "chiptunes/EA/EA - Surprize.pt3",
+    "pt3": false,
+    "author": "EA",
+    "section": null,
+    "time": "04:56"
   },
   {
     "name": "host.fym",
@@ -22394,15 +19432,6 @@ var AYPLAYLIST_DATA = [
     "author": "Elfh",
     "section": null,
     "time": "05:10"
-  },
-  {
-    "name": "object.fym",
-    "file": "chiptunes/Elfh/object.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Elfh",
-    "section": null,
-    "time": "01:14"
   },
   {
     "name": "the miracle of you.fym",
@@ -22613,24 +19642,6 @@ var AYPLAYLIST_DATA = [
     "time": "00:34"
   },
   {
-    "name": "afterxe.fym",
-    "file": "chiptunes/Factor6/afterxe.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Factor6",
-    "section": null,
-    "time": "00:08"
-  },
-  {
-    "name": "agony_loading.fym",
-    "file": "chiptunes/Factor6/agony_loading.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Factor6",
-    "section": null,
-    "time": "00:46"
-  },
-  {
     "name": "alloyrun.fym",
     "file": "chiptunes/Factor6/alloyrun.fym",
     "pt3": false,
@@ -22674,15 +19685,6 @@ var AYPLAYLIST_DATA = [
     "author": "Factor6",
     "section": null,
     "time": "00:38"
-  },
-  {
-    "name": "atariselftest.fym",
-    "file": "chiptunes/Factor6/atariselftest.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Factor6",
-    "section": null,
-    "time": "00:24"
   },
   {
     "name": "atlantis.fym",
@@ -22809,15 +19811,6 @@ var AYPLAYLIST_DATA = [
     "author": "Factor6",
     "section": null,
     "time": "01:30"
-  },
-  {
-    "name": "blbost1.fym",
-    "file": "chiptunes/Factor6/blbost1.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Factor6",
-    "section": null,
-    "time": "00:03"
   },
   {
     "name": "bonba - crapmo 2.fym",
@@ -23000,15 +19993,6 @@ var AYPLAYLIST_DATA = [
     "time": "01:17"
   },
   {
-    "name": "delete.fym",
-    "file": "chiptunes/Factor6/delete.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Factor6",
-    "section": null,
-    "time": "00:04"
-  },
-  {
     "name": "demosong12.fym",
     "file": "chiptunes/Factor6/demosong12.fym",
     "pt3": false,
@@ -23187,15 +20171,6 @@ var AYPLAYLIST_DATA = [
     "author": "Factor6",
     "section": null,
     "time": "02:50"
-  },
-  {
-    "name": "esapart5colours.fym",
-    "file": "chiptunes/Factor6/esapart5colours.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Factor6",
-    "section": null,
-    "time": "00:18"
   },
   {
     "name": "esapart5stars.fym",
@@ -23513,15 +20488,6 @@ var AYPLAYLIST_DATA = [
     "time": "01:17"
   },
   {
-    "name": "infect.fym",
-    "file": "chiptunes/Factor6/infect.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Factor6",
-    "section": null,
-    "time": "00:26"
-  },
-  {
     "name": "inside.fym",
     "file": "chiptunes/Factor6/inside.fym",
     "pt3": false,
@@ -23547,15 +20513,6 @@ var AYPLAYLIST_DATA = [
     "author": "Factor6",
     "section": null,
     "time": "05:06"
-  },
-  {
-    "name": "ivan.fym",
-    "file": "chiptunes/Factor6/ivan.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Factor6",
-    "section": null,
-    "time": "00:19"
   },
   {
     "name": "jammalade- reject5.fym",
@@ -23846,24 +20803,6 @@ var AYPLAYLIST_DATA = [
     "time": "00:38"
   },
   {
-    "name": "masterblaster1.fym",
-    "file": "chiptunes/Factor6/masterblaster1.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Factor6",
-    "section": null,
-    "time": "00:03"
-  },
-  {
-    "name": "masterblaster2.fym",
-    "file": "chiptunes/Factor6/masterblaster2.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Factor6",
-    "section": null,
-    "time": "00:03"
-  },
-  {
     "name": "max taste.fym",
     "file": "chiptunes/Factor6/max taste.fym",
     "pt3": false,
@@ -23882,15 +20821,6 @@ var AYPLAYLIST_DATA = [
     "time": "00:58"
   },
   {
-    "name": "micro.fym",
-    "file": "chiptunes/Factor6/micro.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Factor6",
-    "section": null,
-    "time": "00:08"
-  },
-  {
     "name": "mindtime.fym",
     "file": "chiptunes/Factor6/mindtime.fym",
     "pt3": false,
@@ -23907,15 +20837,6 @@ var AYPLAYLIST_DATA = [
     "author": "Factor6",
     "section": null,
     "time": "01:21"
-  },
-  {
-    "name": "morefish.fym",
-    "file": "chiptunes/Factor6/morefish.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Factor6",
-    "section": null,
-    "time": "00:15"
   },
   {
     "name": "mostcooltune.fym",
@@ -23990,15 +20911,6 @@ var AYPLAYLIST_DATA = [
     "time": "01:26"
   },
   {
-    "name": "nedodelat.fym",
-    "file": "chiptunes/Factor6/nedodelat.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Factor6",
-    "section": null,
-    "time": "00:15"
-  },
-  {
     "name": "needforspeed3.fym",
     "file": "chiptunes/Factor6/needforspeed3.fym",
     "pt3": false,
@@ -24026,15 +20938,6 @@ var AYPLAYLIST_DATA = [
     "time": "00:46"
   },
   {
-    "name": "nic.fym",
-    "file": "chiptunes/Factor6/nic.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Factor6",
-    "section": null,
-    "time": "00:09"
-  },
-  {
     "name": "nnworld.fym",
     "file": "chiptunes/Factor6/nnworld.fym",
     "pt3": false,
@@ -24042,15 +20945,6 @@ var AYPLAYLIST_DATA = [
     "author": "Factor6",
     "section": null,
     "time": "04:21"
-  },
-  {
-    "name": "now1.fym",
-    "file": "chiptunes/Factor6/now1.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Factor6",
-    "section": null,
-    "time": "00:19"
   },
   {
     "name": "nuda.fym",
@@ -24242,15 +21136,6 @@ var AYPLAYLIST_DATA = [
     "time": "01:42"
   },
   {
-    "name": "que.fym",
-    "file": "chiptunes/Factor6/que.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Factor6",
-    "section": null,
-    "time": "00:08"
-  },
-  {
     "name": "raindemo.fym",
     "file": "chiptunes/Factor6/raindemo.fym",
     "pt3": false,
@@ -24303,15 +21188,6 @@ var AYPLAYLIST_DATA = [
     "author": "Factor6",
     "section": null,
     "time": "00:41"
-  },
-  {
-    "name": "reject1.fym",
-    "file": "chiptunes/Factor6/reject1.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Factor6",
-    "section": null,
-    "time": "00:08"
   },
   {
     "name": "reject2.fym",
@@ -24746,15 +21622,6 @@ var AYPLAYLIST_DATA = [
     "time": "05:40"
   },
   {
-    "name": "stevie.fym",
-    "file": "chiptunes/Factor6/stevie.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Factor6",
-    "section": null,
-    "time": "00:15"
-  },
-  {
     "name": "stormlord.fym",
     "file": "chiptunes/Factor6/stormlord.fym",
     "pt3": false,
@@ -24960,15 +21827,6 @@ var AYPLAYLIST_DATA = [
     "author": "Factor6",
     "section": null,
     "time": "04:13"
-  },
-  {
-    "name": "tritol2.fym",
-    "file": "chiptunes/Factor6/tritol2.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Factor6",
-    "section": null,
-    "time": "00:47"
   },
   {
     "name": "tritol3.fym",
@@ -29362,15 +26220,6 @@ var AYPLAYLIST_DATA = [
     "time": "00:38"
   },
   {
-    "name": "11_11_20.fym",
-    "file": "chiptunes/Firestarter/11_11_20.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:04"
-  },
-  {
     "name": "15.fym",
     "file": "chiptunes/Firestarter/15.fym",
     "pt3": false,
@@ -29378,15 +26227,6 @@ var AYPLAYLIST_DATA = [
     "author": "Firestarter",
     "section": null,
     "time": "00:26"
-  },
-  {
-    "name": "19_bek.fym",
-    "file": "chiptunes/Firestarter/19_bek.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:15"
   },
   {
     "name": "1_mapta.fym",
@@ -29398,15 +26238,6 @@ var AYPLAYLIST_DATA = [
     "time": "00:36"
   },
   {
-    "name": "2_sen.fym",
-    "file": "chiptunes/Firestarter/2_sen.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:05"
-  },
-  {
     "name": "3a6behue.fym",
     "file": "chiptunes/Firestarter/3a6behue.fym",
     "pt3": false,
@@ -29414,15 +26245,6 @@ var AYPLAYLIST_DATA = [
     "author": "Firestarter",
     "section": null,
     "time": "00:15"
-  },
-  {
-    "name": "3a6utahu.fym",
-    "file": "chiptunes/Firestarter/3a6utahu.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:10"
   },
   {
     "name": "3adopho2.fym",
@@ -29479,15 +26301,6 @@ var AYPLAYLIST_DATA = [
     "time": "01:10"
   },
   {
-    "name": "3amyta.fym",
-    "file": "chiptunes/Firestarter/3amyta.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:04"
-  },
-  {
     "name": "3byku.fym",
     "file": "chiptunes/Firestarter/3byku.fym",
     "pt3": false,
@@ -29506,15 +26319,6 @@ var AYPLAYLIST_DATA = [
     "time": "00:15"
   },
   {
-    "name": "3k3ema.fym",
-    "file": "chiptunes/Firestarter/3k3ema.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:10"
-  },
-  {
     "name": "3tu,ioh.fym",
     "file": "chiptunes/Firestarter/3tu,ioh.fym",
     "pt3": false,
@@ -29522,24 +26326,6 @@ var AYPLAYLIST_DATA = [
     "author": "Firestarter",
     "section": null,
     "time": "00:19"
-  },
-  {
-    "name": "6bictpeu.fym",
-    "file": "chiptunes/Firestarter/6bictpeu.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:13"
-  },
-  {
-    "name": "6ele6ep.fym",
-    "file": "chiptunes/Firestarter/6ele6ep.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:06"
   },
   {
     "name": "6o_kectb.fym",
@@ -29558,33 +26344,6 @@ var AYPLAYLIST_DATA = [
     "author": "Firestarter",
     "section": null,
     "time": "00:15"
-  },
-  {
-    "name": "aha.fym",
-    "file": "chiptunes/Firestarter/aha.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:05"
-  },
-  {
-    "name": "ahedgw.fym",
-    "file": "chiptunes/Firestarter/ahedgw.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:05"
-  },
-  {
-    "name": "alone_co.fym",
-    "file": "chiptunes/Firestarter/alone_co.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:01"
   },
   {
     "name": "alterna2.fym",
@@ -29650,24 +26409,6 @@ var AYPLAYLIST_DATA = [
     "time": "00:15"
   },
   {
-    "name": "baset.fym",
-    "file": "chiptunes/Firestarter/baset.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:13"
-  },
-  {
-    "name": "basspart.fym",
-    "file": "chiptunes/Firestarter/basspart.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:04"
-  },
-  {
     "name": "bass_put.fym",
     "file": "chiptunes/Firestarter/bass_put.fym",
     "pt3": false,
@@ -29675,15 +26416,6 @@ var AYPLAYLIST_DATA = [
     "author": "Firestarter",
     "section": null,
     "time": "00:26"
-  },
-  {
-    "name": "bce_mept.fym",
-    "file": "chiptunes/Firestarter/bce_mept.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:03"
   },
   {
     "name": "be4ha,q.fym",
@@ -29704,15 +26436,6 @@ var AYPLAYLIST_DATA = [
     "time": "00:17"
   },
   {
-    "name": "be4ho__q.fym",
-    "file": "chiptunes/Firestarter/be4ho__q.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:12"
-  },
-  {
     "name": "bg_day.fym",
     "file": "chiptunes/Firestarter/bg_day.fym",
     "pt3": false,
@@ -29729,24 +26452,6 @@ var AYPLAYLIST_DATA = [
     "author": "Firestarter",
     "section": null,
     "time": "00:56"
-  },
-  {
-    "name": "buy.fym",
-    "file": "chiptunes/Firestarter/buy.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:14"
-  },
-  {
-    "name": "byr.fym",
-    "file": "chiptunes/Firestarter/byr.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:10"
   },
   {
     "name": "b_3abbit.fym",
@@ -29830,33 +26535,6 @@ var AYPLAYLIST_DATA = [
     "time": "01:09"
   },
   {
-    "name": "cnantaho.fym",
-    "file": "chiptunes/Firestarter/cnantaho.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:02"
-  },
-  {
-    "name": "cnythik.fym",
-    "file": "chiptunes/Firestarter/cnythik.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:08"
-  },
-  {
-    "name": "coh.fym",
-    "file": "chiptunes/Firestarter/coh.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:02"
-  },
-  {
     "name": "cohrem.fym",
     "file": "chiptunes/Firestarter/cohrem.fym",
     "pt3": false,
@@ -29884,33 +26562,6 @@ var AYPLAYLIST_DATA = [
     "time": "00:38"
   },
   {
-    "name": "copyr.fym",
-    "file": "chiptunes/Firestarter/copyr.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:01"
-  },
-  {
-    "name": "copyrka.fym",
-    "file": "chiptunes/Firestarter/copyrka.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:04"
-  },
-  {
-    "name": "cpu.fym",
-    "file": "chiptunes/Firestarter/cpu.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:25"
-  },
-  {
     "name": "criomatr.fym",
     "file": "chiptunes/Firestarter/criomatr.fym",
     "pt3": false,
@@ -29920,15 +26571,6 @@ var AYPLAYLIST_DATA = [
     "time": "01:40"
   },
   {
-    "name": "ctap.fym",
-    "file": "chiptunes/Firestarter/ctap.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:04"
-  },
-  {
     "name": "ctapbiu.fym",
     "file": "chiptunes/Firestarter/ctapbiu.fym",
     "pt3": false,
@@ -29936,24 +26578,6 @@ var AYPLAYLIST_DATA = [
     "author": "Firestarter",
     "section": null,
     "time": "00:27"
-  },
-  {
-    "name": "ctapbiu2.fym",
-    "file": "chiptunes/Firestarter/ctapbiu2.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:27"
-  },
-  {
-    "name": "ctpahho.fym",
-    "file": "chiptunes/Firestarter/ctpahho.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:04"
   },
   {
     "name": "ctpaho.fym",
@@ -29972,24 +26596,6 @@ var AYPLAYLIST_DATA = [
     "author": "Firestarter",
     "section": null,
     "time": "00:46"
-  },
-  {
-    "name": "cuclik.fym",
-    "file": "chiptunes/Firestarter/cuclik.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:21"
-  },
-  {
-    "name": "cyan.fym",
-    "file": "chiptunes/Firestarter/cyan.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:12"
   },
   {
     "name": "cympak.fym",
@@ -30017,15 +26623,6 @@ var AYPLAYLIST_DATA = [
     "author": "Firestarter",
     "section": null,
     "time": "00:31"
-  },
-  {
-    "name": "dab_ienu.fym",
-    "file": "chiptunes/Firestarter/dab_ienu.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:05"
   },
   {
     "name": "dance.fym",
@@ -30100,24 +26697,6 @@ var AYPLAYLIST_DATA = [
     "time": "00:26"
   },
   {
-    "name": "delete.fym",
-    "file": "chiptunes/Firestarter/delete.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:18"
-  },
-  {
-    "name": "did.fym",
-    "file": "chiptunes/Firestarter/did.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:05"
-  },
-  {
     "name": "dipres.fym",
     "file": "chiptunes/Firestarter/dipres.fym",
     "pt3": false,
@@ -30145,51 +26724,6 @@ var AYPLAYLIST_DATA = [
     "time": "00:19"
   },
   {
-    "name": "drug.fym",
-    "file": "chiptunes/Firestarter/drug.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:05"
-  },
-  {
-    "name": "edwn.fym",
-    "file": "chiptunes/Firestarter/edwn.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:01"
-  },
-  {
-    "name": "efe.fym",
-    "file": "chiptunes/Firestarter/efe.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:04"
-  },
-  {
-    "name": "effect.fym",
-    "file": "chiptunes/Firestarter/effect.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:06"
-  },
-  {
-    "name": "ehhoq.fym",
-    "file": "chiptunes/Firestarter/ehhoq.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:05"
-  },
-  {
     "name": "elf.fym",
     "file": "chiptunes/Firestarter/elf.fym",
     "pt3": false,
@@ -30208,15 +26742,6 @@ var AYPLAYLIST_DATA = [
     "time": "01:17"
   },
   {
-    "name": "erunet.fym",
-    "file": "chiptunes/Firestarter/erunet.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:04"
-  },
-  {
     "name": "figgy.fym",
     "file": "chiptunes/Firestarter/figgy.fym",
     "pt3": false,
@@ -30224,24 +26749,6 @@ var AYPLAYLIST_DATA = [
     "author": "Firestarter",
     "section": null,
     "time": "00:11"
-  },
-  {
-    "name": "fignq.fym",
-    "file": "chiptunes/Firestarter/fignq.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:04"
-  },
-  {
-    "name": "figowina.fym",
-    "file": "chiptunes/Firestarter/figowina.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:10"
   },
   {
     "name": "fiolet.fym",
@@ -30298,42 +26805,6 @@ var AYPLAYLIST_DATA = [
     "time": "00:05"
   },
   {
-    "name": "fucks.fym",
-    "file": "chiptunes/Firestarter/fucks.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:04"
-  },
-  {
-    "name": "funicks.fym",
-    "file": "chiptunes/Firestarter/funicks.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:04"
-  },
-  {
-    "name": "funkon.fym",
-    "file": "chiptunes/Firestarter/funkon.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:10"
-  },
-  {
-    "name": "funtik.fym",
-    "file": "chiptunes/Firestarter/funtik.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:05"
-  },
-  {
     "name": "fuper_mu.fym",
     "file": "chiptunes/Firestarter/fuper_mu.fym",
     "pt3": false,
@@ -30361,33 +26832,6 @@ var AYPLAYLIST_DATA = [
     "time": "00:45"
   },
   {
-    "name": "gameover.fym",
-    "file": "chiptunes/Firestarter/gameover.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:04"
-  },
-  {
-    "name": "gansters.fym",
-    "file": "chiptunes/Firestarter/gansters.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:05"
-  },
-  {
-    "name": "gradaciq.fym",
-    "file": "chiptunes/Firestarter/gradaciq.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:36"
-  },
-  {
     "name": "haeby.fym",
     "file": "chiptunes/Firestarter/haeby.fym",
     "pt3": false,
@@ -30404,15 +26848,6 @@ var AYPLAYLIST_DATA = [
     "author": "Firestarter",
     "section": null,
     "time": "00:54"
-  },
-  {
-    "name": "hame.fym",
-    "file": "chiptunes/Firestarter/hame.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:04"
   },
   {
     "name": "hard_sux.fym",
@@ -30433,15 +26868,6 @@ var AYPLAYLIST_DATA = [
     "time": "00:49"
   },
   {
-    "name": "head_pin.fym",
-    "file": "chiptunes/Firestarter/head_pin.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:05"
-  },
-  {
     "name": "heavy-alco_version.fym",
     "file": "chiptunes/Firestarter/heavy-alco_version.fym",
     "pt3": false,
@@ -30460,15 +26886,6 @@ var AYPLAYLIST_DATA = [
     "time": "01:01"
   },
   {
-    "name": "heavy2.fym",
-    "file": "chiptunes/Firestarter/heavy2.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:08"
-  },
-  {
     "name": "heavy_s.fym",
     "file": "chiptunes/Firestarter/heavy_s.fym",
     "pt3": false,
@@ -30485,33 +26902,6 @@ var AYPLAYLIST_DATA = [
     "author": "Firestarter",
     "section": null,
     "time": "00:27"
-  },
-  {
-    "name": "hes.fym",
-    "file": "chiptunes/Firestarter/hes.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:04"
-  },
-  {
-    "name": "hewle.fym",
-    "file": "chiptunes/Firestarter/hewle.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:08"
-  },
-  {
-    "name": "he_be3et.fym",
-    "file": "chiptunes/Firestarter/he_be3et.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:12"
   },
   {
     "name": "he_uda4a.fym",
@@ -30559,15 +26949,6 @@ var AYPLAYLIST_DATA = [
     "time": "00:18"
   },
   {
-    "name": "home.fym",
-    "file": "chiptunes/Firestarter/home.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:17"
-  },
-  {
     "name": "horrow.fym",
     "file": "chiptunes/Firestarter/horrow.fym",
     "pt3": false,
@@ -30577,15 +26958,6 @@ var AYPLAYLIST_DATA = [
     "time": "00:26"
   },
   {
-    "name": "humorok.fym",
-    "file": "chiptunes/Firestarter/humorok.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:05"
-  },
-  {
     "name": "hypoclut.fym",
     "file": "chiptunes/Firestarter/hypoclut.fym",
     "pt3": false,
@@ -30593,15 +26965,6 @@ var AYPLAYLIST_DATA = [
     "author": "Firestarter",
     "section": null,
     "time": "00:30"
-  },
-  {
-    "name": "iahnran.fym",
-    "file": "chiptunes/Firestarter/iahnran.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:04"
   },
   {
     "name": "iii.fym",
@@ -30640,15 +27003,6 @@ var AYPLAYLIST_DATA = [
     "time": "00:58"
   },
   {
-    "name": "i_must.fym",
-    "file": "chiptunes/Firestarter/i_must.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:10"
-  },
-  {
     "name": "jass_out.fym",
     "file": "chiptunes/Firestarter/jass_out.fym",
     "pt3": false,
@@ -30656,33 +27010,6 @@ var AYPLAYLIST_DATA = [
     "author": "Firestarter",
     "section": null,
     "time": "00:23"
-  },
-  {
-    "name": "jejdq.fym",
-    "file": "chiptunes/Firestarter/jejdq.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:08"
-  },
-  {
-    "name": "jhtgfgw.fym",
-    "file": "chiptunes/Firestarter/jhtgfgw.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:04"
-  },
-  {
-    "name": "jjj.fym",
-    "file": "chiptunes/Firestarter/jjj.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:03"
   },
   {
     "name": "kak_b_kh.fym",
@@ -30694,24 +27021,6 @@ var AYPLAYLIST_DATA = [
     "time": "00:17"
   },
   {
-    "name": "kan_ib_q.fym",
-    "file": "chiptunes/Firestarter/kan_ib_q.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:04"
-  },
-  {
-    "name": "kan_i_q.fym",
-    "file": "chiptunes/Firestarter/kan_i_q.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:02"
-  },
-  {
     "name": "kapatuct.fym",
     "file": "chiptunes/Firestarter/kapatuct.fym",
     "pt3": false,
@@ -30719,24 +27028,6 @@ var AYPLAYLIST_DATA = [
     "author": "Firestarter",
     "section": null,
     "time": "00:26"
-  },
-  {
-    "name": "karkula.fym",
-    "file": "chiptunes/Firestarter/karkula.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:04"
-  },
-  {
-    "name": "kaska.fym",
-    "file": "chiptunes/Firestarter/kaska.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:15"
   },
   {
     "name": "kbapta.fym",
@@ -30748,15 +27039,6 @@ var AYPLAYLIST_DATA = [
     "time": "00:38"
   },
   {
-    "name": "kids.fym",
-    "file": "chiptunes/Firestarter/kids.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:03"
-  },
-  {
     "name": "kocmoc.fym",
     "file": "chiptunes/Firestarter/kocmoc.fym",
     "pt3": false,
@@ -30764,33 +27046,6 @@ var AYPLAYLIST_DATA = [
     "author": "Firestarter",
     "section": null,
     "time": "01:10"
-  },
-  {
-    "name": "kolnak.fym",
-    "file": "chiptunes/Firestarter/kolnak.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:05"
-  },
-  {
-    "name": "komotoz2.fym",
-    "file": "chiptunes/Firestarter/komotoz2.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:17"
-  },
-  {
-    "name": "korda.fym",
-    "file": "chiptunes/Firestarter/korda.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:08"
   },
   {
     "name": "kpyru.fym",
@@ -30856,24 +27111,6 @@ var AYPLAYLIST_DATA = [
     "time": "00:08"
   },
   {
-    "name": "ly.fym",
-    "file": "chiptunes/Firestarter/ly.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:04"
-  },
-  {
-    "name": "mananba.fym",
-    "file": "chiptunes/Firestarter/mananba.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:19"
-  },
-  {
     "name": "mapa3m.fym",
     "file": "chiptunes/Firestarter/mapa3m.fym",
     "pt3": false,
@@ -30881,15 +27118,6 @@ var AYPLAYLIST_DATA = [
     "author": "Firestarter",
     "section": null,
     "time": "00:31"
-  },
-  {
-    "name": "marazm2.fym",
-    "file": "chiptunes/Firestarter/marazm2.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:05"
   },
   {
     "name": "marazzm.fym",
@@ -30901,15 +27129,6 @@ var AYPLAYLIST_DATA = [
     "time": "00:15"
   },
   {
-    "name": "melok.fym",
-    "file": "chiptunes/Firestarter/melok.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:06"
-  },
-  {
     "name": "metall.fym",
     "file": "chiptunes/Firestarter/metall.fym",
     "pt3": false,
@@ -30919,33 +27138,6 @@ var AYPLAYLIST_DATA = [
     "time": "01:14"
   },
   {
-    "name": "metallaj.fym",
-    "file": "chiptunes/Firestarter/metallaj.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:13"
-  },
-  {
-    "name": "metall_h.fym",
-    "file": "chiptunes/Firestarter/metall_h.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:08"
-  },
-  {
-    "name": "metalza.fym",
-    "file": "chiptunes/Firestarter/metalza.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:05"
-  },
-  {
     "name": "mhoro.fym",
     "file": "chiptunes/Firestarter/mhoro.fym",
     "pt3": false,
@@ -30953,15 +27145,6 @@ var AYPLAYLIST_DATA = [
     "author": "Firestarter",
     "section": null,
     "time": "00:27"
-  },
-  {
-    "name": "might m3.fym",
-    "file": "chiptunes/Firestarter/might m3.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:23"
   },
   {
     "name": "miniotur.fym",
@@ -30991,15 +27174,6 @@ var AYPLAYLIST_DATA = [
     "time": "02:44"
   },
   {
-    "name": "mix2.fym",
-    "file": "chiptunes/Firestarter/mix2.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:04"
-  },
-  {
     "name": "mody,ib.fym",
     "file": "chiptunes/Firestarter/mody,ib.fym",
     "pt3": false,
@@ -31027,69 +27201,6 @@ var AYPLAYLIST_DATA = [
     "time": "00:46"
   },
   {
-    "name": "mu3a.fym",
-    "file": "chiptunes/Firestarter/mu3a.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:12"
-  },
-  {
-    "name": "music.fym",
-    "file": "chiptunes/Firestarter/music.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:08"
-  },
-  {
-    "name": "music2.fym",
-    "file": "chiptunes/Firestarter/music2.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:31"
-  },
-  {
-    "name": "my_dream.fym",
-    "file": "chiptunes/Firestarter/my_dream.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:19"
-  },
-  {
-    "name": "mz.fym",
-    "file": "chiptunes/Firestarter/mz.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:09"
-  },
-  {
-    "name": "nago.fym",
-    "file": "chiptunes/Firestarter/nago.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:05"
-  },
-  {
-    "name": "napa.fym",
-    "file": "chiptunes/Firestarter/napa.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:04"
-  },
-  {
     "name": "napodua.fym",
     "file": "chiptunes/Firestarter/napodua.fym",
     "pt3": false,
@@ -31097,15 +27208,6 @@ var AYPLAYLIST_DATA = [
     "author": "Firestarter",
     "section": null,
     "time": "00:08"
-  },
-  {
-    "name": "ncuxoc.fym",
-    "file": "chiptunes/Firestarter/ncuxoc.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:09"
   },
   {
     "name": "nepcekti.fym",
@@ -31153,42 +27255,6 @@ var AYPLAYLIST_DATA = [
     "time": "00:36"
   },
   {
-    "name": "nifit.fym",
-    "file": "chiptunes/Firestarter/nifit.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:02"
-  },
-  {
-    "name": "night.fym",
-    "file": "chiptunes/Firestarter/night.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:13"
-  },
-  {
-    "name": "ninh.fym",
-    "file": "chiptunes/Firestarter/ninh.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:04"
-  },
-  {
-    "name": "nnol.fym",
-    "file": "chiptunes/Firestarter/nnol.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:03"
-  },
-  {
     "name": "no,i,qph.fym",
     "file": "chiptunes/Firestarter/no,i,qph.fym",
     "pt3": false,
@@ -31205,33 +27271,6 @@ var AYPLAYLIST_DATA = [
     "author": "Firestarter",
     "section": null,
     "time": "00:31"
-  },
-  {
-    "name": "noname1.fym",
-    "file": "chiptunes/Firestarter/noname1.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:04"
-  },
-  {
-    "name": "noname_(.fym",
-    "file": "chiptunes/Firestarter/noname_(.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:10"
-  },
-  {
-    "name": "noq.fym",
-    "file": "chiptunes/Firestarter/noq.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:03"
   },
   {
     "name": "no_more.fym",
@@ -31261,24 +27300,6 @@ var AYPLAYLIST_DATA = [
     "time": "00:15"
   },
   {
-    "name": "npocto.fym",
-    "file": "chiptunes/Firestarter/npocto.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:15"
-  },
-  {
-    "name": "npuopete.fym",
-    "file": "chiptunes/Firestarter/npuopete.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:23"
-  },
-  {
     "name": "nputok.fym",
     "file": "chiptunes/Firestarter/nputok.fym",
     "pt3": false,
@@ -31295,15 +27316,6 @@ var AYPLAYLIST_DATA = [
     "author": "Firestarter",
     "section": null,
     "time": "00:49"
-  },
-  {
-    "name": "o4ehb.fym",
-    "file": "chiptunes/Firestarter/o4ehb.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:03"
   },
   {
     "name": "ocmuhoru.fym",
@@ -31333,51 +27345,6 @@ var AYPLAYLIST_DATA = [
     "time": "00:08"
   },
   {
-    "name": "oh_he.fym",
-    "file": "chiptunes/Firestarter/oh_he.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:23"
-  },
-  {
-    "name": "okeah.fym",
-    "file": "chiptunes/Firestarter/okeah.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:15"
-  },
-  {
-    "name": "onatu,q.fym",
-    "file": "chiptunes/Firestarter/onatu,q.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:13"
-  },
-  {
-    "name": "on_nahku.fym",
-    "file": "chiptunes/Firestarter/on_nahku.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:03"
-  },
-  {
-    "name": "opqtx.fym",
-    "file": "chiptunes/Firestarter/opqtx.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:03"
-  },
-  {
     "name": "ornamen2.fym",
     "file": "chiptunes/Firestarter/ornamen2.fym",
     "pt3": false,
@@ -31387,15 +27354,6 @@ var AYPLAYLIST_DATA = [
     "time": "00:26"
   },
   {
-    "name": "otmopo3k.fym",
-    "file": "chiptunes/Firestarter/otmopo3k.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:03"
-  },
-  {
     "name": "otmopo_k.fym",
     "file": "chiptunes/Firestarter/otmopo_k.fym",
     "pt3": false,
@@ -31403,24 +27361,6 @@ var AYPLAYLIST_DATA = [
     "author": "Firestarter",
     "section": null,
     "time": "00:27"
-  },
-  {
-    "name": "oug.fym",
-    "file": "chiptunes/Firestarter/oug.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:04"
-  },
-  {
-    "name": "ourggig.fym",
-    "file": "chiptunes/Firestarter/ourggig.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:04"
   },
   {
     "name": "o_3to.fym",
@@ -31459,15 +27399,6 @@ var AYPLAYLIST_DATA = [
     "time": "00:04"
   },
   {
-    "name": "patern_c.fym",
-    "file": "chiptunes/Firestarter/patern_c.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:05"
-  },
-  {
     "name": "pattern.fym",
     "file": "chiptunes/Firestarter/pattern.fym",
     "pt3": false,
@@ -31495,42 +27426,6 @@ var AYPLAYLIST_DATA = [
     "time": "00:15"
   },
   {
-    "name": "pok.fym",
-    "file": "chiptunes/Firestarter/pok.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:03"
-  },
-  {
-    "name": "pokes.fym",
-    "file": "chiptunes/Firestarter/pokes.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:15"
-  },
-  {
-    "name": "pricol2.fym",
-    "file": "chiptunes/Firestarter/pricol2.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:05"
-  },
-  {
-    "name": "prodigy.fym",
-    "file": "chiptunes/Firestarter/prodigy.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:41"
-  },
-  {
     "name": "progress.fym",
     "file": "chiptunes/Firestarter/progress.fym",
     "pt3": false,
@@ -31538,15 +27433,6 @@ var AYPLAYLIST_DATA = [
     "author": "Firestarter",
     "section": null,
     "time": "01:17"
-  },
-  {
-    "name": "psyho.fym",
-    "file": "chiptunes/Firestarter/psyho.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:02"
   },
   {
     "name": "qpu7ypa.fym",
@@ -31565,15 +27451,6 @@ var AYPLAYLIST_DATA = [
     "author": "Firestarter",
     "section": null,
     "time": "00:38"
-  },
-  {
-    "name": "qpzih.fym",
-    "file": "chiptunes/Firestarter/qpzih.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:10"
   },
   {
     "name": "r,iio4ha.fym",
@@ -31621,107 +27498,8 @@ var AYPLAYLIST_DATA = [
     "time": "00:31"
   },
   {
-    "name": "reload_m.fym",
-    "file": "chiptunes/Firestarter/reload_m.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:10"
-  },
-  {
-    "name": "ritmpix.fym",
-    "file": "chiptunes/Firestarter/ritmpix.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:04"
-  },
-  {
-    "name": "rnd_orna.fym",
-    "file": "chiptunes/Firestarter/rnd_orna.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:13"
-  },
-  {
-    "name": "rock.fym",
-    "file": "chiptunes/Firestarter/rock.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:15"
-  },
-  {
     "name": "rohbi.fym",
     "file": "chiptunes/Firestarter/rohbi.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:08"
-  },
-  {
-    "name": "rs.fym",
-    "file": "chiptunes/Firestarter/rs.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:06"
-  },
-  {
-    "name": "rtim.fym",
-    "file": "chiptunes/Firestarter/rtim.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:10"
-  },
-  {
-    "name": "sceleton.fym",
-    "file": "chiptunes/Firestarter/sceleton.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:12"
-  },
-  {
-    "name": "sdcp.fym",
-    "file": "chiptunes/Firestarter/sdcp.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:06"
-  },
-  {
-    "name": "sfeer.fym",
-    "file": "chiptunes/Firestarter/sfeer.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:17"
-  },
-  {
-    "name": "shmd3_64.fym",
-    "file": "chiptunes/Firestarter/shmd3_64.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:13"
-  },
-  {
-    "name": "shortik.fym",
-    "file": "chiptunes/Firestarter/shortik.fym",
     "pt3": false,
     "pt3File": null,
     "author": "Firestarter",
@@ -31756,15 +27534,6 @@ var AYPLAYLIST_DATA = [
     "time": "00:23"
   },
   {
-    "name": "siu.fym",
-    "file": "chiptunes/Firestarter/siu.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:03"
-  },
-  {
     "name": "slipmix.fym",
     "file": "chiptunes/Firestarter/slipmix.fym",
     "pt3": false,
@@ -31772,15 +27541,6 @@ var AYPLAYLIST_DATA = [
     "author": "Firestarter",
     "section": null,
     "time": "00:41"
-  },
-  {
-    "name": "space.fym",
-    "file": "chiptunes/Firestarter/space.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:05"
   },
   {
     "name": "space2.fym",
@@ -31828,24 +27588,6 @@ var AYPLAYLIST_DATA = [
     "time": "00:23"
   },
   {
-    "name": "stero.fym",
-    "file": "chiptunes/Firestarter/stero.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:08"
-  },
-  {
-    "name": "sumper.fym",
-    "file": "chiptunes/Firestarter/sumper.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:06"
-  },
-  {
     "name": "sun wate.fym",
     "file": "chiptunes/Firestarter/sun wate.fym",
     "pt3": false,
@@ -31864,33 +27606,6 @@ var AYPLAYLIST_DATA = [
     "time": "00:35"
   },
   {
-    "name": "susyx.fym",
-    "file": "chiptunes/Firestarter/susyx.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:04"
-  },
-  {
-    "name": "suuxxxxe.fym",
-    "file": "chiptunes/Firestarter/suuxxxxe.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:13"
-  },
-  {
-    "name": "suw.fym",
-    "file": "chiptunes/Firestarter/suw.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:04"
-  },
-  {
     "name": "suxnum2.fym",
     "file": "chiptunes/Firestarter/suxnum2.fym",
     "pt3": false,
@@ -31898,15 +27613,6 @@ var AYPLAYLIST_DATA = [
     "author": "Firestarter",
     "section": null,
     "time": "00:16"
-  },
-  {
-    "name": "s_r_4_ym.fym",
-    "file": "chiptunes/Firestarter/s_r_4_ym.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:23"
   },
   {
     "name": "tak.fym",
@@ -31945,15 +27651,6 @@ var AYPLAYLIST_DATA = [
     "time": "00:31"
   },
   {
-    "name": "tpahc.fym",
-    "file": "chiptunes/Firestarter/tpahc.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:10"
-  },
-  {
     "name": "tpahnc.fym",
     "file": "chiptunes/Firestarter/tpahnc.fym",
     "pt3": false,
@@ -31961,24 +27658,6 @@ var AYPLAYLIST_DATA = [
     "author": "Firestarter",
     "section": null,
     "time": "00:26"
-  },
-  {
-    "name": "trance.fym",
-    "file": "chiptunes/Firestarter/trance.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:05"
-  },
-  {
-    "name": "trimp.fym",
-    "file": "chiptunes/Firestarter/trimp.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:03"
   },
   {
     "name": "trr.fym",
@@ -31990,15 +27669,6 @@ var AYPLAYLIST_DATA = [
     "time": "00:35"
   },
   {
-    "name": "turbo.fym",
-    "file": "chiptunes/Firestarter/turbo.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:04"
-  },
-  {
     "name": "two.fym",
     "file": "chiptunes/Firestarter/two.fym",
     "pt3": false,
@@ -32006,24 +27676,6 @@ var AYPLAYLIST_DATA = [
     "author": "Firestarter",
     "section": null,
     "time": "00:35"
-  },
-  {
-    "name": "ueiedie.fym",
-    "file": "chiptunes/Firestarter/ueiedie.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:08"
-  },
-  {
-    "name": "uex.fym",
-    "file": "chiptunes/Firestarter/uex.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:04"
   },
   {
     "name": "ufo.fym",
@@ -32035,42 +27687,6 @@ var AYPLAYLIST_DATA = [
     "time": "00:08"
   },
   {
-    "name": "uiuiu.fym",
-    "file": "chiptunes/Firestarter/uiuiu.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:04"
-  },
-  {
-    "name": "ukota.fym",
-    "file": "chiptunes/Firestarter/ukota.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:04"
-  },
-  {
-    "name": "ukota2.fym",
-    "file": "chiptunes/Firestarter/ukota2.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:05"
-  },
-  {
-    "name": "uro.fym",
-    "file": "chiptunes/Firestarter/uro.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:04"
-  },
-  {
     "name": "urpbi.fym",
     "file": "chiptunes/Firestarter/urpbi.fym",
     "pt3": false,
@@ -32078,15 +27694,6 @@ var AYPLAYLIST_DATA = [
     "author": "Firestarter",
     "section": null,
     "time": "00:23"
-  },
-  {
-    "name": "v2rrr.fym",
-    "file": "chiptunes/Firestarter/v2rrr.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:04"
   },
   {
     "name": "ver2.fym",
@@ -32116,78 +27723,6 @@ var AYPLAYLIST_DATA = [
     "time": "01:31"
   },
   {
-    "name": "wd.fym",
-    "file": "chiptunes/Firestarter/wd.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:04"
-  },
-  {
-    "name": "wdi.fym",
-    "file": "chiptunes/Firestarter/wdi.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:05"
-  },
-  {
-    "name": "wdqu.fym",
-    "file": "chiptunes/Firestarter/wdqu.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:04"
-  },
-  {
-    "name": "win.fym",
-    "file": "chiptunes/Firestarter/win.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:04"
-  },
-  {
-    "name": "world.fym",
-    "file": "chiptunes/Firestarter/world.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:29"
-  },
-  {
-    "name": "xbass.fym",
-    "file": "chiptunes/Firestarter/xbass.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:19"
-  },
-  {
-    "name": "xbasser.fym",
-    "file": "chiptunes/Firestarter/xbasser.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:09"
-  },
-  {
-    "name": "xffu.fym",
-    "file": "chiptunes/Firestarter/xffu.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:08"
-  },
-  {
     "name": "xpeh.fym",
     "file": "chiptunes/Firestarter/xpeh.fym",
     "pt3": false,
@@ -32204,42 +27739,6 @@ var AYPLAYLIST_DATA = [
     "author": "Firestarter",
     "section": null,
     "time": "00:38"
-  },
-  {
-    "name": "xpehra.fym",
-    "file": "chiptunes/Firestarter/xpehra.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:04"
-  },
-  {
-    "name": "xplam.fym",
-    "file": "chiptunes/Firestarter/xplam.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:04"
-  },
-  {
-    "name": "xs.fym",
-    "file": "chiptunes/Firestarter/xs.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:05"
-  },
-  {
-    "name": "xsfhj.fym",
-    "file": "chiptunes/Firestarter/xsfhj.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:19"
   },
   {
     "name": "x_jass.fym",
@@ -32276,24 +27775,6 @@ var AYPLAYLIST_DATA = [
     "author": "Firestarter",
     "section": null,
     "time": "01:09"
-  },
-  {
-    "name": "yk.fym",
-    "file": "chiptunes/Firestarter/yk.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:08"
-  },
-  {
-    "name": "ym.fym",
-    "file": "chiptunes/Firestarter/ym.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:05"
   },
   {
     "name": "yrlebod1.fym",
@@ -32350,127 +27831,56 @@ var AYPLAYLIST_DATA = [
     "time": "01:09"
   },
   {
-    "name": "za.fym",
-    "file": "chiptunes/Firestarter/za.fym",
+    "name": "Alla Turca.fxm",
+    "file": "chiptunes/Fuxoft/Alla Turca.fxm",
     "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:01"
+    "author": "Fuxoft",
+    "section": null
   },
   {
-    "name": "zaa.fym",
-    "file": "chiptunes/Firestarter/zaa.fym",
+    "name": "Atomix.fxm",
+    "file": "chiptunes/Fuxoft/Atomix.fxm",
     "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:05"
-  },
-  {
-    "name": "zapka.fym",
-    "file": "chiptunes/Firestarter/zapka.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:04"
-  },
-  {
-    "name": "zapka2.fym",
-    "file": "chiptunes/Firestarter/zapka2.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:04"
-  },
-  {
-    "name": "zaxw.fym",
-    "file": "chiptunes/Firestarter/zaxw.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:03"
-  },
-  {
-    "name": "zf76f.fym",
-    "file": "chiptunes/Firestarter/zf76f.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:05"
-  },
-  {
-    "name": "zscc.fym",
-    "file": "chiptunes/Firestarter/zscc.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:08"
-  },
-  {
-    "name": "zxcmbvtd.fym",
-    "file": "chiptunes/Firestarter/zxcmbvtd.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:04"
-  },
-  {
-    "name": "zxderfv.fym",
-    "file": "chiptunes/Firestarter/zxderfv.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:02"
-  },
-  {
-    "name": "zx_m.fym",
-    "file": "chiptunes/Firestarter/zx_m.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:12"
-  },
-  {
-    "name": "zz.fym",
-    "file": "chiptunes/Firestarter/zz.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:05"
-  },
-  {
-    "name": "_sb.fym",
-    "file": "chiptunes/Firestarter/_sb.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:05"
-  },
-  {
-    "name": "________.fym",
-    "file": "chiptunes/Firestarter/________.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Firestarter",
-    "section": null,
-    "time": "00:13"
+    "author": "Fuxoft",
+    "section": null
   },
   {
     "name": "atomix.fym",
     "file": "chiptunes/Fuxoft/atomix.fym",
     "pt3": false,
     "pt3File": null,
+    "author": "Fuxoft",
+    "section": null,
+    "time": "02:08"
+  },
+  {
+    "name": "Axel F. Theme.fxm",
+    "file": "chiptunes/Fuxoft/Axel F. Theme.fxm",
+    "pt3": false,
+    "author": "Fuxoft",
+    "section": null,
+    "time": "02:08"
+  },
+  {
+    "name": "Belegost.fxm",
+    "file": "chiptunes/Fuxoft/Belegost.fxm",
+    "pt3": false,
+    "author": "Fuxoft",
+    "section": null,
+    "time": "02:08"
+  },
+  {
+    "name": "Chimera.fxm",
+    "file": "chiptunes/Fuxoft/Chimera.fxm",
+    "pt3": false,
+    "author": "Fuxoft",
+    "section": null,
+    "time": "02:08"
+  },
+  {
+    "name": "Commando.fxm",
+    "file": "chiptunes/Fuxoft/Commando.fxm",
+    "pt3": false,
     "author": "Fuxoft",
     "section": null,
     "time": "02:08"
@@ -32485,6 +27895,86 @@ var AYPLAYLIST_DATA = [
     "time": "02:34"
   },
   {
+    "name": "E.T. Flying.fxm",
+    "file": "chiptunes/Fuxoft/E.T. Flying.fxm",
+    "pt3": false,
+    "author": "Fuxoft",
+    "section": null,
+    "time": "02:34"
+  },
+  {
+    "name": "Eqinoxe V.fxm",
+    "file": "chiptunes/Fuxoft/Eqinoxe V.fxm",
+    "pt3": false,
+    "author": "Fuxoft",
+    "section": null,
+    "time": "02:34"
+  },
+  {
+    "name": "f.fxm",
+    "file": "chiptunes/Fuxoft/f.fxm",
+    "pt3": false,
+    "author": "Fuxoft",
+    "section": null,
+    "time": "02:34"
+  },
+  {
+    "name": "Feud.fxm",
+    "file": "chiptunes/Fuxoft/Feud.fxm",
+    "pt3": false,
+    "author": "Fuxoft",
+    "section": null,
+    "time": "02:34"
+  },
+  {
+    "name": "FIRE.fxm",
+    "file": "chiptunes/Fuxoft/FIRE.fxm",
+    "pt3": false,
+    "author": "Fuxoft",
+    "section": null,
+    "time": "02:34"
+  },
+  {
+    "name": "Fugue.fxm",
+    "file": "chiptunes/Fuxoft/Fugue.fxm",
+    "pt3": false,
+    "author": "Fuxoft",
+    "section": null,
+    "time": "02:34"
+  },
+  {
+    "name": "Ghostbusters.fxm",
+    "file": "chiptunes/Fuxoft/Ghostbusters.fxm",
+    "pt3": false,
+    "author": "Fuxoft",
+    "section": null,
+    "time": "02:34"
+  },
+  {
+    "name": "Golden Triangle Anthem.fxm",
+    "file": "chiptunes/Fuxoft/Golden Triangle Anthem.fxm",
+    "pt3": false,
+    "author": "Fuxoft",
+    "section": null,
+    "time": "02:34"
+  },
+  {
+    "name": "Indiana Jones 3.fxm",
+    "file": "chiptunes/Fuxoft/Indiana Jones 3.fxm",
+    "pt3": false,
+    "author": "Fuxoft",
+    "section": null,
+    "time": "02:34"
+  },
+  {
+    "name": "Jet Story.fxm",
+    "file": "chiptunes/Fuxoft/Jet Story.fxm",
+    "pt3": false,
+    "author": "Fuxoft",
+    "section": null,
+    "time": "02:34"
+  },
+  {
     "name": "jet story.fym",
     "file": "chiptunes/Fuxoft/jet story.fym",
     "pt3": false,
@@ -32494,31 +27984,60 @@ var AYPLAYLIST_DATA = [
     "time": "03:45"
   },
   {
-    "name": "kaboomi.fym",
-    "file": "chiptunes/Fuxoft/kaboomi.fym",
+    "name": "Land Of Confusion.fxm",
+    "file": "chiptunes/Fuxoft/Land Of Confusion.fxm",
     "pt3": false,
-    "pt3File": null,
     "author": "Fuxoft",
     "section": null,
-    "time": "00:22"
+    "time": "03:45"
   },
   {
-    "name": "planet of shades.fym",
-    "file": "chiptunes/Fuxoft/planet of shades.fym",
+    "name": "Magnetic Fields IV.fxm",
+    "file": "chiptunes/Fuxoft/Magnetic Fields IV.fxm",
     "pt3": false,
-    "pt3File": null,
     "author": "Fuxoft",
     "section": null,
-    "time": "03:00"
+    "time": "03:45"
   },
   {
-    "name": "podraz3.fym",
-    "file": "chiptunes/Fuxoft/podraz3.fym",
+    "name": "Magnetic Fields V.fxm",
+    "file": "chiptunes/Fuxoft/Magnetic Fields V.fxm",
     "pt3": false,
-    "pt3File": null,
     "author": "Fuxoft",
     "section": null,
-    "time": "00:49"
+    "time": "03:45"
+  },
+  {
+    "name": "Master of Magic.fxm",
+    "file": "chiptunes/Fuxoft/Master of Magic.fxm",
+    "pt3": false,
+    "author": "Fuxoft",
+    "section": null,
+    "time": "03:45"
+  },
+  {
+    "name": "Monty On The Run.fxm",
+    "file": "chiptunes/Fuxoft/Monty On The Run.fxm",
+    "pt3": false,
+    "author": "Fuxoft",
+    "section": null,
+    "time": "03:45"
+  },
+  {
+    "name": "Piskworks-Topgun.fxm",
+    "file": "chiptunes/Fuxoft/Piskworks-Topgun.fxm",
+    "pt3": false,
+    "author": "Fuxoft",
+    "section": null,
+    "time": "03:45"
+  },
+  {
+    "name": "RendezVous IV.fxm",
+    "file": "chiptunes/Fuxoft/RendezVous IV.fxm",
+    "pt3": false,
+    "author": "Fuxoft",
+    "section": null,
+    "time": "03:45"
   },
   {
     "name": "star dragon.fym",
@@ -32530,19 +28049,82 @@ var AYPLAYLIST_DATA = [
     "time": "05:58"
   },
   {
-    "name": "starfox.fym",
-    "file": "chiptunes/Fuxoft/starfox.fym",
+    "name": "StarDragon Hall of Fame.fxm",
+    "file": "chiptunes/Fuxoft/StarDragon Hall of Fame.fxm",
     "pt3": false,
-    "pt3File": null,
     "author": "Fuxoft",
     "section": null,
-    "time": "03:00"
+    "time": "05:58"
+  },
+  {
+    "name": "StarDragon.fxm",
+    "file": "chiptunes/Fuxoft/StarDragon.fxm",
+    "pt3": false,
+    "author": "Fuxoft",
+    "section": null,
+    "time": "05:58"
+  },
+  {
+    "name": "Terra Cresta.fxm",
+    "file": "chiptunes/Fuxoft/Terra Cresta.fxm",
+    "pt3": false,
+    "author": "Fuxoft",
+    "section": null,
+    "time": "05:58"
   },
   {
     "name": "tetris 2.fym",
     "file": "chiptunes/Fuxoft/tetris 2.fym",
     "pt3": false,
     "pt3File": null,
+    "author": "Fuxoft",
+    "section": null,
+    "time": "00:51"
+  },
+  {
+    "name": "Tetris2.fxm",
+    "file": "chiptunes/Fuxoft/Tetris2.fxm",
+    "pt3": false,
+    "author": "Fuxoft",
+    "section": null,
+    "time": "00:51"
+  },
+  {
+    "name": "Tetris2RedDawn.fxm",
+    "file": "chiptunes/Fuxoft/Tetris2RedDawn.fxm",
+    "pt3": false,
+    "author": "Fuxoft",
+    "section": null,
+    "time": "00:51"
+  },
+  {
+    "name": "The Last V8.fxm",
+    "file": "chiptunes/Fuxoft/The Last V8.fxm",
+    "pt3": false,
+    "author": "Fuxoft",
+    "section": null,
+    "time": "00:51"
+  },
+  {
+    "name": "View to a Kill.fxm",
+    "file": "chiptunes/Fuxoft/View to a Kill.fxm",
+    "pt3": false,
+    "author": "Fuxoft",
+    "section": null,
+    "time": "00:51"
+  },
+  {
+    "name": "Where Time Dropped Dead.fxm",
+    "file": "chiptunes/Fuxoft/Where Time Dropped Dead.fxm",
+    "pt3": false,
+    "author": "Fuxoft",
+    "section": null,
+    "time": "00:51"
+  },
+  {
+    "name": "ZUB.fxm",
+    "file": "chiptunes/Fuxoft/ZUB.fxm",
+    "pt3": false,
     "author": "Fuxoft",
     "section": null,
     "time": "00:51"
@@ -34153,6 +29735,22 @@ var AYPLAYLIST_DATA = [
     "author": "Gogin",
     "section": null,
     "time": "03:45"
+  },
+  {
+    "name": "Hacker VBI & RVA - Together.pt2",
+    "file": "chiptunes/Hacker VBI/1996/Hacker VBI & RVA - Together.pt2",
+    "pt3": false,
+    "author": "Hacker VBI",
+    "section": "1996",
+    "time": "01:36"
+  },
+  {
+    "name": "Hacker VBI - Dance.pt2",
+    "file": "chiptunes/Hacker VBI/1997/Hacker VBI - Dance.pt2",
+    "pt3": false,
+    "author": "Hacker VBI",
+    "section": "1997",
+    "time": "02:08"
   },
   {
     "name": "assorty1.stc",
@@ -40923,127 +36521,127 @@ var AYPLAYLIST_DATA = [
     "time": "02:23"
   },
   {
-    "name": "Robocop.ay",
-    "file": "chiptunes/Jonathan Dunn/1987/Robocop.ay",
+    "name": "Jonathan Dunn - Robocop.ay",
+    "file": "chiptunes/Jonathan Dunn/1987/Jonathan Dunn - Robocop.ay",
     "pt3": false,
     "author": "Jonathan Dunn",
     "section": "1987"
   },
   {
-    "name": "Daley Thompson's Olympic Challenge.ay",
-    "file": "chiptunes/Jonathan Dunn/1988/Daley Thompson's Olympic Challenge.ay",
+    "name": "Jonathan Dunn - Daley Thompson's Olympic Challenge.ay",
+    "file": "chiptunes/Jonathan Dunn/1988/Jonathan Dunn - Daley Thompson's Olympic Challenge.ay",
     "pt3": false,
     "author": "Jonathan Dunn",
     "section": "1988"
   },
   {
-    "name": "Guerrilla War.ay",
-    "file": "chiptunes/Jonathan Dunn/1988/Guerrilla War.ay",
+    "name": "Jonathan Dunn - Guerrilla War.ay",
+    "file": "chiptunes/Jonathan Dunn/1988/Jonathan Dunn - Guerrilla War.ay",
     "pt3": false,
     "author": "Jonathan Dunn",
     "section": "1988"
   },
   {
-    "name": "Operation Wolf.ay",
-    "file": "chiptunes/Jonathan Dunn/1988/Operation Wolf.ay",
+    "name": "Jonathan Dunn - Operation Wolf.ay",
+    "file": "chiptunes/Jonathan Dunn/1988/Jonathan Dunn - Operation Wolf.ay",
     "pt3": false,
     "author": "Jonathan Dunn",
     "section": "1988"
   },
   {
-    "name": "Rambo 3.ay",
-    "file": "chiptunes/Jonathan Dunn/1988/Rambo 3.ay",
+    "name": "Jonathan Dunn - Rambo 3.ay",
+    "file": "chiptunes/Jonathan Dunn/1988/Jonathan Dunn - Rambo 3.ay",
     "pt3": false,
     "author": "Jonathan Dunn",
     "section": "1988"
   },
   {
-    "name": "Target Renegade.ay",
-    "file": "chiptunes/Jonathan Dunn/1988/Target Renegade.ay",
+    "name": "Jonathan Dunn - Target Renegade.ay",
+    "file": "chiptunes/Jonathan Dunn/1988/Jonathan Dunn - Target Renegade.ay",
     "pt3": false,
     "author": "Jonathan Dunn",
     "section": "1988"
   },
   {
-    "name": "Typhoon.ay",
-    "file": "chiptunes/Jonathan Dunn/1988/Typhoon.ay",
+    "name": "Jonathan Dunn - Typhoon.ay",
+    "file": "chiptunes/Jonathan Dunn/1988/Jonathan Dunn - Typhoon.ay",
     "pt3": false,
     "author": "Jonathan Dunn",
     "section": "1988"
   },
   {
-    "name": "Vindicator.ay",
-    "file": "chiptunes/Jonathan Dunn/1988/Vindicator.ay",
+    "name": "Jonathan Dunn - Vindicator.ay",
+    "file": "chiptunes/Jonathan Dunn/1988/Jonathan Dunn - Vindicator.ay",
     "pt3": false,
     "author": "Jonathan Dunn",
     "section": "1988"
   },
   {
-    "name": "Wec Le Mans.ay",
-    "file": "chiptunes/Jonathan Dunn/1988/Wec Le Mans.ay",
+    "name": "Jonathan Dunn - Wec Le Mans.ay",
+    "file": "chiptunes/Jonathan Dunn/1988/Jonathan Dunn - Wec Le Mans.ay",
     "pt3": false,
     "author": "Jonathan Dunn",
     "section": "1988"
   },
   {
-    "name": "Chase Hq.ay",
-    "file": "chiptunes/Jonathan Dunn/1989/Chase Hq.ay",
+    "name": "Jonathan Dunn - Chase Hq.ay",
+    "file": "chiptunes/Jonathan Dunn/1989/Jonathan Dunn - Chase Hq.ay",
     "pt3": false,
     "author": "Jonathan Dunn",
     "section": "1989"
   },
   {
-    "name": "Renegade 3 - The Final Chapter.ay",
-    "file": "chiptunes/Jonathan Dunn/1989/Renegade 3 - The Final Chapter.ay",
+    "name": "Jonathan Dunn - Renegade 3 - The Final Chapter.ay",
+    "file": "chiptunes/Jonathan Dunn/1989/Jonathan Dunn - Renegade 3 - The Final Chapter.ay",
     "pt3": false,
     "author": "Jonathan Dunn",
     "section": "1989"
   },
   {
-    "name": "The New Zealand Story.ay",
-    "file": "chiptunes/Jonathan Dunn/1989/The New Zealand Story.ay",
+    "name": "Jonathan Dunn - The New Zealand Story.ay",
+    "file": "chiptunes/Jonathan Dunn/1989/Jonathan Dunn - The New Zealand Story.ay",
     "pt3": false,
     "author": "Jonathan Dunn",
     "section": "1989"
   },
   {
-    "name": "Puzznic.ay",
-    "file": "chiptunes/Jonathan Dunn/1990/Puzznic.ay",
+    "name": "Jonathan Dunn - Puzznic.ay",
+    "file": "chiptunes/Jonathan Dunn/1990/Jonathan Dunn - Puzznic.ay",
     "pt3": false,
     "author": "Jonathan Dunn",
     "section": "1990"
   },
   {
-    "name": "Battle Command.ay",
-    "file": "chiptunes/Jonathan Dunn/1991/Battle Command.ay",
+    "name": "Jonathan Dunn - Battle Command.ay",
+    "file": "chiptunes/Jonathan Dunn/1991/Jonathan Dunn - Battle Command.ay",
     "pt3": false,
     "author": "Jonathan Dunn",
     "section": "1991"
   },
   {
-    "name": "Darkman.ay",
-    "file": "chiptunes/Jonathan Dunn/1991/Darkman.ay",
+    "name": "Jonathan Dunn - Darkman.ay",
+    "file": "chiptunes/Jonathan Dunn/1991/Jonathan Dunn - Darkman.ay",
     "pt3": false,
     "author": "Jonathan Dunn",
     "section": "1991"
   },
   {
-    "name": "Simpsons - Bart Vs The Space Mutants .ay",
-    "file": "chiptunes/Jonathan Dunn/1991/Simpsons - Bart Vs The Space Mutants .ay",
+    "name": "Jonathan Dunn - Simpsons - Bart Vs The Space Mutants .ay",
+    "file": "chiptunes/Jonathan Dunn/1991/Jonathan Dunn - Simpsons - Bart Vs The Space Mutants .ay",
     "pt3": false,
     "author": "Jonathan Dunn",
     "section": "1991"
   },
   {
-    "name": "The Addams Family.ay",
-    "file": "chiptunes/Jonathan Dunn/1991/The Addams Family.ay",
+    "name": "Jonathan Dunn - The Addams Family.ay",
+    "file": "chiptunes/Jonathan Dunn/1991/Jonathan Dunn - The Addams Family.ay",
     "pt3": false,
     "author": "Jonathan Dunn",
     "section": "1991"
   },
   {
-    "name": "Total Recall.ay",
-    "file": "chiptunes/Jonathan Dunn/1991/Total Recall.ay",
+    "name": "Jonathan Dunn - Total Recall.ay",
+    "file": "chiptunes/Jonathan Dunn/1991/Jonathan Dunn - Total Recall.ay",
     "pt3": false,
     "author": "Jonathan Dunn",
     "section": "1991"
@@ -43297,15 +38895,6 @@ var AYPLAYLIST_DATA = [
     "time": "02:03"
   },
   {
-    "name": "virgin_6.fym",
-    "file": "chiptunes/Kent/virgin_6.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Kent",
-    "section": null,
-    "time": "00:15"
-  },
-  {
     "name": "virgin_8.fym",
     "file": "chiptunes/Kent/virgin_8.fym",
     "pt3": false,
@@ -44834,6 +40423,14 @@ var AYPLAYLIST_DATA = [
   {
     "name": "SUXOMANI.pt3",
     "file": "chiptunes/Key-Jee/1999/SUXOMANI.pt3",
+    "pt3": false,
+    "author": "Key-Jee",
+    "section": "1999",
+    "time": "00:31"
+  },
+  {
+    "name": "TEST_PM.ftc",
+    "file": "chiptunes/Key-Jee/1999/TEST_PM.ftc",
     "pt3": false,
     "author": "Key-Jee",
     "section": "1999",
@@ -49615,12 +45212,106 @@ var AYPLAYLIST_DATA = [
     "section": "snd"
   },
   {
-    "name": "Lamer Pinky - Calm day.pt3",
-    "file": "chiptunes/Lamer Pinky/Lamer Pinky - Calm day.pt3",
+    "name": "Lamer Pinky - FOR EVRyone (2013) (Forever 14, 1).pt3",
+    "file": "chiptunes/Lamer Pinky/2013/Lamer Pinky - FOR EVRyone (2013) (Forever 14, 1).pt3",
     "pt3": false,
     "author": "Lamer Pinky",
-    "section": null,
+    "section": "2013",
+    "time": "03:12"
+  },
+  {
+    "name": "Lamer Pinky - Signal 4 You (2014) (Forever 2014 Olympic Edition, 3).pt3",
+    "file": "chiptunes/Lamer Pinky/2014/Lamer Pinky - Signal 4 You (2014) (Forever 2014 Olympic Edition, 3).pt3",
+    "pt3": false,
+    "author": "Lamer Pinky",
+    "section": "2014",
+    "time": "03:35"
+  },
+  {
+    "name": "Lamer Pinky - End of Gemba (2015).pt3",
+    "file": "chiptunes/Lamer Pinky/2015/Lamer Pinky - End of Gemba (2015).pt3",
+    "pt3": false,
+    "author": "Lamer Pinky",
+    "section": "2015",
+    "time": "03:53"
+  },
+  {
+    "name": "Lamer Pinky - Last Generation (2015).pt3",
+    "file": "chiptunes/Lamer Pinky/2015/Lamer Pinky - Last Generation (2015).pt3",
+    "pt3": false,
+    "author": "Lamer Pinky",
+    "section": "2015",
+    "time": "04:38"
+  },
+  {
+    "name": "Lamer Pinky - Way To Unity (2015) (Chaos Constructions 2015, 5).ay",
+    "file": "chiptunes/Lamer Pinky/2015/Lamer Pinky - Way To Unity (2015) (Chaos Constructions 2015, 5).ay",
+    "pt3": false,
+    "author": "Lamer Pinky",
+    "section": "2015"
+  },
+  {
+    "name": "Lamer Pinky - Eternal Defender (2016) (Forever 2016 - Defender of the 8 Bits, 1).ay",
+    "file": "chiptunes/Lamer Pinky/2016/Lamer Pinky - Eternal Defender (2016) (Forever 2016 - Defender of the 8 Bits, 1).ay",
+    "pt3": false,
+    "author": "Lamer Pinky",
+    "section": "2016"
+  },
+  {
+    "name": "Lamer Pinky - Soul of Atlantis (2018) (FOReVER 2018 &#039;The 8-Bit Atlantis&#039;, 2).pt3",
+    "file": "chiptunes/Lamer Pinky/2018/Lamer Pinky - Soul of Atlantis (2018) (FOReVER 2018 &#039;The 8-Bit Atlantis&#039;, 2).pt3",
+    "pt3": false,
+    "author": "Lamer Pinky",
+    "section": "2018",
+    "time": "01:51"
+  },
+  {
+    "name": "Lamer Pinky - Empty Island (2019) (speccy.pl party 2019.1, 1).pt3",
+    "file": "chiptunes/Lamer Pinky/2019/Lamer Pinky - Empty Island (2019) (speccy.pl party 2019.1, 1).pt3",
+    "pt3": false,
+    "author": "Lamer Pinky",
+    "section": "2019",
+    "time": "01:59"
+  },
+  {
+    "name": "Lamer Pinky - Void ost (2021) (DiHalt 2021).pt3",
+    "file": "chiptunes/Lamer Pinky/2021/Lamer Pinky - Void ost (2021) (DiHalt 2021).pt3",
+    "pt3": false,
+    "author": "Lamer Pinky",
+    "section": "2021",
+    "time": "01:37"
+  },
+  {
+    "name": "Lamer Pinky - Calm day (2022) (speccy.pl party 2022.1, 4).pt3",
+    "file": "chiptunes/Lamer Pinky/2022/Lamer Pinky - Calm day (2022) (speccy.pl party 2022.1, 4).pt3",
+    "pt3": false,
+    "author": "Lamer Pinky",
+    "section": "2022",
     "time": "02:07"
+  },
+  {
+    "name": "Lamer Pinky - Another Story (2023) (speccy.pl party 2023.1, 3).pt3",
+    "file": "chiptunes/Lamer Pinky/2023/Lamer Pinky - Another Story (2023) (speccy.pl party 2023.1, 3).pt3",
+    "pt3": false,
+    "author": "Lamer Pinky",
+    "section": "2023",
+    "time": "02:11"
+  },
+  {
+    "name": "Lamer Pinky - Waiting 4 Robot (2023) (FOReVER 2023 - ROBOT, 3).pt3",
+    "file": "chiptunes/Lamer Pinky/2023/Lamer Pinky - Waiting 4 Robot (2023) (FOReVER 2023 - ROBOT, 3).pt3",
+    "pt3": false,
+    "author": "Lamer Pinky",
+    "section": "2023",
+    "time": "01:55"
+  },
+  {
+    "name": "Lamer Pinky - System Stable (2025) (speccy.pl party 2025, 4).pt3",
+    "file": "chiptunes/Lamer Pinky/2025/Lamer Pinky - System Stable (2025) (speccy.pl party 2025, 4).pt3",
+    "pt3": false,
+    "author": "Lamer Pinky",
+    "section": "2025",
+    "time": "02:03"
   },
   {
     "name": "ZXF02_06.asc",
@@ -51239,6 +46930,14 @@ var AYPLAYLIST_DATA = [
     "time": "02:21"
   },
   {
+    "name": "BLEST.psc",
+    "file": "chiptunes/Mast/1998/BLEST.psc",
+    "pt3": false,
+    "author": "Mast",
+    "section": "1998",
+    "time": "02:21"
+  },
+  {
     "name": "Cannon.pt3",
     "file": "chiptunes/Mast/1998/Cannon.pt3",
     "pt3": false,
@@ -51287,6 +46986,14 @@ var AYPLAYLIST_DATA = [
     "time": "01:49"
   },
   {
+    "name": "GUITAR.psc",
+    "file": "chiptunes/Mast/1998/GUITAR.psc",
+    "pt3": false,
+    "author": "Mast",
+    "section": "1998",
+    "time": "01:49"
+  },
+  {
     "name": "G_Music!.pt3",
     "file": "chiptunes/Mast/1998/G_Music!.pt3",
     "pt3": false,
@@ -51311,6 +47018,14 @@ var AYPLAYLIST_DATA = [
     "time": "01:23"
   },
   {
+    "name": "mast13.psc",
+    "file": "chiptunes/Mast/1998/mast13.psc",
+    "pt3": false,
+    "author": "Mast",
+    "section": "1998",
+    "time": "01:23"
+  },
+  {
     "name": "mast14.pt3",
     "file": "chiptunes/Mast/1998/mast14.pt3",
     "pt3": false,
@@ -51321,6 +47036,22 @@ var AYPLAYLIST_DATA = [
   {
     "name": "mast15.pt3",
     "file": "chiptunes/Mast/1998/mast15.pt3",
+    "pt3": false,
+    "author": "Mast",
+    "section": "1998",
+    "time": "00:31"
+  },
+  {
+    "name": "mast16.psc",
+    "file": "chiptunes/Mast/1998/mast16.psc",
+    "pt3": false,
+    "author": "Mast",
+    "section": "1998",
+    "time": "00:31"
+  },
+  {
+    "name": "mast17.psc",
+    "file": "chiptunes/Mast/1998/mast17.psc",
     "pt3": false,
     "author": "Mast",
     "section": "1998",
@@ -52623,6 +48354,14 @@ var AYPLAYLIST_DATA = [
     "time": "00:56"
   },
   {
+    "name": "TANKZAG.psc",
+    "file": "chiptunes/Mast/TANKZAG.psc",
+    "pt3": false,
+    "author": "Mast",
+    "section": null,
+    "time": "00:56"
+  },
+  {
     "name": "tech!.pt2",
     "file": "chiptunes/Mast/tech!.pt2",
     "pt3": false,
@@ -53105,15 +48844,6 @@ var AYPLAYLIST_DATA = [
     "time": "03:04"
   },
   {
-    "name": "starinheritancefight.fym",
-    "file": "chiptunes/Matthias/starinheritancefight.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Matthias",
-    "section": null,
-    "time": "00:15"
-  },
-  {
     "name": "starinheritancemovie.fym",
     "file": "chiptunes/Matthias/starinheritancemovie.fym",
     "pt3": false,
@@ -53439,6 +49169,54 @@ var AYPLAYLIST_DATA = [
     "author": "mborik",
     "section": null,
     "time": "03:06"
+  },
+  {
+    "name": "mborik - Harmonics (2014) (Forever 2014 Olympic Edition, 1).pt3",
+    "file": "chiptunes/mborik/mborik - Harmonics (2014) (Forever 2014 Olympic Edition, 1).pt3",
+    "pt3": false,
+    "author": "mborik",
+    "section": null,
+    "time": "01:32"
+  },
+  {
+    "name": "mborik - NextDash (2026).pt3",
+    "file": "chiptunes/mborik/mborik - NextDash (2026).pt3",
+    "pt3": false,
+    "author": "mborik",
+    "section": null,
+    "time": "03:20"
+  },
+  {
+    "name": "mborik - Quotlibet (2020).pt3",
+    "file": "chiptunes/mborik/mborik - Quotlibet (2020).pt3",
+    "pt3": false,
+    "author": "mborik",
+    "section": null,
+    "time": "02:08"
+  },
+  {
+    "name": "mborik - Serenity (2009) (FOReVER_neXt, 5).pt3",
+    "file": "chiptunes/mborik/mborik - Serenity (2009) (FOReVER_neXt, 5).pt3",
+    "pt3": false,
+    "author": "mborik",
+    "section": null,
+    "time": "02:30"
+  },
+  {
+    "name": "mborik - Squares (2014).pt3",
+    "file": "chiptunes/mborik/mborik - Squares (2014).pt3",
+    "pt3": false,
+    "author": "mborik",
+    "section": null,
+    "time": "02:14"
+  },
+  {
+    "name": "mborik - Zak-zaka-zak-zak (2016) (Forever 2016 - Defender of the 8 Bits, 4).pt3",
+    "file": "chiptunes/mborik/mborik - Zak-zaka-zak-zak (2016) (Forever 2016 - Defender of the 8 Bits, 4).pt3",
+    "pt3": false,
+    "author": "mborik",
+    "section": null,
+    "time": "01:27"
   },
   {
     "name": "Mch - Cumembert Light.pt3",
@@ -57137,6 +52915,54 @@ var AYPLAYLIST_DATA = [
     "time": "04:36"
   },
   {
+    "name": "MmcM - Adventure.pt3",
+    "file": "chiptunes/MmcM/2012/MmcM - Adventure.pt3",
+    "pt3": false,
+    "author": "MmcM",
+    "section": "2012",
+    "time": "02:14"
+  },
+  {
+    "name": "MmcM - Dizzy In Cave.pt3",
+    "file": "chiptunes/MmcM/2012/MmcM - Dizzy In Cave.pt3",
+    "pt3": false,
+    "author": "MmcM",
+    "section": "2012",
+    "time": "03:58"
+  },
+  {
+    "name": "MmcM - Dizzy Night Museum.pt3",
+    "file": "chiptunes/MmcM/2012/MmcM - Dizzy Night Museum.pt3",
+    "pt3": false,
+    "author": "MmcM",
+    "section": "2012",
+    "time": "01:40"
+  },
+  {
+    "name": "MmcM - Doubtful Future.pt3",
+    "file": "chiptunes/MmcM/2012/MmcM - Doubtful Future.pt3",
+    "pt3": false,
+    "author": "MmcM",
+    "section": "2012",
+    "time": "02:57"
+  },
+  {
+    "name": "MmcM - Forest Conflict.pt3",
+    "file": "chiptunes/MmcM/2012/MmcM - Forest Conflict.pt3",
+    "pt3": false,
+    "author": "MmcM",
+    "section": "2012",
+    "time": "01:59"
+  },
+  {
+    "name": "MmcM - Spring Warm Day.pt3",
+    "file": "chiptunes/MmcM/2012/MmcM - Spring Warm Day.pt3",
+    "pt3": false,
+    "author": "MmcM",
+    "section": "2012",
+    "time": "04:36"
+  },
+  {
     "name": "2013_mmcm-beyond_time.pt3",
     "file": "chiptunes/MmcM/2013/2013_mmcm-beyond_time.pt3",
     "pt3": false,
@@ -57813,223 +53639,695 @@ var AYPLAYLIST_DATA = [
     "time": "02:22"
   },
   {
-    "name": "2021_MmcM-Di_Too_Halt.pt3",
-    "file": "chiptunes/MmcM/2021/2021_MmcM-Di_Too_Halt.pt3",
+    "name": "MmcM - Di Too Halt.pt3",
+    "file": "chiptunes/MmcM/2021/MmcM - Di Too Halt.pt3",
     "pt3": false,
     "author": "MmcM",
     "section": "2021",
     "time": "02:41"
   },
   {
-    "name": "2021_MmcM-Heed_Me_Now.pt3",
-    "file": "chiptunes/MmcM/2021/2021_MmcM-Heed_Me_Now.pt3",
+    "name": "MmcM - Heed Me Now.pt3",
+    "file": "chiptunes/MmcM/2021/MmcM - Heed Me Now.pt3",
     "pt3": false,
     "author": "MmcM",
     "section": "2021",
     "time": "02:54"
   },
   {
-    "name": "2021_MmcM-Simplicity.pt3",
-    "file": "chiptunes/MmcM/2021/2021_MmcM-Simplicity.pt3",
+    "name": "MmcM - Simplicity.pt3",
+    "file": "chiptunes/MmcM/2021/MmcM - Simplicity.pt3",
     "pt3": false,
     "author": "MmcM",
     "section": "2021",
     "time": "01:59"
   },
   {
-    "name": "2021_MmcM-WaL'sOk.pt3",
-    "file": "chiptunes/MmcM/2021/2021_MmcM-WaL'sOk.pt3",
+    "name": "MmcM - WaL'sOk.pt3",
+    "file": "chiptunes/MmcM/2021/MmcM - WaL'sOk.pt3",
     "pt3": false,
     "author": "MmcM",
     "section": "2021",
     "time": "02:23"
   },
   {
-    "name": "2022_MmcM-Arpeggios_Are_My_Favorite.pt3",
-    "file": "chiptunes/MmcM/2022/2022_MmcM-Arpeggios_Are_My_Favorite.pt3",
+    "name": "MmcM - Arpeggios Are My Favorite.pt3",
+    "file": "chiptunes/MmcM/2022/MmcM - Arpeggios Are My Favorite.pt3",
     "pt3": false,
     "author": "MmcM",
     "section": "2022",
     "time": "03:09"
   },
   {
-    "name": "2022_MmcM-Autumn_CAFe.pt3",
-    "file": "chiptunes/MmcM/2022/2022_MmcM-Autumn_CAFe.pt3",
+    "name": "MmcM - Autumn CAFe.pt3",
+    "file": "chiptunes/MmcM/2022/MmcM - Autumn CAFe.pt3",
     "pt3": false,
     "author": "MmcM",
     "section": "2022",
     "time": "01:01"
   },
   {
-    "name": "2022_mmcm-Do_You_Still_Dream.pt3",
-    "file": "chiptunes/MmcM/2022/2022_mmcm-Do_You_Still_Dream.pt3",
+    "name": "MmcM - Do You Still Dream.pt3",
+    "file": "chiptunes/MmcM/2022/MmcM - Do You Still Dream.pt3",
     "pt3": false,
     "author": "MmcM",
     "section": "2022",
     "time": "04:36"
   },
   {
-    "name": "2022_MmcM-Fall_Changes_CAFe2022.pt3",
-    "file": "chiptunes/MmcM/2022/2022_MmcM-Fall_Changes_CAFe2022.pt3",
+    "name": "MmcM - Fall Changes CAFe 2022.pt3",
+    "file": "chiptunes/MmcM/2022/MmcM - Fall Changes CAFe 2022.pt3",
     "pt3": false,
     "author": "MmcM",
     "section": "2022",
     "time": "03:00"
   },
   {
-    "name": "2022_mmcm-process_of_hacking.pt3",
-    "file": "chiptunes/MmcM/2022/2022_mmcm-process_of_hacking.pt3",
+    "name": "MmcM - Process Of Hacking.pt3",
+    "file": "chiptunes/MmcM/2022/MmcM - Process Of Hacking.pt3",
     "pt3": false,
     "author": "MmcM",
     "section": "2022",
     "time": "01:24"
   },
   {
-    "name": "2022_mmcm-summer_trip.pt3",
-    "file": "chiptunes/MmcM/2022/2022_mmcm-summer_trip.pt3",
+    "name": "MmcM - Summer Trip.pt3",
+    "file": "chiptunes/MmcM/2022/MmcM - Summer Trip.pt3",
     "pt3": false,
     "author": "MmcM",
     "section": "2022",
     "time": "02:26"
   },
   {
-    "name": "2022_mmcm-the_winter_gathering.pt3",
-    "file": "chiptunes/MmcM/2022/2022_mmcm-the_winter_gathering.pt3",
+    "name": "MmcM - The Winter Gathering.pt3",
+    "file": "chiptunes/MmcM/2022/MmcM - The Winter Gathering.pt3",
     "pt3": false,
     "author": "MmcM",
     "section": "2022",
     "time": "02:18"
   },
   {
-    "name": "2023_MmcM-Anthem_of_Тatarstan_ReMmcMix.pt3",
-    "file": "chiptunes/MmcM/2023/2023_MmcM-Anthem_of_Тatarstan_ReMmcMix.pt3",
+    "name": "MmcM - Anthem Of Тatarstan ReMmcMix.pt3",
+    "file": "chiptunes/MmcM/2023/MmcM - Anthem Of Тatarstan ReMmcMix.pt3",
     "pt3": false,
     "author": "MmcM",
     "section": "2023",
     "time": "02:30"
   },
   {
-    "name": "2023_mmcm-christmas_holidays.pt3",
-    "file": "chiptunes/MmcM/2023/2023_mmcm-christmas_holidays.pt3",
+    "name": "MmcM - Christmas Holidays.pt3",
+    "file": "chiptunes/MmcM/2023/MmcM - Christmas Holidays.pt3",
     "pt3": false,
     "author": "MmcM",
     "section": "2023",
     "time": "01:48"
   },
   {
-    "name": "2023_MmcM-Cogitationem.vt2",
-    "file": "chiptunes/MmcM/2023/2023_MmcM-Cogitationem.vt2",
-    "pt3": false,
-    "turbo": false,
-    "title": "2023_MmcM-Cogitationem",
-    "author": "MmcM",
-    "section": "2023",
-    "modules": 1,
-    "time": "02:26"
-  },
-  {
-    "name": "2023_MmcM-Cogitationem_lp.pt3",
-    "file": "chiptunes/MmcM/2023/2023_MmcM-Cogitationem_lp.pt3",
+    "name": "MmcM - Cogitationem (Loop).pt3",
+    "file": "chiptunes/MmcM/2023/MmcM - Cogitationem (Loop).pt3",
     "pt3": false,
     "author": "MmcM",
     "section": "2023",
     "time": "01:40"
   },
   {
-    "name": "2023_MmcM-Demodulation.pt3",
-    "file": "chiptunes/MmcM/2023/2023_MmcM-Demodulation.pt3",
+    "name": "MmcM - Cogitationem.vt2",
+    "file": "chiptunes/MmcM/2023/MmcM - Cogitationem.vt2",
+    "pt3": false,
+    "turbo": false,
+    "title": "MmcM - Cogitationem",
+    "author": "MmcM",
+    "section": "2023",
+    "modules": 1,
+    "time": "02:26"
+  },
+  {
+    "name": "MmcM - Demodulation.pt3",
+    "file": "chiptunes/MmcM/2023/MmcM - Demodulation.pt3",
     "pt3": false,
     "author": "MmcM",
     "section": "2023",
     "time": "00:54"
   },
   {
-    "name": "2023_MmcM-Vision_Re.pt3",
-    "file": "chiptunes/MmcM/2023/2023_MmcM-Vision_Re.pt3",
+    "name": "MmcM - Vision Re.pt3",
+    "file": "chiptunes/MmcM/2023/MmcM - Vision Re.pt3",
     "pt3": false,
     "author": "MmcM",
     "section": "2023",
     "time": "01:55"
   },
   {
-    "name": "2023_mmcm-winter_fragment_2023_afterfix.pt3",
-    "file": "chiptunes/MmcM/2023/2023_mmcm-winter_fragment_2023_afterfix.pt3",
+    "name": "MmcM - Winter Fragment 2023.pt3",
+    "file": "chiptunes/MmcM/2023/MmcM - Winter Fragment 2023.pt3",
     "pt3": false,
     "author": "MmcM",
     "section": "2023",
     "time": "02:34"
   },
   {
-    "name": "2024_mmcm-fragment2024_realtime.pt3",
-    "file": "chiptunes/MmcM/2024/2024_mmcm-fragment2024_realtime.pt3",
+    "name": "MmcM - Fragment 2024 Realtime.pt3",
+    "file": "chiptunes/MmcM/2024/MmcM - Fragment 2024 Realtime.pt3",
     "pt3": false,
     "author": "MmcM",
     "section": "2024",
     "time": "02:41"
   },
   {
-    "name": "2024_MmcM-Summer_of_Kazan.pt3",
-    "file": "chiptunes/MmcM/2024/2024_MmcM-Summer_of_Kazan.pt3",
+    "name": "MmcM - Summer Of Kazan.pt3",
+    "file": "chiptunes/MmcM/2024/MmcM - Summer Of Kazan.pt3",
     "pt3": false,
     "author": "MmcM",
     "section": "2024",
     "time": "02:57"
   },
   {
-    "name": "2024_mmcm-the_bright_rays_of_you.pt3",
-    "file": "chiptunes/MmcM/2024/2024_mmcm-the_bright_rays_of_you.pt3",
+    "name": "MmcM - The Bright Rays Of You.pt3",
+    "file": "chiptunes/MmcM/2024/MmcM - The Bright Rays Of You.pt3",
     "pt3": false,
     "author": "MmcM",
     "section": "2024",
     "time": "03:12"
   },
   {
-    "name": "2024_MmcM-The_Wind_Of_Change.pt3",
-    "file": "chiptunes/MmcM/2024/2024_MmcM-The_Wind_Of_Change.pt3",
+    "name": "MmcM - The Wind Of Change.pt3",
+    "file": "chiptunes/MmcM/2024/MmcM - The Wind Of Change.pt3",
     "pt3": false,
     "author": "MmcM",
     "section": "2024",
     "time": "02:26"
   },
   {
-    "name": "2025-01-05_MmcM_-_Climbing.pt3",
-    "file": "chiptunes/MmcM/2025/2025-01-05_MmcM_-_Climbing.pt3",
+    "name": "MmcM - Climbing.pt3",
+    "file": "chiptunes/MmcM/2025/MmcM - Climbing.pt3",
     "pt3": false,
     "author": "MmcM",
     "section": "2025",
     "time": "02:37"
   },
   {
-    "name": "2025-01-06_mmcm_-_xiaomi_vs_mmcm.pt3",
-    "file": "chiptunes/MmcM/2025/2025-01-06_mmcm_-_xiaomi_vs_mmcm.pt3",
+    "name": "MmcM - Xiaomi Vs MmcM.pt3",
+    "file": "chiptunes/MmcM/2025/MmcM - Xiaomi Vs MmcM.pt3",
     "pt3": false,
     "author": "MmcM",
     "section": "2025",
     "time": "02:44"
   },
   {
-    "name": "2026-01-08_MmcM-Keep_Doing_It.pt3",
-    "file": "chiptunes/MmcM/2026/2026-01-08_MmcM-Keep_Doing_It.pt3",
-    "pt3": false,
-    "author": "MmcM",
-    "section": "2026",
-    "time": "02:14"
-  },
-  {
-    "name": "2026-01-09_MmcM-DiHalt_Winterzz.pt3",
-    "file": "chiptunes/MmcM/2026/2026-01-09_MmcM-DiHalt_Winterzz.pt3",
+    "name": "MmcM - DiHalt Winterzz.pt3",
+    "file": "chiptunes/MmcM/2026/MmcM - DiHalt Winterzz.pt3",
     "pt3": false,
     "author": "MmcM",
     "section": "2026",
     "time": "02:34"
   },
   {
-    "name": "2026-07-09_MmcM-July_Weekend.pt3",
-    "file": "chiptunes/MmcM/2026/2026-07-09_MmcM-July_Weekend.pt3",
+    "name": "MmcM - July Weekend.pt3",
+    "file": "chiptunes/MmcM/2026/MmcM - July Weekend.pt3",
     "pt3": false,
     "author": "MmcM",
     "section": "2026",
     "time": "02:53"
+  },
+  {
+    "name": "MmcM - Keep Doing It.pt3",
+    "file": "chiptunes/MmcM/2026/MmcM - Keep Doing It.pt3",
+    "pt3": false,
+    "author": "MmcM",
+    "section": "2026",
+    "time": "02:14"
+  },
+  {
+    "name": "MmcM - ANDREW.asc",
+    "file": "chiptunes/MmcM/asc/MmcM - ANDREW.asc",
+    "pt3": false,
+    "author": "MmcM",
+    "section": "asc",
+    "time": "00:15"
+  },
+  {
+    "name": "MmcM - BRED1.asc",
+    "file": "chiptunes/MmcM/asc/MmcM - BRED1.asc",
+    "pt3": false,
+    "author": "MmcM",
+    "section": "asc",
+    "time": "03:08"
+  },
+  {
+    "name": "MmcM - BRED10.asc",
+    "file": "chiptunes/MmcM/asc/MmcM - BRED10.asc",
+    "pt3": false,
+    "author": "MmcM",
+    "section": "asc",
+    "time": "04:06"
+  },
+  {
+    "name": "MmcM - BRED11.asc",
+    "file": "chiptunes/MmcM/asc/MmcM - BRED11.asc",
+    "pt3": false,
+    "author": "MmcM",
+    "section": "asc",
+    "time": "02:18"
+  },
+  {
+    "name": "MmcM - BRED12.asc",
+    "file": "chiptunes/MmcM/asc/MmcM - BRED12.asc",
+    "pt3": false,
+    "author": "MmcM",
+    "section": "asc",
+    "time": "01:55"
+  },
+  {
+    "name": "MmcM - BRED13.asc",
+    "file": "chiptunes/MmcM/asc/MmcM - BRED13.asc",
+    "pt3": false,
+    "author": "MmcM",
+    "section": "asc",
+    "time": "02:59"
+  },
+  {
+    "name": "MmcM - BRED14.asc",
+    "file": "chiptunes/MmcM/asc/MmcM - BRED14.asc",
+    "pt3": false,
+    "author": "MmcM",
+    "section": "asc",
+    "time": "02:03"
+  },
+  {
+    "name": "MmcM - BRED15.asc",
+    "file": "chiptunes/MmcM/asc/MmcM - BRED15.asc",
+    "pt3": false,
+    "author": "MmcM",
+    "section": "asc",
+    "time": "02:49"
+  },
+  {
+    "name": "MmcM - BRED16.asc",
+    "file": "chiptunes/MmcM/asc/MmcM - BRED16.asc",
+    "pt3": false,
+    "author": "MmcM",
+    "section": "asc",
+    "time": "02:49"
+  },
+  {
+    "name": "MmcM - BRED2.asc",
+    "file": "chiptunes/MmcM/asc/MmcM - BRED2.asc",
+    "pt3": false,
+    "author": "MmcM",
+    "section": "asc",
+    "time": "04:06"
+  },
+  {
+    "name": "MmcM - BRED3.asc",
+    "file": "chiptunes/MmcM/asc/MmcM - BRED3.asc",
+    "pt3": false,
+    "author": "MmcM",
+    "section": "asc",
+    "time": "02:41"
+  },
+  {
+    "name": "MmcM - BRED4.asc",
+    "file": "chiptunes/MmcM/asc/MmcM - BRED4.asc",
+    "pt3": false,
+    "author": "MmcM",
+    "section": "asc",
+    "time": "02:08"
+  },
+  {
+    "name": "MmcM - BRED5.asc",
+    "file": "chiptunes/MmcM/asc/MmcM - BRED5.asc",
+    "pt3": false,
+    "author": "MmcM",
+    "section": "asc",
+    "time": "03:04"
+  },
+  {
+    "name": "MmcM - BRED6.asc",
+    "file": "chiptunes/MmcM/asc/MmcM - BRED6.asc",
+    "pt3": false,
+    "author": "MmcM",
+    "section": "asc",
+    "time": "03:35"
+  },
+  {
+    "name": "MmcM - BRED7.asc",
+    "file": "chiptunes/MmcM/asc/MmcM - BRED7.asc",
+    "pt3": false,
+    "author": "MmcM",
+    "section": "asc",
+    "time": "03:25"
+  },
+  {
+    "name": "MmcM - BRED8.asc",
+    "file": "chiptunes/MmcM/asc/MmcM - BRED8.asc",
+    "pt3": false,
+    "author": "MmcM",
+    "section": "asc",
+    "time": "02:34"
+  },
+  {
+    "name": "MmcM - BRED9.asc",
+    "file": "chiptunes/MmcM/asc/MmcM - BRED9.asc",
+    "pt3": false,
+    "author": "MmcM",
+    "section": "asc",
+    "time": "03:35"
+  },
+  {
+    "name": "MmcM - CHIJIK.asc",
+    "file": "chiptunes/MmcM/asc/MmcM - CHIJIK.asc",
+    "pt3": false,
+    "author": "MmcM",
+    "section": "asc",
+    "time": "00:58"
+  },
+  {
+    "name": "MmcM - CRAZY.asc",
+    "file": "chiptunes/MmcM/asc/MmcM - CRAZY.asc",
+    "pt3": false,
+    "author": "MmcM",
+    "section": "asc",
+    "time": "03:50"
+  },
+  {
+    "name": "MmcM - CYBORG'S.asc",
+    "file": "chiptunes/MmcM/asc/MmcM - CYBORG'S.asc",
+    "pt3": false,
+    "author": "MmcM",
+    "section": "asc",
+    "time": "02:05"
+  },
+  {
+    "name": "MmcM - DISKERROR.asc",
+    "file": "chiptunes/MmcM/asc/MmcM - DISKERROR.asc",
+    "pt3": false,
+    "author": "MmcM",
+    "section": "asc",
+    "time": "04:11"
+  },
+  {
+    "name": "MmcM - FANT1.asc",
+    "file": "chiptunes/MmcM/asc/MmcM - FANT1.asc",
+    "pt3": false,
+    "author": "MmcM",
+    "section": "asc",
+    "time": "01:42"
+  },
+  {
+    "name": "MmcM - GUYS.asc",
+    "file": "chiptunes/MmcM/asc/MmcM - GUYS.asc",
+    "pt3": false,
+    "author": "MmcM",
+    "section": "asc",
+    "time": "00:31"
+  },
+  {
+    "name": "MmcM - HARMONIC.asc",
+    "file": "chiptunes/MmcM/asc/MmcM - HARMONIC.asc",
+    "pt3": false,
+    "author": "MmcM",
+    "section": "asc",
+    "time": "01:48"
+  },
+  {
+    "name": "MmcM - HIHI.asc",
+    "file": "chiptunes/MmcM/asc/MmcM - HIHI.asc",
+    "pt3": false,
+    "author": "MmcM",
+    "section": "asc",
+    "time": "01:01"
+  },
+  {
+    "name": "MmcM - HIM.asc",
+    "file": "chiptunes/MmcM/asc/MmcM - HIM.asc",
+    "pt3": false,
+    "author": "MmcM",
+    "section": "asc",
+    "time": "02:05"
+  },
+  {
+    "name": "MmcM - HM!.asc",
+    "file": "chiptunes/MmcM/asc/MmcM - HM!.asc",
+    "pt3": false,
+    "author": "MmcM",
+    "section": "asc",
+    "time": "01:01"
+  },
+  {
+    "name": "MmcM - INFERNO.asc",
+    "file": "chiptunes/MmcM/asc/MmcM - INFERNO.asc",
+    "pt3": false,
+    "author": "MmcM",
+    "section": "asc",
+    "time": "03:25"
+  },
+  {
+    "name": "MmcM - KLASS!.asc",
+    "file": "chiptunes/MmcM/asc/MmcM - KLASS!.asc",
+    "pt3": false,
+    "author": "MmcM",
+    "section": "asc",
+    "time": "01:01"
+  },
+  {
+    "name": "MmcM - MELANHOL.asc",
+    "file": "chiptunes/MmcM/asc/MmcM - MELANHOL.asc",
+    "pt3": false,
+    "author": "MmcM",
+    "section": "asc",
+    "time": "03:25"
+  },
+  {
+    "name": "MmcM - MYM1.asc",
+    "file": "chiptunes/MmcM/asc/MmcM - MYM1.asc",
+    "pt3": false,
+    "author": "MmcM",
+    "section": "asc",
+    "time": "00:54"
+  },
+  {
+    "name": "MmcM - MYM2.asc",
+    "file": "chiptunes/MmcM/asc/MmcM - MYM2.asc",
+    "pt3": false,
+    "author": "MmcM",
+    "section": "asc",
+    "time": "01:32"
+  },
+  {
+    "name": "MmcM - MYM3.asc",
+    "file": "chiptunes/MmcM/asc/MmcM - MYM3.asc",
+    "pt3": false,
+    "author": "MmcM",
+    "section": "asc",
+    "time": "01:48"
+  },
+  {
+    "name": "MmcM - MYM4.asc",
+    "file": "chiptunes/MmcM/asc/MmcM - MYM4.asc",
+    "pt3": false,
+    "author": "MmcM",
+    "section": "asc",
+    "time": "01:01"
+  },
+  {
+    "name": "MmcM - MYM6.asc",
+    "file": "chiptunes/MmcM/asc/MmcM - MYM6.asc",
+    "pt3": false,
+    "author": "MmcM",
+    "section": "asc",
+    "time": "01:32"
+  },
+  {
+    "name": "MmcM - MYMP.asc",
+    "file": "chiptunes/MmcM/asc/MmcM - MYMP.asc",
+    "pt3": false,
+    "author": "MmcM",
+    "section": "asc",
+    "time": "00:31"
+  },
+  {
+    "name": "MmcM - MYMP7.asc",
+    "file": "chiptunes/MmcM/asc/MmcM - MYMP7.asc",
+    "pt3": false,
+    "author": "MmcM",
+    "section": "asc",
+    "time": "01:09"
+  },
+  {
+    "name": "MmcM - MYMPROB.asc",
+    "file": "chiptunes/MmcM/asc/MmcM - MYMPROB.asc",
+    "pt3": false,
+    "author": "MmcM",
+    "section": "asc",
+    "time": "00:31"
+  },
+  {
+    "name": "MmcM - POP.asc",
+    "file": "chiptunes/MmcM/asc/MmcM - POP.asc",
+    "pt3": false,
+    "author": "MmcM",
+    "section": "asc",
+    "time": "00:12"
+  },
+  {
+    "name": "MmcM - PRELUD2.asc",
+    "file": "chiptunes/MmcM/asc/MmcM - PRELUD2.asc",
+    "pt3": false,
+    "author": "MmcM",
+    "section": "asc",
+    "time": "02:18"
+  },
+  {
+    "name": "MmcM - PRELUDIA.asc",
+    "file": "chiptunes/MmcM/asc/MmcM - PRELUDIA.asc",
+    "pt3": false,
+    "author": "MmcM",
+    "section": "asc",
+    "time": "03:25"
+  },
+  {
+    "name": "MmcM - PRO1.asc",
+    "file": "chiptunes/MmcM/asc/MmcM - PRO1.asc",
+    "pt3": false,
+    "author": "MmcM",
+    "section": "asc",
+    "time": "00:08"
+  },
+  {
+    "name": "MmcM - PROB.asc",
+    "file": "chiptunes/MmcM/asc/MmcM - PROB.asc",
+    "pt3": false,
+    "author": "MmcM",
+    "section": "asc",
+    "time": "00:36"
+  },
+  {
+    "name": "MmcM - PROB2.asc",
+    "file": "chiptunes/MmcM/asc/MmcM - PROB2.asc",
+    "pt3": false,
+    "author": "MmcM",
+    "section": "asc",
+    "time": "01:01"
+  },
+  {
+    "name": "MmcM - RAIN.asc",
+    "file": "chiptunes/MmcM/asc/MmcM - RAIN.asc",
+    "pt3": false,
+    "author": "MmcM",
+    "section": "asc",
+    "time": "07:19"
+  },
+  {
+    "name": "MmcM - REALTIME.asc",
+    "file": "chiptunes/MmcM/asc/MmcM - REALTIME.asc",
+    "pt3": false,
+    "author": "MmcM",
+    "section": "asc",
+    "time": "01:37"
+  },
+  {
+    "name": "MmcM - SARAN1.asc",
+    "file": "chiptunes/MmcM/asc/MmcM - SARAN1.asc",
+    "pt3": false,
+    "author": "MmcM",
+    "section": "asc",
+    "time": "03:25"
+  },
+  {
+    "name": "MmcM - SER1.asc",
+    "file": "chiptunes/MmcM/asc/MmcM - SER1.asc",
+    "pt3": false,
+    "author": "MmcM",
+    "section": "asc",
+    "time": "02:41"
+  },
+  {
+    "name": "MmcM - SER2.asc",
+    "file": "chiptunes/MmcM/asc/MmcM - SER2.asc",
+    "pt3": false,
+    "author": "MmcM",
+    "section": "asc",
+    "time": "00:15"
+  },
+  {
+    "name": "MmcM - SPACE.asc",
+    "file": "chiptunes/MmcM/asc/MmcM - SPACE.asc",
+    "pt3": false,
+    "author": "MmcM",
+    "section": "asc",
+    "time": "00:51"
+  },
+  {
+    "name": "MmcM - STARS.asc",
+    "file": "chiptunes/MmcM/asc/MmcM - STARS.asc",
+    "pt3": false,
+    "author": "MmcM",
+    "section": "asc",
+    "time": "05:46"
+  },
+  {
+    "name": "MmcM - STEG+.asc",
+    "file": "chiptunes/MmcM/asc/MmcM - STEG+.asc",
+    "pt3": false,
+    "author": "MmcM",
+    "section": "asc",
+    "time": "00:08"
+  },
+  {
+    "name": "MmcM - TAK1.asc",
+    "file": "chiptunes/MmcM/asc/MmcM - TAK1.asc",
+    "pt3": false,
+    "author": "MmcM",
+    "section": "asc",
+    "time": "03:04"
+  },
+  {
+    "name": "MmcM - TAK2.asc",
+    "file": "chiptunes/MmcM/asc/MmcM - TAK2.asc",
+    "pt3": false,
+    "author": "MmcM",
+    "section": "asc",
+    "time": "04:06"
+  },
+  {
+    "name": "MmcM - TECHNO.asc",
+    "file": "chiptunes/MmcM/asc/MmcM - TECHNO.asc",
+    "pt3": false,
+    "author": "MmcM",
+    "section": "asc",
+    "time": "01:40"
+  },
+  {
+    "name": "MmcM - TREN1.asc",
+    "file": "chiptunes/MmcM/asc/MmcM - TREN1.asc",
+    "pt3": false,
+    "author": "MmcM",
+    "section": "asc",
+    "time": "01:48"
+  },
+  {
+    "name": "MmcM - TREN2.asc",
+    "file": "chiptunes/MmcM/asc/MmcM - TREN2.asc",
+    "pt3": false,
+    "author": "MmcM",
+    "section": "asc",
+    "time": "02:05"
+  },
+  {
+    "name": "MmcM - YES!!!.asc",
+    "file": "chiptunes/MmcM/asc/MmcM - YES!!!.asc",
+    "pt3": false,
+    "author": "MmcM",
+    "section": "asc",
+    "time": "00:46"
+  },
+  {
+    "name": "MmcM - ZAG.asc",
+    "file": "chiptunes/MmcM/asc/MmcM - ZAG.asc",
+    "pt3": false,
+    "author": "MmcM",
+    "section": "asc",
+    "time": "00:31"
   },
   {
     "name": "Mofobaru - pimp_my_spectrum.pt3",
@@ -59421,6 +55719,13 @@ var AYPLAYLIST_DATA = [
     "author": "Nik-O",
     "section": "2018 kopy",
     "time": "00:31"
+  },
+  {
+    "name": "20 Years Of Silence by nq (used table 2).ftc",
+    "file": "chiptunes/Nik-O/2018 nokopy/20 Years Of Silence by nq (used table 2).ftc",
+    "pt3": false,
+    "author": "Nik-O",
+    "section": "2018 nokopy"
   },
   {
     "name": "nq-20-years-of-silence.pt3",
@@ -63110,15 +59415,6 @@ var AYPLAYLIST_DATA = [
     "time": "06:12"
   },
   {
-    "name": "aleksander.fym",
-    "file": "chiptunes/Push/aleksander.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Push",
-    "section": null,
-    "time": "00:04"
-  },
-  {
     "name": "amber.fym",
     "file": "chiptunes/Push/amber.fym",
     "pt3": false,
@@ -63560,15 +59856,6 @@ var AYPLAYLIST_DATA = [
     "time": "01:17"
   },
   {
-    "name": "drop.fym",
-    "file": "chiptunes/Push/drop.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Push",
-    "section": null,
-    "time": "00:04"
-  },
-  {
     "name": "effects-1.fym",
     "file": "chiptunes/Push/effects-1.fym",
     "pt3": false,
@@ -63956,33 +60243,6 @@ var AYPLAYLIST_DATA = [
     "time": "04:36"
   },
   {
-    "name": "intro.fym",
-    "file": "chiptunes/Push/intro.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Push",
-    "section": null,
-    "time": "00:10"
-  },
-  {
-    "name": "intro2.fym",
-    "file": "chiptunes/Push/intro2.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Push",
-    "section": null,
-    "time": "00:01"
-  },
-  {
-    "name": "intro3.fym",
-    "file": "chiptunes/Push/intro3.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Push",
-    "section": null,
-    "time": "00:10"
-  },
-  {
     "name": "j-1050.fym",
     "file": "chiptunes/Push/j-1050.fym",
     "pt3": false,
@@ -64244,15 +60504,6 @@ var AYPLAYLIST_DATA = [
     "time": "03:25"
   },
   {
-    "name": "mrak.fym",
-    "file": "chiptunes/Push/mrak.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Push",
-    "section": null,
-    "time": "00:26"
-  },
-  {
     "name": "mt-2000.fym",
     "file": "chiptunes/Push/mt-2000.fym",
     "pt3": false,
@@ -64278,15 +60529,6 @@ var AYPLAYLIST_DATA = [
     "author": "Push",
     "section": null,
     "time": "07:19"
-  },
-  {
-    "name": "mt2000_intro.fym",
-    "file": "chiptunes/Push/mt2000_intro.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Push",
-    "section": null,
-    "time": "00:29"
   },
   {
     "name": "music box.fym",
@@ -64406,15 +60648,6 @@ var AYPLAYLIST_DATA = [
     "time": "06:50"
   },
   {
-    "name": "push2.fym",
-    "file": "chiptunes/Push/push2.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Push",
-    "section": null,
-    "time": "00:06"
-  },
-  {
     "name": "push3.fym",
     "file": "chiptunes/Push/push3.fym",
     "pt3": false,
@@ -64422,24 +60655,6 @@ var AYPLAYLIST_DATA = [
     "author": "Push",
     "section": null,
     "time": "02:49"
-  },
-  {
-    "name": "push67.fym",
-    "file": "chiptunes/Push/push67.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Push",
-    "section": null,
-    "time": "00:10"
-  },
-  {
-    "name": "push68.fym",
-    "file": "chiptunes/Push/push68.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Push",
-    "section": null,
-    "time": "00:46"
   },
   {
     "name": "resty.fym",
@@ -64467,15 +60682,6 @@ var AYPLAYLIST_DATA = [
     "author": "Push",
     "section": null,
     "time": "05:28"
-  },
-  {
-    "name": "sfx2.fym",
-    "file": "chiptunes/Push/sfx2.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Push",
-    "section": null,
-    "time": "00:04"
   },
   {
     "name": "sleep.fym",
@@ -64791,15 +60997,6 @@ var AYPLAYLIST_DATA = [
     "author": "Push",
     "section": null,
     "time": "03:15"
-  },
-  {
-    "name": "t-30.fym",
-    "file": "chiptunes/Push/t-30.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Push",
-    "section": null,
-    "time": "00:20"
   },
   {
     "name": "t-40.fym",
@@ -65666,15 +61863,6 @@ var AYPLAYLIST_DATA = [
     "time": "03:06"
   },
   {
-    "name": "history6_1.fym",
-    "file": "chiptunes/Random/history6_1.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Random",
-    "section": null,
-    "time": "00:06"
-  },
-  {
     "name": "history6_2.fym",
     "file": "chiptunes/Random/history6_2.fym",
     "pt3": false,
@@ -65691,15 +61879,6 @@ var AYPLAYLIST_DATA = [
     "author": "Random",
     "section": null,
     "time": "04:54"
-  },
-  {
-    "name": "historyintro.fym",
-    "file": "chiptunes/Random/historyintro.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Random",
-    "section": null,
-    "time": "00:26"
   },
   {
     "name": "historyintrojungle.fym",
@@ -65825,15 +62004,6 @@ var AYPLAYLIST_DATA = [
     "time": "00:49"
   },
   {
-    "name": "12hz.int.fym",
-    "file": "chiptunes/Riskej/12hz.int.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Riskej",
-    "section": null,
-    "time": "00:08"
-  },
-  {
     "name": "2004.fym",
     "file": "chiptunes/Riskej/2004.fym",
     "pt3": false,
@@ -65933,15 +62103,6 @@ var AYPLAYLIST_DATA = [
     "time": "01:12"
   },
   {
-    "name": "armiya.fym",
-    "file": "chiptunes/Riskej/armiya.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Riskej",
-    "section": null,
-    "time": "00:10"
-  },
-  {
     "name": "aroundrj.fym",
     "file": "chiptunes/Riskej/aroundrj.fym",
     "pt3": false,
@@ -66023,15 +62184,6 @@ var AYPLAYLIST_DATA = [
     "time": "02:30"
   },
   {
-    "name": "bonus wn.fym",
-    "file": "chiptunes/Riskej/bonus wn.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Riskej",
-    "section": null,
-    "time": "00:08"
-  },
-  {
     "name": "brutal.fym",
     "file": "chiptunes/Riskej/brutal.fym",
     "pt3": false,
@@ -66084,15 +62236,6 @@ var AYPLAYLIST_DATA = [
     "author": "Riskej",
     "section": null,
     "time": "00:34"
-  },
-  {
-    "name": "captivity.fym",
-    "file": "chiptunes/Riskej/captivity.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Riskej",
-    "section": null,
-    "time": "00:10"
   },
   {
     "name": "ch_death.fym",
@@ -66383,15 +62526,6 @@ var AYPLAYLIST_DATA = [
     "time": "02:25"
   },
   {
-    "name": "ggggggggggddeeetooooeeroeroere.fym",
-    "file": "chiptunes/Riskej/ggggggggggddeeetooooeeroeroere.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Riskej",
-    "section": null,
-    "time": "00:04"
-  },
-  {
     "name": "giftleo.fym",
     "file": "chiptunes/Riskej/giftleo.fym",
     "pt3": false,
@@ -66500,15 +62634,6 @@ var AYPLAYLIST_DATA = [
     "time": "02:59"
   },
   {
-    "name": "intro.fym",
-    "file": "chiptunes/Riskej/intro.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Riskej",
-    "section": null,
-    "time": "00:12"
-  },
-  {
     "name": "intrtune.fym",
     "file": "chiptunes/Riskej/intrtune.fym",
     "pt3": false,
@@ -66579,15 +62704,6 @@ var AYPLAYLIST_DATA = [
     "author": "Riskej",
     "section": null,
     "time": "00:51"
-  },
-  {
-    "name": "khe.ske.fym",
-    "file": "chiptunes/Riskej/khe.ske.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Riskej",
-    "section": null,
-    "time": "00:07"
   },
   {
     "name": "kruto.fym",
@@ -66678,15 +62794,6 @@ var AYPLAYLIST_DATA = [
     "author": "Riskej",
     "section": null,
     "time": "02:50"
-  },
-  {
-    "name": "looped2.fym",
-    "file": "chiptunes/Riskej/looped2.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Riskej",
-    "section": null,
-    "time": "00:26"
   },
   {
     "name": "lostmemo.fym",
@@ -66887,24 +62994,6 @@ var AYPLAYLIST_DATA = [
     "time": "00:47"
   },
   {
-    "name": "myslll.fym",
-    "file": "chiptunes/Riskej/myslll.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Riskej",
-    "section": null,
-    "time": "00:04"
-  },
-  {
-    "name": "nedumay..fym",
-    "file": "chiptunes/Riskej/nedumay..fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Riskej",
-    "section": null,
-    "time": "00:06"
-  },
-  {
     "name": "newr.fym",
     "file": "chiptunes/Riskej/newr.fym",
     "pt3": false,
@@ -66923,15 +63012,6 @@ var AYPLAYLIST_DATA = [
     "time": "01:20"
   },
   {
-    "name": "nextleve.fym",
-    "file": "chiptunes/Riskej/nextleve.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Riskej",
-    "section": null,
-    "time": "00:05"
-  },
-  {
     "name": "nightmar.fym",
     "file": "chiptunes/Riskej/nightmar.fym",
     "pt3": false,
@@ -66939,15 +63019,6 @@ var AYPLAYLIST_DATA = [
     "author": "Riskej",
     "section": null,
     "time": "01:08"
-  },
-  {
-    "name": "nightss.fym",
-    "file": "chiptunes/Riskej/nightss.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Riskej",
-    "section": null,
-    "time": "00:15"
   },
   {
     "name": "noisedrm.fym",
@@ -67274,15 +63345,6 @@ var AYPLAYLIST_DATA = [
     "time": "01:04"
   },
   {
-    "name": "ready_go.fym",
-    "file": "chiptunes/Riskej/ready_go.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Riskej",
-    "section": null,
-    "time": "00:04"
-  },
-  {
     "name": "reflecti.fym",
     "file": "chiptunes/Riskej/reflecti.fym",
     "pt3": false,
@@ -67387,15 +63449,6 @@ var AYPLAYLIST_DATA = [
     "time": "00:51"
   },
   {
-    "name": "s1new.fym",
-    "file": "chiptunes/Riskej/s1new.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Riskej",
-    "section": null,
-    "time": "01:06"
-  },
-  {
     "name": "sardelka.fym",
     "file": "chiptunes/Riskej/sardelka.fym",
     "pt3": false,
@@ -67459,15 +63512,6 @@ var AYPLAYLIST_DATA = [
     "time": "02:01"
   },
   {
-    "name": "sextro.fym",
-    "file": "chiptunes/Riskej/sextro.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Riskej",
-    "section": null,
-    "time": "00:35"
-  },
-  {
     "name": "se}hatre.fym",
     "file": "chiptunes/Riskej/se}hatre.fym",
     "pt3": false,
@@ -67484,15 +63528,6 @@ var AYPLAYLIST_DATA = [
     "author": "Riskej",
     "section": null,
     "time": "01:35"
-  },
-  {
-    "name": "sketch1..fym",
-    "file": "chiptunes/Riskej/sketch1..fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Riskej",
-    "section": null,
-    "time": "00:13"
   },
   {
     "name": "sketches.fym",
@@ -67520,24 +63555,6 @@ var AYPLAYLIST_DATA = [
     "author": "Riskej",
     "section": null,
     "time": "01:26"
-  },
-  {
-    "name": "smile.fym",
-    "file": "chiptunes/Riskej/smile.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Riskej",
-    "section": null,
-    "time": "00:03"
-  },
-  {
-    "name": "splatter.fym",
-    "file": "chiptunes/Riskej/splatter.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Riskej",
-    "section": null,
-    "time": "00:36"
   },
   {
     "name": "stupid.theme       vol2.6.fym",
@@ -67574,15 +63591,6 @@ var AYPLAYLIST_DATA = [
     "author": "Riskej",
     "section": null,
     "time": "02:21"
-  },
-  {
-    "name": "timeigho.fym",
-    "file": "chiptunes/Riskej/timeigho.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Riskej",
-    "section": null,
-    "time": "00:12"
   },
   {
     "name": "times1.fym",
@@ -67666,15 +63674,6 @@ var AYPLAYLIST_DATA = [
     "time": "00:35"
   },
   {
-    "name": "transparent cry 1.fym",
-    "file": "chiptunes/Riskej/transparent cry 1.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Riskej",
-    "section": null,
-    "time": "00:08"
-  },
-  {
     "name": "transparent cry 2.fym",
     "file": "chiptunes/Riskej/transparent cry 2.fym",
     "pt3": false,
@@ -67718,15 +63717,6 @@ var AYPLAYLIST_DATA = [
     "author": "Riskej",
     "section": null,
     "time": "01:53"
-  },
-  {
-    "name": "u lose 2.fym",
-    "file": "chiptunes/Riskej/u lose 2.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Riskej",
-    "section": null,
-    "time": "00:05"
   },
   {
     "name": "ulife;sd.fym",
@@ -67792,33 +63782,6 @@ var AYPLAYLIST_DATA = [
     "time": "00:27"
   },
   {
-    "name": "win1.fym",
-    "file": "chiptunes/Riskej/win1.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Riskej",
-    "section": null,
-    "time": "00:05"
-  },
-  {
-    "name": "win2.fym",
-    "file": "chiptunes/Riskej/win2.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Riskej",
-    "section": null,
-    "time": "00:04"
-  },
-  {
-    "name": "win22.fym",
-    "file": "chiptunes/Riskej/win22.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Riskej",
-    "section": null,
-    "time": "00:04"
-  },
-  {
     "name": "win3.fym",
     "file": "chiptunes/Riskej/win3.fym",
     "pt3": false,
@@ -67862,24 +63825,6 @@ var AYPLAYLIST_DATA = [
     "author": "Riskej",
     "section": null,
     "time": "01:55"
-  },
-  {
-    "name": "wwwwwwww.fym",
-    "file": "chiptunes/Riskej/wwwwwwww.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Riskej",
-    "section": null,
-    "time": "00:13"
-  },
-  {
-    "name": "xlife;promotion.fym",
-    "file": "chiptunes/Riskej/xlife;promotion.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Riskej",
-    "section": null,
-    "time": "00:05"
   },
   {
     "name": "xworld.fym",
@@ -67927,15 +63872,6 @@ var AYPLAYLIST_DATA = [
     "time": "00:57"
   },
   {
-    "name": "zx.fym",
-    "file": "chiptunes/Riskej/zx.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Riskej",
-    "section": null,
-    "time": "00:12"
-  },
-  {
     "name": "_da eto zhe prosto soni_spl4gift.fym",
     "file": "chiptunes/Riskej/_da eto zhe prosto soni_spl4gift.fym",
     "pt3": false,
@@ -67943,15 +63879,6 @@ var AYPLAYLIST_DATA = [
     "author": "Riskej",
     "section": null,
     "time": "00:46"
-  },
-  {
-    "name": "______.fym",
-    "file": "chiptunes/Riskej/______.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Riskej",
-    "section": null,
-    "time": "00:04"
   },
   {
     "name": "dragon_s lair 2 - escape from singe_s castle.fym",
@@ -68115,517 +64042,437 @@ var AYPLAYLIST_DATA = [
     "time": "05:26"
   },
   {
-    "name": "1_5minut.fym",
-    "file": "chiptunes/Sairoos/1_5minut.fym",
+    "name": "ALCOHOLICAL NIGHT.pt2",
+    "file": "chiptunes/Sairoos/1997/ALCOHOLICAL NIGHT.pt2",
     "pt3": false,
-    "pt3File": null,
     "author": "Sairoos",
-    "section": null,
-    "time": "01:24"
-  },
-  {
-    "name": "5th element 1.fym",
-    "file": "chiptunes/Sairoos/5th element 1.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Sairoos",
-    "section": null,
-    "time": "03:25"
-  },
-  {
-    "name": "5th element 2.fym",
-    "file": "chiptunes/Sairoos/5th element 2.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Sairoos",
-    "section": null,
-    "time": "01:09"
-  },
-  {
-    "name": "adrenalize 1.fym",
-    "file": "chiptunes/Sairoos/adrenalize 1.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Sairoos",
-    "section": null,
-    "time": "03:25"
-  },
-  {
-    "name": "aftertherain.fym",
-    "file": "chiptunes/Sairoos/aftertherain.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Sairoos",
-    "section": null,
-    "time": "01:12"
-  },
-  {
-    "name": "alcoholical night.fym",
-    "file": "chiptunes/Sairoos/alcoholical night.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Sairoos",
-    "section": null,
+    "section": "1997",
     "time": "01:32"
   },
   {
-    "name": "ballada.fym",
-    "file": "chiptunes/Sairoos/ballada.fym",
+    "name": "Buzz#09.pt2",
+    "file": "chiptunes/Sairoos/1997/Buzz#09.pt2",
     "pt3": false,
-    "pt3File": null,
     "author": "Sairoos",
-    "section": null,
-    "time": "00:38"
-  },
-  {
-    "name": "buzz09.fym",
-    "file": "chiptunes/Sairoos/buzz09.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Sairoos",
-    "section": null,
+    "section": "1997",
     "time": "02:11"
   },
   {
-    "name": "buzz10.fym",
-    "file": "chiptunes/Sairoos/buzz10.fym",
+    "name": "Buzz#10.pt2",
+    "file": "chiptunes/Sairoos/1997/Buzz#10.pt2",
     "pt3": false,
-    "pt3File": null,
     "author": "Sairoos",
-    "section": null,
+    "section": "1997",
     "time": "02:59"
   },
   {
-    "name": "buzz11.fym",
-    "file": "chiptunes/Sairoos/buzz11.fym",
+    "name": "Buzz#11.pt2",
+    "file": "chiptunes/Sairoos/1997/Buzz#11.pt2",
     "pt3": false,
-    "pt3File": null,
     "author": "Sairoos",
-    "section": null,
+    "section": "1997",
     "time": "01:55"
   },
   {
-    "name": "buzz12.fym",
-    "file": "chiptunes/Sairoos/buzz12.fym",
+    "name": "ChPart1.pt2",
+    "file": "chiptunes/Sairoos/1997/ChPart1.pt2",
     "pt3": false,
-    "pt3File": null,
     "author": "Sairoos",
-    "section": null,
-    "time": "02:26"
-  },
-  {
-    "name": "buzz13.fym",
-    "file": "chiptunes/Sairoos/buzz13.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Sairoos",
-    "section": null,
-    "time": "02:34"
-  },
-  {
-    "name": "buzz14_1.fym",
-    "file": "chiptunes/Sairoos/buzz14_1.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Sairoos",
-    "section": null,
-    "time": "03:56"
-  },
-  {
-    "name": "buzz16_1.fym",
-    "file": "chiptunes/Sairoos/buzz16_1.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Sairoos",
-    "section": null,
-    "time": "02:03"
-  },
-  {
-    "name": "buzz16_2.fym",
-    "file": "chiptunes/Sairoos/buzz16_2.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Sairoos",
-    "section": null,
-    "time": "02:03"
-  },
-  {
-    "name": "buzz18_1.fym",
-    "file": "chiptunes/Sairoos/buzz18_1.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Sairoos",
-    "section": null,
-    "time": "01:37"
-  },
-  {
-    "name": "chiwo.fym",
-    "file": "chiptunes/Sairoos/chiwo.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Sairoos",
-    "section": null,
-    "time": "03:43"
-  },
-  {
-    "name": "chpart1.fym",
-    "file": "chiptunes/Sairoos/chpart1.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Sairoos",
-    "section": null,
+    "section": "1997",
     "time": "01:48"
   },
   {
-    "name": "chpart2.fym",
-    "file": "chiptunes/Sairoos/chpart2.fym",
+    "name": "ChPart2.pt2",
+    "file": "chiptunes/Sairoos/1997/ChPart2.pt2",
     "pt3": false,
-    "pt3File": null,
     "author": "Sairoos",
-    "section": null,
+    "section": "1997",
     "time": "01:17"
   },
   {
-    "name": "climbatize hidden.fym",
-    "file": "chiptunes/Sairoos/climbatize hidden.fym",
+    "name": "Climbatize Hidden.pt2",
+    "file": "chiptunes/Sairoos/1997/Climbatize Hidden.pt2",
     "pt3": false,
-    "pt3File": null,
     "author": "Sairoos",
-    "section": null,
+    "section": "1997",
     "time": "03:06"
   },
   {
-    "name": "climbatize.fym",
-    "file": "chiptunes/Sairoos/climbatize.fym",
+    "name": "EXTASY.pt2",
+    "file": "chiptunes/Sairoos/1997/EXTASY.pt2",
     "pt3": false,
-    "pt3File": null,
     "author": "Sairoos",
-    "section": null,
-    "time": "04:10"
-  },
-  {
-    "name": "dogma1.fym",
-    "file": "chiptunes/Sairoos/dogma1.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Sairoos",
-    "section": null,
-    "time": "01:04"
-  },
-  {
-    "name": "dogma2.fym",
-    "file": "chiptunes/Sairoos/dogma2.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Sairoos",
-    "section": null,
-    "time": "05:00"
-  },
-  {
-    "name": "extasy.fym",
-    "file": "chiptunes/Sairoos/extasy.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Sairoos",
-    "section": null,
+    "section": "1997",
     "time": "01:30"
   },
   {
-    "name": "e_motion.fym",
-    "file": "chiptunes/Sairoos/e_motion.fym",
+    "name": "E_Motion.pt2",
+    "file": "chiptunes/Sairoos/1997/E_Motion.pt2",
     "pt3": false,
-    "pt3File": null,
     "author": "Sairoos",
-    "section": null,
+    "section": "1997",
     "time": "02:46"
   },
   {
-    "name": "fairkhight.fym",
-    "file": "chiptunes/Sairoos/fairkhight.fym",
+    "name": "FairKhight.pt2",
+    "file": "chiptunes/Sairoos/1997/FairKhight.pt2",
     "pt3": false,
-    "pt3File": null,
     "author": "Sairoos",
-    "section": null,
-    "time": "05:10"
+    "section": "1997",
+    "time": "05:14"
   },
   {
-    "name": "fl_sh_ei.fym",
-    "file": "chiptunes/Sairoos/fl_sh_ei.fym",
+    "name": "GAS.pt2",
+    "file": "chiptunes/Sairoos/1997/GAS.pt2",
     "pt3": false,
-    "pt3File": null,
     "author": "Sairoos",
-    "section": null,
-    "time": "01:55"
-  },
-  {
-    "name": "gas.fym",
-    "file": "chiptunes/Sairoos/gas.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Sairoos",
-    "section": null,
+    "section": "1997",
     "time": "04:21"
   },
   {
-    "name": "hei.fym",
-    "file": "chiptunes/Sairoos/hei.fym",
+    "name": "HEI.pt2",
+    "file": "chiptunes/Sairoos/1997/HEI.pt2",
     "pt3": false,
-    "pt3File": null,
     "author": "Sairoos",
-    "section": null,
+    "section": "1997",
     "time": "01:13"
   },
   {
-    "name": "heresy6.fym",
-    "file": "chiptunes/Sairoos/heresy6.fym",
+    "name": "INTRO12.pt2",
+    "file": "chiptunes/Sairoos/1997/INTRO12.pt2",
     "pt3": false,
-    "pt3File": null,
     "author": "Sairoos",
-    "section": null,
-    "time": "03:13"
-  },
-  {
-    "name": "higgledy.fym",
-    "file": "chiptunes/Sairoos/higgledy.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Sairoos",
-    "section": null,
-    "time": "01:53"
-  },
-  {
-    "name": "ilovepops.fym",
-    "file": "chiptunes/Sairoos/ilovepops.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Sairoos",
-    "section": null,
-    "time": "05:53"
-  },
-  {
-    "name": "inb2.fym",
-    "file": "chiptunes/Sairoos/inb2.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Sairoos",
-    "section": null,
-    "time": "02:22"
-  },
-  {
-    "name": "inbetween (version).fym",
-    "file": "chiptunes/Sairoos/inbetween (version).fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Sairoos",
-    "section": null,
-    "time": "04:04"
-  },
-  {
-    "name": "inbetween.fym",
-    "file": "chiptunes/Sairoos/inbetween.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Sairoos",
-    "section": null,
-    "time": "04:04"
-  },
-  {
-    "name": "intro12.fym",
-    "file": "chiptunes/Sairoos/intro12.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Sairoos",
-    "section": null,
+    "section": "1997",
     "time": "02:40"
   },
   {
-    "name": "invasion.fym",
-    "file": "chiptunes/Sairoos/invasion.fym",
+    "name": "JOKE.pt2",
+    "file": "chiptunes/Sairoos/1997/JOKE.pt2",
     "pt3": false,
-    "pt3File": null,
     "author": "Sairoos",
-    "section": null,
+    "section": "1997",
+    "time": "00:56"
+  },
+  {
+    "name": "OOPS.pt2",
+    "file": "chiptunes/Sairoos/1997/OOPS.pt2",
+    "pt3": false,
+    "author": "Sairoos",
+    "section": "1997",
     "time": "02:34"
   },
   {
-    "name": "joke.fym",
-    "file": "chiptunes/Sairoos/joke.fym",
+    "name": "StOChaos.pt2",
+    "file": "chiptunes/Sairoos/1997/StOChaos.pt2",
     "pt3": false,
-    "pt3File": null,
     "author": "Sairoos",
-    "section": null,
-    "time": "00:52"
-  },
-  {
-    "name": "kosme 00 intro.fym",
-    "file": "chiptunes/Sairoos/kosme 00 intro.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Sairoos",
-    "section": null,
-    "time": "01:42"
-  },
-  {
-    "name": "lifeforms.fym",
-    "file": "chiptunes/Sairoos/lifeforms.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Sairoos",
-    "section": null,
-    "time": "04:13"
-  },
-  {
-    "name": "lifetrack.fym",
-    "file": "chiptunes/Sairoos/lifetrack.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Sairoos",
-    "section": null,
-    "time": "04:31"
-  },
-  {
-    "name": "lifetrack2.fym",
-    "file": "chiptunes/Sairoos/lifetrack2.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Sairoos",
-    "section": null,
-    "time": "02:00"
-  },
-  {
-    "name": "madnight.fym",
-    "file": "chiptunes/Sairoos/madnight.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Sairoos",
-    "section": null,
-    "time": "03:48"
-  },
-  {
-    "name": "mutombo.fym",
-    "file": "chiptunes/Sairoos/mutombo.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Sairoos",
-    "section": null,
-    "time": "00:05"
-  },
-  {
-    "name": "muzzakakaka.fym",
-    "file": "chiptunes/Sairoos/muzzakakaka.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Sairoos",
-    "section": null,
-    "time": "01:41"
-  },
-  {
-    "name": "napalm.fym",
-    "file": "chiptunes/Sairoos/napalm.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Sairoos",
-    "section": null,
-    "time": "04:57"
-  },
-  {
-    "name": "nether earth end.fym",
-    "file": "chiptunes/Sairoos/nether earth end.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Sairoos",
-    "section": null,
-    "time": "00:15"
-  },
-  {
-    "name": "oops.fym",
-    "file": "chiptunes/Sairoos/oops.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Sairoos",
-    "section": null,
-    "time": "02:34"
-  },
-  {
-    "name": "paracels.fym",
-    "file": "chiptunes/Sairoos/paracels.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Sairoos",
-    "section": null,
-    "time": "01:27"
-  },
-  {
-    "name": "ppk.fym",
-    "file": "chiptunes/Sairoos/ppk.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Sairoos",
-    "section": null,
-    "time": "00:13"
-  },
-  {
-    "name": "sairoos - inbeatween.fym",
-    "file": "chiptunes/Sairoos/sairoos - inbeatween.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Sairoos",
-    "section": null,
-    "time": "04:31"
-  },
-  {
-    "name": "spy.fym",
-    "file": "chiptunes/Sairoos/spy.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Sairoos",
-    "section": null,
-    "time": "01:32"
-  },
-  {
-    "name": "sr7.fym",
-    "file": "chiptunes/Sairoos/sr7.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Sairoos",
-    "section": null,
-    "time": "04:13"
-  },
-  {
-    "name": "stochaos.fym",
-    "file": "chiptunes/Sairoos/stochaos.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Sairoos",
-    "section": null,
+    "section": "1997",
     "time": "00:20"
   },
   {
-    "name": "suxxophone.fym",
-    "file": "chiptunes/Sairoos/suxxophone.fym",
+    "name": "TechnoMx.pt2",
+    "file": "chiptunes/Sairoos/1997/TechnoMx.pt2",
     "pt3": false,
-    "pt3File": null,
     "author": "Sairoos",
-    "section": null,
-    "time": "00:15"
-  },
-  {
-    "name": "suxxophone2.fym",
-    "file": "chiptunes/Sairoos/suxxophone2.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Sairoos",
-    "section": null,
-    "time": "01:13"
-  },
-  {
-    "name": "technomx.fym",
-    "file": "chiptunes/Sairoos/technomx.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Sairoos",
-    "section": null,
+    "section": "1997",
     "time": "01:55"
+  },
+  {
+    "name": "1_5minut.psc",
+    "file": "chiptunes/Sairoos/1998/1_5minut.psc",
+    "pt3": false,
+    "author": "Sairoos",
+    "section": "1998"
+  },
+  {
+    "name": "5th Element #1.psc",
+    "file": "chiptunes/Sairoos/1998/5th Element #1.psc",
+    "pt3": false,
+    "author": "Sairoos",
+    "section": "1998"
+  },
+  {
+    "name": "5th Element #2.psc",
+    "file": "chiptunes/Sairoos/1998/5th Element #2.psc",
+    "pt3": false,
+    "author": "Sairoos",
+    "section": "1998"
+  },
+  {
+    "name": "Adrenalize #1.psc",
+    "file": "chiptunes/Sairoos/1998/Adrenalize #1.psc",
+    "pt3": false,
+    "author": "Sairoos",
+    "section": "1998"
+  },
+  {
+    "name": "AfterTheRain.psc",
+    "file": "chiptunes/Sairoos/1998/AfterTheRain.psc",
+    "pt3": false,
+    "author": "Sairoos",
+    "section": "1998"
+  },
+  {
+    "name": "BALLADA.pt2",
+    "file": "chiptunes/Sairoos/1998/BALLADA.pt2",
+    "pt3": false,
+    "author": "Sairoos",
+    "section": "1998",
+    "time": "00:51"
+  },
+  {
+    "name": "Buzz#16_1.psc",
+    "file": "chiptunes/Sairoos/1998/Buzz#16_1.psc",
+    "pt3": false,
+    "author": "Sairoos",
+    "section": "1998",
+    "time": "00:51"
+  },
+  {
+    "name": "Buzz#16_2.pt3",
+    "file": "chiptunes/Sairoos/1998/Buzz#16_2.pt3",
+    "pt3": false,
+    "author": "Sairoos",
+    "section": "1998",
+    "time": "02:03"
+  },
+  {
+    "name": "Climbatize.pt2",
+    "file": "chiptunes/Sairoos/1998/Climbatize.pt2",
+    "pt3": false,
+    "author": "Sairoos",
+    "section": "1998",
+    "time": "04:21"
+  },
+  {
+    "name": "FL_SH_EI.psc",
+    "file": "chiptunes/Sairoos/1998/FL_SH_EI.psc",
+    "pt3": false,
+    "author": "Sairoos",
+    "section": "1998",
+    "time": "04:21"
+  },
+  {
+    "name": "HIGGLEDY.pt3",
+    "file": "chiptunes/Sairoos/1998/HIGGLEDY.pt3",
+    "pt3": false,
+    "author": "Sairoos",
+    "section": "1998",
+    "time": "01:48"
+  },
+  {
+    "name": "kosme 00 intro.psc",
+    "file": "chiptunes/Sairoos/1998/kosme 00 intro.psc",
+    "pt3": false,
+    "author": "Sairoos",
+    "section": "1998",
+    "time": "01:48"
+  },
+  {
+    "name": "LifeTrack.psc",
+    "file": "chiptunes/Sairoos/1998/LifeTrack.psc",
+    "pt3": false,
+    "author": "Sairoos",
+    "section": "1998",
+    "time": "01:48"
+  },
+  {
+    "name": "LifeTrack2.psc",
+    "file": "chiptunes/Sairoos/1998/LifeTrack2.psc",
+    "pt3": false,
+    "author": "Sairoos",
+    "section": "1998",
+    "time": "01:48"
+  },
+  {
+    "name": "MadNight.pt2",
+    "file": "chiptunes/Sairoos/1998/MadNight.pt2",
+    "pt3": false,
+    "author": "Sairoos",
+    "section": "1998",
+    "time": "03:47"
+  },
+  {
+    "name": "PARACELS.psc",
+    "file": "chiptunes/Sairoos/1998/PARACELS.psc",
+    "pt3": false,
+    "author": "Sairoos",
+    "section": "1998",
+    "time": "03:47"
+  },
+  {
+    "name": "SPY.psc",
+    "file": "chiptunes/Sairoos/1998/SPY.psc",
+    "pt3": false,
+    "author": "Sairoos",
+    "section": "1998",
+    "time": "03:47"
+  },
+  {
+    "name": "Buzz#18_1.psc",
+    "file": "chiptunes/Sairoos/1999/Buzz#18_1.psc",
+    "pt3": false,
+    "author": "Sairoos",
+    "section": "1999"
+  },
+  {
+    "name": "Invasion.psc",
+    "file": "chiptunes/Sairoos/1999/Invasion.psc",
+    "pt3": false,
+    "author": "Sairoos",
+    "section": "1999"
+  },
+  {
+    "name": "MuzzakaKaka.psc",
+    "file": "chiptunes/Sairoos/1999/MuzzakaKaka.psc",
+    "pt3": false,
+    "author": "Sairoos",
+    "section": "1999"
+  },
+  {
+    "name": "Napalm.psc",
+    "file": "chiptunes/Sairoos/1999/Napalm.psc",
+    "pt3": false,
+    "author": "Sairoos",
+    "section": "1999"
+  },
+  {
+    "name": "PPK.psc",
+    "file": "chiptunes/Sairoos/1999/PPK.psc",
+    "pt3": false,
+    "author": "Sairoos",
+    "section": "1999"
+  },
+  {
+    "name": "Suxxophone.psc",
+    "file": "chiptunes/Sairoos/1999/Suxxophone.psc",
+    "pt3": false,
+    "author": "Sairoos",
+    "section": "1999"
+  },
+  {
+    "name": "Suxxophone2.psc",
+    "file": "chiptunes/Sairoos/1999/Suxxophone2.psc",
+    "pt3": false,
+    "author": "Sairoos",
+    "section": "1999"
+  },
+  {
+    "name": "Chiwo.psc",
+    "file": "chiptunes/Sairoos/2000/Chiwo.psc",
+    "pt3": false,
+    "author": "Sairoos",
+    "section": "2000"
+  },
+  {
+    "name": "Dogma1.psc",
+    "file": "chiptunes/Sairoos/2000/Dogma1.psc",
+    "pt3": false,
+    "author": "Sairoos",
+    "section": "2000"
+  },
+  {
+    "name": "Dogma2.psc",
+    "file": "chiptunes/Sairoos/2000/Dogma2.psc",
+    "pt3": false,
+    "author": "Sairoos",
+    "section": "2000"
+  },
+  {
+    "name": "Heresy6.psc",
+    "file": "chiptunes/Sairoos/2000/Heresy6.psc",
+    "pt3": false,
+    "author": "Sairoos",
+    "section": "2000"
+  },
+  {
+    "name": "ILovePops.psc",
+    "file": "chiptunes/Sairoos/2000/ILovePops.psc",
+    "pt3": false,
+    "author": "Sairoos",
+    "section": "2000"
+  },
+  {
+    "name": "LifeForms.psc",
+    "file": "chiptunes/Sairoos/2000/LifeForms.psc",
+    "pt3": false,
+    "author": "Sairoos",
+    "section": "2000"
+  },
+  {
+    "name": "SR7.psc",
+    "file": "chiptunes/Sairoos/2000/SR7.psc",
+    "pt3": false,
+    "author": "Sairoos",
+    "section": "2000"
+  },
+  {
+    "name": "inb2.psc",
+    "file": "chiptunes/Sairoos/2002/inb2.psc",
+    "pt3": false,
+    "author": "Sairoos",
+    "section": "2002"
+  },
+  {
+    "name": "inbetween (version).psc",
+    "file": "chiptunes/Sairoos/2002/inbetween (version).psc",
+    "pt3": false,
+    "author": "Sairoos",
+    "section": "2002"
+  },
+  {
+    "name": "inbetween.psc",
+    "file": "chiptunes/Sairoos/2002/inbetween.psc",
+    "pt3": false,
+    "author": "Sairoos",
+    "section": "2002"
+  },
+  {
+    "name": "sairoos - inbeatween.psc",
+    "file": "chiptunes/Sairoos/2002/sairoos - inbeatween.psc",
+    "pt3": false,
+    "author": "Sairoos",
+    "section": "2002"
+  },
+  {
+    "name": "Buzz#12.pt2",
+    "file": "chiptunes/Sairoos/other/Buzz#12.pt2",
+    "pt3": false,
+    "author": "Sairoos",
+    "section": "other",
+    "time": "02:26"
+  },
+  {
+    "name": "Buzz#13.pt3",
+    "file": "chiptunes/Sairoos/other/Buzz#13.pt3",
+    "pt3": false,
+    "author": "Sairoos",
+    "section": "other",
+    "time": "02:34"
+  },
+  {
+    "name": "Buzz#14_1.pt2",
+    "file": "chiptunes/Sairoos/other/Buzz#14_1.pt2",
+    "pt3": false,
+    "author": "Sairoos",
+    "section": "other",
+    "time": "03:56"
+  },
+  {
+    "name": "Mutombo.psc",
+    "file": "chiptunes/Sairoos/other/Mutombo.psc",
+    "pt3": false,
+    "author": "Sairoos",
+    "section": "other",
+    "time": "03:56"
+  },
+  {
+    "name": "Nether Earth End.pt2",
+    "file": "chiptunes/Sairoos/other/Nether Earth End.pt2",
+    "pt3": false,
+    "author": "Sairoos",
+    "section": "other",
+    "time": "00:15"
   },
   {
     "name": "Scalesmann - 01_steps2heaven.pt3",
@@ -69227,15 +65074,6 @@ var AYPLAYLIST_DATA = [
     "time": "01:19"
   },
   {
-    "name": "as1.fym",
-    "file": "chiptunes/Sergant/as1.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Sergant",
-    "section": null,
-    "time": "00:06"
-  },
-  {
     "name": "backtosc.fym",
     "file": "chiptunes/Sergant/backtosc.fym",
     "pt3": false,
@@ -69506,15 +65344,6 @@ var AYPLAYLIST_DATA = [
     "time": "02:03"
   },
   {
-    "name": "kass1.fym",
-    "file": "chiptunes/Sergant/kass1.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Sergant",
-    "section": null,
-    "time": "00:06"
-  },
-  {
     "name": "kosmonova.fym",
     "file": "chiptunes/Sergant/kosmonova.fym",
     "pt3": false,
@@ -69693,15 +65522,6 @@ var AYPLAYLIST_DATA = [
     "author": "Sergant",
     "section": null,
     "time": "00:31"
-  },
-  {
-    "name": "oleg1.fym",
-    "file": "chiptunes/Sergant/oleg1.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Sergant",
-    "section": null,
-    "time": "00:08"
   },
   {
     "name": "orig_11.fym",
@@ -70334,15 +66154,6 @@ var AYPLAYLIST_DATA = [
     "time": "01:18"
   },
   {
-    "name": "intro.fym",
-    "file": "chiptunes/Seth/intro.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Seth",
-    "section": null,
-    "time": "00:18"
-  },
-  {
     "name": "iresting.fym",
     "file": "chiptunes/Seth/iresting.fym",
     "pt3": false,
@@ -70485,15 +66296,6 @@ var AYPLAYLIST_DATA = [
     "author": "Seth",
     "section": null,
     "time": "01:32"
-  },
-  {
-    "name": "muza4opi.fym",
-    "file": "chiptunes/Seth/muza4opi.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Seth",
-    "section": null,
-    "time": "00:12"
   },
   {
     "name": "mydreams.fym",
@@ -72000,15 +67802,6 @@ var AYPLAYLIST_DATA = [
     "time": "00:26"
   },
   {
-    "name": "sr1.fym",
-    "file": "chiptunes/Siril/sr1.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Siril",
-    "section": null,
-    "time": "00:10"
-  },
-  {
     "name": "ssidkwt.fym",
     "file": "chiptunes/Siril/ssidkwt.fym",
     "pt3": false,
@@ -72495,24 +68288,6 @@ var AYPLAYLIST_DATA = [
     "time": "02:18"
   },
   {
-    "name": "crazzyhouse1.fym",
-    "file": "chiptunes/Splinter/crazzyhouse1.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Splinter",
-    "section": null,
-    "time": "02:14"
-  },
-  {
-    "name": "crazzyhouse2.fym",
-    "file": "chiptunes/Splinter/crazzyhouse2.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Splinter",
-    "section": null,
-    "time": "02:14"
-  },
-  {
     "name": "dizzy.fym",
     "file": "chiptunes/Splinter/dizzy.fym",
     "pt3": false,
@@ -72538,42 +68313,6 @@ var AYPLAYLIST_DATA = [
     "author": "Splinter",
     "section": null,
     "time": "04:10"
-  },
-  {
-    "name": "illberemember1.fym",
-    "file": "chiptunes/Splinter/illberemember1.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Splinter",
-    "section": null,
-    "time": "02:41"
-  },
-  {
-    "name": "illberemember2.fym",
-    "file": "chiptunes/Splinter/illberemember2.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Splinter",
-    "section": null,
-    "time": "02:43"
-  },
-  {
-    "name": "ineedrest.fym",
-    "file": "chiptunes/Splinter/ineedrest.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Splinter",
-    "section": null,
-    "time": "02:59"
-  },
-  {
-    "name": "ineedrest2.fym",
-    "file": "chiptunes/Splinter/ineedrest2.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Splinter",
-    "section": null,
-    "time": "02:59"
   },
   {
     "name": "jumpeye.fym",
@@ -72630,44 +68369,8 @@ var AYPLAYLIST_DATA = [
     "time": "02:18"
   },
   {
-    "name": "mermaid1.fym",
-    "file": "chiptunes/Splinter/mermaid1.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Splinter",
-    "section": null,
-    "time": "02:18"
-  },
-  {
-    "name": "mermaid2.fym",
-    "file": "chiptunes/Splinter/mermaid2.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Splinter",
-    "section": null,
-    "time": "02:21"
-  },
-  {
     "name": "night.fym",
     "file": "chiptunes/Splinter/night.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Splinter",
-    "section": null,
-    "time": "02:57"
-  },
-  {
-    "name": "night1.fym",
-    "file": "chiptunes/Splinter/night1.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Splinter",
-    "section": null,
-    "time": "02:57"
-  },
-  {
-    "name": "night2.fym",
-    "file": "chiptunes/Splinter/night2.fym",
     "pt3": false,
     "pt3File": null,
     "author": "Splinter",
@@ -72684,24 +68387,6 @@ var AYPLAYLIST_DATA = [
     "time": "02:03"
   },
   {
-    "name": "nowtrance1.fym",
-    "file": "chiptunes/Splinter/nowtrance1.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Splinter",
-    "section": null,
-    "time": "02:03"
-  },
-  {
-    "name": "nowtrance2.fym",
-    "file": "chiptunes/Splinter/nowtrance2.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Splinter",
-    "section": null,
-    "time": "02:03"
-  },
-  {
     "name": "pinkvision.fym",
     "file": "chiptunes/Splinter/pinkvision.fym",
     "pt3": false,
@@ -72709,24 +68394,6 @@ var AYPLAYLIST_DATA = [
     "author": "Splinter",
     "section": null,
     "time": "03:20"
-  },
-  {
-    "name": "pinkvision1.fym",
-    "file": "chiptunes/Splinter/pinkvision1.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Splinter",
-    "section": null,
-    "time": "03:20"
-  },
-  {
-    "name": "pinkvision2.fym",
-    "file": "chiptunes/Splinter/pinkvision2.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Splinter",
-    "section": null,
-    "time": "02:03"
   },
   {
     "name": "pulsar1.fym",
@@ -73076,24 +68743,6 @@ var AYPLAYLIST_DATA = [
     "author": "Splinter",
     "section": null,
     "time": "03:12"
-  },
-  {
-    "name": "stars1.fym",
-    "file": "chiptunes/Splinter/stars1.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Splinter",
-    "section": null,
-    "time": "01:48"
-  },
-  {
-    "name": "stars2.fym",
-    "file": "chiptunes/Splinter/stars2.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Splinter",
-    "section": null,
-    "time": "01:46"
   },
   {
     "name": "test1.fym",
@@ -73707,15 +69356,6 @@ var AYPLAYLIST_DATA = [
     "time": "03:09"
   },
   {
-    "name": "dmdemo press a key.fym",
-    "file": "chiptunes/TDM/dmdemo press a key.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "TDM",
-    "section": null,
-    "time": "00:02"
-  },
-  {
     "name": "drift.fym",
     "file": "chiptunes/TDM/drift.fym",
     "pt3": false,
@@ -73936,6 +69576,14 @@ var AYPLAYLIST_DATA = [
     "file": "chiptunes/TDM/startrash.fym",
     "pt3": false,
     "pt3File": null,
+    "author": "TDM",
+    "section": null,
+    "time": "03:09"
+  },
+  {
+    "name": "TDM and Factor6 - Cover of 'Hung Up' by Madonna (2xAY ACB).sqt",
+    "file": "chiptunes/TDM/TDM and Factor6 - Cover of 'Hung Up' by Madonna (2xAY ACB).sqt",
+    "pt3": false,
     "author": "TDM",
     "section": null,
     "time": "03:09"
@@ -75141,15 +70789,6 @@ var AYPLAYLIST_DATA = [
     "time": "02:07"
   },
   {
-    "name": "13.fym",
-    "file": "chiptunes/Vad/13.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Vad",
-    "section": null,
-    "time": "01:01"
-  },
-  {
     "name": "25.04.fym",
     "file": "chiptunes/Vad/25.04.fym",
     "pt3": false,
@@ -75213,15 +70852,6 @@ var AYPLAYLIST_DATA = [
     "time": "02:27"
   },
   {
-    "name": "best.fym",
-    "file": "chiptunes/Vad/best.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Vad",
-    "section": null,
-    "time": "00:38"
-  },
-  {
     "name": "bet.rem..fym",
     "file": "chiptunes/Vad/bet.rem..fym",
     "pt3": false,
@@ -75238,15 +70868,6 @@ var AYPLAYLIST_DATA = [
     "author": "Vad",
     "section": null,
     "time": "03:01"
-  },
-  {
-    "name": "birth.fym",
-    "file": "chiptunes/Vad/birth.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Vad",
-    "section": null,
-    "time": "00:19"
   },
   {
     "name": "book.fym",
@@ -75285,15 +70906,6 @@ var AYPLAYLIST_DATA = [
     "time": "01:01"
   },
   {
-    "name": "chicken.fym",
-    "file": "chiptunes/Vad/chicken.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Vad",
-    "section": null,
-    "time": "00:06"
-  },
-  {
     "name": "compos_1.fym",
     "file": "chiptunes/Vad/compos_1.fym",
     "pt3": false,
@@ -75301,15 +70913,6 @@ var AYPLAYLIST_DATA = [
     "author": "Vad",
     "section": null,
     "time": "03:22"
-  },
-  {
-    "name": "compos_2.fym",
-    "file": "chiptunes/Vad/compos_2.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Vad",
-    "section": null,
-    "time": "00:15"
   },
   {
     "name": "compos_3.fym",
@@ -75328,24 +70931,6 @@ var AYPLAYLIST_DATA = [
     "author": "Vad",
     "section": null,
     "time": "01:48"
-  },
-  {
-    "name": "compos_5.fym",
-    "file": "chiptunes/Vad/compos_5.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Vad",
-    "section": null,
-    "time": "00:15"
-  },
-  {
-    "name": "cool_msx.fym",
-    "file": "chiptunes/Vad/cool_msx.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Vad",
-    "section": null,
-    "time": "01:01"
   },
   {
     "name": "cytrus.fym",
@@ -75456,15 +71041,6 @@ var AYPLAYLIST_DATA = [
     "time": "02:18"
   },
   {
-    "name": "f4.fym",
-    "file": "chiptunes/Vad/f4.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Vad",
-    "section": null,
-    "time": "00:31"
-  },
-  {
     "name": "facest.fym",
     "file": "chiptunes/Vad/facest.fym",
     "pt3": false,
@@ -75499,15 +71075,6 @@ var AYPLAYLIST_DATA = [
     "author": "Vad",
     "section": null,
     "time": "01:55"
-  },
-  {
-    "name": "fish.fym",
-    "file": "chiptunes/Vad/fish.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Vad",
-    "section": null,
-    "time": "00:19"
   },
   {
     "name": "fly.fym",
@@ -75562,15 +71129,6 @@ var AYPLAYLIST_DATA = [
     "author": "Vad",
     "section": null,
     "time": "00:51"
-  },
-  {
-    "name": "gt.fym",
-    "file": "chiptunes/Vad/gt.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Vad",
-    "section": null,
-    "time": "00:23"
   },
   {
     "name": "h1.fym",
@@ -75645,33 +71203,6 @@ var AYPLAYLIST_DATA = [
     "time": "03:35"
   },
   {
-    "name": "like.fym",
-    "file": "chiptunes/Vad/like.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Vad",
-    "section": null,
-    "time": "00:31"
-  },
-  {
-    "name": "lowt.fym",
-    "file": "chiptunes/Vad/lowt.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Vad",
-    "section": null,
-    "time": "00:08"
-  },
-  {
-    "name": "m1.fym",
-    "file": "chiptunes/Vad/m1.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Vad",
-    "section": null,
-    "time": "00:26"
-  },
-  {
     "name": "m1p.fym",
     "file": "chiptunes/Vad/m1p.fym",
     "pt3": false,
@@ -75708,15 +71239,6 @@ var AYPLAYLIST_DATA = [
     "time": "00:56"
   },
   {
-    "name": "math.fym",
-    "file": "chiptunes/Vad/math.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Vad",
-    "section": null,
-    "time": "00:18"
-  },
-  {
     "name": "melody.fym",
     "file": "chiptunes/Vad/melody.fym",
     "pt3": false,
@@ -75742,15 +71264,6 @@ var AYPLAYLIST_DATA = [
     "author": "Vad",
     "section": null,
     "time": "01:09"
-  },
-  {
-    "name": "moros.fym",
-    "file": "chiptunes/Vad/moros.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Vad",
-    "section": null,
-    "time": "00:18"
   },
   {
     "name": "mouse.fym",
@@ -75796,15 +71309,6 @@ var AYPLAYLIST_DATA = [
     "author": "Vad",
     "section": null,
     "time": "02:44"
-  },
-  {
-    "name": "n1.fym",
-    "file": "chiptunes/Vad/n1.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Vad",
-    "section": null,
-    "time": "00:09"
   },
   {
     "name": "nach.fym",
@@ -75870,33 +71374,6 @@ var AYPLAYLIST_DATA = [
     "time": "00:32"
   },
   {
-    "name": "nice.fym",
-    "file": "chiptunes/Vad/nice.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Vad",
-    "section": null,
-    "time": "00:15"
-  },
-  {
-    "name": "noname.fym",
-    "file": "chiptunes/Vad/noname.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Vad",
-    "section": null,
-    "time": "00:15"
-  },
-  {
-    "name": "nonsens.fym",
-    "file": "chiptunes/Vad/nonsens.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Vad",
-    "section": null,
-    "time": "00:06"
-  },
-  {
     "name": "noth.fym",
     "file": "chiptunes/Vad/noth.fym",
     "pt3": false,
@@ -75915,15 +71392,6 @@ var AYPLAYLIST_DATA = [
     "time": "00:26"
   },
   {
-    "name": "oblaka.fym",
-    "file": "chiptunes/Vad/oblaka.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Vad",
-    "section": null,
-    "time": "00:15"
-  },
-  {
     "name": "olen.fym",
     "file": "chiptunes/Vad/olen.fym",
     "pt3": false,
@@ -75940,15 +71408,6 @@ var AYPLAYLIST_DATA = [
     "author": "Vad",
     "section": null,
     "time": "02:14"
-  },
-  {
-    "name": "otpetye.fym",
-    "file": "chiptunes/Vad/otpetye.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Vad",
-    "section": null,
-    "time": "00:13"
   },
   {
     "name": "play1.fym",
@@ -75987,15 +71446,6 @@ var AYPLAYLIST_DATA = [
     "time": "00:26"
   },
   {
-    "name": "po.fym",
-    "file": "chiptunes/Vad/po.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Vad",
-    "section": null,
-    "time": "00:26"
-  },
-  {
     "name": "ppk.fym",
     "file": "chiptunes/Vad/ppk.fym",
     "pt3": false,
@@ -76021,15 +71471,6 @@ var AYPLAYLIST_DATA = [
     "author": "Vad",
     "section": null,
     "time": "01:09"
-  },
-  {
-    "name": "rel.fym",
-    "file": "chiptunes/Vad/rel.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Vad",
-    "section": null,
-    "time": "00:15"
   },
   {
     "name": "rem.fym",
@@ -76113,15 +71554,6 @@ var AYPLAYLIST_DATA = [
     "time": "00:54"
   },
   {
-    "name": "song1.fym",
-    "file": "chiptunes/Vad/song1.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Vad",
-    "section": null,
-    "time": "00:31"
-  },
-  {
     "name": "space.fym",
     "file": "chiptunes/Vad/space.fym",
     "pt3": false,
@@ -76147,15 +71579,6 @@ var AYPLAYLIST_DATA = [
     "author": "Vad",
     "section": null,
     "time": "00:31"
-  },
-  {
-    "name": "sun.fym",
-    "file": "chiptunes/Vad/sun.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Vad",
-    "section": null,
-    "time": "00:41"
   },
   {
     "name": "swopper game.fym",
@@ -76221,15 +71644,6 @@ var AYPLAYLIST_DATA = [
     "time": "04:11"
   },
   {
-    "name": "valley8.fym",
-    "file": "chiptunes/Vad/valley8.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Vad",
-    "section": null,
-    "time": "00:05"
-  },
-  {
     "name": "version.fym",
     "file": "chiptunes/Vad/version.fym",
     "pt3": false,
@@ -76273,15 +71687,6 @@ var AYPLAYLIST_DATA = [
     "author": "Vad",
     "section": null,
     "time": "01:40"
-  },
-  {
-    "name": "zwuki.fym",
-    "file": "chiptunes/Vad/zwuki.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Vad",
-    "section": null,
-    "time": "00:08"
   },
   {
     "name": "_.fym",
@@ -77013,24 +72418,6 @@ var AYPLAYLIST_DATA = [
     "time": "04:24"
   },
   {
-    "name": "improv-1.fym",
-    "file": "chiptunes/Visual/improv-1.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Visual",
-    "section": null,
-    "time": "00:06"
-  },
-  {
-    "name": "improv-3.fym",
-    "file": "chiptunes/Visual/improv-3.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Visual",
-    "section": null,
-    "time": "00:12"
-  },
-  {
     "name": "in-jungl.fym",
     "file": "chiptunes/Visual/in-jungl.fym",
     "pt3": false,
@@ -77310,42 +72697,6 @@ var AYPLAYLIST_DATA = [
     "time": "03:09"
   },
   {
-    "name": "nop-1.fym",
-    "file": "chiptunes/Visual/nop-1.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Visual",
-    "section": null,
-    "time": "02:34"
-  },
-  {
-    "name": "nop-10.fym",
-    "file": "chiptunes/Visual/nop-10.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Visual",
-    "section": null,
-    "time": "00:06"
-  },
-  {
-    "name": "nop-1000.fym",
-    "file": "chiptunes/Visual/nop-1000.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Visual",
-    "section": null,
-    "time": "00:08"
-  },
-  {
-    "name": "nop-1001.fym",
-    "file": "chiptunes/Visual/nop-1001.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Visual",
-    "section": null,
-    "time": "00:04"
-  },
-  {
     "name": "nop-1002.fym",
     "file": "chiptunes/Visual/nop-1002.fym",
     "pt3": false,
@@ -77362,15 +72713,6 @@ var AYPLAYLIST_DATA = [
     "author": "Visual",
     "section": null,
     "time": "00:46"
-  },
-  {
-    "name": "nop-11.fym",
-    "file": "chiptunes/Visual/nop-11.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Visual",
-    "section": null,
-    "time": "00:10"
   },
   {
     "name": "nop-12.fym",
@@ -77398,15 +72740,6 @@ var AYPLAYLIST_DATA = [
     "author": "Visual",
     "section": null,
     "time": "04:28"
-  },
-  {
-    "name": "nop-2.fym",
-    "file": "chiptunes/Visual/nop-2.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Visual",
-    "section": null,
-    "time": "01:42"
   },
   {
     "name": "nop-2000.fym",
@@ -77445,15 +72778,6 @@ var AYPLAYLIST_DATA = [
     "time": "01:04"
   },
   {
-    "name": "nop-4000.fym",
-    "file": "chiptunes/Visual/nop-4000.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Visual",
-    "section": null,
-    "time": "00:15"
-  },
-  {
     "name": "nop-5.fym",
     "file": "chiptunes/Visual/nop-5.fym",
     "pt3": false,
@@ -77481,15 +72805,6 @@ var AYPLAYLIST_DATA = [
     "time": "00:38"
   },
   {
-    "name": "nop-6000.fym",
-    "file": "chiptunes/Visual/nop-6000.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Visual",
-    "section": null,
-    "time": "00:02"
-  },
-  {
     "name": "nop-7.fym",
     "file": "chiptunes/Visual/nop-7.fym",
     "pt3": false,
@@ -77499,15 +72814,6 @@ var AYPLAYLIST_DATA = [
     "time": "00:51"
   },
   {
-    "name": "nop-7000.fym",
-    "file": "chiptunes/Visual/nop-7000.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Visual",
-    "section": null,
-    "time": "00:07"
-  },
-  {
     "name": "nop-8.fym",
     "file": "chiptunes/Visual/nop-8.fym",
     "pt3": false,
@@ -77515,15 +72821,6 @@ var AYPLAYLIST_DATA = [
     "author": "Visual",
     "section": null,
     "time": "00:45"
-  },
-  {
-    "name": "nop-8000.fym",
-    "file": "chiptunes/Visual/nop-8000.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Visual",
-    "section": null,
-    "time": "00:12"
   },
   {
     "name": "nop-9.fym",
@@ -77742,24 +73039,6 @@ var AYPLAYLIST_DATA = [
     "time": "02:18"
   },
   {
-    "name": "rs-1.fym",
-    "file": "chiptunes/Visual/rs-1.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Visual",
-    "section": null,
-    "time": "00:06"
-  },
-  {
-    "name": "rs-2.fym",
-    "file": "chiptunes/Visual/rs-2.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Visual",
-    "section": null,
-    "time": "00:08"
-  },
-  {
     "name": "rulez-cb.fym",
     "file": "chiptunes/Visual/rulez-cb.fym",
     "pt3": false,
@@ -77803,15 +73082,6 @@ var AYPLAYLIST_DATA = [
     "author": "Visual",
     "section": null,
     "time": "03:22"
-  },
-  {
-    "name": "shit-c.fym",
-    "file": "chiptunes/Visual/shit-c.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Visual",
-    "section": null,
-    "time": "00:31"
   },
   {
     "name": "silent.fym",
@@ -78718,15 +73988,6 @@ var AYPLAYLIST_DATA = [
     "time": "01:32"
   },
   {
-    "name": "basf.fym",
-    "file": "chiptunes/Voxon/basf.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Voxon",
-    "section": null,
-    "time": "00:13"
-  },
-  {
     "name": "bedlam.fym",
     "file": "chiptunes/Voxon/bedlam.fym",
     "pt3": false,
@@ -78763,15 +74024,6 @@ var AYPLAYLIST_DATA = [
     "time": "05:38"
   },
   {
-    "name": "blackpon.fym",
-    "file": "chiptunes/Voxon/blackpon.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Voxon",
-    "section": null,
-    "time": "00:13"
-  },
-  {
     "name": "blp3.fym",
     "file": "chiptunes/Voxon/blp3.fym",
     "pt3": false,
@@ -78788,15 +74040,6 @@ var AYPLAYLIST_DATA = [
     "author": "Voxon",
     "section": null,
     "time": "02:40"
-  },
-  {
-    "name": "boroda1.fym",
-    "file": "chiptunes/Voxon/boroda1.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Voxon",
-    "section": null,
-    "time": "00:19"
   },
   {
     "name": "brevet.fym",
@@ -78817,15 +74060,6 @@ var AYPLAYLIST_DATA = [
     "time": "02:26"
   },
   {
-    "name": "brock.fym",
-    "file": "chiptunes/Voxon/brock.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Voxon",
-    "section": null,
-    "time": "00:13"
-  },
-  {
     "name": "cavern2.fym",
     "file": "chiptunes/Voxon/cavern2.fym",
     "pt3": false,
@@ -78833,24 +74067,6 @@ var AYPLAYLIST_DATA = [
     "author": "Voxon",
     "section": null,
     "time": "00:51"
-  },
-  {
-    "name": "chan1.fym",
-    "file": "chiptunes/Voxon/chan1.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Voxon",
-    "section": null,
-    "time": "00:08"
-  },
-  {
-    "name": "chan2.fym",
-    "file": "chiptunes/Voxon/chan2.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Voxon",
-    "section": null,
-    "time": "00:08"
   },
   {
     "name": "check22.fym",
@@ -78961,15 +74177,6 @@ var AYPLAYLIST_DATA = [
     "time": "03:35"
   },
   {
-    "name": "duble gift.fym",
-    "file": "chiptunes/Voxon/duble gift.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Voxon",
-    "section": null,
-    "time": "00:06"
-  },
-  {
     "name": "easy3.fym",
     "file": "chiptunes/Voxon/easy3.fym",
     "pt3": false,
@@ -78986,15 +74193,6 @@ var AYPLAYLIST_DATA = [
     "author": "Voxon",
     "section": null,
     "time": "02:23"
-  },
-  {
-    "name": "energize.fym",
-    "file": "chiptunes/Voxon/energize.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Voxon",
-    "section": null,
-    "time": "00:06"
   },
   {
     "name": "enigma_.fym",
@@ -79292,15 +74490,6 @@ var AYPLAYLIST_DATA = [
     "author": "Voxon",
     "section": null,
     "time": "02:34"
-  },
-  {
-    "name": "iris4.fym",
-    "file": "chiptunes/Voxon/iris4.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Voxon",
-    "section": null,
-    "time": "00:06"
   },
   {
     "name": "irs_reld.fym",
@@ -79708,15 +74897,6 @@ var AYPLAYLIST_DATA = [
     "time": "03:50"
   },
   {
-    "name": "neuda1.fym",
-    "file": "chiptunes/Voxon/neuda1.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Voxon",
-    "section": null,
-    "time": "00:06"
-  },
-  {
     "name": "new1.fym",
     "file": "chiptunes/Voxon/new1.fym",
     "pt3": false,
@@ -79769,15 +74949,6 @@ var AYPLAYLIST_DATA = [
     "author": "Voxon",
     "section": null,
     "time": "03:04"
-  },
-  {
-    "name": "noteb1.fym",
-    "file": "chiptunes/Voxon/noteb1.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Voxon",
-    "section": null,
-    "time": "00:31"
   },
   {
     "name": "olpart2.fym",
@@ -79922,15 +75093,6 @@ var AYPLAYLIST_DATA = [
     "author": "Voxon",
     "section": null,
     "time": "04:11"
-  },
-  {
-    "name": "pribamss.fym",
-    "file": "chiptunes/Voxon/pribamss.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Voxon",
-    "section": null,
-    "time": "00:08"
   },
   {
     "name": "probe.fym",
@@ -80392,15 +75554,6 @@ var AYPLAYLIST_DATA = [
     "time": "04:44"
   },
   {
-    "name": "amaurote-zxs128k.fym",
-    "file": "chiptunes/X-Agon/amaurote-zxs128k.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "X-Agon",
-    "section": null,
-    "time": "00:15"
-  },
-  {
     "name": "amiga-chiptune1-amiga.fym",
     "file": "chiptunes/X-Agon/amiga-chiptune1-amiga.fym",
     "pt3": false,
@@ -80779,15 +75932,6 @@ var AYPLAYLIST_DATA = [
     "time": "00:31"
   },
   {
-    "name": "electric.fym",
-    "file": "chiptunes/X-Agon/electric.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "X-Agon",
-    "section": null,
-    "time": "00:41"
-  },
-  {
     "name": "eliminator-c64.fym",
     "file": "chiptunes/X-Agon/eliminator-c64.fym",
     "pt3": false,
@@ -81047,15 +76191,6 @@ var AYPLAYLIST_DATA = [
     "author": "X-Agon",
     "section": null,
     "time": "01:42"
-  },
-  {
-    "name": "kawai-rhythm.fym",
-    "file": "chiptunes/X-Agon/kawai-rhythm.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "X-Agon",
-    "section": null,
-    "time": "00:08"
   },
   {
     "name": "kokot.fym",
@@ -81625,6 +76760,14 @@ var AYPLAYLIST_DATA = [
     "time": "05:30"
   },
   {
+    "name": "X-agon - X-agon_of_Phantasy-Breath-of-air-6chan-MOD.sqt",
+    "file": "chiptunes/X-Agon/X-agon - X-agon_of_Phantasy-Breath-of-air-6chan-MOD.sqt",
+    "pt3": false,
+    "author": "X-Agon",
+    "section": null,
+    "time": "05:30"
+  },
+  {
     "name": "x-e-b4-mtr.fym",
     "file": "chiptunes/X-Agon/x-e-b4-mtr.fym",
     "pt3": false,
@@ -82165,24 +77308,6 @@ var AYPLAYLIST_DATA = [
     "time": "03:04"
   },
   {
-    "name": "russian time tears - game over.fym",
-    "file": "chiptunes/Zhenya/russian time tears - game over.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Zhenya",
-    "section": null,
-    "time": "00:08"
-  },
-  {
-    "name": "russian time tears - game.fym",
-    "file": "chiptunes/Zhenya/russian time tears - game.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Zhenya",
-    "section": null,
-    "time": "00:08"
-  },
-  {
     "name": "russian time tears - intro.fym",
     "file": "chiptunes/Zhenya/russian time tears - intro.fym",
     "pt3": false,
@@ -82190,15 +77315,6 @@ var AYPLAYLIST_DATA = [
     "author": "Zhenya",
     "section": null,
     "time": "01:01"
-  },
-  {
-    "name": "russian time tears - time end.fym",
-    "file": "chiptunes/Zhenya/russian time tears - time end.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Zhenya",
-    "section": null,
-    "time": "00:05"
   },
   {
     "name": "russian time tears - winner.fym",
@@ -82388,15 +77504,6 @@ var AYPLAYLIST_DATA = [
     "author": "Ziutek",
     "section": null,
     "time": "15:02"
-  },
-  {
-    "name": "logo game over.fym",
-    "file": "chiptunes/Ziutek/logo game over.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Ziutek",
-    "section": null,
-    "time": "00:08"
   },
   {
     "name": "lyraii1.fym",
@@ -82620,15 +77727,6 @@ var AYPLAYLIST_DATA = [
     "author": "Ziutek",
     "section": null,
     "time": "05:14"
-  },
-  {
-    "name": "ziutek4.fym",
-    "file": "chiptunes/Ziutek/ziutek4.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Ziutek",
-    "section": null,
-    "time": "00:08"
   },
   {
     "name": "ziutek5.fym",
@@ -83204,15 +78302,6 @@ var AYPLAYLIST_DATA = [
     "time": "01:01"
   },
   {
-    "name": "whole.fym",
-    "file": "chiptunes/Zoom/whole.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "Zoom",
-    "section": null,
-    "time": "02:34"
-  },
-  {
     "name": "wings of death (attrapa version).fym",
     "file": "chiptunes/Zoom/wings of death (attrapa version).fym",
     "pt3": false,
@@ -83256,6691 +78345,6 @@ var AYPLAYLIST_DATA = [
     "author": "Zoom",
     "section": null,
     "time": "04:35"
-  },
-  {
-    "name": "2BY_OLEG.ay",
-    "file": "chiptunes/ZX ay music/Demos/2BY_OLEG.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "3D-POOL.ay",
-    "file": "chiptunes/ZX ay music/Demos/3D-POOL.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "3DShow.AY",
-    "file": "chiptunes/ZX ay music/Demos/3DShow.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "4UM.AY",
-    "file": "chiptunes/ZX ay music/Demos/4UM.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "AcousticDreams.ay",
-    "file": "chiptunes/ZX ay music/Demos/AcousticDreams.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "Agent-XNonamedzak01.ay",
-    "file": "chiptunes/ZX ay music/Demos/Agent-XNonamedzak01.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "Agent-XNonamedzak02.ay",
-    "file": "chiptunes/ZX ay music/Demos/Agent-XNonamedzak02.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "AllaTurca.ay",
-    "file": "chiptunes/ZX ay music/Demos/AllaTurca.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "ANONS.ay",
-    "file": "chiptunes/ZX ay music/Demos/ANONS.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "Another.ay",
-    "file": "chiptunes/ZX ay music/Demos/Another.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "Apocalypse.ay",
-    "file": "chiptunes/ZX ay music/Demos/Apocalypse.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "AssortyMegaDemo0.ay",
-    "file": "chiptunes/ZX ay music/Demos/AssortyMegaDemo0.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "AssortyMegaDemo1.ay",
-    "file": "chiptunes/ZX ay music/Demos/AssortyMegaDemo1.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "AssortyMegaDemo2.ay",
-    "file": "chiptunes/ZX ay music/Demos/AssortyMegaDemo2.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "AssortyMegaDemo3.ay",
-    "file": "chiptunes/ZX ay music/Demos/AssortyMegaDemo3.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "AssortyMegaDemo4.ay",
-    "file": "chiptunes/ZX ay music/Demos/AssortyMegaDemo4.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "Axel-FTheme.ay",
-    "file": "chiptunes/ZX ay music/Demos/Axel-FTheme.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "BackToReality.ay",
-    "file": "chiptunes/ZX ay music/Demos/BackToReality.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "BD2.2.ay",
-    "file": "chiptunes/ZX ay music/Demos/BD2.2.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "BD2.3.ay",
-    "file": "chiptunes/ZX ay music/Demos/BD2.3.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "BD2.4.ay",
-    "file": "chiptunes/ZX ay music/Demos/BD2.4.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "BeforeNewYear.ay",
-    "file": "chiptunes/ZX ay music/Demos/BeforeNewYear.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "BewareZandramas.ay",
-    "file": "chiptunes/ZX ay music/Demos/BewareZandramas.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "BigBang(Enolagay).ay",
-    "file": "chiptunes/ZX ay music/Demos/BigBang(Enolagay).ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "BigInJapan.ay",
-    "file": "chiptunes/ZX ay music/Demos/BigInJapan.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "BinaryLove.AY",
-    "file": "chiptunes/ZX ay music/Demos/BinaryLove.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "Birthday.ay",
-    "file": "chiptunes/ZX ay music/Demos/Birthday.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "BizarreConstruction.ay",
-    "file": "chiptunes/ZX ay music/Demos/BizarreConstruction.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "BranchOfMind.AY",
-    "file": "chiptunes/ZX ay music/Demos/BranchOfMind.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "BunchOfArse.AY",
-    "file": "chiptunes/ZX ay music/Demos/BunchOfArse.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "ChaosIsBeginingToday.ay",
-    "file": "chiptunes/ZX ay music/Demos/ChaosIsBeginingToday.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "ChildrenTheme.ay",
-    "file": "chiptunes/ZX ay music/Demos/ChildrenTheme.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "Chimera.ay",
-    "file": "chiptunes/ZX ay music/Demos/Chimera.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "Commando.ay",
-    "file": "chiptunes/ZX ay music/Demos/Commando.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "Commando2.ay",
-    "file": "chiptunes/ZX ay music/Demos/Commando2.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "CrazyComets&Penetrator.ay",
-    "file": "chiptunes/ZX ay music/Demos/CrazyComets&Penetrator.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "CrazySample2.ay",
-    "file": "chiptunes/ZX ay music/Demos/CrazySample2.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "Dies irae.ay",
-    "file": "chiptunes/ZX ay music/Demos/Dies irae.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "DNK-1.AY",
-    "file": "chiptunes/ZX ay music/Demos/DNK-1.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "Dobranocki.ay",
-    "file": "chiptunes/ZX ay music/Demos/Dobranocki.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "DOCZak01.ay",
-    "file": "chiptunes/ZX ay music/Demos/DOCZak01.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "DOCZak02.ay.ay",
-    "file": "chiptunes/ZX ay music/Demos/DOCZak02.ay.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "DOCZak03.ay",
-    "file": "chiptunes/ZX ay music/Demos/DOCZak03.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "E.T.Flying.ay",
-    "file": "chiptunes/ZX ay music/Demos/E.T.Flying.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "Echologia1.ay",
-    "file": "chiptunes/ZX ay music/Demos/Echologia1.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "Echologia2.ay",
-    "file": "chiptunes/ZX ay music/Demos/Echologia2.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "Echologia3.ay",
-    "file": "chiptunes/ZX ay music/Demos/Echologia3.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "Echologia4.ay",
-    "file": "chiptunes/ZX ay music/Demos/Echologia4.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "Echologia5.ay",
-    "file": "chiptunes/ZX ay music/Demos/Echologia5.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "Echologia6.ay",
-    "file": "chiptunes/ZX ay music/Demos/Echologia6.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "Echologia7.ay",
-    "file": "chiptunes/ZX ay music/Demos/Echologia7.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "Eifmes.ay",
-    "file": "chiptunes/ZX ay music/Demos/Eifmes.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "ElLoco.ay",
-    "file": "chiptunes/ZX ay music/Demos/ElLoco.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "Emax.ay",
-    "file": "chiptunes/ZX ay music/Demos/Emax.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "EndlessChaos.ay",
-    "file": "chiptunes/ZX ay music/Demos/EndlessChaos.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "EquinoxeV.ay",
-    "file": "chiptunes/ZX ay music/Demos/EquinoxeV.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "Exotic.ay",
-    "file": "chiptunes/ZX ay music/Demos/Exotic.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "ExterminatorCheatMenu.ay",
-    "file": "chiptunes/ZX ay music/Demos/ExterminatorCheatMenu.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "Feud(1).ay",
-    "file": "chiptunes/ZX ay music/Demos/Feud(1).ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "Feud(2).AY",
-    "file": "chiptunes/ZX ay music/Demos/Feud(2).AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "FikusPikusGift.ay",
-    "file": "chiptunes/ZX ay music/Demos/FikusPikusGift.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "Foltrax.ay",
-    "file": "chiptunes/ZX ay music/Demos/Foltrax.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "ForTheUnitedMinds.AY",
-    "file": "chiptunes/ZX ay music/Demos/ForTheUnitedMinds.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "FuckingArmy.ay",
-    "file": "chiptunes/ZX ay music/Demos/FuckingArmy.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "Fugue.ay",
-    "file": "chiptunes/ZX ay music/Demos/Fugue.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "Gemini - double preview.ay",
-    "file": "chiptunes/ZX ay music/Demos/Gemini - double preview.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "Ghostbusters.ay",
-    "file": "chiptunes/ZX ay music/Demos/Ghostbusters.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "GhostsnGoblins.ay",
-    "file": "chiptunes/ZX ay music/Demos/GhostsnGoblins.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "GiftForMikeFollin.ay",
-    "file": "chiptunes/ZX ay music/Demos/GiftForMikeFollin.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "HeroQuestCheatMenu.ay",
-    "file": "chiptunes/ZX ay music/Demos/HeroQuestCheatMenu.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "HudsonHawkCheatMenu.ay",
-    "file": "chiptunes/ZX ay music/Demos/HudsonHawkCheatMenu.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "IcecreamEpilogue.ay",
-    "file": "chiptunes/ZX ay music/Demos/IcecreamEpilogue.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "IcecreamMain.ay",
-    "file": "chiptunes/ZX ay music/Demos/IcecreamMain.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "Improv10.ay",
-    "file": "chiptunes/ZX ay music/Demos/Improv10.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "Improv11.ay",
-    "file": "chiptunes/ZX ay music/Demos/Improv11.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "Improv12.ay",
-    "file": "chiptunes/ZX ay music/Demos/Improv12.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "Improv13.ay",
-    "file": "chiptunes/ZX ay music/Demos/Improv13.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "Improv14.ay",
-    "file": "chiptunes/ZX ay music/Demos/Improv14.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "Improv15.ay",
-    "file": "chiptunes/ZX ay music/Demos/Improv15.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "Improv16.ay",
-    "file": "chiptunes/ZX ay music/Demos/Improv16.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "Improv17.ay",
-    "file": "chiptunes/ZX ay music/Demos/Improv17.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "Improv_1.ay",
-    "file": "chiptunes/ZX ay music/Demos/Improv_1.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "Improv_4.ay",
-    "file": "chiptunes/ZX ay music/Demos/Improv_4.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "Improv_5.ay",
-    "file": "chiptunes/ZX ay music/Demos/Improv_5.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "Improv_6.ay",
-    "file": "chiptunes/ZX ay music/Demos/Improv_6.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "Improv_7.ay",
-    "file": "chiptunes/ZX ay music/Demos/Improv_7.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "Improv_8.ay",
-    "file": "chiptunes/ZX ay music/Demos/Improv_8.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "Improv_9.ay",
-    "file": "chiptunes/ZX ay music/Demos/Improv_9.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "Impulse.ay",
-    "file": "chiptunes/ZX ay music/Demos/Impulse.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "IMPUnknownzak01.ay",
-    "file": "chiptunes/ZX ay music/Demos/IMPUnknownzak01.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "IneffableThemes.ay",
-    "file": "chiptunes/ZX ay music/Demos/IneffableThemes.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "InfluencePreIntro.ay",
-    "file": "chiptunes/ZX ay music/Demos/InfluencePreIntro.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "InnerUniverse.AY",
-    "file": "chiptunes/ZX ay music/Demos/InnerUniverse.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "InsultEpilogue.ay",
-    "file": "chiptunes/ZX ay music/Demos/InsultEpilogue.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "InsultLoadTune.ay",
-    "file": "chiptunes/ZX ay music/Demos/InsultLoadTune.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "InsultMegaDemo1.ay",
-    "file": "chiptunes/ZX ay music/Demos/InsultMegaDemo1.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "InsultMegaDemo3.ay",
-    "file": "chiptunes/ZX ay music/Demos/InsultMegaDemo3.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "InsultMegaDemo5.ay",
-    "file": "chiptunes/ZX ay music/Demos/InsultMegaDemo5.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "InsultMegaDemo7.ay",
-    "file": "chiptunes/ZX ay music/Demos/InsultMegaDemo7.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "InsultMegaDemo8.ay",
-    "file": "chiptunes/ZX ay music/Demos/InsultMegaDemo8.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "InsultMegaDemo9.ay",
-    "file": "chiptunes/ZX ay music/Demos/InsultMegaDemo9.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "Interchrome.AY",
-    "file": "chiptunes/ZX ay music/Demos/Interchrome.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "KentZak01.ay",
-    "file": "chiptunes/ZX ay music/Demos/KentZak01.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "KentZak02.ay",
-    "file": "chiptunes/ZX ay music/Demos/KentZak02.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "Killers.ay",
-    "file": "chiptunes/ZX ay music/Demos/Killers.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "LandOfConfusion.ay",
-    "file": "chiptunes/ZX ay music/Demos/LandOfConfusion.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "LastV8The.ay",
-    "file": "chiptunes/ZX ay music/Demos/LastV8The.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "Light96.ay",
-    "file": "chiptunes/ZX ay music/Demos/Light96.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "Likemya.ay",
-    "file": "chiptunes/ZX ay music/Demos/Likemya.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "LSDIntroduction.ay",
-    "file": "chiptunes/ZX ay music/Demos/LSDIntroduction.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "LSDMegaDemo01.ay",
-    "file": "chiptunes/ZX ay music/Demos/LSDMegaDemo01.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "LSDMegaDemo02.ay",
-    "file": "chiptunes/ZX ay music/Demos/LSDMegaDemo02.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "LSDMegaDemo03.ay",
-    "file": "chiptunes/ZX ay music/Demos/LSDMegaDemo03.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "LSDMegaDemo04.ay",
-    "file": "chiptunes/ZX ay music/Demos/LSDMegaDemo04.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "LSDMegaDemo05.ay",
-    "file": "chiptunes/ZX ay music/Demos/LSDMegaDemo05.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "LSDMegaDemo06.ay",
-    "file": "chiptunes/ZX ay music/Demos/LSDMegaDemo06.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "LSDMegaDemo07.ay",
-    "file": "chiptunes/ZX ay music/Demos/LSDMegaDemo07.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "LSDMegaDemo08.ay",
-    "file": "chiptunes/ZX ay music/Demos/LSDMegaDemo08.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "LSDMegaDemo09.ay",
-    "file": "chiptunes/ZX ay music/Demos/LSDMegaDemo09.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "LSDMegaDemo10.ay",
-    "file": "chiptunes/ZX ay music/Demos/LSDMegaDemo10.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "LSDMegaDemo11.ay",
-    "file": "chiptunes/ZX ay music/Demos/LSDMegaDemo11.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "Madrielle.AY",
-    "file": "chiptunes/ZX ay music/Demos/Madrielle.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "MagneticFieldsIV.ay",
-    "file": "chiptunes/ZX ay music/Demos/MagneticFieldsIV.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "MagneticFieldsV.ay",
-    "file": "chiptunes/ZX ay music/Demos/MagneticFieldsV.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "Malikov.ay",
-    "file": "chiptunes/ZX ay music/Demos/Malikov.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "MarioIslands.AY",
-    "file": "chiptunes/ZX ay music/Demos/MarioIslands.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "MasterOfMagic.ay",
-    "file": "chiptunes/ZX ay music/Demos/MasterOfMagic.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "MetalMania.ay",
-    "file": "chiptunes/ZX ay music/Demos/MetalMania.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "MetalManiaII.ay",
-    "file": "chiptunes/ZX ay music/Demos/MetalManiaII.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "Monday.ay",
-    "file": "chiptunes/ZX ay music/Demos/Monday.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "MontyOnTheRun.ay",
-    "file": "chiptunes/ZX ay music/Demos/MontyOnTheRun.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "MortalKombatTheme.ay",
-    "file": "chiptunes/ZX ay music/Demos/MortalKombatTheme.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "MQM2-10HardWedge4.ay",
-    "file": "chiptunes/ZX ay music/Demos/MQM2-10HardWedge4.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "MQM2-11Flaps2.ay",
-    "file": "chiptunes/ZX ay music/Demos/MQM2-11Flaps2.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "MQM2-12Firefly.ay",
-    "file": "chiptunes/ZX ay music/Demos/MQM2-12Firefly.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "MQM2-13HardWedge5.ay",
-    "file": "chiptunes/ZX ay music/Demos/MQM2-13HardWedge5.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "MQM2-14SoHard.ay",
-    "file": "chiptunes/ZX ay music/Demos/MQM2-14SoHard.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "MQM2-1Supremacy.ay",
-    "file": "chiptunes/ZX ay music/Demos/MQM2-1Supremacy.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "MQM2-2HardWedge1.ay",
-    "file": "chiptunes/ZX ay music/Demos/MQM2-2HardWedge1.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "MQM2-3PennyLane.ay",
-    "file": "chiptunes/ZX ay music/Demos/MQM2-3PennyLane.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "MQM2-4HardWedge2.ay",
-    "file": "chiptunes/ZX ay music/Demos/MQM2-4HardWedge2.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "MQM2-5GreatCourts.ay",
-    "file": "chiptunes/ZX ay music/Demos/MQM2-5GreatCourts.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "MQM2-6AnotherWorld.ay",
-    "file": "chiptunes/ZX ay music/Demos/MQM2-6AnotherWorld.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "MQM2-7HardWedge3.ay",
-    "file": "chiptunes/ZX ay music/Demos/MQM2-7HardWedge3.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "MQM2-8KickOff2.ay",
-    "file": "chiptunes/ZX ay music/Demos/MQM2-8KickOff2.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "MQM2-9Leviathan.ay",
-    "file": "chiptunes/ZX ay music/Demos/MQM2-9Leviathan.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "MQM2IntroMusic.ay",
-    "file": "chiptunes/ZX ay music/Demos/MQM2IntroMusic.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "MQM4-10DullSeason.ay",
-    "file": "chiptunes/ZX ay music/Demos/MQM4-10DullSeason.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "MQM4-11ComplicationsAmiga.ay",
-    "file": "chiptunes/ZX ay music/Demos/MQM4-11ComplicationsAmiga.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "MQM4-12BeerJoint.ay",
-    "file": "chiptunes/ZX ay music/Demos/MQM4-12BeerJoint.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "MQM4-14CrazyWoodpecker.ay",
-    "file": "chiptunes/ZX ay music/Demos/MQM4-14CrazyWoodpecker.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "MQM4-15HardWedge5Remix.ay",
-    "file": "chiptunes/ZX ay music/Demos/MQM4-15HardWedge5Remix.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "MQM4-1CarrierCommandST.ay",
-    "file": "chiptunes/ZX ay music/Demos/MQM4-1CarrierCommandST.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "MQM4-2QjetasHello.ay",
-    "file": "chiptunes/ZX ay music/Demos/MQM4-2QjetasHello.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "MQM4-3AtariCrack.ay",
-    "file": "chiptunes/ZX ay music/Demos/MQM4-3AtariCrack.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "MQM4-4AgentXInspiration.ay",
-    "file": "chiptunes/ZX ay music/Demos/MQM4-4AgentXInspiration.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "MQM4-5EcstasyFromBeer.ay",
-    "file": "chiptunes/ZX ay music/Demos/MQM4-5EcstasyFromBeer.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "MQM4-6CybernoidSTCrack.ay",
-    "file": "chiptunes/ZX ay music/Demos/MQM4-6CybernoidSTCrack.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "MQM4-7ChorusErasure.ay",
-    "file": "chiptunes/ZX ay music/Demos/MQM4-7ChorusErasure.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "MQM4-8Tranz7Inspiration.ay",
-    "file": "chiptunes/ZX ay music/Demos/MQM4-8Tranz7Inspiration.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "MQM4-9OxygeneIV.ay",
-    "file": "chiptunes/ZX ay music/Demos/MQM4-9OxygeneIV.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "MQM5-23.ay",
-    "file": "chiptunes/ZX ay music/Demos/MQM5-23.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "MQM5-24.ay",
-    "file": "chiptunes/ZX ay music/Demos/MQM5-24.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "MQM5-25.ay",
-    "file": "chiptunes/ZX ay music/Demos/MQM5-25.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "MSX-01.AY",
-    "file": "chiptunes/ZX ay music/Demos/MSX-01.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "MyBirthday.ay",
-    "file": "chiptunes/ZX ay music/Demos/MyBirthday.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "MyLastZXMuzzak.ay",
-    "file": "chiptunes/ZX ay music/Demos/MyLastZXMuzzak.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "My_First.ay",
-    "file": "chiptunes/ZX ay music/Demos/My_First.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "New_Year.ay",
-    "file": "chiptunes/ZX ay music/Demos/New_Year.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "NMIEndPart.ay",
-    "file": "chiptunes/ZX ay music/Demos/NMIEndPart.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "NoInsightView.ay",
-    "file": "chiptunes/ZX ay music/Demos/NoInsightView.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "October.ay",
-    "file": "chiptunes/ZX ay music/Demos/October.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "Paroxyzm.ay",
-    "file": "chiptunes/ZX ay music/Demos/Paroxyzm.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "PlayersCDPlayer.ay",
-    "file": "chiptunes/ZX ay music/Demos/PlayersCDPlayer.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "PleaseTakeMeOnCC999.ay",
-    "file": "chiptunes/ZX ay music/Demos/PleaseTakeMeOnCC999.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "PodpersonsFromMars.ay",
-    "file": "chiptunes/ZX ay music/Demos/PodpersonsFromMars.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "Pondlife.ay",
-    "file": "chiptunes/ZX ay music/Demos/Pondlife.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "PondlifePreview.AY",
-    "file": "chiptunes/ZX ay music/Demos/PondlifePreview.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "PondlifePreviewPreview.AY",
-    "file": "chiptunes/ZX ay music/Demos/PondlifePreviewPreview.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "PowerOfMind.ay",
-    "file": "chiptunes/ZX ay music/Demos/PowerOfMind.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "PowerUp.AY",
-    "file": "chiptunes/ZX ay music/Demos/PowerUp.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "PSM_FNL0.ay",
-    "file": "chiptunes/ZX ay music/Demos/PSM_FNL0.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "PSM_FNL1.ay",
-    "file": "chiptunes/ZX ay music/Demos/PSM_FNL1.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "PSM_FNL2.ay",
-    "file": "chiptunes/ZX ay music/Demos/PSM_FNL2.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "PSM_FNL3.ay",
-    "file": "chiptunes/ZX ay music/Demos/PSM_FNL3.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "RandezVous.ay",
-    "file": "chiptunes/ZX ay music/Demos/RandezVous.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "RendezVous4.ay",
-    "file": "chiptunes/ZX ay music/Demos/RendezVous4.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "RestFromYourDeepFears.ay",
-    "file": "chiptunes/ZX ay music/Demos/RestFromYourDeepFears.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "RomanticExpress.ay.ay",
-    "file": "chiptunes/ZX ay music/Demos/RomanticExpress.ay.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "SacredArmoutOfAntiriad.ay",
-    "file": "chiptunes/ZX ay music/Demos/SacredArmoutOfAntiriad.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "SatisfactionMegaDemo01.ay",
-    "file": "chiptunes/ZX ay music/Demos/SatisfactionMegaDemo01.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "SatisfactionMegaDemo02.ay",
-    "file": "chiptunes/ZX ay music/Demos/SatisfactionMegaDemo02.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "SatisfactionMegaDemo03.ay",
-    "file": "chiptunes/ZX ay music/Demos/SatisfactionMegaDemo03.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "SatisfactionMegaDemo04.ay",
-    "file": "chiptunes/ZX ay music/Demos/SatisfactionMegaDemo04.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "SatisfactionMegaDemo05.ay",
-    "file": "chiptunes/ZX ay music/Demos/SatisfactionMegaDemo05.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "SatisfactionMegaDemo06.ay",
-    "file": "chiptunes/ZX ay music/Demos/SatisfactionMegaDemo06.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "SatisfactionMegaDemo07.ay",
-    "file": "chiptunes/ZX ay music/Demos/SatisfactionMegaDemo07.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "SatisfactionMegaDemo08.ay",
-    "file": "chiptunes/ZX ay music/Demos/SatisfactionMegaDemo08.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "SatisfactionMegaDemo09.ay",
-    "file": "chiptunes/ZX ay music/Demos/SatisfactionMegaDemo09.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "Schizophrenia.ay",
-    "file": "chiptunes/ZX ay music/Demos/Schizophrenia.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "Shit4Brainz.AY",
-    "file": "chiptunes/ZX ay music/Demos/Shit4Brainz.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "ShockMegaDemo01.ay",
-    "file": "chiptunes/ZX ay music/Demos/ShockMegaDemo01.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "ShockMegaDemo02.ay",
-    "file": "chiptunes/ZX ay music/Demos/ShockMegaDemo02.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "ShockMegaDemo03.ay",
-    "file": "chiptunes/ZX ay music/Demos/ShockMegaDemo03.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "ShockMegaDemo04.ay",
-    "file": "chiptunes/ZX ay music/Demos/ShockMegaDemo04.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "ShockMegaDemo06.ay",
-    "file": "chiptunes/ZX ay music/Demos/ShockMegaDemo06.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "ShockMegaDemo07.ay",
-    "file": "chiptunes/ZX ay music/Demos/ShockMegaDemo07.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "ShockMegaDemo08.ay",
-    "file": "chiptunes/ZX ay music/Demos/ShockMegaDemo08.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "Short.ay",
-    "file": "chiptunes/ZX ay music/Demos/Short.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "SignalPart3.AY",
-    "file": "chiptunes/ZX ay music/Demos/SignalPart3.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "SMC1.AY",
-    "file": "chiptunes/ZX ay music/Demos/SMC1.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "SMC2.AY",
-    "file": "chiptunes/ZX ay music/Demos/SMC2.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "SpaceMadness.AY",
-    "file": "chiptunes/ZX ay music/Demos/SpaceMadness.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "SpecialMusicCollection.AY",
-    "file": "chiptunes/ZX ay music/Demos/SpecialMusicCollection.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "SpecialMusicCollection2.AY",
-    "file": "chiptunes/ZX ay music/Demos/SpecialMusicCollection2.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "Spring.ay",
-    "file": "chiptunes/ZX ay music/Demos/Spring.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "SubSonic.AY",
-    "file": "chiptunes/ZX ay music/Demos/SubSonic.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "Suxxonia.ay",
-    "file": "chiptunes/ZX ay music/Demos/Suxxonia.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "SweetMomentsOfLust.ay",
-    "file": "chiptunes/ZX ay music/Demos/SweetMomentsOfLust.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "SWIVCheatMenu.ay",
-    "file": "chiptunes/ZX ay music/Demos/SWIVCheatMenu.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "SyndeecateApocalypse2003Invitro.ay",
-    "file": "chiptunes/ZX ay music/Demos/SyndeecateApocalypse2003Invitro.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "TerraCresta.ay",
-    "file": "chiptunes/ZX ay music/Demos/TerraCresta.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "TFF4Demo.ay",
-    "file": "chiptunes/ZX ay music/Demos/TFF4Demo.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "TheLyra2Demo02.ay",
-    "file": "chiptunes/ZX ay music/Demos/TheLyra2Demo02.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "TheLyra2Demo03.ay",
-    "file": "chiptunes/ZX ay music/Demos/TheLyra2Demo03.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "TheLyra2Demo04.ay",
-    "file": "chiptunes/ZX ay music/Demos/TheLyra2Demo04.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "TheLyra2Demo05.ay",
-    "file": "chiptunes/ZX ay music/Demos/TheLyra2Demo05.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "TheLyra2Demo06.ay",
-    "file": "chiptunes/ZX ay music/Demos/TheLyra2Demo06.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "TheLyra2Demo08.ay",
-    "file": "chiptunes/ZX ay music/Demos/TheLyra2Demo08.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "TheLyra2Demo09.ay",
-    "file": "chiptunes/ZX ay music/Demos/TheLyra2Demo09.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "TheLyra2Intro.ay",
-    "file": "chiptunes/ZX ay music/Demos/TheLyra2Intro.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "TimFollinStarTip2.AY",
-    "file": "chiptunes/ZX ay music/Demos/TimFollinStarTip2.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "TogetherWithMe.ay",
-    "file": "chiptunes/ZX ay music/Demos/TogetherWithMe.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "TorturesOfDetonatedFlash.ay",
-    "file": "chiptunes/ZX ay music/Demos/TorturesOfDetonatedFlash.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "TwinSZak01.ay",
-    "file": "chiptunes/ZX ay music/Demos/TwinSZak01.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "UnfixedReamplifiedVibes.ay",
-    "file": "chiptunes/ZX ay music/Demos/UnfixedReamplifiedVibes.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "Unknown.ay",
-    "file": "chiptunes/ZX ay music/Demos/Unknown.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "Unknown00.ay",
-    "file": "chiptunes/ZX ay music/Demos/Unknown00.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "Unknown01.ay",
-    "file": "chiptunes/ZX ay music/Demos/Unknown01.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "UnknownDemoSound01.ay",
-    "file": "chiptunes/ZX ay music/Demos/UnknownDemoSound01.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "UnknownDemoSound02.ay",
-    "file": "chiptunes/ZX ay music/Demos/UnknownDemoSound02.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "UnknownDemoSound03.ay",
-    "file": "chiptunes/ZX ay music/Demos/UnknownDemoSound03.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "UnknownDemoTune.ay",
-    "file": "chiptunes/ZX ay music/Demos/UnknownDemoTune.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "UnknownDemoTune00.AY",
-    "file": "chiptunes/ZX ay music/Demos/UnknownDemoTune00.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "UnknownDemoTune01.ay",
-    "file": "chiptunes/ZX ay music/Demos/UnknownDemoTune01.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "Unknowns00.ay",
-    "file": "chiptunes/ZX ay music/Demos/Unknowns00.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "Unreal2.ay",
-    "file": "chiptunes/ZX ay music/Demos/Unreal2.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "Unused01.ay",
-    "file": "chiptunes/ZX ay music/Demos/Unused01.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "Unused02.ay",
-    "file": "chiptunes/ZX ay music/Demos/Unused02.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "VeryNiceTune.ay",
-    "file": "chiptunes/ZX ay music/Demos/VeryNiceTune.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "Vibrations1.ay",
-    "file": "chiptunes/ZX ay music/Demos/Vibrations1.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "Vibrations2.ay",
-    "file": "chiptunes/ZX ay music/Demos/Vibrations2.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "ViewToAKill.ay",
-    "file": "chiptunes/ZX ay music/Demos/ViewToAKill.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "VooDooTest.ay",
-    "file": "chiptunes/ZX ay music/Demos/VooDooTest.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "VoyageInFuture.ay",
-    "file": "chiptunes/ZX ay music/Demos/VoyageInFuture.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "Wakson'sZak001.ay",
-    "file": "chiptunes/ZX ay music/Demos/Wakson'sZak001.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "Wakson'sZak002.ay",
-    "file": "chiptunes/ZX ay music/Demos/Wakson'sZak002.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "Wakson'sZak003.ay",
-    "file": "chiptunes/ZX ay music/Demos/Wakson'sZak003.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "Wakson'sZak004.ay",
-    "file": "chiptunes/ZX ay music/Demos/Wakson'sZak004.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "Wakson'sZak005.ay",
-    "file": "chiptunes/ZX ay music/Demos/Wakson'sZak005.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "Wakson'sZak006.ay",
-    "file": "chiptunes/ZX ay music/Demos/Wakson'sZak006.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "Wakson'sZak007.ay",
-    "file": "chiptunes/ZX ay music/Demos/Wakson'sZak007.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "Wakson'sZak008.ay",
-    "file": "chiptunes/ZX ay music/Demos/Wakson'sZak008.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "Wakson'sZak009.ay",
-    "file": "chiptunes/ZX ay music/Demos/Wakson'sZak009.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "Wakson'sZak010.ay",
-    "file": "chiptunes/ZX ay music/Demos/Wakson'sZak010.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "Wakson'sZak011.ay",
-    "file": "chiptunes/ZX ay music/Demos/Wakson'sZak011.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "Wakson'sZak012.ay",
-    "file": "chiptunes/ZX ay music/Demos/Wakson'sZak012.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "Wakson'sZak013.ay",
-    "file": "chiptunes/ZX ay music/Demos/Wakson'sZak013.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "Wakson'sZak014.ay",
-    "file": "chiptunes/ZX ay music/Demos/Wakson'sZak014.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "Wakson'sZak015.ay",
-    "file": "chiptunes/ZX ay music/Demos/Wakson'sZak015.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "Wakson'sZak016.ay",
-    "file": "chiptunes/ZX ay music/Demos/Wakson'sZak016.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "Wakson'sZak017.ay",
-    "file": "chiptunes/ZX ay music/Demos/Wakson'sZak017.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "Wakson'sZak018.ay",
-    "file": "chiptunes/ZX ay music/Demos/Wakson'sZak018.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "WaksonsZak001.ay",
-    "file": "chiptunes/ZX ay music/Demos/WaksonsZak001.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "WaksonsZak002.ay",
-    "file": "chiptunes/ZX ay music/Demos/WaksonsZak002.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "WaksonsZak003.ay",
-    "file": "chiptunes/ZX ay music/Demos/WaksonsZak003.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "WaksonsZak004.ay",
-    "file": "chiptunes/ZX ay music/Demos/WaksonsZak004.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "WaksonsZak005.ay",
-    "file": "chiptunes/ZX ay music/Demos/WaksonsZak005.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "WaksonsZak006.ay",
-    "file": "chiptunes/ZX ay music/Demos/WaksonsZak006.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "WaksonsZak007.ay",
-    "file": "chiptunes/ZX ay music/Demos/WaksonsZak007.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "WaksonsZak008.ay",
-    "file": "chiptunes/ZX ay music/Demos/WaksonsZak008.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "WaksonsZak009.ay",
-    "file": "chiptunes/ZX ay music/Demos/WaksonsZak009.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "WaksonsZak010.ay",
-    "file": "chiptunes/ZX ay music/Demos/WaksonsZak010.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "WaksonsZak011.ay",
-    "file": "chiptunes/ZX ay music/Demos/WaksonsZak011.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "WaksonsZak012.ay",
-    "file": "chiptunes/ZX ay music/Demos/WaksonsZak012.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "WaksonsZak013.ay",
-    "file": "chiptunes/ZX ay music/Demos/WaksonsZak013.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "WaksonsZak014.ay",
-    "file": "chiptunes/ZX ay music/Demos/WaksonsZak014.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "WaksonsZak015.ay",
-    "file": "chiptunes/ZX ay music/Demos/WaksonsZak015.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "WaksonsZak016.ay",
-    "file": "chiptunes/ZX ay music/Demos/WaksonsZak016.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "WaksonsZak017.ay",
-    "file": "chiptunes/ZX ay music/Demos/WaksonsZak017.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "WaksonsZak018.ay",
-    "file": "chiptunes/ZX ay music/Demos/WaksonsZak018.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "Warhawk.ay",
-    "file": "chiptunes/ZX ay music/Demos/Warhawk.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "WhereTimeDroppedDead.ay",
-    "file": "chiptunes/ZX ay music/Demos/WhereTimeDroppedDead.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "X-agon_of_Phantasy-FA-Digitune1.ay",
-    "file": "chiptunes/ZX ay music/Demos/X-agon_of_Phantasy-FA-Digitune1.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "X-agon_of_Phantasy-FA-Digitune2.ay",
-    "file": "chiptunes/ZX ay music/Demos/X-agon_of_Phantasy-FA-Digitune2.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "Yes.AY",
-    "file": "chiptunes/ZX ay music/Demos/Yes.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "ZUB.AY",
-    "file": "chiptunes/ZX ay music/Demos/ZUB.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Demos"
-  },
-  {
-    "name": "180.AY",
-    "file": "chiptunes/ZX ay music/Games/180.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "1999.AY",
-    "file": "chiptunes/ZX ay music/Games/1999.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "19PartOne-BootCamp.ay",
-    "file": "chiptunes/ZX ay music/Games/19PartOne-BootCamp.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "3DSnooker.AY",
-    "file": "chiptunes/ZX ay music/Games/3DSnooker.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "4SoccerSimulators.AY",
-    "file": "chiptunes/ZX ay music/Games/4SoccerSimulators.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "4x4OffRoad.ay",
-    "file": "chiptunes/ZX ay music/Games/4x4OffRoad.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Ace2088.ay",
-    "file": "chiptunes/ZX ay music/Games/Ace2088.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "ActionFighter.AY",
-    "file": "chiptunes/ZX ay music/Games/ActionFighter.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "AddamsFamilyThe.ay",
-    "file": "chiptunes/ZX ay music/Games/AddamsFamilyThe.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "AdidasChampionshipFootball.ay",
-    "file": "chiptunes/ZX ay music/Games/AdidasChampionshipFootball.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "AdvancedPinballSimulator.ay",
-    "file": "chiptunes/ZX ay music/Games/AdvancedPinballSimulator.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "AdvancedTacticalFighter.ay",
-    "file": "chiptunes/ZX ay music/Games/AdvancedTacticalFighter.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Afterburner.ay",
-    "file": "chiptunes/ZX ay music/Games/Afterburner.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "AgentX.ay",
-    "file": "chiptunes/ZX ay music/Games/AgentX.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "AgentX2.ay",
-    "file": "chiptunes/ZX ay music/Games/AgentX2.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Aknadach.AY",
-    "file": "chiptunes/ZX ay music/Games/Aknadach.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Alien8.AY",
-    "file": "chiptunes/ZX ay music/Games/Alien8.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "AlienEvolution.AY",
-    "file": "chiptunes/ZX ay music/Games/AlienEvolution.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "AliensTheComputerGame.ay",
-    "file": "chiptunes/ZX ay music/Games/AliensTheComputerGame.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "AlienStorm.ay",
-    "file": "chiptunes/ZX ay music/Games/AlienStorm.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "AlteredBeast.ay",
-    "file": "chiptunes/ZX ay music/Games/AlteredBeast.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Amaurote.ay",
-    "file": "chiptunes/ZX ay music/Games/Amaurote.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "AndyCapp.ay",
-    "file": "chiptunes/ZX ay music/Games/AndyCapp.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Anfractuos.AY",
-    "file": "chiptunes/ZX ay music/Games/Anfractuos.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "AnoGaia.AY",
-    "file": "chiptunes/ZX ay music/Games/AnoGaia.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "APB.AY",
-    "file": "chiptunes/ZX ay music/Games/APB.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "ArcadeFlightSimulator.AY",
-    "file": "chiptunes/ZX ay music/Games/ArcadeFlightSimulator.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "ArcOfYesodThe.AY",
-    "file": "chiptunes/ZX ay music/Games/ArcOfYesodThe.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Arkanoid-RevengeOfDoh.ay",
-    "file": "chiptunes/ZX ay music/Games/Arkanoid-RevengeOfDoh.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Arkanoid.AY",
-    "file": "chiptunes/ZX ay music/Games/Arkanoid.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Artura.AY",
-    "file": "chiptunes/ZX ay music/Games/Artura.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "AstroMarineCorps.ay",
-    "file": "chiptunes/ZX ay music/Games/AstroMarineCorps.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Athena.AY",
-    "file": "chiptunes/ZX ay music/Games/Athena.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "AtomAnt.ay",
-    "file": "chiptunes/ZX ay music/Games/AtomAnt.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Atomix.AY",
-    "file": "chiptunes/ZX ay music/Games/Atomix.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Atomix2-Hexagonia.AY",
-    "file": "chiptunes/ZX ay music/Games/Atomix2-Hexagonia.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Atrog.AY",
-    "file": "chiptunes/ZX ay music/Games/Atrog.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "ATVSimulator.ay",
-    "file": "chiptunes/ZX ay music/Games/ATVSimulator.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "AufwiedersehenMonty.ay",
-    "file": "chiptunes/ZX ay music/Games/AufwiedersehenMonty.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Avalon.AY",
-    "file": "chiptunes/ZX ay music/Games/Avalon.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Avenger.AY",
-    "file": "chiptunes/ZX ay music/Games/Avenger.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "BackToSkool.AY",
-    "file": "chiptunes/ZX ay music/Games/BackToSkool.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "BackToTheFuture2.ay",
-    "file": "chiptunes/ZX ay music/Games/BackToTheFuture2.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "BackToTheFuture3.ay",
-    "file": "chiptunes/ZX ay music/Games/BackToTheFuture3.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Badlands.ay",
-    "file": "chiptunes/ZX ay music/Games/Badlands.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "BallBreaker.ay",
-    "file": "chiptunes/ZX ay music/Games/BallBreaker.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Barbarian.AY",
-    "file": "chiptunes/ZX ay music/Games/Barbarian.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "BasketMaster.ay",
-    "file": "chiptunes/ZX ay music/Games/BasketMaster.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "BatmanTheCapedCrusader.AY",
-    "file": "chiptunes/ZX ay music/Games/BatmanTheCapedCrusader.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "BatManTheMovie.ay",
-    "file": "chiptunes/ZX ay music/Games/BatManTheMovie.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "BattleCommand.AY",
-    "file": "chiptunes/ZX ay music/Games/BattleCommand.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "BattleValley.AY",
-    "file": "chiptunes/ZX ay music/Games/BattleValley.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "BearAGrudge.AY",
-    "file": "chiptunes/ZX ay music/Games/BearAGrudge.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Belegost.ay",
-    "file": "chiptunes/ZX ay music/Games/Belegost.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "BeverlyHillsCop.ay",
-    "file": "chiptunes/ZX ay music/Games/BeverlyHillsCop.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "BeyondTheIcePalace.AY",
-    "file": "chiptunes/ZX ay music/Games/BeyondTheIcePalace.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "BionicCommando.ay",
-    "file": "chiptunes/ZX ay music/Games/BionicCommando.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Blackbeard.AY",
-    "file": "chiptunes/ZX ay music/Games/Blackbeard.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "BlackLamp.ay",
-    "file": "chiptunes/ZX ay music/Games/BlackLamp.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "BladeRunner.AY",
-    "file": "chiptunes/ZX ay music/Games/BladeRunner.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Blasteroids.ay",
-    "file": "chiptunes/ZX ay music/Games/Blasteroids.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "BloodBrothers.ay",
-    "file": "chiptunes/ZX ay music/Games/BloodBrothers.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "BloodValley.AY",
-    "file": "chiptunes/ZX ay music/Games/BloodValley.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "BMXFreestyleSimulator.ay",
-    "file": "chiptunes/ZX ay music/Games/BMXFreestyleSimulator.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "BMXSimulator.AY",
-    "file": "chiptunes/ZX ay music/Games/BMXSimulator.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Bobsleigh.ay",
-    "file": "chiptunes/ZX ay music/Games/Bobsleigh.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "BonanzaBrothers.ay",
-    "file": "chiptunes/ZX ay music/Games/BonanzaBrothers.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Booty.AY",
-    "file": "chiptunes/ZX ay music/Games/Booty.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Bosconian.ay",
-    "file": "chiptunes/ZX ay music/Games/Bosconian.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Brainstorm.ay",
-    "file": "chiptunes/ZX ay music/Games/Brainstorm.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "BratAttack.ay",
-    "file": "chiptunes/ZX ay music/Games/BratAttack.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "BraveStarr.AY",
-    "file": "chiptunes/ZX ay music/Games/BraveStarr.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "BrianBloodaxe.AY",
-    "file": "chiptunes/ZX ay music/Games/BrianBloodaxe.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Bronx.ay",
-    "file": "chiptunes/ZX ay music/Games/Bronx.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "BruceLee.AY",
-    "file": "chiptunes/ZX ay music/Games/BruceLee.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "BubbleBobble.ay",
-    "file": "chiptunes/ZX ay music/Games/BubbleBobble.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "BubbleBobbleTheAdventure.AY",
-    "file": "chiptunes/ZX ay music/Games/BubbleBobbleTheAdventure.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "BubbleDizzy.ay",
-    "file": "chiptunes/ZX ay music/Games/BubbleDizzy.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "BuggyBoy.ay",
-    "file": "chiptunes/ZX ay music/Games/BuggyBoy.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Buratino.AY",
-    "file": "chiptunes/ZX ay music/Games/Buratino.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "ButcherHill.ay",
-    "file": "chiptunes/ZX ay music/Games/ButcherHill.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "ButchHardGuy.ay",
-    "file": "chiptunes/ZX ay music/Games/ButchHardGuy.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Cabal.ay",
-    "file": "chiptunes/ZX ay music/Games/Cabal.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "CaptainBlood.AY",
-    "file": "chiptunes/ZX ay music/Games/CaptainBlood.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "CaptainDynamo.ay",
-    "file": "chiptunes/ZX ay music/Games/CaptainDynamo.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "CaptainFizzMeetsTheBlaster-Trons.ay",
-    "file": "chiptunes/ZX ay music/Games/CaptainFizzMeetsTheBlaster-Trons.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "CarrierCommand.AY",
-    "file": "chiptunes/ZX ay music/Games/CarrierCommand.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Casanova.AY",
-    "file": "chiptunes/ZX ay music/Games/Casanova.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Catch23.AY",
-    "file": "chiptunes/ZX ay music/Games/Catch23.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Cauldron2.AY",
-    "file": "chiptunes/ZX ay music/Games/Cauldron2.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Cavemania.AY",
-    "file": "chiptunes/ZX ay music/Games/Cavemania.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "ChallengeOfTheGobots.ay",
-    "file": "chiptunes/ZX ay music/Games/ChallengeOfTheGobots.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "ChaseHQ.ay",
-    "file": "chiptunes/ZX ay music/Games/ChaseHQ.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "ChaseHQ2.AY",
-    "file": "chiptunes/ZX ay music/Games/ChaseHQ2.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "ChevyChase.ay",
-    "file": "chiptunes/ZX ay music/Games/ChevyChase.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Chip'sChallenge.ay",
-    "file": "chiptunes/ZX ay music/Games/Chip'sChallenge.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Chronos.AY",
-    "file": "chiptunes/ZX ay music/Games/Chronos.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "ChubbyGristle.ay",
-    "file": "chiptunes/ZX ay music/Games/ChubbyGristle.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "ChuckieEgg.ay",
-    "file": "chiptunes/ZX ay music/Games/ChuckieEgg.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "ChuckieEgg2.ay",
-    "file": "chiptunes/ZX ay music/Games/ChuckieEgg2.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "CiscoHeat.ay",
-    "file": "chiptunes/ZX ay music/Games/CiscoHeat.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "CJ'sElephantAntics.AY",
-    "file": "chiptunes/ZX ay music/Games/CJ'sElephantAntics.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "CJInTheUSA.ay",
-    "file": "chiptunes/ZX ay music/Games/CJInTheUSA.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "ClassicMuncher.ay",
-    "file": "chiptunes/ZX ay music/Games/ClassicMuncher.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Cobra.ay",
-    "file": "chiptunes/ZX ay music/Games/Cobra.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Coliseum.AY",
-    "file": "chiptunes/ZX ay music/Games/Coliseum.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Colony.AY",
-    "file": "chiptunes/ZX ay music/Games/Colony.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "CombatSchool.AY",
-    "file": "chiptunes/ZX ay music/Games/CombatSchool.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Cookie.ay",
-    "file": "chiptunes/ZX ay music/Games/Cookie.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "CosmicShockAbsorber.ay",
-    "file": "chiptunes/ZX ay music/Games/CosmicShockAbsorber.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "CosmicWartoad.ay",
-    "file": "chiptunes/ZX ay music/Games/CosmicWartoad.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "CountDuckula.ay",
-    "file": "chiptunes/ZX ay music/Games/CountDuckula.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "CountDuckula2.ay",
-    "file": "chiptunes/ZX ay music/Games/CountDuckula2.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "CrackDown.ay",
-    "file": "chiptunes/ZX ay music/Games/CrackDown.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "CrimeBusters.AY",
-    "file": "chiptunes/ZX ay music/Games/CrimeBusters.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "CrystalCastles.AY",
-    "file": "chiptunes/ZX ay music/Games/CrystalCastles.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "CrystalKingdomDizzy.ay",
-    "file": "chiptunes/ZX ay music/Games/CrystalKingdomDizzy.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Cyberball.ay",
-    "file": "chiptunes/ZX ay music/Games/Cyberball.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Cybernoid2.AY",
-    "file": "chiptunes/ZX ay music/Games/Cybernoid2.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "CybernoidTheFightingMachine.AY",
-    "file": "chiptunes/ZX ay music/Games/CybernoidTheFightingMachine.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "D.N.A.Warrior.ay",
-    "file": "chiptunes/ZX ay music/Games/D.N.A.Warrior.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "DaleyThompson'sOlympicChallenge.ay",
-    "file": "chiptunes/ZX ay music/Games/DaleyThompson'sOlympicChallenge.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "DaleyThompson'sSuperTest.ay",
-    "file": "chiptunes/ZX ay music/Games/DaleyThompson'sSuperTest.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "DanDareIII-TheEscape.AY",
-    "file": "chiptunes/ZX ay music/Games/DanDareIII-TheEscape.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "DarkFusion.ay",
-    "file": "chiptunes/ZX ay music/Games/DarkFusion.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "DarkMan.ay",
-    "file": "chiptunes/ZX ay music/Games/DarkMan.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "DarkSceptre.AY",
-    "file": "chiptunes/ZX ay music/Games/DarkSceptre.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "DeathStalker.ay",
-    "file": "chiptunes/ZX ay music/Games/DeathStalker.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "DeathWish3.ay",
-    "file": "chiptunes/ZX ay music/Games/DeathWish3.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Defcom.ay",
-    "file": "chiptunes/ZX ay music/Games/Defcom.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "DefenderOfTheCrown.AY",
-    "file": "chiptunes/ZX ay music/Games/DefenderOfTheCrown.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "DefendersOfTheEarth.ay",
-    "file": "chiptunes/ZX ay music/Games/DefendersOfTheEarth.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Deflektor.AY",
-    "file": "chiptunes/ZX ay music/Games/Deflektor.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Denizen.ay",
-    "file": "chiptunes/ZX ay music/Games/Denizen.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Desperado.AY",
-    "file": "chiptunes/ZX ay music/Games/Desperado.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "DestinyMission.AY",
-    "file": "chiptunes/ZX ay music/Games/DestinyMission.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Deviants.ay",
-    "file": "chiptunes/ZX ay music/Games/Deviants.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Dizzy-PrinceOfTheYolkFolk.ay",
-    "file": "chiptunes/ZX ay music/Games/Dizzy-PrinceOfTheYolkFolk.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Dizzy.ay",
-    "file": "chiptunes/ZX ay music/Games/Dizzy.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "DizzyDownTheRapids.AY",
-    "file": "chiptunes/ZX ay music/Games/DizzyDownTheRapids.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "DoubleDragonII-TheRevenge.AY",
-    "file": "chiptunes/ZX ay music/Games/DoubleDragonII-TheRevenge.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "DoubleDragonIII-TheRosettaStone.AY",
-    "file": "chiptunes/ZX ay music/Games/DoubleDragonIII-TheRosettaStone.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "DoubleTake.AY",
-    "file": "chiptunes/ZX ay music/Games/DoubleTake.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "DragonNinja.ay",
-    "file": "chiptunes/ZX ay music/Games/DragonNinja.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "DragonsLair2EscapeFromSingesCastle.ay",
-    "file": "chiptunes/ZX ay music/Games/DragonsLair2EscapeFromSingesCastle.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "DragonSpirit.AY",
-    "file": "chiptunes/ZX ay music/Games/DragonSpirit.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Dragontorc.AY",
-    "file": "chiptunes/ZX ay music/Games/Dragontorc.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Dustin.ay",
-    "file": "chiptunes/ZX ay music/Games/Dustin.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "DynamiteDan.AY",
-    "file": "chiptunes/ZX ay music/Games/DynamiteDan.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "DynamiteDan2.AY",
-    "file": "chiptunes/ZX ay music/Games/DynamiteDan2.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "E-Motion.ay",
-    "file": "chiptunes/ZX ay music/Games/E-Motion.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "E-SWAT.AY",
-    "file": "chiptunes/ZX ay music/Games/E-SWAT.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "EarthShaker.ay",
-    "file": "chiptunes/ZX ay music/Games/EarthShaker.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "ElevatorAction.ay",
-    "file": "chiptunes/ZX ay music/Games/ElevatorAction.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Eliminator.ay",
-    "file": "chiptunes/ZX ay music/Games/Eliminator.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Enchanted.AY",
-    "file": "chiptunes/ZX ay music/Games/Enchanted.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "EnergyWarrior.ay",
-    "file": "chiptunes/ZX ay music/Games/EnergyWarrior.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "EnigmaForce.AY",
-    "file": "chiptunes/ZX ay music/Games/EnigmaForce.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Equinox.AY",
-    "file": "chiptunes/ZX ay music/Games/Equinox.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "EscapeFromThePlanetOfTheRobotMonsters.ay",
-    "file": "chiptunes/ZX ay music/Games/EscapeFromThePlanetOfTheRobotMonsters.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Everyone'sAWally.AY",
-    "file": "chiptunes/ZX ay music/Games/Everyone'sAWally.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Exolon.AY",
-    "file": "chiptunes/ZX ay music/Games/Exolon.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "F.I.R.E..AY",
-    "file": "chiptunes/ZX ay music/Games/F.I.R.E..AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "F16FightingFalcon.ay",
-    "file": "chiptunes/ZX ay music/Games/F16FightingFalcon.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Fairlight-APrelude.ay",
-    "file": "chiptunes/ZX ay music/Games/Fairlight-APrelude.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Fairlight2-ATrailOfDarkness.ay",
-    "file": "chiptunes/ZX ay music/Games/Fairlight2-ATrailOfDarkness.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "FallenAngel.AY",
-    "file": "chiptunes/ZX ay music/Games/FallenAngel.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "FallGuyThe.ay",
-    "file": "chiptunes/ZX ay music/Games/FallGuyThe.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "FantasyWorldDizzy.ay",
-    "file": "chiptunes/ZX ay music/Games/FantasyWorldDizzy.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "FastFoodDizzy.ay",
-    "file": "chiptunes/ZX ay music/Games/FastFoodDizzy.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "FatWormBlowsASparky.AY",
-    "file": "chiptunes/ZX ay music/Games/FatWormBlowsASparky.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "FifthQuadrantThe.AY",
-    "file": "chiptunes/ZX ay music/Games/FifthQuadrantThe.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "FightingSoccer.ay",
-    "file": "chiptunes/ZX ay music/Games/FightingSoccer.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "FinalFight.ay",
-    "file": "chiptunes/ZX ay music/Games/FinalFight.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Firefly.AY",
-    "file": "chiptunes/ZX ay music/Games/Firefly.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "FireLord.AY",
-    "file": "chiptunes/ZX ay music/Games/FireLord.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Fist+.AY",
-    "file": "chiptunes/ZX ay music/Games/Fist+.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "FlashPoint.AY",
-    "file": "chiptunes/ZX ay music/Games/FlashPoint.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "FlintstonesThe.ay",
-    "file": "chiptunes/ZX ay music/Games/FlintstonesThe.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "FlyingShark.AY",
-    "file": "chiptunes/ZX ay music/Games/FlyingShark.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "FootballerOfTheYear2.ay",
-    "file": "chiptunes/ZX ay music/Games/FootballerOfTheYear2.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "ForgottenWorlds.ay",
-    "file": "chiptunes/ZX ay music/Games/ForgottenWorlds.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "FoxxFightsBack.ay",
-    "file": "chiptunes/ZX ay music/Games/FoxxFightsBack.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "FrankieGoesToHollywood.AY",
-    "file": "chiptunes/ZX ay music/Games/FrankieGoesToHollywood.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "FreddyHardest.AY",
-    "file": "chiptunes/ZX ay music/Games/FreddyHardest.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "FrostByte.AY",
-    "file": "chiptunes/ZX ay music/Games/FrostByte.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "FruitMachineSimulator.ay",
-    "file": "chiptunes/ZX ay music/Games/FruitMachineSimulator.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "FruitMachineSimulator2.ay",
-    "file": "chiptunes/ZX ay music/Games/FruitMachineSimulator2.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Fuksoft.AY",
-    "file": "chiptunes/ZX ay music/Games/Fuksoft.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "FullThrottle2.AY",
-    "file": "chiptunes/ZX ay music/Games/FullThrottle2.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "FutureGames.AY",
-    "file": "chiptunes/ZX ay music/Games/FutureGames.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "FutureKnight.AY",
-    "file": "chiptunes/ZX ay music/Games/FutureKnight.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "G-LocR360.ay",
-    "file": "chiptunes/ZX ay music/Games/G-LocR360.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "G.I.Hero.ay",
-    "file": "chiptunes/ZX ay music/Games/G.I.Hero.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "GameOver.AY",
-    "file": "chiptunes/ZX ay music/Games/GameOver.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "GaryLineker'sHotShot.ay",
-    "file": "chiptunes/ZX ay music/Games/GaryLineker'sHotShot.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "GaryLineker'sSuperSkills.ay",
-    "file": "chiptunes/ZX ay music/Games/GaryLineker'sSuperSkills.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Gauntlet.ay",
-    "file": "chiptunes/ZX ay music/Games/Gauntlet.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "GauntletII.AY",
-    "file": "chiptunes/ZX ay music/Games/GauntletII.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "GauntletIII-TheFinalQuest.ay",
-    "file": "chiptunes/ZX ay music/Games/GauntletIII-TheFinalQuest.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "GeminiWing.AY",
-    "file": "chiptunes/ZX ay music/Games/GeminiWing.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "GhostBusters.ay",
-    "file": "chiptunes/ZX ay music/Games/GhostBusters.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "GhostBustersII.AY",
-    "file": "chiptunes/ZX ay music/Games/GhostBustersII.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "GhoulsNGhosts.ay",
-    "file": "chiptunes/ZX ay music/Games/GhoulsNGhosts.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Gilbert-EscapeFromDrill.ay",
-    "file": "chiptunes/ZX ay music/Games/Gilbert-EscapeFromDrill.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "GliderRider.ay",
-    "file": "chiptunes/ZX ay music/Games/GliderRider.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "GoldenAxe.AY",
-    "file": "chiptunes/ZX ay music/Games/GoldenAxe.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Goody.AY",
-    "file": "chiptunes/ZX ay music/Games/Goody.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "GrandPrixSimulator.AY",
-    "file": "chiptunes/ZX ay music/Games/GrandPrixSimulator.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "GrandPrixSimulator2.AY",
-    "file": "chiptunes/ZX ay music/Games/GrandPrixSimulator2.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "GrangeHill.ay",
-    "file": "chiptunes/ZX ay music/Games/GrangeHill.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "GreatEscapeThe.ay",
-    "file": "chiptunes/ZX ay music/Games/GreatEscapeThe.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "GrellAndFalla.ay",
-    "file": "chiptunes/ZX ay music/Games/GrellAndFalla.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Gryzor.ay",
-    "file": "chiptunes/ZX ay music/Games/Gryzor.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "GuerrillaWar.ay",
-    "file": "chiptunes/ZX ay music/Games/GuerrillaWar.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Gunfright.AY",
-    "file": "chiptunes/ZX ay music/Games/Gunfright.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "GunRunner.AY",
-    "file": "chiptunes/ZX ay music/Games/GunRunner.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Gunsmoke.AY",
-    "file": "chiptunes/ZX ay music/Games/Gunsmoke.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Gutz.AY",
-    "file": "chiptunes/ZX ay music/Games/Gutz.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Gyroscope.ay",
-    "file": "chiptunes/ZX ay music/Games/Gyroscope.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "H.A.T.E..AY",
-    "file": "chiptunes/ZX ay music/Games/H.A.T.E..AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "HadesNebula.ay",
-    "file": "chiptunes/ZX ay music/Games/HadesNebula.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "HardDrivin'.ay",
-    "file": "chiptunes/ZX ay music/Games/HardDrivin'.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Havoc.AY",
-    "file": "chiptunes/ZX ay music/Games/Havoc.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "HawkStorm.ay",
-    "file": "chiptunes/ZX ay music/Games/HawkStorm.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "He-Man-MastersOfTheUniverse.AY",
-    "file": "chiptunes/ZX ay music/Games/He-Man-MastersOfTheUniverse.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "HeadOverHeels.ay",
-    "file": "chiptunes/ZX ay music/Games/HeadOverHeels.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Heartbroken.AY",
-    "file": "chiptunes/ZX ay music/Games/Heartbroken.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Heartland.ay",
-    "file": "chiptunes/ZX ay music/Games/Heartland.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "HeavyOnTheMagick.AY",
-    "file": "chiptunes/ZX ay music/Games/HeavyOnTheMagick.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Herbert'sDummyRun.AY",
-    "file": "chiptunes/ZX ay music/Games/Herbert'sDummyRun.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Hercules-SlayerOfTheDamned.ay",
-    "file": "chiptunes/ZX ay music/Games/Hercules-SlayerOfTheDamned.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "HeroQuest.ay",
-    "file": "chiptunes/ZX ay music/Games/HeroQuest.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Hoppin'Mad.ay",
-    "file": "chiptunes/ZX ay music/Games/Hoppin'Mad.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Hostages.ay",
-    "file": "chiptunes/ZX ay music/Games/Hostages.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "HotRod.ay",
-    "file": "chiptunes/ZX ay music/Games/HotRod.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "HotShot.ay",
-    "file": "chiptunes/ZX ay music/Games/HotShot.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "HowToBeACompleteBastard.ay",
-    "file": "chiptunes/ZX ay music/Games/HowToBeACompleteBastard.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "HudsonHawk.AY",
-    "file": "chiptunes/ZX ay music/Games/HudsonHawk.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Humphrey.AY",
-    "file": "chiptunes/ZX ay music/Games/Humphrey.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Hunchback-TheAdventure.AY",
-    "file": "chiptunes/ZX ay music/Games/Hunchback-TheAdventure.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Hunchback.ay",
-    "file": "chiptunes/ZX ay music/Games/Hunchback.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Hunchback2-Quasimodo'sRevenge.ay",
-    "file": "chiptunes/ZX ay music/Games/Hunchback2-Quasimodo'sRevenge.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Hundra.AY",
-    "file": "chiptunes/ZX ay music/Games/Hundra.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "HuntForRedOctoberThe.ay",
-    "file": "chiptunes/ZX ay music/Games/HuntForRedOctoberThe.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Hydrofool.AY",
-    "file": "chiptunes/ZX ay music/Games/Hydrofool.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Hypaball.AY",
-    "file": "chiptunes/ZX ay music/Games/Hypaball.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "HyperActive.AY",
-    "file": "chiptunes/ZX ay music/Games/HyperActive.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "HyperLane.AY",
-    "file": "chiptunes/ZX ay music/Games/HyperLane.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Hysteria.ay",
-    "file": "chiptunes/ZX ay music/Games/Hysteria.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "I.C.U.P.S..AY",
-    "file": "chiptunes/ZX ay music/Games/I.C.U.P.S..AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "IBall.ay",
-    "file": "chiptunes/ZX ay music/Games/IBall.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "IBall2.ay",
-    "file": "chiptunes/ZX ay music/Games/IBall2.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "IkariWarriors.ay",
-    "file": "chiptunes/ZX ay music/Games/IkariWarriors.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Implosion.ay",
-    "file": "chiptunes/ZX ay music/Games/Implosion.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Impossamole.AY",
-    "file": "chiptunes/ZX ay music/Games/Impossamole.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "IndianaJones3.ay",
-    "file": "chiptunes/ZX ay music/Games/IndianaJones3.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "IndianaJonesAndTheLastCrusade.ay",
-    "file": "chiptunes/ZX ay music/Games/IndianaJonesAndTheLastCrusade.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Infection.AY",
-    "file": "chiptunes/ZX ay music/Games/Infection.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "International3DTennis.ay",
-    "file": "chiptunes/ZX ay music/Games/International3DTennis.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "InternationalKarate+.ay",
-    "file": "chiptunes/ZX ay music/Games/InternationalKarate+.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "InternationalKarate.AY",
-    "file": "chiptunes/ZX ay music/Games/InternationalKarate.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "InternationalNinjaRabbits.AY",
-    "file": "chiptunes/ZX ay music/Games/InternationalNinjaRabbits.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "InternationalRugbySimulator.ay",
-    "file": "chiptunes/ZX ay music/Games/InternationalRugbySimulator.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "InternationalSpeedway.AY",
-    "file": "chiptunes/ZX ay music/Games/InternationalSpeedway.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "JackTheNipperII-InCoconutCapers.AY",
-    "file": "chiptunes/ZX ay music/Games/JackTheNipperII-InCoconutCapers.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "JahangirKhanWorldChampionshipSquash.ay",
-    "file": "chiptunes/ZX ay music/Games/JahangirKhanWorldChampionshipSquash.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "JamesBond007-LiveAndLetDie.ay",
-    "file": "chiptunes/ZX ay music/Games/JamesBond007-LiveAndLetDie.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "JetBikeSimulator.AY",
-    "file": "chiptunes/ZX ay music/Games/JetBikeSimulator.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "JetSetWilly.AY",
-    "file": "chiptunes/ZX ay music/Games/JetSetWilly.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "JetSetWillyII-TheFinalFrontier.AY",
-    "file": "chiptunes/ZX ay music/Games/JetSetWillyII-TheFinalFrontier.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "JetStory.AY",
-    "file": "chiptunes/ZX ay music/Games/JetStory.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "JoeBlade.ay",
-    "file": "chiptunes/ZX ay music/Games/JoeBlade.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "JoeBlade2.ay",
-    "file": "chiptunes/ZX ay music/Games/JoeBlade2.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "JoeBlade3.ay",
-    "file": "chiptunes/ZX ay music/Games/JoeBlade3.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "JungleWarrior.AY",
-    "file": "chiptunes/ZX ay music/Games/JungleWarrior.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Kaboom!.ay",
-    "file": "chiptunes/ZX ay music/Games/Kaboom!.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Kamikaze.ay",
-    "file": "chiptunes/ZX ay music/Games/Kamikaze.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "KendoWarrior.ay",
-    "file": "chiptunes/ZX ay music/Games/KendoWarrior.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Klimax.ay",
-    "file": "chiptunes/ZX ay music/Games/Klimax.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "KnightLore.AY",
-    "file": "chiptunes/ZX ay music/Games/KnightLore.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "KnightRider.AY",
-    "file": "chiptunes/ZX ay music/Games/KnightRider.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "KnightTyme.ay",
-    "file": "chiptunes/ZX ay music/Games/KnightTyme.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Kosmos.AY",
-    "file": "chiptunes/ZX ay music/Games/Kosmos.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Kraal.AY",
-    "file": "chiptunes/ZX ay music/Games/Kraal.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Krakout.AY",
-    "file": "chiptunes/ZX ay music/Games/Krakout.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Kung-FuKnights.AY",
-    "file": "chiptunes/ZX ay music/Games/Kung-FuKnights.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "KwikSnax.ay",
-    "file": "chiptunes/ZX ay music/Games/KwikSnax.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "LastMission.AY",
-    "file": "chiptunes/ZX ay music/Games/LastMission.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "LastNinja2.AY",
-    "file": "chiptunes/ZX ay music/Games/LastNinja2.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Lazerwheel.AY",
-    "file": "chiptunes/ZX ay music/Games/Lazerwheel.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "LEDStorm.ay",
-    "file": "chiptunes/ZX ay music/Games/LEDStorm.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "LegendOfTheAmazonWomen.AY",
-    "file": "chiptunes/ZX ay music/Games/LegendOfTheAmazonWomen.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Lemmings.ay",
-    "file": "chiptunes/ZX ay music/Games/Lemmings.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Leviathan.ay",
-    "file": "chiptunes/ZX ay music/Games/Leviathan.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "LightCorridorThe.ay",
-    "file": "chiptunes/ZX ay music/Games/LightCorridorThe.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "LineOfFire.ay",
-    "file": "chiptunes/ZX ay music/Games/LineOfFire.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "LittlePuff.AY",
-    "file": "chiptunes/ZX ay music/Games/LittlePuff.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "LodeRunner.ay",
-    "file": "chiptunes/ZX ay music/Games/LodeRunner.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "LonewolfTheMirrorOfDeath.ay",
-    "file": "chiptunes/ZX ay music/Games/LonewolfTheMirrorOfDeath.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Loopz.ay",
-    "file": "chiptunes/ZX ay music/Games/Loopz.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "LosAngelesDrugsBust.ay",
-    "file": "chiptunes/ZX ay music/Games/LosAngelesDrugsBust.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "LostCaves.AY",
-    "file": "chiptunes/ZX ay music/Games/LostCaves.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "LotusEspritTurboChallenge.ay",
-    "file": "chiptunes/ZX ay music/Games/LotusEspritTurboChallenge.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "M0zgProcesor.AY",
-    "file": "chiptunes/ZX ay music/Games/M0zgProcesor.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Madballs.ay",
-    "file": "chiptunes/ZX ay music/Games/Madballs.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "MadMix2.ay",
-    "file": "chiptunes/ZX ay music/Games/MadMix2.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "MagicJohnsonsBasketball.ay",
-    "file": "chiptunes/ZX ay music/Games/MagicJohnsonsBasketball.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "MagicLandDizzy.ay",
-    "file": "chiptunes/ZX ay music/Games/MagicLandDizzy.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "MagicStory.AY",
-    "file": "chiptunes/ZX ay music/Games/MagicStory.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "MagMax.AY",
-    "file": "chiptunes/ZX ay music/Games/MagMax.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Magnetron.AY",
-    "file": "chiptunes/ZX ay music/Games/Magnetron.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "ManchesterUnited.ay",
-    "file": "chiptunes/ZX ay music/Games/ManchesterUnited.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "ManicMiner.AY",
-    "file": "chiptunes/ZX ay music/Games/ManicMiner.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Marauder.ay",
-    "file": "chiptunes/ZX ay music/Games/Marauder.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Martianoids.AY",
-    "file": "chiptunes/ZX ay music/Games/Martianoids.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Mask.AY",
-    "file": "chiptunes/ZX ay music/Games/Mask.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Mask3-VenomStrikesBack.ay",
-    "file": "chiptunes/ZX ay music/Games/Mask3-VenomStrikesBack.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "MaskTwo.AY",
-    "file": "chiptunes/ZX ay music/Games/MaskTwo.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "MaxHeadroom.AY",
-    "file": "chiptunes/ZX ay music/Games/MaxHeadroom.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "MeanStreak.ay",
-    "file": "chiptunes/ZX ay music/Games/MeanStreak.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "MegaApocalypse.ay",
-    "file": "chiptunes/ZX ay music/Games/MegaApocalypse.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "MiamiChase.AY",
-    "file": "chiptunes/ZX ay music/Games/MiamiChase.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "MiamiCobraGT.AY",
-    "file": "chiptunes/ZX ay music/Games/MiamiCobraGT.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "MickyMouse.AY",
-    "file": "chiptunes/ZX ay music/Games/MickyMouse.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "MidnightResistance.ay",
-    "file": "chiptunes/ZX ay music/Games/MidnightResistance.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "MIG29SovietFighter.AY",
-    "file": "chiptunes/ZX ay music/Games/MIG29SovietFighter.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Mikie.ay",
-    "file": "chiptunes/ZX ay music/Games/Mikie.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Milkrace.ay",
-    "file": "chiptunes/ZX ay music/Games/Milkrace.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "MindTrap.AY",
-    "file": "chiptunes/ZX ay music/Games/MindTrap.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "MissileGroundZero.AY",
-    "file": "chiptunes/ZX ay music/Games/MissileGroundZero.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "MonteCarloCasino.ay",
-    "file": "chiptunes/ZX ay music/Games/MonteCarloCasino.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "MontyOnTheRun.ay",
-    "file": "chiptunes/ZX ay music/Games/MontyOnTheRun.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "MoonlightMadness.AY",
-    "file": "chiptunes/ZX ay music/Games/MoonlightMadness.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Moonstrike.ay",
-    "file": "chiptunes/ZX ay music/Games/Moonstrike.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "MortadeloYFilemon2.ay",
-    "file": "chiptunes/ZX ay music/Games/MortadeloYFilemon2.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "MortalKombat.AY",
-    "file": "chiptunes/ZX ay music/Games/MortalKombat.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "MotorMassacre.ay",
-    "file": "chiptunes/ZX ay music/Games/MotorMassacre.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Motos.ay",
-    "file": "chiptunes/ZX ay music/Games/Motos.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "MountainBikeRacer.ay",
-    "file": "chiptunes/ZX ay music/Games/MountainBikeRacer.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "MountieMick'sDeathRide.ay",
-    "file": "chiptunes/ZX ay music/Games/MountieMick'sDeathRide.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "MovingTarget.ay",
-    "file": "chiptunes/ZX ay music/Games/MovingTarget.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "MsPacMan.ay",
-    "file": "chiptunes/ZX ay music/Games/MsPacMan.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "MunstersThe.ay",
-    "file": "chiptunes/ZX ay music/Games/MunstersThe.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "MysteryOfArkhamManorThe.ay",
-    "file": "chiptunes/ZX ay music/Games/MysteryOfArkhamManorThe.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Mystical.ay",
-    "file": "chiptunes/ZX ay music/Games/Mystical.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "N.O.M.A.D..ay",
-    "file": "chiptunes/ZX ay music/Games/N.O.M.A.D..ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "NARC.AY",
-    "file": "chiptunes/ZX ay music/Games/NARC.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "NavySeals.ay",
-    "file": "chiptunes/ZX ay music/Games/NavySeals.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Nebulus.ay",
-    "file": "chiptunes/ZX ay music/Games/Nebulus.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "NemesisTheFinalChallenge.ay",
-    "file": "chiptunes/ZX ay music/Games/NemesisTheFinalChallenge.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "NemesisTheWarlock.ay",
-    "file": "chiptunes/ZX ay music/Games/NemesisTheWarlock.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "NetherEarth.AY",
-    "file": "chiptunes/ZX ay music/Games/NetherEarth.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Netherworld.ay",
-    "file": "chiptunes/ZX ay music/Games/Netherworld.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "NeverEndingStoryThe.ay",
-    "file": "chiptunes/ZX ay music/Games/NeverEndingStoryThe.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "NewZealandStoryThe.ay",
-    "file": "chiptunes/ZX ay music/Games/NewZealandStoryThe.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "NightBreed.ay",
-    "file": "chiptunes/ZX ay music/Games/NightBreed.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "NightShade.AY",
-    "file": "chiptunes/ZX ay music/Games/NightShade.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "NightShift.AY",
-    "file": "chiptunes/ZX ay music/Games/NightShift.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "NinjaSpirit.ay",
-    "file": "chiptunes/ZX ay music/Games/NinjaSpirit.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "NinjaWarriorsThe.ay",
-    "file": "chiptunes/ZX ay music/Games/NinjaWarriorsThe.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "NodesOfYesod.AY",
-    "file": "chiptunes/ZX ay music/Games/NodesOfYesod.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Nonamed.AY",
-    "file": "chiptunes/ZX ay music/Games/Nonamed.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "NorthAndSouth.ay",
-    "file": "chiptunes/ZX ay music/Games/NorthAndSouth.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Northstar.AY",
-    "file": "chiptunes/ZX ay music/Games/Northstar.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Obliterator.ay",
-    "file": "chiptunes/ZX ay music/Games/Obliterator.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "OlliAndLissa.AY",
-    "file": "chiptunes/ZX ay music/Games/OlliAndLissa.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "OlliAndLissaII-Halloween.AY",
-    "file": "chiptunes/ZX ay music/Games/OlliAndLissaII-Halloween.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "OperationGunship.ay",
-    "file": "chiptunes/ZX ay music/Games/OperationGunship.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "OperationHanoi.ay",
-    "file": "chiptunes/ZX ay music/Games/OperationHanoi.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "OperationThunderbolt.AY",
-    "file": "chiptunes/ZX ay music/Games/OperationThunderbolt.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "OperationWolf.ay",
-    "file": "chiptunes/ZX ay music/Games/OperationWolf.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "OrientalHero.AY",
-    "file": "chiptunes/ZX ay music/Games/OrientalHero.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "OutRun.ay",
-    "file": "chiptunes/ZX ay music/Games/OutRun.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "OverLander.ay",
-    "file": "chiptunes/ZX ay music/Games/OverLander.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "P47FreedomFighter.ay",
-    "file": "chiptunes/ZX ay music/Games/P47FreedomFighter.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "PacLand.ay",
-    "file": "chiptunes/ZX ay music/Games/PacLand.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "PacMania.ay",
-    "file": "chiptunes/ZX ay music/Games/PacMania.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Pang.ay",
-    "file": "chiptunes/ZX ay music/Games/Pang.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "PanicDizzy.AY",
-    "file": "chiptunes/ZX ay music/Games/PanicDizzy.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Paperboy2.ay",
-    "file": "chiptunes/ZX ay music/Games/Paperboy2.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "ParisDakar.ay",
-    "file": "chiptunes/ZX ay music/Games/ParisDakar.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "PassingShot.ay",
-    "file": "chiptunes/ZX ay music/Games/PassingShot.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Pentagram.AY",
-    "file": "chiptunes/ZX ay music/Games/Pentagram.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "PercyThePottyPigeon.AY",
-    "file": "chiptunes/ZX ay music/Games/PercyThePottyPigeon.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "PeterPackRat.ay",
-    "file": "chiptunes/ZX ay music/Games/PeterPackRat.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Phantomas.ay",
-    "file": "chiptunes/ZX ay music/Games/Phantomas.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "PingPong.AY",
-    "file": "chiptunes/ZX ay music/Games/PingPong.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "PiskWorksTopGun.ay",
-    "file": "chiptunes/ZX ay music/Games/PiskWorksTopGun.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "PitFighter.ay",
-    "file": "chiptunes/ZX ay music/Games/PitFighter.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "PixyTheMicrodot.AY",
-    "file": "chiptunes/ZX ay music/Games/PixyTheMicrodot.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "PlanetOfShades.AY",
-    "file": "chiptunes/ZX ay music/Games/PlanetOfShades.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Platoon.ay",
-    "file": "chiptunes/ZX ay music/Games/Platoon.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "PlotThe.ay",
-    "file": "chiptunes/ZX ay music/Games/PlotThe.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Plotting.ay",
-    "file": "chiptunes/ZX ay music/Games/Plotting.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Podraz3.ay",
-    "file": "chiptunes/ZX ay music/Games/Podraz3.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Potsworth.ay",
-    "file": "chiptunes/ZX ay music/Games/Potsworth.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "PowerBoatSimulator.ay",
-    "file": "chiptunes/ZX ay music/Games/PowerBoatSimulator.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Powerdrift.ay",
-    "file": "chiptunes/ZX ay music/Games/Powerdrift.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "PowerPlay.ay",
-    "file": "chiptunes/ZX ay music/Games/PowerPlay.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Predator2.ay",
-    "file": "chiptunes/ZX ay music/Games/Predator2.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "PrinceOfPersia.AY",
-    "file": "chiptunes/ZX ay music/Games/PrinceOfPersia.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "PrisonRiot.ay",
-    "file": "chiptunes/ZX ay music/Games/PrisonRiot.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "ProBMXSimulator2.AY",
-    "file": "chiptunes/ZX ay music/Games/ProBMXSimulator2.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "ProdigyThe.ay",
-    "file": "chiptunes/ZX ay music/Games/ProdigyThe.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "ProfessionalBMXSimulator.ay",
-    "file": "chiptunes/ZX ay music/Games/ProfessionalBMXSimulator.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "ProfessionalMountainBikeSimulator.ay",
-    "file": "chiptunes/ZX ay music/Games/ProfessionalMountainBikeSimulator.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "ProfessionalSkiSimulator.ay",
-    "file": "chiptunes/ZX ay music/Games/ProfessionalSkiSimulator.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "ProfessionalTennis.ay",
-    "file": "chiptunes/ZX ay music/Games/ProfessionalTennis.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Prohibition.ay",
-    "file": "chiptunes/ZX ay music/Games/Prohibition.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "ProSkateboardSimulator.ay",
-    "file": "chiptunes/ZX ay music/Games/ProSkateboardSimulator.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Pssst.ay",
-    "file": "chiptunes/ZX ay music/Games/Pssst.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "PsychoPigsUXB.AY",
-    "file": "chiptunes/ZX ay music/Games/PsychoPigsUXB.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Pulsator.AY",
-    "file": "chiptunes/ZX ay music/Games/Pulsator.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "PulseWarrior.ay",
-    "file": "chiptunes/ZX ay music/Games/PulseWarrior.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Pulsoid.ay",
-    "file": "chiptunes/ZX ay music/Games/Pulsoid.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "PurpleSaturnDay.ay",
-    "file": "chiptunes/ZX ay music/Games/PurpleSaturnDay.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Puzznic.ay",
-    "file": "chiptunes/ZX ay music/Games/Puzznic.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Pyjamarama!.AY",
-    "file": "chiptunes/ZX ay music/Games/Pyjamarama!.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Quazatron.AY",
-    "file": "chiptunes/ZX ay music/Games/Quazatron.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "QuestionOfScruples.ay",
-    "file": "chiptunes/ZX ay music/Games/QuestionOfScruples.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "QuickDrawMcGraw.ay",
-    "file": "chiptunes/ZX ay music/Games/QuickDrawMcGraw.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "R.B.I.TwoBaseball.ay",
-    "file": "chiptunes/ZX ay music/Games/R.B.I.TwoBaseball.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "RainbowIslands.ay",
-    "file": "chiptunes/ZX ay music/Games/RainbowIslands.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Ram.AY",
-    "file": "chiptunes/ZX ay music/Games/Ram.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "RamboFirstBloodPartII.AY",
-    "file": "chiptunes/ZX ay music/Games/RamboFirstBloodPartII.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "RamboIII.ay",
-    "file": "chiptunes/ZX ay music/Games/RamboIII.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Ramparts.ay",
-    "file": "chiptunes/ZX ay music/Games/Ramparts.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "RanaRama.AY",
-    "file": "chiptunes/ZX ay music/Games/RanaRama.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Rasputin.ay",
-    "file": "chiptunes/ZX ay music/Games/Rasputin.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Rastan.ay",
-    "file": "chiptunes/ZX ay music/Games/Rastan.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "RasterRunner.ay",
-    "file": "chiptunes/ZX ay music/Games/RasterRunner.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Rasterscan.ay",
-    "file": "chiptunes/ZX ay music/Games/Rasterscan.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "RawRecruit.AY",
-    "file": "chiptunes/ZX ay music/Games/RawRecruit.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "RealGhostBustersThe.ay",
-    "file": "chiptunes/ZX ay music/Games/RealGhostBustersThe.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "RedHeat.ay",
-    "file": "chiptunes/ZX ay music/Games/RedHeat.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Renegade.ay",
-    "file": "chiptunes/ZX ay music/Games/Renegade.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "RenegadeIII-TheFinalChapter.AY",
-    "file": "chiptunes/ZX ay music/Games/RenegadeIII-TheFinalChapter.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "RickDangerous.ay",
-    "file": "chiptunes/ZX ay music/Games/RickDangerous.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "RickDangerous2.ay",
-    "file": "chiptunes/ZX ay music/Games/RickDangerous2.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "RoadRunner.ay",
-    "file": "chiptunes/ZX ay music/Games/RoadRunner.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "RobinHood.ay",
-    "file": "chiptunes/ZX ay music/Games/RobinHood.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "RobinOfTheWood.ay",
-    "file": "chiptunes/ZX ay music/Games/RobinOfTheWood.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Robocop.AY",
-    "file": "chiptunes/ZX ay music/Games/Robocop.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Robocop2.ay",
-    "file": "chiptunes/ZX ay music/Games/Robocop2.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Robocop3.ay",
-    "file": "chiptunes/ZX ay music/Games/Robocop3.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Robozone.ay",
-    "file": "chiptunes/ZX ay music/Games/Robozone.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Rock'NRoll.ay",
-    "file": "chiptunes/ZX ay music/Games/Rock'NRoll.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "RockStarAteMyHamster.ay",
-    "file": "chiptunes/ZX ay music/Games/RockStarAteMyHamster.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "RockyHorrorShowThe.ay",
-    "file": "chiptunes/ZX ay music/Games/RockyHorrorShowThe.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "RodLand.ay",
-    "file": "chiptunes/ZX ay music/Games/RodLand.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "RollerCoaster.ay",
-    "file": "chiptunes/ZX ay music/Games/RollerCoaster.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "RoundTheBend!.ay",
-    "file": "chiptunes/ZX ay music/Games/RoundTheBend!.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "RuffAndReddy.AY",
-    "file": "chiptunes/ZX ay music/Games/RuffAndReddy.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "RunTheGauntlet.ay",
-    "file": "chiptunes/ZX ay music/Games/RunTheGauntlet.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "S.T.U.N.Runner.ay",
-    "file": "chiptunes/ZX ay music/Games/S.T.U.N.Runner.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Saboteur.AY",
-    "file": "chiptunes/ZX ay music/Games/Saboteur.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Saboteur2.ay",
-    "file": "chiptunes/ZX ay music/Games/Saboteur2.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "SabreWulf.ay",
-    "file": "chiptunes/ZX ay music/Games/SabreWulf.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Sabrina.ay",
-    "file": "chiptunes/ZX ay music/Games/Sabrina.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "SacredArmourOfAntiriadThe.AY",
-    "file": "chiptunes/ZX ay music/Games/SacredArmourOfAntiriadThe.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "SacredSword.ay",
-    "file": "chiptunes/ZX ay music/Games/SacredSword.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "SaigonCombatUnit.ay",
-    "file": "chiptunes/ZX ay music/Games/SaigonCombatUnit.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "SaintDragon.ay",
-    "file": "chiptunes/ZX ay music/Games/SaintDragon.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "SamuraiTrilogyThe.ay",
-    "file": "chiptunes/ZX ay music/Games/SamuraiTrilogyThe.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "SamuraiWarrior.ay",
-    "file": "chiptunes/ZX ay music/Games/SamuraiWarrior.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Sanxion.ay",
-    "file": "chiptunes/ZX ay music/Games/Sanxion.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Savage.ay",
-    "file": "chiptunes/ZX ay music/Games/Savage.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "ScrambleSpirits.ay",
-    "file": "chiptunes/ZX ay music/Games/ScrambleSpirits.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Seahawk.ay",
-    "file": "chiptunes/ZX ay music/Games/Seahawk.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "SentinelThe.AY",
-    "file": "chiptunes/ZX ay music/Games/SentinelThe.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "SergeantSeymourRobotCop.ay",
-    "file": "chiptunes/ZX ay music/Games/SergeantSeymourRobotCop.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "SeymourGoesToHollywood.ay",
-    "file": "chiptunes/ZX ay music/Games/SeymourGoesToHollywood.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "ShadowDancer.ay",
-    "file": "chiptunes/ZX ay music/Games/ShadowDancer.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "ShadowOfTheBeast.ay",
-    "file": "chiptunes/ZX ay music/Games/ShadowOfTheBeast.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "ShadowSkimmer.AY",
-    "file": "chiptunes/ZX ay music/Games/ShadowSkimmer.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "ShadowWarriors.ay",
-    "file": "chiptunes/ZX ay music/Games/ShadowWarriors.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "ShanghaiKarate.ay",
-    "file": "chiptunes/ZX ay music/Games/ShanghaiKarate.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "ShaoLin'sRoad.ay",
-    "file": "chiptunes/ZX ay music/Games/ShaoLin'sRoad.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Shinobi.ay",
-    "file": "chiptunes/ZX ay music/Games/Shinobi.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "ShortCircuit.ay",
-    "file": "chiptunes/ZX ay music/Games/ShortCircuit.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "ShowJumping.AY",
-    "file": "chiptunes/ZX ay music/Games/ShowJumping.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "SideWize.AY",
-    "file": "chiptunes/ZX ay music/Games/SideWize.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Sigma7.ay",
-    "file": "chiptunes/ZX ay music/Games/Sigma7.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "SilentShadow.ay",
-    "file": "chiptunes/ZX ay music/Games/SilentShadow.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Silkworm.ay",
-    "file": "chiptunes/ZX ay music/Games/Silkworm.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Simpsons-BartVs.TheSpaceMutantsThe.ay",
-    "file": "chiptunes/ZX ay music/Games/Simpsons-BartVs.TheSpaceMutantsThe.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "SirLancelot.ay",
-    "file": "chiptunes/ZX ay music/Games/SirLancelot.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "SirLoin.ay",
-    "file": "chiptunes/ZX ay music/Games/SirLoin.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "SkateCrazy.ay",
-    "file": "chiptunes/ZX ay music/Games/SkateCrazy.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Skatin'USA.ay",
-    "file": "chiptunes/ZX ay music/Games/Skatin'USA.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "SkoolDaze.AY",
-    "file": "chiptunes/ZX ay music/Games/SkoolDaze.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "SkyHighStuntMan.ay",
-    "file": "chiptunes/ZX ay music/Games/SkyHighStuntMan.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "SlightlyMagic.ay",
-    "file": "chiptunes/ZX ay music/Games/SlightlyMagic.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "SlySpy-SecretAgent.ay",
-    "file": "chiptunes/ZX ay music/Games/SlySpy-SecretAgent.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "SmashTV.ay",
-    "file": "chiptunes/ZX ay music/Games/SmashTV.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Snare.ay",
-    "file": "chiptunes/ZX ay music/Games/Snare.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "SodovTheSorcerer.AY",
-    "file": "chiptunes/ZX ay music/Games/SodovTheSorcerer.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Sokoban.ay",
-    "file": "chiptunes/ZX ay music/Games/Sokoban.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "SolarInvasion.ay",
-    "file": "chiptunes/ZX ay music/Games/SolarInvasion.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "SoldierOfFortune.AY",
-    "file": "chiptunes/ZX ay music/Games/SoldierOfFortune.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Solomon'sKey.AY",
-    "file": "chiptunes/ZX ay music/Games/Solomon'sKey.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "SomethingHappenedLevelOne.AY",
-    "file": "chiptunes/ZX ay music/Games/SomethingHappenedLevelOne.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "SpaceCrusade.ay",
-    "file": "chiptunes/ZX ay music/Games/SpaceCrusade.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Spacegun.ay",
-    "file": "chiptunes/ZX ay music/Games/Spacegun.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "SpaceHarrier2.ay",
-    "file": "chiptunes/ZX ay music/Games/SpaceHarrier2.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Specimen.AY",
-    "file": "chiptunes/ZX ay music/Games/Specimen.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Specimen2TheAppleQuest.AY",
-    "file": "chiptunes/ZX ay music/Games/Specimen2TheAppleQuest.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "SpellboundDizzy.ay",
-    "file": "chiptunes/ZX ay music/Games/SpellboundDizzy.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "SpikeInTransylvania.ay",
-    "file": "chiptunes/ZX ay music/Games/SpikeInTransylvania.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Spirits.ay",
-    "file": "chiptunes/ZX ay music/Games/Spirits.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "SpittingImage.ay",
-    "file": "chiptunes/ZX ay music/Games/SpittingImage.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "SplitPersonalities.ay",
-    "file": "chiptunes/ZX ay music/Games/SplitPersonalities.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Sputnik.AY",
-    "file": "chiptunes/ZX ay music/Games/Sputnik.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "StackUp.ay",
-    "file": "chiptunes/ZX ay music/Games/StackUp.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "StainlessSteel.AY",
-    "file": "chiptunes/ZX ay music/Games/StainlessSteel.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "StarBowls.AY",
-    "file": "chiptunes/ZX ay music/Games/StarBowls.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "StarByte.ay",
-    "file": "chiptunes/ZX ay music/Games/StarByte.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "StarDragon.ay",
-    "file": "chiptunes/ZX ay music/Games/StarDragon.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Stardust.ay",
-    "file": "chiptunes/ZX ay music/Games/Stardust.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "StarFirebirds.ay",
-    "file": "chiptunes/ZX ay music/Games/StarFirebirds.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "StarFlyThe.ay",
-    "file": "chiptunes/ZX ay music/Games/StarFlyThe.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Starfox[Cybexlab].AY",
-    "file": "chiptunes/ZX ay music/Games/Starfox[Cybexlab].AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Starglider.AY",
-    "file": "chiptunes/ZX ay music/Games/Starglider.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "StarPaws.ay",
-    "file": "chiptunes/ZX ay music/Games/StarPaws.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "StarQuake.AY",
-    "file": "chiptunes/ZX ay music/Games/StarQuake.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "StarSwallow.ay",
-    "file": "chiptunes/ZX ay music/Games/StarSwallow.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "StarTrip.ay",
-    "file": "chiptunes/ZX ay music/Games/StarTrip.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "StarWars.ay",
-    "file": "chiptunes/ZX ay music/Games/StarWars.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "StarWarsDroids.ay",
-    "file": "chiptunes/ZX ay music/Games/StarWarsDroids.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "StarWarsReturnOfTheJedi.ay",
-    "file": "chiptunes/ZX ay music/Games/StarWarsReturnOfTheJedi.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "SteelEagle.ay",
-    "file": "chiptunes/ZX ay music/Games/SteelEagle.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Steg.ay",
-    "file": "chiptunes/ZX ay music/Games/Steg.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Stifflip&Co.AY",
-    "file": "chiptunes/ZX ay music/Games/Stifflip&Co.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Stormbringer.AY",
-    "file": "chiptunes/ZX ay music/Games/Stormbringer.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Stormlord.AY",
-    "file": "chiptunes/ZX ay music/Games/Stormlord.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "StormlordII-Deliverance.ay",
-    "file": "chiptunes/ZX ay music/Games/StormlordII-Deliverance.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "StreetCredBoxing.ay",
-    "file": "chiptunes/ZX ay music/Games/StreetCredBoxing.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "StreetCredFootball.ay",
-    "file": "chiptunes/ZX ay music/Games/StreetCredFootball.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "StreetGangFootball.ay",
-    "file": "chiptunes/ZX ay music/Games/StreetGangFootball.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Strike.ay",
-    "file": "chiptunes/ZX ay music/Games/Strike.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "StrikeForceSAS.ay",
-    "file": "chiptunes/ZX ay music/Games/StrikeForceSAS.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "StripLogik.ay",
-    "file": "chiptunes/ZX ay music/Games/StripLogik.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Stryker-InTheCryptsOfTrogan.ay",
-    "file": "chiptunes/ZX ay music/Games/Stryker-InTheCryptsOfTrogan.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "StuntmanSeymour.ay",
-    "file": "chiptunes/ZX ay music/Games/StuntmanSeymour.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "SubterraneanStryker.ay",
-    "file": "chiptunes/ZX ay music/Games/SubterraneanStryker.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "SubwayVigilante.ay",
-    "file": "chiptunes/ZX ay music/Games/SubwayVigilante.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "SuperBikeTrans-Am.AY",
-    "file": "chiptunes/ZX ay music/Games/SuperBikeTrans-Am.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Supercars.ay",
-    "file": "chiptunes/ZX ay music/Games/Supercars.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "SuperCupFootball.ay",
-    "file": "chiptunes/ZX ay music/Games/SuperCupFootball.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "SuperDragonSlayer.AY",
-    "file": "chiptunes/ZX ay music/Games/SuperDragonSlayer.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "SuperG-Man.AY",
-    "file": "chiptunes/ZX ay music/Games/SuperG-Man.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "SuperMonacoGrandPrix.ay",
-    "file": "chiptunes/ZX ay music/Games/SuperMonacoGrandPrix.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "SuperNova.AY",
-    "file": "chiptunes/ZX ay music/Games/SuperNova.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "SuperRobinHood.ay",
-    "file": "chiptunes/ZX ay music/Games/SuperRobinHood.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "SuperScrambleSimulator.ay",
-    "file": "chiptunes/ZX ay music/Games/SuperScrambleSimulator.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "SuperSeymourSavesThePlanet.ay",
-    "file": "chiptunes/ZX ay music/Games/SuperSeymourSavesThePlanet.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "SuperSpaceInvaders.AY",
-    "file": "chiptunes/ZX ay music/Games/SuperSpaceInvaders.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "SuperStuntman.ay",
-    "file": "chiptunes/ZX ay music/Games/SuperStuntman.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "SuperTed-TheSearchForSpot.ay",
-    "file": "chiptunes/ZX ay music/Games/SuperTed-TheSearchForSpot.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "SuperTrux.ay",
-    "file": "chiptunes/ZX ay music/Games/SuperTrux.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Survivor.ay",
-    "file": "chiptunes/ZX ay music/Games/Survivor.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Sweevo'sWhirled!.AY",
-    "file": "chiptunes/ZX ay music/Games/Sweevo'sWhirled!.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Sweevo'sWorld.AY",
-    "file": "chiptunes/ZX ay music/Games/Sweevo'sWorld.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "SwitchBlade.ay",
-    "file": "chiptunes/ZX ay music/Games/SwitchBlade.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "SWIV.AY",
-    "file": "chiptunes/ZX ay music/Games/SWIV.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "SwordSlayer.ay",
-    "file": "chiptunes/ZX ay music/Games/SwordSlayer.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "T-Wrecks.ay",
-    "file": "chiptunes/ZX ay music/Games/T-Wrecks.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Tahkodpom.ay",
-    "file": "chiptunes/ZX ay music/Games/Tahkodpom.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "TaiChiTortoise.ay",
-    "file": "chiptunes/ZX ay music/Games/TaiChiTortoise.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Taipan.ay",
-    "file": "chiptunes/ZX ay music/Games/Taipan.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "TankCommand.ay",
-    "file": "chiptunes/ZX ay music/Games/TankCommand.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "TargetRenegade.ay",
-    "file": "chiptunes/ZX ay music/Games/TargetRenegade.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Tarzan.ay",
-    "file": "chiptunes/ZX ay music/Games/Tarzan.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "TaskForce.ay",
-    "file": "chiptunes/ZX ay music/Games/TaskForce.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "TechnicianTed.ay",
-    "file": "chiptunes/ZX ay music/Games/TechnicianTed.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "TechnicianTedTheMegamix.ay",
-    "file": "chiptunes/ZX ay music/Games/TechnicianTedTheMegamix.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "TechnoCop.ay",
-    "file": "chiptunes/ZX ay music/Games/TechnoCop.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "TeenageMutantHeroTurtles.AY",
-    "file": "chiptunes/ZX ay music/Games/TeenageMutantHeroTurtles.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "TeenageMutantHeroTurtlesCoin-Op.ay",
-    "file": "chiptunes/ZX ay music/Games/TeenageMutantHeroTurtlesCoin-Op.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "TerraCresta.ay",
-    "file": "chiptunes/ZX ay music/Games/TerraCresta.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Terramex.ay",
-    "file": "chiptunes/ZX ay music/Games/Terramex.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Terrometer.ay",
-    "file": "chiptunes/ZX ay music/Games/Terrometer.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Tetris.ay",
-    "file": "chiptunes/ZX ay music/Games/Tetris.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Tetris2.AY",
-    "file": "chiptunes/ZX ay music/Games/Tetris2.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Thanatos.ay",
-    "file": "chiptunes/ZX ay music/Games/Thanatos.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "TheMunsters.ay",
-    "file": "chiptunes/ZX ay music/Games/TheMunsters.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "TheMusicBox.AY",
-    "file": "chiptunes/ZX ay music/Games/TheMusicBox.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "TheRace.ay",
-    "file": "chiptunes/ZX ay music/Games/TheRace.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "ThingBouncesBack.ay",
-    "file": "chiptunes/ZX ay music/Games/ThingBouncesBack.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "ThreeWeeksInParadise.ay",
-    "file": "chiptunes/ZX ay music/Games/ThreeWeeksInParadise.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Thunderbirds.ay",
-    "file": "chiptunes/ZX ay music/Games/Thunderbirds.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Thundercats.ay",
-    "file": "chiptunes/ZX ay music/Games/Thundercats.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "TigerRoad.ay",
-    "file": "chiptunes/ZX ay music/Games/TigerRoad.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Tilt.ay",
-    "file": "chiptunes/ZX ay music/Games/Tilt.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "TimeScanner.ay",
-    "file": "chiptunes/ZX ay music/Games/TimeScanner.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Titanic.AY",
-    "file": "chiptunes/ZX ay music/Games/Titanic.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "ToiAcidGame.ay",
-    "file": "chiptunes/ZX ay music/Games/ToiAcidGame.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Tom&Jerry2.ay",
-    "file": "chiptunes/ZX ay music/Games/Tom&Jerry2.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Toobin.ay",
-    "file": "chiptunes/ZX ay music/Games/Toobin.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "TopGun.ay",
-    "file": "chiptunes/ZX ay music/Games/TopGun.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "TotalRecall.ay",
-    "file": "chiptunes/ZX ay music/Games/TotalRecall.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "ToyotaCelicaGTRally.ay",
-    "file": "chiptunes/ZX ay music/Games/ToyotaCelicaGTRally.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Trailblazer.AY",
-    "file": "chiptunes/ZX ay music/Games/Trailblazer.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Transmuter.AY",
-    "file": "chiptunes/ZX ay music/Games/Transmuter.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "TrantorTheLastStormTrooper.ay",
-    "file": "chiptunes/ZX ay music/Games/TrantorTheLastStormTrooper.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Trapdoor.AY",
-    "file": "chiptunes/ZX ay music/Games/Trapdoor.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "TubeThe.AY",
-    "file": "chiptunes/ZX ay music/Games/TubeThe.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "TurboBoatSimulator.ay",
-    "file": "chiptunes/ZX ay music/Games/TurboBoatSimulator.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "TurboEsprit.AY",
-    "file": "chiptunes/ZX ay music/Games/TurboEsprit.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Turbulence.ay",
-    "file": "chiptunes/ZX ay music/Games/Turbulence.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Twiinz.ay",
-    "file": "chiptunes/ZX ay music/Games/Twiinz.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "TwinTurboV8.ay",
-    "file": "chiptunes/ZX ay music/Games/TwinTurboV8.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Twinz.ay",
-    "file": "chiptunes/ZX ay music/Games/Twinz.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Typhoon.ay",
-    "file": "chiptunes/ZX ay music/Games/Typhoon.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "UGH.AY",
-    "file": "chiptunes/ZX ay music/Games/UGH.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "UltimateCombatMission.ay",
-    "file": "chiptunes/ZX ay music/Games/UltimateCombatMission.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "UnderGround.AY",
-    "file": "chiptunes/ZX ay music/Games/UnderGround.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "UntouchablesThe.ay",
-    "file": "chiptunes/ZX ay music/Games/UntouchablesThe.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Uridium.AY",
-    "file": "chiptunes/ZX ay music/Games/Uridium.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Vampire.ay",
-    "file": "chiptunes/ZX ay music/Games/Vampire.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Vectron.AY",
-    "file": "chiptunes/ZX ay music/Games/Vectron.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Vindicators.AY",
-    "file": "chiptunes/ZX ay music/Games/Vindicators.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "VindicatorThe.ay",
-    "file": "chiptunes/ZX ay music/Games/VindicatorThe.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Vixen.ay",
-    "file": "chiptunes/ZX ay music/Games/Vixen.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "VizTheComputerGame.ay",
-    "file": "chiptunes/ZX ay music/Games/VizTheComputerGame.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "WackyDarts.ay",
-    "file": "chiptunes/ZX ay music/Games/WackyDarts.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Warlock.ay",
-    "file": "chiptunes/ZX ay music/Games/Warlock.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "WarMachine.ay",
-    "file": "chiptunes/ZX ay music/Games/WarMachine.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "WecLeMans.AY",
-    "file": "chiptunes/ZX ay music/Games/WecLeMans.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "WereWolvesOfLondon.ay",
-    "file": "chiptunes/ZX ay music/Games/WereWolvesOfLondon.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Wham!TheMusicBox.AY",
-    "file": "chiptunes/ZX ay music/Games/Wham!TheMusicBox.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "WhereTimeStoodStill.ay",
-    "file": "chiptunes/ZX ay music/Games/WhereTimeStoodStill.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "WildWater.ay",
-    "file": "chiptunes/ZX ay music/Games/WildWater.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "WildWestSeymour.ay",
-    "file": "chiptunes/ZX ay music/Games/WildWestSeymour.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "WinterGames.ay",
-    "file": "chiptunes/ZX ay music/Games/WinterGames.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Wiz.AY",
-    "file": "chiptunes/ZX ay music/Games/Wiz.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Wizard'sLair.ay",
-    "file": "chiptunes/ZX ay music/Games/Wizard'sLair.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "WizardThe.ay",
-    "file": "chiptunes/ZX ay music/Games/WizardThe.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "WizardWilly.AY",
-    "file": "chiptunes/ZX ay music/Games/WizardWilly.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Wizball.ay",
-    "file": "chiptunes/ZX ay music/Games/Wizball.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "WrestlingSuperstars.ay",
-    "file": "chiptunes/ZX ay music/Games/WrestlingSuperstars.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "WWFWrestleMania.ay",
-    "file": "chiptunes/ZX ay music/Games/WWFWrestleMania.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Xecutor.AY",
-    "file": "chiptunes/ZX ay music/Games/Xecutor.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Xenon.ay",
-    "file": "chiptunes/ZX ay music/Games/Xenon.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Xenophobe.ay",
-    "file": "chiptunes/ZX ay music/Games/Xenophobe.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "XmasLudo.ay",
-    "file": "chiptunes/ZX ay music/Games/XmasLudo.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "XOR.AY",
-    "file": "chiptunes/ZX ay music/Games/XOR.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Xybots.ay",
-    "file": "chiptunes/ZX ay music/Games/Xybots.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "YieArKungFu.ay",
-    "file": "chiptunes/ZX ay music/Games/YieArKungFu.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "YogiBearTheGreedMonster.ay",
-    "file": "chiptunes/ZX ay music/Games/YogiBearTheGreedMonster.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Zanthrax.ay",
-    "file": "chiptunes/ZX ay music/Games/Zanthrax.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Zarjas.ay",
-    "file": "chiptunes/ZX ay music/Games/Zarjas.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Zona0.ay",
-    "file": "chiptunes/ZX ay music/Games/Zona0.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "ZoneTrooper.AY",
-    "file": "chiptunes/ZX ay music/Games/ZoneTrooper.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Zorro.AY",
-    "file": "chiptunes/ZX ay music/Games/Zorro.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Zub.ay",
-    "file": "chiptunes/ZX ay music/Games/Zub.ay",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
-  },
-  {
-    "name": "Zynaps.AY",
-    "file": "chiptunes/ZX ay music/Games/Zynaps.AY",
-    "pt3": false,
-    "author": "ZX ay music",
-    "section": "Games"
   },
   {
     "name": "ZX Freeq - Maxwell the Cat nanodemo.pt3",
@@ -90265,15 +78669,6 @@ var AYPLAYLIST_DATA = [
     "time": "01:32"
   },
   {
-    "name": "blacklamp2.fym",
-    "file": "chiptunes/ZX Games/blacklamp2.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "ZX Games",
-    "section": null,
-    "time": "00:09"
-  },
-  {
     "name": "bmxfreestyle.fym",
     "file": "chiptunes/ZX Games/bmxfreestyle.fym",
     "pt3": false,
@@ -90290,15 +78685,6 @@ var AYPLAYLIST_DATA = [
     "author": "ZX Games",
     "section": null,
     "time": "02:13"
-  },
-  {
-    "name": "bosconian2.fym",
-    "file": "chiptunes/ZX Games/bosconian2.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "ZX Games",
-    "section": null,
-    "time": "00:10"
   },
   {
     "name": "bubbledizzy.fym",
@@ -90740,15 +79126,6 @@ var AYPLAYLIST_DATA = [
     "author": "ZX Games",
     "section": null,
     "time": "01:36"
-  },
-  {
-    "name": "grellandfalla2.fym",
-    "file": "chiptunes/ZX Games/grellandfalla2.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "ZX Games",
-    "section": null,
-    "time": "00:26"
   },
   {
     "name": "guerrillawar.fym",
@@ -92344,15 +80721,6 @@ var AYPLAYLIST_DATA = [
     "time": "02:02"
   },
   {
-    "name": "untouchablesthe1.fym",
-    "file": "chiptunes/ZX Games/untouchablesthe1.fym",
-    "pt3": false,
-    "pt3File": null,
-    "author": "ZX Games",
-    "section": null,
-    "time": "05:00"
-  },
-  {
     "name": "untouchablesthe2.fym",
     "file": "chiptunes/ZX Games/untouchablesthe2.fym",
     "pt3": false,
@@ -92603,6 +80971,1504 @@ var AYPLAYLIST_DATA = [
     "author": "ZX Games",
     "section": null,
     "time": "02:55"
+  },
+  {
+    "name": "39kb shock intro.ay",
+    "file": "chiptunes/_CPC AY music demo/39kb shock intro.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "afc report VI_1.ay",
+    "file": "chiptunes/_CPC AY music demo/afc report VI_1.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "albert hates you.ay",
+    "file": "chiptunes/_CPC AY music demo/albert hates you.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "alf theme.ay",
+    "file": "chiptunes/_CPC AY music demo/alf theme.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "ARCHAOS.AY",
+    "file": "chiptunes/_CPC AY music demo/ARCHAOS.AY",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "ARKINT.AY",
+    "file": "chiptunes/_CPC AY music demo/ARKINT.AY",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "ASTEROID.AY",
+    "file": "chiptunes/_CPC AY music demo/ASTEROID.AY",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "Babafan7_1.ay",
+    "file": "chiptunes/_CPC AY music demo/Babafan7_1.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "Babafan7_2.ay",
+    "file": "chiptunes/_CPC AY music demo/Babafan7_2.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "Babafan7_3.ay",
+    "file": "chiptunes/_CPC AY music demo/Babafan7_3.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "BARTHY.AY",
+    "file": "chiptunes/_CPC AY music demo/BARTHY.AY",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "best off demo.ay",
+    "file": "chiptunes/_CPC AY music demo/best off demo.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "Bombastic_music1.ay",
+    "file": "chiptunes/_CPC AY music demo/Bombastic_music1.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "Bombastic_music2.ay",
+    "file": "chiptunes/_CPC AY music demo/Bombastic_music2.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "bordelik IV_1.ay",
+    "file": "chiptunes/_CPC AY music demo/bordelik IV_1.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "bordelik IV_2.ay",
+    "file": "chiptunes/_CPC AY music demo/bordelik IV_2.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "bordelik IV_3.ay",
+    "file": "chiptunes/_CPC AY music demo/bordelik IV_3.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "Bordelik4.ay",
+    "file": "chiptunes/_CPC AY music demo/Bordelik4.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "buggos party.ay",
+    "file": "chiptunes/_CPC AY music demo/buggos party.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "burger party 1.ay",
+    "file": "chiptunes/_CPC AY music demo/burger party 1.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "Byte96.ay",
+    "file": "chiptunes/_CPC AY music demo/Byte96.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "CFL4_music1.ay",
+    "file": "chiptunes/_CPC AY music demo/CFL4_music1.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "CFL4_music2.ay",
+    "file": "chiptunes/_CPC AY music demo/CFL4_music2.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "constellation.ay",
+    "file": "chiptunes/_CPC AY music demo/constellation.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "CPC-Telegramm16_1.ay",
+    "file": "chiptunes/_CPC AY music demo/CPC-Telegramm16_1.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "CPC-Telegramm16_2.ay",
+    "file": "chiptunes/_CPC AY music demo/CPC-Telegramm16_2.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "CPC-Telegramm17_1.ay",
+    "file": "chiptunes/_CPC AY music demo/CPC-Telegramm17_1.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "CPC-Telegramm17_2.ay",
+    "file": "chiptunes/_CPC AY music demo/CPC-Telegramm17_2.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "Crystal_music1.ay",
+    "file": "chiptunes/_CPC AY music demo/Crystal_music1.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "Crystal_music2.ay",
+    "file": "chiptunes/_CPC AY music demo/Crystal_music2.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "DANIELE.AY",
+    "file": "chiptunes/_CPC AY music demo/DANIELE.AY",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "darkage 1.ay",
+    "file": "chiptunes/_CPC AY music demo/darkage 1.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "darkage 2.ay",
+    "file": "chiptunes/_CPC AY music demo/darkage 2.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "DemowarII_1.ay",
+    "file": "chiptunes/_CPC AY music demo/DemowarII_1.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "DemowarII_2.ay",
+    "file": "chiptunes/_CPC AY music demo/DemowarII_2.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "DESERT.AY",
+    "file": "chiptunes/_CPC AY music demo/DESERT.AY",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "desertdream.ay",
+    "file": "chiptunes/_CPC AY music demo/desertdream.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "DigitalPress3_1.ay",
+    "file": "chiptunes/_CPC AY music demo/DigitalPress3_1.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "DigitalPress3_2.ay",
+    "file": "chiptunes/_CPC AY music demo/DigitalPress3_2.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "DigitalPress3_3.ay",
+    "file": "chiptunes/_CPC AY music demo/DigitalPress3_3.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "dream 3.ay",
+    "file": "chiptunes/_CPC AY music demo/dream 3.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "ELYSEUM.AY",
+    "file": "chiptunes/_CPC AY music demo/ELYSEUM.AY",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "Epsilon1.ay",
+    "file": "chiptunes/_CPC AY music demo/Epsilon1.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "Epsilon2.ay",
+    "file": "chiptunes/_CPC AY music demo/Epsilon2.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "Epsilon3.ay",
+    "file": "chiptunes/_CPC AY music demo/Epsilon3.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "Epsilon4.ay",
+    "file": "chiptunes/_CPC AY music demo/Epsilon4.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "ETERNAL.AY",
+    "file": "chiptunes/_CPC AY music demo/ETERNAL.AY",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "FASTER.AY",
+    "file": "chiptunes/_CPC AY music demo/FASTER.AY",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "fat ass 2.ay",
+    "file": "chiptunes/_CPC AY music demo/fat ass 2.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "FICTION.AY",
+    "file": "chiptunes/_CPC AY music demo/FICTION.AY",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "Focus1.ay",
+    "file": "chiptunes/_CPC AY music demo/Focus1.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "fractal flight.ay",
+    "file": "chiptunes/_CPC AY music demo/fractal flight.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "free delire_1.ay",
+    "file": "chiptunes/_CPC AY music demo/free delire_1.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "free delire_2.ay",
+    "file": "chiptunes/_CPC AY music demo/free delire_2.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "free delire_4.ay",
+    "file": "chiptunes/_CPC AY music demo/free delire_4.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "GA2.AY",
+    "file": "chiptunes/_CPC AY music demo/GA2.AY",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "greek meeting demo.ay",
+    "file": "chiptunes/_CPC AY music demo/greek meeting demo.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "hages first demo.ay",
+    "file": "chiptunes/_CPC AY music demo/hages first demo.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "impact demo 3_1.ay",
+    "file": "chiptunes/_CPC AY music demo/impact demo 3_1.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "impact demo 3_2.ay",
+    "file": "chiptunes/_CPC AY music demo/impact demo 3_2.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "impact demo 3_3.ay",
+    "file": "chiptunes/_CPC AY music demo/impact demo 3_3.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "IMPERIAL.AY",
+    "file": "chiptunes/_CPC AY music demo/IMPERIAL.AY",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "jubilee 1.ay",
+    "file": "chiptunes/_CPC AY music demo/jubilee 1.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "jubilee 2.ay",
+    "file": "chiptunes/_CPC AY music demo/jubilee 2.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "jubilee 3.ay",
+    "file": "chiptunes/_CPC AY music demo/jubilee 3.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "jubilee 4.ay",
+    "file": "chiptunes/_CPC AY music demo/jubilee 4.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "jubilee 5.ay",
+    "file": "chiptunes/_CPC AY music demo/jubilee 5.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "jubilee 6.ay",
+    "file": "chiptunes/_CPC AY music demo/jubilee 6.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "jump mania themis.ay",
+    "file": "chiptunes/_CPC AY music demo/jump mania themis.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "Kunst_music.ay",
+    "file": "chiptunes/_CPC AY music demo/Kunst_music.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "lcr intro.ay",
+    "file": "chiptunes/_CPC AY music demo/lcr intro.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "MAGIC.AY",
+    "file": "chiptunes/_CPC AY music demo/MAGIC.AY",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "matchwood.ay",
+    "file": "chiptunes/_CPC AY music demo/matchwood.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "megaparty 92_1.ay",
+    "file": "chiptunes/_CPC AY music demo/megaparty 92_1.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "megaparty 92_2.ay",
+    "file": "chiptunes/_CPC AY music demo/megaparty 92_2.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "megaparty 92_3.ay",
+    "file": "chiptunes/_CPC AY music demo/megaparty 92_3.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "MEINER.AY",
+    "file": "chiptunes/_CPC AY music demo/MEINER.AY",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "mops 1.ay",
+    "file": "chiptunes/_CPC AY music demo/mops 1.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "mops 2.ay",
+    "file": "chiptunes/_CPC AY music demo/mops 2.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "msi demo.ay",
+    "file": "chiptunes/_CPC AY music demo/msi demo.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "mushroom demo.ay",
+    "file": "chiptunes/_CPC AY music demo/mushroom demo.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "music00.ay",
+    "file": "chiptunes/_CPC AY music demo/music00.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "music01.ay",
+    "file": "chiptunes/_CPC AY music demo/music01.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "music02.ay",
+    "file": "chiptunes/_CPC AY music demo/music02.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "music03.ay",
+    "file": "chiptunes/_CPC AY music demo/music03.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "music04.ay",
+    "file": "chiptunes/_CPC AY music demo/music04.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "music05.ay",
+    "file": "chiptunes/_CPC AY music demo/music05.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "music06.ay",
+    "file": "chiptunes/_CPC AY music demo/music06.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "music07.ay",
+    "file": "chiptunes/_CPC AY music demo/music07.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "music08.ay",
+    "file": "chiptunes/_CPC AY music demo/music08.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "music09.ay",
+    "file": "chiptunes/_CPC AY music demo/music09.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "music10.ay",
+    "file": "chiptunes/_CPC AY music demo/music10.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "music11.ay",
+    "file": "chiptunes/_CPC AY music demo/music11.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "music12.ay",
+    "file": "chiptunes/_CPC AY music demo/music12.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "music13.ay",
+    "file": "chiptunes/_CPC AY music demo/music13.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "Music14.ay",
+    "file": "chiptunes/_CPC AY music demo/Music14.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "my boy 3.ay",
+    "file": "chiptunes/_CPC AY music demo/my boy 3.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "Odyssey_1.ay",
+    "file": "chiptunes/_CPC AY music demo/Odyssey_1.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "Odyssey_2.ay",
+    "file": "chiptunes/_CPC AY music demo/Odyssey_2.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "Odyssey_3.ay",
+    "file": "chiptunes/_CPC AY music demo/Odyssey_3.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "Odyssey_4.ay",
+    "file": "chiptunes/_CPC AY music demo/Odyssey_4.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "only for your eyes 2.ay",
+    "file": "chiptunes/_CPC AY music demo/only for your eyes 2.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "only for your eyes 3.ay",
+    "file": "chiptunes/_CPC AY music demo/only for your eyes 3.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "only for your eyes 4.ay",
+    "file": "chiptunes/_CPC AY music demo/only for your eyes 4.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "ORPHEUS.AY",
+    "file": "chiptunes/_CPC AY music demo/ORPHEUS.AY",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "OVERDOZ.AY",
+    "file": "chiptunes/_CPC AY music demo/OVERDOZ.AY",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "OVL96.ay",
+    "file": "chiptunes/_CPC AY music demo/OVL96.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "paint fantasy demo.ay",
+    "file": "chiptunes/_CPC AY music demo/paint fantasy demo.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "painting fantasy 0.ay",
+    "file": "chiptunes/_CPC AY music demo/painting fantasy 0.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "painting fantasy 1.ay",
+    "file": "chiptunes/_CPC AY music demo/painting fantasy 1.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "painting fantasy 2.ay",
+    "file": "chiptunes/_CPC AY music demo/painting fantasy 2.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "painting fantasy 3.ay",
+    "file": "chiptunes/_CPC AY music demo/painting fantasy 3.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "painting fantasy 4.ay",
+    "file": "chiptunes/_CPC AY music demo/painting fantasy 4.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "painting fantasy 5.ay",
+    "file": "chiptunes/_CPC AY music demo/painting fantasy 5.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "painting fantasy 6.ay",
+    "file": "chiptunes/_CPC AY music demo/painting fantasy 6.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "painting fantasy 7.ay",
+    "file": "chiptunes/_CPC AY music demo/painting fantasy 7.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "PCAMCPC.ay",
+    "file": "chiptunes/_CPC AY music demo/PCAMCPC.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "PMD_1.ay",
+    "file": "chiptunes/_CPC AY music demo/PMD_1.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "PMD_2.ay",
+    "file": "chiptunes/_CPC AY music demo/PMD_2.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "PMD_3.ay",
+    "file": "chiptunes/_CPC AY music demo/PMD_3.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "PMD_4.ay",
+    "file": "chiptunes/_CPC AY music demo/PMD_4.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "power system md 1.ay",
+    "file": "chiptunes/_CPC AY music demo/power system md 1.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "power system md 2.ay",
+    "file": "chiptunes/_CPC AY music demo/power system md 2.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "power system md 3.ay",
+    "file": "chiptunes/_CPC AY music demo/power system md 3.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "power system md 4.ay",
+    "file": "chiptunes/_CPC AY music demo/power system md 4.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "power system md 5.ay",
+    "file": "chiptunes/_CPC AY music demo/power system md 5.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "power system md 6.ay",
+    "file": "chiptunes/_CPC AY music demo/power system md 6.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "power system md 7.ay",
+    "file": "chiptunes/_CPC AY music demo/power system md 7.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "power system md 8.ay",
+    "file": "chiptunes/_CPC AY music demo/power system md 8.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "PowerSystem_1.ay",
+    "file": "chiptunes/_CPC AY music demo/PowerSystem_1.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "PowerSystem_2.ay",
+    "file": "chiptunes/_CPC AY music demo/PowerSystem_2.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "PowerSystem_3.ay",
+    "file": "chiptunes/_CPC AY music demo/PowerSystem_3.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "PowerSystem_4.ay",
+    "file": "chiptunes/_CPC AY music demo/PowerSystem_4.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "PowerSystem_5.ay",
+    "file": "chiptunes/_CPC AY music demo/PowerSystem_5.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "PowerSystem_6.ay",
+    "file": "chiptunes/_CPC AY music demo/PowerSystem_6.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "PREGRUZ.AY",
+    "file": "chiptunes/_CPC AY music demo/PREGRUZ.AY",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "Prehist.ay",
+    "file": "chiptunes/_CPC AY music demo/Prehist.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "prehistorik 2.ay",
+    "file": "chiptunes/_CPC AY music demo/prehistorik 2.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "Prophecy_1.ay",
+    "file": "chiptunes/_CPC AY music demo/Prophecy_1.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "Prophecy_2.ay",
+    "file": "chiptunes/_CPC AY music demo/Prophecy_2.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "Prophecy_3.ay",
+    "file": "chiptunes/_CPC AY music demo/Prophecy_3.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "Prophecy_4.ay",
+    "file": "chiptunes/_CPC AY music demo/Prophecy_4.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "PS-MDEMO.AY",
+    "file": "chiptunes/_CPC AY music demo/PS-MDEMO.AY",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "RASTA.AY",
+    "file": "chiptunes/_CPC AY music demo/RASTA.AY",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "RedStorm_1.ay",
+    "file": "chiptunes/_CPC AY music demo/RedStorm_1.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "RedStorm_2.ay",
+    "file": "chiptunes/_CPC AY music demo/RedStorm_2.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "salamander.ay",
+    "file": "chiptunes/_CPC AY music demo/salamander.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "scoopxtreme 4.ay",
+    "file": "chiptunes/_CPC AY music demo/scoopxtreme 4.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "scoopxtreme 5.ay",
+    "file": "chiptunes/_CPC AY music demo/scoopxtreme 5.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "sentinelle.ay",
+    "file": "chiptunes/_CPC AY music demo/sentinelle.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "sex 2_2.ay",
+    "file": "chiptunes/_CPC AY music demo/sex 2_2.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "sex 2_3.ay",
+    "file": "chiptunes/_CPC AY music demo/sex 2_3.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "sex 2_4.ay",
+    "file": "chiptunes/_CPC AY music demo/sex 2_4.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "sex 2_5.ay",
+    "file": "chiptunes/_CPC AY music demo/sex 2_5.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "sex 2_6.ay",
+    "file": "chiptunes/_CPC AY music demo/sex 2_6.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "SkidRow.ay",
+    "file": "chiptunes/_CPC AY music demo/SkidRow.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "super cauldron.ay",
+    "file": "chiptunes/_CPC AY music demo/super cauldron.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "super simon 2_1.ay",
+    "file": "chiptunes/_CPC AY music demo/super simon 2_1.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "super simon 2_2.ay",
+    "file": "chiptunes/_CPC AY music demo/super simon 2_2.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "Swab_meeting93_1.ay",
+    "file": "chiptunes/_CPC AY music demo/Swab_meeting93_1.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "Swab_meeting93_2.ay",
+    "file": "chiptunes/_CPC AY music demo/Swab_meeting93_2.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "Sweet_1.ay",
+    "file": "chiptunes/_CPC AY music demo/Sweet_1.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "Sweet_2.ay",
+    "file": "chiptunes/_CPC AY music demo/Sweet_2.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "Sweet_3.ay",
+    "file": "chiptunes/_CPC AY music demo/Sweet_3.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "TBAST.AY",
+    "file": "chiptunes/_CPC AY music demo/TBAST.AY",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "Telepatique_demo.ay",
+    "file": "chiptunes/_CPC AY music demo/Telepatique_demo.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "TenYears_1.ay",
+    "file": "chiptunes/_CPC AY music demo/TenYears_1.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "TenYears_2.ay",
+    "file": "chiptunes/_CPC AY music demo/TenYears_2.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "TenYears_3.ay",
+    "file": "chiptunes/_CPC AY music demo/TenYears_3.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "tetris95_1.ay",
+    "file": "chiptunes/_CPC AY music demo/tetris95_1.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "tetris95_2.ay",
+    "file": "chiptunes/_CPC AY music demo/tetris95_2.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "tetris95_3.ay",
+    "file": "chiptunes/_CPC AY music demo/tetris95_3.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "tetris95_4.ay",
+    "file": "chiptunes/_CPC AY music demo/tetris95_4.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "the sandman.ay",
+    "file": "chiptunes/_CPC AY music demo/the sandman.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "total eclipse 1.ay",
+    "file": "chiptunes/_CPC AY music demo/total eclipse 1.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "total eclipse 3.ay",
+    "file": "chiptunes/_CPC AY music demo/total eclipse 3.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "twistn shout 1.ay",
+    "file": "chiptunes/_CPC AY music demo/twistn shout 1.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "twistn shout 2.ay",
+    "file": "chiptunes/_CPC AY music demo/twistn shout 2.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "twistn shout 3.ay",
+    "file": "chiptunes/_CPC AY music demo/twistn shout 3.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "UNDEMO.AY",
+    "file": "chiptunes/_CPC AY music demo/UNDEMO.AY",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "VIRTUAL.AY",
+    "file": "chiptunes/_CPC AY music demo/VIRTUAL.AY",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "voyage 1.ay",
+    "file": "chiptunes/_CPC AY music demo/voyage 1.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "Voyage93_0.ay",
+    "file": "chiptunes/_CPC AY music demo/Voyage93_0.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "Voyage93_1.ay",
+    "file": "chiptunes/_CPC AY music demo/Voyage93_1.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "wcm split demo.ay",
+    "file": "chiptunes/_CPC AY music demo/wcm split demo.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "Xmas.ay",
+    "file": "chiptunes/_CPC AY music demo/Xmas.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "xtreme 2_1.ay",
+    "file": "chiptunes/_CPC AY music demo/xtreme 2_1.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "xtreme 2_2.ay",
+    "file": "chiptunes/_CPC AY music demo/xtreme 2_2.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "xtreme 2_3.ay",
+    "file": "chiptunes/_CPC AY music demo/xtreme 2_3.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "yo diego.ay",
+    "file": "chiptunes/_CPC AY music demo/yo diego.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "zapt ball 1.ay",
+    "file": "chiptunes/_CPC AY music demo/zapt ball 1.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "zapt ball 2.ay",
+    "file": "chiptunes/_CPC AY music demo/zapt ball 2.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "zapt ball 3.ay",
+    "file": "chiptunes/_CPC AY music demo/zapt ball 3.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "zeta 2.ay",
+    "file": "chiptunes/_CPC AY music demo/zeta 2.ay",
+    "pt3": false,
+    "author": "_CPC AY music demo",
+    "section": null
+  },
+  {
+    "name": "Burnin'Rubber.ay",
+    "file": "chiptunes/_CPC AY music game/Burnin'Rubber.ay",
+    "pt3": false,
+    "author": "_CPC AY music game",
+    "section": null
+  },
+  {
+    "name": "Commando.ay",
+    "file": "chiptunes/_CPC AY music game/Commando.ay",
+    "pt3": false,
+    "author": "_CPC AY music game",
+    "section": null
+  },
+  {
+    "name": "DarkFusion.ay",
+    "file": "chiptunes/_CPC AY music game/DarkFusion.ay",
+    "pt3": false,
+    "author": "_CPC AY music game",
+    "section": null
+  },
+  {
+    "name": "Deflektor.ay",
+    "file": "chiptunes/_CPC AY music game/Deflektor.ay",
+    "pt3": false,
+    "author": "_CPC AY music game",
+    "section": null
+  },
+  {
+    "name": "Extreme.ay",
+    "file": "chiptunes/_CPC AY music game/Extreme.ay",
+    "pt3": false,
+    "author": "_CPC AY music game",
+    "section": null
+  },
+  {
+    "name": "Feud.ay",
+    "file": "chiptunes/_CPC AY music game/Feud.ay",
+    "pt3": false,
+    "author": "_CPC AY music game",
+    "section": null
+  },
+  {
+    "name": "Ghosts'nGoblins.ay",
+    "file": "chiptunes/_CPC AY music game/Ghosts'nGoblins.ay",
+    "pt3": false,
+    "author": "_CPC AY music game",
+    "section": null
+  },
+  {
+    "name": "H.A.T.E..ay",
+    "file": "chiptunes/_CPC AY music game/H.A.T.E..ay",
+    "pt3": false,
+    "author": "_CPC AY music game",
+    "section": null
+  },
+  {
+    "name": "Hydrofool.ay",
+    "file": "chiptunes/_CPC AY music game/Hydrofool.ay",
+    "pt3": false,
+    "author": "_CPC AY music game",
+    "section": null
+  },
+  {
+    "name": "Impossamole.ay",
+    "file": "chiptunes/_CPC AY music game/Impossamole.ay",
+    "pt3": false,
+    "author": "_CPC AY music game",
+    "section": null
+  },
+  {
+    "name": "LastV8The.ay",
+    "file": "chiptunes/_CPC AY music game/LastV8The.ay",
+    "pt3": false,
+    "author": "_CPC AY music game",
+    "section": null
+  },
+  {
+    "name": "Leviathan.ay",
+    "file": "chiptunes/_CPC AY music game/Leviathan.ay",
+    "pt3": false,
+    "author": "_CPC AY music game",
+    "section": null
+  },
+  {
+    "name": "Rygar.ay",
+    "file": "chiptunes/_CPC AY music game/Rygar.ay",
+    "pt3": false,
+    "author": "_CPC AY music game",
+    "section": null
+  },
+  {
+    "name": "S.T.U.N.Runner.ay",
+    "file": "chiptunes/_CPC AY music game/S.T.U.N.Runner.ay",
+    "pt3": false,
+    "author": "_CPC AY music game",
+    "section": null
+  },
+  {
+    "name": "Saboteur2.ay",
+    "file": "chiptunes/_CPC AY music game/Saboteur2.ay",
+    "pt3": false,
+    "author": "_CPC AY music game",
+    "section": null
+  },
+  {
+    "name": "Trans-AtlanticBalloonChallenge.ay",
+    "file": "chiptunes/_CPC AY music game/Trans-AtlanticBalloonChallenge.ay",
+    "pt3": false,
+    "author": "_CPC AY music game",
+    "section": null
+  },
+  {
+    "name": "Transmuter.ay",
+    "file": "chiptunes/_CPC AY music game/Transmuter.ay",
+    "pt3": false,
+    "author": "_CPC AY music game",
+    "section": null
+  },
+  {
+    "name": "Uridium.ay",
+    "file": "chiptunes/_CPC AY music game/Uridium.ay",
+    "pt3": false,
+    "author": "_CPC AY music game",
+    "section": null
+  },
+  {
+    "name": "Xenon.ay",
+    "file": "chiptunes/_CPC AY music game/Xenon.ay",
+    "pt3": false,
+    "author": "_CPC AY music game",
+    "section": null
+  },
+  {
+    "name": "Zynaps.ay",
+    "file": "chiptunes/_CPC AY music game/Zynaps.ay",
+    "pt3": false,
+    "author": "_CPC AY music game",
+    "section": null
   },
   {
     "name": "Insult1m.stc",
@@ -93075,5 +82941,6784 @@ var AYPLAYLIST_DATA = [
     "author": "_Demo tracks",
     "section": "XTC demo",
     "time": "03:38"
+  },
+  {
+    "name": "Nostalgy.ftc",
+    "file": "chiptunes/_ftc/Nostalgy.ftc",
+    "pt3": false,
+    "author": "_ftc",
+    "section": null
+  },
+  {
+    "name": "Nostalgy.pt3",
+    "file": "chiptunes/_ftc/Nostalgy.pt3",
+    "pt3": false,
+    "author": "_ftc",
+    "section": null,
+    "time": "02:03"
+  },
+  {
+    "name": "PA-PA-PA.ftc",
+    "file": "chiptunes/_ftc/PA-PA-PA.ftc",
+    "pt3": false,
+    "author": "_ftc",
+    "section": null,
+    "time": "02:03"
+  },
+  {
+    "name": "PA-PA-PA.pt3",
+    "file": "chiptunes/_ftc/PA-PA-PA.pt3",
+    "pt3": false,
+    "author": "_ftc",
+    "section": null,
+    "time": "02:13"
+  },
+  {
+    "name": "FL_SH_EI.psc",
+    "file": "chiptunes/_psc/FL_SH_EI.psc",
+    "pt3": false,
+    "author": "_psc",
+    "section": null
+  },
+  {
+    "name": "FL_SH_EI.pt3",
+    "file": "chiptunes/_psc/FL_SH_EI.pt3",
+    "pt3": false,
+    "author": "_psc",
+    "section": null,
+    "time": "01:55"
+  },
+  {
+    "name": "guitar.psc",
+    "file": "chiptunes/_psc/guitar.psc",
+    "pt3": false,
+    "author": "_psc",
+    "section": null,
+    "time": "01:55"
+  },
+  {
+    "name": "guitar.pt3",
+    "file": "chiptunes/_psc/guitar.pt3",
+    "pt3": false,
+    "author": "_psc",
+    "section": null,
+    "time": "01:32"
+  },
+  {
+    "name": "taiobyte.pt3",
+    "file": "chiptunes/_sqt/taiobyte.pt3",
+    "pt3": false,
+    "author": "_sqt",
+    "section": null,
+    "time": "02:59"
+  },
+  {
+    "name": "taiobyte.sqt",
+    "file": "chiptunes/_sqt/taiobyte.sqt",
+    "pt3": false,
+    "author": "_sqt",
+    "section": null,
+    "time": "02:59"
+  },
+  {
+    "name": "tsd.pt3",
+    "file": "chiptunes/_sqt/tsd.pt3",
+    "pt3": false,
+    "author": "_sqt",
+    "section": null,
+    "time": "01:01"
+  },
+  {
+    "name": "tsd.sqt",
+    "file": "chiptunes/_sqt/tsd.sqt",
+    "pt3": false,
+    "author": "_sqt",
+    "section": null,
+    "time": "01:01"
+  },
+  {
+    "name": "2BY_OLEG.ay",
+    "file": "chiptunes/_ZX AY music demo/2BY_OLEG.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "3D-POOL.ay",
+    "file": "chiptunes/_ZX AY music demo/3D-POOL.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "3DShow.AY",
+    "file": "chiptunes/_ZX AY music demo/3DShow.AY",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "4UM.AY",
+    "file": "chiptunes/_ZX AY music demo/4UM.AY",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "AcousticDreams.ay",
+    "file": "chiptunes/_ZX AY music demo/AcousticDreams.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "Agent-XNonamedzak01.ay",
+    "file": "chiptunes/_ZX AY music demo/Agent-XNonamedzak01.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "Agent-XNonamedzak02.ay",
+    "file": "chiptunes/_ZX AY music demo/Agent-XNonamedzak02.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "AllaTurca.ay",
+    "file": "chiptunes/_ZX AY music demo/AllaTurca.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "ANONS.ay",
+    "file": "chiptunes/_ZX AY music demo/ANONS.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "Another.ay",
+    "file": "chiptunes/_ZX AY music demo/Another.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "Apocalypse.ay",
+    "file": "chiptunes/_ZX AY music demo/Apocalypse.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "AssortyMegaDemo0.ay",
+    "file": "chiptunes/_ZX AY music demo/AssortyMegaDemo0.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "AssortyMegaDemo1.ay",
+    "file": "chiptunes/_ZX AY music demo/AssortyMegaDemo1.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "AssortyMegaDemo2.ay",
+    "file": "chiptunes/_ZX AY music demo/AssortyMegaDemo2.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "AssortyMegaDemo3.ay",
+    "file": "chiptunes/_ZX AY music demo/AssortyMegaDemo3.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "AssortyMegaDemo4.ay",
+    "file": "chiptunes/_ZX AY music demo/AssortyMegaDemo4.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "Axel-FTheme.ay",
+    "file": "chiptunes/_ZX AY music demo/Axel-FTheme.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "BackToReality.ay",
+    "file": "chiptunes/_ZX AY music demo/BackToReality.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "BD2.2.ay",
+    "file": "chiptunes/_ZX AY music demo/BD2.2.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "BD2.3.ay",
+    "file": "chiptunes/_ZX AY music demo/BD2.3.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "BD2.4.ay",
+    "file": "chiptunes/_ZX AY music demo/BD2.4.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "BeforeNewYear.ay",
+    "file": "chiptunes/_ZX AY music demo/BeforeNewYear.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "BewareZandramas.ay",
+    "file": "chiptunes/_ZX AY music demo/BewareZandramas.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "BigBang(Enolagay).ay",
+    "file": "chiptunes/_ZX AY music demo/BigBang(Enolagay).ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "BigInJapan.ay",
+    "file": "chiptunes/_ZX AY music demo/BigInJapan.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "BinaryLove.AY",
+    "file": "chiptunes/_ZX AY music demo/BinaryLove.AY",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "Birthday.ay",
+    "file": "chiptunes/_ZX AY music demo/Birthday.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "BizarreConstruction.ay",
+    "file": "chiptunes/_ZX AY music demo/BizarreConstruction.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "BranchOfMind.AY",
+    "file": "chiptunes/_ZX AY music demo/BranchOfMind.AY",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "BunchOfArse.AY",
+    "file": "chiptunes/_ZX AY music demo/BunchOfArse.AY",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "ChaosIsBeginingToday.ay",
+    "file": "chiptunes/_ZX AY music demo/ChaosIsBeginingToday.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "ChildrenTheme.ay",
+    "file": "chiptunes/_ZX AY music demo/ChildrenTheme.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "Chimera.ay",
+    "file": "chiptunes/_ZX AY music demo/Chimera.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "Commando.ay",
+    "file": "chiptunes/_ZX AY music demo/Commando.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "Commando2.ay",
+    "file": "chiptunes/_ZX AY music demo/Commando2.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "CrazyComets&Penetrator.ay",
+    "file": "chiptunes/_ZX AY music demo/CrazyComets&Penetrator.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "CrazySample2.ay",
+    "file": "chiptunes/_ZX AY music demo/CrazySample2.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "Dies irae.ay",
+    "file": "chiptunes/_ZX AY music demo/Dies irae.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "DNK-1.AY",
+    "file": "chiptunes/_ZX AY music demo/DNK-1.AY",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "Dobranocki.ay",
+    "file": "chiptunes/_ZX AY music demo/Dobranocki.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "DOCZak01.ay",
+    "file": "chiptunes/_ZX AY music demo/DOCZak01.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "DOCZak02.ay.ay",
+    "file": "chiptunes/_ZX AY music demo/DOCZak02.ay.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "DOCZak03.ay",
+    "file": "chiptunes/_ZX AY music demo/DOCZak03.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "E.T.Flying.ay",
+    "file": "chiptunes/_ZX AY music demo/E.T.Flying.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "Echologia1.ay",
+    "file": "chiptunes/_ZX AY music demo/Echologia1.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "Echologia2.ay",
+    "file": "chiptunes/_ZX AY music demo/Echologia2.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "Echologia3.ay",
+    "file": "chiptunes/_ZX AY music demo/Echologia3.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "Echologia4.ay",
+    "file": "chiptunes/_ZX AY music demo/Echologia4.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "Echologia5.ay",
+    "file": "chiptunes/_ZX AY music demo/Echologia5.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "Echologia6.ay",
+    "file": "chiptunes/_ZX AY music demo/Echologia6.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "Echologia7.ay",
+    "file": "chiptunes/_ZX AY music demo/Echologia7.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "Eifmes.ay",
+    "file": "chiptunes/_ZX AY music demo/Eifmes.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "ElLoco.ay",
+    "file": "chiptunes/_ZX AY music demo/ElLoco.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "Emax.ay",
+    "file": "chiptunes/_ZX AY music demo/Emax.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "EndlessChaos.ay",
+    "file": "chiptunes/_ZX AY music demo/EndlessChaos.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "EquinoxeV.ay",
+    "file": "chiptunes/_ZX AY music demo/EquinoxeV.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "Exotic.ay",
+    "file": "chiptunes/_ZX AY music demo/Exotic.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "ExterminatorCheatMenu.ay",
+    "file": "chiptunes/_ZX AY music demo/ExterminatorCheatMenu.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "Feud(1).ay",
+    "file": "chiptunes/_ZX AY music demo/Feud(1).ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "Feud(2).AY",
+    "file": "chiptunes/_ZX AY music demo/Feud(2).AY",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "FikusPikusGift.ay",
+    "file": "chiptunes/_ZX AY music demo/FikusPikusGift.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "Foltrax.ay",
+    "file": "chiptunes/_ZX AY music demo/Foltrax.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "ForTheUnitedMinds.AY",
+    "file": "chiptunes/_ZX AY music demo/ForTheUnitedMinds.AY",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "FuckingArmy.ay",
+    "file": "chiptunes/_ZX AY music demo/FuckingArmy.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "Fugue.ay",
+    "file": "chiptunes/_ZX AY music demo/Fugue.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "Gemini - double preview.ay",
+    "file": "chiptunes/_ZX AY music demo/Gemini - double preview.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "Ghostbusters.ay",
+    "file": "chiptunes/_ZX AY music demo/Ghostbusters.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "GhostsnGoblins.ay",
+    "file": "chiptunes/_ZX AY music demo/GhostsnGoblins.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "GiftForMikeFollin.ay",
+    "file": "chiptunes/_ZX AY music demo/GiftForMikeFollin.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "HeroQuestCheatMenu.ay",
+    "file": "chiptunes/_ZX AY music demo/HeroQuestCheatMenu.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "HudsonHawkCheatMenu.ay",
+    "file": "chiptunes/_ZX AY music demo/HudsonHawkCheatMenu.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "IcecreamEpilogue.ay",
+    "file": "chiptunes/_ZX AY music demo/IcecreamEpilogue.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "IcecreamMain.ay",
+    "file": "chiptunes/_ZX AY music demo/IcecreamMain.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "Improv10.ay",
+    "file": "chiptunes/_ZX AY music demo/Improv10.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "Improv11.ay",
+    "file": "chiptunes/_ZX AY music demo/Improv11.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "Improv12.ay",
+    "file": "chiptunes/_ZX AY music demo/Improv12.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "Improv13.ay",
+    "file": "chiptunes/_ZX AY music demo/Improv13.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "Improv14.ay",
+    "file": "chiptunes/_ZX AY music demo/Improv14.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "Improv15.ay",
+    "file": "chiptunes/_ZX AY music demo/Improv15.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "Improv16.ay",
+    "file": "chiptunes/_ZX AY music demo/Improv16.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "Improv17.ay",
+    "file": "chiptunes/_ZX AY music demo/Improv17.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "Improv_1.ay",
+    "file": "chiptunes/_ZX AY music demo/Improv_1.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "Improv_4.ay",
+    "file": "chiptunes/_ZX AY music demo/Improv_4.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "Improv_5.ay",
+    "file": "chiptunes/_ZX AY music demo/Improv_5.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "Improv_6.ay",
+    "file": "chiptunes/_ZX AY music demo/Improv_6.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "Improv_7.ay",
+    "file": "chiptunes/_ZX AY music demo/Improv_7.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "Improv_8.ay",
+    "file": "chiptunes/_ZX AY music demo/Improv_8.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "Improv_9.ay",
+    "file": "chiptunes/_ZX AY music demo/Improv_9.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "Impulse.ay",
+    "file": "chiptunes/_ZX AY music demo/Impulse.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "IMPUnknownzak01.ay",
+    "file": "chiptunes/_ZX AY music demo/IMPUnknownzak01.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "IneffableThemes.ay",
+    "file": "chiptunes/_ZX AY music demo/IneffableThemes.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "InfluencePreIntro.ay",
+    "file": "chiptunes/_ZX AY music demo/InfluencePreIntro.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "InnerUniverse.AY",
+    "file": "chiptunes/_ZX AY music demo/InnerUniverse.AY",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "InsultEpilogue.ay",
+    "file": "chiptunes/_ZX AY music demo/InsultEpilogue.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "InsultLoadTune.ay",
+    "file": "chiptunes/_ZX AY music demo/InsultLoadTune.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "InsultMegaDemo1.ay",
+    "file": "chiptunes/_ZX AY music demo/InsultMegaDemo1.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "InsultMegaDemo3.ay",
+    "file": "chiptunes/_ZX AY music demo/InsultMegaDemo3.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "InsultMegaDemo5.ay",
+    "file": "chiptunes/_ZX AY music demo/InsultMegaDemo5.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "InsultMegaDemo7.ay",
+    "file": "chiptunes/_ZX AY music demo/InsultMegaDemo7.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "InsultMegaDemo8.ay",
+    "file": "chiptunes/_ZX AY music demo/InsultMegaDemo8.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "InsultMegaDemo9.ay",
+    "file": "chiptunes/_ZX AY music demo/InsultMegaDemo9.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "Interchrome.AY",
+    "file": "chiptunes/_ZX AY music demo/Interchrome.AY",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "KentZak01.ay",
+    "file": "chiptunes/_ZX AY music demo/KentZak01.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "KentZak02.ay",
+    "file": "chiptunes/_ZX AY music demo/KentZak02.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "Killers.ay",
+    "file": "chiptunes/_ZX AY music demo/Killers.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "LandOfConfusion.ay",
+    "file": "chiptunes/_ZX AY music demo/LandOfConfusion.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "LastV8The.ay",
+    "file": "chiptunes/_ZX AY music demo/LastV8The.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "Light96.ay",
+    "file": "chiptunes/_ZX AY music demo/Light96.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "Likemya.ay",
+    "file": "chiptunes/_ZX AY music demo/Likemya.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "LSDIntroduction.ay",
+    "file": "chiptunes/_ZX AY music demo/LSDIntroduction.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "LSDMegaDemo01.ay",
+    "file": "chiptunes/_ZX AY music demo/LSDMegaDemo01.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "LSDMegaDemo02.ay",
+    "file": "chiptunes/_ZX AY music demo/LSDMegaDemo02.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "LSDMegaDemo03.ay",
+    "file": "chiptunes/_ZX AY music demo/LSDMegaDemo03.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "LSDMegaDemo04.ay",
+    "file": "chiptunes/_ZX AY music demo/LSDMegaDemo04.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "LSDMegaDemo05.ay",
+    "file": "chiptunes/_ZX AY music demo/LSDMegaDemo05.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "LSDMegaDemo06.ay",
+    "file": "chiptunes/_ZX AY music demo/LSDMegaDemo06.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "LSDMegaDemo07.ay",
+    "file": "chiptunes/_ZX AY music demo/LSDMegaDemo07.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "LSDMegaDemo08.ay",
+    "file": "chiptunes/_ZX AY music demo/LSDMegaDemo08.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "LSDMegaDemo09.ay",
+    "file": "chiptunes/_ZX AY music demo/LSDMegaDemo09.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "LSDMegaDemo10.ay",
+    "file": "chiptunes/_ZX AY music demo/LSDMegaDemo10.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "LSDMegaDemo11.ay",
+    "file": "chiptunes/_ZX AY music demo/LSDMegaDemo11.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "Madrielle.AY",
+    "file": "chiptunes/_ZX AY music demo/Madrielle.AY",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "MagneticFieldsIV.ay",
+    "file": "chiptunes/_ZX AY music demo/MagneticFieldsIV.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "MagneticFieldsV.ay",
+    "file": "chiptunes/_ZX AY music demo/MagneticFieldsV.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "Malikov.ay",
+    "file": "chiptunes/_ZX AY music demo/Malikov.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "MarioIslands.AY",
+    "file": "chiptunes/_ZX AY music demo/MarioIslands.AY",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "MasterOfMagic.ay",
+    "file": "chiptunes/_ZX AY music demo/MasterOfMagic.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "MetalMania.ay",
+    "file": "chiptunes/_ZX AY music demo/MetalMania.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "MetalManiaII.ay",
+    "file": "chiptunes/_ZX AY music demo/MetalManiaII.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "Monday.ay",
+    "file": "chiptunes/_ZX AY music demo/Monday.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "MontyOnTheRun.ay",
+    "file": "chiptunes/_ZX AY music demo/MontyOnTheRun.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "MortalKombatTheme.ay",
+    "file": "chiptunes/_ZX AY music demo/MortalKombatTheme.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "MQM2-10HardWedge4.ay",
+    "file": "chiptunes/_ZX AY music demo/MQM2-10HardWedge4.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "MQM2-11Flaps2.ay",
+    "file": "chiptunes/_ZX AY music demo/MQM2-11Flaps2.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "MQM2-12Firefly.ay",
+    "file": "chiptunes/_ZX AY music demo/MQM2-12Firefly.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "MQM2-13HardWedge5.ay",
+    "file": "chiptunes/_ZX AY music demo/MQM2-13HardWedge5.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "MQM2-14SoHard.ay",
+    "file": "chiptunes/_ZX AY music demo/MQM2-14SoHard.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "MQM2-1Supremacy.ay",
+    "file": "chiptunes/_ZX AY music demo/MQM2-1Supremacy.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "MQM2-2HardWedge1.ay",
+    "file": "chiptunes/_ZX AY music demo/MQM2-2HardWedge1.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "MQM2-3PennyLane.ay",
+    "file": "chiptunes/_ZX AY music demo/MQM2-3PennyLane.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "MQM2-4HardWedge2.ay",
+    "file": "chiptunes/_ZX AY music demo/MQM2-4HardWedge2.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "MQM2-5GreatCourts.ay",
+    "file": "chiptunes/_ZX AY music demo/MQM2-5GreatCourts.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "MQM2-6AnotherWorld.ay",
+    "file": "chiptunes/_ZX AY music demo/MQM2-6AnotherWorld.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "MQM2-7HardWedge3.ay",
+    "file": "chiptunes/_ZX AY music demo/MQM2-7HardWedge3.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "MQM2-8KickOff2.ay",
+    "file": "chiptunes/_ZX AY music demo/MQM2-8KickOff2.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "MQM2-9Leviathan.ay",
+    "file": "chiptunes/_ZX AY music demo/MQM2-9Leviathan.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "MQM2IntroMusic.ay",
+    "file": "chiptunes/_ZX AY music demo/MQM2IntroMusic.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "MQM4-10DullSeason.ay",
+    "file": "chiptunes/_ZX AY music demo/MQM4-10DullSeason.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "MQM4-11ComplicationsAmiga.ay",
+    "file": "chiptunes/_ZX AY music demo/MQM4-11ComplicationsAmiga.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "MQM4-12BeerJoint.ay",
+    "file": "chiptunes/_ZX AY music demo/MQM4-12BeerJoint.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "MQM4-14CrazyWoodpecker.ay",
+    "file": "chiptunes/_ZX AY music demo/MQM4-14CrazyWoodpecker.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "MQM4-15HardWedge5Remix.ay",
+    "file": "chiptunes/_ZX AY music demo/MQM4-15HardWedge5Remix.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "MQM4-1CarrierCommandST.ay",
+    "file": "chiptunes/_ZX AY music demo/MQM4-1CarrierCommandST.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "MQM4-2QjetasHello.ay",
+    "file": "chiptunes/_ZX AY music demo/MQM4-2QjetasHello.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "MQM4-3AtariCrack.ay",
+    "file": "chiptunes/_ZX AY music demo/MQM4-3AtariCrack.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "MQM4-4AgentXInspiration.ay",
+    "file": "chiptunes/_ZX AY music demo/MQM4-4AgentXInspiration.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "MQM4-5EcstasyFromBeer.ay",
+    "file": "chiptunes/_ZX AY music demo/MQM4-5EcstasyFromBeer.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "MQM4-6CybernoidSTCrack.ay",
+    "file": "chiptunes/_ZX AY music demo/MQM4-6CybernoidSTCrack.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "MQM4-7ChorusErasure.ay",
+    "file": "chiptunes/_ZX AY music demo/MQM4-7ChorusErasure.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "MQM4-8Tranz7Inspiration.ay",
+    "file": "chiptunes/_ZX AY music demo/MQM4-8Tranz7Inspiration.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "MQM4-9OxygeneIV.ay",
+    "file": "chiptunes/_ZX AY music demo/MQM4-9OxygeneIV.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "MQM5-23.ay",
+    "file": "chiptunes/_ZX AY music demo/MQM5-23.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "MQM5-24.ay",
+    "file": "chiptunes/_ZX AY music demo/MQM5-24.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "MQM5-25.ay",
+    "file": "chiptunes/_ZX AY music demo/MQM5-25.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "MSX-01.AY",
+    "file": "chiptunes/_ZX AY music demo/MSX-01.AY",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "MyBirthday.ay",
+    "file": "chiptunes/_ZX AY music demo/MyBirthday.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "MyLastZXMuzzak.ay",
+    "file": "chiptunes/_ZX AY music demo/MyLastZXMuzzak.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "My_First.ay",
+    "file": "chiptunes/_ZX AY music demo/My_First.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "New_Year.ay",
+    "file": "chiptunes/_ZX AY music demo/New_Year.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "NMIEndPart.ay",
+    "file": "chiptunes/_ZX AY music demo/NMIEndPart.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "NoInsightView.ay",
+    "file": "chiptunes/_ZX AY music demo/NoInsightView.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "October.ay",
+    "file": "chiptunes/_ZX AY music demo/October.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "Paroxyzm.ay",
+    "file": "chiptunes/_ZX AY music demo/Paroxyzm.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "PlayersCDPlayer.ay",
+    "file": "chiptunes/_ZX AY music demo/PlayersCDPlayer.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "PleaseTakeMeOnCC999.ay",
+    "file": "chiptunes/_ZX AY music demo/PleaseTakeMeOnCC999.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "PodpersonsFromMars.ay",
+    "file": "chiptunes/_ZX AY music demo/PodpersonsFromMars.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "Pondlife.ay",
+    "file": "chiptunes/_ZX AY music demo/Pondlife.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "PondlifePreview.AY",
+    "file": "chiptunes/_ZX AY music demo/PondlifePreview.AY",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "PondlifePreviewPreview.AY",
+    "file": "chiptunes/_ZX AY music demo/PondlifePreviewPreview.AY",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "PowerOfMind.ay",
+    "file": "chiptunes/_ZX AY music demo/PowerOfMind.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "PowerUp.AY",
+    "file": "chiptunes/_ZX AY music demo/PowerUp.AY",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "PSM_FNL0.ay",
+    "file": "chiptunes/_ZX AY music demo/PSM_FNL0.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "PSM_FNL1.ay",
+    "file": "chiptunes/_ZX AY music demo/PSM_FNL1.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "PSM_FNL2.ay",
+    "file": "chiptunes/_ZX AY music demo/PSM_FNL2.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "PSM_FNL3.ay",
+    "file": "chiptunes/_ZX AY music demo/PSM_FNL3.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "RandezVous.ay",
+    "file": "chiptunes/_ZX AY music demo/RandezVous.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "RendezVous4.ay",
+    "file": "chiptunes/_ZX AY music demo/RendezVous4.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "RestFromYourDeepFears.ay",
+    "file": "chiptunes/_ZX AY music demo/RestFromYourDeepFears.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "RomanticExpress.ay.ay",
+    "file": "chiptunes/_ZX AY music demo/RomanticExpress.ay.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "SacredArmoutOfAntiriad.ay",
+    "file": "chiptunes/_ZX AY music demo/SacredArmoutOfAntiriad.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "SatisfactionMegaDemo01.ay",
+    "file": "chiptunes/_ZX AY music demo/SatisfactionMegaDemo01.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "SatisfactionMegaDemo02.ay",
+    "file": "chiptunes/_ZX AY music demo/SatisfactionMegaDemo02.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "SatisfactionMegaDemo03.ay",
+    "file": "chiptunes/_ZX AY music demo/SatisfactionMegaDemo03.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "SatisfactionMegaDemo04.ay",
+    "file": "chiptunes/_ZX AY music demo/SatisfactionMegaDemo04.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "SatisfactionMegaDemo05.ay",
+    "file": "chiptunes/_ZX AY music demo/SatisfactionMegaDemo05.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "SatisfactionMegaDemo06.ay",
+    "file": "chiptunes/_ZX AY music demo/SatisfactionMegaDemo06.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "SatisfactionMegaDemo07.ay",
+    "file": "chiptunes/_ZX AY music demo/SatisfactionMegaDemo07.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "SatisfactionMegaDemo08.ay",
+    "file": "chiptunes/_ZX AY music demo/SatisfactionMegaDemo08.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "SatisfactionMegaDemo09.ay",
+    "file": "chiptunes/_ZX AY music demo/SatisfactionMegaDemo09.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "Schizophrenia.ay",
+    "file": "chiptunes/_ZX AY music demo/Schizophrenia.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "Shit4Brainz.AY",
+    "file": "chiptunes/_ZX AY music demo/Shit4Brainz.AY",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "ShockMegaDemo01.ay",
+    "file": "chiptunes/_ZX AY music demo/ShockMegaDemo01.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "ShockMegaDemo02.ay",
+    "file": "chiptunes/_ZX AY music demo/ShockMegaDemo02.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "ShockMegaDemo03.ay",
+    "file": "chiptunes/_ZX AY music demo/ShockMegaDemo03.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "ShockMegaDemo04.ay",
+    "file": "chiptunes/_ZX AY music demo/ShockMegaDemo04.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "ShockMegaDemo06.ay",
+    "file": "chiptunes/_ZX AY music demo/ShockMegaDemo06.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "ShockMegaDemo07.ay",
+    "file": "chiptunes/_ZX AY music demo/ShockMegaDemo07.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "ShockMegaDemo08.ay",
+    "file": "chiptunes/_ZX AY music demo/ShockMegaDemo08.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "Short.ay",
+    "file": "chiptunes/_ZX AY music demo/Short.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "SignalPart3.AY",
+    "file": "chiptunes/_ZX AY music demo/SignalPart3.AY",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "SMC1.AY",
+    "file": "chiptunes/_ZX AY music demo/SMC1.AY",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "SMC2.AY",
+    "file": "chiptunes/_ZX AY music demo/SMC2.AY",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "SpaceMadness.AY",
+    "file": "chiptunes/_ZX AY music demo/SpaceMadness.AY",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "SpecialMusicCollection.AY",
+    "file": "chiptunes/_ZX AY music demo/SpecialMusicCollection.AY",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "SpecialMusicCollection2.AY",
+    "file": "chiptunes/_ZX AY music demo/SpecialMusicCollection2.AY",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "Spring.ay",
+    "file": "chiptunes/_ZX AY music demo/Spring.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "SubSonic.AY",
+    "file": "chiptunes/_ZX AY music demo/SubSonic.AY",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "Suxxonia.ay",
+    "file": "chiptunes/_ZX AY music demo/Suxxonia.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "SweetMomentsOfLust.ay",
+    "file": "chiptunes/_ZX AY music demo/SweetMomentsOfLust.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "SWIVCheatMenu.ay",
+    "file": "chiptunes/_ZX AY music demo/SWIVCheatMenu.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "SyndeecateApocalypse2003Invitro.ay",
+    "file": "chiptunes/_ZX AY music demo/SyndeecateApocalypse2003Invitro.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "TerraCresta.ay",
+    "file": "chiptunes/_ZX AY music demo/TerraCresta.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "TFF4Demo.ay",
+    "file": "chiptunes/_ZX AY music demo/TFF4Demo.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "TheLyra2Demo02.ay",
+    "file": "chiptunes/_ZX AY music demo/TheLyra2Demo02.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "TheLyra2Demo03.ay",
+    "file": "chiptunes/_ZX AY music demo/TheLyra2Demo03.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "TheLyra2Demo04.ay",
+    "file": "chiptunes/_ZX AY music demo/TheLyra2Demo04.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "TheLyra2Demo05.ay",
+    "file": "chiptunes/_ZX AY music demo/TheLyra2Demo05.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "TheLyra2Demo06.ay",
+    "file": "chiptunes/_ZX AY music demo/TheLyra2Demo06.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "TheLyra2Demo08.ay",
+    "file": "chiptunes/_ZX AY music demo/TheLyra2Demo08.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "TheLyra2Demo09.ay",
+    "file": "chiptunes/_ZX AY music demo/TheLyra2Demo09.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "TheLyra2Intro.ay",
+    "file": "chiptunes/_ZX AY music demo/TheLyra2Intro.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "TimFollinStarTip2.AY",
+    "file": "chiptunes/_ZX AY music demo/TimFollinStarTip2.AY",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "TogetherWithMe.ay",
+    "file": "chiptunes/_ZX AY music demo/TogetherWithMe.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "TorturesOfDetonatedFlash.ay",
+    "file": "chiptunes/_ZX AY music demo/TorturesOfDetonatedFlash.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "TwinSZak01.ay",
+    "file": "chiptunes/_ZX AY music demo/TwinSZak01.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "UnfixedReamplifiedVibes.ay",
+    "file": "chiptunes/_ZX AY music demo/UnfixedReamplifiedVibes.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "Unknown.ay",
+    "file": "chiptunes/_ZX AY music demo/Unknown.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "Unknown00.ay",
+    "file": "chiptunes/_ZX AY music demo/Unknown00.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "Unknown01.ay",
+    "file": "chiptunes/_ZX AY music demo/Unknown01.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "UnknownDemoSound01.ay",
+    "file": "chiptunes/_ZX AY music demo/UnknownDemoSound01.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "UnknownDemoSound02.ay",
+    "file": "chiptunes/_ZX AY music demo/UnknownDemoSound02.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "UnknownDemoSound03.ay",
+    "file": "chiptunes/_ZX AY music demo/UnknownDemoSound03.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "UnknownDemoTune.ay",
+    "file": "chiptunes/_ZX AY music demo/UnknownDemoTune.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "UnknownDemoTune00.AY",
+    "file": "chiptunes/_ZX AY music demo/UnknownDemoTune00.AY",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "UnknownDemoTune01.ay",
+    "file": "chiptunes/_ZX AY music demo/UnknownDemoTune01.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "Unknowns00.ay",
+    "file": "chiptunes/_ZX AY music demo/Unknowns00.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "Unreal2.ay",
+    "file": "chiptunes/_ZX AY music demo/Unreal2.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "Unused01.ay",
+    "file": "chiptunes/_ZX AY music demo/Unused01.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "Unused02.ay",
+    "file": "chiptunes/_ZX AY music demo/Unused02.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "VeryNiceTune.ay",
+    "file": "chiptunes/_ZX AY music demo/VeryNiceTune.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "Vibrations1.ay",
+    "file": "chiptunes/_ZX AY music demo/Vibrations1.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "Vibrations2.ay",
+    "file": "chiptunes/_ZX AY music demo/Vibrations2.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "ViewToAKill.ay",
+    "file": "chiptunes/_ZX AY music demo/ViewToAKill.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "VooDooTest.ay",
+    "file": "chiptunes/_ZX AY music demo/VooDooTest.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "VoyageInFuture.ay",
+    "file": "chiptunes/_ZX AY music demo/VoyageInFuture.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "Wakson'sZak001.ay",
+    "file": "chiptunes/_ZX AY music demo/Wakson'sZak001.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "Wakson'sZak002.ay",
+    "file": "chiptunes/_ZX AY music demo/Wakson'sZak002.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "Wakson'sZak003.ay",
+    "file": "chiptunes/_ZX AY music demo/Wakson'sZak003.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "Wakson'sZak004.ay",
+    "file": "chiptunes/_ZX AY music demo/Wakson'sZak004.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "Wakson'sZak005.ay",
+    "file": "chiptunes/_ZX AY music demo/Wakson'sZak005.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "Wakson'sZak006.ay",
+    "file": "chiptunes/_ZX AY music demo/Wakson'sZak006.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "Wakson'sZak007.ay",
+    "file": "chiptunes/_ZX AY music demo/Wakson'sZak007.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "Wakson'sZak008.ay",
+    "file": "chiptunes/_ZX AY music demo/Wakson'sZak008.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "Wakson'sZak009.ay",
+    "file": "chiptunes/_ZX AY music demo/Wakson'sZak009.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "Wakson'sZak010.ay",
+    "file": "chiptunes/_ZX AY music demo/Wakson'sZak010.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "Wakson'sZak011.ay",
+    "file": "chiptunes/_ZX AY music demo/Wakson'sZak011.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "Wakson'sZak012.ay",
+    "file": "chiptunes/_ZX AY music demo/Wakson'sZak012.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "Wakson'sZak013.ay",
+    "file": "chiptunes/_ZX AY music demo/Wakson'sZak013.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "Wakson'sZak014.ay",
+    "file": "chiptunes/_ZX AY music demo/Wakson'sZak014.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "Wakson'sZak015.ay",
+    "file": "chiptunes/_ZX AY music demo/Wakson'sZak015.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "Wakson'sZak016.ay",
+    "file": "chiptunes/_ZX AY music demo/Wakson'sZak016.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "Wakson'sZak017.ay",
+    "file": "chiptunes/_ZX AY music demo/Wakson'sZak017.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "Wakson'sZak018.ay",
+    "file": "chiptunes/_ZX AY music demo/Wakson'sZak018.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "WaksonsZak001.ay",
+    "file": "chiptunes/_ZX AY music demo/WaksonsZak001.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "WaksonsZak002.ay",
+    "file": "chiptunes/_ZX AY music demo/WaksonsZak002.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "WaksonsZak003.ay",
+    "file": "chiptunes/_ZX AY music demo/WaksonsZak003.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "WaksonsZak004.ay",
+    "file": "chiptunes/_ZX AY music demo/WaksonsZak004.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "WaksonsZak005.ay",
+    "file": "chiptunes/_ZX AY music demo/WaksonsZak005.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "WaksonsZak006.ay",
+    "file": "chiptunes/_ZX AY music demo/WaksonsZak006.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "WaksonsZak007.ay",
+    "file": "chiptunes/_ZX AY music demo/WaksonsZak007.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "WaksonsZak008.ay",
+    "file": "chiptunes/_ZX AY music demo/WaksonsZak008.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "WaksonsZak009.ay",
+    "file": "chiptunes/_ZX AY music demo/WaksonsZak009.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "WaksonsZak010.ay",
+    "file": "chiptunes/_ZX AY music demo/WaksonsZak010.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "WaksonsZak011.ay",
+    "file": "chiptunes/_ZX AY music demo/WaksonsZak011.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "WaksonsZak012.ay",
+    "file": "chiptunes/_ZX AY music demo/WaksonsZak012.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "WaksonsZak013.ay",
+    "file": "chiptunes/_ZX AY music demo/WaksonsZak013.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "WaksonsZak014.ay",
+    "file": "chiptunes/_ZX AY music demo/WaksonsZak014.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "WaksonsZak015.ay",
+    "file": "chiptunes/_ZX AY music demo/WaksonsZak015.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "WaksonsZak016.ay",
+    "file": "chiptunes/_ZX AY music demo/WaksonsZak016.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "WaksonsZak017.ay",
+    "file": "chiptunes/_ZX AY music demo/WaksonsZak017.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "WaksonsZak018.ay",
+    "file": "chiptunes/_ZX AY music demo/WaksonsZak018.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "Warhawk.ay",
+    "file": "chiptunes/_ZX AY music demo/Warhawk.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "WhereTimeDroppedDead.ay",
+    "file": "chiptunes/_ZX AY music demo/WhereTimeDroppedDead.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "X-agon_of_Phantasy-FA-Digitune1.ay",
+    "file": "chiptunes/_ZX AY music demo/X-agon_of_Phantasy-FA-Digitune1.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "X-agon_of_Phantasy-FA-Digitune2.ay",
+    "file": "chiptunes/_ZX AY music demo/X-agon_of_Phantasy-FA-Digitune2.ay",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "Yes.AY",
+    "file": "chiptunes/_ZX AY music demo/Yes.AY",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "ZUB.AY",
+    "file": "chiptunes/_ZX AY music demo/ZUB.AY",
+    "pt3": false,
+    "author": "_ZX AY music demo",
+    "section": null
+  },
+  {
+    "name": "180.AY",
+    "file": "chiptunes/_ZX AY music game/180.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "1999.AY",
+    "file": "chiptunes/_ZX AY music game/1999.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "19PartOne-BootCamp.ay",
+    "file": "chiptunes/_ZX AY music game/19PartOne-BootCamp.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "3DSnooker.AY",
+    "file": "chiptunes/_ZX AY music game/3DSnooker.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "4SoccerSimulators.AY",
+    "file": "chiptunes/_ZX AY music game/4SoccerSimulators.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "4x4OffRoad.ay",
+    "file": "chiptunes/_ZX AY music game/4x4OffRoad.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Ace2088.ay",
+    "file": "chiptunes/_ZX AY music game/Ace2088.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "ActionFighter.AY",
+    "file": "chiptunes/_ZX AY music game/ActionFighter.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "AddamsFamilyThe.ay",
+    "file": "chiptunes/_ZX AY music game/AddamsFamilyThe.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "AdidasChampionshipFootball.ay",
+    "file": "chiptunes/_ZX AY music game/AdidasChampionshipFootball.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "AdvancedPinballSimulator.ay",
+    "file": "chiptunes/_ZX AY music game/AdvancedPinballSimulator.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "AdvancedTacticalFighter.ay",
+    "file": "chiptunes/_ZX AY music game/AdvancedTacticalFighter.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Afterburner.ay",
+    "file": "chiptunes/_ZX AY music game/Afterburner.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "AgentX.ay",
+    "file": "chiptunes/_ZX AY music game/AgentX.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "AgentX2.ay",
+    "file": "chiptunes/_ZX AY music game/AgentX2.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Aknadach.AY",
+    "file": "chiptunes/_ZX AY music game/Aknadach.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Alien8.AY",
+    "file": "chiptunes/_ZX AY music game/Alien8.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "AlienEvolution.AY",
+    "file": "chiptunes/_ZX AY music game/AlienEvolution.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "AliensTheComputerGame.ay",
+    "file": "chiptunes/_ZX AY music game/AliensTheComputerGame.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "AlienStorm.ay",
+    "file": "chiptunes/_ZX AY music game/AlienStorm.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "AlteredBeast.ay",
+    "file": "chiptunes/_ZX AY music game/AlteredBeast.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Amaurote.ay",
+    "file": "chiptunes/_ZX AY music game/Amaurote.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "AndyCapp.ay",
+    "file": "chiptunes/_ZX AY music game/AndyCapp.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Anfractuos.AY",
+    "file": "chiptunes/_ZX AY music game/Anfractuos.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "AnoGaia.AY",
+    "file": "chiptunes/_ZX AY music game/AnoGaia.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "APB.AY",
+    "file": "chiptunes/_ZX AY music game/APB.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "ArcadeFlightSimulator.AY",
+    "file": "chiptunes/_ZX AY music game/ArcadeFlightSimulator.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "ArcOfYesodThe.AY",
+    "file": "chiptunes/_ZX AY music game/ArcOfYesodThe.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Arkanoid-RevengeOfDoh.ay",
+    "file": "chiptunes/_ZX AY music game/Arkanoid-RevengeOfDoh.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Arkanoid.AY",
+    "file": "chiptunes/_ZX AY music game/Arkanoid.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Artura.AY",
+    "file": "chiptunes/_ZX AY music game/Artura.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "AstroMarineCorps.ay",
+    "file": "chiptunes/_ZX AY music game/AstroMarineCorps.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Athena.AY",
+    "file": "chiptunes/_ZX AY music game/Athena.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "AtomAnt.ay",
+    "file": "chiptunes/_ZX AY music game/AtomAnt.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Atomix.AY",
+    "file": "chiptunes/_ZX AY music game/Atomix.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Atomix2-Hexagonia.AY",
+    "file": "chiptunes/_ZX AY music game/Atomix2-Hexagonia.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Atrog.AY",
+    "file": "chiptunes/_ZX AY music game/Atrog.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "ATVSimulator.ay",
+    "file": "chiptunes/_ZX AY music game/ATVSimulator.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "AufwiedersehenMonty.ay",
+    "file": "chiptunes/_ZX AY music game/AufwiedersehenMonty.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Avalon.AY",
+    "file": "chiptunes/_ZX AY music game/Avalon.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Avenger.AY",
+    "file": "chiptunes/_ZX AY music game/Avenger.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "BackToSkool.AY",
+    "file": "chiptunes/_ZX AY music game/BackToSkool.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "BackToTheFuture2.ay",
+    "file": "chiptunes/_ZX AY music game/BackToTheFuture2.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "BackToTheFuture3.ay",
+    "file": "chiptunes/_ZX AY music game/BackToTheFuture3.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Badlands.ay",
+    "file": "chiptunes/_ZX AY music game/Badlands.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "BallBreaker.ay",
+    "file": "chiptunes/_ZX AY music game/BallBreaker.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Barbarian.AY",
+    "file": "chiptunes/_ZX AY music game/Barbarian.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "BasketMaster.ay",
+    "file": "chiptunes/_ZX AY music game/BasketMaster.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "BatmanTheCapedCrusader.AY",
+    "file": "chiptunes/_ZX AY music game/BatmanTheCapedCrusader.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "BatManTheMovie.ay",
+    "file": "chiptunes/_ZX AY music game/BatManTheMovie.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "BattleCommand.AY",
+    "file": "chiptunes/_ZX AY music game/BattleCommand.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "BattleValley.AY",
+    "file": "chiptunes/_ZX AY music game/BattleValley.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "BearAGrudge.AY",
+    "file": "chiptunes/_ZX AY music game/BearAGrudge.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Belegost.ay",
+    "file": "chiptunes/_ZX AY music game/Belegost.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "BeverlyHillsCop.ay",
+    "file": "chiptunes/_ZX AY music game/BeverlyHillsCop.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "BeyondTheIcePalace.AY",
+    "file": "chiptunes/_ZX AY music game/BeyondTheIcePalace.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "BionicCommando.ay",
+    "file": "chiptunes/_ZX AY music game/BionicCommando.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Blackbeard.AY",
+    "file": "chiptunes/_ZX AY music game/Blackbeard.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "BlackLamp.ay",
+    "file": "chiptunes/_ZX AY music game/BlackLamp.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "BladeRunner.AY",
+    "file": "chiptunes/_ZX AY music game/BladeRunner.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Blasteroids.ay",
+    "file": "chiptunes/_ZX AY music game/Blasteroids.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "BloodBrothers.ay",
+    "file": "chiptunes/_ZX AY music game/BloodBrothers.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "BloodValley.AY",
+    "file": "chiptunes/_ZX AY music game/BloodValley.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "BMXFreestyleSimulator.ay",
+    "file": "chiptunes/_ZX AY music game/BMXFreestyleSimulator.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "BMXSimulator.AY",
+    "file": "chiptunes/_ZX AY music game/BMXSimulator.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Bobsleigh.ay",
+    "file": "chiptunes/_ZX AY music game/Bobsleigh.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "BonanzaBrothers.ay",
+    "file": "chiptunes/_ZX AY music game/BonanzaBrothers.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Booty.AY",
+    "file": "chiptunes/_ZX AY music game/Booty.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Bosconian.ay",
+    "file": "chiptunes/_ZX AY music game/Bosconian.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Brainstorm.ay",
+    "file": "chiptunes/_ZX AY music game/Brainstorm.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "BratAttack.ay",
+    "file": "chiptunes/_ZX AY music game/BratAttack.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "BraveStarr.AY",
+    "file": "chiptunes/_ZX AY music game/BraveStarr.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "BrianBloodaxe.AY",
+    "file": "chiptunes/_ZX AY music game/BrianBloodaxe.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Bronx.ay",
+    "file": "chiptunes/_ZX AY music game/Bronx.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "BruceLee.AY",
+    "file": "chiptunes/_ZX AY music game/BruceLee.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "BubbleBobble.ay",
+    "file": "chiptunes/_ZX AY music game/BubbleBobble.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "BubbleBobbleTheAdventure.AY",
+    "file": "chiptunes/_ZX AY music game/BubbleBobbleTheAdventure.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "BubbleDizzy.ay",
+    "file": "chiptunes/_ZX AY music game/BubbleDizzy.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "BuggyBoy.ay",
+    "file": "chiptunes/_ZX AY music game/BuggyBoy.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Buratino.AY",
+    "file": "chiptunes/_ZX AY music game/Buratino.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "ButcherHill.ay",
+    "file": "chiptunes/_ZX AY music game/ButcherHill.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "ButchHardGuy.ay",
+    "file": "chiptunes/_ZX AY music game/ButchHardGuy.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Cabal.ay",
+    "file": "chiptunes/_ZX AY music game/Cabal.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "CaptainBlood.AY",
+    "file": "chiptunes/_ZX AY music game/CaptainBlood.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "CaptainDynamo.ay",
+    "file": "chiptunes/_ZX AY music game/CaptainDynamo.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "CaptainFizzMeetsTheBlaster-Trons.ay",
+    "file": "chiptunes/_ZX AY music game/CaptainFizzMeetsTheBlaster-Trons.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "CarrierCommand.AY",
+    "file": "chiptunes/_ZX AY music game/CarrierCommand.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Casanova.AY",
+    "file": "chiptunes/_ZX AY music game/Casanova.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Catch23.AY",
+    "file": "chiptunes/_ZX AY music game/Catch23.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Cauldron2.AY",
+    "file": "chiptunes/_ZX AY music game/Cauldron2.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Cavemania.AY",
+    "file": "chiptunes/_ZX AY music game/Cavemania.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "ChallengeOfTheGobots.ay",
+    "file": "chiptunes/_ZX AY music game/ChallengeOfTheGobots.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "ChaseHQ.ay",
+    "file": "chiptunes/_ZX AY music game/ChaseHQ.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "ChaseHQ2.AY",
+    "file": "chiptunes/_ZX AY music game/ChaseHQ2.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "ChevyChase.ay",
+    "file": "chiptunes/_ZX AY music game/ChevyChase.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Chip'sChallenge.ay",
+    "file": "chiptunes/_ZX AY music game/Chip'sChallenge.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Chronos.AY",
+    "file": "chiptunes/_ZX AY music game/Chronos.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "ChubbyGristle.ay",
+    "file": "chiptunes/_ZX AY music game/ChubbyGristle.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "ChuckieEgg.ay",
+    "file": "chiptunes/_ZX AY music game/ChuckieEgg.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "ChuckieEgg2.ay",
+    "file": "chiptunes/_ZX AY music game/ChuckieEgg2.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "CiscoHeat.ay",
+    "file": "chiptunes/_ZX AY music game/CiscoHeat.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "CJ'sElephantAntics.AY",
+    "file": "chiptunes/_ZX AY music game/CJ'sElephantAntics.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "CJInTheUSA.ay",
+    "file": "chiptunes/_ZX AY music game/CJInTheUSA.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "ClassicMuncher.ay",
+    "file": "chiptunes/_ZX AY music game/ClassicMuncher.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Cobra.ay",
+    "file": "chiptunes/_ZX AY music game/Cobra.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Coliseum.AY",
+    "file": "chiptunes/_ZX AY music game/Coliseum.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Colony.AY",
+    "file": "chiptunes/_ZX AY music game/Colony.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "CombatSchool.AY",
+    "file": "chiptunes/_ZX AY music game/CombatSchool.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Cookie.ay",
+    "file": "chiptunes/_ZX AY music game/Cookie.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "CosmicShockAbsorber.ay",
+    "file": "chiptunes/_ZX AY music game/CosmicShockAbsorber.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "CosmicWartoad.ay",
+    "file": "chiptunes/_ZX AY music game/CosmicWartoad.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "CountDuckula.ay",
+    "file": "chiptunes/_ZX AY music game/CountDuckula.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "CountDuckula2.ay",
+    "file": "chiptunes/_ZX AY music game/CountDuckula2.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "CrackDown.ay",
+    "file": "chiptunes/_ZX AY music game/CrackDown.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "CrimeBusters.AY",
+    "file": "chiptunes/_ZX AY music game/CrimeBusters.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "CrystalCastles.AY",
+    "file": "chiptunes/_ZX AY music game/CrystalCastles.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "CrystalKingdomDizzy.ay",
+    "file": "chiptunes/_ZX AY music game/CrystalKingdomDizzy.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Cyberball.ay",
+    "file": "chiptunes/_ZX AY music game/Cyberball.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Cybernoid2.AY",
+    "file": "chiptunes/_ZX AY music game/Cybernoid2.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "CybernoidTheFightingMachine.AY",
+    "file": "chiptunes/_ZX AY music game/CybernoidTheFightingMachine.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "D.N.A.Warrior.ay",
+    "file": "chiptunes/_ZX AY music game/D.N.A.Warrior.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "DaleyThompson'sOlympicChallenge.ay",
+    "file": "chiptunes/_ZX AY music game/DaleyThompson'sOlympicChallenge.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "DaleyThompson'sSuperTest.ay",
+    "file": "chiptunes/_ZX AY music game/DaleyThompson'sSuperTest.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "DanDareIII-TheEscape.AY",
+    "file": "chiptunes/_ZX AY music game/DanDareIII-TheEscape.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "DarkFusion.ay",
+    "file": "chiptunes/_ZX AY music game/DarkFusion.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "DarkMan.ay",
+    "file": "chiptunes/_ZX AY music game/DarkMan.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "DarkSceptre.AY",
+    "file": "chiptunes/_ZX AY music game/DarkSceptre.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "DeathStalker.ay",
+    "file": "chiptunes/_ZX AY music game/DeathStalker.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "DeathWish3.ay",
+    "file": "chiptunes/_ZX AY music game/DeathWish3.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Defcom.ay",
+    "file": "chiptunes/_ZX AY music game/Defcom.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "DefenderOfTheCrown.AY",
+    "file": "chiptunes/_ZX AY music game/DefenderOfTheCrown.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "DefendersOfTheEarth.ay",
+    "file": "chiptunes/_ZX AY music game/DefendersOfTheEarth.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Deflektor.AY",
+    "file": "chiptunes/_ZX AY music game/Deflektor.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Denizen.ay",
+    "file": "chiptunes/_ZX AY music game/Denizen.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Desperado.AY",
+    "file": "chiptunes/_ZX AY music game/Desperado.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "DestinyMission.AY",
+    "file": "chiptunes/_ZX AY music game/DestinyMission.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Deviants.ay",
+    "file": "chiptunes/_ZX AY music game/Deviants.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Dizzy-PrinceOfTheYolkFolk.ay",
+    "file": "chiptunes/_ZX AY music game/Dizzy-PrinceOfTheYolkFolk.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Dizzy.ay",
+    "file": "chiptunes/_ZX AY music game/Dizzy.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "DizzyDownTheRapids.AY",
+    "file": "chiptunes/_ZX AY music game/DizzyDownTheRapids.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "DoubleDragonII-TheRevenge.AY",
+    "file": "chiptunes/_ZX AY music game/DoubleDragonII-TheRevenge.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "DoubleDragonIII-TheRosettaStone.AY",
+    "file": "chiptunes/_ZX AY music game/DoubleDragonIII-TheRosettaStone.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "DoubleTake.AY",
+    "file": "chiptunes/_ZX AY music game/DoubleTake.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "DragonNinja.ay",
+    "file": "chiptunes/_ZX AY music game/DragonNinja.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "DragonsLair2EscapeFromSingesCastle.ay",
+    "file": "chiptunes/_ZX AY music game/DragonsLair2EscapeFromSingesCastle.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "DragonSpirit.AY",
+    "file": "chiptunes/_ZX AY music game/DragonSpirit.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Dragontorc.AY",
+    "file": "chiptunes/_ZX AY music game/Dragontorc.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Dustin.ay",
+    "file": "chiptunes/_ZX AY music game/Dustin.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "DynamiteDan.AY",
+    "file": "chiptunes/_ZX AY music game/DynamiteDan.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "DynamiteDan2.AY",
+    "file": "chiptunes/_ZX AY music game/DynamiteDan2.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "E-Motion.ay",
+    "file": "chiptunes/_ZX AY music game/E-Motion.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "E-SWAT.AY",
+    "file": "chiptunes/_ZX AY music game/E-SWAT.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "EarthShaker.ay",
+    "file": "chiptunes/_ZX AY music game/EarthShaker.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "ElevatorAction.ay",
+    "file": "chiptunes/_ZX AY music game/ElevatorAction.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Eliminator.ay",
+    "file": "chiptunes/_ZX AY music game/Eliminator.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Enchanted.AY",
+    "file": "chiptunes/_ZX AY music game/Enchanted.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "EnergyWarrior.ay",
+    "file": "chiptunes/_ZX AY music game/EnergyWarrior.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "EnigmaForce.AY",
+    "file": "chiptunes/_ZX AY music game/EnigmaForce.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Equinox.AY",
+    "file": "chiptunes/_ZX AY music game/Equinox.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "EscapeFromThePlanetOfTheRobotMonsters.ay",
+    "file": "chiptunes/_ZX AY music game/EscapeFromThePlanetOfTheRobotMonsters.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Everyone'sAWally.AY",
+    "file": "chiptunes/_ZX AY music game/Everyone'sAWally.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Exolon.AY",
+    "file": "chiptunes/_ZX AY music game/Exolon.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "F.I.R.E..AY",
+    "file": "chiptunes/_ZX AY music game/F.I.R.E..AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "F16FightingFalcon.ay",
+    "file": "chiptunes/_ZX AY music game/F16FightingFalcon.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Fairlight-APrelude.ay",
+    "file": "chiptunes/_ZX AY music game/Fairlight-APrelude.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Fairlight2-ATrailOfDarkness.ay",
+    "file": "chiptunes/_ZX AY music game/Fairlight2-ATrailOfDarkness.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "FallenAngel.AY",
+    "file": "chiptunes/_ZX AY music game/FallenAngel.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "FallGuyThe.ay",
+    "file": "chiptunes/_ZX AY music game/FallGuyThe.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "FantasyWorldDizzy.ay",
+    "file": "chiptunes/_ZX AY music game/FantasyWorldDizzy.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "FastFoodDizzy.ay",
+    "file": "chiptunes/_ZX AY music game/FastFoodDizzy.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "FatWormBlowsASparky.AY",
+    "file": "chiptunes/_ZX AY music game/FatWormBlowsASparky.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "FifthQuadrantThe.AY",
+    "file": "chiptunes/_ZX AY music game/FifthQuadrantThe.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "FightingSoccer.ay",
+    "file": "chiptunes/_ZX AY music game/FightingSoccer.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "FinalFight.ay",
+    "file": "chiptunes/_ZX AY music game/FinalFight.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Firefly.AY",
+    "file": "chiptunes/_ZX AY music game/Firefly.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "FireLord.AY",
+    "file": "chiptunes/_ZX AY music game/FireLord.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Fist+.AY",
+    "file": "chiptunes/_ZX AY music game/Fist+.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "FlashPoint.AY",
+    "file": "chiptunes/_ZX AY music game/FlashPoint.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "FlintstonesThe.ay",
+    "file": "chiptunes/_ZX AY music game/FlintstonesThe.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "FlyingShark.AY",
+    "file": "chiptunes/_ZX AY music game/FlyingShark.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "FootballerOfTheYear2.ay",
+    "file": "chiptunes/_ZX AY music game/FootballerOfTheYear2.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "ForgottenWorlds.ay",
+    "file": "chiptunes/_ZX AY music game/ForgottenWorlds.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "FoxxFightsBack.ay",
+    "file": "chiptunes/_ZX AY music game/FoxxFightsBack.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "FrankieGoesToHollywood.AY",
+    "file": "chiptunes/_ZX AY music game/FrankieGoesToHollywood.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "FreddyHardest.AY",
+    "file": "chiptunes/_ZX AY music game/FreddyHardest.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "FrostByte.AY",
+    "file": "chiptunes/_ZX AY music game/FrostByte.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "FruitMachineSimulator.ay",
+    "file": "chiptunes/_ZX AY music game/FruitMachineSimulator.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "FruitMachineSimulator2.ay",
+    "file": "chiptunes/_ZX AY music game/FruitMachineSimulator2.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Fuksoft.AY",
+    "file": "chiptunes/_ZX AY music game/Fuksoft.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "FullThrottle2.AY",
+    "file": "chiptunes/_ZX AY music game/FullThrottle2.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "FutureGames.AY",
+    "file": "chiptunes/_ZX AY music game/FutureGames.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "FutureKnight.AY",
+    "file": "chiptunes/_ZX AY music game/FutureKnight.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "G-LocR360.ay",
+    "file": "chiptunes/_ZX AY music game/G-LocR360.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "G.I.Hero.ay",
+    "file": "chiptunes/_ZX AY music game/G.I.Hero.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "GameOver.AY",
+    "file": "chiptunes/_ZX AY music game/GameOver.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "GaryLineker'sHotShot.ay",
+    "file": "chiptunes/_ZX AY music game/GaryLineker'sHotShot.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "GaryLineker'sSuperSkills.ay",
+    "file": "chiptunes/_ZX AY music game/GaryLineker'sSuperSkills.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Gauntlet.ay",
+    "file": "chiptunes/_ZX AY music game/Gauntlet.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "GauntletII.AY",
+    "file": "chiptunes/_ZX AY music game/GauntletII.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "GauntletIII-TheFinalQuest.ay",
+    "file": "chiptunes/_ZX AY music game/GauntletIII-TheFinalQuest.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "GeminiWing.AY",
+    "file": "chiptunes/_ZX AY music game/GeminiWing.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "GhostBusters.ay",
+    "file": "chiptunes/_ZX AY music game/GhostBusters.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "GhostBustersII.AY",
+    "file": "chiptunes/_ZX AY music game/GhostBustersII.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "GhoulsNGhosts.ay",
+    "file": "chiptunes/_ZX AY music game/GhoulsNGhosts.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Gilbert-EscapeFromDrill.ay",
+    "file": "chiptunes/_ZX AY music game/Gilbert-EscapeFromDrill.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "GliderRider.ay",
+    "file": "chiptunes/_ZX AY music game/GliderRider.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "GoldenAxe.AY",
+    "file": "chiptunes/_ZX AY music game/GoldenAxe.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Goody.AY",
+    "file": "chiptunes/_ZX AY music game/Goody.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "GrandPrixSimulator.AY",
+    "file": "chiptunes/_ZX AY music game/GrandPrixSimulator.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "GrandPrixSimulator2.AY",
+    "file": "chiptunes/_ZX AY music game/GrandPrixSimulator2.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "GrangeHill.ay",
+    "file": "chiptunes/_ZX AY music game/GrangeHill.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "GreatEscapeThe.ay",
+    "file": "chiptunes/_ZX AY music game/GreatEscapeThe.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "GrellAndFalla.ay",
+    "file": "chiptunes/_ZX AY music game/GrellAndFalla.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Gryzor.ay",
+    "file": "chiptunes/_ZX AY music game/Gryzor.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "GuerrillaWar.ay",
+    "file": "chiptunes/_ZX AY music game/GuerrillaWar.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Gunfright.AY",
+    "file": "chiptunes/_ZX AY music game/Gunfright.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "GunRunner.AY",
+    "file": "chiptunes/_ZX AY music game/GunRunner.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Gunsmoke.AY",
+    "file": "chiptunes/_ZX AY music game/Gunsmoke.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Gutz.AY",
+    "file": "chiptunes/_ZX AY music game/Gutz.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Gyroscope.ay",
+    "file": "chiptunes/_ZX AY music game/Gyroscope.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "H.A.T.E..AY",
+    "file": "chiptunes/_ZX AY music game/H.A.T.E..AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "HadesNebula.ay",
+    "file": "chiptunes/_ZX AY music game/HadesNebula.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "HardDrivin'.ay",
+    "file": "chiptunes/_ZX AY music game/HardDrivin'.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Havoc.AY",
+    "file": "chiptunes/_ZX AY music game/Havoc.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "HawkStorm.ay",
+    "file": "chiptunes/_ZX AY music game/HawkStorm.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "He-Man-MastersOfTheUniverse.AY",
+    "file": "chiptunes/_ZX AY music game/He-Man-MastersOfTheUniverse.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "HeadOverHeels.ay",
+    "file": "chiptunes/_ZX AY music game/HeadOverHeels.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Heartbroken.AY",
+    "file": "chiptunes/_ZX AY music game/Heartbroken.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Heartland.ay",
+    "file": "chiptunes/_ZX AY music game/Heartland.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "HeavyOnTheMagick.AY",
+    "file": "chiptunes/_ZX AY music game/HeavyOnTheMagick.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Herbert'sDummyRun.AY",
+    "file": "chiptunes/_ZX AY music game/Herbert'sDummyRun.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Hercules-SlayerOfTheDamned.ay",
+    "file": "chiptunes/_ZX AY music game/Hercules-SlayerOfTheDamned.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "HeroQuest.ay",
+    "file": "chiptunes/_ZX AY music game/HeroQuest.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Hoppin'Mad.ay",
+    "file": "chiptunes/_ZX AY music game/Hoppin'Mad.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Hostages.ay",
+    "file": "chiptunes/_ZX AY music game/Hostages.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "HotRod.ay",
+    "file": "chiptunes/_ZX AY music game/HotRod.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "HotShot.ay",
+    "file": "chiptunes/_ZX AY music game/HotShot.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "HowToBeACompleteBastard.ay",
+    "file": "chiptunes/_ZX AY music game/HowToBeACompleteBastard.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "HudsonHawk.AY",
+    "file": "chiptunes/_ZX AY music game/HudsonHawk.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Humphrey.AY",
+    "file": "chiptunes/_ZX AY music game/Humphrey.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Hunchback-TheAdventure.AY",
+    "file": "chiptunes/_ZX AY music game/Hunchback-TheAdventure.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Hunchback.ay",
+    "file": "chiptunes/_ZX AY music game/Hunchback.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Hunchback2-Quasimodo'sRevenge.ay",
+    "file": "chiptunes/_ZX AY music game/Hunchback2-Quasimodo'sRevenge.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Hundra.AY",
+    "file": "chiptunes/_ZX AY music game/Hundra.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "HuntForRedOctoberThe.ay",
+    "file": "chiptunes/_ZX AY music game/HuntForRedOctoberThe.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Hydrofool.AY",
+    "file": "chiptunes/_ZX AY music game/Hydrofool.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Hypaball.AY",
+    "file": "chiptunes/_ZX AY music game/Hypaball.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "HyperActive.AY",
+    "file": "chiptunes/_ZX AY music game/HyperActive.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "HyperLane.AY",
+    "file": "chiptunes/_ZX AY music game/HyperLane.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Hysteria.ay",
+    "file": "chiptunes/_ZX AY music game/Hysteria.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "I.C.U.P.S..AY",
+    "file": "chiptunes/_ZX AY music game/I.C.U.P.S..AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "IBall.ay",
+    "file": "chiptunes/_ZX AY music game/IBall.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "IBall2.ay",
+    "file": "chiptunes/_ZX AY music game/IBall2.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "IkariWarriors.ay",
+    "file": "chiptunes/_ZX AY music game/IkariWarriors.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Implosion.ay",
+    "file": "chiptunes/_ZX AY music game/Implosion.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Impossamole.AY",
+    "file": "chiptunes/_ZX AY music game/Impossamole.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "IndianaJones3.ay",
+    "file": "chiptunes/_ZX AY music game/IndianaJones3.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "IndianaJonesAndTheLastCrusade.ay",
+    "file": "chiptunes/_ZX AY music game/IndianaJonesAndTheLastCrusade.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Infection.AY",
+    "file": "chiptunes/_ZX AY music game/Infection.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "International3DTennis.ay",
+    "file": "chiptunes/_ZX AY music game/International3DTennis.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "InternationalKarate+.ay",
+    "file": "chiptunes/_ZX AY music game/InternationalKarate+.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "InternationalKarate.AY",
+    "file": "chiptunes/_ZX AY music game/InternationalKarate.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "InternationalNinjaRabbits.AY",
+    "file": "chiptunes/_ZX AY music game/InternationalNinjaRabbits.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "InternationalRugbySimulator.ay",
+    "file": "chiptunes/_ZX AY music game/InternationalRugbySimulator.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "InternationalSpeedway.AY",
+    "file": "chiptunes/_ZX AY music game/InternationalSpeedway.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "JackTheNipperII-InCoconutCapers.AY",
+    "file": "chiptunes/_ZX AY music game/JackTheNipperII-InCoconutCapers.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "JahangirKhanWorldChampionshipSquash.ay",
+    "file": "chiptunes/_ZX AY music game/JahangirKhanWorldChampionshipSquash.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "JamesBond007-LiveAndLetDie.ay",
+    "file": "chiptunes/_ZX AY music game/JamesBond007-LiveAndLetDie.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "JetBikeSimulator.AY",
+    "file": "chiptunes/_ZX AY music game/JetBikeSimulator.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "JetSetWilly.AY",
+    "file": "chiptunes/_ZX AY music game/JetSetWilly.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "JetSetWillyII-TheFinalFrontier.AY",
+    "file": "chiptunes/_ZX AY music game/JetSetWillyII-TheFinalFrontier.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "JetStory.AY",
+    "file": "chiptunes/_ZX AY music game/JetStory.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "JoeBlade.ay",
+    "file": "chiptunes/_ZX AY music game/JoeBlade.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "JoeBlade2.ay",
+    "file": "chiptunes/_ZX AY music game/JoeBlade2.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "JoeBlade3.ay",
+    "file": "chiptunes/_ZX AY music game/JoeBlade3.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "JungleWarrior.AY",
+    "file": "chiptunes/_ZX AY music game/JungleWarrior.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Kaboom!.ay",
+    "file": "chiptunes/_ZX AY music game/Kaboom!.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Kamikaze.ay",
+    "file": "chiptunes/_ZX AY music game/Kamikaze.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "KendoWarrior.ay",
+    "file": "chiptunes/_ZX AY music game/KendoWarrior.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Klimax.ay",
+    "file": "chiptunes/_ZX AY music game/Klimax.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "KnightLore.AY",
+    "file": "chiptunes/_ZX AY music game/KnightLore.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "KnightRider.AY",
+    "file": "chiptunes/_ZX AY music game/KnightRider.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "KnightTyme.ay",
+    "file": "chiptunes/_ZX AY music game/KnightTyme.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Kosmos.AY",
+    "file": "chiptunes/_ZX AY music game/Kosmos.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Kraal.AY",
+    "file": "chiptunes/_ZX AY music game/Kraal.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Krakout.AY",
+    "file": "chiptunes/_ZX AY music game/Krakout.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Kung-FuKnights.AY",
+    "file": "chiptunes/_ZX AY music game/Kung-FuKnights.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "KwikSnax.ay",
+    "file": "chiptunes/_ZX AY music game/KwikSnax.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "LastMission.AY",
+    "file": "chiptunes/_ZX AY music game/LastMission.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "LastNinja2.AY",
+    "file": "chiptunes/_ZX AY music game/LastNinja2.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Lazerwheel.AY",
+    "file": "chiptunes/_ZX AY music game/Lazerwheel.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "LEDStorm.ay",
+    "file": "chiptunes/_ZX AY music game/LEDStorm.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "LegendOfTheAmazonWomen.AY",
+    "file": "chiptunes/_ZX AY music game/LegendOfTheAmazonWomen.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Lemmings.ay",
+    "file": "chiptunes/_ZX AY music game/Lemmings.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Leviathan.ay",
+    "file": "chiptunes/_ZX AY music game/Leviathan.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "LightCorridorThe.ay",
+    "file": "chiptunes/_ZX AY music game/LightCorridorThe.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "LineOfFire.ay",
+    "file": "chiptunes/_ZX AY music game/LineOfFire.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "LittlePuff.AY",
+    "file": "chiptunes/_ZX AY music game/LittlePuff.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "LodeRunner.ay",
+    "file": "chiptunes/_ZX AY music game/LodeRunner.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "LonewolfTheMirrorOfDeath.ay",
+    "file": "chiptunes/_ZX AY music game/LonewolfTheMirrorOfDeath.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Loopz.ay",
+    "file": "chiptunes/_ZX AY music game/Loopz.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "LosAngelesDrugsBust.ay",
+    "file": "chiptunes/_ZX AY music game/LosAngelesDrugsBust.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "LostCaves.AY",
+    "file": "chiptunes/_ZX AY music game/LostCaves.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "LotusEspritTurboChallenge.ay",
+    "file": "chiptunes/_ZX AY music game/LotusEspritTurboChallenge.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "M0zgProcesor.AY",
+    "file": "chiptunes/_ZX AY music game/M0zgProcesor.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Madballs.ay",
+    "file": "chiptunes/_ZX AY music game/Madballs.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "MadMix2.ay",
+    "file": "chiptunes/_ZX AY music game/MadMix2.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "MagicJohnsonsBasketball.ay",
+    "file": "chiptunes/_ZX AY music game/MagicJohnsonsBasketball.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "MagicLandDizzy.ay",
+    "file": "chiptunes/_ZX AY music game/MagicLandDizzy.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "MagicStory.AY",
+    "file": "chiptunes/_ZX AY music game/MagicStory.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "MagMax.AY",
+    "file": "chiptunes/_ZX AY music game/MagMax.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Magnetron.AY",
+    "file": "chiptunes/_ZX AY music game/Magnetron.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "ManchesterUnited.ay",
+    "file": "chiptunes/_ZX AY music game/ManchesterUnited.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "ManicMiner.AY",
+    "file": "chiptunes/_ZX AY music game/ManicMiner.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Marauder.ay",
+    "file": "chiptunes/_ZX AY music game/Marauder.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Martianoids.AY",
+    "file": "chiptunes/_ZX AY music game/Martianoids.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Mask.AY",
+    "file": "chiptunes/_ZX AY music game/Mask.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Mask3-VenomStrikesBack.ay",
+    "file": "chiptunes/_ZX AY music game/Mask3-VenomStrikesBack.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "MaskTwo.AY",
+    "file": "chiptunes/_ZX AY music game/MaskTwo.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "MaxHeadroom.AY",
+    "file": "chiptunes/_ZX AY music game/MaxHeadroom.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "MeanStreak.ay",
+    "file": "chiptunes/_ZX AY music game/MeanStreak.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "MegaApocalypse.ay",
+    "file": "chiptunes/_ZX AY music game/MegaApocalypse.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "MiamiChase.AY",
+    "file": "chiptunes/_ZX AY music game/MiamiChase.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "MiamiCobraGT.AY",
+    "file": "chiptunes/_ZX AY music game/MiamiCobraGT.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "MickyMouse.AY",
+    "file": "chiptunes/_ZX AY music game/MickyMouse.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "MidnightResistance.ay",
+    "file": "chiptunes/_ZX AY music game/MidnightResistance.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "MIG29SovietFighter.AY",
+    "file": "chiptunes/_ZX AY music game/MIG29SovietFighter.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Mikie.ay",
+    "file": "chiptunes/_ZX AY music game/Mikie.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Milkrace.ay",
+    "file": "chiptunes/_ZX AY music game/Milkrace.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "MindTrap.AY",
+    "file": "chiptunes/_ZX AY music game/MindTrap.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "MissileGroundZero.AY",
+    "file": "chiptunes/_ZX AY music game/MissileGroundZero.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "MonteCarloCasino.ay",
+    "file": "chiptunes/_ZX AY music game/MonteCarloCasino.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "MontyOnTheRun.ay",
+    "file": "chiptunes/_ZX AY music game/MontyOnTheRun.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "MoonlightMadness.AY",
+    "file": "chiptunes/_ZX AY music game/MoonlightMadness.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Moonstrike.ay",
+    "file": "chiptunes/_ZX AY music game/Moonstrike.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "MortadeloYFilemon2.ay",
+    "file": "chiptunes/_ZX AY music game/MortadeloYFilemon2.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "MortalKombat.AY",
+    "file": "chiptunes/_ZX AY music game/MortalKombat.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "MotorMassacre.ay",
+    "file": "chiptunes/_ZX AY music game/MotorMassacre.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Motos.ay",
+    "file": "chiptunes/_ZX AY music game/Motos.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "MountainBikeRacer.ay",
+    "file": "chiptunes/_ZX AY music game/MountainBikeRacer.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "MountieMick'sDeathRide.ay",
+    "file": "chiptunes/_ZX AY music game/MountieMick'sDeathRide.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "MovingTarget.ay",
+    "file": "chiptunes/_ZX AY music game/MovingTarget.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "MsPacMan.ay",
+    "file": "chiptunes/_ZX AY music game/MsPacMan.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "MunstersThe.ay",
+    "file": "chiptunes/_ZX AY music game/MunstersThe.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "MysteryOfArkhamManorThe.ay",
+    "file": "chiptunes/_ZX AY music game/MysteryOfArkhamManorThe.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Mystical.ay",
+    "file": "chiptunes/_ZX AY music game/Mystical.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "N.O.M.A.D..ay",
+    "file": "chiptunes/_ZX AY music game/N.O.M.A.D..ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "NARC.AY",
+    "file": "chiptunes/_ZX AY music game/NARC.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "NavySeals.ay",
+    "file": "chiptunes/_ZX AY music game/NavySeals.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Nebulus.ay",
+    "file": "chiptunes/_ZX AY music game/Nebulus.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "NemesisTheFinalChallenge.ay",
+    "file": "chiptunes/_ZX AY music game/NemesisTheFinalChallenge.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "NemesisTheWarlock.ay",
+    "file": "chiptunes/_ZX AY music game/NemesisTheWarlock.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "NetherEarth.AY",
+    "file": "chiptunes/_ZX AY music game/NetherEarth.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Netherworld.ay",
+    "file": "chiptunes/_ZX AY music game/Netherworld.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "NeverEndingStoryThe.ay",
+    "file": "chiptunes/_ZX AY music game/NeverEndingStoryThe.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "NewZealandStoryThe.ay",
+    "file": "chiptunes/_ZX AY music game/NewZealandStoryThe.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "NightBreed.ay",
+    "file": "chiptunes/_ZX AY music game/NightBreed.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "NightShade.AY",
+    "file": "chiptunes/_ZX AY music game/NightShade.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "NightShift.AY",
+    "file": "chiptunes/_ZX AY music game/NightShift.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "NinjaSpirit.ay",
+    "file": "chiptunes/_ZX AY music game/NinjaSpirit.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "NinjaWarriorsThe.ay",
+    "file": "chiptunes/_ZX AY music game/NinjaWarriorsThe.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "NodesOfYesod.AY",
+    "file": "chiptunes/_ZX AY music game/NodesOfYesod.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Nonamed.AY",
+    "file": "chiptunes/_ZX AY music game/Nonamed.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "NorthAndSouth.ay",
+    "file": "chiptunes/_ZX AY music game/NorthAndSouth.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Northstar.AY",
+    "file": "chiptunes/_ZX AY music game/Northstar.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Obliterator.ay",
+    "file": "chiptunes/_ZX AY music game/Obliterator.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "OlliAndLissa.AY",
+    "file": "chiptunes/_ZX AY music game/OlliAndLissa.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "OlliAndLissaII-Halloween.AY",
+    "file": "chiptunes/_ZX AY music game/OlliAndLissaII-Halloween.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "OperationGunship.ay",
+    "file": "chiptunes/_ZX AY music game/OperationGunship.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "OperationHanoi.ay",
+    "file": "chiptunes/_ZX AY music game/OperationHanoi.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "OperationThunderbolt.AY",
+    "file": "chiptunes/_ZX AY music game/OperationThunderbolt.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "OperationWolf.ay",
+    "file": "chiptunes/_ZX AY music game/OperationWolf.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "OrientalHero.AY",
+    "file": "chiptunes/_ZX AY music game/OrientalHero.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "OutRun.ay",
+    "file": "chiptunes/_ZX AY music game/OutRun.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "OverLander.ay",
+    "file": "chiptunes/_ZX AY music game/OverLander.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "P47FreedomFighter.ay",
+    "file": "chiptunes/_ZX AY music game/P47FreedomFighter.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "PacLand.ay",
+    "file": "chiptunes/_ZX AY music game/PacLand.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "PacMania.ay",
+    "file": "chiptunes/_ZX AY music game/PacMania.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Pang.ay",
+    "file": "chiptunes/_ZX AY music game/Pang.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "PanicDizzy.AY",
+    "file": "chiptunes/_ZX AY music game/PanicDizzy.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Paperboy2.ay",
+    "file": "chiptunes/_ZX AY music game/Paperboy2.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "ParisDakar.ay",
+    "file": "chiptunes/_ZX AY music game/ParisDakar.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "PassingShot.ay",
+    "file": "chiptunes/_ZX AY music game/PassingShot.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Pentagram.AY",
+    "file": "chiptunes/_ZX AY music game/Pentagram.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "PercyThePottyPigeon.AY",
+    "file": "chiptunes/_ZX AY music game/PercyThePottyPigeon.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "PeterPackRat.ay",
+    "file": "chiptunes/_ZX AY music game/PeterPackRat.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Phantomas.ay",
+    "file": "chiptunes/_ZX AY music game/Phantomas.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "PingPong.AY",
+    "file": "chiptunes/_ZX AY music game/PingPong.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "PiskWorksTopGun.ay",
+    "file": "chiptunes/_ZX AY music game/PiskWorksTopGun.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "PitFighter.ay",
+    "file": "chiptunes/_ZX AY music game/PitFighter.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "PixyTheMicrodot.AY",
+    "file": "chiptunes/_ZX AY music game/PixyTheMicrodot.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "PlanetOfShades.AY",
+    "file": "chiptunes/_ZX AY music game/PlanetOfShades.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Platoon.ay",
+    "file": "chiptunes/_ZX AY music game/Platoon.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "PlotThe.ay",
+    "file": "chiptunes/_ZX AY music game/PlotThe.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Plotting.ay",
+    "file": "chiptunes/_ZX AY music game/Plotting.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Podraz3.ay",
+    "file": "chiptunes/_ZX AY music game/Podraz3.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Potsworth.ay",
+    "file": "chiptunes/_ZX AY music game/Potsworth.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "PowerBoatSimulator.ay",
+    "file": "chiptunes/_ZX AY music game/PowerBoatSimulator.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Powerdrift.ay",
+    "file": "chiptunes/_ZX AY music game/Powerdrift.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "PowerPlay.ay",
+    "file": "chiptunes/_ZX AY music game/PowerPlay.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Predator2.ay",
+    "file": "chiptunes/_ZX AY music game/Predator2.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "PrinceOfPersia.AY",
+    "file": "chiptunes/_ZX AY music game/PrinceOfPersia.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "PrisonRiot.ay",
+    "file": "chiptunes/_ZX AY music game/PrisonRiot.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "ProBMXSimulator2.AY",
+    "file": "chiptunes/_ZX AY music game/ProBMXSimulator2.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "ProdigyThe.ay",
+    "file": "chiptunes/_ZX AY music game/ProdigyThe.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "ProfessionalBMXSimulator.ay",
+    "file": "chiptunes/_ZX AY music game/ProfessionalBMXSimulator.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "ProfessionalMountainBikeSimulator.ay",
+    "file": "chiptunes/_ZX AY music game/ProfessionalMountainBikeSimulator.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "ProfessionalSkiSimulator.ay",
+    "file": "chiptunes/_ZX AY music game/ProfessionalSkiSimulator.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "ProfessionalTennis.ay",
+    "file": "chiptunes/_ZX AY music game/ProfessionalTennis.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Prohibition.ay",
+    "file": "chiptunes/_ZX AY music game/Prohibition.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "ProSkateboardSimulator.ay",
+    "file": "chiptunes/_ZX AY music game/ProSkateboardSimulator.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Pssst.ay",
+    "file": "chiptunes/_ZX AY music game/Pssst.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "PsychoPigsUXB.AY",
+    "file": "chiptunes/_ZX AY music game/PsychoPigsUXB.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Pulsator.AY",
+    "file": "chiptunes/_ZX AY music game/Pulsator.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "PulseWarrior.ay",
+    "file": "chiptunes/_ZX AY music game/PulseWarrior.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Pulsoid.ay",
+    "file": "chiptunes/_ZX AY music game/Pulsoid.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "PurpleSaturnDay.ay",
+    "file": "chiptunes/_ZX AY music game/PurpleSaturnDay.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Puzznic.ay",
+    "file": "chiptunes/_ZX AY music game/Puzznic.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Pyjamarama!.AY",
+    "file": "chiptunes/_ZX AY music game/Pyjamarama!.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Quazatron.AY",
+    "file": "chiptunes/_ZX AY music game/Quazatron.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "QuestionOfScruples.ay",
+    "file": "chiptunes/_ZX AY music game/QuestionOfScruples.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "QuickDrawMcGraw.ay",
+    "file": "chiptunes/_ZX AY music game/QuickDrawMcGraw.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "R.B.I.TwoBaseball.ay",
+    "file": "chiptunes/_ZX AY music game/R.B.I.TwoBaseball.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "RainbowIslands.ay",
+    "file": "chiptunes/_ZX AY music game/RainbowIslands.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Ram.AY",
+    "file": "chiptunes/_ZX AY music game/Ram.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "RamboFirstBloodPartII.AY",
+    "file": "chiptunes/_ZX AY music game/RamboFirstBloodPartII.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "RamboIII.ay",
+    "file": "chiptunes/_ZX AY music game/RamboIII.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Ramparts.ay",
+    "file": "chiptunes/_ZX AY music game/Ramparts.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "RanaRama.AY",
+    "file": "chiptunes/_ZX AY music game/RanaRama.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Rasputin.ay",
+    "file": "chiptunes/_ZX AY music game/Rasputin.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Rastan.ay",
+    "file": "chiptunes/_ZX AY music game/Rastan.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "RasterRunner.ay",
+    "file": "chiptunes/_ZX AY music game/RasterRunner.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Rasterscan.ay",
+    "file": "chiptunes/_ZX AY music game/Rasterscan.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "RawRecruit.AY",
+    "file": "chiptunes/_ZX AY music game/RawRecruit.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "RealGhostBustersThe.ay",
+    "file": "chiptunes/_ZX AY music game/RealGhostBustersThe.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "RedHeat.ay",
+    "file": "chiptunes/_ZX AY music game/RedHeat.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Renegade.ay",
+    "file": "chiptunes/_ZX AY music game/Renegade.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "RenegadeIII-TheFinalChapter.AY",
+    "file": "chiptunes/_ZX AY music game/RenegadeIII-TheFinalChapter.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "RickDangerous.ay",
+    "file": "chiptunes/_ZX AY music game/RickDangerous.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "RickDangerous2.ay",
+    "file": "chiptunes/_ZX AY music game/RickDangerous2.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "RoadRunner.ay",
+    "file": "chiptunes/_ZX AY music game/RoadRunner.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "RobinHood.ay",
+    "file": "chiptunes/_ZX AY music game/RobinHood.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "RobinOfTheWood.ay",
+    "file": "chiptunes/_ZX AY music game/RobinOfTheWood.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Robocop.AY",
+    "file": "chiptunes/_ZX AY music game/Robocop.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Robocop2.ay",
+    "file": "chiptunes/_ZX AY music game/Robocop2.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Robocop3.ay",
+    "file": "chiptunes/_ZX AY music game/Robocop3.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Robozone.ay",
+    "file": "chiptunes/_ZX AY music game/Robozone.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Rock'NRoll.ay",
+    "file": "chiptunes/_ZX AY music game/Rock'NRoll.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "RockStarAteMyHamster.ay",
+    "file": "chiptunes/_ZX AY music game/RockStarAteMyHamster.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "RockyHorrorShowThe.ay",
+    "file": "chiptunes/_ZX AY music game/RockyHorrorShowThe.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "RodLand.ay",
+    "file": "chiptunes/_ZX AY music game/RodLand.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "RollerCoaster.ay",
+    "file": "chiptunes/_ZX AY music game/RollerCoaster.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "RoundTheBend!.ay",
+    "file": "chiptunes/_ZX AY music game/RoundTheBend!.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "RuffAndReddy.AY",
+    "file": "chiptunes/_ZX AY music game/RuffAndReddy.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "RunTheGauntlet.ay",
+    "file": "chiptunes/_ZX AY music game/RunTheGauntlet.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "S.T.U.N.Runner.ay",
+    "file": "chiptunes/_ZX AY music game/S.T.U.N.Runner.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Saboteur.AY",
+    "file": "chiptunes/_ZX AY music game/Saboteur.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Saboteur2.ay",
+    "file": "chiptunes/_ZX AY music game/Saboteur2.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "SabreWulf.ay",
+    "file": "chiptunes/_ZX AY music game/SabreWulf.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Sabrina.ay",
+    "file": "chiptunes/_ZX AY music game/Sabrina.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "SacredArmourOfAntiriadThe.AY",
+    "file": "chiptunes/_ZX AY music game/SacredArmourOfAntiriadThe.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "SacredSword.ay",
+    "file": "chiptunes/_ZX AY music game/SacredSword.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "SaigonCombatUnit.ay",
+    "file": "chiptunes/_ZX AY music game/SaigonCombatUnit.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "SaintDragon.ay",
+    "file": "chiptunes/_ZX AY music game/SaintDragon.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "SamuraiTrilogyThe.ay",
+    "file": "chiptunes/_ZX AY music game/SamuraiTrilogyThe.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "SamuraiWarrior.ay",
+    "file": "chiptunes/_ZX AY music game/SamuraiWarrior.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Sanxion.ay",
+    "file": "chiptunes/_ZX AY music game/Sanxion.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Savage.ay",
+    "file": "chiptunes/_ZX AY music game/Savage.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "ScrambleSpirits.ay",
+    "file": "chiptunes/_ZX AY music game/ScrambleSpirits.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Seahawk.ay",
+    "file": "chiptunes/_ZX AY music game/Seahawk.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "SentinelThe.AY",
+    "file": "chiptunes/_ZX AY music game/SentinelThe.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "SergeantSeymourRobotCop.ay",
+    "file": "chiptunes/_ZX AY music game/SergeantSeymourRobotCop.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "SeymourGoesToHollywood.ay",
+    "file": "chiptunes/_ZX AY music game/SeymourGoesToHollywood.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "ShadowDancer.ay",
+    "file": "chiptunes/_ZX AY music game/ShadowDancer.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "ShadowOfTheBeast.ay",
+    "file": "chiptunes/_ZX AY music game/ShadowOfTheBeast.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "ShadowSkimmer.AY",
+    "file": "chiptunes/_ZX AY music game/ShadowSkimmer.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "ShadowWarriors.ay",
+    "file": "chiptunes/_ZX AY music game/ShadowWarriors.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "ShanghaiKarate.ay",
+    "file": "chiptunes/_ZX AY music game/ShanghaiKarate.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "ShaoLin'sRoad.ay",
+    "file": "chiptunes/_ZX AY music game/ShaoLin'sRoad.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Shinobi.ay",
+    "file": "chiptunes/_ZX AY music game/Shinobi.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "ShortCircuit.ay",
+    "file": "chiptunes/_ZX AY music game/ShortCircuit.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "ShowJumping.AY",
+    "file": "chiptunes/_ZX AY music game/ShowJumping.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "SideWize.AY",
+    "file": "chiptunes/_ZX AY music game/SideWize.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Sigma7.ay",
+    "file": "chiptunes/_ZX AY music game/Sigma7.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "SilentShadow.ay",
+    "file": "chiptunes/_ZX AY music game/SilentShadow.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Silkworm.ay",
+    "file": "chiptunes/_ZX AY music game/Silkworm.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Simpsons-BartVs.TheSpaceMutantsThe.ay",
+    "file": "chiptunes/_ZX AY music game/Simpsons-BartVs.TheSpaceMutantsThe.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "SirLancelot.ay",
+    "file": "chiptunes/_ZX AY music game/SirLancelot.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "SirLoin.ay",
+    "file": "chiptunes/_ZX AY music game/SirLoin.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "SkateCrazy.ay",
+    "file": "chiptunes/_ZX AY music game/SkateCrazy.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Skatin'USA.ay",
+    "file": "chiptunes/_ZX AY music game/Skatin'USA.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "SkoolDaze.AY",
+    "file": "chiptunes/_ZX AY music game/SkoolDaze.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "SkyHighStuntMan.ay",
+    "file": "chiptunes/_ZX AY music game/SkyHighStuntMan.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "SlightlyMagic.ay",
+    "file": "chiptunes/_ZX AY music game/SlightlyMagic.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "SlySpy-SecretAgent.ay",
+    "file": "chiptunes/_ZX AY music game/SlySpy-SecretAgent.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "SmashTV.ay",
+    "file": "chiptunes/_ZX AY music game/SmashTV.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Snare.ay",
+    "file": "chiptunes/_ZX AY music game/Snare.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "SodovTheSorcerer.AY",
+    "file": "chiptunes/_ZX AY music game/SodovTheSorcerer.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Sokoban.ay",
+    "file": "chiptunes/_ZX AY music game/Sokoban.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "SolarInvasion.ay",
+    "file": "chiptunes/_ZX AY music game/SolarInvasion.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "SoldierOfFortune.AY",
+    "file": "chiptunes/_ZX AY music game/SoldierOfFortune.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Solomon'sKey.AY",
+    "file": "chiptunes/_ZX AY music game/Solomon'sKey.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "SomethingHappenedLevelOne.AY",
+    "file": "chiptunes/_ZX AY music game/SomethingHappenedLevelOne.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "SpaceCrusade.ay",
+    "file": "chiptunes/_ZX AY music game/SpaceCrusade.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Spacegun.ay",
+    "file": "chiptunes/_ZX AY music game/Spacegun.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "SpaceHarrier2.ay",
+    "file": "chiptunes/_ZX AY music game/SpaceHarrier2.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Specimen.AY",
+    "file": "chiptunes/_ZX AY music game/Specimen.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Specimen2TheAppleQuest.AY",
+    "file": "chiptunes/_ZX AY music game/Specimen2TheAppleQuest.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "SpellboundDizzy.ay",
+    "file": "chiptunes/_ZX AY music game/SpellboundDizzy.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "SpikeInTransylvania.ay",
+    "file": "chiptunes/_ZX AY music game/SpikeInTransylvania.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Spirits.ay",
+    "file": "chiptunes/_ZX AY music game/Spirits.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "SpittingImage.ay",
+    "file": "chiptunes/_ZX AY music game/SpittingImage.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "SplitPersonalities.ay",
+    "file": "chiptunes/_ZX AY music game/SplitPersonalities.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Sputnik.AY",
+    "file": "chiptunes/_ZX AY music game/Sputnik.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "StackUp.ay",
+    "file": "chiptunes/_ZX AY music game/StackUp.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "StainlessSteel.AY",
+    "file": "chiptunes/_ZX AY music game/StainlessSteel.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "StarBowls.AY",
+    "file": "chiptunes/_ZX AY music game/StarBowls.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "StarByte.ay",
+    "file": "chiptunes/_ZX AY music game/StarByte.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "StarDragon.ay",
+    "file": "chiptunes/_ZX AY music game/StarDragon.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Stardust.ay",
+    "file": "chiptunes/_ZX AY music game/Stardust.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "StarFirebirds.ay",
+    "file": "chiptunes/_ZX AY music game/StarFirebirds.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "StarFlyThe.ay",
+    "file": "chiptunes/_ZX AY music game/StarFlyThe.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Starfox[Cybexlab].AY",
+    "file": "chiptunes/_ZX AY music game/Starfox[Cybexlab].AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Starglider.AY",
+    "file": "chiptunes/_ZX AY music game/Starglider.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "StarPaws.ay",
+    "file": "chiptunes/_ZX AY music game/StarPaws.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "StarQuake.AY",
+    "file": "chiptunes/_ZX AY music game/StarQuake.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "StarSwallow.ay",
+    "file": "chiptunes/_ZX AY music game/StarSwallow.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "StarTrip.ay",
+    "file": "chiptunes/_ZX AY music game/StarTrip.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "StarWars.ay",
+    "file": "chiptunes/_ZX AY music game/StarWars.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "StarWarsDroids.ay",
+    "file": "chiptunes/_ZX AY music game/StarWarsDroids.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "StarWarsReturnOfTheJedi.ay",
+    "file": "chiptunes/_ZX AY music game/StarWarsReturnOfTheJedi.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "SteelEagle.ay",
+    "file": "chiptunes/_ZX AY music game/SteelEagle.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Steg.ay",
+    "file": "chiptunes/_ZX AY music game/Steg.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Stifflip&Co.AY",
+    "file": "chiptunes/_ZX AY music game/Stifflip&Co.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Stormbringer.AY",
+    "file": "chiptunes/_ZX AY music game/Stormbringer.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Stormlord.AY",
+    "file": "chiptunes/_ZX AY music game/Stormlord.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "StormlordII-Deliverance.ay",
+    "file": "chiptunes/_ZX AY music game/StormlordII-Deliverance.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "StreetCredBoxing.ay",
+    "file": "chiptunes/_ZX AY music game/StreetCredBoxing.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "StreetCredFootball.ay",
+    "file": "chiptunes/_ZX AY music game/StreetCredFootball.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "StreetGangFootball.ay",
+    "file": "chiptunes/_ZX AY music game/StreetGangFootball.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Strike.ay",
+    "file": "chiptunes/_ZX AY music game/Strike.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "StrikeForceSAS.ay",
+    "file": "chiptunes/_ZX AY music game/StrikeForceSAS.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "StripLogik.ay",
+    "file": "chiptunes/_ZX AY music game/StripLogik.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Stryker-InTheCryptsOfTrogan.ay",
+    "file": "chiptunes/_ZX AY music game/Stryker-InTheCryptsOfTrogan.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "StuntmanSeymour.ay",
+    "file": "chiptunes/_ZX AY music game/StuntmanSeymour.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "SubterraneanStryker.ay",
+    "file": "chiptunes/_ZX AY music game/SubterraneanStryker.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "SubwayVigilante.ay",
+    "file": "chiptunes/_ZX AY music game/SubwayVigilante.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "SuperBikeTrans-Am.AY",
+    "file": "chiptunes/_ZX AY music game/SuperBikeTrans-Am.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Supercars.ay",
+    "file": "chiptunes/_ZX AY music game/Supercars.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "SuperCupFootball.ay",
+    "file": "chiptunes/_ZX AY music game/SuperCupFootball.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "SuperDragonSlayer.AY",
+    "file": "chiptunes/_ZX AY music game/SuperDragonSlayer.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "SuperG-Man.AY",
+    "file": "chiptunes/_ZX AY music game/SuperG-Man.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "SuperMonacoGrandPrix.ay",
+    "file": "chiptunes/_ZX AY music game/SuperMonacoGrandPrix.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "SuperNova.AY",
+    "file": "chiptunes/_ZX AY music game/SuperNova.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "SuperRobinHood.ay",
+    "file": "chiptunes/_ZX AY music game/SuperRobinHood.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "SuperScrambleSimulator.ay",
+    "file": "chiptunes/_ZX AY music game/SuperScrambleSimulator.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "SuperSeymourSavesThePlanet.ay",
+    "file": "chiptunes/_ZX AY music game/SuperSeymourSavesThePlanet.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "SuperSpaceInvaders.AY",
+    "file": "chiptunes/_ZX AY music game/SuperSpaceInvaders.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "SuperStuntman.ay",
+    "file": "chiptunes/_ZX AY music game/SuperStuntman.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "SuperTed-TheSearchForSpot.ay",
+    "file": "chiptunes/_ZX AY music game/SuperTed-TheSearchForSpot.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "SuperTrux.ay",
+    "file": "chiptunes/_ZX AY music game/SuperTrux.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Survivor.ay",
+    "file": "chiptunes/_ZX AY music game/Survivor.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Sweevo'sWhirled!.AY",
+    "file": "chiptunes/_ZX AY music game/Sweevo'sWhirled!.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Sweevo'sWorld.AY",
+    "file": "chiptunes/_ZX AY music game/Sweevo'sWorld.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "SwitchBlade.ay",
+    "file": "chiptunes/_ZX AY music game/SwitchBlade.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "SWIV.AY",
+    "file": "chiptunes/_ZX AY music game/SWIV.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "SwordSlayer.ay",
+    "file": "chiptunes/_ZX AY music game/SwordSlayer.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "T-Wrecks.ay",
+    "file": "chiptunes/_ZX AY music game/T-Wrecks.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Tahkodpom.ay",
+    "file": "chiptunes/_ZX AY music game/Tahkodpom.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "TaiChiTortoise.ay",
+    "file": "chiptunes/_ZX AY music game/TaiChiTortoise.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Taipan.ay",
+    "file": "chiptunes/_ZX AY music game/Taipan.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "TankCommand.ay",
+    "file": "chiptunes/_ZX AY music game/TankCommand.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "TargetRenegade.ay",
+    "file": "chiptunes/_ZX AY music game/TargetRenegade.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Tarzan.ay",
+    "file": "chiptunes/_ZX AY music game/Tarzan.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "TaskForce.ay",
+    "file": "chiptunes/_ZX AY music game/TaskForce.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "TechnicianTed.ay",
+    "file": "chiptunes/_ZX AY music game/TechnicianTed.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "TechnicianTedTheMegamix.ay",
+    "file": "chiptunes/_ZX AY music game/TechnicianTedTheMegamix.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "TechnoCop.ay",
+    "file": "chiptunes/_ZX AY music game/TechnoCop.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "TeenageMutantHeroTurtles.AY",
+    "file": "chiptunes/_ZX AY music game/TeenageMutantHeroTurtles.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "TeenageMutantHeroTurtlesCoin-Op.ay",
+    "file": "chiptunes/_ZX AY music game/TeenageMutantHeroTurtlesCoin-Op.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "TerraCresta.ay",
+    "file": "chiptunes/_ZX AY music game/TerraCresta.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Terramex.ay",
+    "file": "chiptunes/_ZX AY music game/Terramex.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Terrometer.ay",
+    "file": "chiptunes/_ZX AY music game/Terrometer.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Tetris.ay",
+    "file": "chiptunes/_ZX AY music game/Tetris.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Tetris2.AY",
+    "file": "chiptunes/_ZX AY music game/Tetris2.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Thanatos.ay",
+    "file": "chiptunes/_ZX AY music game/Thanatos.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "TheMunsters.ay",
+    "file": "chiptunes/_ZX AY music game/TheMunsters.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "TheMusicBox.AY",
+    "file": "chiptunes/_ZX AY music game/TheMusicBox.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "TheRace.ay",
+    "file": "chiptunes/_ZX AY music game/TheRace.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "ThingBouncesBack.ay",
+    "file": "chiptunes/_ZX AY music game/ThingBouncesBack.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "ThreeWeeksInParadise.ay",
+    "file": "chiptunes/_ZX AY music game/ThreeWeeksInParadise.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Thunderbirds.ay",
+    "file": "chiptunes/_ZX AY music game/Thunderbirds.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Thundercats.ay",
+    "file": "chiptunes/_ZX AY music game/Thundercats.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "TigerRoad.ay",
+    "file": "chiptunes/_ZX AY music game/TigerRoad.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Tilt.ay",
+    "file": "chiptunes/_ZX AY music game/Tilt.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "TimeScanner.ay",
+    "file": "chiptunes/_ZX AY music game/TimeScanner.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Titanic.AY",
+    "file": "chiptunes/_ZX AY music game/Titanic.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "ToiAcidGame.ay",
+    "file": "chiptunes/_ZX AY music game/ToiAcidGame.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Tom&Jerry2.ay",
+    "file": "chiptunes/_ZX AY music game/Tom&Jerry2.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Toobin.ay",
+    "file": "chiptunes/_ZX AY music game/Toobin.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "TopGun.ay",
+    "file": "chiptunes/_ZX AY music game/TopGun.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "TotalRecall.ay",
+    "file": "chiptunes/_ZX AY music game/TotalRecall.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "ToyotaCelicaGTRally.ay",
+    "file": "chiptunes/_ZX AY music game/ToyotaCelicaGTRally.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Trailblazer.AY",
+    "file": "chiptunes/_ZX AY music game/Trailblazer.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Transmuter.AY",
+    "file": "chiptunes/_ZX AY music game/Transmuter.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "TrantorTheLastStormTrooper.ay",
+    "file": "chiptunes/_ZX AY music game/TrantorTheLastStormTrooper.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Trapdoor.AY",
+    "file": "chiptunes/_ZX AY music game/Trapdoor.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "TubeThe.AY",
+    "file": "chiptunes/_ZX AY music game/TubeThe.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "TurboBoatSimulator.ay",
+    "file": "chiptunes/_ZX AY music game/TurboBoatSimulator.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "TurboEsprit.AY",
+    "file": "chiptunes/_ZX AY music game/TurboEsprit.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Turbulence.ay",
+    "file": "chiptunes/_ZX AY music game/Turbulence.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Twiinz.ay",
+    "file": "chiptunes/_ZX AY music game/Twiinz.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "TwinTurboV8.ay",
+    "file": "chiptunes/_ZX AY music game/TwinTurboV8.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Twinz.ay",
+    "file": "chiptunes/_ZX AY music game/Twinz.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Typhoon.ay",
+    "file": "chiptunes/_ZX AY music game/Typhoon.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "UGH.AY",
+    "file": "chiptunes/_ZX AY music game/UGH.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "UltimateCombatMission.ay",
+    "file": "chiptunes/_ZX AY music game/UltimateCombatMission.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "UnderGround.AY",
+    "file": "chiptunes/_ZX AY music game/UnderGround.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "UntouchablesThe.ay",
+    "file": "chiptunes/_ZX AY music game/UntouchablesThe.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Uridium.AY",
+    "file": "chiptunes/_ZX AY music game/Uridium.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Vampire.ay",
+    "file": "chiptunes/_ZX AY music game/Vampire.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Vectron.AY",
+    "file": "chiptunes/_ZX AY music game/Vectron.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Vindicators.AY",
+    "file": "chiptunes/_ZX AY music game/Vindicators.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "VindicatorThe.ay",
+    "file": "chiptunes/_ZX AY music game/VindicatorThe.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Vixen.ay",
+    "file": "chiptunes/_ZX AY music game/Vixen.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "VizTheComputerGame.ay",
+    "file": "chiptunes/_ZX AY music game/VizTheComputerGame.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "WackyDarts.ay",
+    "file": "chiptunes/_ZX AY music game/WackyDarts.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Warlock.ay",
+    "file": "chiptunes/_ZX AY music game/Warlock.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "WarMachine.ay",
+    "file": "chiptunes/_ZX AY music game/WarMachine.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "WecLeMans.AY",
+    "file": "chiptunes/_ZX AY music game/WecLeMans.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "WereWolvesOfLondon.ay",
+    "file": "chiptunes/_ZX AY music game/WereWolvesOfLondon.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Wham!TheMusicBox.AY",
+    "file": "chiptunes/_ZX AY music game/Wham!TheMusicBox.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "WhereTimeStoodStill.ay",
+    "file": "chiptunes/_ZX AY music game/WhereTimeStoodStill.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "WildWater.ay",
+    "file": "chiptunes/_ZX AY music game/WildWater.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "WildWestSeymour.ay",
+    "file": "chiptunes/_ZX AY music game/WildWestSeymour.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "WinterGames.ay",
+    "file": "chiptunes/_ZX AY music game/WinterGames.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Wiz.AY",
+    "file": "chiptunes/_ZX AY music game/Wiz.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Wizard'sLair.ay",
+    "file": "chiptunes/_ZX AY music game/Wizard'sLair.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "WizardThe.ay",
+    "file": "chiptunes/_ZX AY music game/WizardThe.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "WizardWilly.AY",
+    "file": "chiptunes/_ZX AY music game/WizardWilly.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Wizball.ay",
+    "file": "chiptunes/_ZX AY music game/Wizball.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "WrestlingSuperstars.ay",
+    "file": "chiptunes/_ZX AY music game/WrestlingSuperstars.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "WWFWrestleMania.ay",
+    "file": "chiptunes/_ZX AY music game/WWFWrestleMania.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Xecutor.AY",
+    "file": "chiptunes/_ZX AY music game/Xecutor.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Xenon.ay",
+    "file": "chiptunes/_ZX AY music game/Xenon.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Xenophobe.ay",
+    "file": "chiptunes/_ZX AY music game/Xenophobe.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "XmasLudo.ay",
+    "file": "chiptunes/_ZX AY music game/XmasLudo.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "XOR.AY",
+    "file": "chiptunes/_ZX AY music game/XOR.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Xybots.ay",
+    "file": "chiptunes/_ZX AY music game/Xybots.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "YieArKungFu.ay",
+    "file": "chiptunes/_ZX AY music game/YieArKungFu.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "YogiBearTheGreedMonster.ay",
+    "file": "chiptunes/_ZX AY music game/YogiBearTheGreedMonster.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Zanthrax.ay",
+    "file": "chiptunes/_ZX AY music game/Zanthrax.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Zarjas.ay",
+    "file": "chiptunes/_ZX AY music game/Zarjas.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Zona0.ay",
+    "file": "chiptunes/_ZX AY music game/Zona0.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "ZoneTrooper.AY",
+    "file": "chiptunes/_ZX AY music game/ZoneTrooper.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Zorro.AY",
+    "file": "chiptunes/_ZX AY music game/Zorro.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Zub.ay",
+    "file": "chiptunes/_ZX AY music game/Zub.ay",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
+  },
+  {
+    "name": "Zynaps.AY",
+    "file": "chiptunes/_ZX AY music game/Zynaps.AY",
+    "pt3": false,
+    "author": "_ZX AY music game",
+    "section": null
   }
 ];

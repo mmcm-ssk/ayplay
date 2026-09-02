@@ -90,6 +90,12 @@ if (EXT === '.stc') {
         if (loopFrame >= 0) break;
         dump.push({ a: r[0].slice(), b: r[1] ? r[1].slice() : [], c: r[2] ? r[2].slice() : [], d: (r.length > 4 && r[3]) ? r[3].slice() : [] });
     }
+} else if (EXT === '.ftc') {
+    readSingle(require(path.join(playerDir, 'ftc.js')).FTC, 'ftc');
+} else if (EXT === '.psc') {
+    readSingle(require(path.join(playerDir, 'psc.js')).PSC, 'psc');
+} else if (EXT === '.sqt') {
+    readSingle(require(path.join(playerDir, 'sqt.js')).SQT, 'sqt');
 } else {
     console.error('Unsupported format:', EXT);
     process.exit(1);

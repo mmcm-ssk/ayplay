@@ -208,6 +208,8 @@ function _guessChannelsWithContent($relative, $fullPath) {
         return 3;
     } elseif ($ext === '.pt1') {
         return 3;
+    } elseif ($ext === '.fxm') {
+        return 3;
     }
     return 3;
 }
@@ -418,6 +420,58 @@ function _ay_scanDir($dir, $baseDir, $chiptunesDir = null, $parentAuthor = null)
             }
             $entries[] = $entry;
         } elseif (substr($name, -4) === '.pt1') {
+            $relative = substr($fullPath, strlen($baseDir) + 1);
+            $entry = [
+                'name' => $name,
+                'file' => str_replace('\\', '/', $relative),
+                'pt3' => false
+            ];
+            if (!isset($entry['author'])) $entry['author'] = $author;
+            if (!isset($entry['section'])) $entry['section'] = $sectionOverride ?? null;
+            if (!isset($entry['channels']) || $entry['channels'] === null) {
+                $entry['channels'] = 3;
+            }
+            $entries[] = $entry;
+        } elseif (substr($name, -4) === '.psc') {
+            $relative = substr($fullPath, strlen($baseDir) + 1);
+            $entry = [
+                'name' => $name,
+                'file' => str_replace('\\', '/', $relative),
+                'pt3' => false
+            ];
+            if (!isset($entry['author'])) $entry['author'] = $author;
+            if (!isset($entry['section'])) $entry['section'] = $sectionOverride ?? null;
+            if (!isset($entry['channels']) || $entry['channels'] === null) {
+                $entry['channels'] = 3;
+            }
+            $entries[] = $entry;
+        } elseif (substr($name, -4) === '.ftc') {
+            $relative = substr($fullPath, strlen($baseDir) + 1);
+            $entry = [
+                'name' => $name,
+                'file' => str_replace('\\', '/', $relative),
+                'pt3' => false
+            ];
+            if (!isset($entry['author'])) $entry['author'] = $author;
+            if (!isset($entry['section'])) $entry['section'] = $sectionOverride ?? null;
+            if (!isset($entry['channels']) || $entry['channels'] === null) {
+                $entry['channels'] = 3;
+            }
+            $entries[] = $entry;
+        } elseif (substr($name, -4) === '.fxm') {
+            $relative = substr($fullPath, strlen($baseDir) + 1);
+            $entry = [
+                'name' => $name,
+                'file' => str_replace('\\', '/', $relative),
+                'pt3' => false
+            ];
+            if (!isset($entry['author'])) $entry['author'] = $author;
+            if (!isset($entry['section'])) $entry['section'] = $sectionOverride ?? null;
+            if (!isset($entry['channels']) || $entry['channels'] === null) {
+                $entry['channels'] = 3;
+            }
+            $entries[] = $entry;
+        } elseif (substr($name, -4) === '.sqt') {
             $relative = substr($fullPath, strlen($baseDir) + 1);
             $entry = [
                 'name' => $name,

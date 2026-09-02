@@ -554,6 +554,16 @@ chiptunes/_Demo tracks/XTC demo/XTC0AST.stc
 chiptunes/_Demo tracks/XTC demo/XTC0FST.stc
 #EXTINF:-1,_Demo tracks - XTC0GST
 chiptunes/_Demo tracks/XTC demo/XTC0GST.stc
+#EXTGRP:_psc
+#EXTINF:-1,_psc - FL_SH_EI
+chiptunes/_psc/FL_SH_EI.psc
+#EXTINF:-1,_psc - guitar
+chiptunes/_psc/guitar.psc
+#EXTGRP:_sqt
+#EXTINF:-1,_sqt - taiobyte
+chiptunes/_sqt/taiobyte.sqt
+#EXTINF:-1,_sqt - tsd
+chiptunes/_sqt/tsd.sqt
 #EXTGRP:_ZX AY music demo
 #EXTINF:-1,_ZX AY music demo - 2BY_OLEG
 chiptunes/_ZX AY music demo/2BY_OLEG.ay
@@ -3118,6 +3128,10 @@ chiptunes/Bonysoft/2026/Bonysoft - ICO - You Were There (v2) (2026).pt3
 chiptunes/brightentayle/04_brightentayle-bladin.pt3
 #EXTINF:-1,brightentayle - 04_brightentayle-TkkATkkA
 chiptunes/brightentayle/04_brightentayle-TkkATkkA.pt3
+#EXTINF:-1,brightentayle - Brightentayle - Bladin
+chiptunes/brightentayle/Brightentayle - Bladin.pt3
+#EXTINF:-1,brightentayle - Brightentayle - TkkATkkA
+chiptunes/brightentayle/Brightentayle - TkkATkkA.pt3
 #EXTGRP:Bugsy
 #EXTINF:-1,Bugsy - Bugsy - Somebody
 chiptunes/Bugsy/Bugsy - Somebody.pt3
@@ -5276,6 +5290,29 @@ chiptunes/Darkman007/2006/Darkman007 - last_wish.pt3
 chiptunes/Darkman007/2007/Darkman007 - technodrive.pt3
 #EXTINF:-1,Darkman007 - Darkman007 - turbo
 chiptunes/Darkman007/2007/Darkman007 - turbo.pt3
+#EXTGRP:Dave Rogers
+#SUBSECTION:1988
+#EXTINF:-1,Dave Rogers - Battle Valley
+chiptunes/Dave Rogers/1988/Battle Valley.ay
+#EXTINF:-1,Dave Rogers - Bear A Grudge
+chiptunes/Dave Rogers/1988/Bear A Grudge.ay
+#EXTINF:-1,Dave Rogers - Cybernoid 2
+chiptunes/Dave Rogers/1988/Cybernoid 2.ay
+#EXTINF:-1,Dave Rogers - Cybernoid The Fighting Machine
+chiptunes/Dave Rogers/1988/Cybernoid The Fighting Machine.ay
+#EXTINF:-1,Dave Rogers - G.i. Hero
+chiptunes/Dave Rogers/1988/G.i. Hero.ay
+#EXTINF:-1,Dave Rogers - Marauder
+chiptunes/Dave Rogers/1988/Marauder.ay
+#EXTINF:-1,Dave Rogers - Netherworld
+chiptunes/Dave Rogers/1988/Netherworld.ay
+#EXTINF:-1,Dave Rogers - Turbo Boat Simulator
+chiptunes/Dave Rogers/1988/Turbo Boat Simulator.ay
+#SUBSECTION:1989
+#EXTINF:-1,Dave Rogers - Stormlord
+chiptunes/Dave Rogers/1989/Stormlord.ay
+#EXTINF:-1,Dave Rogers - Stormlord 2 - Deliverance
+chiptunes/Dave Rogers/1989/Stormlord 2 - Deliverance.ay
 #EXTGRP:David Whittaker
 #EXTINF:-1,David Whittaker - David Whittaker - 180
 chiptunes/David Whittaker/David Whittaker - 180.fym
@@ -5285,10 +5322,6 @@ chiptunes/David Whittaker/David Whittaker - advanced pinball simulator.fym
 chiptunes/David Whittaker/David Whittaker - amaurote.fym
 #EXTINF:-1,David Whittaker - David Whittaker - apb
 chiptunes/David Whittaker/David Whittaker - apb.fym
-#EXTINF:-1,David Whittaker - David Whittaker - arcade flight simulator
-chiptunes/David Whittaker/David Whittaker - arcade flight simulator.fym
-#EXTINF:-1,David Whittaker - David Whittaker - atv simulator
-chiptunes/David Whittaker/David Whittaker - atv simulator.fym
 #EXTINF:-1,David Whittaker - David Whittaker - back to the future 2
 chiptunes/David Whittaker/David Whittaker - back to the future 2.fym
 #EXTINF:-1,David Whittaker - David Whittaker - beverly hills cop
@@ -5297,8 +5330,6 @@ chiptunes/David Whittaker/David Whittaker - beverly hills cop.fym
 chiptunes/David Whittaker/David Whittaker - beyond the ice palace.fym
 #EXTINF:-1,David Whittaker - David Whittaker - bmx freestyle simulator
 chiptunes/David Whittaker/David Whittaker - bmx freestyle simulator.fym
-#EXTINF:-1,David Whittaker - David Whittaker - brave starr
-chiptunes/David Whittaker/David Whittaker - brave starr.fym
 #EXTINF:-1,David Whittaker - David Whittaker - bubble dizzy
 chiptunes/David Whittaker/David Whittaker - bubble dizzy.fym
 #EXTINF:-1,David Whittaker - David Whittaker - captain fizz meets the blaster - trons
@@ -5307,8 +5338,6 @@ chiptunes/David Whittaker/David Whittaker - captain fizz meets the blaster - tro
 chiptunes/David Whittaker/David Whittaker - chip_s challenge.fym
 #EXTINF:-1,David Whittaker - David Whittaker - combat school
 chiptunes/David Whittaker/David Whittaker - combat school.fym
-#EXTINF:-1,David Whittaker - David Whittaker - dan dare 3
-chiptunes/David Whittaker/David Whittaker - dan dare 3.fym
 #EXTINF:-1,David Whittaker - David Whittaker - death stalker
 chiptunes/David Whittaker/David Whittaker - death stalker.fym
 #EXTINF:-1,David Whittaker - David Whittaker - defcom
@@ -5321,32 +5350,22 @@ chiptunes/David Whittaker/David Whittaker - fantasy world dizzy.fym
 chiptunes/David Whittaker/David Whittaker - fast food dizzy.fym
 #EXTINF:-1,David Whittaker - David Whittaker - four soccer simulators
 chiptunes/David Whittaker/David Whittaker - four soccer simulators.fym
-#EXTINF:-1,David Whittaker - David Whittaker - fruit machine simulator
-chiptunes/David Whittaker/David Whittaker - fruit machine simulator.fym
 #EXTINF:-1,David Whittaker - David Whittaker - fruit machine simulator 2
 chiptunes/David Whittaker/David Whittaker - fruit machine simulator 2.fym
 #EXTINF:-1,David Whittaker - David Whittaker - ghostbusters 2
 chiptunes/David Whittaker/David Whittaker - ghostbusters 2.fym
 #EXTINF:-1,David Whittaker - David Whittaker - glider rider
 chiptunes/David Whittaker/David Whittaker - glider rider.fym
-#EXTINF:-1,David Whittaker - David Whittaker - grand prix simulator
-chiptunes/David Whittaker/David Whittaker - grand prix simulator.fym
 #EXTINF:-1,David Whittaker - David Whittaker - grand prix simulator 2
 chiptunes/David Whittaker/David Whittaker - grand prix simulator 2.fym
 #EXTINF:-1,David Whittaker - David Whittaker - grange hill
 chiptunes/David Whittaker/David Whittaker - grange hill.fym
 #EXTINF:-1,David Whittaker - David Whittaker - gryzor
 chiptunes/David Whittaker/David Whittaker - gryzor.fym
-#EXTINF:-1,David Whittaker - David Whittaker - hades nebula
-chiptunes/David Whittaker/David Whittaker - hades nebula.fym
 #EXTINF:-1,David Whittaker - David Whittaker - infection
 chiptunes/David Whittaker/David Whittaker - infection.fym
-#EXTINF:-1,David Whittaker - David Whittaker - international rugby simulator
-chiptunes/David Whittaker/David Whittaker - international rugby simulator.fym
 #EXTINF:-1,David Whittaker - David Whittaker - international speedway
 chiptunes/David Whittaker/David Whittaker - international speedway.fym
-#EXTINF:-1,David Whittaker - David Whittaker - jet bike simulator
-chiptunes/David Whittaker/David Whittaker - jet bike simulator.fym
 #EXTINF:-1,David Whittaker - David Whittaker - knight tyme
 chiptunes/David Whittaker/David Whittaker - knight tyme.fym
 #EXTINF:-1,David Whittaker - David Whittaker - leviathan
@@ -5355,8 +5374,6 @@ chiptunes/David Whittaker/David Whittaker - leviathan.fym
 chiptunes/David Whittaker/David Whittaker - loopz.fym
 #EXTINF:-1,David Whittaker - David Whittaker - magic land dizzy
 chiptunes/David Whittaker/David Whittaker - magic land dizzy.fym
-#EXTINF:-1,David Whittaker - David Whittaker - milk race
-chiptunes/David Whittaker/David Whittaker - milk race.fym
 #EXTINF:-1,David Whittaker - David Whittaker - monte carlo casino
 chiptunes/David Whittaker/David Whittaker - monte carlo casino.fym
 #EXTINF:-1,David Whittaker - David Whittaker - operation gunship
@@ -5371,8 +5388,6 @@ chiptunes/David Whittaker/David Whittaker - pro bmx simulator.fym
 chiptunes/David Whittaker/David Whittaker - pro bmx simulator 2.fym
 #EXTINF:-1,David Whittaker - David Whittaker - professional skateboard simulator
 chiptunes/David Whittaker/David Whittaker - professional skateboard simulator.fym
-#EXTINF:-1,David Whittaker - David Whittaker - savage
-chiptunes/David Whittaker/David Whittaker - savage.fym
 #EXTINF:-1,David Whittaker - David Whittaker - shadow of the beast
 chiptunes/David Whittaker/David Whittaker - shadow of the beast.fym
 #EXTINF:-1,David Whittaker - David Whittaker - sky high stunt man
@@ -5381,26 +5396,12 @@ chiptunes/David Whittaker/David Whittaker - sky high stunt man.fym
 chiptunes/David Whittaker/David Whittaker - spellbound dizzy.fym
 #EXTINF:-1,David Whittaker - David Whittaker - spitting image
 chiptunes/David Whittaker/David Whittaker - spitting image.fym
-#EXTINF:-1,David Whittaker - David Whittaker - split personalities
-chiptunes/David Whittaker/David Whittaker - split personalities.fym
-#EXTINF:-1,David Whittaker - David Whittaker - star wars
-chiptunes/David Whittaker/David Whittaker - star wars.fym
 #EXTINF:-1,David Whittaker - David Whittaker - stormbringer
 chiptunes/David Whittaker/David Whittaker - stormbringer.fym
-#EXTINF:-1,David Whittaker - David Whittaker - super robin hood
-chiptunes/David Whittaker/David Whittaker - super robin hood.fym
-#EXTINF:-1,David Whittaker - David Whittaker - super stuntman
-chiptunes/David Whittaker/David Whittaker - super stuntman.fym
-#EXTINF:-1,David Whittaker - David Whittaker - terrormeter
-chiptunes/David Whittaker/David Whittaker - terrormeter.fym
 #EXTINF:-1,David Whittaker - David Whittaker - tetris
 chiptunes/David Whittaker/David Whittaker - tetris.fym
 #EXTINF:-1,David Whittaker - David Whittaker - the tube
 chiptunes/David Whittaker/David Whittaker - the tube.fym
-#EXTINF:-1,David Whittaker - David Whittaker - transmuter
-chiptunes/David Whittaker/David Whittaker - transmuter.fym
-#EXTINF:-1,David Whittaker - David Whittaker - trantor the last storm trooper
-chiptunes/David Whittaker/David Whittaker - trantor the last storm trooper.fym
 #EXTINF:-1,David Whittaker - David Whittaker - treasure island dizzy
 chiptunes/David Whittaker/David Whittaker - treasure island dizzy.fym
 #EXTINF:-1,David Whittaker - David Whittaker - xenon
@@ -7391,12 +7392,8 @@ chiptunes/EA/2026/EA - Bitphase Experiences.psg
 #EXTINF:-1,EA - EA - DiHalt On The Forest Lake
 chiptunes/EA/2026/EA - DiHalt On The Forest Lake.psg
 #EXTGRP:Elfh
-#EXTINF:-1,Elfh - danger
-chiptunes/Elfh/danger.fym
 #EXTINF:-1,Elfh - host
 chiptunes/Elfh/host.fym
-#EXTINF:-1,Elfh - object
-chiptunes/Elfh/object.fym
 #EXTINF:-1,Elfh - the miracle of you
 chiptunes/Elfh/the miracle of you.fym
 #EXTINF:-1,Elfh - the streamline
@@ -7453,10 +7450,6 @@ chiptunes/Factor6/70s_shake.fym
 chiptunes/Factor6/acidfunk.fym
 #EXTINF:-1,Factor6 - afternoonvoyage2
 chiptunes/Factor6/afternoonvoyage2.fym
-#EXTINF:-1,Factor6 - afterxe
-chiptunes/Factor6/afterxe.fym
-#EXTINF:-1,Factor6 - agony_loading
-chiptunes/Factor6/agony_loading.fym
 #EXTINF:-1,Factor6 - alloyrun
 chiptunes/Factor6/alloyrun.fym
 #EXTINF:-1,Factor6 - amigaintro
@@ -7467,8 +7460,6 @@ chiptunes/Factor6/angeldust.fym
 chiptunes/Factor6/anthill.fym
 #EXTINF:-1,Factor6 - apidya
 chiptunes/Factor6/apidya.fym
-#EXTINF:-1,Factor6 - atariselftest
-chiptunes/Factor6/atariselftest.fym
 #EXTINF:-1,Factor6 - atlantis
 chiptunes/Factor6/atlantis.fym
 #EXTINF:-1,Factor6 - axel funk
@@ -7497,8 +7488,6 @@ chiptunes/Factor6/bits_main.fym
 chiptunes/Factor6/blah-blah-gal.fym
 #EXTINF:-1,Factor6 - blahblahgal
 chiptunes/Factor6/blahblahgal.fym
-#EXTINF:-1,Factor6 - blbost1
-chiptunes/Factor6/blbost1.fym
 #EXTINF:-1,Factor6 - bonba - crapmo 2
 chiptunes/Factor6/bonba - crapmo 2.fym
 #EXTINF:-1,Factor6 - boneym
@@ -7539,8 +7528,6 @@ chiptunes/Factor6/debil2.fym
 chiptunes/Factor6/deflection.fym
 #EXTINF:-1,Factor6 - deflektor
 chiptunes/Factor6/deflektor.fym
-#EXTINF:-1,Factor6 - delete
-chiptunes/Factor6/delete.fym
 #EXTINF:-1,Factor6 - demosong12
 chiptunes/Factor6/demosong12.fym
 #EXTINF:-1,Factor6 - dervishd
@@ -7581,8 +7568,6 @@ chiptunes/Factor6/epilogue.fym
 chiptunes/Factor6/epilogue2.fym
 #EXTINF:-1,Factor6 - esaintro
 chiptunes/Factor6/esaintro.fym
-#EXTINF:-1,Factor6 - esapart5colours
-chiptunes/Factor6/esapart5colours.fym
 #EXTINF:-1,Factor6 - esapart5stars
 chiptunes/Factor6/esapart5stars.fym
 #EXTINF:-1,Factor6 - excess - esapart5scroll
@@ -7655,14 +7640,10 @@ chiptunes/Factor6/ikariintro.fym
 chiptunes/Factor6/imped.fym
 #EXTINF:-1,Factor6 - in_xe
 chiptunes/Factor6/in_xe.fym
-#EXTINF:-1,Factor6 - infect
-chiptunes/Factor6/infect.fym
 #EXTINF:-1,Factor6 - inside
 chiptunes/Factor6/inside.fym
 #EXTINF:-1,Factor6 - intro
 chiptunes/Factor6/intro.fym
-#EXTINF:-1,Factor6 - ivan
-chiptunes/Factor6/ivan.fym
 #EXTINF:-1,Factor6 - jammalade- reject5
 chiptunes/Factor6/jammalade- reject5.fym
 #EXTINF:-1,Factor6 - jarre
@@ -7727,22 +7708,14 @@ chiptunes/Factor6/loonyisland - now4 - crapmo 3.fym
 chiptunes/Factor6/madmax.fym
 #EXTINF:-1,Factor6 - mash
 chiptunes/Factor6/mash.fym
-#EXTINF:-1,Factor6 - masterblaster1
-chiptunes/Factor6/masterblaster1.fym
-#EXTINF:-1,Factor6 - masterblaster2
-chiptunes/Factor6/masterblaster2.fym
 #EXTINF:-1,Factor6 - max taste
 chiptunes/Factor6/max taste.fym
 #EXTINF:-1,Factor6 - mentalstress
 chiptunes/Factor6/mentalstress.fym
-#EXTINF:-1,Factor6 - micro
-chiptunes/Factor6/micro.fym
 #EXTINF:-1,Factor6 - mindtime
 chiptunes/Factor6/mindtime.fym
 #EXTINF:-1,Factor6 - moonpatrol
 chiptunes/Factor6/moonpatrol.fym
-#EXTINF:-1,Factor6 - morefish
-chiptunes/Factor6/morefish.fym
 #EXTINF:-1,Factor6 - mostcooltune
 chiptunes/Factor6/mostcooltune.fym
 #EXTINF:-1,Factor6 - motoranimation
@@ -7759,20 +7732,14 @@ chiptunes/Factor6/narez.fym
 chiptunes/Factor6/nasmazani.fym
 #EXTINF:-1,Factor6 - navstevnici theme
 chiptunes/Factor6/navstevnici theme.fym
-#EXTINF:-1,Factor6 - nedodelat
-chiptunes/Factor6/nedodelat.fym
 #EXTINF:-1,Factor6 - needforspeed3
 chiptunes/Factor6/needforspeed3.fym
 #EXTINF:-1,Factor6 - nepovedlo
 chiptunes/Factor6/nepovedlo.fym
 #EXTINF:-1,Factor6 - nesmysl
 chiptunes/Factor6/nesmysl.fym
-#EXTINF:-1,Factor6 - nic
-chiptunes/Factor6/nic.fym
 #EXTINF:-1,Factor6 - nnworld
 chiptunes/Factor6/nnworld.fym
-#EXTINF:-1,Factor6 - now1
-chiptunes/Factor6/now1.fym
 #EXTINF:-1,Factor6 - nuda
 chiptunes/Factor6/nuda.fym
 #EXTINF:-1,Factor6 - of course
@@ -7815,8 +7782,6 @@ chiptunes/Factor6/psychicalillusionfly.fym
 chiptunes/Factor6/punpa - now2 - crapmo 1.fym
 #EXTINF:-1,Factor6 - pushover - piggy ingame
 chiptunes/Factor6/pushover - piggy ingame.fym
-#EXTINF:-1,Factor6 - que
-chiptunes/Factor6/que.fym
 #EXTINF:-1,Factor6 - raindemo
 chiptunes/Factor6/raindemo.fym
 #EXTINF:-1,Factor6 - raveraven
@@ -7829,8 +7794,6 @@ chiptunes/Factor6/razor_old_version_2.fym
 chiptunes/Factor6/razor2002.fym
 #EXTINF:-1,Factor6 - realshit
 chiptunes/Factor6/realshit.fym
-#EXTINF:-1,Factor6 - reject1
-chiptunes/Factor6/reject1.fym
 #EXTINF:-1,Factor6 - reject2
 chiptunes/Factor6/reject2.fym
 #EXTINF:-1,Factor6 - reject3
@@ -7927,8 +7890,6 @@ chiptunes/Factor6/spring.fym
 chiptunes/Factor6/starsoftpart.fym
 #EXTINF:-1,Factor6 - starsoftpartalternative
 chiptunes/Factor6/starsoftpartalternative.fym
-#EXTINF:-1,Factor6 - stevie
-chiptunes/Factor6/stevie.fym
 #EXTINF:-1,Factor6 - stormlord
 chiptunes/Factor6/stormlord.fym
 #EXTINF:-1,Factor6 - strupped
@@ -7975,8 +7936,6 @@ chiptunes/Factor6/transform.fym
 chiptunes/Factor6/trip14.fym
 #EXTINF:-1,Factor6 - tritol1
 chiptunes/Factor6/tritol1.fym
-#EXTINF:-1,Factor6 - tritol2
-chiptunes/Factor6/tritol2.fym
 #EXTINF:-1,Factor6 - tritol3
 chiptunes/Factor6/tritol3.fym
 #EXTINF:-1,Factor6 - tubularbells
@@ -8090,482 +8049,6 @@ chiptunes/Faraon/1996/ONRIVER2.pt2
 #EXTINF:-1,Faraon - year96! - part 3
 chiptunes/Faraon/1996/year96! - part 3.stc
 #EXTGRP:Fatal Snipe
-#EXTINF:-1,Fatal Snipe - #D3m0Mu#.$#
-chiptunes/Fatal Snipe/#D3m0Mu#.$#.pt2
-#EXTINF:-1,Fatal Snipe - 2 Dance Over Party
-chiptunes/Fatal Snipe/2 Dance Over Party.pt2
-#EXTINF:-1,Fatal Snipe - 2 killerz of shit
-chiptunes/Fatal Snipe/2 killerz of shit.pt2
-#EXTINF:-1,Fatal Snipe - 2DOWN
-chiptunes/Fatal Snipe/2DOWN.pt2
-#EXTINF:-1,Fatal Snipe - ACIDDD
-chiptunes/Fatal Snipe/ACIDDD.pt2
-#EXTINF:-1,Fatal Snipe - AMBUSH
-chiptunes/Fatal Snipe/AMBUSH.pt2
-#EXTINF:-1,Fatal Snipe - AMORFEUS
-chiptunes/Fatal Snipe/AMORFEUS.pt2
-#EXTINF:-1,Fatal Snipe - ANISTEZIA
-chiptunes/Fatal Snipe/ANISTEZIA.pt2
-#EXTINF:-1,Fatal Snipe - AnotherW
-chiptunes/Fatal Snipe/AnotherW.pt2
-#EXTINF:-1,Fatal Snipe - APmenue
-chiptunes/Fatal Snipe/APmenue.pt2
-#EXTINF:-1,Fatal Snipe - ASH
-chiptunes/Fatal Snipe/ASH.pt2
-#EXTINF:-1,Fatal Snipe - B_STONE!
-chiptunes/Fatal Snipe/B_STONE!.pt2
-#EXTINF:-1,Fatal Snipe - b@$1$
-chiptunes/Fatal Snipe/b@$1$.pt2
-#EXTINF:-1,Fatal Snipe - BAKARA
-chiptunes/Fatal Snipe/BAKARA.pt2
-#EXTINF:-1,Fatal Snipe - Basis Recrus
-chiptunes/Fatal Snipe/Basis Recrus.pt2
-#EXTINF:-1,Fatal Snipe - BEZTOZ
-chiptunes/Fatal Snipe/BEZTOZ.pt2
-#EXTINF:-1,Fatal Snipe - BLOOD STONE
-chiptunes/Fatal Snipe/BLOOD STONE.pt2
-#EXTINF:-1,Fatal Snipe - BREATHE1
-chiptunes/Fatal Snipe/BREATHE1.pt2
-#EXTINF:-1,Fatal Snipe - BREATHE2
-chiptunes/Fatal Snipe/BREATHE2.pt2
-#EXTINF:-1,Fatal Snipe - BUZZ0
-chiptunes/Fatal Snipe/BUZZ0.pt2
-#EXTINF:-1,Fatal Snipe - BVBI
-chiptunes/Fatal Snipe/BVBI.pt2
-#EXTINF:-1,Fatal Snipe - CARAVAN
-chiptunes/Fatal Snipe/CARAVAN.pt2
-#EXTINF:-1,Fatal Snipe - CENTROX
-chiptunes/Fatal Snipe/CENTROX.pt2
-#EXTINF:-1,Fatal Snipe - CLOCK 22
-chiptunes/Fatal Snipe/CLOCK 22.pt2
-#EXTINF:-1,Fatal Snipe - COCKA
-chiptunes/Fatal Snipe/COCKA.pt2
-#EXTINF:-1,Fatal Snipe - CORE1
-chiptunes/Fatal Snipe/CORE1.pt2
-#EXTINF:-1,Fatal Snipe - CORE2
-chiptunes/Fatal Snipe/CORE2.pt2
-#EXTINF:-1,Fatal Snipe - CRABMOUZ
-chiptunes/Fatal Snipe/CRABMOUZ.pt2
-#EXTINF:-1,Fatal Snipe - CRIP
-chiptunes/Fatal Snipe/CRIP.pt2
-#EXTINF:-1,Fatal Snipe - D-CRUNCH
-chiptunes/Fatal Snipe/D-CRUNCH.pt2
-#EXTINF:-1,Fatal Snipe - D3m0_1o
-chiptunes/Fatal Snipe/D3m0_1o.pt2
-#EXTINF:-1,Fatal Snipe - Dad Justies
-chiptunes/Fatal Snipe/Dad Justies.pt2
-#EXTINF:-1,Fatal Snipe - Darknees nightlawu
-chiptunes/Fatal Snipe/Darknees nightlawu.pt2
-#EXTINF:-1,Fatal Snipe - DARKNESS
-chiptunes/Fatal Snipe/DARKNESS.pt2
-#EXTINF:-1,Fatal Snipe - DDF
-chiptunes/Fatal Snipe/DDF.pt2
-#EXTINF:-1,Fatal Snipe - DEM0'09
-chiptunes/Fatal Snipe/DEM0'09.pt2
-#EXTINF:-1,Fatal Snipe - DEM00
-chiptunes/Fatal Snipe/DEM00.pt2
-#EXTINF:-1,Fatal Snipe - DEM061
-chiptunes/Fatal Snipe/DEM061.pt2
-#EXTINF:-1,Fatal Snipe - DEM062
-chiptunes/Fatal Snipe/DEM062.pt2
-#EXTINF:-1,Fatal Snipe - DEM08
-chiptunes/Fatal Snipe/DEM08.pt2
-#EXTINF:-1,Fatal Snipe - DEMO2
-chiptunes/Fatal Snipe/DEMO2.pt2
-#EXTINF:-1,Fatal Snipe - DIE
-chiptunes/Fatal Snipe/DIE.pt2
-#EXTINF:-1,Fatal Snipe - DJEVextn
-chiptunes/Fatal Snipe/DJEVextn.pt2
-#EXTINF:-1,Fatal Snipe - dmko11
-chiptunes/Fatal Snipe/dmko11.pt2
-#EXTINF:-1,Fatal Snipe - DR_BASS3
-chiptunes/Fatal Snipe/DR_BASS3.pt2
-#EXTINF:-1,Fatal Snipe - Dristall
-chiptunes/Fatal Snipe/Dristall.pt2
-#EXTINF:-1,Fatal Snipe - ELKA
-chiptunes/Fatal Snipe/ELKA.pt2
-#EXTINF:-1,Fatal Snipe - end of life-not4me
-chiptunes/Fatal Snipe/end of life-not4me.pt2
-#EXTINF:-1,Fatal Snipe - f3rrr0Ex
-chiptunes/Fatal Snipe/f3rrr0Ex.pt2
-#EXTINF:-1,Fatal Snipe - Fan$!
-chiptunes/Fatal Snipe/Fan$!.pt2
-#EXTINF:-1,Fatal Snipe - faNta$Y
-chiptunes/Fatal Snipe/faNta$Y.pt2
-#EXTINF:-1,Fatal Snipe - FF
-chiptunes/Fatal Snipe/FF.pt2
-#EXTINF:-1,Fatal Snipe - FIRE
-chiptunes/Fatal Snipe/FIRE.pt2
-#EXTINF:-1,Fatal Snipe - FIRE2
-chiptunes/Fatal Snipe/FIRE2.pt2
-#EXTINF:-1,Fatal Snipe - FL0WER
-chiptunes/Fatal Snipe/FL0WER.pt2
-#EXTINF:-1,Fatal Snipe - FOR BENOYD
-chiptunes/Fatal Snipe/FOR BENOYD.pt2
-#EXTINF:-1,Fatal Snipe - FOR4K!
-chiptunes/Fatal Snipe/FOR4K!.pt2
-#EXTINF:-1,Fatal Snipe - Forgive me
-chiptunes/Fatal Snipe/Forgive me.pt2
-#EXTINF:-1,Fatal Snipe - FORGOTN
-chiptunes/Fatal Snipe/FORGOTN.pt2
-#EXTINF:-1,Fatal Snipe - geNeraTioN oF rAVe
-chiptunes/Fatal Snipe/geNeraTioN oF rAVe.pt2
-#EXTINF:-1,Fatal Snipe - Gidr0 m0nda
-chiptunes/Fatal Snipe/Gidr0 m0nda.pt2
-#EXTINF:-1,Fatal Snipe - GIV ZE YOU
-chiptunes/Fatal Snipe/GIV ZE YOU.pt2
-#EXTINF:-1,Fatal Snipe - GOA
-chiptunes/Fatal Snipe/GOA.pt2
-#EXTINF:-1,Fatal Snipe - H0c0k_6K
-chiptunes/Fatal Snipe/H0c0k_6K.pt2
-#EXTINF:-1,Fatal Snipe - HAUZ RMX
-chiptunes/Fatal Snipe/HAUZ RMX.pt2
-#EXTINF:-1,Fatal Snipe - HAUZ3
-chiptunes/Fatal Snipe/HAUZ3.pt2
-#EXTINF:-1,Fatal Snipe - HAUZBEAT
-chiptunes/Fatal Snipe/HAUZBEAT.pt2
-#EXTINF:-1,Fatal Snipe - Hydroxid
-chiptunes/Fatal Snipe/Hydroxid.pt2
-#EXTINF:-1,Fatal Snipe - Imbosible
-chiptunes/Fatal Snipe/Imbosible.pt2
-#EXTINF:-1,Fatal Snipe - Intro or dream_rmx
-chiptunes/Fatal Snipe/Intro or dream_rmx.pt2
-#EXTINF:-1,Fatal Snipe - IT JUST
-chiptunes/Fatal Snipe/IT JUST.pt2
-#EXTINF:-1,Fatal Snipe - JMJ
-chiptunes/Fatal Snipe/JMJ.pt2
-#EXTINF:-1,Fatal Snipe - JOL
-chiptunes/Fatal Snipe/JOL.pt2
-#EXTINF:-1,Fatal Snipe - JOLLY
-chiptunes/Fatal Snipe/JOLLY.pt2
-#EXTINF:-1,Fatal Snipe - Ju$t48_(
-chiptunes/Fatal Snipe/Ju$t48_(.pt2
-#EXTINF:-1,Fatal Snipe - jump2higher
-chiptunes/Fatal Snipe/jump2higher.pt2
-#EXTINF:-1,Fatal Snipe - KAZSH#3
-chiptunes/Fatal Snipe/KAZSH#3.pt2
-#EXTINF:-1,Fatal Snipe - KICKHER!
-chiptunes/Fatal Snipe/KICKHER!.pt2
-#EXTINF:-1,Fatal Snipe - KLJ
-chiptunes/Fatal Snipe/KLJ.pt2
-#EXTINF:-1,Fatal Snipe - KNOWN MUZA
-chiptunes/Fatal Snipe/KNOWN MUZA.pt2
-#EXTINF:-1,Fatal Snipe - KOLJA2
-chiptunes/Fatal Snipe/KOLJA2.pt2
-#EXTINF:-1,Fatal Snipe - KOLJA48
-chiptunes/Fatal Snipe/KOLJA48.pt2
-#EXTINF:-1,Fatal Snipe - KrackIT!
-chiptunes/Fatal Snipe/KrackIT!.pt2
-#EXTINF:-1,Fatal Snipe - L@$kut1
-chiptunes/Fatal Snipe/L@$kut1.pt2
-#EXTINF:-1,Fatal Snipe - L1F3
-chiptunes/Fatal Snipe/L1F3.pt2
-#EXTINF:-1,Fatal Snipe - L1N3$
-chiptunes/Fatal Snipe/L1N3$.pt2
-#EXTINF:-1,Fatal Snipe - LAK
-chiptunes/Fatal Snipe/LAK.pt2
-#EXTINF:-1,Fatal Snipe - LAPSUS
-chiptunes/Fatal Snipe/LAPSUS.pt2
-#EXTINF:-1,Fatal Snipe - Last'iv out two
-chiptunes/Fatal Snipe/Last'iv out two.pt2
-#EXTINF:-1,Fatal Snipe - LAT
-chiptunes/Fatal Snipe/LAT.pt2
-#EXTINF:-1,Fatal Snipe - LETMESEE
-chiptunes/Fatal Snipe/LETMESEE.pt2
-#EXTINF:-1,Fatal Snipe - Lojiiiiika
-chiptunes/Fatal Snipe/Lojiiiiika.pt2
-#EXTINF:-1,Fatal Snipe - LOK
-chiptunes/Fatal Snipe/LOK.pt2
-#EXTINF:-1,Fatal Snipe - LOVERS
-chiptunes/Fatal Snipe/LOVERS.pt2
-#EXTINF:-1,Fatal Snipe - LOX
-chiptunes/Fatal Snipe/LOX.pt2
-#EXTINF:-1,Fatal Snipe - LUIGI
-chiptunes/Fatal Snipe/LUIGI.pt2
-#EXTINF:-1,Fatal Snipe - MANDRAZH
-chiptunes/Fatal Snipe/MANDRAZH.pt2
-#EXTINF:-1,Fatal Snipe - Maniakzx
-chiptunes/Fatal Snipe/Maniakzx.pt2
-#EXTINF:-1,Fatal Snipe - MARKOSKY
-chiptunes/Fatal Snipe/MARKOSKY.pt2
-#EXTINF:-1,Fatal Snipe - MEHTAL_F
-chiptunes/Fatal Snipe/MEHTAL_F.pt2
-#EXTINF:-1,Fatal Snipe - MIDNIGHT
-chiptunes/Fatal Snipe/MIDNIGHT.pt2
-#EXTINF:-1,Fatal Snipe - MISTOS
-chiptunes/Fatal Snipe/MISTOS.pt2
-#EXTINF:-1,Fatal Snipe - MO
-chiptunes/Fatal Snipe/MO.pt2
-#EXTINF:-1,Fatal Snipe - MOb
-chiptunes/Fatal Snipe/MOb.pt2
-#EXTINF:-1,Fatal Snipe - MPAK3
-chiptunes/Fatal Snipe/MPAK3.pt2
-#EXTINF:-1,Fatal Snipe - MUZA
-chiptunes/Fatal Snipe/MUZA.pt2
-#EXTINF:-1,Fatal Snipe - Muza_
-chiptunes/Fatal Snipe/Muza_.pt2
-#EXTINF:-1,Fatal Snipe - N
-chiptunes/Fatal Snipe/N.pt2
-#EXTINF:-1,Fatal Snipe - N00N00
-chiptunes/Fatal Snipe/N00N00.pt2
-#EXTINF:-1,Fatal Snipe - NAU HAUZ RMX
-chiptunes/Fatal Snipe/NAU HAUZ RMX.pt2
-#EXTINF:-1,Fatal Snipe - Nearly Perhaps
-chiptunes/Fatal Snipe/Nearly Perhaps.pt2
-#EXTINF:-1,Fatal Snipe - NICK4ALL
-chiptunes/Fatal Snipe/NICK4ALL.pt2
-#EXTINF:-1,Fatal Snipe - of the of the end
-chiptunes/Fatal Snipe/of the of the end.pt2
-#EXTINF:-1,Fatal Snipe - Oxygene 4
-chiptunes/Fatal Snipe/Oxygene 4.pt2
-#EXTINF:-1,Fatal Snipe - PART1
-chiptunes/Fatal Snipe/PART1.pt2
-#EXTINF:-1,Fatal Snipe - PASKUDA
-chiptunes/Fatal Snipe/PASKUDA.pt2
-#EXTINF:-1,Fatal Snipe - PASTA
-chiptunes/Fatal Snipe/PASTA.pt2
-#EXTINF:-1,Fatal Snipe - PERHAPS
-chiptunes/Fatal Snipe/PERHAPS.pt2
-#EXTINF:-1,Fatal Snipe - PERIM
-chiptunes/Fatal Snipe/PERIM.pt2
-#EXTINF:-1,Fatal Snipe - PETKA
-chiptunes/Fatal Snipe/PETKA.pt2
-#EXTINF:-1,Fatal Snipe - PIK
-chiptunes/Fatal Snipe/PIK.pt2
-#EXTINF:-1,Fatal Snipe - POWERCAPATITY2
-chiptunes/Fatal Snipe/POWERCAPATITY2.pt2
-#EXTINF:-1,Fatal Snipe - PT2RULES
-chiptunes/Fatal Snipe/PT2RULES.pt2
-#EXTINF:-1,Fatal Snipe - Rave 4 UZ
-chiptunes/Fatal Snipe/Rave 4 UZ.pt2
-#EXTINF:-1,Fatal Snipe - RAVE1
-chiptunes/Fatal Snipe/RAVE1.pt2
-#EXTINF:-1,Fatal Snipe - RAVE3
-chiptunes/Fatal Snipe/RAVE3.pt2
-#EXTINF:-1,Fatal Snipe - RDAMM
-chiptunes/Fatal Snipe/RDAMM.pt2
-#EXTINF:-1,Fatal Snipe - REMIX6
-chiptunes/Fatal Snipe/REMIX6.pt2
-#EXTINF:-1,Fatal Snipe - ROBOTIC
-chiptunes/Fatal Snipe/ROBOTIC.pt2
-#EXTINF:-1,Fatal Snipe - S
-chiptunes/Fatal Snipe/S.pt2
-#EXTINF:-1,Fatal Snipe - SAMPLMA2
-chiptunes/Fatal Snipe/SAMPLMA2.pt2
-#EXTINF:-1,Fatal Snipe - SAMPLMAN
-chiptunes/Fatal Snipe/SAMPLMAN.pt2
-#EXTINF:-1,Fatal Snipe - SATELLIT
-chiptunes/Fatal Snipe/SATELLIT.pt2
-#EXTINF:-1,Fatal Snipe - SHIZ0FRX
-chiptunes/Fatal Snipe/SHIZ0FRX.pt2
-#EXTINF:-1,Fatal Snipe - SISKO
-chiptunes/Fatal Snipe/SISKO.pt2
-#EXTINF:-1,Fatal Snipe - SK
-chiptunes/Fatal Snipe/SK.pt2
-#EXTINF:-1,Fatal Snipe - sketch_10
-chiptunes/Fatal Snipe/sketch_10.pt2
-#EXTINF:-1,Fatal Snipe - sketch_16
-chiptunes/Fatal Snipe/sketch_16.pt2
-#EXTINF:-1,Fatal Snipe - sketch_18
-chiptunes/Fatal Snipe/sketch_18.pt2
-#EXTINF:-1,Fatal Snipe - sketch_19
-chiptunes/Fatal Snipe/sketch_19.pt2
-#EXTINF:-1,Fatal Snipe - sketch_20
-chiptunes/Fatal Snipe/sketch_20.pt2
-#EXTINF:-1,Fatal Snipe - sketch_21
-chiptunes/Fatal Snipe/sketch_21.pt2
-#EXTINF:-1,Fatal Snipe - sketch_22
-chiptunes/Fatal Snipe/sketch_22.pt2
-#EXTINF:-1,Fatal Snipe - sketch_23
-chiptunes/Fatal Snipe/sketch_23.pt2
-#EXTINF:-1,Fatal Snipe - sketch_24
-chiptunes/Fatal Snipe/sketch_24.pt2
-#EXTINF:-1,Fatal Snipe - sketch_25
-chiptunes/Fatal Snipe/sketch_25.pt2
-#EXTINF:-1,Fatal Snipe - sketch_26
-chiptunes/Fatal Snipe/sketch_26.pt2
-#EXTINF:-1,Fatal Snipe - sketch_27
-chiptunes/Fatal Snipe/sketch_27.pt2
-#EXTINF:-1,Fatal Snipe - sketch_28
-chiptunes/Fatal Snipe/sketch_28.pt2
-#EXTINF:-1,Fatal Snipe - sketch_29
-chiptunes/Fatal Snipe/sketch_29.pt2
-#EXTINF:-1,Fatal Snipe - sketch_30
-chiptunes/Fatal Snipe/sketch_30.pt2
-#EXTINF:-1,Fatal Snipe - sketch_31
-chiptunes/Fatal Snipe/sketch_31.pt2
-#EXTINF:-1,Fatal Snipe - sketch_32
-chiptunes/Fatal Snipe/sketch_32.pt2
-#EXTINF:-1,Fatal Snipe - sketch_33
-chiptunes/Fatal Snipe/sketch_33.pt2
-#EXTINF:-1,Fatal Snipe - sketch_34
-chiptunes/Fatal Snipe/sketch_34.pt2
-#EXTINF:-1,Fatal Snipe - sketch_35
-chiptunes/Fatal Snipe/sketch_35.pt2
-#EXTINF:-1,Fatal Snipe - sketch_36
-chiptunes/Fatal Snipe/sketch_36.pt2
-#EXTINF:-1,Fatal Snipe - sketch_37
-chiptunes/Fatal Snipe/sketch_37.pt2
-#EXTINF:-1,Fatal Snipe - sketch_38
-chiptunes/Fatal Snipe/sketch_38.pt2
-#EXTINF:-1,Fatal Snipe - sketch_39
-chiptunes/Fatal Snipe/sketch_39.pt2
-#EXTINF:-1,Fatal Snipe - sketch_40
-chiptunes/Fatal Snipe/sketch_40.pt2
-#EXTINF:-1,Fatal Snipe - sketch_41
-chiptunes/Fatal Snipe/sketch_41.pt2
-#EXTINF:-1,Fatal Snipe - sketch_42
-chiptunes/Fatal Snipe/sketch_42.pt2
-#EXTINF:-1,Fatal Snipe - sketch_43
-chiptunes/Fatal Snipe/sketch_43.pt2
-#EXTINF:-1,Fatal Snipe - sketch_44
-chiptunes/Fatal Snipe/sketch_44.pt2
-#EXTINF:-1,Fatal Snipe - sketch_45
-chiptunes/Fatal Snipe/sketch_45.pt2
-#EXTINF:-1,Fatal Snipe - sketch_46
-chiptunes/Fatal Snipe/sketch_46.pt2
-#EXTINF:-1,Fatal Snipe - sketch_47
-chiptunes/Fatal Snipe/sketch_47.pt2
-#EXTINF:-1,Fatal Snipe - sketch_48
-chiptunes/Fatal Snipe/sketch_48.pt2
-#EXTINF:-1,Fatal Snipe - sketch_49
-chiptunes/Fatal Snipe/sketch_49.pt2
-#EXTINF:-1,Fatal Snipe - sketch_50
-chiptunes/Fatal Snipe/sketch_50.pt2
-#EXTINF:-1,Fatal Snipe - sketch_51
-chiptunes/Fatal Snipe/sketch_51.pt2
-#EXTINF:-1,Fatal Snipe - sketch_52
-chiptunes/Fatal Snipe/sketch_52.pt2
-#EXTINF:-1,Fatal Snipe - sketch_53
-chiptunes/Fatal Snipe/sketch_53.pt2
-#EXTINF:-1,Fatal Snipe - sketch_54
-chiptunes/Fatal Snipe/sketch_54.pt2
-#EXTINF:-1,Fatal Snipe - sketch_55
-chiptunes/Fatal Snipe/sketch_55.pt2
-#EXTINF:-1,Fatal Snipe - sketch_56
-chiptunes/Fatal Snipe/sketch_56.pt2
-#EXTINF:-1,Fatal Snipe - sketch_57
-chiptunes/Fatal Snipe/sketch_57.pt2
-#EXTINF:-1,Fatal Snipe - sketch_58
-chiptunes/Fatal Snipe/sketch_58.pt2
-#EXTINF:-1,Fatal Snipe - sketch_59
-chiptunes/Fatal Snipe/sketch_59.pt2
-#EXTINF:-1,Fatal Snipe - sketch_60
-chiptunes/Fatal Snipe/sketch_60.pt2
-#EXTINF:-1,Fatal Snipe - sketch_61
-chiptunes/Fatal Snipe/sketch_61.pt2
-#EXTINF:-1,Fatal Snipe - sketch_62
-chiptunes/Fatal Snipe/sketch_62.pt2
-#EXTINF:-1,Fatal Snipe - sketch_63
-chiptunes/Fatal Snipe/sketch_63.pt2
-#EXTINF:-1,Fatal Snipe - sketch_64
-chiptunes/Fatal Snipe/sketch_64.pt2
-#EXTINF:-1,Fatal Snipe - sketch_65
-chiptunes/Fatal Snipe/sketch_65.pt2
-#EXTINF:-1,Fatal Snipe - sketch_66
-chiptunes/Fatal Snipe/sketch_66.pt2
-#EXTINF:-1,Fatal Snipe - sketch_67
-chiptunes/Fatal Snipe/sketch_67.pt2
-#EXTINF:-1,Fatal Snipe - sketch_68
-chiptunes/Fatal Snipe/sketch_68.pt2
-#EXTINF:-1,Fatal Snipe - sketch_69
-chiptunes/Fatal Snipe/sketch_69.pt2
-#EXTINF:-1,Fatal Snipe - sketch_70
-chiptunes/Fatal Snipe/sketch_70.pt2
-#EXTINF:-1,Fatal Snipe - sketch_71
-chiptunes/Fatal Snipe/sketch_71.pt2
-#EXTINF:-1,Fatal Snipe - sketch_72
-chiptunes/Fatal Snipe/sketch_72.pt2
-#EXTINF:-1,Fatal Snipe - sketch_73
-chiptunes/Fatal Snipe/sketch_73.pt2
-#EXTINF:-1,Fatal Snipe - sketch_74
-chiptunes/Fatal Snipe/sketch_74.pt2
-#EXTINF:-1,Fatal Snipe - sketch_75
-chiptunes/Fatal Snipe/sketch_75.pt2
-#EXTINF:-1,Fatal Snipe - sketch_76
-chiptunes/Fatal Snipe/sketch_76.pt2
-#EXTINF:-1,Fatal Snipe - sketch_77
-chiptunes/Fatal Snipe/sketch_77.pt2
-#EXTINF:-1,Fatal Snipe - sketch_78
-chiptunes/Fatal Snipe/sketch_78.pt2
-#EXTINF:-1,Fatal Snipe - sketch_79
-chiptunes/Fatal Snipe/sketch_79.pt2
-#EXTINF:-1,Fatal Snipe - sketch_80
-chiptunes/Fatal Snipe/sketch_80.pt2
-#EXTINF:-1,Fatal Snipe - sketch_81
-chiptunes/Fatal Snipe/sketch_81.pt2
-#EXTINF:-1,Fatal Snipe - sketch_82
-chiptunes/Fatal Snipe/sketch_82.pt2
-#EXTINF:-1,Fatal Snipe - sketch_83
-chiptunes/Fatal Snipe/sketch_83.pt2
-#EXTINF:-1,Fatal Snipe - sketch_84
-chiptunes/Fatal Snipe/sketch_84.pt2
-#EXTINF:-1,Fatal Snipe - sketch_85
-chiptunes/Fatal Snipe/sketch_85.pt2
-#EXTINF:-1,Fatal Snipe - sketch_86
-chiptunes/Fatal Snipe/sketch_86.pt2
-#EXTINF:-1,Fatal Snipe - sketch_87
-chiptunes/Fatal Snipe/sketch_87.pt2
-#EXTINF:-1,Fatal Snipe - sketch_88
-chiptunes/Fatal Snipe/sketch_88.pt2
-#EXTINF:-1,Fatal Snipe - sketch_89
-chiptunes/Fatal Snipe/sketch_89.pt2
-#EXTINF:-1,Fatal Snipe - sketch_90
-chiptunes/Fatal Snipe/sketch_90.pt2
-#EXTINF:-1,Fatal Snipe - sketch_91
-chiptunes/Fatal Snipe/sketch_91.pt2
-#EXTINF:-1,Fatal Snipe - sketch_92
-chiptunes/Fatal Snipe/sketch_92.pt2
-#EXTINF:-1,Fatal Snipe - sketch_93
-chiptunes/Fatal Snipe/sketch_93.pt2
-#EXTINF:-1,Fatal Snipe - sketch_94
-chiptunes/Fatal Snipe/sketch_94.pt2
-#EXTINF:-1,Fatal Snipe - sketch_95
-chiptunes/Fatal Snipe/sketch_95.pt2
-#EXTINF:-1,Fatal Snipe - sketch_96
-chiptunes/Fatal Snipe/sketch_96.pt3
-#EXTINF:-1,Fatal Snipe - Speed Mind
-chiptunes/Fatal Snipe/Speed Mind.pt2
-#EXTINF:-1,Fatal Snipe - SPEEDMIN
-chiptunes/Fatal Snipe/SPEEDMIN.pt2
-#EXTINF:-1,Fatal Snipe - SPEEDMOD
-chiptunes/Fatal Snipe/SPEEDMOD.pt2
-#EXTINF:-1,Fatal Snipe - SUXX
-chiptunes/Fatal Snipe/SUXX.pt3
-#EXTINF:-1,Fatal Snipe - TD
-chiptunes/Fatal Snipe/TD.pt2
-#EXTINF:-1,Fatal Snipe - TEPMEX
-chiptunes/Fatal Snipe/TEPMEX.pt2
-#EXTINF:-1,Fatal Snipe - The BIG love of me
-chiptunes/Fatal Snipe/The BIG love of me.pt2
-#EXTINF:-1,Fatal Snipe - Thing Brain
-chiptunes/Fatal Snipe/Thing Brain.pt2
-#EXTINF:-1,Fatal Snipe - THRILLA
-chiptunes/Fatal Snipe/THRILLA.pt2
-#EXTINF:-1,Fatal Snipe - Trak out key-boarD
-chiptunes/Fatal Snipe/Trak out key-boarD.pt2
-#EXTINF:-1,Fatal Snipe - Used
-chiptunes/Fatal Snipe/Used.pt3
-#EXTINF:-1,Fatal Snipe - v go 2 Minsk!
-chiptunes/Fatal Snipe/v go 2 Minsk!.pt2
-#EXTINF:-1,Fatal Snipe - Very BurgHujz
-chiptunes/Fatal Snipe/Very BurgHujz.pt2
-#EXTINF:-1,Fatal Snipe - VERYOLDS
-chiptunes/Fatal Snipe/VERYOLDS.pt2
-#EXTINF:-1,Fatal Snipe - Voice of Damn#1
-chiptunes/Fatal Snipe/Voice of Damn#1.pt2
-#EXTINF:-1,Fatal Snipe - VOODOO
-chiptunes/Fatal Snipe/VOODOO.pt2
-#EXTINF:-1,Fatal Snipe - X3m1x
-chiptunes/Fatal Snipe/X3m1x.pt2
-#EXTINF:-1,Fatal Snipe - XYZIEZ
-chiptunes/Fatal Snipe/XYZIEZ.pt2
-#EXTINF:-1,Fatal Snipe - ZELDERMENTS
-chiptunes/Fatal Snipe/ZELDERMENTS.pt2
-#EXTINF:-1,Fatal Snipe - ZIBO
-chiptunes/Fatal Snipe/ZIBO.pt2
-#EXTINF:-1,Fatal Snipe - ZXOLDSTL
-chiptunes/Fatal Snipe/ZXOLDSTL.pt2
 #SUBSECTION:1995
 #EXTINF:-1,Fatal Snipe - KIX-MIX
 chiptunes/Fatal Snipe/1995/KIX-MIX.pt2
@@ -9081,27 +8564,492 @@ chiptunes/Fatal Snipe/2004/n0 1 can fun.pt2
 #SUBSECTION:2006
 #EXTINF:-1,Fatal Snipe - nothing 4 stress
 chiptunes/Fatal Snipe/2006/nothing 4 stress.pt2
+#SUBSECTION:others
+#EXTINF:-1,Fatal Snipe - #D3m0Mu#.$#
+chiptunes/Fatal Snipe/others/#D3m0Mu#.$#.pt2
+#EXTINF:-1,Fatal Snipe - 2 Dance Over Party
+chiptunes/Fatal Snipe/others/2 Dance Over Party.pt2
+#EXTINF:-1,Fatal Snipe - 2 killerz of shit
+chiptunes/Fatal Snipe/others/2 killerz of shit.pt2
+#EXTINF:-1,Fatal Snipe - 2DOWN
+chiptunes/Fatal Snipe/others/2DOWN.pt2
+#EXTINF:-1,Fatal Snipe - ACIDDD
+chiptunes/Fatal Snipe/others/ACIDDD.pt2
+#EXTINF:-1,Fatal Snipe - AMBUSH
+chiptunes/Fatal Snipe/others/AMBUSH.pt2
+#EXTINF:-1,Fatal Snipe - AMORFEUS
+chiptunes/Fatal Snipe/others/AMORFEUS.pt2
+#EXTINF:-1,Fatal Snipe - ANISTEZIA
+chiptunes/Fatal Snipe/others/ANISTEZIA.pt2
+#EXTINF:-1,Fatal Snipe - AnotherW
+chiptunes/Fatal Snipe/others/AnotherW.pt2
+#EXTINF:-1,Fatal Snipe - APmenue
+chiptunes/Fatal Snipe/others/APmenue.pt2
+#EXTINF:-1,Fatal Snipe - ASH
+chiptunes/Fatal Snipe/others/ASH.pt2
+#EXTINF:-1,Fatal Snipe - B_STONE!
+chiptunes/Fatal Snipe/others/B_STONE!.pt2
+#EXTINF:-1,Fatal Snipe - b@$1$
+chiptunes/Fatal Snipe/others/b@$1$.pt2
+#EXTINF:-1,Fatal Snipe - BAKARA
+chiptunes/Fatal Snipe/others/BAKARA.pt2
+#EXTINF:-1,Fatal Snipe - Basis Recrus
+chiptunes/Fatal Snipe/others/Basis Recrus.pt2
+#EXTINF:-1,Fatal Snipe - BEZTOZ
+chiptunes/Fatal Snipe/others/BEZTOZ.pt2
+#EXTINF:-1,Fatal Snipe - BLOOD STONE
+chiptunes/Fatal Snipe/others/BLOOD STONE.pt2
+#EXTINF:-1,Fatal Snipe - BREATHE1
+chiptunes/Fatal Snipe/others/BREATHE1.pt2
+#EXTINF:-1,Fatal Snipe - BREATHE2
+chiptunes/Fatal Snipe/others/BREATHE2.pt2
+#EXTINF:-1,Fatal Snipe - BUZZ0
+chiptunes/Fatal Snipe/others/BUZZ0.pt2
+#EXTINF:-1,Fatal Snipe - BVBI
+chiptunes/Fatal Snipe/others/BVBI.pt2
+#EXTINF:-1,Fatal Snipe - CARAVAN
+chiptunes/Fatal Snipe/others/CARAVAN.pt2
+#EXTINF:-1,Fatal Snipe - CENTROX
+chiptunes/Fatal Snipe/others/CENTROX.pt2
+#EXTINF:-1,Fatal Snipe - CLOCK 22
+chiptunes/Fatal Snipe/others/CLOCK 22.pt2
+#EXTINF:-1,Fatal Snipe - COCKA
+chiptunes/Fatal Snipe/others/COCKA.pt2
+#EXTINF:-1,Fatal Snipe - CORE1
+chiptunes/Fatal Snipe/others/CORE1.pt2
+#EXTINF:-1,Fatal Snipe - CORE2
+chiptunes/Fatal Snipe/others/CORE2.pt2
+#EXTINF:-1,Fatal Snipe - CRABMOUZ
+chiptunes/Fatal Snipe/others/CRABMOUZ.pt2
+#EXTINF:-1,Fatal Snipe - CRIP
+chiptunes/Fatal Snipe/others/CRIP.pt2
+#EXTINF:-1,Fatal Snipe - D-CRUNCH
+chiptunes/Fatal Snipe/others/D-CRUNCH.pt2
+#EXTINF:-1,Fatal Snipe - D3m0_1o
+chiptunes/Fatal Snipe/others/D3m0_1o.pt2
+#EXTINF:-1,Fatal Snipe - Dad Justies
+chiptunes/Fatal Snipe/others/Dad Justies.pt2
+#EXTINF:-1,Fatal Snipe - Darknees nightlawu
+chiptunes/Fatal Snipe/others/Darknees nightlawu.pt2
+#EXTINF:-1,Fatal Snipe - DARKNESS
+chiptunes/Fatal Snipe/others/DARKNESS.pt2
+#EXTINF:-1,Fatal Snipe - DDF
+chiptunes/Fatal Snipe/others/DDF.pt2
+#EXTINF:-1,Fatal Snipe - DEM0'09
+chiptunes/Fatal Snipe/others/DEM0'09.pt2
+#EXTINF:-1,Fatal Snipe - DEM00
+chiptunes/Fatal Snipe/others/DEM00.pt2
+#EXTINF:-1,Fatal Snipe - DEM061
+chiptunes/Fatal Snipe/others/DEM061.pt2
+#EXTINF:-1,Fatal Snipe - DEM062
+chiptunes/Fatal Snipe/others/DEM062.pt2
+#EXTINF:-1,Fatal Snipe - DEM08
+chiptunes/Fatal Snipe/others/DEM08.pt2
+#EXTINF:-1,Fatal Snipe - DEMO2
+chiptunes/Fatal Snipe/others/DEMO2.pt2
+#EXTINF:-1,Fatal Snipe - DIE
+chiptunes/Fatal Snipe/others/DIE.pt2
+#EXTINF:-1,Fatal Snipe - DJEVextn
+chiptunes/Fatal Snipe/others/DJEVextn.pt2
+#EXTINF:-1,Fatal Snipe - dmko11
+chiptunes/Fatal Snipe/others/dmko11.pt2
+#EXTINF:-1,Fatal Snipe - DR_BASS3
+chiptunes/Fatal Snipe/others/DR_BASS3.pt2
+#EXTINF:-1,Fatal Snipe - Dristall
+chiptunes/Fatal Snipe/others/Dristall.pt2
+#EXTINF:-1,Fatal Snipe - ELKA
+chiptunes/Fatal Snipe/others/ELKA.pt2
+#EXTINF:-1,Fatal Snipe - end of life-not4me
+chiptunes/Fatal Snipe/others/end of life-not4me.pt2
+#EXTINF:-1,Fatal Snipe - f3rrr0Ex
+chiptunes/Fatal Snipe/others/f3rrr0Ex.pt2
+#EXTINF:-1,Fatal Snipe - Fan$!
+chiptunes/Fatal Snipe/others/Fan$!.pt2
+#EXTINF:-1,Fatal Snipe - faNta$Y
+chiptunes/Fatal Snipe/others/faNta$Y.pt2
+#EXTINF:-1,Fatal Snipe - FF
+chiptunes/Fatal Snipe/others/FF.pt2
+#EXTINF:-1,Fatal Snipe - FIRE
+chiptunes/Fatal Snipe/others/FIRE.pt2
+#EXTINF:-1,Fatal Snipe - FIRE2
+chiptunes/Fatal Snipe/others/FIRE2.pt2
+#EXTINF:-1,Fatal Snipe - FL0WER
+chiptunes/Fatal Snipe/others/FL0WER.pt2
+#EXTINF:-1,Fatal Snipe - FOR BENOYD
+chiptunes/Fatal Snipe/others/FOR BENOYD.pt2
+#EXTINF:-1,Fatal Snipe - FOR4K!
+chiptunes/Fatal Snipe/others/FOR4K!.pt2
+#EXTINF:-1,Fatal Snipe - Forgive me
+chiptunes/Fatal Snipe/others/Forgive me.pt2
+#EXTINF:-1,Fatal Snipe - FORGOTN
+chiptunes/Fatal Snipe/others/FORGOTN.pt2
+#EXTINF:-1,Fatal Snipe - geNeraTioN oF rAVe
+chiptunes/Fatal Snipe/others/geNeraTioN oF rAVe.pt2
+#EXTINF:-1,Fatal Snipe - Gidr0 m0nda
+chiptunes/Fatal Snipe/others/Gidr0 m0nda.pt2
+#EXTINF:-1,Fatal Snipe - GIV ZE YOU
+chiptunes/Fatal Snipe/others/GIV ZE YOU.pt2
+#EXTINF:-1,Fatal Snipe - GOA
+chiptunes/Fatal Snipe/others/GOA.pt2
+#EXTINF:-1,Fatal Snipe - H0c0k_6K
+chiptunes/Fatal Snipe/others/H0c0k_6K.pt2
+#EXTINF:-1,Fatal Snipe - HAUZ RMX
+chiptunes/Fatal Snipe/others/HAUZ RMX.pt2
+#EXTINF:-1,Fatal Snipe - HAUZ3
+chiptunes/Fatal Snipe/others/HAUZ3.pt2
+#EXTINF:-1,Fatal Snipe - HAUZBEAT
+chiptunes/Fatal Snipe/others/HAUZBEAT.pt2
+#EXTINF:-1,Fatal Snipe - Hydroxid
+chiptunes/Fatal Snipe/others/Hydroxid.pt2
+#EXTINF:-1,Fatal Snipe - Imbosible
+chiptunes/Fatal Snipe/others/Imbosible.pt2
+#EXTINF:-1,Fatal Snipe - Intro or dream_rmx
+chiptunes/Fatal Snipe/others/Intro or dream_rmx.pt2
+#EXTINF:-1,Fatal Snipe - IT JUST
+chiptunes/Fatal Snipe/others/IT JUST.pt2
+#EXTINF:-1,Fatal Snipe - JMJ
+chiptunes/Fatal Snipe/others/JMJ.pt2
+#EXTINF:-1,Fatal Snipe - JOL
+chiptunes/Fatal Snipe/others/JOL.pt2
+#EXTINF:-1,Fatal Snipe - JOLLY
+chiptunes/Fatal Snipe/others/JOLLY.pt2
+#EXTINF:-1,Fatal Snipe - Ju$t48_(
+chiptunes/Fatal Snipe/others/Ju$t48_(.pt2
+#EXTINF:-1,Fatal Snipe - jump2higher
+chiptunes/Fatal Snipe/others/jump2higher.pt2
+#EXTINF:-1,Fatal Snipe - KAZSH#3
+chiptunes/Fatal Snipe/others/KAZSH#3.pt2
+#EXTINF:-1,Fatal Snipe - KICKHER!
+chiptunes/Fatal Snipe/others/KICKHER!.pt2
+#EXTINF:-1,Fatal Snipe - KLJ
+chiptunes/Fatal Snipe/others/KLJ.pt2
+#EXTINF:-1,Fatal Snipe - KNOWN MUZA
+chiptunes/Fatal Snipe/others/KNOWN MUZA.pt2
+#EXTINF:-1,Fatal Snipe - KOLJA2
+chiptunes/Fatal Snipe/others/KOLJA2.pt2
+#EXTINF:-1,Fatal Snipe - KOLJA48
+chiptunes/Fatal Snipe/others/KOLJA48.pt2
+#EXTINF:-1,Fatal Snipe - KrackIT!
+chiptunes/Fatal Snipe/others/KrackIT!.pt2
+#EXTINF:-1,Fatal Snipe - L@$kut1
+chiptunes/Fatal Snipe/others/L@$kut1.pt2
+#EXTINF:-1,Fatal Snipe - L1F3
+chiptunes/Fatal Snipe/others/L1F3.pt2
+#EXTINF:-1,Fatal Snipe - L1N3$
+chiptunes/Fatal Snipe/others/L1N3$.pt2
+#EXTINF:-1,Fatal Snipe - LAK
+chiptunes/Fatal Snipe/others/LAK.pt2
+#EXTINF:-1,Fatal Snipe - LAPSUS
+chiptunes/Fatal Snipe/others/LAPSUS.pt2
+#EXTINF:-1,Fatal Snipe - Last'iv out two
+chiptunes/Fatal Snipe/others/Last'iv out two.pt2
+#EXTINF:-1,Fatal Snipe - LAT
+chiptunes/Fatal Snipe/others/LAT.pt2
+#EXTINF:-1,Fatal Snipe - LETMESEE
+chiptunes/Fatal Snipe/others/LETMESEE.pt2
+#EXTINF:-1,Fatal Snipe - Lojiiiiika
+chiptunes/Fatal Snipe/others/Lojiiiiika.pt2
+#EXTINF:-1,Fatal Snipe - LOK
+chiptunes/Fatal Snipe/others/LOK.pt2
+#EXTINF:-1,Fatal Snipe - LOVERS
+chiptunes/Fatal Snipe/others/LOVERS.pt2
+#EXTINF:-1,Fatal Snipe - LOX
+chiptunes/Fatal Snipe/others/LOX.pt2
+#EXTINF:-1,Fatal Snipe - LUIGI
+chiptunes/Fatal Snipe/others/LUIGI.pt2
+#EXTINF:-1,Fatal Snipe - MANDRAZH
+chiptunes/Fatal Snipe/others/MANDRAZH.pt2
+#EXTINF:-1,Fatal Snipe - Maniakzx
+chiptunes/Fatal Snipe/others/Maniakzx.pt2
+#EXTINF:-1,Fatal Snipe - MARKOSKY
+chiptunes/Fatal Snipe/others/MARKOSKY.pt2
+#EXTINF:-1,Fatal Snipe - MEHTAL_F
+chiptunes/Fatal Snipe/others/MEHTAL_F.pt2
+#EXTINF:-1,Fatal Snipe - MIDNIGHT
+chiptunes/Fatal Snipe/others/MIDNIGHT.pt2
+#EXTINF:-1,Fatal Snipe - MISTOS
+chiptunes/Fatal Snipe/others/MISTOS.pt2
+#EXTINF:-1,Fatal Snipe - MO
+chiptunes/Fatal Snipe/others/MO.pt2
+#EXTINF:-1,Fatal Snipe - MOb
+chiptunes/Fatal Snipe/others/MOb.pt2
+#EXTINF:-1,Fatal Snipe - MPAK3
+chiptunes/Fatal Snipe/others/MPAK3.pt2
+#EXTINF:-1,Fatal Snipe - MUZA
+chiptunes/Fatal Snipe/others/MUZA.pt2
+#EXTINF:-1,Fatal Snipe - Muza_
+chiptunes/Fatal Snipe/others/Muza_.pt2
+#EXTINF:-1,Fatal Snipe - N
+chiptunes/Fatal Snipe/others/N.pt2
+#EXTINF:-1,Fatal Snipe - N00N00
+chiptunes/Fatal Snipe/others/N00N00.pt2
+#EXTINF:-1,Fatal Snipe - NAU HAUZ RMX
+chiptunes/Fatal Snipe/others/NAU HAUZ RMX.pt2
+#EXTINF:-1,Fatal Snipe - Nearly Perhaps
+chiptunes/Fatal Snipe/others/Nearly Perhaps.pt2
+#EXTINF:-1,Fatal Snipe - NICK4ALL
+chiptunes/Fatal Snipe/others/NICK4ALL.pt2
+#EXTINF:-1,Fatal Snipe - of the of the end
+chiptunes/Fatal Snipe/others/of the of the end.pt2
+#EXTINF:-1,Fatal Snipe - Oxygene 4
+chiptunes/Fatal Snipe/others/Oxygene 4.pt2
+#EXTINF:-1,Fatal Snipe - PART1
+chiptunes/Fatal Snipe/others/PART1.pt2
+#EXTINF:-1,Fatal Snipe - PASKUDA
+chiptunes/Fatal Snipe/others/PASKUDA.pt2
+#EXTINF:-1,Fatal Snipe - PASTA
+chiptunes/Fatal Snipe/others/PASTA.pt2
+#EXTINF:-1,Fatal Snipe - PERHAPS
+chiptunes/Fatal Snipe/others/PERHAPS.pt2
+#EXTINF:-1,Fatal Snipe - PERIM
+chiptunes/Fatal Snipe/others/PERIM.pt2
+#EXTINF:-1,Fatal Snipe - PETKA
+chiptunes/Fatal Snipe/others/PETKA.pt2
+#EXTINF:-1,Fatal Snipe - PIK
+chiptunes/Fatal Snipe/others/PIK.pt2
+#EXTINF:-1,Fatal Snipe - POWERCAPATITY2
+chiptunes/Fatal Snipe/others/POWERCAPATITY2.pt2
+#EXTINF:-1,Fatal Snipe - PT2RULES
+chiptunes/Fatal Snipe/others/PT2RULES.pt2
+#EXTINF:-1,Fatal Snipe - Rave 4 UZ
+chiptunes/Fatal Snipe/others/Rave 4 UZ.pt2
+#EXTINF:-1,Fatal Snipe - RAVE1
+chiptunes/Fatal Snipe/others/RAVE1.pt2
+#EXTINF:-1,Fatal Snipe - RAVE3
+chiptunes/Fatal Snipe/others/RAVE3.pt2
+#EXTINF:-1,Fatal Snipe - RDAMM
+chiptunes/Fatal Snipe/others/RDAMM.pt2
+#EXTINF:-1,Fatal Snipe - REMIX6
+chiptunes/Fatal Snipe/others/REMIX6.pt2
+#EXTINF:-1,Fatal Snipe - ROBOTIC
+chiptunes/Fatal Snipe/others/ROBOTIC.pt2
+#EXTINF:-1,Fatal Snipe - S
+chiptunes/Fatal Snipe/others/S.pt2
+#EXTINF:-1,Fatal Snipe - SAMPLMA2
+chiptunes/Fatal Snipe/others/SAMPLMA2.pt2
+#EXTINF:-1,Fatal Snipe - SAMPLMAN
+chiptunes/Fatal Snipe/others/SAMPLMAN.pt2
+#EXTINF:-1,Fatal Snipe - SATELLIT
+chiptunes/Fatal Snipe/others/SATELLIT.pt2
+#EXTINF:-1,Fatal Snipe - SHIZ0FRX
+chiptunes/Fatal Snipe/others/SHIZ0FRX.pt2
+#EXTINF:-1,Fatal Snipe - SISKO
+chiptunes/Fatal Snipe/others/SISKO.pt2
+#EXTINF:-1,Fatal Snipe - SK
+chiptunes/Fatal Snipe/others/SK.pt2
+#EXTINF:-1,Fatal Snipe - sketch_10
+chiptunes/Fatal Snipe/others/sketch_10.pt2
+#EXTINF:-1,Fatal Snipe - sketch_16
+chiptunes/Fatal Snipe/others/sketch_16.pt2
+#EXTINF:-1,Fatal Snipe - sketch_18
+chiptunes/Fatal Snipe/others/sketch_18.pt2
+#EXTINF:-1,Fatal Snipe - sketch_19
+chiptunes/Fatal Snipe/others/sketch_19.pt2
+#EXTINF:-1,Fatal Snipe - sketch_20
+chiptunes/Fatal Snipe/others/sketch_20.pt2
+#EXTINF:-1,Fatal Snipe - sketch_21
+chiptunes/Fatal Snipe/others/sketch_21.pt2
+#EXTINF:-1,Fatal Snipe - sketch_22
+chiptunes/Fatal Snipe/others/sketch_22.pt2
+#EXTINF:-1,Fatal Snipe - sketch_23
+chiptunes/Fatal Snipe/others/sketch_23.pt2
+#EXTINF:-1,Fatal Snipe - sketch_24
+chiptunes/Fatal Snipe/others/sketch_24.pt2
+#EXTINF:-1,Fatal Snipe - sketch_25
+chiptunes/Fatal Snipe/others/sketch_25.pt2
+#EXTINF:-1,Fatal Snipe - sketch_26
+chiptunes/Fatal Snipe/others/sketch_26.pt2
+#EXTINF:-1,Fatal Snipe - sketch_27
+chiptunes/Fatal Snipe/others/sketch_27.pt2
+#EXTINF:-1,Fatal Snipe - sketch_28
+chiptunes/Fatal Snipe/others/sketch_28.pt2
+#EXTINF:-1,Fatal Snipe - sketch_29
+chiptunes/Fatal Snipe/others/sketch_29.pt2
+#EXTINF:-1,Fatal Snipe - sketch_30
+chiptunes/Fatal Snipe/others/sketch_30.pt2
+#EXTINF:-1,Fatal Snipe - sketch_31
+chiptunes/Fatal Snipe/others/sketch_31.pt2
+#EXTINF:-1,Fatal Snipe - sketch_32
+chiptunes/Fatal Snipe/others/sketch_32.pt2
+#EXTINF:-1,Fatal Snipe - sketch_33
+chiptunes/Fatal Snipe/others/sketch_33.pt2
+#EXTINF:-1,Fatal Snipe - sketch_34
+chiptunes/Fatal Snipe/others/sketch_34.pt2
+#EXTINF:-1,Fatal Snipe - sketch_35
+chiptunes/Fatal Snipe/others/sketch_35.pt2
+#EXTINF:-1,Fatal Snipe - sketch_36
+chiptunes/Fatal Snipe/others/sketch_36.pt2
+#EXTINF:-1,Fatal Snipe - sketch_37
+chiptunes/Fatal Snipe/others/sketch_37.pt2
+#EXTINF:-1,Fatal Snipe - sketch_38
+chiptunes/Fatal Snipe/others/sketch_38.pt2
+#EXTINF:-1,Fatal Snipe - sketch_39
+chiptunes/Fatal Snipe/others/sketch_39.pt2
+#EXTINF:-1,Fatal Snipe - sketch_40
+chiptunes/Fatal Snipe/others/sketch_40.pt2
+#EXTINF:-1,Fatal Snipe - sketch_41
+chiptunes/Fatal Snipe/others/sketch_41.pt2
+#EXTINF:-1,Fatal Snipe - sketch_42
+chiptunes/Fatal Snipe/others/sketch_42.pt2
+#EXTINF:-1,Fatal Snipe - sketch_43
+chiptunes/Fatal Snipe/others/sketch_43.pt2
+#EXTINF:-1,Fatal Snipe - sketch_44
+chiptunes/Fatal Snipe/others/sketch_44.pt2
+#EXTINF:-1,Fatal Snipe - sketch_45
+chiptunes/Fatal Snipe/others/sketch_45.pt2
+#EXTINF:-1,Fatal Snipe - sketch_46
+chiptunes/Fatal Snipe/others/sketch_46.pt2
+#EXTINF:-1,Fatal Snipe - sketch_47
+chiptunes/Fatal Snipe/others/sketch_47.pt2
+#EXTINF:-1,Fatal Snipe - sketch_48
+chiptunes/Fatal Snipe/others/sketch_48.pt2
+#EXTINF:-1,Fatal Snipe - sketch_49
+chiptunes/Fatal Snipe/others/sketch_49.pt2
+#EXTINF:-1,Fatal Snipe - sketch_50
+chiptunes/Fatal Snipe/others/sketch_50.pt2
+#EXTINF:-1,Fatal Snipe - sketch_51
+chiptunes/Fatal Snipe/others/sketch_51.pt2
+#EXTINF:-1,Fatal Snipe - sketch_52
+chiptunes/Fatal Snipe/others/sketch_52.pt2
+#EXTINF:-1,Fatal Snipe - sketch_53
+chiptunes/Fatal Snipe/others/sketch_53.pt2
+#EXTINF:-1,Fatal Snipe - sketch_54
+chiptunes/Fatal Snipe/others/sketch_54.pt2
+#EXTINF:-1,Fatal Snipe - sketch_55
+chiptunes/Fatal Snipe/others/sketch_55.pt2
+#EXTINF:-1,Fatal Snipe - sketch_56
+chiptunes/Fatal Snipe/others/sketch_56.pt2
+#EXTINF:-1,Fatal Snipe - sketch_57
+chiptunes/Fatal Snipe/others/sketch_57.pt2
+#EXTINF:-1,Fatal Snipe - sketch_58
+chiptunes/Fatal Snipe/others/sketch_58.pt2
+#EXTINF:-1,Fatal Snipe - sketch_59
+chiptunes/Fatal Snipe/others/sketch_59.pt2
+#EXTINF:-1,Fatal Snipe - sketch_60
+chiptunes/Fatal Snipe/others/sketch_60.pt2
+#EXTINF:-1,Fatal Snipe - sketch_61
+chiptunes/Fatal Snipe/others/sketch_61.pt2
+#EXTINF:-1,Fatal Snipe - sketch_62
+chiptunes/Fatal Snipe/others/sketch_62.pt2
+#EXTINF:-1,Fatal Snipe - sketch_63
+chiptunes/Fatal Snipe/others/sketch_63.pt2
+#EXTINF:-1,Fatal Snipe - sketch_64
+chiptunes/Fatal Snipe/others/sketch_64.pt2
+#EXTINF:-1,Fatal Snipe - sketch_65
+chiptunes/Fatal Snipe/others/sketch_65.pt2
+#EXTINF:-1,Fatal Snipe - sketch_66
+chiptunes/Fatal Snipe/others/sketch_66.pt2
+#EXTINF:-1,Fatal Snipe - sketch_67
+chiptunes/Fatal Snipe/others/sketch_67.pt2
+#EXTINF:-1,Fatal Snipe - sketch_68
+chiptunes/Fatal Snipe/others/sketch_68.pt2
+#EXTINF:-1,Fatal Snipe - sketch_69
+chiptunes/Fatal Snipe/others/sketch_69.pt2
+#EXTINF:-1,Fatal Snipe - sketch_70
+chiptunes/Fatal Snipe/others/sketch_70.pt2
+#EXTINF:-1,Fatal Snipe - sketch_71
+chiptunes/Fatal Snipe/others/sketch_71.pt2
+#EXTINF:-1,Fatal Snipe - sketch_72
+chiptunes/Fatal Snipe/others/sketch_72.pt2
+#EXTINF:-1,Fatal Snipe - sketch_73
+chiptunes/Fatal Snipe/others/sketch_73.pt2
+#EXTINF:-1,Fatal Snipe - sketch_74
+chiptunes/Fatal Snipe/others/sketch_74.pt2
+#EXTINF:-1,Fatal Snipe - sketch_75
+chiptunes/Fatal Snipe/others/sketch_75.pt2
+#EXTINF:-1,Fatal Snipe - sketch_76
+chiptunes/Fatal Snipe/others/sketch_76.pt2
+#EXTINF:-1,Fatal Snipe - sketch_77
+chiptunes/Fatal Snipe/others/sketch_77.pt2
+#EXTINF:-1,Fatal Snipe - sketch_78
+chiptunes/Fatal Snipe/others/sketch_78.pt2
+#EXTINF:-1,Fatal Snipe - sketch_79
+chiptunes/Fatal Snipe/others/sketch_79.pt2
+#EXTINF:-1,Fatal Snipe - sketch_80
+chiptunes/Fatal Snipe/others/sketch_80.pt2
+#EXTINF:-1,Fatal Snipe - sketch_81
+chiptunes/Fatal Snipe/others/sketch_81.pt2
+#EXTINF:-1,Fatal Snipe - sketch_82
+chiptunes/Fatal Snipe/others/sketch_82.pt2
+#EXTINF:-1,Fatal Snipe - sketch_83
+chiptunes/Fatal Snipe/others/sketch_83.pt2
+#EXTINF:-1,Fatal Snipe - sketch_84
+chiptunes/Fatal Snipe/others/sketch_84.pt2
+#EXTINF:-1,Fatal Snipe - sketch_85
+chiptunes/Fatal Snipe/others/sketch_85.pt2
+#EXTINF:-1,Fatal Snipe - sketch_86
+chiptunes/Fatal Snipe/others/sketch_86.pt2
+#EXTINF:-1,Fatal Snipe - sketch_87
+chiptunes/Fatal Snipe/others/sketch_87.pt2
+#EXTINF:-1,Fatal Snipe - sketch_88
+chiptunes/Fatal Snipe/others/sketch_88.pt2
+#EXTINF:-1,Fatal Snipe - sketch_89
+chiptunes/Fatal Snipe/others/sketch_89.pt2
+#EXTINF:-1,Fatal Snipe - sketch_90
+chiptunes/Fatal Snipe/others/sketch_90.pt2
+#EXTINF:-1,Fatal Snipe - sketch_91
+chiptunes/Fatal Snipe/others/sketch_91.pt2
+#EXTINF:-1,Fatal Snipe - sketch_92
+chiptunes/Fatal Snipe/others/sketch_92.pt2
+#EXTINF:-1,Fatal Snipe - sketch_93
+chiptunes/Fatal Snipe/others/sketch_93.pt2
+#EXTINF:-1,Fatal Snipe - sketch_94
+chiptunes/Fatal Snipe/others/sketch_94.pt2
+#EXTINF:-1,Fatal Snipe - sketch_95
+chiptunes/Fatal Snipe/others/sketch_95.pt2
+#EXTINF:-1,Fatal Snipe - sketch_96
+chiptunes/Fatal Snipe/others/sketch_96.pt3
+#EXTINF:-1,Fatal Snipe - Speed Mind
+chiptunes/Fatal Snipe/others/Speed Mind.pt2
+#EXTINF:-1,Fatal Snipe - SPEEDMIN
+chiptunes/Fatal Snipe/others/SPEEDMIN.pt2
+#EXTINF:-1,Fatal Snipe - SPEEDMOD
+chiptunes/Fatal Snipe/others/SPEEDMOD.pt2
+#EXTINF:-1,Fatal Snipe - SUXX
+chiptunes/Fatal Snipe/others/SUXX.pt3
+#EXTINF:-1,Fatal Snipe - TD
+chiptunes/Fatal Snipe/others/TD.pt2
+#EXTINF:-1,Fatal Snipe - TEPMEX
+chiptunes/Fatal Snipe/others/TEPMEX.pt2
+#EXTINF:-1,Fatal Snipe - The BIG love of me
+chiptunes/Fatal Snipe/others/The BIG love of me.pt2
+#EXTINF:-1,Fatal Snipe - Thing Brain
+chiptunes/Fatal Snipe/others/Thing Brain.pt2
+#EXTINF:-1,Fatal Snipe - THRILLA
+chiptunes/Fatal Snipe/others/THRILLA.pt2
+#EXTINF:-1,Fatal Snipe - Trak out key-boarD
+chiptunes/Fatal Snipe/others/Trak out key-boarD.pt2
+#EXTINF:-1,Fatal Snipe - Used
+chiptunes/Fatal Snipe/others/Used.pt3
+#EXTINF:-1,Fatal Snipe - v go 2 Minsk!
+chiptunes/Fatal Snipe/others/v go 2 Minsk!.pt2
+#EXTINF:-1,Fatal Snipe - Very BurgHujz
+chiptunes/Fatal Snipe/others/Very BurgHujz.pt2
+#EXTINF:-1,Fatal Snipe - VERYOLDS
+chiptunes/Fatal Snipe/others/VERYOLDS.pt2
+#EXTINF:-1,Fatal Snipe - Voice of Damn#1
+chiptunes/Fatal Snipe/others/Voice of Damn#1.pt2
+#EXTINF:-1,Fatal Snipe - VOODOO
+chiptunes/Fatal Snipe/others/VOODOO.pt2
+#EXTINF:-1,Fatal Snipe - X3m1x
+chiptunes/Fatal Snipe/others/X3m1x.pt2
+#EXTINF:-1,Fatal Snipe - XYZIEZ
+chiptunes/Fatal Snipe/others/XYZIEZ.pt2
+#EXTINF:-1,Fatal Snipe - ZELDERMENTS
+chiptunes/Fatal Snipe/others/ZELDERMENTS.pt2
+#EXTINF:-1,Fatal Snipe - ZIBO
+chiptunes/Fatal Snipe/others/ZIBO.pt2
+#EXTINF:-1,Fatal Snipe - ZXOLDSTL
+chiptunes/Fatal Snipe/others/ZXOLDSTL.pt2
 #EXTGRP:Firestarter
-#EXTINF:-1,Firestarter - ________
-chiptunes/Firestarter/________.fym
-#EXTINF:-1,Firestarter - _sb
-chiptunes/Firestarter/_sb.fym
 #EXTINF:-1,Firestarter - ,q_ropho
 chiptunes/Firestarter/,q_ropho.fym
 #EXTINF:-1,Firestarter - 1_mapta
 chiptunes/Firestarter/1_mapta.fym
-#EXTINF:-1,Firestarter - 11_11_20
-chiptunes/Firestarter/11_11_20.fym
 #EXTINF:-1,Firestarter - 15
 chiptunes/Firestarter/15.fym
-#EXTINF:-1,Firestarter - 19_bek
-chiptunes/Firestarter/19_bek.fym
-#EXTINF:-1,Firestarter - 2_sen
-chiptunes/Firestarter/2_sen.fym
 #EXTINF:-1,Firestarter - 3a6behue
 chiptunes/Firestarter/3a6behue.fym
-#EXTINF:-1,Firestarter - 3a6utahu
-chiptunes/Firestarter/3a6utahu.fym
 #EXTINF:-1,Firestarter - 3adopho2
 chiptunes/Firestarter/3adopho2.fym
 #EXTINF:-1,Firestarter - 3akat
@@ -9114,20 +9062,12 @@ chiptunes/Firestarter/3akoc_no.fym
 chiptunes/Firestarter/3akoc_no_alco_version.fym
 #EXTINF:-1,Firestarter - 3akocmix
 chiptunes/Firestarter/3akocmix.fym
-#EXTINF:-1,Firestarter - 3amyta
-chiptunes/Firestarter/3amyta.fym
 #EXTINF:-1,Firestarter - 3byku
 chiptunes/Firestarter/3byku.fym
 #EXTINF:-1,Firestarter - 3elehaq
 chiptunes/Firestarter/3elehaq.fym
-#EXTINF:-1,Firestarter - 3k3ema
-chiptunes/Firestarter/3k3ema.fym
 #EXTINF:-1,Firestarter - 3tu,ioh
 chiptunes/Firestarter/3tu,ioh.fym
-#EXTINF:-1,Firestarter - 6bictpeu
-chiptunes/Firestarter/6bictpeu.fym
-#EXTINF:-1,Firestarter - 6ele6ep
-chiptunes/Firestarter/6ele6ep.fym
 #EXTINF:-1,Firestarter - 6o_kectb
 chiptunes/Firestarter/6o_kectb.fym
 #EXTINF:-1,Firestarter - 8_bit
@@ -9136,12 +9076,6 @@ chiptunes/Firestarter/8_bit.fym
 chiptunes/Firestarter/a_korda.fym
 #EXTINF:-1,Firestarter - a_tom_ka
 chiptunes/Firestarter/a_tom_ka.fym
-#EXTINF:-1,Firestarter - aha
-chiptunes/Firestarter/aha.fym
-#EXTINF:-1,Firestarter - ahedgw
-chiptunes/Firestarter/ahedgw.fym
-#EXTINF:-1,Firestarter - alone_co
-chiptunes/Firestarter/alone_co.fym
 #EXTINF:-1,Firestarter - alterna2
 chiptunes/Firestarter/alterna2.fym
 #EXTINF:-1,Firestarter - alternat
@@ -9158,28 +9092,16 @@ chiptunes/Firestarter/b_3abbit.fym
 chiptunes/Firestarter/b_3tom2.fym
 #EXTINF:-1,Firestarter - b_3tom3
 chiptunes/Firestarter/b_3tom3.fym
-#EXTINF:-1,Firestarter - baset
-chiptunes/Firestarter/baset.fym
 #EXTINF:-1,Firestarter - bass_put
 chiptunes/Firestarter/bass_put.fym
-#EXTINF:-1,Firestarter - basspart
-chiptunes/Firestarter/basspart.fym
-#EXTINF:-1,Firestarter - bce_mept
-chiptunes/Firestarter/bce_mept.fym
 #EXTINF:-1,Firestarter - be4ha_q
 chiptunes/Firestarter/be4ha_q.fym
 #EXTINF:-1,Firestarter - be4ha,q
 chiptunes/Firestarter/be4ha,q.fym
-#EXTINF:-1,Firestarter - be4ho__q
-chiptunes/Firestarter/be4ho__q.fym
 #EXTINF:-1,Firestarter - bg_day
 chiptunes/Firestarter/bg_day.fym
 #EXTINF:-1,Firestarter - bo3dyluh
 chiptunes/Firestarter/bo3dyluh.fym
-#EXTINF:-1,Firestarter - buy
-chiptunes/Firestarter/buy.fym
-#EXTINF:-1,Firestarter - byr
-chiptunes/Firestarter/byr.fym
 #EXTINF:-1,Firestarter - c,iaba
 chiptunes/Firestarter/c,iaba.fym
 #EXTINF:-1,Firestarter - cavern_d
@@ -9192,42 +9114,20 @@ chiptunes/Firestarter/chankys_.fym
 chiptunes/Firestarter/cka4ku.fym
 #EXTINF:-1,Firestarter - close_cl
 chiptunes/Firestarter/close_cl.fym
-#EXTINF:-1,Firestarter - cnantaho
-chiptunes/Firestarter/cnantaho.fym
-#EXTINF:-1,Firestarter - cnythik
-chiptunes/Firestarter/cnythik.fym
-#EXTINF:-1,Firestarter - coh
-chiptunes/Firestarter/coh.fym
 #EXTINF:-1,Firestarter - cohrem
 chiptunes/Firestarter/cohrem.fym
 #EXTINF:-1,Firestarter - cok
 chiptunes/Firestarter/cok.fym
 #EXTINF:-1,Firestarter - cold_eve
 chiptunes/Firestarter/cold_eve.fym
-#EXTINF:-1,Firestarter - copyr
-chiptunes/Firestarter/copyr.fym
-#EXTINF:-1,Firestarter - copyrka
-chiptunes/Firestarter/copyrka.fym
-#EXTINF:-1,Firestarter - cpu
-chiptunes/Firestarter/cpu.fym
 #EXTINF:-1,Firestarter - criomatr
 chiptunes/Firestarter/criomatr.fym
-#EXTINF:-1,Firestarter - ctap
-chiptunes/Firestarter/ctap.fym
 #EXTINF:-1,Firestarter - ctapbiu
 chiptunes/Firestarter/ctapbiu.fym
-#EXTINF:-1,Firestarter - ctapbiu2
-chiptunes/Firestarter/ctapbiu2.fym
-#EXTINF:-1,Firestarter - ctpahho
-chiptunes/Firestarter/ctpahho.fym
 #EXTINF:-1,Firestarter - ctpaho
 chiptunes/Firestarter/ctpaho.fym
 #EXTINF:-1,Firestarter - ctu_ib_
 chiptunes/Firestarter/ctu_ib_.fym
-#EXTINF:-1,Firestarter - cuclik
-chiptunes/Firestarter/cuclik.fym
-#EXTINF:-1,Firestarter - cyan
-chiptunes/Firestarter/cyan.fym
 #EXTINF:-1,Firestarter - cympak
 chiptunes/Firestarter/cympak.fym
 #EXTINF:-1,Firestarter - cympak2
@@ -9236,8 +9136,6 @@ chiptunes/Firestarter/cympak2.fym
 chiptunes/Firestarter/cympakbm.fym
 #EXTINF:-1,Firestarter - da_ne_nu
 chiptunes/Firestarter/da_ne_nu.fym
-#EXTINF:-1,Firestarter - dab_ienu
-chiptunes/Firestarter/dab_ienu.fym
 #EXTINF:-1,Firestarter - dance
 chiptunes/Firestarter/dance.fym
 #EXTINF:-1,Firestarter - dance_80
@@ -9252,38 +9150,18 @@ chiptunes/Firestarter/dee-joos.fym
 chiptunes/Firestarter/dee2joos.fym
 #EXTINF:-1,Firestarter - dehb
 chiptunes/Firestarter/dehb.fym
-#EXTINF:-1,Firestarter - delete
-chiptunes/Firestarter/delete.fym
-#EXTINF:-1,Firestarter - did
-chiptunes/Firestarter/did.fym
 #EXTINF:-1,Firestarter - dipres
 chiptunes/Firestarter/dipres.fym
 #EXTINF:-1,Firestarter - dj_2
 chiptunes/Firestarter/dj_2.fym
 #EXTINF:-1,Firestarter - dream_d
 chiptunes/Firestarter/dream_d.fym
-#EXTINF:-1,Firestarter - drug
-chiptunes/Firestarter/drug.fym
-#EXTINF:-1,Firestarter - edwn
-chiptunes/Firestarter/edwn.fym
-#EXTINF:-1,Firestarter - efe
-chiptunes/Firestarter/efe.fym
-#EXTINF:-1,Firestarter - effect
-chiptunes/Firestarter/effect.fym
-#EXTINF:-1,Firestarter - ehhoq
-chiptunes/Firestarter/ehhoq.fym
 #EXTINF:-1,Firestarter - elf
 chiptunes/Firestarter/elf.fym
 #EXTINF:-1,Firestarter - engal
 chiptunes/Firestarter/engal.fym
-#EXTINF:-1,Firestarter - erunet
-chiptunes/Firestarter/erunet.fym
 #EXTINF:-1,Firestarter - figgy
 chiptunes/Firestarter/figgy.fym
-#EXTINF:-1,Firestarter - fignq
-chiptunes/Firestarter/fignq.fym
-#EXTINF:-1,Firestarter - figowina
-chiptunes/Firestarter/figowina.fym
 #EXTINF:-1,Firestarter - fiolet
 chiptunes/Firestarter/fiolet.fym
 #EXTINF:-1,Firestarter - firex
@@ -9296,56 +9174,30 @@ chiptunes/Firestarter/fixscene.fym
 chiptunes/Firestarter/for_6y,i.fym
 #EXTINF:-1,Firestarter - freez
 chiptunes/Firestarter/freez.fym
-#EXTINF:-1,Firestarter - fucks
-chiptunes/Firestarter/fucks.fym
-#EXTINF:-1,Firestarter - funicks
-chiptunes/Firestarter/funicks.fym
-#EXTINF:-1,Firestarter - funkon
-chiptunes/Firestarter/funkon.fym
-#EXTINF:-1,Firestarter - funtik
-chiptunes/Firestarter/funtik.fym
 #EXTINF:-1,Firestarter - fuper_mu
 chiptunes/Firestarter/fuper_mu.fym
 #EXTINF:-1,Firestarter - fuxk
 chiptunes/Firestarter/fuxk.fym
 #EXTINF:-1,Firestarter - fy
 chiptunes/Firestarter/fy.fym
-#EXTINF:-1,Firestarter - gameover
-chiptunes/Firestarter/gameover.fym
-#EXTINF:-1,Firestarter - gansters
-chiptunes/Firestarter/gansters.fym
-#EXTINF:-1,Firestarter - gradaciq
-chiptunes/Firestarter/gradaciq.fym
 #EXTINF:-1,Firestarter - haeby
 chiptunes/Firestarter/haeby.fym
 #EXTINF:-1,Firestarter - haluectb
 chiptunes/Firestarter/haluectb.fym
-#EXTINF:-1,Firestarter - hame
-chiptunes/Firestarter/hame.fym
 #EXTINF:-1,Firestarter - hard_sux
 chiptunes/Firestarter/hard_sux.fym
-#EXTINF:-1,Firestarter - he_be3et
-chiptunes/Firestarter/he_be3et.fym
 #EXTINF:-1,Firestarter - he_uda4a
 chiptunes/Firestarter/he_uda4a.fym
 #EXTINF:-1,Firestarter - he4to_a6
 chiptunes/Firestarter/he4to_a6.fym
-#EXTINF:-1,Firestarter - head_pin
-chiptunes/Firestarter/head_pin.fym
 #EXTINF:-1,Firestarter - heavy
 chiptunes/Firestarter/heavy.fym
 #EXTINF:-1,Firestarter - heavy_s
 chiptunes/Firestarter/heavy_s.fym
 #EXTINF:-1,Firestarter - heavy-alco_version
 chiptunes/Firestarter/heavy-alco_version.fym
-#EXTINF:-1,Firestarter - heavy2
-chiptunes/Firestarter/heavy2.fym
 #EXTINF:-1,Firestarter - hecto
 chiptunes/Firestarter/hecto.fym
-#EXTINF:-1,Firestarter - hes
-chiptunes/Firestarter/hes.fym
-#EXTINF:-1,Firestarter - hewle
-chiptunes/Firestarter/hewle.fym
 #EXTINF:-1,Firestarter - hobbiu
 chiptunes/Firestarter/hobbiu.fym
 #EXTINF:-1,Firestarter - hobbiu_
@@ -9354,20 +9206,12 @@ chiptunes/Firestarter/hobbiu_.fym
 chiptunes/Firestarter/hobbiu2.fym
 #EXTINF:-1,Firestarter - hoboe
 chiptunes/Firestarter/hoboe.fym
-#EXTINF:-1,Firestarter - home
-chiptunes/Firestarter/home.fym
 #EXTINF:-1,Firestarter - horrow
 chiptunes/Firestarter/horrow.fym
-#EXTINF:-1,Firestarter - humorok
-chiptunes/Firestarter/humorok.fym
 #EXTINF:-1,Firestarter - hypoclut
 chiptunes/Firestarter/hypoclut.fym
 #EXTINF:-1,Firestarter - i_don_t
 chiptunes/Firestarter/i_don_t.fym
-#EXTINF:-1,Firestarter - i_must
-chiptunes/Firestarter/i_must.fym
-#EXTINF:-1,Firestarter - iahnran
-chiptunes/Firestarter/iahnran.fym
 #EXTINF:-1,Firestarter - iii
 chiptunes/Firestarter/iii.fym
 #EXTINF:-1,Firestarter - intro
@@ -9376,36 +9220,14 @@ chiptunes/Firestarter/intro.fym
 chiptunes/Firestarter/itu.fym
 #EXTINF:-1,Firestarter - jass_out
 chiptunes/Firestarter/jass_out.fym
-#EXTINF:-1,Firestarter - jejdq
-chiptunes/Firestarter/jejdq.fym
-#EXTINF:-1,Firestarter - jhtgfgw
-chiptunes/Firestarter/jhtgfgw.fym
-#EXTINF:-1,Firestarter - jjj
-chiptunes/Firestarter/jjj.fym
 #EXTINF:-1,Firestarter - kak_b_kh
 chiptunes/Firestarter/kak_b_kh.fym
-#EXTINF:-1,Firestarter - kan_i_q
-chiptunes/Firestarter/kan_i_q.fym
-#EXTINF:-1,Firestarter - kan_ib_q
-chiptunes/Firestarter/kan_ib_q.fym
 #EXTINF:-1,Firestarter - kapatuct
 chiptunes/Firestarter/kapatuct.fym
-#EXTINF:-1,Firestarter - karkula
-chiptunes/Firestarter/karkula.fym
-#EXTINF:-1,Firestarter - kaska
-chiptunes/Firestarter/kaska.fym
 #EXTINF:-1,Firestarter - kbapta
 chiptunes/Firestarter/kbapta.fym
-#EXTINF:-1,Firestarter - kids
-chiptunes/Firestarter/kids.fym
 #EXTINF:-1,Firestarter - kocmoc
 chiptunes/Firestarter/kocmoc.fym
-#EXTINF:-1,Firestarter - kolnak
-chiptunes/Firestarter/kolnak.fym
-#EXTINF:-1,Firestarter - komotoz2
-chiptunes/Firestarter/komotoz2.fym
-#EXTINF:-1,Firestarter - korda
-chiptunes/Firestarter/korda.fym
 #EXTINF:-1,Firestarter - kpyru
 chiptunes/Firestarter/kpyru.fym
 #EXTINF:-1,Firestarter - kto_o6be
@@ -9420,62 +9242,28 @@ chiptunes/Firestarter/little.fym
 chiptunes/Firestarter/loeme.fym
 #EXTINF:-1,Firestarter - luedebp
 chiptunes/Firestarter/luedebp.fym
-#EXTINF:-1,Firestarter - ly
-chiptunes/Firestarter/ly.fym
-#EXTINF:-1,Firestarter - mananba
-chiptunes/Firestarter/mananba.fym
 #EXTINF:-1,Firestarter - mapa3m
 chiptunes/Firestarter/mapa3m.fym
-#EXTINF:-1,Firestarter - marazm2
-chiptunes/Firestarter/marazm2.fym
 #EXTINF:-1,Firestarter - marazzm
 chiptunes/Firestarter/marazzm.fym
-#EXTINF:-1,Firestarter - melok
-chiptunes/Firestarter/melok.fym
 #EXTINF:-1,Firestarter - metall
 chiptunes/Firestarter/metall.fym
-#EXTINF:-1,Firestarter - metall_h
-chiptunes/Firestarter/metall_h.fym
-#EXTINF:-1,Firestarter - metallaj
-chiptunes/Firestarter/metallaj.fym
-#EXTINF:-1,Firestarter - metalza
-chiptunes/Firestarter/metalza.fym
 #EXTINF:-1,Firestarter - mhoro
 chiptunes/Firestarter/mhoro.fym
-#EXTINF:-1,Firestarter - might m3
-chiptunes/Firestarter/might m3.fym
 #EXTINF:-1,Firestarter - mini_tr_
 chiptunes/Firestarter/mini_tr_.fym
 #EXTINF:-1,Firestarter - miniotur
 chiptunes/Firestarter/miniotur.fym
 #EXTINF:-1,Firestarter - mirage
 chiptunes/Firestarter/mirage.fym
-#EXTINF:-1,Firestarter - mix2
-chiptunes/Firestarter/mix2.fym
 #EXTINF:-1,Firestarter - mo_ket
 chiptunes/Firestarter/mo_ket.fym
 #EXTINF:-1,Firestarter - mody,ib
 chiptunes/Firestarter/mody,ib.fym
 #EXTINF:-1,Firestarter - msa
 chiptunes/Firestarter/msa.fym
-#EXTINF:-1,Firestarter - mu3a
-chiptunes/Firestarter/mu3a.fym
-#EXTINF:-1,Firestarter - music
-chiptunes/Firestarter/music.fym
-#EXTINF:-1,Firestarter - music2
-chiptunes/Firestarter/music2.fym
-#EXTINF:-1,Firestarter - my_dream
-chiptunes/Firestarter/my_dream.fym
-#EXTINF:-1,Firestarter - mz
-chiptunes/Firestarter/mz.fym
-#EXTINF:-1,Firestarter - nago
-chiptunes/Firestarter/nago.fym
-#EXTINF:-1,Firestarter - napa
-chiptunes/Firestarter/napa.fym
 #EXTINF:-1,Firestarter - napodua
 chiptunes/Firestarter/napodua.fym
-#EXTINF:-1,Firestarter - ncuxoc
-chiptunes/Firestarter/ncuxoc.fym
 #EXTINF:-1,Firestarter - nepcekti
 chiptunes/Firestarter/nepcekti.fym
 #EXTINF:-1,Firestarter - neped
@@ -9486,14 +9274,6 @@ chiptunes/Firestarter/neron.fym
 chiptunes/Firestarter/neu3a_k.fym
 #EXTINF:-1,Firestarter - newz
 chiptunes/Firestarter/newz.fym
-#EXTINF:-1,Firestarter - nifit
-chiptunes/Firestarter/nifit.fym
-#EXTINF:-1,Firestarter - night
-chiptunes/Firestarter/night.fym
-#EXTINF:-1,Firestarter - ninh
-chiptunes/Firestarter/ninh.fym
-#EXTINF:-1,Firestarter - nnol
-chiptunes/Firestarter/nnol.fym
 #EXTINF:-1,Firestarter - no_more
 chiptunes/Firestarter/no_more.fym
 #EXTINF:-1,Firestarter - no_ty
@@ -9502,84 +9282,42 @@ chiptunes/Firestarter/no_ty.fym
 chiptunes/Firestarter/no,i,qph.fym
 #EXTINF:-1,Firestarter - no6eda2
 chiptunes/Firestarter/no6eda2.fym
-#EXTINF:-1,Firestarter - noname_(
-chiptunes/Firestarter/noname_(.fym
-#EXTINF:-1,Firestarter - noname1
-chiptunes/Firestarter/noname1.fym
-#EXTINF:-1,Firestarter - noq
-chiptunes/Firestarter/noq.fym
 #EXTINF:-1,Firestarter - npo3pa4h
 chiptunes/Firestarter/npo3pa4h.fym
-#EXTINF:-1,Firestarter - npocto
-chiptunes/Firestarter/npocto.fym
-#EXTINF:-1,Firestarter - npuopete
-chiptunes/Firestarter/npuopete.fym
 #EXTINF:-1,Firestarter - nputok
 chiptunes/Firestarter/nputok.fym
 #EXTINF:-1,Firestarter - nxhwh
 chiptunes/Firestarter/nxhwh.fym
 #EXTINF:-1,Firestarter - o_3to
 chiptunes/Firestarter/o_3to.fym
-#EXTINF:-1,Firestarter - o4ehb
-chiptunes/Firestarter/o4ehb.fym
 #EXTINF:-1,Firestarter - ocmuhoru
 chiptunes/Firestarter/ocmuhoru.fym
 #EXTINF:-1,Firestarter - oduho4u2
 chiptunes/Firestarter/oduho4u2.fym
-#EXTINF:-1,Firestarter - oh_he
-chiptunes/Firestarter/oh_he.fym
 #EXTINF:-1,Firestarter - ohao6pa3
 chiptunes/Firestarter/ohao6pa3.fym
-#EXTINF:-1,Firestarter - okeah
-chiptunes/Firestarter/okeah.fym
-#EXTINF:-1,Firestarter - on_nahku
-chiptunes/Firestarter/on_nahku.fym
-#EXTINF:-1,Firestarter - onatu,q
-chiptunes/Firestarter/onatu,q.fym
-#EXTINF:-1,Firestarter - opqtx
-chiptunes/Firestarter/opqtx.fym
 #EXTINF:-1,Firestarter - ornamen2
 chiptunes/Firestarter/ornamen2.fym
 #EXTINF:-1,Firestarter - otmopo_k
 chiptunes/Firestarter/otmopo_k.fym
-#EXTINF:-1,Firestarter - otmopo3k
-chiptunes/Firestarter/otmopo3k.fym
-#EXTINF:-1,Firestarter - oug
-chiptunes/Firestarter/oug.fym
-#EXTINF:-1,Firestarter - ourggig
-chiptunes/Firestarter/ourggig.fym
 #EXTINF:-1,Firestarter - pacbet
 chiptunes/Firestarter/pacbet.fym
 #EXTINF:-1,Firestarter - party
 chiptunes/Firestarter/party.fym
 #EXTINF:-1,Firestarter - party_i
 chiptunes/Firestarter/party_i.fym
-#EXTINF:-1,Firestarter - patern_c
-chiptunes/Firestarter/patern_c.fym
 #EXTINF:-1,Firestarter - pattern
 chiptunes/Firestarter/pattern.fym
 #EXTINF:-1,Firestarter - pc_mhe
 chiptunes/Firestarter/pc_mhe.fym
 #EXTINF:-1,Firestarter - po3obbie
 chiptunes/Firestarter/po3obbie.fym
-#EXTINF:-1,Firestarter - pok
-chiptunes/Firestarter/pok.fym
-#EXTINF:-1,Firestarter - pokes
-chiptunes/Firestarter/pokes.fym
-#EXTINF:-1,Firestarter - pricol2
-chiptunes/Firestarter/pricol2.fym
-#EXTINF:-1,Firestarter - prodigy
-chiptunes/Firestarter/prodigy.fym
 #EXTINF:-1,Firestarter - progress
 chiptunes/Firestarter/progress.fym
-#EXTINF:-1,Firestarter - psyho
-chiptunes/Firestarter/psyho.fym
 #EXTINF:-1,Firestarter - qpu7ypa
 chiptunes/Firestarter/qpu7ypa.fym
 #EXTINF:-1,Firestarter - qpu7ypaa
 chiptunes/Firestarter/qpu7ypaa.fym
-#EXTINF:-1,Firestarter - qpzih
-chiptunes/Firestarter/qpzih.fym
 #EXTINF:-1,Firestarter - r,iio4ha
 chiptunes/Firestarter/r,iio4ha.fym
 #EXTINF:-1,Firestarter - rapmohuq
@@ -9590,44 +9328,16 @@ chiptunes/Firestarter/rave.fym
 chiptunes/Firestarter/raves.fym
 #EXTINF:-1,Firestarter - red_quee
 chiptunes/Firestarter/red_quee.fym
-#EXTINF:-1,Firestarter - reload_m
-chiptunes/Firestarter/reload_m.fym
-#EXTINF:-1,Firestarter - ritmpix
-chiptunes/Firestarter/ritmpix.fym
-#EXTINF:-1,Firestarter - rnd_orna
-chiptunes/Firestarter/rnd_orna.fym
-#EXTINF:-1,Firestarter - rock
-chiptunes/Firestarter/rock.fym
 #EXTINF:-1,Firestarter - rohbi
 chiptunes/Firestarter/rohbi.fym
-#EXTINF:-1,Firestarter - rs
-chiptunes/Firestarter/rs.fym
-#EXTINF:-1,Firestarter - rtim
-chiptunes/Firestarter/rtim.fym
-#EXTINF:-1,Firestarter - s_r_4_ym
-chiptunes/Firestarter/s_r_4_ym.fym
-#EXTINF:-1,Firestarter - sceleton
-chiptunes/Firestarter/sceleton.fym
-#EXTINF:-1,Firestarter - sdcp
-chiptunes/Firestarter/sdcp.fym
-#EXTINF:-1,Firestarter - sfeer
-chiptunes/Firestarter/sfeer.fym
-#EXTINF:-1,Firestarter - shmd3_64
-chiptunes/Firestarter/shmd3_64.fym
-#EXTINF:-1,Firestarter - shortik
-chiptunes/Firestarter/shortik.fym
 #EXTINF:-1,Firestarter - simple
 chiptunes/Firestarter/simple.fym
 #EXTINF:-1,Firestarter - sinusoid
 chiptunes/Firestarter/sinusoid.fym
 #EXTINF:-1,Firestarter - sitvd
 chiptunes/Firestarter/sitvd.fym
-#EXTINF:-1,Firestarter - siu
-chiptunes/Firestarter/siu.fym
 #EXTINF:-1,Firestarter - slipmix
 chiptunes/Firestarter/slipmix.fym
-#EXTINF:-1,Firestarter - space
-chiptunes/Firestarter/space.fym
 #EXTINF:-1,Firestarter - space_
 chiptunes/Firestarter/space_.fym
 #EXTINF:-1,Firestarter - space2
@@ -9638,20 +9348,10 @@ chiptunes/Firestarter/spacemix.fym
 chiptunes/Firestarter/spaces.fym
 #EXTINF:-1,Firestarter - speccyto
 chiptunes/Firestarter/speccyto.fym
-#EXTINF:-1,Firestarter - stero
-chiptunes/Firestarter/stero.fym
-#EXTINF:-1,Firestarter - sumper
-chiptunes/Firestarter/sumper.fym
 #EXTINF:-1,Firestarter - sun wate
 chiptunes/Firestarter/sun wate.fym
 #EXTINF:-1,Firestarter - supersta
 chiptunes/Firestarter/supersta.fym
-#EXTINF:-1,Firestarter - susyx
-chiptunes/Firestarter/susyx.fym
-#EXTINF:-1,Firestarter - suuxxxxe
-chiptunes/Firestarter/suuxxxxe.fym
-#EXTINF:-1,Firestarter - suw
-chiptunes/Firestarter/suw.fym
 #EXTINF:-1,Firestarter - suxnum2
 chiptunes/Firestarter/suxnum2.fym
 #EXTINF:-1,Firestarter - tak
@@ -9662,84 +9362,34 @@ chiptunes/Firestarter/tak_ce6e.fym
 chiptunes/Firestarter/tb.fym
 #EXTINF:-1,Firestarter - topmo3hb
 chiptunes/Firestarter/topmo3hb.fym
-#EXTINF:-1,Firestarter - tpahc
-chiptunes/Firestarter/tpahc.fym
 #EXTINF:-1,Firestarter - tpahnc
 chiptunes/Firestarter/tpahnc.fym
-#EXTINF:-1,Firestarter - trance
-chiptunes/Firestarter/trance.fym
-#EXTINF:-1,Firestarter - trimp
-chiptunes/Firestarter/trimp.fym
 #EXTINF:-1,Firestarter - trr
 chiptunes/Firestarter/trr.fym
-#EXTINF:-1,Firestarter - turbo
-chiptunes/Firestarter/turbo.fym
 #EXTINF:-1,Firestarter - two
 chiptunes/Firestarter/two.fym
-#EXTINF:-1,Firestarter - ueiedie
-chiptunes/Firestarter/ueiedie.fym
-#EXTINF:-1,Firestarter - uex
-chiptunes/Firestarter/uex.fym
 #EXTINF:-1,Firestarter - ufo
 chiptunes/Firestarter/ufo.fym
-#EXTINF:-1,Firestarter - uiuiu
-chiptunes/Firestarter/uiuiu.fym
-#EXTINF:-1,Firestarter - ukota
-chiptunes/Firestarter/ukota.fym
-#EXTINF:-1,Firestarter - ukota2
-chiptunes/Firestarter/ukota2.fym
-#EXTINF:-1,Firestarter - uro
-chiptunes/Firestarter/uro.fym
 #EXTINF:-1,Firestarter - urpbi
 chiptunes/Firestarter/urpbi.fym
-#EXTINF:-1,Firestarter - v2rrr
-chiptunes/Firestarter/v2rrr.fym
 #EXTINF:-1,Firestarter - ver2
 chiptunes/Firestarter/ver2.fym
 #EXTINF:-1,Firestarter - verify
 chiptunes/Firestarter/verify.fym
 #EXTINF:-1,Firestarter - viremer
 chiptunes/Firestarter/viremer.fym
-#EXTINF:-1,Firestarter - wd
-chiptunes/Firestarter/wd.fym
-#EXTINF:-1,Firestarter - wdi
-chiptunes/Firestarter/wdi.fym
-#EXTINF:-1,Firestarter - wdqu
-chiptunes/Firestarter/wdqu.fym
-#EXTINF:-1,Firestarter - win
-chiptunes/Firestarter/win.fym
-#EXTINF:-1,Firestarter - world
-chiptunes/Firestarter/world.fym
 #EXTINF:-1,Firestarter - x_jass
 chiptunes/Firestarter/x_jass.fym
-#EXTINF:-1,Firestarter - xbass
-chiptunes/Firestarter/xbass.fym
-#EXTINF:-1,Firestarter - xbasser
-chiptunes/Firestarter/xbasser.fym
-#EXTINF:-1,Firestarter - xffu
-chiptunes/Firestarter/xffu.fym
 #EXTINF:-1,Firestarter - xpeh
 chiptunes/Firestarter/xpeh.fym
 #EXTINF:-1,Firestarter - xpeh2
 chiptunes/Firestarter/xpeh2.fym
-#EXTINF:-1,Firestarter - xpehra
-chiptunes/Firestarter/xpehra.fym
-#EXTINF:-1,Firestarter - xplam
-chiptunes/Firestarter/xplam.fym
-#EXTINF:-1,Firestarter - xs
-chiptunes/Firestarter/xs.fym
-#EXTINF:-1,Firestarter - xsfhj
-chiptunes/Firestarter/xsfhj.fym
 #EXTINF:-1,Firestarter - y6epu
 chiptunes/Firestarter/y6epu.fym
 #EXTINF:-1,Firestarter - y6epu1
 chiptunes/Firestarter/y6epu1.fym
 #EXTINF:-1,Firestarter - y6epu2
 chiptunes/Firestarter/y6epu2.fym
-#EXTINF:-1,Firestarter - yk
-chiptunes/Firestarter/yk.fym
-#EXTINF:-1,Firestarter - ym
-chiptunes/Firestarter/ym.fym
 #EXTINF:-1,Firestarter - yrlebod1
 chiptunes/Firestarter/yrlebod1.fym
 #EXTINF:-1,Firestarter - yrlebod2
@@ -9752,47 +9402,73 @@ chiptunes/Firestarter/yrlebod6.fym
 chiptunes/Firestarter/ytonu,q.fym
 #EXTINF:-1,Firestarter - z
 chiptunes/Firestarter/z.fym
-#EXTINF:-1,Firestarter - za
-chiptunes/Firestarter/za.fym
-#EXTINF:-1,Firestarter - zaa
-chiptunes/Firestarter/zaa.fym
-#EXTINF:-1,Firestarter - zapka
-chiptunes/Firestarter/zapka.fym
-#EXTINF:-1,Firestarter - zapka2
-chiptunes/Firestarter/zapka2.fym
-#EXTINF:-1,Firestarter - zaxw
-chiptunes/Firestarter/zaxw.fym
-#EXTINF:-1,Firestarter - zf76f
-chiptunes/Firestarter/zf76f.fym
-#EXTINF:-1,Firestarter - zscc
-chiptunes/Firestarter/zscc.fym
-#EXTINF:-1,Firestarter - zx_m
-chiptunes/Firestarter/zx_m.fym
-#EXTINF:-1,Firestarter - zxcmbvtd
-chiptunes/Firestarter/zxcmbvtd.fym
-#EXTINF:-1,Firestarter - zxderfv
-chiptunes/Firestarter/zxderfv.fym
-#EXTINF:-1,Firestarter - zz
-chiptunes/Firestarter/zz.fym
 #EXTGRP:Fuxoft
-#EXTINF:-1,Fuxoft - atomix
-chiptunes/Fuxoft/atomix.fym
-#EXTINF:-1,Fuxoft - crazy comets   penetrator
-chiptunes/Fuxoft/crazy comets   penetrator.fym
-#EXTINF:-1,Fuxoft - jet story
-chiptunes/Fuxoft/jet story.fym
-#EXTINF:-1,Fuxoft - kaboomi
-chiptunes/Fuxoft/kaboomi.fym
-#EXTINF:-1,Fuxoft - planet of shades
-chiptunes/Fuxoft/planet of shades.fym
-#EXTINF:-1,Fuxoft - podraz3
-chiptunes/Fuxoft/podraz3.fym
-#EXTINF:-1,Fuxoft - star dragon
-chiptunes/Fuxoft/star dragon.fym
-#EXTINF:-1,Fuxoft - starfox
-chiptunes/Fuxoft/starfox.fym
-#EXTINF:-1,Fuxoft - tetris 2
-chiptunes/Fuxoft/tetris 2.fym
+#EXTINF:-1,Fuxoft - Fuxoft - Alla Turca
+chiptunes/Fuxoft/Fuxoft - Alla Turca.fxm
+#EXTINF:-1,Fuxoft - Fuxoft - Atomix
+chiptunes/Fuxoft/Fuxoft - Atomix.fxm
+#EXTINF:-1,Fuxoft - Fuxoft - Axel F. Theme
+chiptunes/Fuxoft/Fuxoft - Axel F. Theme.fxm
+#EXTINF:-1,Fuxoft - Fuxoft - Belegost
+chiptunes/Fuxoft/Fuxoft - Belegost.fxm
+#EXTINF:-1,Fuxoft - Fuxoft - Chimera
+chiptunes/Fuxoft/Fuxoft - Chimera.fxm
+#EXTINF:-1,Fuxoft - Fuxoft - Commando
+chiptunes/Fuxoft/Fuxoft - Commando.fxm
+#EXTINF:-1,Fuxoft - Fuxoft - Crazy Comets Penetrator
+chiptunes/Fuxoft/Fuxoft - Crazy Comets Penetrator.fxm
+#EXTINF:-1,Fuxoft - Fuxoft - crazy comets penetrator
+chiptunes/Fuxoft/Fuxoft - crazy comets penetrator.fym
+#EXTINF:-1,Fuxoft - Fuxoft - E.T. Flying
+chiptunes/Fuxoft/Fuxoft - E.T. Flying.fxm
+#EXTINF:-1,Fuxoft - Fuxoft - Eqinoxe V
+chiptunes/Fuxoft/Fuxoft - Eqinoxe V.fxm
+#EXTINF:-1,Fuxoft - Fuxoft - Feud
+chiptunes/Fuxoft/Fuxoft - Feud.fxm
+#EXTINF:-1,Fuxoft - Fuxoft - FIRE
+chiptunes/Fuxoft/Fuxoft - FIRE.fxm
+#EXTINF:-1,Fuxoft - Fuxoft - Fugue
+chiptunes/Fuxoft/Fuxoft - Fugue.fxm
+#EXTINF:-1,Fuxoft - Fuxoft - Ghostbusters
+chiptunes/Fuxoft/Fuxoft - Ghostbusters.fxm
+#EXTINF:-1,Fuxoft - Fuxoft - Golden Triangle Anthem
+chiptunes/Fuxoft/Fuxoft - Golden Triangle Anthem.fxm
+#EXTINF:-1,Fuxoft - Fuxoft - Indiana Jones 3
+chiptunes/Fuxoft/Fuxoft - Indiana Jones 3.fxm
+#EXTINF:-1,Fuxoft - Fuxoft - Jet Story
+chiptunes/Fuxoft/Fuxoft - Jet Story.fxm
+#EXTINF:-1,Fuxoft - Fuxoft - Land Of Confusion
+chiptunes/Fuxoft/Fuxoft - Land Of Confusion.fxm
+#EXTINF:-1,Fuxoft - Fuxoft - Magnetic Fields IV
+chiptunes/Fuxoft/Fuxoft - Magnetic Fields IV.fxm
+#EXTINF:-1,Fuxoft - Fuxoft - Magnetic Fields V
+chiptunes/Fuxoft/Fuxoft - Magnetic Fields V.fxm
+#EXTINF:-1,Fuxoft - Fuxoft - Master Of Magic
+chiptunes/Fuxoft/Fuxoft - Master Of Magic.fxm
+#EXTINF:-1,Fuxoft - Fuxoft - Monty On The Run
+chiptunes/Fuxoft/Fuxoft - Monty On The Run.fxm
+#EXTINF:-1,Fuxoft - Fuxoft - Piskworks - Topgun
+chiptunes/Fuxoft/Fuxoft - Piskworks - Topgun.fxm
+#EXTINF:-1,Fuxoft - Fuxoft - RendezVous IV
+chiptunes/Fuxoft/Fuxoft - RendezVous IV.fxm
+#EXTINF:-1,Fuxoft - Fuxoft - StarDragon
+chiptunes/Fuxoft/Fuxoft - StarDragon.fxm
+#EXTINF:-1,Fuxoft - Fuxoft - StarDragon Hall Of Fame
+chiptunes/Fuxoft/Fuxoft - StarDragon Hall Of Fame.fxm
+#EXTINF:-1,Fuxoft - Fuxoft - Terra Cresta
+chiptunes/Fuxoft/Fuxoft - Terra Cresta.fxm
+#EXTINF:-1,Fuxoft - Fuxoft - Tetris 2
+chiptunes/Fuxoft/Fuxoft - Tetris 2.fxm
+#EXTINF:-1,Fuxoft - Fuxoft - Tetris 2 Red Dawn
+chiptunes/Fuxoft/Fuxoft - Tetris 2 Red Dawn.fxm
+#EXTINF:-1,Fuxoft - Fuxoft - The Last V8
+chiptunes/Fuxoft/Fuxoft - The Last V8.fxm
+#EXTINF:-1,Fuxoft - Fuxoft - View To A Kill
+chiptunes/Fuxoft/Fuxoft - View To A Kill.fxm
+#EXTINF:-1,Fuxoft - Fuxoft - Where Time Dropped Dead
+chiptunes/Fuxoft/Fuxoft - Where Time Dropped Dead.fxm
+#EXTINF:-1,Fuxoft - Fuxoft - ZUB
+chiptunes/Fuxoft/Fuxoft - ZUB.fxm
 #EXTGRP:Gasman
 #EXTINF:-1,Gasman - Gasman - dynamite
 chiptunes/Gasman/Gasman - dynamite.pt3
@@ -11925,6 +11601,27 @@ chiptunes/Jerrs/Jerrs - Rose.pt3
 #EXTGRP:Jhon
 #EXTINF:-1,Jhon - John - WeBberTS
 chiptunes/Jhon/John - WeBberTS.pt3
+#EXTGRP:Joe
+#EXTINF:-1,Joe - Joe - 7th Reality 3 (1996)
+chiptunes/Joe/Joe - 7th Reality 3 (1996).pt2
+#EXTINF:-1,Joe - Joe - Awake (1997)
+chiptunes/Joe/Joe - Awake (1997).ftc
+#EXTINF:-1,Joe - Joe - DOOM 3
+chiptunes/Joe/Joe - DOOM 3.pt2
+#EXTINF:-1,Joe - Joe - Forever1
+chiptunes/Joe/Joe - Forever1.pt2
+#EXTINF:-1,Joe - Joe - FOREVER1 (1)
+chiptunes/Joe/Joe - FOREVER1 (1).pt2
+#EXTINF:-1,Joe - Joe - Likemya (1996) (Enlight 1996, 1)
+chiptunes/Joe/Joe - Likemya (1996) (Enlight 1996, 1).pt2
+#EXTINF:-1,Joe - Joe - Nostalgy (1996) (Enlight 1997)
+chiptunes/Joe/Joe - Nostalgy (1996) (Enlight 1997).ftc
+#EXTINF:-1,Joe - Joe - Nostalgy (Party Version) (1996)
+chiptunes/Joe/Joe - Nostalgy (Party Version) (1996).ftc
+#EXTINF:-1,Joe - Joe - PIP v6.2 (1997)
+chiptunes/Joe/Joe - PIP v6.2 (1997).ftc
+#EXTINF:-1,Joe - Joe, Sauron - 7th Reality 1 (1996)
+chiptunes/Joe/Joe, Sauron - 7th Reality 1 (1996).pt2
 #EXTGRP:Johnny McGibbitts
 #EXTINF:-1,Johnny McGibbitts - Johnny McGibbitts - Computer Bounce
 chiptunes/Johnny McGibbitts/Johnny McGibbitts - Computer Bounce.pt3
@@ -12537,8 +12234,6 @@ chiptunes/Kent/totalgluckboot.fym
 chiptunes/Kent/virgin_4.fym
 #EXTINF:-1,Kent - virgin_5
 chiptunes/Kent/virgin_5.fym
-#EXTINF:-1,Kent - virgin_6
-chiptunes/Kent/virgin_6.fym
 #EXTINF:-1,Kent - virgin_8
 chiptunes/Kent/virgin_8.fym
 #EXTINF:-1,Kent - vroom
@@ -12927,6 +12622,8 @@ chiptunes/Key-Jee/1999/STUP.pt3
 chiptunes/Key-Jee/1999/SUX4SOUL.pt3
 #EXTINF:-1,Key-Jee - SUXOMANI
 chiptunes/Key-Jee/1999/SUXOMANI.pt3
+#EXTINF:-1,Key-Jee - TEST_PM
+chiptunes/Key-Jee/1999/TEST_PM.ftc
 #EXTINF:-1,Key-Jee - THEHEAT
 chiptunes/Key-Jee/1999/THEHEAT.pt3
 #EXTINF:-1,Key-Jee - TimeGoOn
@@ -14717,6 +14414,8 @@ chiptunes/Mast/Soon.pt2
 chiptunes/Mast/Stup_Mux.pt2
 #EXTINF:-1,Mast - T_G_S_E
 chiptunes/Mast/T_G_S_E.pt2
+#EXTINF:-1,Mast - TANKZAG
+chiptunes/Mast/TANKZAG.psc
 #EXTINF:-1,Mast - tech!
 chiptunes/Mast/tech!.pt2
 #EXTINF:-1,Mast - Termin2
@@ -14805,6 +14504,8 @@ chiptunes/Mast/1998/Amiga#3.pt3
 chiptunes/Mast/1998/Amiga#3 (Fast).pt3
 #EXTINF:-1,Mast - Bitchup
 chiptunes/Mast/1998/Bitchup.pt3
+#EXTINF:-1,Mast - BLEST
+chiptunes/Mast/1998/BLEST.psc
 #EXTINF:-1,Mast - Cannon
 chiptunes/Mast/1998/Cannon.pt3
 #EXTINF:-1,Mast - DumbArmy
@@ -14819,16 +14520,24 @@ chiptunes/Mast/1998/F_Battle (Pussy version).pt3
 chiptunes/Mast/1998/Face-Off.pt3
 #EXTINF:-1,Mast - G_Music!
 chiptunes/Mast/1998/G_Music!.pt3
+#EXTINF:-1,Mast - GUITAR
+chiptunes/Mast/1998/GUITAR.psc
 #EXTINF:-1,Mast - M_ERECT
 chiptunes/Mast/1998/M_ERECT.pt3
 #EXTINF:-1,Mast - Maski
 chiptunes/Mast/1998/Maski.pt3
 #EXTINF:-1,Mast - mast12
 chiptunes/Mast/1998/mast12.pt3
+#EXTINF:-1,Mast - mast13
+chiptunes/Mast/1998/mast13.psc
 #EXTINF:-1,Mast - mast14
 chiptunes/Mast/1998/mast14.pt3
 #EXTINF:-1,Mast - mast15
 chiptunes/Mast/1998/mast15.pt3
+#EXTINF:-1,Mast - mast16
+chiptunes/Mast/1998/mast16.psc
+#EXTINF:-1,Mast - mast17
+chiptunes/Mast/1998/mast17.psc
 #EXTINF:-1,Mast - Men_Erec
 chiptunes/Mast/1998/Men_Erec.pt3
 #EXTINF:-1,Mast - NYGame
@@ -15073,8 +14782,6 @@ chiptunes/Matthias/spf9_4.fym
 chiptunes/Matthias/spf9_5.fym
 #EXTINF:-1,Matthias - starinheritancedoneifinal
 chiptunes/Matthias/starinheritancedoneifinal.fym
-#EXTINF:-1,Matthias - starinheritancefight
-chiptunes/Matthias/starinheritancefight.fym
 #EXTINF:-1,Matthias - starinheritancemovie
 chiptunes/Matthias/starinheritancemovie.fym
 #EXTINF:-1,Matthias - starinheritancepart1ostrov0
@@ -16139,6 +15846,18 @@ chiptunes/MmcM/2012/2012_mmcm-doubtful_future.pt3
 chiptunes/MmcM/2012/2012_mmcm-forest_conflict.pt3
 #EXTINF:-1,MmcM - 2012_MmcM-Spring_Warm_Day
 chiptunes/MmcM/2012/2012_MmcM-Spring_Warm_Day.pt3
+#EXTINF:-1,MmcM - MmcM - Adventure
+chiptunes/MmcM/2012/MmcM - Adventure.pt3
+#EXTINF:-1,MmcM - MmcM - Dizzy In Cave
+chiptunes/MmcM/2012/MmcM - Dizzy In Cave.pt3
+#EXTINF:-1,MmcM - MmcM - Dizzy Night Museum
+chiptunes/MmcM/2012/MmcM - Dizzy Night Museum.pt3
+#EXTINF:-1,MmcM - MmcM - Doubtful Future
+chiptunes/MmcM/2012/MmcM - Doubtful Future.pt3
+#EXTINF:-1,MmcM - MmcM - Forest Conflict
+chiptunes/MmcM/2012/MmcM - Forest Conflict.pt3
+#EXTINF:-1,MmcM - MmcM - Spring Warm Day
+chiptunes/MmcM/2012/MmcM - Spring Warm Day.pt3
 #SUBSECTION:2013
 #EXTINF:-1,MmcM - 2013_MmcM_Grand_Hotel_rt
 chiptunes/MmcM/2013/2013_MmcM_Grand_Hotel_rt.pt3
@@ -16314,65 +16033,184 @@ chiptunes/MmcM/2020/2020_mmcm-reminiscence.pt3
 #EXTINF:-1,MmcM - 2020_MmcM-YaMaHaY_(4Revision)
 chiptunes/MmcM/2020/2020_MmcM-YaMaHaY_(4Revision).vt2
 #SUBSECTION:2021
-#EXTINF:-1,MmcM - 2021_MmcM-Di_Too_Halt
-chiptunes/MmcM/2021/2021_MmcM-Di_Too_Halt.pt3
-#EXTINF:-1,MmcM - 2021_MmcM-Heed_Me_Now
-chiptunes/MmcM/2021/2021_MmcM-Heed_Me_Now.pt3
-#EXTINF:-1,MmcM - 2021_MmcM-Simplicity
-chiptunes/MmcM/2021/2021_MmcM-Simplicity.pt3
-#EXTINF:-1,MmcM - 2021_MmcM-WaL'sOk
-chiptunes/MmcM/2021/2021_MmcM-WaL'sOk.pt3
+#EXTINF:-1,MmcM - MmcM - Di Too Halt
+chiptunes/MmcM/2021/MmcM - Di Too Halt.pt3
+#EXTINF:-1,MmcM - MmcM - Heed Me Now
+chiptunes/MmcM/2021/MmcM - Heed Me Now.pt3
+#EXTINF:-1,MmcM - MmcM - Simplicity
+chiptunes/MmcM/2021/MmcM - Simplicity.pt3
+#EXTINF:-1,MmcM - MmcM - WaL'sOk
+chiptunes/MmcM/2021/MmcM - WaL'sOk.pt3
 #SUBSECTION:2022
-#EXTINF:-1,MmcM - 2022_MmcM-Arpeggios_Are_My_Favorite
-chiptunes/MmcM/2022/2022_MmcM-Arpeggios_Are_My_Favorite.pt3
-#EXTINF:-1,MmcM - 2022_MmcM-Autumn_CAFe
-chiptunes/MmcM/2022/2022_MmcM-Autumn_CAFe.pt3
-#EXTINF:-1,MmcM - 2022_mmcm-Do_You_Still_Dream
-chiptunes/MmcM/2022/2022_mmcm-Do_You_Still_Dream.pt3
-#EXTINF:-1,MmcM - 2022_MmcM-Fall_Changes_CAFe2022
-chiptunes/MmcM/2022/2022_MmcM-Fall_Changes_CAFe2022.pt3
-#EXTINF:-1,MmcM - 2022_mmcm-process_of_hacking
-chiptunes/MmcM/2022/2022_mmcm-process_of_hacking.pt3
-#EXTINF:-1,MmcM - 2022_mmcm-summer_trip
-chiptunes/MmcM/2022/2022_mmcm-summer_trip.pt3
-#EXTINF:-1,MmcM - 2022_mmcm-the_winter_gathering
-chiptunes/MmcM/2022/2022_mmcm-the_winter_gathering.pt3
+#EXTINF:-1,MmcM - MmcM - Arpeggios Are My Favorite
+chiptunes/MmcM/2022/MmcM - Arpeggios Are My Favorite.pt3
+#EXTINF:-1,MmcM - MmcM - Autumn CAFe
+chiptunes/MmcM/2022/MmcM - Autumn CAFe.pt3
+#EXTINF:-1,MmcM - MmcM - Do You Still Dream
+chiptunes/MmcM/2022/MmcM - Do You Still Dream.pt3
+#EXTINF:-1,MmcM - MmcM - Fall Changes CAFe 2022
+chiptunes/MmcM/2022/MmcM - Fall Changes CAFe 2022.pt3
+#EXTINF:-1,MmcM - MmcM - Process Of Hacking
+chiptunes/MmcM/2022/MmcM - Process Of Hacking.pt3
+#EXTINF:-1,MmcM - MmcM - Summer Trip
+chiptunes/MmcM/2022/MmcM - Summer Trip.pt3
+#EXTINF:-1,MmcM - MmcM - The Winter Gathering
+chiptunes/MmcM/2022/MmcM - The Winter Gathering.pt3
 #SUBSECTION:2023
-#EXTINF:-1,MmcM - 2023_MmcM-Anthem_of_Тatarstan_ReMmcMix
-chiptunes/MmcM/2023/2023_MmcM-Anthem_of_Тatarstan_ReMmcMix.pt3
-#EXTINF:-1,MmcM - 2023_mmcm-christmas_holidays
-chiptunes/MmcM/2023/2023_mmcm-christmas_holidays.pt3
-#EXTINF:-1,MmcM - 2023_MmcM-Cogitationem
-chiptunes/MmcM/2023/2023_MmcM-Cogitationem.vt2
-#EXTINF:-1,MmcM - 2023_MmcM-Cogitationem_lp
-chiptunes/MmcM/2023/2023_MmcM-Cogitationem_lp.pt3
-#EXTINF:-1,MmcM - 2023_MmcM-Demodulation
-chiptunes/MmcM/2023/2023_MmcM-Demodulation.pt3
-#EXTINF:-1,MmcM - 2023_MmcM-Vision_Re
-chiptunes/MmcM/2023/2023_MmcM-Vision_Re.pt3
-#EXTINF:-1,MmcM - 2023_mmcm-winter_fragment_2023_afterfix
-chiptunes/MmcM/2023/2023_mmcm-winter_fragment_2023_afterfix.pt3
+#EXTINF:-1,MmcM - MmcM - Anthem Of Тatarstan ReMmcMix
+chiptunes/MmcM/2023/MmcM - Anthem Of Тatarstan ReMmcMix.pt3
+#EXTINF:-1,MmcM - MmcM - Christmas Holidays
+chiptunes/MmcM/2023/MmcM - Christmas Holidays.pt3
+#EXTINF:-1,MmcM - MmcM - Cogitationem
+chiptunes/MmcM/2023/MmcM - Cogitationem.vt2
+#EXTINF:-1,MmcM - MmcM - Cogitationem (Loop)
+chiptunes/MmcM/2023/MmcM - Cogitationem (Loop).pt3
+#EXTINF:-1,MmcM - MmcM - Demodulation
+chiptunes/MmcM/2023/MmcM - Demodulation.pt3
+#EXTINF:-1,MmcM - MmcM - Vision Re
+chiptunes/MmcM/2023/MmcM - Vision Re.pt3
+#EXTINF:-1,MmcM - MmcM - Winter Fragment 2023
+chiptunes/MmcM/2023/MmcM - Winter Fragment 2023.pt3
 #SUBSECTION:2024
-#EXTINF:-1,MmcM - 2024_mmcm-fragment2024_realtime
-chiptunes/MmcM/2024/2024_mmcm-fragment2024_realtime.pt3
-#EXTINF:-1,MmcM - 2024_MmcM-Summer_of_Kazan
-chiptunes/MmcM/2024/2024_MmcM-Summer_of_Kazan.pt3
-#EXTINF:-1,MmcM - 2024_mmcm-the_bright_rays_of_you
-chiptunes/MmcM/2024/2024_mmcm-the_bright_rays_of_you.pt3
-#EXTINF:-1,MmcM - 2024_MmcM-The_Wind_Of_Change
-chiptunes/MmcM/2024/2024_MmcM-The_Wind_Of_Change.pt3
+#EXTINF:-1,MmcM - MmcM - Fragment 2024 Realtime
+chiptunes/MmcM/2024/MmcM - Fragment 2024 Realtime.pt3
+#EXTINF:-1,MmcM - MmcM - Summer Of Kazan
+chiptunes/MmcM/2024/MmcM - Summer Of Kazan.pt3
+#EXTINF:-1,MmcM - MmcM - The Bright Rays Of You
+chiptunes/MmcM/2024/MmcM - The Bright Rays Of You.pt3
+#EXTINF:-1,MmcM - MmcM - The Wind Of Change
+chiptunes/MmcM/2024/MmcM - The Wind Of Change.pt3
 #SUBSECTION:2025
-#EXTINF:-1,MmcM - 2025-01-05_MmcM_-_Climbing
-chiptunes/MmcM/2025/2025-01-05_MmcM_-_Climbing.pt3
-#EXTINF:-1,MmcM - 2025-01-06_mmcm_-_xiaomi_vs_mmcm
-chiptunes/MmcM/2025/2025-01-06_mmcm_-_xiaomi_vs_mmcm.pt3
+#EXTINF:-1,MmcM - MmcM - Climbing
+chiptunes/MmcM/2025/MmcM - Climbing.pt3
+#EXTINF:-1,MmcM - MmcM - Xiaomi Vs MmcM
+chiptunes/MmcM/2025/MmcM - Xiaomi Vs MmcM.pt3
 #SUBSECTION:2026
-#EXTINF:-1,MmcM - 2026-01-08_MmcM-Keep_Doing_It
-chiptunes/MmcM/2026/2026-01-08_MmcM-Keep_Doing_It.pt3
-#EXTINF:-1,MmcM - 2026-01-09_MmcM-DiHalt_Winterzz
-chiptunes/MmcM/2026/2026-01-09_MmcM-DiHalt_Winterzz.pt3
-#EXTINF:-1,MmcM - 2026-07-09_MmcM-July_Weekend
-chiptunes/MmcM/2026/2026-07-09_MmcM-July_Weekend.pt3
+#EXTINF:-1,MmcM - MmcM - DiHalt Winterzz
+chiptunes/MmcM/2026/MmcM - DiHalt Winterzz.pt3
+#EXTINF:-1,MmcM - MmcM - July Weekend
+chiptunes/MmcM/2026/MmcM - July Weekend.pt3
+#EXTINF:-1,MmcM - MmcM - Keep Doing It
+chiptunes/MmcM/2026/MmcM - Keep Doing It.pt3
+#SUBSECTION:asc
+#EXTINF:-1,MmcM - MmcM - ANDREW
+chiptunes/MmcM/asc/MmcM - ANDREW.asc
+#EXTINF:-1,MmcM - MmcM - BRED1
+chiptunes/MmcM/asc/MmcM - BRED1.asc
+#EXTINF:-1,MmcM - MmcM - BRED10
+chiptunes/MmcM/asc/MmcM - BRED10.asc
+#EXTINF:-1,MmcM - MmcM - BRED11
+chiptunes/MmcM/asc/MmcM - BRED11.asc
+#EXTINF:-1,MmcM - MmcM - BRED12
+chiptunes/MmcM/asc/MmcM - BRED12.asc
+#EXTINF:-1,MmcM - MmcM - BRED13
+chiptunes/MmcM/asc/MmcM - BRED13.asc
+#EXTINF:-1,MmcM - MmcM - BRED14
+chiptunes/MmcM/asc/MmcM - BRED14.asc
+#EXTINF:-1,MmcM - MmcM - BRED15
+chiptunes/MmcM/asc/MmcM - BRED15.asc
+#EXTINF:-1,MmcM - MmcM - BRED16
+chiptunes/MmcM/asc/MmcM - BRED16.asc
+#EXTINF:-1,MmcM - MmcM - BRED2
+chiptunes/MmcM/asc/MmcM - BRED2.asc
+#EXTINF:-1,MmcM - MmcM - BRED3
+chiptunes/MmcM/asc/MmcM - BRED3.asc
+#EXTINF:-1,MmcM - MmcM - BRED4
+chiptunes/MmcM/asc/MmcM - BRED4.asc
+#EXTINF:-1,MmcM - MmcM - BRED5
+chiptunes/MmcM/asc/MmcM - BRED5.asc
+#EXTINF:-1,MmcM - MmcM - BRED6
+chiptunes/MmcM/asc/MmcM - BRED6.asc
+#EXTINF:-1,MmcM - MmcM - BRED7
+chiptunes/MmcM/asc/MmcM - BRED7.asc
+#EXTINF:-1,MmcM - MmcM - BRED8
+chiptunes/MmcM/asc/MmcM - BRED8.asc
+#EXTINF:-1,MmcM - MmcM - BRED9
+chiptunes/MmcM/asc/MmcM - BRED9.asc
+#EXTINF:-1,MmcM - MmcM - CHIJIK
+chiptunes/MmcM/asc/MmcM - CHIJIK.asc
+#EXTINF:-1,MmcM - MmcM - CRAZY
+chiptunes/MmcM/asc/MmcM - CRAZY.asc
+#EXTINF:-1,MmcM - MmcM - CYBORG'S
+chiptunes/MmcM/asc/MmcM - CYBORG'S.asc
+#EXTINF:-1,MmcM - MmcM - DISKERROR
+chiptunes/MmcM/asc/MmcM - DISKERROR.asc
+#EXTINF:-1,MmcM - MmcM - FANT1
+chiptunes/MmcM/asc/MmcM - FANT1.asc
+#EXTINF:-1,MmcM - MmcM - GUYS
+chiptunes/MmcM/asc/MmcM - GUYS.asc
+#EXTINF:-1,MmcM - MmcM - HARMONIC
+chiptunes/MmcM/asc/MmcM - HARMONIC.asc
+#EXTINF:-1,MmcM - MmcM - HIHI
+chiptunes/MmcM/asc/MmcM - HIHI.asc
+#EXTINF:-1,MmcM - MmcM - HIM
+chiptunes/MmcM/asc/MmcM - HIM.asc
+#EXTINF:-1,MmcM - MmcM - HM!
+chiptunes/MmcM/asc/MmcM - HM!.asc
+#EXTINF:-1,MmcM - MmcM - INFERNO
+chiptunes/MmcM/asc/MmcM - INFERNO.asc
+#EXTINF:-1,MmcM - MmcM - KLASS!
+chiptunes/MmcM/asc/MmcM - KLASS!.asc
+#EXTINF:-1,MmcM - MmcM - MELANHOL
+chiptunes/MmcM/asc/MmcM - MELANHOL.asc
+#EXTINF:-1,MmcM - MmcM - MYM1
+chiptunes/MmcM/asc/MmcM - MYM1.asc
+#EXTINF:-1,MmcM - MmcM - MYM2
+chiptunes/MmcM/asc/MmcM - MYM2.asc
+#EXTINF:-1,MmcM - MmcM - MYM3
+chiptunes/MmcM/asc/MmcM - MYM3.asc
+#EXTINF:-1,MmcM - MmcM - MYM4
+chiptunes/MmcM/asc/MmcM - MYM4.asc
+#EXTINF:-1,MmcM - MmcM - MYM6
+chiptunes/MmcM/asc/MmcM - MYM6.asc
+#EXTINF:-1,MmcM - MmcM - MYMP
+chiptunes/MmcM/asc/MmcM - MYMP.asc
+#EXTINF:-1,MmcM - MmcM - MYMP7
+chiptunes/MmcM/asc/MmcM - MYMP7.asc
+#EXTINF:-1,MmcM - MmcM - MYMPROB
+chiptunes/MmcM/asc/MmcM - MYMPROB.asc
+#EXTINF:-1,MmcM - MmcM - POP
+chiptunes/MmcM/asc/MmcM - POP.asc
+#EXTINF:-1,MmcM - MmcM - PRELUD2
+chiptunes/MmcM/asc/MmcM - PRELUD2.asc
+#EXTINF:-1,MmcM - MmcM - PRELUDIA
+chiptunes/MmcM/asc/MmcM - PRELUDIA.asc
+#EXTINF:-1,MmcM - MmcM - PRO1
+chiptunes/MmcM/asc/MmcM - PRO1.asc
+#EXTINF:-1,MmcM - MmcM - PROB
+chiptunes/MmcM/asc/MmcM - PROB.asc
+#EXTINF:-1,MmcM - MmcM - PROB2
+chiptunes/MmcM/asc/MmcM - PROB2.asc
+#EXTINF:-1,MmcM - MmcM - RAIN
+chiptunes/MmcM/asc/MmcM - RAIN.asc
+#EXTINF:-1,MmcM - MmcM - REALTIME
+chiptunes/MmcM/asc/MmcM - REALTIME.asc
+#EXTINF:-1,MmcM - MmcM - SARAN1
+chiptunes/MmcM/asc/MmcM - SARAN1.asc
+#EXTINF:-1,MmcM - MmcM - SER1
+chiptunes/MmcM/asc/MmcM - SER1.asc
+#EXTINF:-1,MmcM - MmcM - SER2
+chiptunes/MmcM/asc/MmcM - SER2.asc
+#EXTINF:-1,MmcM - MmcM - SPACE
+chiptunes/MmcM/asc/MmcM - SPACE.asc
+#EXTINF:-1,MmcM - MmcM - STARS
+chiptunes/MmcM/asc/MmcM - STARS.asc
+#EXTINF:-1,MmcM - MmcM - STEG+
+chiptunes/MmcM/asc/MmcM - STEG+.asc
+#EXTINF:-1,MmcM - MmcM - TAK1
+chiptunes/MmcM/asc/MmcM - TAK1.asc
+#EXTINF:-1,MmcM - MmcM - TAK2
+chiptunes/MmcM/asc/MmcM - TAK2.asc
+#EXTINF:-1,MmcM - MmcM - TECHNO
+chiptunes/MmcM/asc/MmcM - TECHNO.asc
+#EXTINF:-1,MmcM - MmcM - TREN1
+chiptunes/MmcM/asc/MmcM - TREN1.asc
+#EXTINF:-1,MmcM - MmcM - TREN2
+chiptunes/MmcM/asc/MmcM - TREN2.asc
+#EXTINF:-1,MmcM - MmcM - YES!!!
+chiptunes/MmcM/asc/MmcM - YES!!!.asc
+#EXTINF:-1,MmcM - MmcM - ZAG
+chiptunes/MmcM/asc/MmcM - ZAG.asc
 #EXTGRP:Mofobaru
 #EXTINF:-1,Mofobaru - Mofobaru - pimp_my_spectrum
 chiptunes/Mofobaru/Mofobaru - pimp_my_spectrum.pt3
@@ -16770,6 +16608,8 @@ chiptunes/Nik-O/2018 kopy/nq-polka-25hz.pt3
 #EXTINF:-1,Nik-O - nq-village
 chiptunes/Nik-O/2018 kopy/nq-village.pt3
 #SUBSECTION:2018 nokopy
+#EXTINF:-1,Nik-O - 20 Years Of Silence by nq (used table 2)
+chiptunes/Nik-O/2018 nokopy/20 Years Of Silence by nq (used table 2).ftc
 #EXTINF:-1,Nik-O - nq-20-years-of-silence
 chiptunes/Nik-O/2018 nokopy/nq-20-years-of-silence.pt3
 #EXTINF:-1,Nik-O - nq-alien_main
@@ -17644,8 +17484,6 @@ chiptunes/Phantom lord/zone kilodemo 5 - tehcno6.fym
 #EXTGRP:Push
 #EXTINF:-1,Push - 100hz
 chiptunes/Push/100hz.fym
-#EXTINF:-1,Push - aleksander
-chiptunes/Push/aleksander.fym
 #EXTINF:-1,Push - amber
 chiptunes/Push/amber.fym
 #EXTINF:-1,Push - amber2
@@ -17744,8 +17582,6 @@ chiptunes/Push/delia.fym
 chiptunes/Push/descript.fym
 #EXTINF:-1,Push - doga-2
 chiptunes/Push/doga-2.fym
-#EXTINF:-1,Push - drop
-chiptunes/Push/drop.fym
 #EXTINF:-1,Push - effects-1
 chiptunes/Push/effects-1.fym
 #EXTINF:-1,Push - emberwar
@@ -17830,14 +17666,8 @@ chiptunes/Push/hidizzy3.fym
 chiptunes/Push/hidizzy4.fym
 #EXTINF:-1,Push - hidizzy5
 chiptunes/Push/hidizzy5.fym
-#EXTINF:-1,Push - intro
-chiptunes/Push/intro.fym
 #EXTINF:-1,Push - intro 2000
 chiptunes/Push/intro 2000.fym
-#EXTINF:-1,Push - intro2
-chiptunes/Push/intro2.fym
-#EXTINF:-1,Push - intro3
-chiptunes/Push/intro3.fym
 #EXTINF:-1,Push - j-1050
 chiptunes/Push/j-1050.fym
 #EXTINF:-1,Push - j-70
@@ -17892,8 +17722,6 @@ chiptunes/Push/mortal-01.fym
 chiptunes/Push/mortal-02.fym
 #EXTINF:-1,Push - mortal-5
 chiptunes/Push/mortal-5.fym
-#EXTINF:-1,Push - mrak
-chiptunes/Push/mrak.fym
 #EXTINF:-1,Push - mrak-1
 chiptunes/Push/mrak-1.fym
 #EXTINF:-1,Push - mrak-2
@@ -17904,8 +17732,6 @@ chiptunes/Push/mt-2000.fym
 chiptunes/Push/mt2000_1.fym
 #EXTINF:-1,Push - mt2000_2
 chiptunes/Push/mt2000_2.fym
-#EXTINF:-1,Push - mt2000_intro
-chiptunes/Push/mt2000_intro.fym
 #EXTINF:-1,Push - mus_1999
 chiptunes/Push/mus_1999.fym
 #EXTINF:-1,Push - music box
@@ -17932,22 +17758,14 @@ chiptunes/Push/pool.fym
 chiptunes/Push/pop-rx2.fym
 #EXTINF:-1,Push - push1
 chiptunes/Push/push1.fym
-#EXTINF:-1,Push - push2
-chiptunes/Push/push2.fym
 #EXTINF:-1,Push - push3
 chiptunes/Push/push3.fym
-#EXTINF:-1,Push - push67
-chiptunes/Push/push67.fym
-#EXTINF:-1,Push - push68
-chiptunes/Push/push68.fym
 #EXTINF:-1,Push - resty
 chiptunes/Push/resty.fym
 #EXTINF:-1,Push - se2_1
 chiptunes/Push/se2_1.fym
 #EXTINF:-1,Push - sfx
 chiptunes/Push/sfx.fym
-#EXTINF:-1,Push - sfx2
-chiptunes/Push/sfx2.fym
 #EXTINF:-1,Push - sleep
 chiptunes/Push/sleep.fym
 #EXTINF:-1,Push - sonet-10
@@ -18018,8 +17836,6 @@ chiptunes/Push/t-020.fym
 chiptunes/Push/t-050.fym
 #EXTINF:-1,Push - t-20
 chiptunes/Push/t-20.fym
-#EXTINF:-1,Push - t-30
-chiptunes/Push/t-30.fym
 #EXTINF:-1,Push - t-40
 chiptunes/Push/t-40.fym
 #EXTINF:-1,Push - tbox
@@ -18223,14 +18039,10 @@ chiptunes/Random/history5_4.fym
 chiptunes/Random/history5_5.fym
 #EXTINF:-1,Random - history5_6
 chiptunes/Random/history5_6.fym
-#EXTINF:-1,Random - history6_1
-chiptunes/Random/history6_1.fym
 #EXTINF:-1,Random - history6_2
 chiptunes/Random/history6_2.fym
 #EXTINF:-1,Random - historyend
 chiptunes/Random/historyend.fym
-#EXTINF:-1,Random - historyintro
-chiptunes/Random/historyintro.fym
 #EXTINF:-1,Random - historyintrojungle
 chiptunes/Random/historyintrojungle.fym
 #EXTINF:-1,Random - imp
@@ -18261,14 +18073,10 @@ chiptunes/Renegade/Renegade - Satellite (TSFM part).pt3
 #EXTINF:-1,Riley - Riley - RustyFactory(VT)
 chiptunes/Riley/Riley - RustyFactory(VT).pt3
 #EXTGRP:Riskej
-#EXTINF:-1,Riskej - ______
-chiptunes/Riskej/______.fym
 #EXTINF:-1,Riskej - _da eto zhe prosto soni_spl4gift
 chiptunes/Riskej/_da eto zhe prosto soni_spl4gift.fym
 #EXTINF:-1,Riskej - 1
 chiptunes/Riskej/1.fym
-#EXTINF:-1,Riskej - 12hz.int
-chiptunes/Riskej/12hz.int.fym
 #EXTINF:-1,Riskej - 2004
 chiptunes/Riskej/2004.fym
 #EXTINF:-1,Riskej - 2d.world
@@ -18291,8 +18099,6 @@ chiptunes/Riskej/aftereat.fym
 chiptunes/Riskej/all skipped iiiiiiiiiiiiiiiii.fym
 #EXTINF:-1,Riskej - angel
 chiptunes/Riskej/angel.fym
-#EXTINF:-1,Riskej - armiya
-chiptunes/Riskej/armiya.fym
 #EXTINF:-1,Riskej - aroundrj
 chiptunes/Riskej/aroundrj.fym
 #EXTINF:-1,Riskej - ba i de
@@ -18311,8 +18117,6 @@ chiptunes/Riskej/besogood.fym
 chiptunes/Riskej/blueteni.fym
 #EXTINF:-1,Riskej - body
 chiptunes/Riskej/body.fym
-#EXTINF:-1,Riskej - bonus wn
-chiptunes/Riskej/bonus wn.fym
 #EXTINF:-1,Riskej - brutal
 chiptunes/Riskej/brutal.fym
 #EXTINF:-1,Riskej - buhobata
@@ -18325,8 +18129,6 @@ chiptunes/Riskej/buringer.fym
 chiptunes/Riskej/c-polkka.fym
 #EXTINF:-1,Riskej - cap
 chiptunes/Riskej/cap.fym
-#EXTINF:-1,Riskej - captivity
-chiptunes/Riskej/captivity.fym
 #EXTINF:-1,Riskej - ch_death
 chiptunes/Riskej/ch_death.fym
 #EXTINF:-1,Riskej - circmeei
@@ -18393,8 +18195,6 @@ chiptunes/Riskej/gb_tale.fym
 chiptunes/Riskej/genz.fym
 #EXTINF:-1,Riskej - germgirl
 chiptunes/Riskej/germgirl.fym
-#EXTINF:-1,Riskej - ggggggggggddeeetooooeeroeroere
-chiptunes/Riskej/ggggggggggddeeetooooeeroeroere.fym
 #EXTINF:-1,Riskej - giftleo
 chiptunes/Riskej/giftleo.fym
 #EXTINF:-1,Riskej - gl_ponde
@@ -18419,8 +18219,6 @@ chiptunes/Riskej/i_fish.fym
 chiptunes/Riskej/iimo_o.fym
 #EXTINF:-1,Riskej - iloveyou
 chiptunes/Riskej/iloveyou.fym
-#EXTINF:-1,Riskej - intro
-chiptunes/Riskej/intro.fym
 #EXTINF:-1,Riskej - intrtune
 chiptunes/Riskej/intrtune.fym
 #EXTINF:-1,Riskej - isim_lm
@@ -18435,8 +18233,6 @@ chiptunes/Riskej/jungle.fym
 chiptunes/Riskej/just12hz.fym
 #EXTINF:-1,Riskej - key-jee_
 chiptunes/Riskej/key-jee_.fym
-#EXTINF:-1,Riskej - khe.ske
-chiptunes/Riskej/khe.ske.fym
 #EXTINF:-1,Riskej - kruto
 chiptunes/Riskej/kruto.fym
 #EXTINF:-1,Riskej - kuru5.}g
@@ -18457,8 +18253,6 @@ chiptunes/Riskej/lesnik.fym
 chiptunes/Riskej/linda08.fym
 #EXTINF:-1,Riskej - lonely..
 chiptunes/Riskej/lonely...fym
-#EXTINF:-1,Riskej - looped2
-chiptunes/Riskej/looped2.fym
 #EXTINF:-1,Riskej - lostmemo
 chiptunes/Riskej/lostmemo.fym
 #EXTINF:-1,Riskej - love.meiagression
@@ -18503,20 +18297,12 @@ chiptunes/Riskej/mrcredo.fym
 chiptunes/Riskej/myfoto _.fym
 #EXTINF:-1,Riskej - myjoke
 chiptunes/Riskej/myjoke.fym
-#EXTINF:-1,Riskej - myslll
-chiptunes/Riskej/myslll.fym
-#EXTINF:-1,Riskej - nedumay.
-chiptunes/Riskej/nedumay..fym
 #EXTINF:-1,Riskej - newr
 chiptunes/Riskej/newr.fym
 #EXTINF:-1,Riskej - newyear
 chiptunes/Riskej/newyear.fym
-#EXTINF:-1,Riskej - nextleve
-chiptunes/Riskej/nextleve.fym
 #EXTINF:-1,Riskej - nightmar
 chiptunes/Riskej/nightmar.fym
-#EXTINF:-1,Riskej - nightss
-chiptunes/Riskej/nightss.fym
 #EXTINF:-1,Riskej - noisedrm
 chiptunes/Riskej/noisedrm.fym
 #EXTINF:-1,Riskej - nolove
@@ -18589,8 +18375,6 @@ chiptunes/Riskej/qpurr.fym
 chiptunes/Riskej/rainfall.fym
 #EXTINF:-1,Riskej - razborka
 chiptunes/Riskej/razborka.fym
-#EXTINF:-1,Riskej - ready_go
-chiptunes/Riskej/ready_go.fym
 #EXTINF:-1,Riskej - reflecti
 chiptunes/Riskej/reflecti.fym
 #EXTINF:-1,Riskej - reguest
@@ -18617,8 +18401,6 @@ chiptunes/Riskej/robowhmx.fym
 chiptunes/Riskej/rose.fym
 #EXTINF:-1,Riskej - s_mdream
 chiptunes/Riskej/s_mdream.fym
-#EXTINF:-1,Riskej - s1new
-chiptunes/Riskej/s1new.fym
 #EXTINF:-1,Riskej - sardelka
 chiptunes/Riskej/sardelka.fym
 #EXTINF:-1,Riskej - satisfuc
@@ -18635,30 +18417,20 @@ chiptunes/Riskej/scener.fym
 chiptunes/Riskej/school.fym
 #EXTINF:-1,Riskej - se}hatre
 chiptunes/Riskej/se}hatre.fym
-#EXTINF:-1,Riskej - sextro
-chiptunes/Riskej/sextro.fym
 #EXTINF:-1,Riskej - shortwrd
 chiptunes/Riskej/shortwrd.fym
-#EXTINF:-1,Riskej - sketch1.
-chiptunes/Riskej/sketch1..fym
 #EXTINF:-1,Riskej - sketches
 chiptunes/Riskej/sketches.fym
 #EXTINF:-1,Riskej - sketchon
 chiptunes/Riskej/sketchon.fym
 #EXTINF:-1,Riskej - sligift
 chiptunes/Riskej/sligift.fym
-#EXTINF:-1,Riskej - smile
-chiptunes/Riskej/smile.fym
-#EXTINF:-1,Riskej - splatter
-chiptunes/Riskej/splatter.fym
 #EXTINF:-1,Riskej - stupid.theme       vol2.6
 chiptunes/Riskej/stupid.theme       vol2.6.fym
 #EXTINF:-1,Riskej - sweetnov
 chiptunes/Riskej/sweetnov.fym
 #EXTINF:-1,Riskej - the_tale
 chiptunes/Riskej/the_tale.fym
-#EXTINF:-1,Riskej - timeigho
-chiptunes/Riskej/timeigho.fym
 #EXTINF:-1,Riskej - times1
 chiptunes/Riskej/times1.fym
 #EXTINF:-1,Riskej - times2
@@ -18677,8 +18449,6 @@ chiptunes/Riskej/tractor.fym
 chiptunes/Riskej/train.fym
 #EXTINF:-1,Riskej - trance;(
 chiptunes/Riskej/trance;(.fym
-#EXTINF:-1,Riskej - transparent cry 1
-chiptunes/Riskej/transparent cry 1.fym
 #EXTINF:-1,Riskej - transparent cry 2
 chiptunes/Riskej/transparent cry 2.fym
 #EXTINF:-1,Riskej - triada
@@ -18689,8 +18459,6 @@ chiptunes/Riskej/truth.fym
 chiptunes/Riskej/truth2.fym
 #EXTINF:-1,Riskej - tuturne
 chiptunes/Riskej/tuturne.fym
-#EXTINF:-1,Riskej - u lose 2
-chiptunes/Riskej/u lose 2.fym
 #EXTINF:-1,Riskej - ulife;sd
 chiptunes/Riskej/ulife;sd.fym
 #EXTINF:-1,Riskej - underwat
@@ -18705,12 +18473,6 @@ chiptunes/Riskej/vision.fym
 chiptunes/Riskej/walking.fym
 #EXTINF:-1,Riskej - warningi  high radiation
 chiptunes/Riskej/warningi  high radiation.fym
-#EXTINF:-1,Riskej - win1
-chiptunes/Riskej/win1.fym
-#EXTINF:-1,Riskej - win2
-chiptunes/Riskej/win2.fym
-#EXTINF:-1,Riskej - win22
-chiptunes/Riskej/win22.fym
 #EXTINF:-1,Riskej - win3
 chiptunes/Riskej/win3.fym
 #EXTINF:-1,Riskej - win33
@@ -18721,10 +18483,6 @@ chiptunes/Riskej/winged.fym
 chiptunes/Riskej/winlevel.fym
 #EXTINF:-1,Riskej - wv_heart
 chiptunes/Riskej/wv_heart.fym
-#EXTINF:-1,Riskej - wwwwwwww
-chiptunes/Riskej/wwwwwwww.fym
-#EXTINF:-1,Riskej - xlife;promotion
-chiptunes/Riskej/xlife;promotion.fym
 #EXTINF:-1,Riskej - xworld
 chiptunes/Riskej/xworld.fym
 #EXTINF:-1,Riskej - y_io4kum
@@ -18735,8 +18493,6 @@ chiptunes/Riskej/yablochk.fym
 chiptunes/Riskej/young.fym
 #EXTINF:-1,Riskej - zubiwroz
 chiptunes/Riskej/zubiwroz.fym
-#EXTINF:-1,Riskej - zx
-chiptunes/Riskej/zx.fym
 #EXTGRP:Rob Hubbard
 #EXTINF:-1,Rob Hubbard - dragon_s lair 2 - escape from singe_s castle
 chiptunes/Rob Hubbard/dragon_s lair 2 - escape from singe_s castle.fym
@@ -18777,120 +18533,147 @@ chiptunes/Rst7/resound1.fym
 #EXTINF:-1,Rubedo - Rubedo - phayses
 chiptunes/Rubedo/Rubedo - phayses.pt3
 #EXTGRP:Sairoos
+#SUBSECTION:1997
+#EXTINF:-1,Sairoos - ALCOHOLICAL NIGHT
+chiptunes/Sairoos/1997/ALCOHOLICAL NIGHT.pt2
+#EXTINF:-1,Sairoos - Buzz#09
+chiptunes/Sairoos/1997/Buzz#09.pt2
+#EXTINF:-1,Sairoos - Buzz#10
+chiptunes/Sairoos/1997/Buzz#10.pt2
+#EXTINF:-1,Sairoos - Buzz#11
+chiptunes/Sairoos/1997/Buzz#11.pt2
+#EXTINF:-1,Sairoos - ChPart1
+chiptunes/Sairoos/1997/ChPart1.pt2
+#EXTINF:-1,Sairoos - ChPart2
+chiptunes/Sairoos/1997/ChPart2.pt2
+#EXTINF:-1,Sairoos - Climbatize Hidden
+chiptunes/Sairoos/1997/Climbatize Hidden.pt2
+#EXTINF:-1,Sairoos - E_Motion
+chiptunes/Sairoos/1997/E_Motion.pt2
+#EXTINF:-1,Sairoos - EXTASY
+chiptunes/Sairoos/1997/EXTASY.pt2
+#EXTINF:-1,Sairoos - FairKhight
+chiptunes/Sairoos/1997/FairKhight.pt2
+#EXTINF:-1,Sairoos - GAS
+chiptunes/Sairoos/1997/GAS.pt2
+#EXTINF:-1,Sairoos - HEI
+chiptunes/Sairoos/1997/HEI.pt2
+#EXTINF:-1,Sairoos - INTRO12
+chiptunes/Sairoos/1997/INTRO12.pt2
+#EXTINF:-1,Sairoos - JOKE
+chiptunes/Sairoos/1997/JOKE.pt2
+#EXTINF:-1,Sairoos - OOPS
+chiptunes/Sairoos/1997/OOPS.pt2
+#EXTINF:-1,Sairoos - StOChaos
+chiptunes/Sairoos/1997/StOChaos.pt2
+#EXTINF:-1,Sairoos - TechnoMx
+chiptunes/Sairoos/1997/TechnoMx.pt2
+#SUBSECTION:1998
 #EXTINF:-1,Sairoos - 1_5minut
-chiptunes/Sairoos/1_5minut.fym
-#EXTINF:-1,Sairoos - 5th element 1
-chiptunes/Sairoos/5th element 1.fym
-#EXTINF:-1,Sairoos - 5th element 2
-chiptunes/Sairoos/5th element 2.fym
-#EXTINF:-1,Sairoos - adrenalize 1
-chiptunes/Sairoos/adrenalize 1.fym
-#EXTINF:-1,Sairoos - aftertherain
-chiptunes/Sairoos/aftertherain.fym
-#EXTINF:-1,Sairoos - alcoholical night
-chiptunes/Sairoos/alcoholical night.fym
-#EXTINF:-1,Sairoos - ballada
-chiptunes/Sairoos/ballada.fym
-#EXTINF:-1,Sairoos - buzz09
-chiptunes/Sairoos/buzz09.fym
-#EXTINF:-1,Sairoos - buzz10
-chiptunes/Sairoos/buzz10.fym
-#EXTINF:-1,Sairoos - buzz11
-chiptunes/Sairoos/buzz11.fym
-#EXTINF:-1,Sairoos - buzz12
-chiptunes/Sairoos/buzz12.fym
-#EXTINF:-1,Sairoos - buzz13
-chiptunes/Sairoos/buzz13.fym
-#EXTINF:-1,Sairoos - buzz14_1
-chiptunes/Sairoos/buzz14_1.fym
-#EXTINF:-1,Sairoos - buzz16_1
-chiptunes/Sairoos/buzz16_1.fym
-#EXTINF:-1,Sairoos - buzz16_2
-chiptunes/Sairoos/buzz16_2.fym
-#EXTINF:-1,Sairoos - buzz18_1
-chiptunes/Sairoos/buzz18_1.fym
-#EXTINF:-1,Sairoos - chiwo
-chiptunes/Sairoos/chiwo.fym
-#EXTINF:-1,Sairoos - chpart1
-chiptunes/Sairoos/chpart1.fym
-#EXTINF:-1,Sairoos - chpart2
-chiptunes/Sairoos/chpart2.fym
-#EXTINF:-1,Sairoos - climbatize
-chiptunes/Sairoos/climbatize.fym
-#EXTINF:-1,Sairoos - climbatize hidden
-chiptunes/Sairoos/climbatize hidden.fym
-#EXTINF:-1,Sairoos - dogma1
-chiptunes/Sairoos/dogma1.fym
-#EXTINF:-1,Sairoos - dogma2
-chiptunes/Sairoos/dogma2.fym
-#EXTINF:-1,Sairoos - e_motion
-chiptunes/Sairoos/e_motion.fym
-#EXTINF:-1,Sairoos - extasy
-chiptunes/Sairoos/extasy.fym
-#EXTINF:-1,Sairoos - fairkhight
-chiptunes/Sairoos/fairkhight.fym
-#EXTINF:-1,Sairoos - fl_sh_ei
-chiptunes/Sairoos/fl_sh_ei.fym
-#EXTINF:-1,Sairoos - gas
-chiptunes/Sairoos/gas.fym
-#EXTINF:-1,Sairoos - hei
-chiptunes/Sairoos/hei.fym
-#EXTINF:-1,Sairoos - heresy6
-chiptunes/Sairoos/heresy6.fym
-#EXTINF:-1,Sairoos - higgledy
-chiptunes/Sairoos/higgledy.fym
-#EXTINF:-1,Sairoos - ilovepops
-chiptunes/Sairoos/ilovepops.fym
-#EXTINF:-1,Sairoos - inb2
-chiptunes/Sairoos/inb2.fym
-#EXTINF:-1,Sairoos - inbetween
-chiptunes/Sairoos/inbetween.fym
-#EXTINF:-1,Sairoos - inbetween (version)
-chiptunes/Sairoos/inbetween (version).fym
-#EXTINF:-1,Sairoos - intro12
-chiptunes/Sairoos/intro12.fym
-#EXTINF:-1,Sairoos - invasion
-chiptunes/Sairoos/invasion.fym
-#EXTINF:-1,Sairoos - joke
-chiptunes/Sairoos/joke.fym
+chiptunes/Sairoos/1998/1_5minut.psc
+#EXTINF:-1,Sairoos - 5th Element #1
+chiptunes/Sairoos/1998/5th Element #1.psc
+#EXTINF:-1,Sairoos - 5th Element #2
+chiptunes/Sairoos/1998/5th Element #2.psc
+#EXTINF:-1,Sairoos - Adrenalize #1
+chiptunes/Sairoos/1998/Adrenalize #1.psc
+#EXTINF:-1,Sairoos - AfterTheRain
+chiptunes/Sairoos/1998/AfterTheRain.psc
+#EXTINF:-1,Sairoos - BALLADA
+chiptunes/Sairoos/1998/BALLADA.pt2
+#EXTINF:-1,Sairoos - Buzz#16_1
+chiptunes/Sairoos/1998/Buzz#16_1.psc
+#EXTINF:-1,Sairoos - Buzz#16_2
+chiptunes/Sairoos/1998/Buzz#16_2.pt3
+#EXTINF:-1,Sairoos - Climbatize
+chiptunes/Sairoos/1998/Climbatize.pt2
+#EXTINF:-1,Sairoos - FL_SH_EI
+chiptunes/Sairoos/1998/FL_SH_EI.psc
+#EXTINF:-1,Sairoos - HIGGLEDY
+chiptunes/Sairoos/1998/HIGGLEDY.pt3
 #EXTINF:-1,Sairoos - kosme 00 intro
-chiptunes/Sairoos/kosme 00 intro.fym
-#EXTINF:-1,Sairoos - lifeforms
-chiptunes/Sairoos/lifeforms.fym
-#EXTINF:-1,Sairoos - lifetrack
-chiptunes/Sairoos/lifetrack.fym
-#EXTINF:-1,Sairoos - lifetrack2
-chiptunes/Sairoos/lifetrack2.fym
-#EXTINF:-1,Sairoos - madnight
-chiptunes/Sairoos/madnight.fym
-#EXTINF:-1,Sairoos - mutombo
-chiptunes/Sairoos/mutombo.fym
-#EXTINF:-1,Sairoos - muzzakakaka
-chiptunes/Sairoos/muzzakakaka.fym
-#EXTINF:-1,Sairoos - napalm
-chiptunes/Sairoos/napalm.fym
-#EXTINF:-1,Sairoos - nether earth end
-chiptunes/Sairoos/nether earth end.fym
-#EXTINF:-1,Sairoos - oops
-chiptunes/Sairoos/oops.fym
-#EXTINF:-1,Sairoos - paracels
-chiptunes/Sairoos/paracels.fym
-#EXTINF:-1,Sairoos - ppk
-chiptunes/Sairoos/ppk.fym
+chiptunes/Sairoos/1998/kosme 00 intro.psc
+#EXTINF:-1,Sairoos - LifeTrack
+chiptunes/Sairoos/1998/LifeTrack.psc
+#EXTINF:-1,Sairoos - LifeTrack2
+chiptunes/Sairoos/1998/LifeTrack2.psc
+#EXTINF:-1,Sairoos - MadNight
+chiptunes/Sairoos/1998/MadNight.pt2
+#EXTINF:-1,Sairoos - PARACELS
+chiptunes/Sairoos/1998/PARACELS.psc
+#EXTINF:-1,Sairoos - SPY
+chiptunes/Sairoos/1998/SPY.psc
+#SUBSECTION:1999
+#EXTINF:-1,Sairoos - Buzz#18_1
+chiptunes/Sairoos/1999/Buzz#18_1.psc
+#EXTINF:-1,Sairoos - Invasion
+chiptunes/Sairoos/1999/Invasion.psc
+#EXTINF:-1,Sairoos - MuzzakaKaka
+chiptunes/Sairoos/1999/MuzzakaKaka.psc
+#EXTINF:-1,Sairoos - Napalm
+chiptunes/Sairoos/1999/Napalm.psc
+#EXTINF:-1,Sairoos - PPK
+chiptunes/Sairoos/1999/PPK.psc
+#EXTINF:-1,Sairoos - Suxxophone
+chiptunes/Sairoos/1999/Suxxophone.psc
+#EXTINF:-1,Sairoos - Suxxophone2
+chiptunes/Sairoos/1999/Suxxophone2.psc
+#SUBSECTION:2000
+#EXTINF:-1,Sairoos - Chiwo
+chiptunes/Sairoos/2000/Chiwo.psc
+#EXTINF:-1,Sairoos - Dogma1
+chiptunes/Sairoos/2000/Dogma1.psc
+#EXTINF:-1,Sairoos - Dogma2
+chiptunes/Sairoos/2000/Dogma2.psc
+#EXTINF:-1,Sairoos - Heresy6
+chiptunes/Sairoos/2000/Heresy6.psc
+#EXTINF:-1,Sairoos - ILovePops
+chiptunes/Sairoos/2000/ILovePops.psc
+#EXTINF:-1,Sairoos - LifeForms
+chiptunes/Sairoos/2000/LifeForms.psc
+#EXTINF:-1,Sairoos - SR7
+chiptunes/Sairoos/2000/SR7.psc
+#SUBSECTION:2002
+#EXTINF:-1,Sairoos - inb2
+chiptunes/Sairoos/2002/inb2.psc
+#EXTINF:-1,Sairoos - inbetween
+chiptunes/Sairoos/2002/inbetween.psc
+#EXTINF:-1,Sairoos - inbetween (version)
+chiptunes/Sairoos/2002/inbetween (version).psc
 #EXTINF:-1,Sairoos - sairoos - inbeatween
-chiptunes/Sairoos/sairoos - inbeatween.fym
-#EXTINF:-1,Sairoos - spy
-chiptunes/Sairoos/spy.fym
-#EXTINF:-1,Sairoos - sr7
-chiptunes/Sairoos/sr7.fym
-#EXTINF:-1,Sairoos - stochaos
-chiptunes/Sairoos/stochaos.fym
-#EXTINF:-1,Sairoos - suxxophone
-chiptunes/Sairoos/suxxophone.fym
-#EXTINF:-1,Sairoos - suxxophone2
-chiptunes/Sairoos/suxxophone2.fym
-#EXTINF:-1,Sairoos - technomx
-chiptunes/Sairoos/technomx.fym
+chiptunes/Sairoos/2002/sairoos - inbeatween.psc
+#SUBSECTION:other
+#EXTINF:-1,Sairoos - Buzz#12
+chiptunes/Sairoos/other/Buzz#12.pt2
+#EXTINF:-1,Sairoos - Buzz#13
+chiptunes/Sairoos/other/Buzz#13.pt3
+#EXTINF:-1,Sairoos - Buzz#14_1
+chiptunes/Sairoos/other/Buzz#14_1.pt2
+#EXTINF:-1,Sairoos - Mutombo
+chiptunes/Sairoos/other/Mutombo.psc
+#EXTINF:-1,Sairoos - Nether Earth End
+chiptunes/Sairoos/other/Nether Earth End.pt2
+#EXTGRP:Sauron
+#EXTINF:-1,Sauron - Joe, Sauron - 7th Reality 1 (1996)
+chiptunes/Sauron/Joe, Sauron - 7th Reality 1 (1996).pt2
+#EXTINF:-1,Sauron - Sauron - BeQuick
+chiptunes/Sauron/Sauron - BeQuick.pt2
+#EXTINF:-1,Sauron - Sauron - Jam1 (1999)
+chiptunes/Sauron/Sauron - Jam1 (1999).ftc
+#EXTINF:-1,Sauron - Sauron - Jam2 (1999)
+chiptunes/Sauron/Sauron - Jam2 (1999).ftc
+#EXTINF:-1,Sauron - Sauron - Megatech (1996)
+chiptunes/Sauron/Sauron - Megatech (1996).pt2
+#EXTINF:-1,Sauron - Sauron - Myst. Doom-1 (1996) (Enlight 1996, 11)
+chiptunes/Sauron/Sauron - Myst. Doom-1 (1996) (Enlight 1996, 11).pt2
+#EXTINF:-1,Sauron - Sauron - OOOPS!
+chiptunes/Sauron/Sauron - OOOPS!.ftc
+#EXTINF:-1,Sauron - Sauron - PA-PA-PA (1997)
+chiptunes/Sauron/Sauron - PA-PA-PA (1997).ftc
+#EXTINF:-1,Sauron - Sauron - PA-PA-PA (1997) (Enlight 1997)
+chiptunes/Sauron/Sauron - PA-PA-PA (1997) (Enlight 1997).pt2
+#EXTINF:-1,Sauron - Sauron - SPACEFREAK (1997)
+chiptunes/Sauron/Sauron - SPACEFREAK (1997).ftc
 #EXTGRP:Scalesmann
 #EXTINF:-1,Scalesmann - Scalesmann - 01_steps2heaven
 chiptunes/Scalesmann/Scalesmann - 01_steps2heaven.pt3
@@ -19039,8 +18822,6 @@ chiptunes/Sergant/alexia.fym
 chiptunes/Sergant/alexiaii.fym
 #EXTINF:-1,Sergant - angel
 chiptunes/Sergant/angel.fym
-#EXTINF:-1,Sergant - as1
-chiptunes/Sergant/as1.fym
 #EXTINF:-1,Sergant - backtosc
 chiptunes/Sergant/backtosc.fym
 #EXTINF:-1,Sergant - begin_s
@@ -19101,8 +18882,6 @@ chiptunes/Sergant/howmuch.fym
 chiptunes/Sergant/ir_les.fym
 #EXTINF:-1,Sergant - ir_lest
 chiptunes/Sergant/ir_lest.fym
-#EXTINF:-1,Sergant - kass1
-chiptunes/Sergant/kass1.fym
 #EXTINF:-1,Sergant - kosmonova
 chiptunes/Sergant/kosmonova.fym
 #EXTINF:-1,Sergant - l_beat
@@ -19143,8 +18922,6 @@ chiptunes/Sergant/ocean2.fym
 chiptunes/Sergant/ol2.fym
 #EXTINF:-1,Sergant - ol5
 chiptunes/Sergant/ol5.fym
-#EXTINF:-1,Sergant - oleg1
-chiptunes/Sergant/oleg1.fym
 #EXTINF:-1,Sergant - orig_11
 chiptunes/Sergant/orig_11.fym
 #EXTINF:-1,Sergant - peace
@@ -19286,8 +19063,6 @@ chiptunes/Seth/highfeel.fym
 chiptunes/Seth/instant.fym
 #EXTINF:-1,Seth - instinsp
 chiptunes/Seth/instinsp.fym
-#EXTINF:-1,Seth - intro
-chiptunes/Seth/intro.fym
 #EXTINF:-1,Seth - iresting
 chiptunes/Seth/iresting.fym
 #EXTINF:-1,Seth - jour2tib
@@ -19320,8 +19095,6 @@ chiptunes/Seth/mthrfuck.fym
 chiptunes/Seth/music.fym
 #EXTINF:-1,Seth - muz4opm5
 chiptunes/Seth/muz4opm5.fym
-#EXTINF:-1,Seth - muza4opi
-chiptunes/Seth/muza4opi.fym
 #EXTINF:-1,Seth - mydreams
 chiptunes/Seth/mydreams.fym
 #EXTINF:-1,Seth - mynewstl
@@ -19662,8 +19435,6 @@ chiptunes/Siril/spyi.fym
 chiptunes/Siril/squeezed.fym
 #EXTINF:-1,Siril - sr0
 chiptunes/Siril/sr0.fym
-#EXTINF:-1,Siril - sr1
-chiptunes/Siril/sr1.fym
 #EXTINF:-1,Siril - ssidkwt
 chiptunes/Siril/ssidkwt.fym
 #EXTINF:-1,Siril - stepi
@@ -20030,8 +19801,6 @@ chiptunes/TDM/dmdemo part 5.fym
 chiptunes/TDM/dmdemo part 6.fym
 #EXTINF:-1,TDM - dmdemo part 7
 chiptunes/TDM/dmdemo part 7.fym
-#EXTINF:-1,TDM - dmdemo press a key
-chiptunes/TDM/dmdemo press a key.fym
 #EXTINF:-1,TDM - drift
 chiptunes/TDM/drift.fym
 #EXTINF:-1,TDM - dvaroky
@@ -20082,6 +19851,8 @@ chiptunes/TDM/shock3_5.fym
 chiptunes/TDM/shock3_6.fym
 #EXTINF:-1,TDM - startrash
 chiptunes/TDM/startrash.fym
+#EXTINF:-1,TDM - TDM and Factor6 - Cover of 'Hung Up' by Madonna (2xAY ACB)
+chiptunes/TDM/TDM and Factor6 - Cover of 'Hung Up' by Madonna (2xAY ACB).sqt
 #EXTINF:-1,TDM - tdm story
 chiptunes/TDM/tdm story.fym
 #EXTINF:-1,TDM - tim follin
@@ -20360,8 +20131,6 @@ chiptunes/V0yager/V0yager - Kintsukoroi.pt3
 #EXTGRP:Vad
 #EXTINF:-1,Vad - _
 chiptunes/Vad/_.fym
-#EXTINF:-1,Vad - 13
-chiptunes/Vad/13.fym
 #EXTINF:-1,Vad - 25.04
 chiptunes/Vad/25.04.fym
 #EXTINF:-1,Vad - 2802
@@ -20376,14 +20145,10 @@ chiptunes/Vad/avaria.fym
 chiptunes/Vad/b2.fym
 #EXTINF:-1,Vad - bar
 chiptunes/Vad/bar.fym
-#EXTINF:-1,Vad - best
-chiptunes/Vad/best.fym
 #EXTINF:-1,Vad - bet.rem.
 chiptunes/Vad/bet.rem..fym
 #EXTINF:-1,Vad - bethoven
 chiptunes/Vad/bethoven.fym
-#EXTINF:-1,Vad - birth
-chiptunes/Vad/birth.fym
 #EXTINF:-1,Vad - book
 chiptunes/Vad/book.fym
 #EXTINF:-1,Vad - bt
@@ -20392,20 +20157,12 @@ chiptunes/Vad/bt.fym
 chiptunes/Vad/bum-bum.fym
 #EXTINF:-1,Vad - caaf
 chiptunes/Vad/caaf.fym
-#EXTINF:-1,Vad - chicken
-chiptunes/Vad/chicken.fym
 #EXTINF:-1,Vad - compos_1
 chiptunes/Vad/compos_1.fym
-#EXTINF:-1,Vad - compos_2
-chiptunes/Vad/compos_2.fym
 #EXTINF:-1,Vad - compos_3
 chiptunes/Vad/compos_3.fym
 #EXTINF:-1,Vad - compos_4
 chiptunes/Vad/compos_4.fym
-#EXTINF:-1,Vad - compos_5
-chiptunes/Vad/compos_5.fym
-#EXTINF:-1,Vad - cool_msx
-chiptunes/Vad/cool_msx.fym
 #EXTINF:-1,Vad - cytrus
 chiptunes/Vad/cytrus.fym
 #EXTINF:-1,Vad - dance
@@ -20430,8 +20187,6 @@ chiptunes/Vad/elka.fym
 chiptunes/Vad/end.fym
 #EXTINF:-1,Vad - epilog_2
 chiptunes/Vad/epilog_2.fym
-#EXTINF:-1,Vad - f4
-chiptunes/Vad/f4.fym
 #EXTINF:-1,Vad - facest
 chiptunes/Vad/facest.fym
 #EXTINF:-1,Vad - fert
@@ -20440,8 +20195,6 @@ chiptunes/Vad/fert.fym
 chiptunes/Vad/fet.fym
 #EXTINF:-1,Vad - first
 chiptunes/Vad/first.fym
-#EXTINF:-1,Vad - fish
-chiptunes/Vad/fish.fym
 #EXTINF:-1,Vad - fly
 chiptunes/Vad/fly.fym
 #EXTINF:-1,Vad - for part
@@ -20454,8 +20207,6 @@ chiptunes/Vad/fun.fym
 chiptunes/Vad/galaxy3.fym
 #EXTINF:-1,Vad - gold
 chiptunes/Vad/gold.fym
-#EXTINF:-1,Vad - gt
-chiptunes/Vad/gt.fym
 #EXTINF:-1,Vad - h1
 chiptunes/Vad/h1.fym
 #EXTINF:-1,Vad - hand
@@ -20472,12 +20223,6 @@ chiptunes/Vad/kali.fym
 chiptunes/Vad/kam.fym
 #EXTINF:-1,Vad - kotran
 chiptunes/Vad/kotran.fym
-#EXTINF:-1,Vad - like
-chiptunes/Vad/like.fym
-#EXTINF:-1,Vad - lowt
-chiptunes/Vad/lowt.fym
-#EXTINF:-1,Vad - m1
-chiptunes/Vad/m1.fym
 #EXTINF:-1,Vad - m1p
 chiptunes/Vad/m1p.fym
 #EXTINF:-1,Vad - m22r2
@@ -20486,16 +20231,12 @@ chiptunes/Vad/m22r2.fym
 chiptunes/Vad/man.fym
 #EXTINF:-1,Vad - mang
 chiptunes/Vad/mang.fym
-#EXTINF:-1,Vad - math
-chiptunes/Vad/math.fym
 #EXTINF:-1,Vad - melody
 chiptunes/Vad/melody.fym
 #EXTINF:-1,Vad - mixer1
 chiptunes/Vad/mixer1.fym
 #EXTINF:-1,Vad - more3
 chiptunes/Vad/more3.fym
-#EXTINF:-1,Vad - moros
-chiptunes/Vad/moros.fym
 #EXTINF:-1,Vad - mouse
 chiptunes/Vad/mouse.fym
 #EXTINF:-1,Vad - mus
@@ -20506,8 +20247,6 @@ chiptunes/Vad/mus-2000.fym
 chiptunes/Vad/musak.fym
 #EXTINF:-1,Vad - music
 chiptunes/Vad/music.fym
-#EXTINF:-1,Vad - n1
-chiptunes/Vad/n1.fym
 #EXTINF:-1,Vad - nach
 chiptunes/Vad/nach.fym
 #EXTINF:-1,Vad - ne
@@ -20522,24 +20261,14 @@ chiptunes/Vad/new3.fym
 chiptunes/Vad/newbeth.fym
 #EXTINF:-1,Vad - nex
 chiptunes/Vad/nex.fym
-#EXTINF:-1,Vad - nice
-chiptunes/Vad/nice.fym
-#EXTINF:-1,Vad - noname
-chiptunes/Vad/noname.fym
-#EXTINF:-1,Vad - nonsens
-chiptunes/Vad/nonsens.fym
 #EXTINF:-1,Vad - noth
 chiptunes/Vad/noth.fym
 #EXTINF:-1,Vad - nothing
 chiptunes/Vad/nothing.fym
-#EXTINF:-1,Vad - oblaka
-chiptunes/Vad/oblaka.fym
 #EXTINF:-1,Vad - olen
 chiptunes/Vad/olen.fym
 #EXTINF:-1,Vad - olya
 chiptunes/Vad/olya.fym
-#EXTINF:-1,Vad - otpetye
-chiptunes/Vad/otpetye.fym
 #EXTINF:-1,Vad - play1
 chiptunes/Vad/play1.fym
 #EXTINF:-1,Vad - play2
@@ -20548,16 +20277,12 @@ chiptunes/Vad/play2.fym
 chiptunes/Vad/play3.fym
 #EXTINF:-1,Vad - plus
 chiptunes/Vad/plus.fym
-#EXTINF:-1,Vad - po
-chiptunes/Vad/po.fym
 #EXTINF:-1,Vad - ppk
 chiptunes/Vad/ppk.fym
 #EXTINF:-1,Vad - pusher
 chiptunes/Vad/pusher.fym
 #EXTINF:-1,Vad - q
 chiptunes/Vad/q.fym
-#EXTINF:-1,Vad - rel
-chiptunes/Vad/rel.fym
 #EXTINF:-1,Vad - rem
 chiptunes/Vad/rem.fym
 #EXTINF:-1,Vad - river
@@ -20576,16 +20301,12 @@ chiptunes/Vad/sarapul.fym
 chiptunes/Vad/second.fym
 #EXTINF:-1,Vad - sinewa
 chiptunes/Vad/sinewa.fym
-#EXTINF:-1,Vad - song1
-chiptunes/Vad/song1.fym
 #EXTINF:-1,Vad - space
 chiptunes/Vad/space.fym
 #EXTINF:-1,Vad - space2
 chiptunes/Vad/space2.fym
 #EXTINF:-1,Vad - stor
 chiptunes/Vad/stor.fym
-#EXTINF:-1,Vad - sun
-chiptunes/Vad/sun.fym
 #EXTINF:-1,Vad - swopper game
 chiptunes/Vad/swopper game.fym
 #EXTINF:-1,Vad - t
@@ -20600,8 +20321,6 @@ chiptunes/Vad/vadim.fym
 chiptunes/Vad/valley.fym
 #EXTINF:-1,Vad - valley2
 chiptunes/Vad/valley2.fym
-#EXTINF:-1,Vad - valley8
-chiptunes/Vad/valley8.fym
 #EXTINF:-1,Vad - version
 chiptunes/Vad/version.fym
 #EXTINF:-1,Vad - welcome
@@ -20612,8 +20331,6 @@ chiptunes/Vad/wollen.fym
 chiptunes/Vad/xxx.fym
 #EXTINF:-1,Vad - zombi
 chiptunes/Vad/zombi.fym
-#EXTINF:-1,Vad - zwuki
-chiptunes/Vad/zwuki.fym
 #EXTGRP:Visual
 #EXTINF:-1,Visual - -drugs-
 chiptunes/Visual/-drugs-.fym
@@ -20775,10 +20492,6 @@ chiptunes/Visual/holder.fym
 chiptunes/Visual/hot.fym
 #EXTINF:-1,Visual - hyp_acid
 chiptunes/Visual/hyp_acid.fym
-#EXTINF:-1,Visual - improv-1
-chiptunes/Visual/improv-1.fym
-#EXTINF:-1,Visual - improv-3
-chiptunes/Visual/improv-3.fym
 #EXTINF:-1,Visual - in-jungl
 chiptunes/Visual/in-jungl.fym
 #EXTINF:-1,Visual - india
@@ -20841,28 +20554,16 @@ chiptunes/Visual/no-4ever.fym
 chiptunes/Visual/nobody.fym
 #EXTINF:-1,Visual - nofor_1r (louder)
 chiptunes/Visual/nofor_1r (louder).fym
-#EXTINF:-1,Visual - nop-1
-chiptunes/Visual/nop-1.fym
-#EXTINF:-1,Visual - nop-10
-chiptunes/Visual/nop-10.fym
-#EXTINF:-1,Visual - nop-1000
-chiptunes/Visual/nop-1000.fym
-#EXTINF:-1,Visual - nop-1001
-chiptunes/Visual/nop-1001.fym
 #EXTINF:-1,Visual - nop-1002
 chiptunes/Visual/nop-1002.fym
 #EXTINF:-1,Visual - nop-1003
 chiptunes/Visual/nop-1003.fym
-#EXTINF:-1,Visual - nop-11
-chiptunes/Visual/nop-11.fym
 #EXTINF:-1,Visual - nop-12
 chiptunes/Visual/nop-12.fym
 #EXTINF:-1,Visual - nop-13
 chiptunes/Visual/nop-13.fym
 #EXTINF:-1,Visual - nop-14
 chiptunes/Visual/nop-14.fym
-#EXTINF:-1,Visual - nop-2
-chiptunes/Visual/nop-2.fym
 #EXTINF:-1,Visual - nop-2000
 chiptunes/Visual/nop-2000.fym
 #EXTINF:-1,Visual - nop-3
@@ -20871,24 +20572,16 @@ chiptunes/Visual/nop-3.fym
 chiptunes/Visual/nop-3000.fym
 #EXTINF:-1,Visual - nop-4
 chiptunes/Visual/nop-4.fym
-#EXTINF:-1,Visual - nop-4000
-chiptunes/Visual/nop-4000.fym
 #EXTINF:-1,Visual - nop-5
 chiptunes/Visual/nop-5.fym
 #EXTINF:-1,Visual - nop-5000
 chiptunes/Visual/nop-5000.fym
 #EXTINF:-1,Visual - nop-6
 chiptunes/Visual/nop-6.fym
-#EXTINF:-1,Visual - nop-6000
-chiptunes/Visual/nop-6000.fym
 #EXTINF:-1,Visual - nop-7
 chiptunes/Visual/nop-7.fym
-#EXTINF:-1,Visual - nop-7000
-chiptunes/Visual/nop-7000.fym
 #EXTINF:-1,Visual - nop-8
 chiptunes/Visual/nop-8.fym
-#EXTINF:-1,Visual - nop-8000
-chiptunes/Visual/nop-8000.fym
 #EXTINF:-1,Visual - nop-9
 chiptunes/Visual/nop-9.fym
 #EXTINF:-1,Visual - noth.forever
@@ -20937,10 +20630,6 @@ chiptunes/Visual/refresh 1.fym
 chiptunes/Visual/refresh 2.fym
 #EXTINF:-1,Visual - refresh 3
 chiptunes/Visual/refresh 3.fym
-#EXTINF:-1,Visual - rs-1
-chiptunes/Visual/rs-1.fym
-#EXTINF:-1,Visual - rs-2
-chiptunes/Visual/rs-2.fym
 #EXTINF:-1,Visual - rulez-cb
 chiptunes/Visual/rulez-cb.fym
 #EXTINF:-1,Visual - s_theme
@@ -20953,8 +20642,6 @@ chiptunes/Visual/sandglas.fym
 chiptunes/Visual/sbz(mix).fym
 #EXTINF:-1,Visual - scooter
 chiptunes/Visual/scooter.fym
-#EXTINF:-1,Visual - shit-c
-chiptunes/Visual/shit-c.fym
 #EXTINF:-1,Visual - silent
 chiptunes/Visual/silent.fym
 #EXTINF:-1,Visual - sm_theme
@@ -21167,8 +20854,6 @@ chiptunes/Voxon/ase_base.fym
 chiptunes/Voxon/balldream.fym
 #EXTINF:-1,Voxon - bars2
 chiptunes/Voxon/bars2.fym
-#EXTINF:-1,Voxon - basf
-chiptunes/Voxon/basf.fym
 #EXTINF:-1,Voxon - bedlam
 chiptunes/Voxon/bedlam.fym
 #EXTINF:-1,Voxon - bells
@@ -21177,26 +20862,16 @@ chiptunes/Voxon/bells.fym
 chiptunes/Voxon/birthday of alex-raider 1.fym
 #EXTINF:-1,Voxon - birthday of alex-raider 2
 chiptunes/Voxon/birthday of alex-raider 2.fym
-#EXTINF:-1,Voxon - blackpon
-chiptunes/Voxon/blackpon.fym
 #EXTINF:-1,Voxon - blp3
 chiptunes/Voxon/blp3.fym
 #EXTINF:-1,Voxon - blsystem
 chiptunes/Voxon/blsystem.fym
-#EXTINF:-1,Voxon - boroda1
-chiptunes/Voxon/boroda1.fym
 #EXTINF:-1,Voxon - brevet
 chiptunes/Voxon/brevet.fym
 #EXTINF:-1,Voxon - brill
 chiptunes/Voxon/brill.fym
-#EXTINF:-1,Voxon - brock
-chiptunes/Voxon/brock.fym
 #EXTINF:-1,Voxon - cavern2
 chiptunes/Voxon/cavern2.fym
-#EXTINF:-1,Voxon - chan1
-chiptunes/Voxon/chan1.fym
-#EXTINF:-1,Voxon - chan2
-chiptunes/Voxon/chan2.fym
 #EXTINF:-1,Voxon - check22
 chiptunes/Voxon/check22.fym
 #EXTINF:-1,Voxon - circle
@@ -21221,14 +20896,10 @@ chiptunes/Voxon/dermo.fym
 chiptunes/Voxon/dkj.fym
 #EXTINF:-1,Voxon - dreams
 chiptunes/Voxon/dreams.fym
-#EXTINF:-1,Voxon - duble gift
-chiptunes/Voxon/duble gift.fym
 #EXTINF:-1,Voxon - easy3
 chiptunes/Voxon/easy3.fym
 #EXTINF:-1,Voxon - emul4mus
 chiptunes/Voxon/emul4mus.fym
-#EXTINF:-1,Voxon - energize
-chiptunes/Voxon/energize.fym
 #EXTINF:-1,Voxon - enigma_
 chiptunes/Voxon/enigma_.fym
 #EXTINF:-1,Voxon - epilogue
@@ -21295,8 +20966,6 @@ chiptunes/Voxon/iris1.fym
 chiptunes/Voxon/iris2.fym
 #EXTINF:-1,Voxon - iris3
 chiptunes/Voxon/iris3.fym
-#EXTINF:-1,Voxon - iris4
-chiptunes/Voxon/iris4.fym
 #EXTINF:-1,Voxon - irs_reld
 chiptunes/Voxon/irs_reld.fym
 #EXTINF:-1,Voxon - islands
@@ -21387,8 +21056,6 @@ chiptunes/Voxon/ndr.fym
 chiptunes/Voxon/neiro2.fym
 #EXTINF:-1,Voxon - nert
 chiptunes/Voxon/nert.fym
-#EXTINF:-1,Voxon - neuda1
-chiptunes/Voxon/neuda1.fym
 #EXTINF:-1,Voxon - new1
 chiptunes/Voxon/new1.fym
 #EXTINF:-1,Voxon - new3
@@ -21401,8 +21068,6 @@ chiptunes/Voxon/nn.fym
 chiptunes/Voxon/norton2.fym
 #EXTINF:-1,Voxon - nosferatu
 chiptunes/Voxon/nosferatu.fym
-#EXTINF:-1,Voxon - noteb1
-chiptunes/Voxon/noteb1.fym
 #EXTINF:-1,Voxon - olpart2
 chiptunes/Voxon/olpart2.fym
 #EXTINF:-1,Voxon - olya_pc
@@ -21435,8 +21100,6 @@ chiptunes/Voxon/pert1.fym
 chiptunes/Voxon/pirit1.fym
 #EXTINF:-1,Voxon - pohmelie
 chiptunes/Voxon/pohmelie.fym
-#EXTINF:-1,Voxon - pribamss
-chiptunes/Voxon/pribamss.fym
 #EXTINF:-1,Voxon - probe
 chiptunes/Voxon/probe.fym
 #EXTINF:-1,Voxon - pseudoam
@@ -21545,8 +21208,6 @@ chiptunes/X-Agon/2 pieces in 1.fym
 chiptunes/X-Agon/a-la-pulse-warrior.fym
 #EXTINF:-1,X-Agon - after
 chiptunes/X-Agon/after.fym
-#EXTINF:-1,X-Agon - amaurote-zxs128k
-chiptunes/X-Agon/amaurote-zxs128k.fym
 #EXTINF:-1,X-Agon - amiga-chiptune1-amiga
 chiptunes/X-Agon/amiga-chiptune1-amiga.fym
 #EXTINF:-1,X-Agon - amiga-chiptune2-amiga
@@ -21631,8 +21292,6 @@ chiptunes/X-Agon/digi-loo-digi-ley-atari800.fym
 chiptunes/X-Agon/dont-vote-for-this.fym
 #EXTINF:-1,X-Agon - drax-loading-c64
 chiptunes/X-Agon/drax-loading-c64.fym
-#EXTINF:-1,X-Agon - electric
-chiptunes/X-Agon/electric.fym
 #EXTINF:-1,X-Agon - eliminator-c64
 chiptunes/X-Agon/eliminator-c64.fym
 #EXTINF:-1,X-Agon - english-atari800(my-2nd-tune)
@@ -21691,8 +21350,6 @@ chiptunes/X-Agon/jet-set-willy-remix-atari800(rob-hubbard).fym
 chiptunes/X-Agon/jetsetwilly(rob hubbard).fym
 #EXTINF:-1,X-Agon - jump-around-c64
 chiptunes/X-Agon/jump-around-c64.fym
-#EXTINF:-1,X-Agon - kawai-rhythm
-chiptunes/X-Agon/kawai-rhythm.fym
 #EXTINF:-1,X-Agon - kokot
 chiptunes/X-Agon/kokot.fym
 #EXTINF:-1,X-Agon - kumball
@@ -21819,6 +21476,78 @@ chiptunes/X-Agon/wazzup.fym
 chiptunes/X-Agon/whatikno.fym
 #EXTINF:-1,X-Agon - wretched
 chiptunes/X-Agon/wretched.fym
+#EXTINF:-1,X-Agon - X-agon - 1
+chiptunes/X-Agon/X-agon - 1.sqt
+#EXTINF:-1,X-Agon - X-agon - Amaurote-ZXS128K
+chiptunes/X-Agon/X-agon - Amaurote-ZXS128K.sqt
+#EXTINF:-1,X-Agon - X-agon - Amiga-chiptune6-Amiga
+chiptunes/X-Agon/X-agon - Amiga-chiptune6-Amiga.sqt
+#EXTINF:-1,X-Agon - X-agon - Amiga-cracktro-Amiga
+chiptunes/X-Agon/X-agon - Amiga-cracktro-Amiga.sqt
+#EXTINF:-1,X-Agon - X-agon - Anogaia-ZX48K-beeper
+chiptunes/X-Agon/X-agon - Anogaia-ZX48K-beeper.sqt
+#EXTINF:-1,X-Agon - X-agon - Bellissima
+chiptunes/X-Agon/X-agon - Bellissima.sqt
+#EXTINF:-1,X-Agon - X-agon - Birthmix
+chiptunes/X-Agon/X-agon - Birthmix.sqt
+#EXTINF:-1,X-Agon - X-agon - Boss
+chiptunes/X-Agon/X-agon - Boss.sqt
+#EXTINF:-1,X-Agon - X-agon - Breath-of-air-3chan1-MOD
+chiptunes/X-Agon/X-agon - Breath-of-air-3chan1-MOD.sqt
+#EXTINF:-1,X-Agon - X-agon - C64song2-C64
+chiptunes/X-Agon/X-agon - C64song2-C64.sqt
+#EXTINF:-1,X-Agon - X-agon - C64song3-C64
+chiptunes/X-Agon/X-agon - C64song3-C64.sqt
+#EXTINF:-1,X-Agon - X-agon - ChrysagonFactor6CooperationIntro
+chiptunes/X-Agon/X-agon - ChrysagonFactor6CooperationIntro.sqt
+#EXTINF:-1,X-Agon - X-agon - Feud-ingame-Atari800
+chiptunes/X-Agon/X-agon - Feud-ingame-Atari800.sqt
+#EXTINF:-1,X-Agon - X-agon - Firefly-theme-C64
+chiptunes/X-Agon/X-agon - Firefly-theme-C64.sqt
+#EXTINF:-1,X-Agon - X-agon - For-all1
+chiptunes/X-Agon/X-agon - For-all1.sqt
+#EXTINF:-1,X-Agon - X-agon - For-all6
+chiptunes/X-Agon/X-agon - For-all6.sqt
+#EXTINF:-1,X-Agon - X-agon - InterlacePart
+chiptunes/X-Agon/X-agon - InterlacePart.sqt
+#EXTINF:-1,X-Agon - X-agon - Jet-set-willy-remix-Atari800(Rob-Hubbard)
+chiptunes/X-Agon/X-agon - Jet-set-willy-remix-Atari800(Rob-Hubbard).sqt
+#EXTINF:-1,X-Agon - X-agon - Kumball
+chiptunes/X-Agon/X-agon - Kumball.sqt
+#EXTINF:-1,X-Agon - X-agon - NaughtyCrew48KPart2
+chiptunes/X-Agon/X-agon - NaughtyCrew48KPart2.sqt
+#EXTINF:-1,X-Agon - X-agon - NaughtyCrew48KPart7
+chiptunes/X-Agon/X-agon - NaughtyCrew48KPart7.sqt
+#EXTINF:-1,X-Agon - X-agon - NaughtyCrewIntro
+chiptunes/X-Agon/X-agon - NaughtyCrewIntro.sqt
+#EXTINF:-1,X-Agon - X-agon - Nevim
+chiptunes/X-Agon/X-agon - Nevim.sqt
+#EXTINF:-1,X-Agon - X-agon - Paperboy-ZXS48-beeper
+chiptunes/X-Agon/X-agon - Paperboy-ZXS48-beeper.sqt
+#EXTINF:-1,X-Agon - X-agon - Penalta
+chiptunes/X-Agon/X-agon - Penalta.sqt
+#EXTINF:-1,X-Agon - X-agon - Selfmade-executable-C64
+chiptunes/X-Agon/X-agon - Selfmade-executable-C64.sqt
+#EXTINF:-1,X-Agon - X-agon - Sobball
+chiptunes/X-Agon/X-agon - Sobball.sqt
+#EXTINF:-1,X-Agon - X-agon - Softy
+chiptunes/X-Agon/X-agon - Softy.sqt
+#EXTINF:-1,X-Agon - X-agon - Space-lobsters-Atari800
+chiptunes/X-Agon/X-agon - Space-lobsters-Atari800.sqt
+#EXTINF:-1,X-Agon - X-agon - Sportka
+chiptunes/X-Agon/X-agon - Sportka.sqt
+#EXTINF:-1,X-Agon - X-agon - Supersports-ZXS48K-beeper
+chiptunes/X-Agon/X-agon - Supersports-ZXS48K-beeper.sqt
+#EXTINF:-1,X-Agon - X-agon - Tetris-variation2-ZXS128K
+chiptunes/X-Agon/X-agon - Tetris-variation2-ZXS128K.sqt
+#EXTINF:-1,X-Agon - X-agon - Warhawk-Atari800(Rob-Hubbard)
+chiptunes/X-Agon/X-agon - Warhawk-Atari800(Rob-Hubbard).sqt
+#EXTINF:-1,X-Agon - X-agon - Wretched
+chiptunes/X-Agon/X-agon - Wretched.sqt
+#EXTINF:-1,X-Agon - X-agon - X-agon_of_Phantasy-Breath-of-air-6chan-MOD
+chiptunes/X-Agon/X-agon - X-agon_of_Phantasy-Breath-of-air-6chan-MOD.sqt
+#EXTINF:-1,X-Agon - X-agon - You-and-me-MOD(Radix)
+chiptunes/X-Agon/X-agon - You-and-me-MOD(Radix).sqt
 #EXTINF:-1,X-Agon - x-e-b4-mtr
 chiptunes/X-Agon/x-e-b4-mtr.fym
 #EXTINF:-1,X-Agon - xagon-for-you
@@ -21944,14 +21673,8 @@ chiptunes/Zhenya/rendex - game.fym
 chiptunes/Zhenya/rendex - intro.fym
 #EXTINF:-1,Zhenya - rttt128-0
 chiptunes/Zhenya/rttt128-0.fym
-#EXTINF:-1,Zhenya - russian time tears - game
-chiptunes/Zhenya/russian time tears - game.fym
-#EXTINF:-1,Zhenya - russian time tears - game over
-chiptunes/Zhenya/russian time tears - game over.fym
 #EXTINF:-1,Zhenya - russian time tears - intro
 chiptunes/Zhenya/russian time tears - intro.fym
-#EXTINF:-1,Zhenya - russian time tears - time end
-chiptunes/Zhenya/russian time tears - time end.fym
 #EXTINF:-1,Zhenya - russian time tears - winner
 chiptunes/Zhenya/russian time tears - winner.fym
 #EXTINF:-1,Zhenya - sheevy
@@ -21995,8 +21718,6 @@ chiptunes/Ziutek/goodluck.fym
 chiptunes/Ziutek/it_is.fym
 #EXTINF:-1,Ziutek - kaz_6
 chiptunes/Ziutek/kaz_6.fym
-#EXTINF:-1,Ziutek - logo game over
-chiptunes/Ziutek/logo game over.fym
 #EXTINF:-1,Ziutek - lyraii1
 chiptunes/Ziutek/lyraii1.fym
 #EXTINF:-1,Ziutek - lyraii2
@@ -22047,8 +21768,6 @@ chiptunes/Ziutek/ziutek1.fym
 chiptunes/Ziutek/ziutek2.fym
 #EXTINF:-1,Ziutek - ziutek3
 chiptunes/Ziutek/ziutek3.fym
-#EXTINF:-1,Ziutek - ziutek4
-chiptunes/Ziutek/ziutek4.fym
 #EXTINF:-1,Ziutek - ziutek5
 chiptunes/Ziutek/ziutek5.fym
 #EXTINF:-1,Ziutek - ziutek6
@@ -22181,8 +21900,6 @@ chiptunes/Zoom/unreal 2_part2.fym
 chiptunes/Zoom/wet dream.fym
 #EXTINF:-1,Zoom - white xmas
 chiptunes/Zoom/white xmas.fym
-#EXTINF:-1,Zoom - whole
-chiptunes/Zoom/whole.fym
 #EXTINF:-1,Zoom - wings of death
 chiptunes/Zoom/wings of death.fym
 #EXTINF:-1,Zoom - wings of death (attrapa version)
@@ -22267,14 +21984,10 @@ chiptunes/ZX Games/bioniccommando4.fym
 chiptunes/ZX Games/bioniccommando5.fym
 #EXTINF:-1,ZX Games - blacklamp
 chiptunes/ZX Games/blacklamp.fym
-#EXTINF:-1,ZX Games - blacklamp2
-chiptunes/ZX Games/blacklamp2.fym
 #EXTINF:-1,ZX Games - bmxfreestyle
 chiptunes/ZX Games/bmxfreestyle.fym
 #EXTINF:-1,ZX Games - bosconian1
 chiptunes/ZX Games/bosconian1.fym
-#EXTINF:-1,ZX Games - bosconian2
-chiptunes/ZX Games/bosconian2.fym
 #EXTINF:-1,ZX Games - bubbledizzy
 chiptunes/ZX Games/bubbledizzy.fym
 #EXTINF:-1,ZX Games - chaseh.q.1
@@ -22373,8 +22086,6 @@ chiptunes/ZX Games/grangehill.fym
 chiptunes/ZX Games/greatgurianos.fym
 #EXTINF:-1,ZX Games - grellandfalla
 chiptunes/ZX Games/grellandfalla.fym
-#EXTINF:-1,ZX Games - grellandfalla2
-chiptunes/ZX Games/grellandfalla2.fym
 #EXTINF:-1,ZX Games - guerrillawar
 chiptunes/ZX Games/guerrillawar.fym
 #EXTINF:-1,ZX Games - headoverheels
@@ -22729,8 +22440,6 @@ chiptunes/ZX Games/totalrecall.fym
 chiptunes/ZX Games/totalrecall2.fym
 #EXTINF:-1,ZX Games - tubethe
 chiptunes/ZX Games/tubethe.fym
-#EXTINF:-1,ZX Games - untouchablesthe1
-chiptunes/ZX Games/untouchablesthe1.fym
 #EXTINF:-1,ZX Games - untouchablesthe2
 chiptunes/ZX Games/untouchablesthe2.fym
 #EXTINF:-1,ZX Games - untouchablesthe3

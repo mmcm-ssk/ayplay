@@ -1,9 +1,9 @@
-const CACHE_VERSION = 'ayp-v384';
+const CACHE_VERSION = 'ayp-v392';
 const BASE = self.location.pathname.replace(/\/sw\.js.*$/, '/');
 const APP_SHELL = [
   '',
   'index.html',
-  'player/ayPlayer.css?v=337',
+  'player/ayPlayer.css?v=338',
   'player/pako_inflate.min.js?v=16',
   'player/ayumi.js?v=17',
   'player/opn.js?v=1',
@@ -18,12 +18,16 @@ const APP_SHELL = [
   'player/tfc.js?v=1',
   'player/stp.js?v=1',
   'player/pt1.js?v=1',
+  'player/psc.js?v=4',
+  'player/ftc.js?v=9',
+  'player/sqt.js?v=4',
+  'player/fxm.js?v=4',
   'player/aym_reader.js?v=6',
   'player/z80core.js?v=5',
   'player/ay.js?v=12',
   'player/ui/scope-ui.js?v=2',
   'player/ui/waveform-ui.js?v=4',
-  'player/ayPlayer.js?v=383',
+  'player/ayPlayer.js?v=385',
   'init.js',
   'player/streamer.js',
   'player/processor.js',
