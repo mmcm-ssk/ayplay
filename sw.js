@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'ayp-v401';
+const CACHE_VERSION = 'ayp-v402';
 const BASE = self.location.pathname.replace(/\/sw\.js.*$/, '/');
 const APP_SHELL = [
   '',
