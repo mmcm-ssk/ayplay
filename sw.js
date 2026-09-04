@@ -1,16 +1,16 @@
-const CACHE_VERSION = 'ayp-v392';
+const CACHE_VERSION = 'ayp-v401';
 const BASE = self.location.pathname.replace(/\/sw\.js.*$/, '/');
 const APP_SHELL = [
   '',
   'index.html',
-  'player/ayPlayer.css?v=338',
+  'player/ayPlayer.css?v=346',
   'player/pako_inflate.min.js?v=16',
   'player/ayumi.js?v=17',
   'player/opn.js?v=1',
   'player/fym.js?v=16',
   'player/pt3.js?v=16',
   'player/vt2.js?v=13',
-  'player/psg.js?v=1',
+  'player/psg.js?v=2',
   'player/snd2psg.js?v=2',
   'player/stc.js?v=3',
   'player/pt2.js?v=1',
@@ -23,16 +23,17 @@ const APP_SHELL = [
   'player/sqt.js?v=4',
   'player/fxm.js?v=4',
   'player/aym_reader.js?v=6',
-  'player/z80core.js?v=5',
-  'player/ay.js?v=12',
+  'player/z80core.js?v=6',
+  'player/ay.js?v=15',
   'player/ui/scope-ui.js?v=2',
   'player/ui/waveform-ui.js?v=4',
-  'player/ayPlayer.js?v=385',
+  'player/ayPlayer.js?v=388',
   'init.js',
   'player/streamer.js',
-  'player/processor.js',
+  'player/processor.js?v=17',
   'player/player_worklet.js',
-  'logo_ayplay.svg'
+  'img/logo_ayplay.svg',
+  'img/splash_1260x340.jpg'
 ].map(p => BASE + p);
 
 self.addEventListener('install', (e) => {
@@ -88,9 +89,9 @@ self.addEventListener('fetch', (e) => {
     return;
   }
 
-  // Stale-While-Revalidate для App Shell (с учётом ?v= параметров)
+  // Stale-While-Revalidate для App Shell (игнорируем ?v= параметры)
   e.respondWith(
-    caches.match(e.request).then((cached) => {
+    caches.match(e.request, { ignoreSearch: true }).then((cached) => {
       const fetchPromise = fetch(e.request).then((response) => {
         if (response.ok) {
           const clone = response.clone();
