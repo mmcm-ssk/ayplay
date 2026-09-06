@@ -22,14 +22,12 @@ function Beeper(sampleRate, cpuClock, frameRate) {
 }
 
 Beeper.prototype._setupFilter = function() {
-  // 2nd-order IIR biquad LPF, cutoff chosen for audio sample rate.
-  // ZXTune uses 9500 Hz at beeper clock rate (349 kHz).
-  // At audio rate (48 kHz), use 4000 Hz — well below Nyquist (24 kHz),
-  // provides clean anti-aliased output matching the ZX speaker RC filter.
+  // 2nd-order IIR biquad LPF. Matches ZXTune:
+  //   SOUND_CUTOFF_FREQUENCY = 9500 Hz, Q = 1.0 (see src/devices/details/renderers.h + src/sound/lpfilter.h)
   var sr = this.sampleRate;
-  var cutoff = 4000;
+  var cutoff = 9500;
   var w0 = 2 * Math.PI * cutoff / sr;
-  var q = 0.7071; // Butterworth Q
+  var q = 1.0; // ZXTune Q
   var sinus = Math.sin(w0);
   var cosine = Math.cos(w0);
   var alpha = sinus / (2 * q);

@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'ayp-v403';
+const CACHE_VERSION = 'ayp-v405';
 const BASE = self.location.pathname.replace(/\/sw\.js.*$/, '/');
 const APP_SHELL = [
   '',
@@ -24,13 +24,13 @@ const APP_SHELL = [
   'player/fxm.js?v=4',
   'player/aym_reader.js?v=6',
   'player/z80core.js?v=6',
-  'player/ay.js?v=15',
+  'player/ay.js?v=16',
   'player/ui/scope-ui.js?v=2',
   'player/ui/waveform-ui.js?v=4',
   'player/ayPlayer.js?v=388',
   'init.js',
   'player/streamer.js',
-  'player/processor.js?v=17',
+  'player/processor.js?v=18',
   'player/player_worklet.js',
   'img/logo_ayplay.svg',
   'img/splash_1260x340.jpg'
@@ -103,3 +103,4 @@ self.addEventListener('fetch', (e) => {
     })
   );
 });
+
