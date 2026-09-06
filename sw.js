@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'ayp-v407';
+const CACHE_VERSION = 'ayp-v408';
 const BASE = self.location.pathname.replace(/\/sw\.js.*$/, '/');
 const APP_SHELL = [
   '',
@@ -27,7 +27,7 @@ const APP_SHELL = [
   'player/ay.js?v=16',
   'player/ui/scope-ui.js?v=2',
   'player/ui/waveform-ui.js?v=4',
-  'player/ayPlayer.js?v=391',
+  'player/ayPlayer.js?v=392',
   'init.js',
   'player/streamer.js',
   'player/processor.js?v=18',
