@@ -3,7 +3,7 @@ const BASE = self.location.pathname.replace(/\/sw\.js.*$/, '/');
 const APP_SHELL = [
   '',
   'index.html',
-  'player/ayPlayer.css?v=347',
+  'player/ayPlayer.css?v=348',
   'player/pako_inflate.min.js?v=16',
   'player/ayumi.js?v=17',
   'player/opn.js?v=1',

@@ -13,6 +13,7 @@ $beeperMap = is_file($beeperMapFile) ? (json_decode(file_get_contents($beeperMap
 $cacheDir = is_writable(__DIR__) ? __DIR__ : sys_get_temp_dir();
 $cacheFile = $cacheDir . '/ayPlayer_playlist' . ($action === 'all' ? '_all' : '') . '.cache.json';
 $cacheTsFile = $cacheDir . '/ayPlayer_playlist_ts';
+$beeperMapMtime = is_file($beeperMapFile) ? filemtime($beeperMapFile) : 0;
 
 // Fast check: is cache valid? Compare newest mtime in chiptunes vs cache mtime
 function getNewestMtime($dir) {
@@ -31,14 +32,15 @@ function getNewestMtime($dir) {
 clearstatcache(true, $cacheFile);
 if (file_exists($cacheFile) && filesize($cacheFile) > 0) {
     $cacheMtime = filemtime($cacheFile);
-    // Fast path: if chiptunes dir mtime <= cache mtime, cache is fresh
-    // (no file was added/modified/deleted since cache was created)
-    if (filemtime($chiptunesDir) <= $cacheMtime) {
+    // Fast path: if chiptunes dir mtime <= cache mtime AND beeper map is not newer,
+    // cache is fresh (no file was added/modified/deleted since cache was created)
+    if ($beeperMapMtime <= $cacheMtime && filemtime($chiptunesDir) <= $cacheMtime) {
         readfile($cacheFile);
         return;
     }
-    // Slow path: dir changed, check if any actual file is newer
+    // Slow path: dir or beeper map changed, check if dependency is actually newer
     $newest = getNewestMtime($chiptunesDir);
+    if ($beeperMapMtime > $newest) $newest = $beeperMapMtime;
     if ($newest <= $cacheMtime) {
         // Touch the cache to extend its life without regenerating
         touch($cacheFile);
