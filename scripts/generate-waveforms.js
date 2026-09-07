@@ -447,6 +447,10 @@ function main() {
   const outDir = process.argv[3] || path.resolve(__dirname, '..', 'waveforms');
   fs.mkdirSync(outDir, { recursive: true });
 
+  const mapPath = path.resolve(__dirname, '..', 'api', 'ay_beeper_map.json');
+  let beeperMap = {};
+  try { beeperMap = JSON.parse(fs.readFileSync(mapPath, 'utf8')); } catch (e) {}
+
   const files = [];
   walk(musicDir, files);
 
@@ -480,6 +484,11 @@ function main() {
       const outName = baseName + (sub != null ? '#' + sub : '') + '.json';
       const outPath = path.join(outDirFull, outName);
       if (fs.existsSync(outPath)) { skipped++; continue; }
+
+      const mapFlags = beeperMap[rel];
+      if (ext === '.ay' && mapFlags && sub != null) {
+        if (mapFlags[sub] === 1) { skipped++; continue; }
+      }
 
       console.log('Processing:', rel + (sub != null ? ' #' + sub : ''));
       let parsed = null;

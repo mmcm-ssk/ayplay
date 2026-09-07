@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'ayp-v410';
+const CACHE_VERSION = 'ayp-v411';
 const BASE = self.location.pathname.replace(/\/sw\.js.*$/, '/');
 const APP_SHELL = [
   '',
@@ -27,7 +27,7 @@ const APP_SHELL = [
   'player/ay.js?v=16',
   'player/ui/scope-ui.js?v=2',
   'player/ui/waveform-ui.js?v=4',
-  'player/ayPlayer.js?v=394',
+  'player/ayPlayer.js?v=395',
   'init.js',
   'player/streamer.js',
   'player/processor.js?v=18',
@@ -61,7 +61,10 @@ self.addEventListener('activate', (e) => {
 });
 
 self.addEventListener('fetch', (e) => {
+  if (e.request.method !== 'GET') return;
   const url = new URL(e.request.url);
+  if (!/^https?:$/.test(url.protocol)) return;
+  if (url.origin !== self.location.origin) return;
 
   // Network-First для API
   if (url.pathname.startsWith(BASE + 'api/')) {

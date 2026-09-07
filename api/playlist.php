@@ -347,14 +347,23 @@ function _ay_scanDir($dir, $baseDir, $chiptunesDir = null, $parentAuthor = null)
             $entries[] = $entry;
         } elseif (substr($name, -3) === '.ay') {
             $relative = substr($fullPath, strlen($baseDir) + 1);
-            $beeper = isset($beeperMap[$relative]) || isset($beeperMap[str_replace('\\', '/', $relative)]);
+            $bMap = isset($beeperMap[$relative]) ? $beeperMap[$relative]
+                  : (isset($beeperMap[str_replace('\\', '/', $relative)]) ? $beeperMap[str_replace('\\', '/', $relative)] : null);
+            if (is_array($bMap)) {
+                $bSub = array_map(function ($v) { return $v ? 1 : 0; }, $bMap);
+                $bAll = count($bSub) > 0 && array_sum($bSub) === count($bSub);
+            } else {
+                $bSub = null;
+                $bAll = !empty($bMap);
+            }
             $entry = [
                 'name' => $name,
                 'file' => str_replace('\\', '/', $relative),
                 'pt3' => false,
-                'beeper' => $beeper,
-                'channels' => $beeper ? 1 : 3
+                'beeper' => $bAll,
+                'channels' => $bAll ? 1 : 3
             ];
+            if ($bSub !== null) $entry['beeperSub'] = $bSub;
             if (!isset($entry['author'])) $entry['author'] = $author;
             if (!isset($entry['section'])) $entry['section'] = $sectionOverride ?? null;
             if (!isset($entry['channels']) || $entry['channels'] === null) {
