@@ -6,6 +6,11 @@ const ROOT = path.resolve(__dirname, '..');
 const CHIPTUNES = path.join(ROOT, 'chiptunes');
 const MAP_OUT = path.join(ROOT, 'api', 'ay_beeper_map.json');
 
+// Beeper detection only needs the sound port writes, which happen in the
+// first frames of each subsong. Capping emulation keeps the scan fast
+// (a full per-subsong run up to 9000 frames is what made it crawl).
+const CAP = parseInt(process.env.AY_CAP || '120', 10);
+
 globalThis.Z80 = require(path.join(ROOT, 'player', 'z80core.js'));
 const { AYReader } = require(path.join(ROOT, 'player', 'ay.js'));
 
@@ -36,9 +41,12 @@ for (let i = 0; i < files.length; i++) {
         if (!probe.error) {
             const num = probe.getNumSubsongs ? probe.getNumSubsongs() : 1;
             for (let si = 0; si < num; si++) {
-                const r = si === 0 ? probe : new AYReader(bytes, rel, si);
+                const r = si === 0 ? probe : new AYReader(bytes, rel + '#scan' + CAP, si);
                 if (r.error) { flags.push(false); continue; }
-                try { r.getFrameCount(); } catch (e) { flags.push(false); continue; }
+                try {
+                    r._maxFrames = Math.min(r._maxFrames || CAP, CAP);
+                    r.getFrameCount();
+                } catch (e) { flags.push(false); continue; }
                 try {
                     const pu = r.getPortUsage ? r.getPortUsage() : null;
                     flags.push(!!(pu && pu.ay === 0 && pu.fe > 0));
