@@ -346,7 +346,8 @@ function _ay_scanDir($dir, $baseDir, $chiptunesDir = null, $parentAuthor = null)
             $entry = [
                 'name' => $name,
                 'file' => str_replace('\\', '/', $relative),
-                'pt3' => false
+                'pt3' => false,
+                'beeper' => strpos(str_replace('\\', '/', $relative), '/_Beeper/') !== false
             ];
             if (!isset($entry['author'])) $entry['author'] = $author;
             if (!isset($entry['section'])) $entry['section'] = $sectionOverride ?? null;
