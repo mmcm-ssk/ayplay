@@ -5,6 +5,10 @@ header('Cache-Control: no-cache, must-revalidate');
 $chiptunesDir = realpath(dirname(__DIR__) . '/chiptunes');
 $action = $_GET['action'] ?? '';
 
+// Beeper map: precomputed offline (scripts/scan-beeper-ay.js) — file -> 1 when ALL subsongs are beeper
+$beeperMapFile = __DIR__ . '/ay_beeper_map.json';
+$beeperMap = is_file($beeperMapFile) ? (json_decode(file_get_contents($beeperMapFile), true) ?: []) : [];
+
 // Try writable location for cache
 $cacheDir = is_writable(__DIR__) ? __DIR__ : sys_get_temp_dir();
 $cacheFile = $cacheDir . '/ayPlayer_playlist' . ($action === 'all' ? '_all' : '') . '.cache.json';
@@ -343,11 +347,13 @@ function _ay_scanDir($dir, $baseDir, $chiptunesDir = null, $parentAuthor = null)
             $entries[] = $entry;
         } elseif (substr($name, -3) === '.ay') {
             $relative = substr($fullPath, strlen($baseDir) + 1);
+            $beeper = isset($beeperMap[$relative]) || isset($beeperMap[str_replace('\\', '/', $relative)]);
             $entry = [
                 'name' => $name,
                 'file' => str_replace('\\', '/', $relative),
                 'pt3' => false,
-                'beeper' => strpos(str_replace('\\', '/', $relative), '/_Beeper/') !== false
+                'beeper' => $beeper,
+                'channels' => $beeper ? 1 : 3
             ];
             if (!isset($entry['author'])) $entry['author'] = $author;
             if (!isset($entry['section'])) $entry['section'] = $sectionOverride ?? null;
