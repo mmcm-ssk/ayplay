@@ -221,6 +221,7 @@ function _guessChannelsWithContent($relative, $fullPath) {
 }
 
 function _ay_scanDir($dir, $baseDir, $chiptunesDir = null, $parentAuthor = null) {
+    global $beeperMap;
     $entries = [];
     if (!is_dir($dir)) return $entries;
     $items = scandir($dir);
