@@ -8,12 +8,17 @@ $action = $_GET['action'] ?? '';
 // Beeper map: precomputed offline (scripts/scan-beeper-ay.js) — file -> 1 when ALL subsongs are beeper
 $beeperMapFile = __DIR__ . '/ay_beeper_map.json';
 $beeperMap = is_file($beeperMapFile) ? (json_decode(file_get_contents($beeperMapFile), true) ?: []) : [];
+// Sample (digi voice) map: precomputed offline (scripts/build-beeper-cache.js)
+$sampleMapFile = __DIR__ . '/ay_sample_map.json';
+$sampleMap = is_file($sampleMapFile) ? (json_decode(file_get_contents($sampleMapFile), true) ?: []) : [];
 
 // Try writable location for cache
 $cacheDir = is_writable(__DIR__) ? __DIR__ : sys_get_temp_dir();
 $cacheFile = $cacheDir . '/ayPlayer_playlist' . ($action === 'all' ? '_all' : '') . '.cache.json';
 $cacheTsFile = $cacheDir . '/ayPlayer_playlist_ts';
 $beeperMapMtime = is_file($beeperMapFile) ? filemtime($beeperMapFile) : 0;
+$sampleMapMtime = is_file($sampleMapFile) ? filemtime($sampleMapFile) : 0;
+$mapsMtime = max($beeperMapMtime, $sampleMapMtime);
 
 // Fast check: is cache valid? Compare newest mtime in chiptunes vs cache mtime
 function getNewestMtime($dir) {
@@ -34,13 +39,13 @@ if (file_exists($cacheFile) && filesize($cacheFile) > 0) {
     $cacheMtime = filemtime($cacheFile);
     // Fast path: if chiptunes dir mtime <= cache mtime AND beeper map is not newer,
     // cache is fresh (no file was added/modified/deleted since cache was created)
-    if ($beeperMapMtime <= $cacheMtime && filemtime($chiptunesDir) <= $cacheMtime) {
+    if ($mapsMtime <= $cacheMtime && filemtime($chiptunesDir) <= $cacheMtime) {
         readfile($cacheFile);
         return;
     }
     // Slow path: dir or beeper map changed, check if dependency is actually newer
     $newest = getNewestMtime($chiptunesDir);
-    if ($beeperMapMtime > $newest) $newest = $beeperMapMtime;
+    if ($mapsMtime > $newest) $newest = $mapsMtime;
     if ($newest <= $cacheMtime) {
         // Touch the cache to extend its life without regenerating
         touch($cacheFile);
@@ -221,7 +226,7 @@ function _guessChannelsWithContent($relative, $fullPath) {
 }
 
 function _ay_scanDir($dir, $baseDir, $chiptunesDir = null, $parentAuthor = null) {
-    global $beeperMap;
+    global $beeperMap, $sampleMap;
     $entries = [];
     if (!is_dir($dir)) return $entries;
     $items = scandir($dir);
@@ -359,6 +364,15 @@ function _ay_scanDir($dir, $baseDir, $chiptunesDir = null, $parentAuthor = null)
                 $bSub = null;
                 $bAll = !empty($bMap);
             }
+            $sMap = isset($sampleMap[$relative]) ? $sampleMap[$relative]
+                  : (isset($sampleMap[str_replace('\\', '/', $relative)]) ? $sampleMap[str_replace('\\', '/', $relative)] : null);
+            if (is_array($sMap)) {
+                $sSub = array_map(function ($v) { return $v ? 1 : 0; }, $sMap);
+                $sAll = count($sSub) > 0 && array_sum($sSub) === count($sSub);
+            } else {
+                $sSub = null;
+                $sAll = !empty($sMap);
+            }
             $entry = [
                 'name' => $name,
                 'file' => str_replace('\\', '/', $relative),
@@ -367,6 +381,8 @@ function _ay_scanDir($dir, $baseDir, $chiptunesDir = null, $parentAuthor = null)
                 'channels' => $bAll ? 1 : 3
             ];
             if ($bSub !== null) $entry['beeperSub'] = $bSub;
+            if ($sAll) $entry['sample'] = true;
+            if ($sSub !== null) $entry['sampleSub'] = $sSub;
             if (!isset($entry['author'])) $entry['author'] = $author;
             if (!isset($entry['section'])) $entry['section'] = $sectionOverride ?? null;
             if (!isset($entry['channels']) || $entry['channels'] === null) {

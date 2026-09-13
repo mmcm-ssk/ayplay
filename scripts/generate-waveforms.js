@@ -312,7 +312,7 @@ function parseTrack(filePath, sub) {
         dump.push({ a: r[0].slice(), b: [] });
       }
     }, null);
-    return { dump: dump, fc: dump.length, fr: fr, clock: clock, chipCount: 1, chipTypes: ['ay'] };
+    return { dump: dump, fc: dump.length, fr: fr, clock: clock, chipCount: 1, chipTypes: ['ay'], digi: !!(reader._digi && reader._digiEv && reader._digiEv.length) };
   }
   if (ext === '.asc') {
     const reader = new ASCReader(ab, filePath);
@@ -450,6 +450,9 @@ function main() {
   const mapPath = path.resolve(__dirname, '..', 'api', 'ay_beeper_map.json');
   let beeperMap = {};
   try { beeperMap = JSON.parse(fs.readFileSync(mapPath, 'utf8')); } catch (e) {}
+  const sampleMapPath = path.resolve(__dirname, '..', 'api', 'ay_sample_map.json');
+  let sampleMap = {};
+  try { sampleMap = JSON.parse(fs.readFileSync(sampleMapPath, 'utf8')); } catch (e) {}
 
   const files = [];
   walk(musicDir, files);
@@ -489,12 +492,21 @@ function main() {
       if (ext === '.ay' && mapFlags && sub != null) {
         if (mapFlags[sub] === 1) { skipped++; continue; }
       }
+      const sampleFlags = sampleMap[rel];
+      if (ext === '.ay' && sampleFlags && sub != null) {
+        if (sampleFlags[sub] === 1) { skipped++; continue; }
+      }
 
       console.log('Processing:', rel + (sub != null ? ' #' + sub : ''));
       let parsed = null;
       try { parsed = parseTrack(fp, sub); }
       catch (e) { console.warn('skip (parse failed):', rel + (sub != null ? ' #' + sub : ''), '-', e.message); skipped++; continue; }
       if (!parsed) { console.warn('skip (unsupported format):', rel); skipped++; continue; }
+      if (parsed.digi) {
+        console.log('skip (sample):', rel + (sub != null ? ' #' + sub : ''));
+        skipped++;
+        continue;
+      }
 
       const wf = generateWaveform(parsed.dump, parsed);
       fs.writeFileSync(outPath, JSON.stringify(wf));
