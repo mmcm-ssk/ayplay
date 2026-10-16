@@ -3,3 +3,8 @@ backup_2026-09-01/
 node_modules/
 sources/
 *.cache.json
+
+# Account data (never commit user data / password hashes)
+api/users.json
+api/favorites.json
+api/auth_fail.json

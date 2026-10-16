@@ -1,0 +1,6 @@
+# AY Player - protect private account data.
+# users.json / favorites.json / auth_fail.json are only accessible via PHP
+# (auth.php / favorites.php). Deny direct HTTP access to all .json store files.
+<FilesMatch "^(users|favorites|auth_fail)\.json$">
+    Require all denied
+</FilesMatch>

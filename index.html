@@ -57,8 +57,68 @@
     </script>
 </head>
 <body>
+    <nav id="siteMenu">
+        <a href="#" id="menuAbout">about</a>
+        <a href="#" id="menuHelp">help</a>
+        <span id="menuAccountArea">
+            <a href="#" id="menuNick" style="display:none"></a>
+            <a href="#" id="menuLogout" style="display:none">logout</a>
+            <a href="#" id="menuLogin">login</a>
+        </span>
+    </nav>
     <div id="player"></div>
     <div id="countryFlags" style="text-align:left;font-size:0;max-width:1024px;margin-left:auto;margin-right:auto;padding:6px 0 16px 8px;width:100%;"></div>
+
+    <div id="authModal" class="ayPlayer-modal" style="display:none">
+        <div class="ayPlayer-modal-box">
+            <button type="button" class="ayPlayer-modal-close" id="authModal_close">&times;</button>
+            <div class="ayPlayer-auth-tabs">
+                <button type="button" class="ayPlayer-auth-tab active" id="authTabLogin">Login</button>
+                <button type="button" class="ayPlayer-auth-tab" id="authTabRegister">Register</button>
+            </div>
+            <div id="authModal_error" class="ayPlayer-auth-error" style="display:none"></div>
+            <form id="authFormLogin" onsubmit="return false">
+                <div id="authPanelLogin">
+                    <label class="ayPlayer-auth-label">Nick</label>
+                    <input type="text" id="authLoginNick" name="nick" class="ayPlayer-auth-input" autocomplete="username" maxlength="32">
+                    <label class="ayPlayer-auth-label">Password</label>
+                    <input type="password" id="authLoginPass" name="password" class="ayPlayer-auth-input" autocomplete="current-password">
+                    <label class="ayPlayer-auth-check"><input type="checkbox" id="authLoginRemember" name="remember"> Remember me</label>
+                    <button type="button" class="ayPlayer-auth-submit" id="authDoLogin" name="submitBtn">Sign in</button>
+                </div>
+            </form>
+            <form id="authFormRegister" onsubmit="return false">
+                <div id="authPanelRegister" style="display:none">
+                    <label class="ayPlayer-auth-label">Nick (3-32 chars, letters/digits/_/-)</label>
+                    <input type="text" id="authRegNick" name="nick" class="ayPlayer-auth-input" autocomplete="username" maxlength="32">
+                    <label class="ayPlayer-auth-label">Password (min 6 chars)</label>
+                    <input type="password" id="authRegPass" name="password" class="ayPlayer-auth-input" autocomplete="new-password">
+                    <label class="ayPlayer-auth-label">Confirm password</label>
+                    <input type="password" id="authRegPass2" name="password2" class="ayPlayer-auth-input" autocomplete="new-password">
+                    <button type="button" class="ayPlayer-auth-submit" id="authDoRegister" name="submitBtn">Create account</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div id="aboutModal" class="ayPlayer-modal" style="display:none">
+        <div class="ayPlayer-modal-box">
+            <button type="button" class="ayPlayer-modal-close" id="aboutModal_close">&times;</button>
+            <div class="ayPlayer-modal-title">About</div>
+            <div class="ayPlayer-modal-text">AY Player &mdash; ZX Spectrum AY music player (PT3, VT2, PSG, FYM, STC, MTC).<br>Works online and offline (PWA).</div>
+        </div>
+    </div>
+
+    <div id="helpModal" class="ayPlayer-modal" style="display:none">
+        <div class="ayPlayer-modal-box">
+            <button type="button" class="ayPlayer-modal-close" id="helpModal_close">&times;</button>
+            <div class="ayPlayer-modal-title">Help</div>
+            <div class="ayPlayer-modal-text">
+                Click a track to play. Use filters above the playlist to narrow by format/channel/authors.<br>
+                Press the &star; to add a track to favorites. Sign in to keep favorites and settings on any device.
+            </div>
+        </div>
+    </div>
 
     <script src="player/pako_inflate.min.js?v=16" defer></script>
     <script src="player/ayumi.js?v=17" defer></script>
@@ -69,6 +129,7 @@
     <script src="player/ui/scope-ui.js?v=2" defer></script>
     <script src="player/ui/waveform-ui.js?v=4" defer></script>
     <script src="player/ayPlayer.js?v=424" defer></script>
+    <script src="player/ui/auth-ui.js?v=1" defer></script>
     <script src="init.js" defer></script>
 </body>
 </html>
